@@ -1,0 +1,733 @@
+head	1.8;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.8
+date	2013.06.13.13.48.47;	author mdsincl2;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2013.06.06.18.33.36;	author mdsincl2;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2013.06.06.18.29.56;	author mdsincl2;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2011.11.04.16.43.03;	author mdsincl2;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2010.03.01.20.37.53;	author shari2;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2010.02.28.21.08.26;	author shari2;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2009.03.13.16.08.37;	author komurav1;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2009.03.13.15.58.15;	author komurav1;	state Exp;
+branches;
+next	;
+
+
+desc
+@people page
+@
+
+
+1.8
+log
+@Added Nick Carter to DeNovo collabs, removed Vikram from collabs since he was already listed in faculty.
+@
+text
+@<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>DeNovo: People</title>
+<link href="style/style1.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.style4 {
+  font-size: medium;
+}
+.projects {
+  font-size: medium;
+}
+.style5 {
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right: 1px solid #C0C0C0;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom: 1px solid #C0C0C0;
+}
+ol {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  position: absolute;
+  display: none;
+
+}
+td.projects:hover ol, td.projects.over ol {
+  display: block;
+}
+.style9 {
+  text-decoration: none;
+}
+a.style9:hover{
+  opacity: 0.8;
+  filter:alpha(opacity=80);
+}
+.style10 {
+  color: #CCCCCC;
+}
+.style11 {
+  color: #FFFFFF;
+}
+.style12 {
+  text-align: left;
+}
+.style13 {
+  text-align: right;
+}
+</style>
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="header_column">
+  <table width="100%" border="0" cellspacing="10" cellpadding="0">
+      <tr>
+        <td class="logo_area" style="font-size: x-large; height: 48px;">
+          <a class="style9" href="index.html"><span class="style11"><strong>DeNovo: Rethinking Hardware for Disciplined Parallelism</strong></span></a></td>
+        <th class="logo_area" rowspan="3">
+          &nbsp;</th>
+        <!-- <td width="300"> -->
+        <!--   <form id="form1" name="form1" method="post" action=""> -->
+    <!--    Search the website <br /> -->
+        <!--     <input name="search_text" type="text" id="search_text" /> -->
+        <!--     <input type="submit" name="Submit" value="Search" /> -->
+        <!--   </form> -->
+        <!-- </td> -->
+      </tr>
+      <tr>
+        <th class="sub_logo_area" style="font-size: 18px">
+           <a class="style9" href="http://rsim.cs.uiuc.edu"><span class="style11"><strong>Sarita Adve's Research Group</strong></span></a>
+          </th>
+          
+      </tr>
+      <tr>
+        <th class="sub_logo_area">
+          <a class="style9" href="http://illinois.edu"><span class="style10">University of Illinois at Urbana-Champaign</span></a></th>
+      </tr>
+    </table></td>
+    <td class="shadow_right">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="horizontal_column">&nbsp;</td>
+    <td >
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="linkcontainer">
+        <tr>
+          <td class="projects">
+          <div class="navigation" style="font-size: medium"> <a href="index.html" class="main_link">
+          Home</a></div>
+
+    </td>
+          <!-- <td><div class="navigation"><a href="#" class="main_link">DeNovo Home</a></div></td> -->
+          <td class="style4"><div class="navigation" style="font-size: medium"><a class="main_link" href="people.html">
+        People</a></div></td>
+          <td><div class="navigation" style="font-size: medium"><a href="pubs.html" class="main_link">
+        Publications</a></div></td>
+          <td><div class="navigation" style="font-size: medium">
+        <a href="funding.html" class="main_link" style="width: 100%">
+        Funding</a></div></td>
+          <td><div class="navigation" style="font-size: medium"><a href="http://rsim.cs.uiuc.edu/news.html" class="main_link">News</a></div></td>
+      </tr>
+      </table>
+
+    </td>
+    <td class="horizontal_column">&nbsp;</td>
+  </tr>
+<!--   <tr> -->
+<!--     <td class="shadow_left">&nbsp;</td> -->
+<!--     <td class="below_header"> -->
+<!-- A large part of the complexity and inefficiency in current hardware concurrency mechanisms arguably arises from a software-oblivious approach to hardware design. The DeNovo project seeks to rethink concurrent hardware from the ground up, given the assumption that most future software will use disciplined concurrency models for better dependability. -->
+<!--     </td> -->
+<!--     <td class="shadow_right">&nbsp;</td> -->
+<!--   </tr> -->
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="main_content_box">
+  <table width="100%" cellspacing="0" cellpadding="0" class="style5">
+      <tr>
+        <td class="body_content" style="font-size: small; text-align: center;" valign="top">
+    <p class="style12" style="margin-top: 5px;"><b>
+    <span style="font-size: 18pt; 
+font-family: Arial;">People</span></b></p>
+    <p class="style12"><b>
+    <span style="font-size: 13.5pt; font-family: Arial;">Faculty</span></b></p>
+    <table style="width: 100%">
+      <tr>
+        <td class="style13" style="width: 25%">
+    <img alt="Sarita's Picture" height="100" src="images/sadve.jpg" width="100" /></td>
+        <td class="style12" style="width: 25%">
+        <a href="http://www.cs.uiuc.edu/~sadve" style="color: rgb(51, 51, 
+102); text-decoration: underline;">Sarita V. Adve</a></td>
+        <td class="style13" style="width: 25%">
+        <img alt="Vikram's Picture" height="112" src="images/vadve.jpg" width="100" /></td>
+        <td class="style12" style="width: 25%">
+        <a href="http://llvm.cs.uiuc.edu/~vadve/Home.html">Vikram Adve</a></td>
+      </tr>
+      <tr>
+        <td class="style13" style="width: 25%">
+        <img alt="Zilles's Picture" height="128" src="images/zilles.jpg" width="100" /></td>
+        <td class="style12" style="width: 25%">
+        <a href="http://www-sal.cs.uiuc.edu/~zilles/">Craig Zilles</a></td>
+        <td class="style13" style="width: 25%">
+        &nbsp;</td>
+        <td class="style12" style="width: 25%">
+        &nbsp;</td>
+      </tr>
+      </table>
+    <p class="style12" style="margin-left: 0.5in; margin-top: 0pt; 
+margin-bottom: 0.0001pt;">&nbsp;</p>
+
+    <br />
+    <p class="style12"><b>
+    <span style="font-size: 13.5pt; font-family: Arial;">Current graduate 
+    students</span></b></p>
+    <table style="width: 100%">
+      <tr>
+        <!-- Rakesh Komuravelli -->
+        <td class="style13" style="width: 25%">
+          <img alt="Rakesh's Picture" height="111" width="100" src="images/rakesh.JPG" />
+        </td>
+        <td class="style12" style="width: 25%">
+          <a href="http://rsim.cs.uiuc.edu/~komurav1" style="color: rgb(51, 51, 102); text-decoration: underline;">Rakesh Komuravelli</a>
+        </td>
+        <!-- Hyojin Sung -->
+        <td class="style13" style="width: 25%">
+          <img alt="Hyojin's Picture" height="105" width="99" src="images/hyojin.jpeg" />
+        </td>
+        <td class="style12" style="width: 25%">
+          <a href="mailto:sung12@@uiuc.edu" style="color: rgb(51, 51, 102); text-decoration: underline;">Hyojin Sung</a>
+        </td>
+      </tr>
+
+      <tr>
+        <!-- Matt Sinclair -->
+        <td class="style13" style="width: 25%">
+          <img alt="Matt's Picture" height="105" width="99" src="images/sinclair.jpg" />
+        </td>
+        <td class="style12" style="width: 25%">
+          <a href="http://rsim.cs.uiuc.edu/~mdsincl2" style="color: rgb(51, 51, 102); text-decoration: underline;">Matt Sinclair</a>
+        </td>
+      </tr>
+    </table>
+      
+    <br />
+
+    <p class="style12">&nbsp;</p>
+    <p class="style12"><font size="4"><b><span style="font-family: Arial;">
+    Current collaborators</span></b></font> </p>
+    <table style="width: 100%">
+      <tr>
+        <!-- Nick Carter -->
+        <td class="style13" style="width: 25%">
+          <!--  TODO      <img alt="Nick's Picture" height="102" src="images/ncarter.jpg" width="100" />&nbsp;-->
+        </td>
+        <td class="style12" style="width: 25%">
+          <a href="mailto:nicholas.p.carter@@intel.com">Nick Carter</a></td>
+        </td>
+        <!-- Pablo Montesinos -->
+        <td class="style13" style="width: 25%">
+          <img alt="Pablo's Picture" height="112" src="images/pmontesinos.jpg" width="100" />&nbsp;
+        </td>
+        <td class="style12" style="width: 25%">
+          <a href="mailto:pablom@@qti.qualcomm.com">Pablo Montesinos Ortego</a>
+        </td>
+      </tr>
+    </table>
+
+    <br />
+
+    <p class="style12"><b>
+    <span style="font-size: 13.5pt; font-family: Arial;">Alumni</span></b>
+    </p>
+    <table style="width: 100%">
+      <tr>
+        <td class="style13" style="width: 25%">
+        <img alt="Rob's Picture" height="102" src="images/Rob.jpg" width="100" />&nbsp;
+        </td>
+        <td class="style12" style="width: 25%">
+        <a href="http://llvm.cs.uiuc.edu/~bocchino/Home.html">Robert L. Bocchino Jr.</a>
+        </td>
+      
+        <!-- Robert Smolinski -->
+        <td class="style13" style="width: 25%">
+          &nbsp;
+        </td>
+        <td class="style12" style="width: 25%">
+          <a href="mailto:rsmolin2@@illinois.edu">Robert Smolinski</a>
+        </td>
+
+        <!-- MDS: Leaving this intentionally blank for
+        now so that Rob Bocchino's entry stays in line
+        with everyone above him in the other sections
+        (this is how Craig Zilles was done too). -->
+        <td class="style13" style="width: 25%">
+        &nbsp;</td>
+        <td class="style12" style="width: 25%">
+        &nbsp;</td>
+      </tr>
+      </table>
+    </td>
+  </tr>
+  </table></td>
+  <td class="shadow_right">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="middle_spacer"><div class="bottom_content"></div></td>
+    <td class="shadow_right">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="bottom_link_container">
+      <p>
+      </p>
+      <p>
+        <!-- All Right Reserved &copy; 2006 by bprizze<br /> -->
+        <!-- http://heartlessg.4uhost.info Web Master -->
+      </p>
+      <p/>
+    </td>
+    <td class="shadow_right">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
+@
+
+
+1.7
+log
+@Fixed sizing.
+@
+text
+@d140 1
+a140 1
+        <a href="http://llvm.cs.uiuc.edu/~vadve/Home.html">Vikram Adve (UIUC)</a></td>
+d196 1
+a196 1
+        <!-- Vikram Adve -->
+d198 1
+a198 1
+          <img alt="Vikram's Picture" height="112" src="images/vadve.jpg" width="100" />
+d200 2
+a201 2
+        <td class="style12"  style="width: 25%">
+          <a href="http://llvm.cs.uiuc.edu/~vadve/Home.html">Vikram Adve (UIUC)</a>
+@
+
+
+1.6
+log
+@Removed Byn and Rob, added Pablo and Vikram as collaborators (DeNovo page).
+@
+text
+@d164 1
+a164 1
+          <img alt="Rakesh's Picture" height="111" src="images/rakesh.JPG" width="100" />
+d171 1
+a171 1
+          <img alt="Hyojin's Picture" height="96" src="images/hyojin.jpeg" width="96" />
+d181 1
+a181 1
+          <img alt="Matt's Picture" height="100" src="images/sinclair.jpg" width="100" />
+@
+
+
+1.5
+log
+@MDS: Fixed people page to include new entry for me, created Alumni section and moved Rob Bocchino to it, create skeleton entry for Rob Smolinski"
+@
+text
+@d9 1
+a9 1
+	font-size: medium;
+d12 1
+a12 1
+	font-size: medium;
+d15 6
+a20 6
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right: 1px solid #C0C0C0;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom: 1px solid #C0C0C0;
+d23 5
+a27 5
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	position: absolute;
+	display: none;
+d31 1
+a31 1
+	display: block;
+d34 1
+a34 1
+	text-decoration: none;
+d37 2
+a38 2
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+d41 1
+a41 1
+	color: #CCCCCC;
+d44 1
+a44 1
+	color: #FFFFFF;
+d47 1
+a47 1
+	text-align: left;
+d50 1
+a50 1
+	text-align: right;
+d60 1
+a60 1
+	<table width="100%" border="0" cellspacing="10" cellpadding="0">
+d68 1
+a68 1
+		<!--   	Search the website <br /> -->
+d88 1
+a88 1
+	  <td class="horizontal_column">&nbsp;</td>
+d90 1
+a90 1
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="linkcontainer">
+d94 1
+a94 1
+				  Home</a></div>
+d96 1
+a96 1
+	  </td>
+d99 1
+a99 1
+			  People</a></div></td>
+d101 1
+a101 1
+			  Publications</a></div></td>
+d103 2
+a104 2
+			  <a href="funding.html" class="main_link" style="width: 100%">
+			  Funding</a></div></td>
+d122 1
+a122 1
+	<table width="100%" cellspacing="0" cellpadding="0" class="style5">
+d125 2
+a126 2
+		<p class="style12" style="margin-top: 5px;"><b>
+		<span style="font-size: 18pt; 
+d128 8
+a135 8
+		<p class="style12"><b>
+		<span style="font-size: 13.5pt; font-family: Arial;">Faculty</span></b></p>
+		<table style="width: 100%">
+			<tr>
+				<td class="style13" style="width: 25%">
+		<img alt="Sarita's Picture" height="100" src="images/sadve.jpg" width="100" /></td>
+				<td class="style12" style="width: 25%">
+				<a href="http://www.cs.uiuc.edu/~sadve" style="color: rgb(51, 51, 
+d137 17
+a153 17
+				<td class="style13" style="width: 25%">
+				<img alt="Vikram's Picture" height="112" src="images/vadve.jpg" width="100" /></td>
+				<td class="style12" style="width: 25%">
+				<a href="http://llvm.cs.uiuc.edu/~vadve/Home.html">Vikram Adve (UIUC)</a></td>
+			</tr>
+			<tr>
+				<td class="style13" style="width: 25%">
+				<img alt="Zilles's Picture" height="128" src="images/zilles.jpg" width="100" /></td>
+				<td class="style12" style="width: 25%">
+				<a href="http://www-sal.cs.uiuc.edu/~zilles/">Craig Zilles</a></td>
+				<td class="style13" style="width: 25%">
+				&nbsp;</td>
+				<td class="style12" style="width: 25%">
+				&nbsp;</td>
+			</tr>
+			</table>
+		<p class="style12" style="margin-left: 0.5in; margin-top: 0pt; 
+d156 87
+a242 72
+		<br />
+		<p class="style12"><b>
+		<span style="font-size: 13.5pt; font-family: Arial;">Current graduate 
+		students</span></b></p>
+		<table style="width: 100%">
+			<tr>
+			        <!-- Byn Choi -->
+				<td class="style13" style="width: 25%">
+				<img alt="Byn's Picture" height="121" src="images/byn.jpg" width="100" /></td>
+				<td class="style12" style="width: 25%">
+				<a href="mailto:bynchoi1@@uiuc.edu" style="color: rgb(51, 51, 102); text-decoration: underline;">
+				Byn Choi</a></td>
+
+				<!-- Rakesh Komuravelli -->
+				<td class="style13" style="width: 25%">
+				<img alt="Rakesh's Picture" height="111" src="images/rakesh.JPG" width="100" /></td>
+				<td class="style12" style="width: 25%">
+				<a href="http://rsim.cs.uiuc.edu/~komurav1" style="color: rgb(51, 51, 102); text-decoration: underline;">
+				Rakesh Komuravelli</a></td>
+			</tr>
+			<tr>
+			        <!-- Hyojin Sung -->
+				<td class="style13" style="width: 25%">
+				<img alt="Hyojin's Picture" height="96" src="images/hyojin.jpeg" width="96" /></td>
+				<td class="style12" style="width: 25%">
+				<a href="mailto:sung12@@uiuc.edu" style="color: rgb(51, 51, 102); text-decoration: underline;">
+				Hyojin Sung</a></td>
+				
+				<!-- Rob Smolinski -->
+				<td class="style13" style="width: 25%">
+				<!--<img alt="Rob's Picture" height="96" src="images/hyojin.jpeg" width="96" />-->
+				</td>
+				<td class="style12" style="width: 25%">
+				<a href="mailto:rsmolin2@@illinoi.edu" style="color: rgb(51, 51, 102); text-decoration: underline;">
+				Robert Smolinski</a></td>
+			</tr>
+			<tr>
+			        <!-- Matt Sinclair -->
+				<td class="style13" style="width: 25%">
+				<img alt="Matt's Picture" height="100" src="images/sinclair.jpg" width="100" />
+				</td>
+				<td class="style12" style="width: 25%">
+				<a href="http://rsim.cs.uiuc.edu/~mdsincl2" style="color: rgb(51, 51, 102); text-decoration: underline;">Matt Sinclair</a>
+				</td>
+			</tr>
+		</table>
+			
+		<br />
+		<br />
+		<p class="style12"><b>
+		<span style="font-size: 13.5pt; font-family: Arial;">Alumni</span></b>
+		</p>
+		<table style="width: 100%">
+			<tr>
+				<td class="style13" style="width: 25%">
+				<img alt="Rob's Picture" height="102" src="images/Rob.jpg" width="100" />&nbsp;
+				</td>
+				<td class="style12" style="width: 25%">
+				<a href="http://llvm.cs.uiuc.edu/~bocchino/Home.html">Robert L. Bocchino Jr.</a>
+				</td>
+			
+			        <!-- MDS: Leaving this intentionally blank for
+				now so that Rob Bocchino's entry stays in line
+				with everyone above him in the other sections
+				(this is how Craig Zilles was done too).-->
+				<td class="style13" style="width: 25%">
+				&nbsp;</td>
+				<td class="style12" style="width: 25%">
+				&nbsp;</td>
+			</tr>
+			</table>
+	  </td>
+d244 5
+a248 2
+    </table></td>
+    <td class="shadow_right">&nbsp;</td>
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d144 1
+a144 1
+				<img alt="YY's Picture" height="128" src="images/zilles.jpg" width="100" /></td>
+d162 1
+d169 1
+a174 1
+
+d177 1
+d184 10
+d195 2
+a196 1
+				<img alt="Rob's Picture" height="102" src="images/Rob.jpg" width="100" />&nbsp;</td>
+d198 2
+a199 2
+				<a href="http://llvm.cs.uiuc.edu/~bocchino/Home.html">Robert L. 
+				Bocchino Jr.</a></td>
+d201 24
+a224 4
+			<tr>	
+				<td class="style13" style="width: 25%"></td>
+				<td class="style12" style="width: 25%">Charles Tucker</td>
+
+d227 1
+a227 3
+			
+			<br />
+		  </td>
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@a209 1
+        <a href="http://rsim.cs.uiuc.edu/swat" class="bottom_link">Old Website</a>
+@
+
+
+1.2
+log
+@added byn, Rob and Charles
+@
+text
+@d1 222
+a222 109
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Denovo People</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+span.MsoHyperlink
+	{color:#333366;
+	text-decoration:underline;
+	text-underline:single;}
+span.SpellE
+	{}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#333366" link="#333366" vlink="#993300" alink="#CC6600">
+<table width="800" border="0" cellpadding="0" cellspacing="0" height="909">
+  <tr align="left" valign="bottom"> 
+    <td colspan="3" width="800" height="75"> <p>
+    <img src="denovo.gif" width="800" height="75"></p></td>
+  </tr>
+  <tr align="left" valign="top"> 
+    <td width="137" bordercolor="#e7ebf0" bgcolor="#e7ebf0" rowspan="2" height="834"> 
+      <p><font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><b><br>&nbsp;</b></font></p>
+      <p><b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif">
+           <a href="../index.html">Group Home</a></font>
+         </b>
+      </p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+           <a href="http://rsim.cs.uiuc.edu/denovo">Denovo Home</a></font>
+         </b>
+      </p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+           <a>People</a></font>
+         </b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif">
+         <b> </b></font>
+      </p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+           <a href="./links.html">Links</a></font>
+         </b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif">
+         <b> </b></font>
+      </p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+           <a href="./pubs.html">Publications</a></font>
+         </b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif">
+         <b> </b></font>
+      </p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+           <a href="funding.html">Funding</a></font>
+         </b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif">
+         <b> </b></font>
+      </p>
+<!--      <p><b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif">
+           <a href="./pubs.html">Publications</a></font>
+         </b>
+      </p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+           <a href="./funding.html">Funding</a></font>
+         </b><br>
+         <font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><br>
+         <br>
+         </font>
+      </p>-->
+    </td>
+    <td width="7" height="309">&nbsp;</td>
+    <td width="664" height="834" rowspan="2"> 
+
+
+  <p>
+
+  <p><br>
+  <b><span style='font-size:18.0pt;font-family:Arial'>Denovo People</span></b></p>
+
+
+
+<p><font size="4"><b><span style="font-family: Arial">Principal Investigators</span></b></font>&nbsp;&nbsp; </p>
+
+  <p class=MsoNormal style='margin-left:.5in; margin-top:0; margin-bottom:0.0001pt'>
+  <a href="http://rsim.cs.uiuc.edu/~sadve/">Prof. Sarita Adve</a><br>
+  <a href="http://llvm.cs.uiuc.edu/~vadve/">Prof. Vikram Adve</a><br>
+  <a href="http://www-sal.cs.uiuc.edu/~zilles/">Prof. Craig Zilles</a><br>
+
+
+<p><font size="4"><b><span style="font-family: 
+Arial">Graduate Students</span></b></font>&nbsp;&nbsp; </p>
+
+  <p class=MsoNormal style='margin-left:.5in; margin-top:0; margin-bottom:0.0001pt'>
+  <a href="http://rsim.cs.uiuc.edu/~komurav1">Rakesh Komuravelli</a> <br>
+  <a href=mailto:sung12@@uiuc.edu>Hyojin Sung</a><br>
+  <a href=mailto:bynchoi1@@uiuc.edu>Byn Choi</a><br>
+  <a href="http://llvm.cs.uiuc.edu/~bocchino">Robert L. Bocchino Jr.</a><br>
+  <a>Charles Tucker</a><br>
+
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='color:windowtext'>&nbsp;<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d95 3
+@

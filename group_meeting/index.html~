@@ -1,0 +1,172 @@
+
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>ALPBench</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+span.MsoHyperlink
+	{color:#333366;
+	text-decoration:underline;
+	text-underline:single;}
+span.SpellE
+	{}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#333366" link="#333366" vlink="#993300" alink="#CC6600">
+<table width="800" border="0" cellpadding="0" cellspacing="0" height="909">
+  <tr align="left" valign="bottom"> 
+    <td colspan="3" width="800" height="75"> <p>
+    <img src="../group.gif" width="800" height="75"></p></td>
+  </tr>
+  <tr align="left" valign="top"> 
+    <td width="137" bordercolor="#e7ebf0" bgcolor="#e7ebf0" rowspan="2" height="834"> <p><font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><b><br>
+        &nbsp;</b></font></p>
+    <p><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif"><b>
+    <a href="http://rsim.cs.uiuc.edu">Group Home</a></b></font></p>
+
+<!--     <p><b><font face="Geneva, Arial, Helvetica, sans-serif"> -->
+<!--     <a href="http://rsim.cs.uiuc.edu/alp">ALP Home</a></font></b></p> -->
+<!--     <p><b><font face="Geneva, Arial, Helvetica, sans-serif"> -->
+<!--     <a href="../people.html">People</a></font></b><font color="#333366" face="Geneva,  -->
+<!-- Arial,  -->
+<!-- Helvetica, sans-serif"><b> </b></font></p> -->
+<!--       <p><b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif"> -->
+<!--       <a href="../pubs.html">Publications</a></font></b></p> -->
+<!--       <p><b><font face="Geneva, Arial, Helvetica, sans-serif"> -->
+<!--       <a href="index.html">Software</a></font></b></p> -->
+<!--       <p><b><font face="Geneva, Arial, Helvetica, sans-serif"> -->
+<!--       <a href="../funding.html">Funding</a></font></b><br> -->
+
+        <font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><br>
+        <br>
+        </font></p>
+      </td>
+    <td width="7" height="309">&nbsp;</td>
+    <td width="664" height="834" rowspan="2"> 
+
+
+  <p>&nbsp;</p>
+
+
+  <p><b><span style='font-size:18.0pt;font-family:Arial'>The ALPBench Benchmark 
+Suite (Version 1.0) </span></b></p>
+
+
+<p align="justify">Media applications are important for general-purpose processors, but are 
+becoming increasingly complex with high performance demands. Future 
+processors can potentially meet these demands by exploiting various
+levels of parallelism in these applications. 
+
+<p align="justify">ALPBench consists of a set of <i> parallelized </i> complex 
+media applications gathered from various sources, and modified to expose 
+thread-level and data-level parallelism. The applications are:
+
+<UL>
+ 	<LI> 	SpeechRec: Speech recognition, derived from 
+		<a href="http://www.speech.cs.cmu.edu/sphinx/">CMU Sphinx 3.3</a> </LI>
+	<LI> 	FaceRec: Face recognition, derived from  
+    		<a href="http://www.cs.colostate.edu/evalfacerec/">CSU Face Recognizer</a></LI>
+	<LI> 	RayTrace: Ray Tracer, same as
+		<A HREF="http://jedi.ks.uiuc.edu/~johns/raytracer/">Tachyon Raytracer</A> </LI>
+	<LI> 	MPGenc: MPEG-2 encode, derived from 
+		<A HREF="http://www.mpeg.org/MPEG/MSSG">MSSG MPEG-2 encoder</A>
+
+	<LI> 	MPGdec: MPEG-2 decode, derived from
+		<A HREF="http://www.mpeg.org/MPEG/MSSG">MSSG MPEG-2 decoder</A>
+
+</UL>
+
+<p align="justify"><b><span style='font-size:14.0pt;font-family:Arial'> Key Features </span></b></p>
+
+<UL>
+ 	<LI> Multithreaded with POSIX threads </LI>
+	<LI> 128-bit SSE2 media instructions </LI>
+	<LI> Some algorithmic enhancements </LI>
+	<LI> <A HREF="http://rsim.cs.uiuc.edu/Pubs/ALPBench-iiswc05.pdf">Paper</A>  analyzing parallelism and performance </L1>
+</UL>
+
+<p><b><span style='font-size:14.0pt;font-family:Arial'> Platforms </span></b></p>
+
+  <p align="justify">Multithreaded versions can be used on any system that supports POSIX threads. SSE2 
+instructions can be used on Intel processors supporting SSE2 instructions. </p>
+
+
+<p align="justify"><b><span style='font-size:14.0pt;font-family:Arial'> People </span></b></p>
+
+  <p align="justify">ALPBench was developed as part of the ALP project 
+  consisting of:</p>
+
+<UL>
+	<LI> Man-Lap (Alex) Li </LI>
+	<LI> Ruchira Sasanka </LI>
+	<LI> Sarita V. Adve </LI>
+	<LI> Yen-Kuang Chen (Intel) </LI>
+	<LI> Eric Debes  (Intel) </LI>
+</UL>
+
+
+
+  <p align="justify">Man-Lap (Alex) Li and Ruchira Sasanka implemented the 
+  modifications for ALPBench.</p>
+
+
+
+<p align="justify"><b><span style='font-size:14.0pt;font-family:Arial'> Funding Sources </span></b></p>
+
+  <p align="justify">The ALP project is/was supported in part by a gift from Intel, 
+an equipment donation from AMD, and the National Science Foundation 
+under Grant No.CCR-0209198 and EIA-0224453. Ruchira Sasanka was supported 
+by an Intel graduate fellowship. </p>
+
+
+<p align="justify"><b><span style='font-size:14.0pt;font-family:Arial'> License 
+Agreement </span></b></p>
+
+  <p align="justify"> ALPBench is available at no cost under
+  <a href="alpbench-license.html">an open source license</a>. Please note that
+	ALPBench is restricted by the licenses of the original applications from 
+  which it is derived - these are consistent with the additional terms of our 
+  license except that the IDCT function used in MPGenc and MPGdec is governed by 
+  the more restrictive <a href="http://www.gnu.org/licenses/gpl.html">GNU GPL</a>. 
+  Please see the links in our license for more details.<p align="justify"> If you redistribute ALPBench in any way, we request that you let us know. 
+ We will be happy to include your URLs on our web site.
+
+
+<p align="justify"> <b><span style='font-size:14.0pt;font-family:Arial'>
+ Downloading</span></b><p align="justify"><a href="release/alpbench.tar.gz">
+
+ <a href="./alplicreg.html">Please register</a> to download ALPBench.
+
+
+
+
+<p align="justify"><b><span style='font-size:14.0pt;font-family:Arial'> More Information </span></b></p>
+
+  <p align="justify">For more information, see the <a href="http://rsim.cs.uiuc.edu/alp"> ALP home page </a>
+and <a href="http://rsim.cs.uiuc.edu">Power and Reliability Aware Systems
+home page</a>.  To join the ALPBench mailing list, to provide feedback on ALPBench,
+or to contribute to future ALPBench releases, please send email to 
+alpbench AT cs.uiuc.edu.
+
+
+
+
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='color:windowtext'>&nbsp;<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

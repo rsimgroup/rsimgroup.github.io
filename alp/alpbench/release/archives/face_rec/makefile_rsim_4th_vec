@@ -1,0 +1,16 @@
+HEADERS =  csuCommon csuCommonUtil csuCommonMatrix csuCommonFile csuCommonSubspace \
+  csuCommonCommandLine csuCommonImage csuEBGMUtil csuEBGMSimilarity
+
+SRC =  csuCommonUtil csuCommonMatrix csuCommonFile csuCommonSubspace \
+csuCommonCommandLine csuCommonImage csuSubspaceProject csuSubspaceEigen \
+csuSubspaceFisher csuSubspaceCVEigen
+
+TARGET = face_project4th_vec
+#USERLIBS =  $(MLIBHOME)/lib/libmlib.a
+#USERINLINES = /home/adve_s/cjhughes/RSIM/utils/lib/vis.il
+
+USERFLAGS = -DBIGEND -DTHRD -DNUM_THREADS=4 -DRSIM -D__FUNCTION__=\"noname\"  -xunroll=4
+
+include /home/adve_s/sasanka/rsim/utils/lib/makefile_generic
+
+#include /home/adve_s/cjhughes/RSIM/utils/lib/makefile_generic

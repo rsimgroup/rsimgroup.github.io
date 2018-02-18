@@ -1,0 +1,646 @@
+VTune(TM) Performance Analyzer 2.0 for Linux*
+Copyright (C) 2000-2003 Intel Corporation. All rights reserved.
+
+Event Summary
+Instructions Retired
+   23044 = Samples collected due to this event
+   3916981          = Sample after value used during collection
+   90262910164      = Total events (samples*SAV)
+Clockticks
+   23112 = Samples collected due to this event
+   2875543          = Sample after value used during collection
+   66459549816      = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                   Module            Size    
+  Event                                                  Events%    Samples     Events            Address          Segment          Offset        Full name
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+dist1                      mpeg2enc_nosse    0x878   
+  Instructions Retired                                   67.00%      15440      60478186640         0x000000000000AD32 0x003           0x000000000000AC52 dist1
+  Clockticks                                             45.60%      10539      30305347677         0x000000000000AD32 0x003           0x000000000000AC52
+quant_non_intra            mpeg2enc_nosse    0x1ae   
+  Instructions Retired                                    2.87%      662        2593041422          0x000000000000FBE2 0x003           0x000000000000FB02 quant_non_intra
+  Clockticks                                             14.01%      3239       9313883777          0x000000000000FBE2 0x003           0x000000000000FB02
+idct                       mpeg2enc_nosse    0x17c   
+  Instructions Retired                                    6.32%      1457       5707041317          0x00000000000036E4 0x003           0x0000000000003604 idct
+  Clockticks                                              9.95%      2300       6613748900          0x00000000000036E4 0x003           0x0000000000003604
+fdct                       mpeg2enc_nosse    0x17c   
+  Instructions Retired                                    6.41%      1477       5785380937          0x0000000000000CA6 0x003           0x0000000000000BC6 fdct
+  Clockticks                                              9.76%      2255       6484349465          0x0000000000000CA6 0x003           0x0000000000000BC6
+bdist1                     mpeg2enc_nosse    0x1d6   
+  Instructions Retired                                    4.92%      1134       4441856454          0x000000000000BCC4 0x003           0x000000000000BBE4 bdist1
+  Clockticks                                              4.11%      950        2731765850          0x000000000000BCC4 0x003           0x000000000000BBE4
+fullsearch                 mpeg2enc_nosse    0x832   
+  Instructions Retired                                    4.46%      1028       4026656468          0x000000000000A500 0x003           0x000000000000A420 fullsearch
+  Clockticks                                              3.06%      708        2035884444          0x000000000000A500 0x003           0x000000000000A420
+bdist2                     mpeg2enc_nosse    0x1c4   
+  Instructions Retired                                    1.82%      420        1645132020          0x000000000000BE9A 0x003           0x000000000000BDBA bdist2
+  Clockticks                                              1.75%      404        1161719372          0x000000000000BE9A 0x003           0x000000000000BDBA
+pred_comp                  mpeg2enc_nosse    0x8b6   
+  Instructions Retired                                    1.01%      232        908739592           0x000000000000EC0E 0x003           0x000000000000EB2E pred_comp
+  Clockticks                                              1.38%      320        920173760           0x000000000000EC0E 0x003           0x000000000000EB2E
+ptdct_type_estimation      mpeg2enc_nosse    0x51c   
+  Instructions Retired                                    0.75%      173        677637713           0x0000000000006182 0x003           0x00000000000060A2 ptdct_type_estimation
+  Clockticks                                              1.16%      268        770645524           0x0000000000006182 0x003           0x00000000000060A2
+iquant_non_intra           mpeg2enc_nosse    0x1f8   
+  Instructions Retired                                    0.99%      229        896988649           0x000000000000FF46 0x003           0x000000000000FE66 iquant_non_intra
+  Clockticks                                              0.80%      184        529099912           0x000000000000FF46 0x003           0x000000000000FE66
+add_pred                   mpeg2enc_nosse    0xda    
+  Instructions Retired                                    0.43%      100        391698100           0x0000000000005AA0 0x003           0x00000000000059C0 add_pred
+  Clockticks                                              0.98%      227        652748261           0x0000000000005AA0 0x003           0x00000000000059C0
+quant_intra                mpeg2enc_nosse    0x1c4   
+  Instructions Retired                                    0.30%      68         266354708           0x000000000000FA1E 0x003           0x000000000000F93E quant_intra
+  Clockticks                                              1.02%      235        675752605           0x000000000000FA1E 0x003           0x000000000000F93E
+sub_pred                   mpeg2enc_nosse    0x10e   
+  Instructions Retired                                    0.30%      69         270271689           0x0000000000005B7A 0x003           0x0000000000005A9A sub_pred
+  Clockticks                                              0.80%      185        531975455           0x0000000000005B7A 0x003           0x0000000000005A9A
+put_bits                   mpeg2enc_nosse    0xa8    
+  Instructions Retired                                    0.35%      81         317275461           0x00000000000102E2 0x003           0x0000000000010202 put_bits
+  Clockticks                                              0.61%      142        408327106           0x00000000000102E2 0x003           0x0000000000010202
+variance                   mpeg2enc_nosse    0xe2    
+  Instructions Retired                                    0.27%      62         242852822           0x000000000000C05E 0x003           0x000000000000BF7E variance
+  Clockticks                                              0.54%      124        356567332           0x000000000000C05E 0x003           0x000000000000BF7E
+dist2                      mpeg2enc_nosse    0x71a   
+  Instructions Retired                                    0.34%      79         309441499           0x000000000000B5AA 0x003           0x000000000000B4CA dist2
+  Clockticks                                              0.21%      49         140901607           0x000000000000B5AA 0x003           0x000000000000B4CA
+iquant_intra               mpeg2enc_nosse    0x1b6   
+  Instructions Retired                                    0.19%      43         168430183           0x000000000000FD90 0x003           0x000000000000FCB0 iquant_intra
+  Clockticks                                              0.34%      79         227167897           0x000000000000FD90 0x003           0x000000000000FCB0
+put_nonintrablk            mpeg2enc_nosse    0x86    
+  Instructions Retired                                    0.19%      44         172347164           0x000000000000365E 0x003           0x000000000000357E put_nonintrablk
+  Clockticks                                              0.21%      49         140901607           0x000000000000365E 0x003           0x000000000000357E
+ptitransform               mpeg2enc_nosse    0x2a2   
+  Instructions Retired                                    0.18%      42         164513202           0x000000000000556A 0x003           0x000000000000548A ptitransform
+  Clockticks                                              0.19%      44         126523892           0x000000000000556A 0x003           0x000000000000548A
+pttransform                mpeg2enc_nosse    0x2aa   
+  Instructions Retired                                    0.11%      25         97924525            0x00000000000052C0 0x003           0x00000000000051E0 pttransform
+  Clockticks                                              0.22%      52         149528236           0x00000000000052C0 0x003           0x00000000000051E0
+put_intrablk               mpeg2enc_nosse    0xd8    
+  Instructions Retired                                    0.12%      28         109675468           0x0000000000003586 0x003           0x00000000000034A6 put_intrablk
+  Clockticks                                              0.12%      27         77639661            0x0000000000003586 0x003           0x00000000000034A6
+pred                       mpeg2enc_nosse    0x106   
+  Instructions Retired                                    0.09%      20         78339620            0x000000000000EB08 0x003           0x000000000000EA28 pred
+  Clockticks                                              0.11%      25         71888575            0x000000000000EB08 0x003           0x000000000000EA28
+frame_estimate             mpeg2enc_nosse    0x29a   
+  Instructions Retired                                    0.10%      22         86173582            0x0000000000009640 0x003           0x0000000000009560 frame_estimate
+  Clockticks                                              0.08%      19         54635317            0x0000000000009640 0x003           0x0000000000009560
+memcpy                     mpeg2enc_nosse    0x37    
+  Instructions Retired                                    0.01%      2          7833962             0x00000000000240EC 0x003           0x000000000002400C memcpy
+  Clockticks                                              0.16%      36         103519548           0x00000000000240EC 0x003           0x000000000002400C
+frame_ME                   mpeg2enc_nosse    0xfe2   
+  Instructions Retired                                    0.06%      14         54837734            0x00000000000074E6 0x003           0x0000000000007406 frame_ME
+  Clockticks                                              0.09%      21         60386403            0x00000000000074E6 0x003           0x0000000000007406
+ptputpict                  mpeg2enc_nosse    0x8b0   
+  Instructions Retired                                    0.04%      10         39169810            0x0000000000004204 0x003           0x0000000000004124 ptputpict
+  Clockticks                                              0.09%      21         60386403            0x0000000000004204 0x003           0x0000000000004124
+put_mv                     mpeg2enc_nosse    0xc4    
+  Instructions Retired                                    0.02%      4          15667924            0x00000000000034C2 0x003           0x00000000000033E2 put_mv
+  Clockticks                                              0.10%      22         63261946            0x00000000000034C2 0x003           0x00000000000033E2
+ptiquant                   mpeg2enc_nosse    0x106   
+  Instructions Retired                                    0.03%      8          31335848            0x000000000000F918 0x003           0x000000000000F838 ptiquant
+  Clockticks                                              0.08%      18         51759774            0x000000000000F918 0x003           0x000000000000F838
+put_AC                     mpeg2enc_nosse    0x152   
+  Instructions Retired                                    0.04%      10         39169810            0x000000000000DB54 0x003           0x000000000000DA74 put_AC
+  Clockticks                                              0.05%      12         34506516            0x000000000000DB54 0x003           0x000000000000DA74
+put_motioncode             mpeg2enc_nosse    0x44    
+  Instructions Retired                                    0.03%      8          31335848            0x000000000000DD32 0x003           0x000000000000DC52 put_motioncode
+  Clockticks                                              0.05%      12         34506516            0x000000000000DD32 0x003           0x000000000000DC52
+clearblock                 mpeg2enc_nosse    0x1d6   
+  Instructions Retired                                    0.02%      5          19584905            0x000000000000F600 0x003           0x000000000000F520 clearblock
+  Clockticks                                              0.05%      11         31630973            0x000000000000F600 0x003           0x000000000000F520
+predict_mb                 mpeg2enc_nosse    0x6be   
+  Instructions Retired                                    0.02%      4          15667924            0x000000000000E44A 0x003           0x000000000000E36A predict_mb
+  Clockticks                                              0.04%      10         28755430            0x000000000000E44A 0x003           0x000000000000E36A
+ptpredict                  mpeg2enc_nosse    0xd8    
+  Instructions Retired                                    0.01%      2          7833962             0x000000000000E372 0x003           0x000000000000E292 ptpredict
+  Clockticks                                              0.04%      10         28755430            0x000000000000E372 0x003           0x000000000000E292
+write_buf                  mpeg2enc_nosse    0x7e    
+  Instructions Retired                                    0.02%      5          19584905            0x0000000000010264 0x003           0x0000000000010184 write_buf
+  Clockticks                                              0.03%      7          20128801            0x0000000000010264 0x003           0x0000000000010184
+ptquant                    mpeg2enc_nosse    0x140   
+  Instructions Retired                                    0.00%      1          3916981             0x000000000000F7D8 0x003           0x000000000000F6F8 ptquant
+  Clockticks                                              0.05%      11         31630973            0x000000000000F7D8 0x003           0x000000000000F6F8
+put_mvs                    mpeg2enc_nosse    0x2cc   
+  Instructions Retired                                    0.00%      1          3916981             0x0000000000004AB4 0x003           0x00000000000049D4 put_mvs
+  Clockticks                                              0.03%      8          23004344            0x0000000000004AB4 0x003           0x00000000000049D4
+_IO_file_xsgetn            mpeg2enc_nosse    0x17b   
+  Instructions Retired                                    0.01%      2          7833962             0x000000000001B5B4 0x003           0x000000000001B4D4 _IO_file_xsgetn
+  Clockticks                                              0.02%      5          14377715            0x000000000001B5B4 0x003           0x000000000001B4D4
+_IO_fread                  mpeg2enc_nosse    0xc7    
+  Instructions Retired                                    0.01%      3          11750943            0x0000000000018F6C 0x003           0x0000000000018E8C _IO_fread
+  Clockticks                                              0.02%      4          11502172            0x0000000000018F6C 0x003           0x0000000000018E8C
+ptmotion_estimation        mpeg2enc_nosse    0x124   
+  Clockticks                                              0.02%      4          11502172            0x00000000000073C2 0x003           0x00000000000072E2
+__underflow                mpeg2enc_nosse    0x310   
+  Clockticks                                              0.01%      3          8626629             0x000000000001CCD8 0x003           0x000000000001CBF8
+put_DCchrom                mpeg2enc_nosse    0x16    
+  Instructions Retired                                    0.00%      1          3916981             0x000000000000DA6A 0x003           0x000000000000D98A put_DCchrom
+  Clockticks                                              0.01%      2          5751086             0x000000000000DA6A 0x003           0x000000000000D98A
+_IO_sgetn                  mpeg2enc_nosse    0x1b    
+  Instructions Retired                                    0.00%      1          3916981             0x000000000001DCA4 0x003           0x000000000001DBC4 _IO_sgetn
+  Clockticks                                              0.01%      2          5751086             0x000000000001DCA4 0x003           0x000000000001DBC4
+read_y_u_v                 mpeg2enc_nosse    0x246   
+  Instructions Retired                                    0.00%      1          3916981             0x0000000000001490 0x003           0x00000000000013B0 read_y_u_v
+  Clockticks                                              0.00%      1          2875543             0x0000000000001490 0x003           0x00000000000013B0
+_IO_default_xsputn         mpeg2enc_nosse    0x9c    
+  Clockticks                                              0.00%      1          2875543             0x000000000001DC08 0x003           0x000000000001DB28
+_IO_file_close             mpeg2enc_nosse    0x12    
+  Clockticks                                              0.00%      1          2875543             0x000000000001C5D0 0x003           0x000000000001C4F0
+thread_work_dist           mpeg2enc_nosse    0x8e    
+  Clockticks                                              0.00%      1          2875543             0x0000000000006766 0x003           0x0000000000006686
+thread_work                mpeg2enc_nosse    0xc6    
+  Clockticks                                              0.00%      1          2875543             0x00000000000066A0 0x003           0x00000000000065C0
+_IO_file_close_it          mpeg2enc_nosse    0x20e   
+  Clockticks                                              0.00%      1          2875543             0x000000000001B760 0x003           0x000000000001B680
+_IO_fwrite                 mpeg2enc_nosse    0xf7    
+  Clockticks                                              0.00%      1          2875543             0x0000000000019034 0x003           0x0000000000018F54
+_IO_no_init                mpeg2enc_nosse    0x127   
+  Clockticks                                              0.00%      1          2875543             0x000000000001E020 0x003           0x000000000001DF40
+put_mbtype                 mpeg2enc_nosse    0x34    
+  Instructions Retired                                    0.00%      1          3916981             0x000000000000DCFE 0x003           0x000000000000DC1E put_mbtype
+_IO_str_init_static        mpeg2enc_nosse    0xd7    
+  Clockticks                                              0.00%      1          2875543             0x000000000001EAF8 0x003           0x000000000001EA18
+_IO_switch_to_get_mode     mpeg2enc_nosse    0x6f    
+  Clockticks                                              0.01%      2          5751086             0x000000000001D9E4 0x003           0x000000000001D904
+put_DClum                  mpeg2enc_nosse    0x16    
+  Instructions Retired                                    0.01%      2          7833962             0x000000000000DA54 0x003           0x000000000000D974 put_DClum
+put_DC                     mpeg2enc_nosse    0x98    
+  Instructions Retired                                    0.00%      1          3916981             0x000000000000DA80 0x003           0x000000000000D9A0 put_DC
+put_ACfirst                mpeg2enc_nosse    0x3c    
+  Clockticks                                              0.00%      1          2875543             0x000000000000DB18 0x003           0x000000000000DA38
+_IO_un_link                mpeg2enc_nosse    0x10b   
+  Clockticks                                              0.00%      1          2875543             0x000000000001D768 0x003           0x000000000001D688
+__libc_read                mpeg2enc_nosse    0x5a    
+  Clockticks                                              0.02%      5          14377715            0x0000000000024980 0x003           0x00000000000248A0
+__mempcpy                  mpeg2enc_nosse    0x35    
+  Clockticks                                              0.02%      5          14377715            0x00000000000240B4 0x003           0x0000000000023FD4
+_int_malloc                mpeg2enc_nosse    0x4dc   
+  Clockticks                                              0.00%      1          2875543             0x0000000000020284 0x003           0x00000000000201A4
+align_bits                 mpeg2enc_nosse    0x1e    
+  Clockticks                                              0.00%      1          2875543             0x000000000001038A 0x003           0x00000000000102AA
+Event Summary
+Uops Retired
+   23031 = Samples collected due to this event
+   5382251          = Sample after value used during collection
+   123958622781     = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                  Module            Size    
+  Event                                                 Events%    Samples     Events            Address          Segment          Offset        Full name
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+dist1                     mpeg2enc_nosse    0x878   
+  Uops Retired                                          58.72%      13524      72789562524         0x000000000000AD32 0x003           0x000000000000AC52 dist1
+idct                      mpeg2enc_nosse    0x17c   
+  Uops Retired                                           9.67%      2227       11986272977         0x00000000000036E4 0x003           0x0000000000003604 idct
+fdct                      mpeg2enc_nosse    0x17c   
+  Uops Retired                                           9.61%      2214       11916303714         0x0000000000000CA6 0x003           0x0000000000000BC6 fdct
+quant_non_intra           mpeg2enc_nosse    0x1ae   
+  Uops Retired                                           5.34%      1230       6620168730          0x000000000000FBE2 0x003           0x000000000000FB02 quant_non_intra
+bdist1                    mpeg2enc_nosse    0x1d6   
+  Uops Retired                                           4.63%      1067       5742861817          0x000000000000BCC4 0x003           0x000000000000BBE4 bdist1
+fullsearch                mpeg2enc_nosse    0x832   
+  Uops Retired                                           3.65%      841        4526473091          0x000000000000A500 0x003           0x000000000000A420 fullsearch
+bdist2                    mpeg2enc_nosse    0x1c4   
+  Uops Retired                                           1.79%      412        2217487412          0x000000000000BE9A 0x003           0x000000000000BDBA bdist2
+iquant_non_intra          mpeg2enc_nosse    0x1f8   
+  Uops Retired                                           0.96%      222        1194859722          0x000000000000FF46 0x003           0x000000000000FE66 iquant_non_intra
+ptdct_type_estimation     mpeg2enc_nosse    0x51c   
+  Uops Retired                                           0.95%      218        1173330718          0x0000000000006182 0x003           0x00000000000060A2 ptdct_type_estimation
+pred_comp                 mpeg2enc_nosse    0x8b6   
+  Uops Retired                                           0.91%      210        1130272710          0x000000000000EC0E 0x003           0x000000000000EB2E pred_comp
+quant_intra               mpeg2enc_nosse    0x1c4   
+  Uops Retired                                           0.56%      129        694310379           0x000000000000FA1E 0x003           0x000000000000F93E quant_intra
+add_pred                  mpeg2enc_nosse    0xda    
+  Uops Retired                                           0.51%      118        635105618           0x0000000000005AA0 0x003           0x00000000000059C0 add_pred
+put_bits                  mpeg2enc_nosse    0xa8    
+  Uops Retired                                           0.34%      79         425197829           0x00000000000102E2 0x003           0x0000000000010202 put_bits
+variance                  mpeg2enc_nosse    0xe2    
+  Uops Retired                                           0.34%      78         419815578           0x000000000000C05E 0x003           0x000000000000BF7E variance
+dist2                     mpeg2enc_nosse    0x71a   
+  Uops Retired                                           0.33%      75         403668825           0x000000000000B5AA 0x003           0x000000000000B4CA dist2
+sub_pred                  mpeg2enc_nosse    0x10e   
+  Uops Retired                                           0.25%      57         306788307           0x0000000000005B7A 0x003           0x0000000000005A9A sub_pred
+iquant_intra              mpeg2enc_nosse    0x1b6   
+  Uops Retired                                           0.18%      42         226054542           0x000000000000FD90 0x003           0x000000000000FCB0 iquant_intra
+put_nonintrablk           mpeg2enc_nosse    0x86    
+  Uops Retired                                           0.11%      25         134556275           0x000000000000365E 0x003           0x000000000000357E put_nonintrablk
+pttransform               mpeg2enc_nosse    0x2aa   
+  Uops Retired                                           0.10%      24         129174024           0x00000000000052C0 0x003           0x00000000000051E0 pttransform
+put_intrablk              mpeg2enc_nosse    0xd8    
+  Uops Retired                                           0.10%      22         118409522           0x0000000000003586 0x003           0x00000000000034A6 put_intrablk
+ptitransform              mpeg2enc_nosse    0x2a2   
+  Uops Retired                                           0.09%      21         113027271           0x000000000000556A 0x003           0x000000000000548A ptitransform
+frame_ME                  mpeg2enc_nosse    0xfe2   
+  Uops Retired                                           0.07%      17         91498267            0x00000000000074E6 0x003           0x0000000000007406 frame_ME
+pred                      mpeg2enc_nosse    0x106   
+  Uops Retired                                           0.07%      15         80733765            0x000000000000EB08 0x003           0x000000000000EA28 pred
+frame_estimate            mpeg2enc_nosse    0x29a   
+  Uops Retired                                           0.05%      12         64587012            0x0000000000009640 0x003           0x0000000000009560 frame_estimate
+ptputpict                 mpeg2enc_nosse    0x8b0   
+  Uops Retired                                           0.05%      12         64587012            0x0000000000004204 0x003           0x0000000000004124 ptputpict
+put_AC                    mpeg2enc_nosse    0x152   
+  Uops Retired                                           0.05%      12         64587012            0x000000000000DB54 0x003           0x000000000000DA74 put_AC
+memcpy                    mpeg2enc_nosse    0x37    
+  Uops Retired                                           0.05%      12         64587012            0x00000000000240EC 0x003           0x000000000002400C memcpy
+ptiquant                  mpeg2enc_nosse    0x106   
+  Uops Retired                                           0.05%      11         59204761            0x000000000000F918 0x003           0x000000000000F838 ptiquant
+predict_mb                mpeg2enc_nosse    0x6be   
+  Uops Retired                                           0.04%      10         53822510            0x000000000000E44A 0x003           0x000000000000E36A predict_mb
+put_mv                    mpeg2enc_nosse    0xc4    
+  Uops Retired                                           0.04%      10         53822510            0x00000000000034C2 0x003           0x00000000000033E2 put_mv
+put_motioncode            mpeg2enc_nosse    0x44    
+  Uops Retired                                           0.03%      7          37675757            0x000000000000DD32 0x003           0x000000000000DC52 put_motioncode
+write_buf                 mpeg2enc_nosse    0x7e    
+  Uops Retired                                           0.03%      7          37675757            0x0000000000010264 0x003           0x0000000000010184 write_buf
+clearblock                mpeg2enc_nosse    0x1d6   
+  Uops Retired                                           0.02%      4          21529004            0x000000000000F600 0x003           0x000000000000F520 clearblock
+_IO_fread                 mpeg2enc_nosse    0xc7    
+  Uops Retired                                           0.02%      4          21529004            0x0000000000018F6C 0x003           0x0000000000018E8C _IO_fread
+ptquant                   mpeg2enc_nosse    0x140   
+  Uops Retired                                           0.01%      3          16146753            0x000000000000F7D8 0x003           0x000000000000F6F8 ptquant
+put_mvs                   mpeg2enc_nosse    0x2cc   
+  Uops Retired                                           0.01%      3          16146753            0x0000000000004AB4 0x003           0x00000000000049D4 put_mvs
+__mempcpy                 mpeg2enc_nosse    0x35    
+  Uops Retired                                           0.01%      3          16146753            0x00000000000240B4 0x003           0x0000000000023FD4 __mempcpy
+put_ACfirst               mpeg2enc_nosse    0x3c    
+  Uops Retired                                           0.01%      2          10764502            0x000000000000DB18 0x003           0x000000000000DA38 put_ACfirst
+ptpredict                 mpeg2enc_nosse    0xd8    
+  Uops Retired                                           0.01%      2          10764502            0x000000000000E372 0x003           0x000000000000E292 ptpredict
+read_y_u_v                mpeg2enc_nosse    0x246   
+  Uops Retired                                           0.01%      2          10764502            0x0000000000001490 0x003           0x00000000000013B0 read_y_u_v
+_IO_file_xsgetn           mpeg2enc_nosse    0x17b   
+  Uops Retired                                           0.01%      2          10764502            0x000000000001B5B4 0x003           0x000000000001B4D4 _IO_file_xsgetn
+put_DC                    mpeg2enc_nosse    0x98    
+  Uops Retired                                           0.01%      2          10764502            0x000000000000DA80 0x003           0x000000000000D9A0 put_DC
+put_DCchrom               mpeg2enc_nosse    0x16    
+  Uops Retired                                           0.00%      1          5382251             0x000000000000DA6A 0x003           0x000000000000D98A put_DCchrom
+ptmotion_estimation       mpeg2enc_nosse    0x124   
+  Uops Retired                                           0.00%      1          5382251             0x00000000000073C2 0x003           0x00000000000072E2 ptmotion_estimation
+__libc_read               mpeg2enc_nosse    0x5a    
+  Uops Retired                                           0.00%      1          5382251             0x0000000000024980 0x003           0x00000000000248A0 __libc_read
+_IO_sgetn                 mpeg2enc_nosse    0x1b    
+  Uops Retired                                           0.00%      1          5382251             0x000000000001DCA4 0x003           0x000000000001DBC4 _IO_sgetn
+Event Summary
+128-bit MMX(TM) Instructions Retired
+   22940 = Samples collected due to this event
+   51               = Sample after value used during collection
+   1169940          = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                  Module            Size    
+  Event                                                 Events%    Samples     Events            Address          Segment          Offset        Full name
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ptdct_type_estimation     mpeg2enc_nosse    0x51c   
+  128-bit MMX(TM) Instructions Retired                  99.61%      22850      1165350             0x0000000000006182 0x003           0x00000000000060A2 ptdct_type_estimation
+movdqa8                   mpeg2enc_nosse    0x50    
+  128-bit MMX(TM) Instructions Retired                   0.32%      73         3723                0x0000000000016CE0 0x003           0x0000000000016C00 movdqa8
+calc_vbv_delay            mpeg2enc_nosse    0x450   
+  128-bit MMX(TM) Instructions Retired                   0.05%      11         561                 0x0000000000011336 0x003           0x0000000000011256 calc_vbv_delay
+__libm_sse2_cos           mpeg2enc_nosse    0x1b2   
+  128-bit MMX(TM) Instructions Retired                   0.01%      3          153                 0x0000000000011788 0x003           0x00000000000116A8 __libm_sse2_cos
+movdqa.epi                mpeg2enc_nosse    0x1b    
+  128-bit MMX(TM) Instructions Retired                   0.01%      2          102                 0x0000000000016F55 0x003           0x0000000000016E75 movdqa.epi
+Event Summary
+64-bit MMX(TM) Instructions Retired
+   0 = Samples collected due to this event
+   1                = Sample after value used during collection
+   0                = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+No symbols were found
+
+Event Summary
+Loads Retired
+   46102 = Samples collected due to this event
+   623401           = Sample after value used during collection
+   28740032902      = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                  Module            Size    
+  Event                                                 Events%    Samples     Events            Address          Segment          Offset        Full name
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+dist1                     mpeg2enc_nosse    0x878   
+  Loads Retired                                         65.32%      30115      18773721115         0x000000000000AD32 0x003           0x000000000000AC52 dist1
+fdct                      mpeg2enc_nosse    0x17c   
+  Loads Retired                                          8.49%      3915       2440614915          0x0000000000000CA6 0x003           0x0000000000000BC6 fdct
+idct                      mpeg2enc_nosse    0x17c   
+  Loads Retired                                          8.49%      3914       2439991514          0x00000000000036E4 0x003           0x0000000000003604 idct
+bdist1                    mpeg2enc_nosse    0x1d6   
+  Loads Retired                                          5.15%      2372       1478707172          0x000000000000BCC4 0x003           0x000000000000BBE4 bdist1
+fullsearch                mpeg2enc_nosse    0x832   
+  Loads Retired                                          2.91%      1341       835980741           0x000000000000A500 0x003           0x000000000000A420 fullsearch
+bdist2                    mpeg2enc_nosse    0x1c4   
+  Loads Retired                                          2.03%      935        582879935           0x000000000000BE9A 0x003           0x000000000000BDBA bdist2
+quant_non_intra           mpeg2enc_nosse    0x1ae   
+  Loads Retired                                          1.45%      668        416431868           0x000000000000FBE2 0x003           0x000000000000FB02 quant_non_intra
+add_pred                  mpeg2enc_nosse    0xda    
+  Loads Retired                                          1.14%      526        327908926           0x0000000000005AA0 0x003           0x00000000000059C0 add_pred
+pred_comp                 mpeg2enc_nosse    0x8b6   
+  Loads Retired                                          1.12%      515        321051515           0x000000000000EC0E 0x003           0x000000000000EB2E pred_comp
+ptdct_type_estimation     mpeg2enc_nosse    0x51c   
+  Loads Retired                                          0.83%      381        237515781           0x0000000000006182 0x003           0x00000000000060A2 ptdct_type_estimation
+sub_pred                  mpeg2enc_nosse    0x10e   
+  Loads Retired                                          0.52%      241        150239641           0x0000000000005B7A 0x003           0x0000000000005A9A sub_pred
+dist2                     mpeg2enc_nosse    0x71a   
+  Loads Retired                                          0.29%      133        82912333            0x000000000000B5AA 0x003           0x000000000000B4CA dist2
+put_bits                  mpeg2enc_nosse    0xa8    
+  Loads Retired                                          0.27%      123        76678323            0x00000000000102E2 0x003           0x0000000000010202 put_bits
+iquant_non_intra          mpeg2enc_nosse    0x1f8   
+  Loads Retired                                          0.25%      114        71067714            0x000000000000FF46 0x003           0x000000000000FE66 iquant_non_intra
+frame_estimate            mpeg2enc_nosse    0x29a   
+  Loads Retired                                          0.15%      69         43014669            0x0000000000009640 0x003           0x0000000000009560 frame_estimate
+quant_intra               mpeg2enc_nosse    0x1c4   
+  Loads Retired                                          0.17%      78         48625278            0x000000000000FA1E 0x003           0x000000000000F93E quant_intra
+variance                  mpeg2enc_nosse    0xe2    
+  Loads Retired                                          0.15%      69         43014669            0x000000000000C05E 0x003           0x000000000000BF7E variance
+pttransform               mpeg2enc_nosse    0x2aa   
+  Loads Retired                                          0.14%      65         40521065            0x00000000000052C0 0x003           0x00000000000051E0 pttransform
+pred                      mpeg2enc_nosse    0x106   
+  Loads Retired                                          0.11%      51         31793451            0x000000000000EB08 0x003           0x000000000000EA28 pred
+ptitransform              mpeg2enc_nosse    0x2a2   
+  Loads Retired                                          0.10%      45         28053045            0x000000000000556A 0x003           0x000000000000548A ptitransform
+iquant_intra              mpeg2enc_nosse    0x1b6   
+  Loads Retired                                          0.09%      40         24936040            0x000000000000FD90 0x003           0x000000000000FCB0 iquant_intra
+frame_ME                  mpeg2enc_nosse    0xfe2   
+  Loads Retired                                          0.08%      35         21819035            0x00000000000074E6 0x003           0x0000000000007406 frame_ME
+memcpy                    mpeg2enc_nosse    0x37    
+  Loads Retired                                          0.07%      30         18702030            0x00000000000240EC 0x003           0x000000000002400C memcpy
+put_nonintrablk           mpeg2enc_nosse    0x86    
+  Loads Retired                                          0.14%      63         39274263            0x000000000000365E 0x003           0x000000000000357E put_nonintrablk
+put_intrablk              mpeg2enc_nosse    0xd8    
+  Loads Retired                                          0.10%      45         28053045            0x0000000000003586 0x003           0x00000000000034A6 put_intrablk
+ptiquant                  mpeg2enc_nosse    0x106   
+  Loads Retired                                          0.05%      21         13091421            0x000000000000F918 0x003           0x000000000000F838 ptiquant
+ptputpict                 mpeg2enc_nosse    0x8b0   
+  Loads Retired                                          0.03%      15         9351015             0x0000000000004204 0x003           0x0000000000004124 ptputpict
+put_mv                    mpeg2enc_nosse    0xc4    
+  Loads Retired                                          0.03%      16         9974416             0x00000000000034C2 0x003           0x00000000000033E2 put_mv
+put_AC                    mpeg2enc_nosse    0x152   
+  Loads Retired                                          0.04%      18         11221218            0x000000000000DB54 0x003           0x000000000000DA74 put_AC
+predict_mb                mpeg2enc_nosse    0x6be   
+  Loads Retired                                          0.02%      10         6234010             0x000000000000E44A 0x003           0x000000000000E36A predict_mb
+ptquant                   mpeg2enc_nosse    0x140   
+  Loads Retired                                          0.02%      9          5610609             0x000000000000F7D8 0x003           0x000000000000F6F8 ptquant
+put_mvs                   mpeg2enc_nosse    0x2cc   
+  Loads Retired                                          0.01%      6          3740406             0x0000000000004AB4 0x003           0x00000000000049D4 put_mvs
+put_motioncode            mpeg2enc_nosse    0x44    
+  Loads Retired                                          0.02%      7          4363807             0x000000000000DD32 0x003           0x000000000000DC52 put_motioncode
+_IO_file_xsgetn           mpeg2enc_nosse    0x17b   
+  Loads Retired                                          0.01%      6          3740406             0x000000000001B5B4 0x003           0x000000000001B4D4 _IO_file_xsgetn
+ptpredict                 mpeg2enc_nosse    0xd8    
+  Loads Retired                                          0.01%      3          1870203             0x000000000000E372 0x003           0x000000000000E292 ptpredict
+ptmotion_estimation       mpeg2enc_nosse    0x124   
+  Loads Retired                                          0.01%      4          2493604             0x00000000000073C2 0x003           0x00000000000072E2 ptmotion_estimation
+put_DC                    mpeg2enc_nosse    0x98    
+  Loads Retired                                          0.00%      2          1246802             0x000000000000DA80 0x003           0x000000000000D9A0 put_DC
+put_mbtype                mpeg2enc_nosse    0x34    
+  Loads Retired                                          0.01%      3          1870203             0x000000000000DCFE 0x003           0x000000000000DC1E put_mbtype
+clearblock                mpeg2enc_nosse    0x1d6   
+  Loads Retired                                          0.00%      2          1246802             0x000000000000F600 0x003           0x000000000000F520 clearblock
+__mempcpy                 mpeg2enc_nosse    0x35    
+  Loads Retired                                          0.01%      4          2493604             0x00000000000240B4 0x003           0x0000000000023FD4 __mempcpy
+__libc_read               mpeg2enc_nosse    0x5a    
+  Loads Retired                                          0.00%      2          1246802             0x0000000000024980 0x003           0x00000000000248A0 __libc_read
+_IO_sgetn                 mpeg2enc_nosse    0x1b    
+  Loads Retired                                          0.00%      2          1246802             0x000000000001DCA4 0x003           0x000000000001DBC4 _IO_sgetn
+_IO_funlockfile           mpeg2enc_nosse    0x1e    
+  Loads Retired                                          0.00%      2          1246802             0x0000000000040264 0x003           0x0000000000040184 _IO_funlockfile
+write_buf                 mpeg2enc_nosse    0x7e    
+  Loads Retired                                          0.03%      13         8104213             0x0000000000010264 0x003           0x0000000000010184 write_buf
+put_cbp                   mpeg2enc_nosse    0x24    
+  Loads Retired                                          0.01%      3          1870203             0x000000000000DDBA 0x003           0x000000000000DCDA put_cbp
+read_y_u_v                mpeg2enc_nosse    0x246   
+  Loads Retired                                          0.00%      1          623401              0x0000000000001490 0x003           0x00000000000013B0 read_y_u_v
+_IO_fread                 mpeg2enc_nosse    0xc7    
+  Loads Retired                                          0.00%      1          623401              0x0000000000018F6C 0x003           0x0000000000018E8C _IO_fread
+Event Summary
+1st Level Cache Load Misses Retired
+   46458 = Samples collected due to this event
+   6845             = Sample after value used during collection
+   318005010        = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                   Module            Size    
+  Event                                                  Events%    Samples     Events            Address          Segment          Offset        Full name
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+dist1                      mpeg2enc_nosse    0x878   
+  1st Level Cache Load Misses Retired                    48.45%      22507      154060415           0x000000000000AD32 0x003           0x000000000000AC52 dist1
+pred_comp                  mpeg2enc_nosse    0x8b6   
+  1st Level Cache Load Misses Retired                    10.06%      4673       31986685            0x000000000000EC0E 0x003           0x000000000000EB2E pred_comp
+sub_pred                   mpeg2enc_nosse    0x10e   
+  1st Level Cache Load Misses Retired                     8.48%      3939       26962455            0x0000000000005B7A 0x003           0x0000000000005A9A sub_pred
+add_pred                   mpeg2enc_nosse    0xda    
+  1st Level Cache Load Misses Retired                     4.21%      1956       13388820            0x0000000000005AA0 0x003           0x00000000000059C0 add_pred
+idct                       mpeg2enc_nosse    0x17c   
+  1st Level Cache Load Misses Retired                     3.55%      1651       11301095            0x00000000000036E4 0x003           0x0000000000003604 idct
+bdist1                     mpeg2enc_nosse    0x1d6   
+  1st Level Cache Load Misses Retired                     2.73%      1270       8693150             0x000000000000BCC4 0x003           0x000000000000BBE4 bdist1
+ptdct_type_estimation      mpeg2enc_nosse    0x51c   
+  1st Level Cache Load Misses Retired                     2.67%      1240       8487800             0x0000000000006182 0x003           0x00000000000060A2 ptdct_type_estimation
+fullsearch                 mpeg2enc_nosse    0x832   
+  1st Level Cache Load Misses Retired                     2.53%      1174       8036030             0x000000000000A500 0x003           0x000000000000A420 fullsearch
+iquant_non_intra           mpeg2enc_nosse    0x1f8   
+  1st Level Cache Load Misses Retired                     2.04%      949        6495905             0x000000000000FF46 0x003           0x000000000000FE66 iquant_non_intra
+variance                   mpeg2enc_nosse    0xe2    
+  1st Level Cache Load Misses Retired                     1.92%      890        6092050             0x000000000000C05E 0x003           0x000000000000BF7E variance
+fdct                       mpeg2enc_nosse    0x17c   
+  1st Level Cache Load Misses Retired                     1.46%      678        4640910             0x0000000000000CA6 0x003           0x0000000000000BC6 fdct
+quant_non_intra            mpeg2enc_nosse    0x1ae   
+  1st Level Cache Load Misses Retired                     1.38%      642        4394490             0x000000000000FBE2 0x003           0x000000000000FB02 quant_non_intra
+pttransform                mpeg2enc_nosse    0x2aa   
+  1st Level Cache Load Misses Retired                     0.77%      357        2443665             0x00000000000052C0 0x003           0x00000000000051E0 pttransform
+pred                       mpeg2enc_nosse    0x106   
+  1st Level Cache Load Misses Retired                     0.62%      288        1971360             0x000000000000EB08 0x003           0x000000000000EA28 pred
+ptitransform               mpeg2enc_nosse    0x2a2   
+  1st Level Cache Load Misses Retired                     0.63%      291        1991895             0x000000000000556A 0x003           0x000000000000548A ptitransform
+bdist2                     mpeg2enc_nosse    0x1c4   
+  1st Level Cache Load Misses Retired                     0.78%      362        2477890             0x000000000000BE9A 0x003           0x000000000000BDBA bdist2
+dist2                      mpeg2enc_nosse    0x71a   
+  1st Level Cache Load Misses Retired                     0.65%      301        2060345             0x000000000000B5AA 0x003           0x000000000000B4CA dist2
+put_nonintrablk            mpeg2enc_nosse    0x86    
+  1st Level Cache Load Misses Retired                     0.27%      124        848780              0x000000000000365E 0x003           0x000000000000357E put_nonintrablk
+frame_ME                   mpeg2enc_nosse    0xfe2   
+  1st Level Cache Load Misses Retired                     0.34%      156        1067820             0x00000000000074E6 0x003           0x0000000000007406 frame_ME
+frame_estimate             mpeg2enc_nosse    0x29a   
+  1st Level Cache Load Misses Retired                     0.23%      106        725570              0x0000000000009640 0x003           0x0000000000009560 frame_estimate
+predict_mb                 mpeg2enc_nosse    0x6be   
+  1st Level Cache Load Misses Retired                     0.23%      108        739260              0x000000000000E44A 0x003           0x000000000000E36A predict_mb
+ptpredict                  mpeg2enc_nosse    0xd8    
+  1st Level Cache Load Misses Retired                     0.23%      107        732415              0x000000000000E372 0x003           0x000000000000E292 ptpredict
+ptputpict                  mpeg2enc_nosse    0x8b0   
+  1st Level Cache Load Misses Retired                     0.15%      70         479150              0x0000000000004204 0x003           0x0000000000004124 ptputpict
+iquant_intra               mpeg2enc_nosse    0x1b6   
+  1st Level Cache Load Misses Retired                     0.18%      82         561290              0x000000000000FD90 0x003           0x000000000000FCB0 iquant_intra
+put_intrablk               mpeg2enc_nosse    0xd8    
+  1st Level Cache Load Misses Retired                     0.10%      45         308025              0x0000000000003586 0x003           0x00000000000034A6 put_intrablk
+quant_intra                mpeg2enc_nosse    0x1c4   
+  1st Level Cache Load Misses Retired                     0.17%      80         547600              0x000000000000FA1E 0x003           0x000000000000F93E quant_intra
+ptmotion_estimation        mpeg2enc_nosse    0x124   
+  1st Level Cache Load Misses Retired                     0.07%      33         225885              0x00000000000073C2 0x003           0x00000000000072E2 ptmotion_estimation
+read_y_u_v                 mpeg2enc_nosse    0x246   
+  1st Level Cache Load Misses Retired                     0.07%      33         225885              0x0000000000001490 0x003           0x00000000000013B0 read_y_u_v
+_IO_fread                  mpeg2enc_nosse    0xc7    
+  1st Level Cache Load Misses Retired                     0.08%      39         266955              0x0000000000018F6C 0x003           0x0000000000018E8C _IO_fread
+memcpy                     mpeg2enc_nosse    0x37    
+  1st Level Cache Load Misses Retired                     1.01%      469        3210305             0x00000000000240EC 0x003           0x000000000002400C memcpy
+_IO_file_underflow         mpeg2enc_nosse    0x1cf   
+  1st Level Cache Load Misses Retired                     0.04%      18         123210              0x000000000001AD60 0x003           0x000000000001AC80 _IO_file_underflow
+ptiquant                   mpeg2enc_nosse    0x106   
+  1st Level Cache Load Misses Retired                     0.14%      64         438080              0x000000000000F918 0x003           0x000000000000F838 ptiquant
+__libc_read                mpeg2enc_nosse    0x5a    
+  1st Level Cache Load Misses Retired                     0.06%      28         191660              0x0000000000024980 0x003           0x00000000000248A0 __libc_read
+_IO_file_xsgetn            mpeg2enc_nosse    0x17b   
+  1st Level Cache Load Misses Retired                     0.03%      14         95830               0x000000000001B5B4 0x003           0x000000000001B4D4 _IO_file_xsgetn
+put_bits                   mpeg2enc_nosse    0xa8    
+  1st Level Cache Load Misses Retired                     0.02%      11         75295               0x00000000000102E2 0x003           0x0000000000010202 put_bits
+__underflow                mpeg2enc_nosse    0x310   
+  1st Level Cache Load Misses Retired                     0.04%      19         130055              0x000000000001CCD8 0x003           0x000000000001CBF8 __underflow
+_IO_sgetn                  mpeg2enc_nosse    0x1b    
+  1st Level Cache Load Misses Retired                     0.02%      11         75295               0x000000000001DCA4 0x003           0x000000000001DBC4 _IO_sgetn
+put_mvs                    mpeg2enc_nosse    0x2cc   
+  1st Level Cache Load Misses Retired                     0.05%      22         150590              0x0000000000004AB4 0x003           0x00000000000049D4 put_mvs
+_IO_switch_to_get_mode     mpeg2enc_nosse    0x6f    
+  1st Level Cache Load Misses Retired                     0.01%      4          27380               0x000000000001D9E4 0x003           0x000000000001D904 _IO_switch_to_get_mode
+clearblock                 mpeg2enc_nosse    0x1d6   
+  1st Level Cache Load Misses Retired                     0.01%      3          20535               0x000000000000F600 0x003           0x000000000000F520 clearblock
+write_buf                  mpeg2enc_nosse    0x7e    
+  1st Level Cache Load Misses Retired                     0.01%      3          20535               0x0000000000010264 0x003           0x0000000000010184 write_buf
+ptquant                    mpeg2enc_nosse    0x140   
+  1st Level Cache Load Misses Retired                     0.07%      33         225885              0x000000000000F7D8 0x003           0x000000000000F6F8 ptquant
+put_motioncode             mpeg2enc_nosse    0x44    
+  1st Level Cache Load Misses Retired                     0.05%      24         164280              0x000000000000DD32 0x003           0x000000000000DC52 put_motioncode
+put_mbtype                 mpeg2enc_nosse    0x34    
+  1st Level Cache Load Misses Retired                     0.00%      1          6845                0x000000000000DCFE 0x003           0x000000000000DC1E put_mbtype
+__mempcpy                  mpeg2enc_nosse    0x35    
+  1st Level Cache Load Misses Retired                     0.14%      65         444925              0x00000000000240B4 0x003           0x0000000000023FD4 __mempcpy
+__overflow                 mpeg2enc_nosse    0x29    
+  1st Level Cache Load Misses Retired                     0.00%      1          6845                0x000000000001DAAC 0x003           0x000000000001D9CC __overflow
+put_cbp                    mpeg2enc_nosse    0x24    
+  1st Level Cache Load Misses Retired                     0.00%      2          13690               0x000000000000DDBA 0x003           0x000000000000DCDA put_cbp
+put_addrinc                mpeg2enc_nosse    0x58    
+  1st Level Cache Load Misses Retired                     0.00%      2          13690               0x000000000000DCA6 0x003           0x000000000000DBC6 put_addrinc
+put_AC                     mpeg2enc_nosse    0x152   
+  1st Level Cache Load Misses Retired                     0.01%      3          20535               0x000000000000DB54 0x003           0x000000000000DA74 put_AC
+movdqa8                    mpeg2enc_nosse    0x50    
+  1st Level Cache Load Misses Retired                     0.00%      1          6845                0x0000000000016CE0 0x003           0x0000000000016C00 movdqa8
+Event Summary
+2nd Level Cache Load Misses Retired
+   49004 = Samples collected due to this event
+   1257             = Sample after value used during collection
+   61598028         = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                  Module            Size    
+  Event                                                 Events%    Samples     Events            Address          Segment          Offset        Full name
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+dist1                     mpeg2enc_nosse    0x878   
+  2nd Level Cache Load Misses Retired                   38.16%      18701      23507157            0x000000000000AD32 0x003           0x000000000000AC52 dist1
+sub_pred                  mpeg2enc_nosse    0x10e   
+  2nd Level Cache Load Misses Retired                   11.10%      5441       6839337             0x0000000000005B7A 0x003           0x0000000000005A9A sub_pred
+pred_comp                 mpeg2enc_nosse    0x8b6   
+  2nd Level Cache Load Misses Retired                   10.55%      5169       6497433             0x000000000000EC0E 0x003           0x000000000000EB2E pred_comp
+ptdct_type_estimation     mpeg2enc_nosse    0x51c   
+  2nd Level Cache Load Misses Retired                    6.70%      3285       4129245             0x0000000000006182 0x003           0x00000000000060A2 ptdct_type_estimation
+add_pred                  mpeg2enc_nosse    0xda    
+  2nd Level Cache Load Misses Retired                    5.41%      2649       3329793             0x0000000000005AA0 0x003           0x00000000000059C0 add_pred
+variance                  mpeg2enc_nosse    0xe2    
+  2nd Level Cache Load Misses Retired                    5.17%      2534       3185238             0x000000000000C05E 0x003           0x000000000000BF7E variance
+idct                      mpeg2enc_nosse    0x17c   
+  2nd Level Cache Load Misses Retired                    6.20%      3040       3821280             0x00000000000036E4 0x003           0x0000000000003604 idct
+fdct                      mpeg2enc_nosse    0x17c   
+  2nd Level Cache Load Misses Retired                    3.56%      1743       2190951             0x0000000000000CA6 0x003           0x0000000000000BC6 fdct
+iquant_non_intra          mpeg2enc_nosse    0x1f8   
+  2nd Level Cache Load Misses Retired                    1.61%      788        990516              0x000000000000FF46 0x003           0x000000000000FE66 iquant_non_intra
+quant_non_intra           mpeg2enc_nosse    0x1ae   
+  2nd Level Cache Load Misses Retired                    0.31%      153        192321              0x000000000000FBE2 0x003           0x000000000000FB02 quant_non_intra
+predict_mb                mpeg2enc_nosse    0x6be   
+  2nd Level Cache Load Misses Retired                    0.27%      131        164667              0x000000000000E44A 0x003           0x000000000000E36A predict_mb
+ptpredict                 mpeg2enc_nosse    0xd8    
+  2nd Level Cache Load Misses Retired                    0.09%      45         56565               0x000000000000E372 0x003           0x000000000000E292 ptpredict
+__mempcpy                 mpeg2enc_nosse    0x35    
+  2nd Level Cache Load Misses Retired                    0.08%      41         51537               0x00000000000240B4 0x003           0x0000000000023FD4 __mempcpy
+iquant_intra              mpeg2enc_nosse    0x1b6   
+  2nd Level Cache Load Misses Retired                    0.10%      50         62850               0x000000000000FD90 0x003           0x000000000000FCB0 iquant_intra
+put_intrablk              mpeg2enc_nosse    0xd8    
+  2nd Level Cache Load Misses Retired                    0.12%      59         74163               0x0000000000003586 0x003           0x00000000000034A6 put_intrablk
+ptiquant                  mpeg2enc_nosse    0x106   
+  2nd Level Cache Load Misses Retired                    0.07%      32         40224               0x000000000000F918 0x003           0x000000000000F838 ptiquant
+dist2                     mpeg2enc_nosse    0x71a   
+  2nd Level Cache Load Misses Retired                    0.08%      37         46509               0x000000000000B5AA 0x003           0x000000000000B4CA dist2
+__underflow               mpeg2enc_nosse    0x310   
+  2nd Level Cache Load Misses Retired                    0.06%      27         33939               0x000000000001CCD8 0x003           0x000000000001CBF8 __underflow
+_IO_sgetn                 mpeg2enc_nosse    0x1b    
+  2nd Level Cache Load Misses Retired                    0.04%      19         23883               0x000000000001DCA4 0x003           0x000000000001DBC4 _IO_sgetn
+ptputpict                 mpeg2enc_nosse    0x8b0   
+  2nd Level Cache Load Misses Retired                    0.03%      14         17598               0x0000000000004204 0x003           0x0000000000004124 ptputpict
+memcpy                    mpeg2enc_nosse    0x37    
+  2nd Level Cache Load Misses Retired                    0.04%      18         22626               0x00000000000240EC 0x003           0x000000000002400C memcpy
+ptitransform              mpeg2enc_nosse    0x2a2   
+  2nd Level Cache Load Misses Retired                    0.02%      9          11313               0x000000000000556A 0x003           0x000000000000548A ptitransform
+pttransform               mpeg2enc_nosse    0x2aa   
+  2nd Level Cache Load Misses Retired                    0.01%      7          8799                0x00000000000052C0 0x003           0x00000000000051E0 pttransform
+_IO_fread                 mpeg2enc_nosse    0xc7    
+  2nd Level Cache Load Misses Retired                    0.01%      7          8799                0x0000000000018F6C 0x003           0x0000000000018E8C _IO_fread
+_IO_vfprintf              mpeg2enc_nosse    0x3e94  
+  2nd Level Cache Load Misses Retired                    0.01%      5          6285                0x0000000000031B24 0x003           0x0000000000031A44 _IO_vfprintf
+put_bits                  mpeg2enc_nosse    0xa8    
+  2nd Level Cache Load Misses Retired                    0.01%      3          3771                0x00000000000102E2 0x003           0x0000000000010202 put_bits
+read_y_u_v                mpeg2enc_nosse    0x246   
+  2nd Level Cache Load Misses Retired                    0.01%      5          6285                0x0000000000001490 0x003           0x00000000000013B0 read_y_u_v
+write_buf                 mpeg2enc_nosse    0x7e    
+  2nd Level Cache Load Misses Retired                    0.01%      3          3771                0x0000000000010264 0x003           0x0000000000010184 write_buf
+_IO_default_xsputn        mpeg2enc_nosse    0x9c    
+  2nd Level Cache Load Misses Retired                    0.00%      2          2514                0x000000000001DC08 0x003           0x000000000001DB28 _IO_default_xsputn
+bdist2                    mpeg2enc_nosse    0x1c4   
+  2nd Level Cache Load Misses Retired                    0.00%      2          2514                0x000000000000BE9A 0x003           0x000000000000BDBA bdist2
+quant_intra               mpeg2enc_nosse    0x1c4   
+  2nd Level Cache Load Misses Retired                    0.05%      26         32682               0x000000000000FA1E 0x003           0x000000000000F93E quant_intra
+put_motioncode            mpeg2enc_nosse    0x44    
+  2nd Level Cache Load Misses Retired                    0.13%      64         80448               0x000000000000DD32 0x003           0x000000000000DC52 put_motioncode
+_IO_file_underflow        mpeg2enc_nosse    0x1cf   
+  2nd Level Cache Load Misses Retired                    0.00%      2          2514                0x000000000001AD60 0x003           0x000000000001AC80 _IO_file_underflow
+thread_work               mpeg2enc_nosse    0xc6    
+  2nd Level Cache Load Misses Retired                    0.00%      1          1257                0x00000000000066A0 0x003           0x00000000000065C0 thread_work
+_IO_file_xsgetn           mpeg2enc_nosse    0x17b   
+  2nd Level Cache Load Misses Retired                    0.00%      1          1257                0x000000000001B5B4 0x003           0x000000000001B4D4 _IO_file_xsgetn
+_IO_file_xsputn           mpeg2enc_nosse    0x22a   
+  2nd Level Cache Load Misses Retired                    0.00%      2          2514                0x000000000001B388 0x003           0x000000000001B2A8 _IO_file_xsputn
+_IO_funlockfile           mpeg2enc_nosse    0x1e    
+  2nd Level Cache Load Misses Retired                    0.00%      2          2514                0x0000000000040264 0x003           0x0000000000040184 _IO_funlockfile
+put_nonintrablk           mpeg2enc_nosse    0x86    
+  2nd Level Cache Load Misses Retired                    0.74%      362        455034              0x000000000000365E 0x003           0x000000000000357E put_nonintrablk
+put_mbtype                mpeg2enc_nosse    0x34    
+  2nd Level Cache Load Misses Retired                    0.00%      1          1257                0x000000000000DCFE 0x003           0x000000000000DC1E put_mbtype
+_IO_link_in               mpeg2enc_nosse    0xe9    
+  2nd Level Cache Load Misses Retired                    0.00%      1          1257                0x000000000001D874 0x003           0x000000000001D794 _IO_link_in
+put_cbp                   mpeg2enc_nosse    0x24    
+  2nd Level Cache Load Misses Retired                    0.02%      8          10056               0x000000000000DDBA 0x003           0x000000000000DCDA put_cbp
+__errno_location          mpeg2enc_nosse    0x23    
+  2nd Level Cache Load Misses Retired                    0.00%      1          1257                0x000000000001826C 0x003           0x000000000001818C __errno_location
+put_addrinc               mpeg2enc_nosse    0x58    
+  2nd Level Cache Load Misses Retired                    0.00%      2          2514                0x000000000000DCA6 0x003           0x000000000000DBC6 put_addrinc
+put_AC                    mpeg2enc_nosse    0x152   
+  2nd Level Cache Load Misses Retired                    0.00%      1          1257                0x000000000000DB54 0x003           0x000000000000DA74 put_AC
+__libc_malloc             mpeg2enc_nosse    0x1b3   
+  2nd Level Cache Load Misses Retired                    0.00%      1          1257                0x000000000001FC20 0x003           0x000000000001FB40 __libc_malloc
+_int_free                 mpeg2enc_nosse    0x3b6   
+  2nd Level Cache Load Misses Retired                    0.00%      1          1257                0x0000000000020760 0x003           0x0000000000020680 _int_free
+_int_malloc               mpeg2enc_nosse    0x4dc   
+  2nd Level Cache Load Misses Retired                    0.00%      1          1257                0x0000000000020284 0x003           0x00000000000201A4 _int_malloc
+bdist1                    mpeg2enc_nosse    0x1d6   
+  2nd Level Cache Load Misses Retired                    0.00%      1          1257                0x000000000000BCC4 0x003           0x000000000000BBE4 bdist1
+clearblock                mpeg2enc_nosse    0x1d6   
+  2nd Level Cache Load Misses Retired                    0.00%      1          1257                0x000000000000F600 0x003           0x000000000000F520 clearblock
+frame_ME                  mpeg2enc_nosse    0xfe2   
+  2nd Level Cache Load Misses Retired                    0.00%      1          1257                0x00000000000074E6 0x003           0x0000000000007406 frame_ME
+frame_estimate            mpeg2enc_nosse    0x29a   
+  2nd Level Cache Load Misses Retired                    0.00%      1          1257                0x0000000000009640 0x003           0x0000000000009560 frame_estimate
+pred                      mpeg2enc_nosse    0x106   
+  2nd Level Cache Load Misses Retired                    0.02%      8          10056               0x000000000000EB08 0x003           0x000000000000EA28 pred

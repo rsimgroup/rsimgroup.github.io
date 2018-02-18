@@ -1,0 +1,227 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="resource-type" content="document">
+<meta name="description"
+content="Ongoing research at Rice University on the impact of ILP (instruction-level parallelism) on shared-memory multiprocessing systems">
+<meta name="keywords"
+content="ILP multiprocessors RSIM computer architecture shared-memory multiprocessors multiprocessor parallel simulation methodology evaluation methodology prefetching superscalar dynamic scheduling execution-driven">
+<meta name="distribution" content="global">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<title>RSIM Home Page</title>
+<link rev="MADE" href="mailto:rsim@ece.rice.edu">
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="center">&nbsp;
+</p>
+
+<p align="center"><b><font size="6">Memory Consistency Models</font></b>
+</p>
+
+<hr>
+
+<p align="left">A memory consistency model for a shared-memory multiprocessor
+defines the order in which memory operations will appear to execute to a
+programmer, or in other words, the values a read may return [<a href="http://www.cs.uiuc.edu/~sadve/Publications/computer96.pdf">IEEE
+Computer tutorial</a>].&nbsp;</p>
+<p align="left"> Traditionally, memory consistency models have
+involved a significant tradeoff between performance (for the hardware and
+compiler) and
+programmability. My <a
+href="http://rsim.cs.uiuc.edu/~sadve/Publications/thesis.ps">dissertation</a>
+research (under Prof. Mark Hill at the University of Wisconsin-Madison) alleviates this tradeoff by showing how
+systems can use performance-enhancing techniques such as write
+buffers and out-of-order memory operations, but still allow
+programmers to reason with the simple model of sequential
+consistency.</p>
+<p align="left">As part of the <a href="http://www.cs.uiuc.edu/rsim">RSIM
+project</a>, I explored speculation techniques to narrow the hardware
+performance gap between sequential consistency (the simplest model) and relaxed
+memory consistency models 
+[<a HREF="http://www.cs.uiuc.edu/~sadve/Publications/asplos96.ps">ASPLOS'96,</a>
+<a HREF="http://www.cs.uiuc.edu/~sadve/Publications/spaa97.ps">SPAA'97,</a> <a HREF="http://www.cs.uiuc.edu/~sadve/Publications/ieee_proc99.ps">Proc. of
+the IEEE'99</a>].</p>
+<p align="left">With the Rice Treadmarks group, I also worked on consistency
+models for software distributed shared-memory systems [<a href="http://www.cs.uiuc.edu/~sadve/hpca2.ps">HPCA'96</a>].</p>
+<p align="left">I co-developed the
+<a href="http://rsim.cs.uiuc.edu/Pubs/popl05.pdf">Java memory model</a> (adopted 
+for Java 5.0 in 2005) and the default
+<a href="http://rsim.cs.uiuc.edu/Pubs/08PLDI.pdf">C++ memory model</a> 
+(currently in the process of standardization). Both are based on the foundation 
+of data-race-free models proposed in my PhD thesis.</p>
+<p align="left">&nbsp;</p>
+
+<h2><a name="Publications">Publications</a></h2>
+
+<ul type="disc">
+
+    <li><a href="../Pubs/08PLDI.pdf">Foundations of the C++ Concurrency Memory 
+	Model,</a> Hans-J. Boehm and Sarita V. Adve, to appear in the <i style>
+	Proceedings of the Conference on Programming Language Design and 
+	Implementation (PLDI),</i> June 2008. <br>
+&nbsp;</li>
+	<li><a href="http://rsim.cs.uiuc.edu/Pubs/popl05.pdf">The Java Memory Model</a>, 
+	Jeremy Manson, William Pugh, Sarita V. Adve, <i>Proceedings of the 32nd 
+	Symposium on Principles of Programming Languages (POPL) </i>Jan. 2005.<br>
+&nbsp;</li>
+	<li>
+	<a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/ieee_proc99.ps">Recent
+        Advances in Memory Consistency Models for Hardware
+        Shared-Memory Systems, </a>, S. V. Adve, V. S. Pai, and
+        P. Ranganathan, <i>Proceedings of the
+        IEEE, special issue on distributed shared-memory</i>,
+	vol. 87, no. 3,
+        March 1999, 445-455.<br><br></li>
+	<li>
+	<a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/isca90_retro.ps">A
+        Retrospective on &quot;Weak Ordering -- A New
+        Definition&quot;,</a> S. V. Adve and M. D. Hill, 25 Years
+        of the International Symposia on Computer Architecture -
+        Selected Papers (Gurindar S. Sohi, editor), ACM Press,
+        1998. <br><br></li>
+	<li>
+	<a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/models_framework.ps">Using
+        Information From the Programmer to Implement System
+        Optimizations Without Violating Sequential Consistency</a>, S.V. Adve, Rice University ECE Technical Report 9603,
+        March 1996, revised June 1998. (Submitted for
+        publication.) <br><br></li>
+	<li>
+	<a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/asplos98.ps">Performance
+        of Database Workloads on Shared-Memory Systems with
+        Out-of-Order Processors,</a> P. Ranganathan, K. Gharachorloo, S. V. Adve, and L. A.
+      Barroso, <i>Proceedings
+        of the 8th International Conference on Architectural
+        Support for Programming Languages and Operating Systems,</i>October
+        1998, 307-318. <br><br></li>
+	<li>
+	<a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/spaa97.ps">Using
+        Speculative Retirement and Larger Instruction Windows to
+        Narrow the Performance Gap between Memory Consistency
+        Models </a>, Parthasarathy Ranganathan, Vijay S. Pai, and
+        Sarita V. Adve, <i>Proceedings of the 9th Annual ACM
+        Symposium on Parallel Algorithms and Architectures</i>,
+        June 1997, 199-210. <br><br></li>
+	<li>
+	<a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/isca97.ps">The
+        Interaction of Software Prefetching with ILP Processors
+        in Shared-Memory Systems</a>, Parthasarathy Ranganathan,
+        Vijay S. Pai, Hazim Abdel-Shafi, and Sarita V. Adve, <i>Proceedings
+        of the 24th International Symposium on Computer
+        Architecture</i>, June 1997, 144-156. <br><br></li>
+	<li>
+	<a href="http://rsim.cs.uiuc.edu/~sadve/Publications/computer96.pdf">Shared
+        Memory Consistency Models: A Tutorial</a>, S.V. Adve and
+        K. Gharachorloo, Rice University ECE Technical Report
+        9512 and Western Research Laboratory Research Report
+        95/7, September 1995. A version of this paper appears in <i>IEEE
+        Computer</i>, December 1996, 66-76. <br><br></li>
+	<li>
+	<a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/asplos96.ps">An
+        Evaluation of Memory Consistency Models for Shared-Memory
+        Systems with ILP Processors</a>, Vijay S. Pai,
+        Parthasarathy Ranganathan, Sarita V. Adve, and Tracy Harton, <i>Proceedings of the 7th International
+        Conference on Architectural Support for Programming
+        Languages and Operating Systems (ASPLOS-VII),</i> October
+        1996, 12-23. <br><br></li>
+	<li><a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/hpca2.ps">A
+        Comparison of Entry Consistency and Lazy Release
+        Consistency Implementations</a>, S.V. Adve, A.L. Cox, S.
+        Dwarkadas, R. Rajamony, and W. Zwaenepoel, <i>Proceedings
+        of the 2nd International Symposium on High Performance
+        Computer Architecture,</i> February 1996, 26-37.<br><br></li>
+	<li>
+	<a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/isca_workshop_94.ps">Replacing
+        Locks by Higher-Level Primitives</a>, S.V. Adve, A.L.
+        Cox, S. Dwarkadas, and W. Zwaenepoel, Technical Report
+        #TR94-237, Department of Computer Science, Rice
+        University, 1994. Presented at the <i>Fourth Workshop on
+        Scalable Shared-Memory Multiprocessors,</i> Chicago, May
+        1994. <br><br></li>
+	<li>
+	<a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/thesis.ps">Designing
+        Memory Consistency Models for Shared-Memory
+        Multiprocessors</a>, S. V. Adve, Ph.D. Thesis, Available
+        as Computer Sciences Technical Report #1198, University
+        of Wisconsin, Madison, December 1993. <br><br></li>
+	<li>
+	<a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/spec_tr.ps">Specifying
+        System Requirements for Memory Consistency Models</a>, K. Gharachorloo,
+      S.V. Adve, A. Gupta, J.L. Hennessy, and
+        M.D. Hill, Technical Report #CSL-TR-93-594, Stanford
+        University, December 1993. Also available as Computer
+        Sciences Technical Report #1199, University of Wisconsin,
+        Madison, December 1993. <br><br></li>
+	<li>
+	<a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/plpc_tr.ps">Sufficient
+        System Requirements for Supporting the PLpc Memory Model</a>, S.V. Adve, K.
+      Gharachorloo, A. Gupta, J.L. Hennessy, and
+        M.D. Hill, Computer Sciences Technical Report #1200,
+        University of Wisconsin, Madison, December 1993. Also
+        available as Technical Report #CSL-TR-93-595, Stanford
+        University, December 1993.<br><br></li>
+	<li>
+	<a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/tpds93.ps">A
+        Unified Formalization of Four Shared-Memory Models</a>, S.V. Adve and M.D. Hill, 
+	<i>IEEE Transactions on Parallel
+        and Distributed Systems 4, 6</i> (June 1993), 613-624. <br><br></li>
+	<li>
+	<a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/drf1_tr.ps">Sufficient
+        Conditions for Implementing the Data-Race-Free-1 Memory
+        Model</a>, S.V. Adve and M.D. Hill, Computer Sciences
+        Technical Report #1107, University of Wisconsin, Madison,
+        September 1992. <br><br></li>
+	<li>
+	<a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/jpdc92.ps">Programming
+        for Different Memory Consistency Models</a>, K. Gharachorloo, S.V. Adve, A. Gupta,
+      J.L. Hennessy, and
+        M.D. Hill, <i>Journal of Parallel and Distributed
+        Computing,</i> August 1992, 399-407. <br><br></li>
+	<li>
+	<a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/isca91.dataraces.ps">Detecting
+        Data Races on Weak Memory Systems</a>, S.V. Adve, M.D.
+        Hill, B.P. Miller, and R.H.B. Netzer, <i>Proceedings of
+        the 18th Annual International Symposium on Computer
+        Architecture,</i> May 1991, 234-243. <br><br></li>
+	<li>
+	<a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/isca90.ps">Weak
+        Ordering - A New Definition</a>, S.V. Adve and M.D. Hill,
+        <i>Proceedings of the 17th Annual International Symposium
+        on Computer Architecture,</i> May 1990, 2-14. <br><br></li>
+	<li>
+	<a
+        href="http://rsim.cs.uiuc.edu/~sadve/Publications/icpp90.ps">Implementing
+        Sequential Consistency in Cache-Based Systems</a>, S.V.
+        Adve and M.D. Hill, <i>Proceedings of the 1990
+        International Conference on Parallel Processing,</i>
+        August 1990, I47-I50. <br></li>
+</ul>
+
+<p align="left">&nbsp;</p>
+
+<hr>
+
+<p><a href="http://www.cs.uiuc.edu/~sadve">Back to Sarita Adve's Home Page</a>
+</p>
+</body>
+</html>

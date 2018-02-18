@@ -1,0 +1,151 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Architectures for Multimedia and Communication</title>
+</head>
+
+<body>
+
+<p align="center"><b><font size="6">General-Purpose Architectures for&nbsp;</font></b></p>
+
+<p align="center"><b><font size="6"> Multimedia
+Applications</font></b></p>
+
+<hr>
+<p align="center"><b><font size="4">&nbsp;</font><font size="5">Overview</font></b></p>
+<p>Multimedia and communications applications are expected to form a large part of the workload
+on a growing number of systems, including future handheld computers, wireless telephones, laptop computers, desktop
+systems, wireless basestations, and network switches and routers. As these
+applications become more complex, several considerations argue for the use of general-purpose
+architectures for them (e.g., compiler-friendliness, upgradability, and
+portability). These
+applications, however,&nbsp; impose many new challenges for general-purpose
+architectures due to their real-time nature and stringent computation, energy,
+and bandwidth requirements, and due to the mobile, dynamic, and small
+form-factor platforms on which they often run.&nbsp;</p>
+<p><i>Our goal is to develop general-purpose architectures for multimedia and
+communications applications.</i> Our results so far and ongoing work are
+summarized below.</p>
+<p><b>Execution time predictability</b></p>
+<p>One commonly cited shortcoming of general-purpose processors is that their
+complex features (e.g., out-of-order issue) result in unpredictable execution
+times, making them unsuitable for real-time multimedia applications. Our <a href="http://www.cs.uiuc.edu/~sadve/Publications/isca01.ps">ISCA'01</a>
+paper tests this conjecture by examining execution time variability at the frame
+granularity for several multimedia applications. We find that while there is
+often some variability, it is mostly caused by the application algorithm and
+input. <i>In contrast to conventional wisdom, aggressive architectural features
+induce little additional variability and unpredictability.</i>&nbsp;<br>
+</p>
+<p><b>Hardware adaptation to save energy</b></p>
+<p>Frame-level execution time variability (seen in our <a href="http://www.cs.uiuc.edu/~sadve/Publications/isca01.ps">ISCA'01</a>
+paper) motivates frame-level hardware adaptation to save energy. We use our
+variability analysis from ISCA'01 to develop an adaptation control algorithm for
+two forms of hardware adaptation to save energy - architectural adaptation and
+dynamic voltage (and frequency) scaling or DVS. To our knowledge,<i> this is the
+first integrated algorithm to control both DVS and architecture adaptation
+targeted for multimedia applications.</i> We have evaluated the control
+algorithm and analyzed the interaction between the two forms of adaptation. The
+paper will appear in MICRO'01 and will be posted here shortly.<br>
+</p>
+<p><b>Analysis of media applications on current general-purpose processors</b></p>
+<p>Our <a href="http://www.cs.uiuc.edu/~sadve/Publications/isca99.ps">ISCA'99</a>
+paper was our first step in<i> understanding the performance of multimedia
+applications on general-purpose processors.</i> The paper finds that several conventional processor
+techniques that enhance instruction-level parallelism (ILP) and the recent media ISA extensions are generally effective for our media benchmarks.  The
+memory behavior of the benchmarks makes large caches generally ineffective, but software prefetching can often be used to substantially improve memory
+performance. After the use of software prefetching, our benchmarks become primarily compute (vs. memory) bound, motivating a focus on improving
+computation speed.</p>
+<p><b>Reconfigurable caches</b></p>
+<p>While caches are generally not effective for media applications, a large number of on-chip transistors will continue to be<br>
+devoted to caches for other general-purpose applications. Our <a href="http://www.cs.uiuc.edu/~sadve/Publications/isca00.ps">ISCA'00</a>
+paper proposes a <i> </i> new reconfigurable cache organization that allows the cache SRAM arrays to be
+dynamically divided into partitions that can be used for other processor activities. For media applications, we illustrate the use of such
+<i>reconfigurable caches for instruction memoization to improve computation speed.</i></p>
+<p><b>Evaluation tools and workloads</b></p>
+<p>Our previous work developed new architecture evaluation techniques and the <a href="http://www.cs.uiuc.edu/rsim">
+RSIM simulator</a>, the first publicly available simulator for ILP multiprocessor
+systems. We continue to develop new evaluation techniques
+and extend RSIM to improve both evaluation speed and functionality. We are also
+developing benchmark suites for multimedia and communications applications,
+which will be available with the next release of RSIM.</p>
+<p><b>Ongoing work</b></p>
+<p>We are currently working on various aspects related to the design of
+general-purpose architectures for multimedia and communications applications. We take an integrated systems approach that
+considers the network, operating system, and application layers. Our ongoing
+work includes integrating our hardware adaptation control algorithm with the
+rest of the system, architecture-aware real-time scheduling, and exploiting
+special features of multimedia and communications applications for increased
+performance, energy savings, and reliability.</p>
+&nbsp;
+<hr>
+<p align="center"><b><font size="5">People</font></b></p>
+<p><b>Faculty:</b>&nbsp;<br style="text-indent: 3">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.cs.uiuc.edu">Sarita Adve</a></p>
+<p><b>Students:</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.rsim.uiuc.edu/~cjhughes">Christopher J. Hughes</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://rsim.cs.uiuc.edu/~rjain2">Rohit Jain</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://rsim.cs.uiuc.edu/~sasanka">Ruchira Sasanka</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://rsim.cs.uiuc.edu/~srinivsn">Jayanth Srinivasan</a></p>
+<p><b>Alumni:</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.ece.rice.edu/~parthas">Parthasarathy Ranganathan,</a> Ph.D. 2000
+(Rice University),&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Ph.D. Thesis: <a href="http://www.cs.uiuc.edu/~sadve/Theses/partha-ranganathan.phd.ps"> General-Purpose Architectures for Media Processing and
+Database Workloads</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+First employment: Compaq Western Research Laboratory<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Praful Kaul, M.S. 2000<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+M.S. Thesis: <a href="http://www.cs.uiuc.edu/~sadve/Theses/praful-kaul.ms.pdf">Variability in the Execution of Multimedia
+Applications and Implications for Architecture&nbsp;</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+First employment: Transmeta Corporation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><b>Visitors:</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chanik Park, Seoul National University, visiting from 2000-01</p>
+<p>&nbsp;</p>
+<hr>
+<p align="center"><b><font size="5">Publications</font></b></p>
+<a href="http://www.cs.uiuc.edu/~sadve/Publications/micro34.pdf">Saving Energy
+with Architectural and Frequency Adaptations for Multimedia Applications,</a> C.
+J. Hughes, J. Srinivasan, and S. V. Adve, To appear in the <i>Proceedings of the
+34th International Symposium on Microarchitecture (MICRO-34)</i>, December 2001.
+<a href="http://www.cs.uiuc.edu/~sadve/Publications/micro34-supplement.ps">Click
+here for supplemental data.</a><br>
+<br>
+<a href="http://rsim.cs.uiuc.edu/~sadve/Publications/isca01.ps">Variability in
+the Execution of Multimedia Applications and Implications for Architecture</a>,
+C. J. Hughes, P. Kaul, S. V. Adve, R. Jain, C. Park, and J. Srinivasan, <i>Proceedings
+of the 28th International Symposium on Computer Architecture</i>, June 2001,
+254-265.<br>
+<br>
+<a href="http://rsim.cs.uiuc.edu/~sadve/Publications/isca00.pdf">Reconfigurable
+Caches and their Application to Media Processing</a>, P. Ranganathan, S. Adve,
+and N. P. Jouppi, <i>Proceedings of the 27th International Symposium on Computer
+Architecture</i>, June 2000, 214-224.<br>
+<br>
+<a href="http://rsim.cs.uiuc.edu/~sadve/Publications/isca99.ps">Performance of
+Image and Video Processing with General-Purpose Processors and Media ISA
+Extensions </a>, P. Ranganathan, S. Adve, and N. P. Jouppi, <i>Proceedings of
+the 26th International Symposium on Computer Architecture</i>, May 1999,
+124-135.<br>
+<br>
+<hr>
+<p align="center"><b><font size="5">Funding</font></b></p>
+<p>This project is funded by the Alfred P. Sloan Research Foundation, the
+National Science Foundation CCR-0096126, and the University of Illinois.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>

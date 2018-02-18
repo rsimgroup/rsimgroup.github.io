@@ -1,0 +1,108 @@
+<head>
+<title>SWAT Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+span.MsoHyperlink
+	{color:#333366;
+	text-decoration:underline;
+	text-underline:single;}
+span.SpellE
+	{}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#333366" link="#333366" vlink="#993300" alink="#CC6600">
+<table width="800" border="0" cellpadding="0" cellspacing="0" height="909">
+  <tr align="left" valign="bottom"> 
+    <td colspan="3" width="800" height="75"> <p>
+    <img src="swat.gif" width="800" height="75"></p></td>
+  </tr>
+  <tr align="left" valign="top"> 
+    <td width="137" bordercolor="#e7ebf0" bgcolor="#e7ebf0" rowspan="2" height="834"> <p><font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><b><br>
+        &nbsp;</b></font></p>
+    <p><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif"><b>
+    <a href="http://rsim.cs.uiuc.edu">Group Home</a></b></font></p>
+<p>
+    <font face="Geneva, Arial, Helvetica,
+	sans-serif"></font></b></a><b><font face="Geneva, Arial, Helvetica,
+	sans-serif"> SWAT Home</font></b></p>
+    <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+    <a href="people.html">People</a></font></b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif"><b> </b></font></p>
+      <p><b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="pubs.html">Publications</a></font></b></p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="funding.html">Funding</a></font></b><br>
+        <font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><br>
+        <br>
+        </font></p>
+      </td>
+    <td width="7" height="309">&nbsp;</td>
+    <td width="664" height="834" rowspan="2"> 
+    <font SIZE="2">&nbsp;</font><font size="3"><p>
+	The SWAT project deals with devising low-overhead reliability solutions
+	that handle multiple sources of failure.  </p>
+    
+<p>
+As devices continue to scale, future shipped hardware is more likely to fail
+due to in-the-field hardware faults. As traditional redundancy-based hardware
+reliability solutions are too expensive to be broadly deployable, recent
+research has focused on low-overhead reliability solutions. One approach is to
+employ detection (always-on) techniques that detect errors due to multiple
+sources of failure with a low-overhead and pay a higher overhead for diagnosis
+(rarely invoked).
+</p>
+
+<p>
+To this end, we are developing SWAT (SoftWare Anomaly Treatment) -- a low-cost
+firmware-level reliability solution that effectively handles multiple sources
+of faults. We observe that detecting the effect of faults through monitoring
+anomalous software behavior results in a low-overhead detection scheme that is
+capable of handing multiple sources of hardware faults. Our results indicate
+that such simple detection schemes detect over 95% of the permanent hardware
+faults in the underlying processor. We also show that using more sophisticated
+detection schemes, such as using software-level invariants, further improves
+this coverage by reducing the advent of SDC events. Post-detection, diagnosis
+is required to isolate both the type of fault (hardware or software). In the 
+case of a hardware fault, diagnosis is also responsible for  identifying the 
+faulty microarchitectural component so that the entire core is not 
+decomissioned. We present such a diagnosis framework that exploits a
+checkpoint/replay based recovery mechanism to identify the faulty unit. We
+show that over 96% of the detected faults can be correctly diagnosed to effect
+fine-grain reconfiguration/repair.
+</p>
+
+<p>
+We continue to expand the SWAT infrastructure to multicore and multithreaded
+environments, to enhance the resilience of such systems as well. We envision
+that future systems would require low-overhead schemes, such as SWAT, to provide
+for heightened resilience with the advent of a plethora of failure modes.
+</p>
+
+<hr>
+<p>
+<b><font size=4>
+We are looking for a 
+<a href="http://www.cs.illinois.edu/info/SWATPostDocSearch.php">postdoc</a> or 
+<a href="http://www.cs.illinois.edu/info/search12307.php">programmer</a> for 
+this project. Please contact 
+<a href=mailto:sadve@illinois.edu>Prof. Sarita Adve</a>
+if you are interested.
+</b></font>
+</p>
+
+
+  </tr>
+  <tr align="left" valign="top"> 
+    <td width="7" height="525"><FONT color="#333366" 
+                  face="Verdana, Arial, Helvetica, sans-serif"><br>
+      </FONT></td>
+  </tr>
+</table>
+</body>
+</html>

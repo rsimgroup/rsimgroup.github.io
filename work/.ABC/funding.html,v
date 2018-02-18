@@ -1,0 +1,113 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2008.02.25.20.39.16;	author pramach2;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2008.02.25.16.22.03;	author pramach2;	state Exp;
+branches;
+next	;
+
+
+desc
+@ls
+ls
+pwd
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>SWAT Funding</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+span.MsoHyperlink
+	{color:#333366;
+	text-decoration:underline;
+	text-underline:single;}
+span.SpellE
+	{}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#333366" link="#333366" vlink="#993300" alink="#CC6600">
+<table width="800" border="0" cellpadding="0" cellspacing="0" height="909">
+  <tr align="left" valign="bottom"> 
+    <td colspan="3" width="800" height="75"> <p>
+    <img src="swat.gif" width="800" height="75"></p></td>
+  </tr>
+  <tr align="left" valign="top"> 
+    <td width="137" bordercolor="#e7ebf0" bgcolor="#e7ebf0" rowspan="2" height="834"> <p><font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><b><br>
+        &nbsp;</b></font></p>
+    <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+    <a href="http://rsim.cs.uiuc.edu/swat">SWAT Home</a></font></b></p>
+    <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+    <a href="./people.html">People</a></font></b><font color="#333366" face="Geneva, Arial, 
+Helvetica, sans-serif"><b> </b></font></p>
+      <p><b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="./pubs.html">Publications</a></font></b></p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="./funding.html">Funding</a></font></b><br>
+        <font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><br>
+        <br>
+        </font></p>
+      </td>
+    <td width="7" height="309">&nbsp;</td>
+    <td width="664" height="834" rowspan="2"> 
+
+    <p>
+
+    <p class="MsoNormal"><b><span style="font-size:18.0pt;font-family:Arial">
+
+	Funding</span></b> </p> <p style="text-align:justify">
+
+	This research is/was supported in part by the Gigascale Ssytems Research
+	Center (funded under FCRP, an SRC program), the National Science Foundation
+	under Grants NSF CCF 05-41383, CNS 07-20743, and NGS 04-06351, and an
+	equipment donation from AMD. </p>
+
+
+
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='color:windowtext'>&nbsp;<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a31 2
+    <p><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif"><b>
+    <a href="http://rsim.cs.uiuc.edu">Group Home</a></b></font></p>
+@

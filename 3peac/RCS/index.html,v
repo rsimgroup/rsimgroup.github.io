@@ -1,0 +1,589 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2003.03.28.22.52.25;	author sadve;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.03.28.15.43.22;	author sadve;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="index_files/filelist.xml">
+<link rel=Edit-Time-Data href="index_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>3PEAC Home</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Jayanth Srinivasan</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Sarita V. Adve</o:LastAuthor>
+  <o:Revision>62</o:Revision>
+  <o:TotalTime>147</o:TotalTime>
+  <o:Created>2003-03-28T15:43:00Z</o:Created>
+  <o:LastSaved>2003-03-28T18:57:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>723</o:Words>
+  <o:Characters>4125</o:Characters>
+  <o:Company>Dept. of Computer Science, University of Illinois</o:Company>
+  <o:Lines>34</o:Lines>
+  <o:Paragraphs>9</o:Paragraphs>
+  <o:CharactersWithSpaces>4839</o:CharactersWithSpaces>
+  <o:Version>10.3501</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@@font-face
+	{font-family:Geneva;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-alt:Arial;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:536871559 0 0 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:#333366;}
+a:link, span.MsoHyperlink
+	{color:#333366;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#993300;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:#333366;}
+tt
+	{font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:"Courier New";
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @@list l0
+	{mso-list-id:295373045;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1962483802 110405970 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.65in;
+	mso-level-number-position:left;
+	margin-left:.65in;
+	text-indent:-.15in;
+	font-family:Symbol;}
+@@list l1
+	{mso-list-id:881787741;
+	mso-list-template-ids:-1962483802;}
+@@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.35in;
+	mso-level-number-position:left;
+	margin-left:.35in;
+	text-indent:-.15in;
+	font-family:Symbol;}
+@@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@@list l2
+	{mso-list-id:1007517640;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-2429318 110405970 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.65in;
+	mso-level-number-position:left;
+	margin-left:.65in;
+	text-indent:-.15in;
+	font-family:Symbol;}
+@@list l3
+	{mso-list-id:1754937022;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1788023092 110405970 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.65in;
+	mso-level-number-position:left;
+	margin-left:.65in;
+	text-indent:-.15in;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="3074"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white lang=EN-US link="#333366" vlink="#993300" style='tab-interval:
+.5in' alink="#CC6600">
+
+<div class=Section1>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="91%"
+ style='width:91.5%;mso-cellspacing:0in;mso-padding-alt:0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0'>
+  <td width="100%" colspan=2 valign=bottom style='width:100.0%;padding:0in 0in 0in 0in'>
+  <p><img width=800 height=75 id="_x0000_i1025"
+  src="http://rsim.cs.uiuc.edu/3peac/3peac.gif"></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:47.4pt'>
+  <td width="20%" valign=top style='width:20.16%;background:#E7EBF0;padding:
+  0in 0in 0in 0in;height:47.4pt'>
+  <p><b><span style='font-size:10.0pt;font-family:Geneva'><br>
+  </span></b><b><span style='font-family:Arial'><a
+  href="http://rsim.cs.uiuc.edu/rsim_new">RSIM home</a></span></b></p>
+  <p>&nbsp;</p>
+  <p><b><span style='font-family:Arial'><a
+  href="http://rsim.cs.uiuc.edu/3peac/3peac_people.html">People</a></span></b></p>
+  <p><b><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  <p><b><span style='font-family:Arial'><a
+  href="http://rsim.cs.uiuc.edu/3peac/3peac_research.html">Results</a> </span></b></p>
+  <p>&nbsp;</p>
+  <p><b><span style='font-family:Arial'><a
+  href="http://rsim.cs.uiuc.edu/3peac/3peac_pubs.html">Papers</a></span></b></p>
+  <p>&nbsp;</p>
+  <p><b><span style='font-family:Arial'><a
+  href="http://rsim.cs.uiuc.edu/3peac/3peac_funding.html">Funding</a><o:p></o:p></span></b></p>
+  <p>&nbsp;</p>
+  <p><b><span style='font-family:Arial'><a
+  href="http://rsim.cs.uiuc.edu/3peac/3peac_links.html">Links</a></span></b></p>
+  </td>
+  <td width="79%" valign=top style='width:79.84%;background:#F5F8FB;padding:
+  0in 0in 0in 0in;height:47.4pt'>
+  <p class=MsoNormal>&nbsp; </p>
+  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='font-size:27.0pt;mso-bidi-font-size:12.0pt;font-family:Arial'>4-PEACs</span></b><b><span
+  style='font-size:16.0pt;mso-bidi-font-size:12.0pt;font-family:Arial'><o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='font-size:16.0pt;mso-bidi-font-size:12.0pt;font-family:Arial'>P</span></b><span
+  style='font-size:16.0pt;mso-bidi-font-size:12.0pt;font-family:Arial'>redictable,
+  <b>P</b>ower-efficient, <b style='mso-bidi-font-weight:normal'>P</b>rogrammable
+  <b>P</b>erformance for <o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='font-size:16.0pt;mso-bidi-font-size:12.0pt;font-family:Arial'>E</span></b><span
+  style='font-size:16.0pt;mso-bidi-font-size:12.0pt;font-family:Arial'>merging <span
+  class=SpellE><b>A</b>ppli<b>C</b>ations</span></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><br>
+  <b>Directed by: <a href="mailto:sadve@@cs.uiuc.edu">Sarita V. Adve</a></b></p>
+  <p align=center style='text-align:center'><i><a href="http://www.cs.uiuc.edu/">Department
+  of Computer Science</a> <br>
+  <a href="http://www.uiuc.edu/">University of Illinois at Urbana-Champaign</a><br
+  clear=all>
+  <a href="mailto:rsim@@cs.uiuc.edu"><span style='font-style:normal'>rsim@@cs.uiuc.edu</span></a></i></p>
+  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+  normal'>Background:</b> Multimedia, communications, and network applications
+  are an increasingly important workload for a growing number of systems (e.g.,
+  future handheld, laptop, and desktop systems, wireless phones and base stations,
+  and network switches and routers). As these applications become more complex
+  and follow evolving standards, considerations such as programmability, <span
+  class=SpellE>upgradability</span>, and portability become more important. As
+  a result, general-purpose architectures become increasingly attractive over
+  special-purpose designs.</p>
+  <p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+  normal'>Challenges:</b> Our target applications impose many new challenges
+  for general-purpose architectures:</p>
+  <p class=MsoNormal style='margin-left:.65in;text-align:justify;text-indent:
+  -.15in;mso-list:l2 level1 lfo1;tab-stops:list .65in'><![if !supportLists]><span
+  style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+  Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span></span><![endif]>They have high <b style='mso-bidi-font-weight:
+  normal'>performance </b>demands.</p>
+  <p class=MsoNormal style='margin-left:.65in;text-align:justify;text-indent:
+  -.15in;mso-list:l2 level1 lfo1;tab-stops:list .65in'><![if !supportLists]><span
+  style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+  Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span></span><![endif]>They often run on mobile and small form factor
+  devices, demanding high <b style='mso-bidi-font-weight:normal'>power </b>efficiency
+  (including energy and thermal efficiency).</p>
+  <p class=MsoNormal style='margin-left:.65in;text-align:justify;text-indent:
+  -.15in;mso-list:l2 level1 lfo1;tab-stops:list .65in'><![if !supportLists]><span
+  style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+  Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span></span><![endif]>Their real-time nature requires performance to
+  be <b style='mso-bidi-font-weight:normal'>predictable</b>. This is even more
+  challenging since they often run on platforms with dynamic changes in the
+  availability of resources (e.g., computation, energy, and bandwidth).</p>
+  <p class=MsoNormal style='margin-left:.65in;text-align:justify;text-indent:
+  -.15in;mso-list:l2 level1 lfo1;tab-stops:list .65in'><![if !supportLists]><span
+  style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+  Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span></span><![endif]>The above criteria must be met preserving the
+  advantages of <b style='mso-bidi-font-weight:normal'>programmability</b> of
+  general-purpose processors.</p>
+  <p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+  normal'>Goal: </b>Our goal is to develop architectures that will deliver the
+  high <b style='mso-bidi-font-weight:normal'>p</b>erformance required for our
+  target applications, but in a <b style='mso-bidi-font-weight:normal'>p</b>redictable,
+  <b style='mso-bidi-font-weight:normal'>p</b>ower-efficient, and easy-to-<b
+  style='mso-bidi-font-weight:normal'>p</b>rogram way. We refer to these
+  criteria as the 4-P criteria.</p>
+  <p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+  normal'>Opportunities: </b>Because we start with general-purpose
+  architectures, we can exploit advances from conventional applications, and
+  conversely, many of the techniques we develop are also useful for
+  conventional applications. However, our focus on our target application
+  domain allows us to exploit some of their unique properties that lead to
+  novel solutions:</p>
+  <p class=MsoNormal style='margin-left:.65in;text-align:justify;text-indent:
+  -.15in;mso-list:l0 level1 lfo2;tab-stops:list .65in'><![if !supportLists]><span
+  style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+  Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span></span><![endif]>Since these applications are <b
+  style='mso-bidi-font-weight:normal'>real-time</b>, as long as their deadlines
+  are met, we can slow the system down to conserve resources.</p>
+  <p class=MsoNormal style='margin-left:.65in;text-align:justify;text-indent:
+  -.15in;mso-list:l0 level1 lfo2;tab-stops:list .65in'><![if !supportLists]><span
+  style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+  Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span></span><![endif]>These applications can often operate at
+  different performance levels, enabling a systematic tradeoff between<b
+  style='mso-bidi-font-weight:normal'> user <span class=GramE>experience</span>
+  vs. resource usage</b> (e.g., video quality vs. energy consumption).</p>
+  <p class=MsoNormal style='margin-left:.65in;text-align:justify;text-indent:
+  -.15in;mso-list:l0 level1 lfo2;tab-stops:list .65in'><![if !supportLists]><span
+  style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+  Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span></span><![endif]>Their computations are usually <b
+  style='mso-bidi-font-weight:normal'>periodic</b> (frame-based) and easier to
+  predict through techniques such as profiling, allowing the system to intelligently
+  adapt for predicted future demands.</p>
+  <p class=MsoNormal style='margin-left:.65in;text-align:justify;text-indent:
+  -.15in;mso-list:l0 level1 lfo2;tab-stops:list .65in'><![if !supportLists]><span
+  style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+  Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span></span><![endif]>They have significant <b style='mso-bidi-font-weight:
+  normal'>parallelism</b> at multiple levels, allowing us to exploit on-chip multiprocessing
+  and multithreading. </p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+  normal'>Key Themes: </b>The key themes in our current and ongoing work are:</p>
+  <p class=MsoNormal style='margin-left:.65in;text-align:justify;text-indent:
+  -.15in;mso-list:l3 level1 lfo4;tab-stops:list .65in'><![if !supportLists]><span
+  style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+  Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>Adaptive
+  hardware:</b> Changing application requirements and resource availability
+  motivate adaptive hardware that can respond to these changes to provide the
+  best output quality given the current resources. Our current focus is primarily
+  on dynamic energy and temperature management. Our work involves the adaptive
+  design of various architectural resources and a coherent framework to control
+  multiple adaptive hardware resources to provide a targeted performance vs.
+  energy/temperature tradeoff.</p>
+  <p class=MsoNormal style='margin-left:.65in;text-align:justify;text-indent:
+  -.15in;mso-list:l3 level1 lfo4;tab-stops:list .65in'><![if !supportLists]><span
+  style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+  Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>Multithreading
+  and multiprocessing:</b> Several of our target applications are inherently
+  multithreaded; e.g., a video teleconferencing application consists of several
+  video and speech encoders and decoders and each of these has significant
+  parallelism. We are investigating on-chip multithreading and multiprocessing
+  to best achieve our 4-P criteria.</p>
+  <p class=MsoNormal style='margin-left:.65in;text-align:justify;text-indent:
+  -.15in;mso-list:l3 level1 lfo4;tab-stops:list .65in'><![if !supportLists]><span
+  style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+  Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span></span><![endif]><b style='mso-bidi-font-weight:normal'>Cross-layer
+  adaptation:</b> Besides the hardware, we expect other system layers
+  (operating system, network, and applications) also to be adaptive. To achieve
+  a globally optimal solution, it will be crucial for all the adaptive layers
+  in a system to coordinate their adaptations with each other. We are working
+  on such a coordinated, cross-layer adaptive system, called <a
+  href="http://www.cs.uiuc.edu/grace">GRACE</a>, with researchers in OS,
+  networking, and applications.</p>
+  <p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal style='text-align:justify'>For more specific results and
+  ongoing work, please see our <a
+  href="http://rsim.cs.uiuc.edu/4peacs/4peacs-research.html">research results</a>
+  and <a href="http://rsim.cs.uiuc.edu/4peacs/4peacs-pubs.html">publications</a>
+  pages.<o:p></o:p></p>
+  <p class=MsoNormal><span style='font-family:Verdana'>&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='color:windowtext'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d9 4
+a12 4
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./index_files/filelist.xml">
+<link rel=Edit-Time-Data href="./index_files/editdata.mso">
+d26 5
+a30 5
+  <o:LastAuthor>Jayanth Srinivasan</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>5</o:TotalTime>
+  <o:Created>2003-03-20T23:07:00Z</o:Created>
+  <o:LastSaved>2003-03-21T15:37:00Z</o:LastSaved>
+d32 2
+a33 2
+  <o:Words>296</o:Words>
+  <o:Characters>1692</o:Characters>
+d35 4
+a38 4
+  <o:Lines>14</o:Lines>
+  <o:Paragraphs>3</o:Paragraphs>
+  <o:CharactersWithSpaces>2077</o:CharactersWithSpaces>
+  <o:Version>9.2720</o:Version>
+d40 6
+d50 7
+d74 1
+a74 1
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+d92 2
+a93 2
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+d102 2
+a103 1
+	{mso-ascii-font-family:"Courier New";
+d107 6
+d121 108
+d231 18
+a248 2
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027"/>
+d260 3
+a262 3
+<table border=0 cellspacing=0 cellpadding=0 width="91%" style='width:91.5%;
+ mso-cellspacing:0in;mso-padding-alt:0in 0in 0in 0in'>
+ <tr>
+d268 1
+a268 1
+ <tr style='height:47.4pt'>
+d277 1
+a277 1
+  <p><b><span style='font-family:Arial'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+d279 1
+a279 1
+  href="http://rsim.cs.uiuc.edu/3peac/3peac_research.html">Research</a></span></b></p>
+d293 2
+a294 2
+  <p class=MsoNormal align=center style='text-align:center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+d296 1
+a296 1
+  style='font-size:27.0pt;mso-bidi-font-size:12.0pt;font-family:Arial'>3-PEAC</span></b><b><span
+d300 8
+a307 3
+  style='font-size:16.0pt;mso-bidi-font-size:12.0pt;font-family:Arial'>redictable
+  and <b>P</b>ower efficient <b>P</b>erformance for <b>E</b>merging <b>A</b>ppli<b>C</b>ations</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+d315 132
+a446 23
+  <p class=MsoNormal align=center style='text-align:center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal align=center style='text-align:center'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal style='text-align:justify'>Multimedia, communication, and
+  network applications are expected to form a large part of the workload on a
+  growing number of systems, including future handheld computers, wireless
+  telephones, laptop computers, desktop systems, wireless basestations, and
+  network switches and routers. As these applications become more complex,
+  several considerations argue for the use of general-purpose architectures for
+  them (e.g., compiler-friendliness, upgradability, and portability). These
+  applications, however, impose many new challenges for general-purpose
+  architectures due to their real-time nature and stringent computation,
+  energy, and bandwidth requirements, and due to the mobile, dynamic, and small
+  form-factor platforms on which they often run. </p>
+  <p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal style='text-align:justify'>Our goal is to develop
+  general-purpose architectures for multimedia and communications applications.
+  Key to this development is insight into the performance of these applications
+  on general-purpose architectures. We exploit predictable behavior features in
+  these applications to drive hardware adaptation algorithms for performance
+  and power optimization. </p>
+  <p class=MsoNormal style='text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal style='text-align:justify'>Our results and ongoing work is
+  discussed in the research section.</p>
+d452 1
+a452 1
+<p class=MsoNormal><span style='color:windowtext'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+@

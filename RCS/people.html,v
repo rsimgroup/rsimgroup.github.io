@@ -1,0 +1,2053 @@
+head	1.30;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.30
+date	2014.11.16.21.14.13;	author mdsincl2;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2014.10.28.18.35.41;	author mdsincl2;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2014.07.14.20.52.16;	author komurav1;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2014.03.30.03.27.14;	author amahmou2;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2014.03.30.03.25.25;	author amahmou2;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2014.01.20.18.00.52;	author mdsincl2;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2013.10.08.21.41.05;	author mdsincl2;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2013.07.13.16.43.48;	author shari2;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2013.06.17.17.39.29;	author mdsincl2;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2013.06.12.16.05.05;	author mdsincl2;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2013.06.06.18.35.10;	author mdsincl2;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2013.06.06.17.39.35;	author mdsincl2;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2013.06.06.17.27.27;	author mdsincl2;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2011.11.04.16.49.33;	author mdsincl2;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2011.10.28.03.06.18;	author bynchoi1;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2011.10.18.17.46.45;	author bynchoi1;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2011.05.06.21.34.05;	author shari2;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2011.05.06.21.28.23;	author shari2;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2011.01.20.06.14.01;	author sung12;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2010.12.22.02.56.37;	author manlapli;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2010.03.03.16.04.37;	author shari2;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2010.03.03.16.01.30;	author shari2;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2010.03.03.15.22.28;	author shari2;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2010.02.28.20.12.34;	author shari2;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2009.12.07.02.03.18;	author shari2;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2009.12.07.01.40.05;	author shari2;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2009.04.06.18.51.11;	author manlapli;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2009.03.13.16.35.50;	author komurav1;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2008.08.22.21.18.29;	author manlapli;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2008.08.22.20.57.00;	author manlapli;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.30
+log
+@Trying to get John's picture to work.
+@
+text
+@<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Sarita Adve's Group: People</title>
+<link href="style/style1.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.style4 {
+  font-size: medium;
+}
+.projects {
+  font-size: medium;
+}
+.style5 {
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right: 1px solid #C0C0C0;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom: 1px solid #C0C0C0;
+}
+ol {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  position: absolute;
+  display: none;
+
+}
+.style8 {
+  color: #FFFFFF;
+  text-align: center;
+}
+td.projects:hover ol, td.projects.over ol {
+  display: block;
+}
+.style9 {
+  text-decoration: none;
+}
+a.style9:hover{
+  opacity: 0.8;
+  filter:alpha(opacity=80);
+}
+.style10 {
+  color: #CCCCCC;
+}
+.style11 {
+  color: #FFFFFF;
+}
+.style12 {
+  text-align: left;
+}
+.style13 {
+  text-align: right;
+}
+</style>
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="header_column">
+      <table width="100%" border="0" cellspacing="10" cellpadding="0">
+        <tr>
+          <td class="logo_area" style="font-size: x-large">
+            <strong><a class="style9" href="index.html"><span class="style11">Sarita Adve's Research Group</span></a></strong></td>
+          <th class="logo_area" rowspan="2">
+            <img src="images_template1/bold50.gif" alt=""></img>
+          </th>
+          <!-- <td width="300"> -->
+          <!--   <form id="form1" name="form1" method="post" action=""> -->
+          <!--    Search the website <br /> -->
+          <!--     <input name="search_text" type="text" id="search_text" /> -->
+          <!--     <input type="submit" name="Submit" value="Search" /> -->
+          <!--   </form> -->
+          <!-- </td> -->
+        </tr>
+        <tr>
+          <th class="sub_logo_area">
+            <a class="style9" href="http://illinois.edu"><span class="style10">University of Illinois at Urbana-Champaign
+            </span></a>
+          </th>
+        </tr>
+    </table></td>
+    <td class="shadow_right">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="horizontal_column">&nbsp;</td>
+    <td >
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" class="linkcontainer">
+        <tr>
+          <td class="projects">
+            <div class="navigation" style="font-size: medium"> <a href="projects.html" class="main_link">Projects</a></div>
+            <ol>
+              <li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/swat"> SWAT  </a> </li>
+              <li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/denovo"> DeNovo </a> </li>
+              <li class="style8"> <a class="main_link" href="http://dpj.cs.uiuc.edu/DPJ/Home.html"> DPJ </a> </li>
+              <li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/heterogeneous"> Heterogeneous Computing </a> </li>
+              <li class="style8"> <a class="main_link" href="projects.html#matured"> Matured Projects </a> </li>
+            </ol>
+          </td>
+          <!-- <td><div class="navigation"><a href="#" class="main_link">DeNovo Home</a></div></td> -->
+          <td class="style4">
+            <div class="navigation" style="font-size: medium"><a class="main_link" href="people.html">People</a></div>
+          </td>
+          <td>
+            <div class="navigation" style="font-size: medium"><a href="pubs.html" class="main_link">Publications</a></div>
+          </td>
+          <td>
+            <div class="navigation" style="font-size: medium"><a href="software.html" class="main_link">Software</a></div>
+          </td>
+          <td>
+            <div class="navigation" style="font-size: medium"><a href="funding.html" class="main_link">Funding</a></div>
+          </td>
+          <td>
+            <div class="navigation" style="font-size: medium"><a href="news.html" class="main_link">News</a></div>
+          </td>
+        </tr>
+      </table>
+
+    </td>
+    <td class="horizontal_column">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="main_content_box">
+      <table width="100%" cellspacing="0" cellpadding="0" class="style5">
+        <tr>
+          <td class="body_content" style="font-size: small; text-align: center;" valign="top">
+            <p class="style12" style="margin-top: 5px;"><b>
+              <span style="font-size: 18pt; font-family: Arial;">People</span></b>
+            </p>
+            <p class="style12">
+              <b><span style="font-size: 13.5pt; font-family: Arial;">Faculty</span></b>
+            </p>
+            <table align="left" style="width: 50%; height: 104px;">
+              <tr>
+                <td class="style13" style="width: 50%">
+                  <img alt="Sarita's Picture" height="100" src="images/sadve.jpg" width="100" /></td>
+                <td class="style12" style="width: 50%">
+                  <a href="http://www.cs.uiuc.edu/~sadve" style="color: rgb(51, 51, 102); text-decoration: underline;">Sarita V. Adve</a>
+                </td>
+              </tr>
+            </table>
+            <p class="style12" style="margin-left: 0.5in;">
+              &nbsp;
+            </p>
+            <p class="style12">
+              &nbsp;
+            </p>
+            <p class="style12">
+              &nbsp;
+            </p>
+            <p class="style12">
+              &nbsp;
+            </p>
+            <!--
+            <p class="style12"><b>
+                <span style="font-size: 13.5pt; font-family: Arial;">Current post-doc and researcher</span></b>
+            </p>
+            <table style="width: 100%">
+              <tr>
+                <td class="style13" style="width: 25%">
+                  <img alt="Xin's Picture" height="105" src="images/xin.jpg" width="100" /></td>
+                <td class="style12" style="width: 25%">
+                  <a href="http://rsim.cs.uiuc.edu/~xfu">Xin Fu</a></td>
+                <td class="style13" style="width: 25%">
+                  <img alt="Lei's Picture" height="100" src="images/LeiChen.jpg" width="100" /></td>
+                <td class="style12" style="width: 25%">
+                  <a href="mailto:lechen@@illinois.edu">Lei Chen</a></td>
+              </tr>
+            </table>
+            <br />
+            -->
+            <p class="style12"><b>
+              <span style="font-size: 13.5pt; font-family: Arial;">Current graduate students</span></b>
+            </p>
+            <table style="width: 100%">
+              <tr>
+                <!-- Rakesh Komuravelli Entry -->
+                <td class="style13" style="width: 25%">
+                  <img alt="Rakesh's Picture" height="111" width="100" src="images/rakesh.JPG" />
+                </td>
+                <td class="style12" style="width: 25%">
+                  <a href="http://rsim.cs.uiuc.edu/~komurav1" style="color: rgb(51, 51, 102); text-decoration: underline;">Rakesh Komuravelli</a>
+                </td>
+                <!-- Hyojin Sung Entry -->
+                <td class="style13" style="width: 25%">
+                  <img alt="Hyojin's Picture" height="96" width="99" src="images/hyojin.jpeg" />
+                </td>
+                <td class="style12" style="width: 25%">
+                  <a href="http://rsim.cs.uiuc.edu/~sung12" style="color: rgb(51, 51, 102); text-decoration: underline;">Hyojin Sung</a>
+                </td>
+              </tr>
+
+              <tr>
+                <!-- Matt Sinclair Entry -->
+                <td class="style13" style="width: 25%">
+                  <img alt="Matt's Picture" height="96" width="99" src="images/sinclair.jpg" />
+                </td>
+                <td class="style12" style="width: 25%">
+                  <a href="http://rsim.cs.illinois.edu/~mdsincl2" style="color: rgb(51, 51, 102); text-decoration: underline;">Matt Sinclair</a>
+                </td>
+                <!-- Radha Venkatagiri Entry -->
+                <td class="style13" style="width: 25%">
+                  &nbsp;
+                </td>
+                <td class="style12" style="width: 25%">
+                  <a href="mailto:venktgr2@@illinois.edu">Radha Venkatagiri</a>
+                </td>
+              </tr>
+              
+              <tr>
+                <!-- Abdulrahman Mahmoud Entry -->
+                <td class="style13" style="width: 25%">
+                <img alt="Abdulrahman's Picture" height="96" width="99" src="images/mahmoud.jpg" />
+                </td>
+                <td class="style12" style="width: 25%">
+                  <a href="http://rsim.cs.illinois.edu/~amahmou2" style="color: rgb(51, 51, 102); text-decoration: underline;">Abdulrahman Mahmoud</a>
+                </td>
+                <td class="style13" style="width: 25%">
+                  &nbsp;
+                </td>
+                <!-- John Alsop Entry -->
+                <!-- Can't figure out why his picture won't work ...
+                <td class="style13" style="width: 25%">
+                <img alt="John's Picture" height="96" width="99" src="images/alsop.jpg" />
+                </td>-->
+                <td class="style12" style="width: 25%">
+                  <a href="mailto:alsop2@@illinois.edu">John Alsop</a>
+                </td>
+              </tr>
+
+              <tr>
+                <!-- Muhammad Huzaifa Entry -->
+                <td class="style13" style="width: 25%">
+                  &nbsp;
+                </td>
+                <td class="style12" style="width: 25%">
+                  <a href="mailto:huzaifa2@@illinois.edu">Muhammad Huzaifa</a>
+                </td>
+                <!-- MDS: These 2 columns appear to be here solely to center the text on the screen -->
+                <td class="style13" style="width: 25%">&nbsp;</td>
+                <td class="style12" style="width: 25%">&nbsp;</td>
+              </tr>
+            </table>
+
+            <!--
+            <p class="style12"><b>
+              <span style="font-size: 13.5pt; font-family: Arial;">Current undergraduate student</span></b>
+            </p>
+            <table style="width: 100%">
+              <tr>
+              </tr>
+            </table>
+            -->
+            <p class="style12">
+              &nbsp;
+            </p>
+            <p class="style12">
+              <font size="4"><b><span style="font-family: Arial;">Current collaborators</span></b></font>
+            </p>
+            <table style="width: 100%">
+              <tr>
+                <td class="style13" style="width: 25%">
+                  <img alt="Vikram's Picture" height="112" src="images/vadve.jpg" width="100" /></td>
+                <td class="style12"  style="width: 25%">
+                  <a href="http://llvm.cs.uiuc.edu/~vadve/Home.html">Vikram Adve (UIUC)</a></td>
+                <td class="style13" style="width: 25%">
+                  <img alt="John's Picture" height="124" src="images/jch.jpg" width="95" />&nbsp;</td>
+                <td class="style12" style="width: 25%">
+                  <a href="http://graphics.cs.uiuc.edu/~jch/">John C. Hart</a></td>
+              </tr>
+
+              <tr>
+                <td class="style13" style="width: 25%">
+                  <img alt="Swarup's Picture" height="95" src="images/swarup.jpg" width="100" />&nbsp;</td>
+                <td class="style12" style="width: 25%">
+                  <a href="http://llvm.cs.uiuc.edu/~ssahoo2/">Swarup Sahoo&nbsp;</a></td>
+                <td class="style13" style="width: 25%">
+                  <!--  TODO      <img alt="Nick's Picture" height="102" src="images/ncarter.jpg" width="100" />&nbsp;-->
+                </td>
+                <td class="style12" style="width: 25%">
+                  <a href="mailto:nicholas.p.carter@@intel.com">Nick Carter</a></td>
+              </tr>
+
+              <tr>
+                <td class="style13" style="width: 25%">
+                  <img alt="Pablo's Picture" height="95" src="images/pmontesinos.jpg" width="100" />&nbsp;</td>
+                <td class="style12" style="width: 25%">
+                  <a href="mailto:pablom@@qti.qualcomm.com">Pablo Montesinos Ortego</a></td>
+              </tr>
+              
+            </table>
+            <p class="style12" style="margin-left: 0.5in; margin-top: 0pt; margin-bottom: 0.0001pt;">
+              &nbsp;
+              <br />
+            </p>
+            <p class="style12">
+              <b><span style="font-size: 13.5pt; font-family: Arial;">Graduated Ph.D. students</span></b>
+            </p>
+            <table style="width: 100%">
+              <tr>
+                <!-- Siva K.S. Hari Entry -->
+                <td>
+                  <img alt="Siva's Picture" height="102" src="images/siva.jpg" width="100" />
+                </td>
+                <td class="style12">
+                  <a href="rsim.cs.illinois.edu/~shari2" style="color: rgb(51, 51, 102); text-decoration: underline;">Siva Kumar Sastry Hari</a>, Ph.D. 2013 &nbsp;
+                  <br /> Ph.D. thesis:&nbsp;
+                  <a href="http://rsim.cs.uiuc.edu/Pubs/siva-kumar-hari-thesis.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">
+                    <span style="">Preserving Application Resiliency on Unreliable Hardware</span><br />
+                  </a>First employment:&nbsp;NVIDIA Research
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img alt="Pradeep's Picture" height="102" src="images/pradeep.jpg" width="100" />
+                </td>
+                <td class="style12">
+                  <a href="http://www.pradeeprama.info/" style="color: rgb(51, 51, 102); text-decoration: underline;">Pradeep Ramachandran</a>, Ph.D. 2011 &nbsp;
+                  <br /> Ph.D. thesis:&nbsp;
+                  <a href="http://rsim.cs.uiuc.edu/Pubs/pradeep-ramachandran-thesis.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">
+                    <span style="">Detecting and Recovering from In-core Hardware Faults through Software Anomaly Treatment</span><br />
+                  </a>First employment:&nbsp;Intel Corporation
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img alt="Alexs' Picture" height="117" src="images/manlapli.jpg" width="100" />
+                </td>
+                <td class="style12">
+                  <a href="http://www.seas.gwu.edu/~alexli/" style="color: rgb(51, 51, 102); text-decoration: underline;">Man-Lap (Alex) Li</a>, Ph.D. 2009 &nbsp;
+                  <br />
+                  Ph.D. thesis:&nbsp;
+                  <a href="http://rsim.cs.uiuc.edu/Pubs/alex-li-thesis.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">
+                    <span style="">SWAT: Designing Resilient Hardware by Treating Software 
+                      Anomalies</span>
+                    <br />
+                  </a>First employment:&nbsp;Assistant Professor at The George Washington University
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img alt="Jerry's Picture" height="124" src="images/jerry.jpg" width="100" />
+                </td>
+                <td class="style12"><span style="">
+                  <a href="mailto:xli3@@uiuc.edu" style="color: rgb(51, 51, 102); text-decoration: underline;">Xiaodong (Jerry) Li</a>, Ph.D. 2008
+                  <br />
+                  Ph.D. thesis:&nbsp;
+                  <a href="http://rsim.cs.uiuc.edu/Pubs/jerry-li-phd-thesis.pdf">
+                    <span style="text-decoration: underline;">Soft Error Modeling and 
+                      Analysis for Microprocessors</span></a><a href="http://rsim.cs.uiuc.edu/Pubs/srinivsn-phd-thesis.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">
+                    <br />
+                  </a>First employment:&nbsp;Deutsche Bank</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img alt="Jayanth's Picture" height="124" src="images/jayanth12.jpg" width="100" />
+                </td>
+                <td class="style12"><span style="">
+                  <a href="http://rsim.cs.uiuc.edu/~srinivsn/" style="color: rgb(51, 51, 102); text-decoration: underline;">Jayanth Srinivasan</a></span>, Ph.D. 2006 
+                  &nbsp;<br />
+                  Ph.D. thesis:&nbsp;
+                  <a href="http://rsim.cs.uiuc.edu/Pubs/srinivsn-phd-thesis.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">
+                    <span style="">Lifetime Reliability Aware Microprocessors</span><br />
+                  </a>First employment:&nbsp;McKinsey and Company</td>
+              </tr>
+              <tr>
+                <td>
+                  <img alt="Ruchira's Picture" height="157" src="images/ruchira.jpg" width="100" />
+                </td>
+                <td class="style12"><span style="">
+                    <a href="http://rsim.cs.uiuc.edu/~sasanka/" style="color: rgb(51, 51, 102); text-decoration: underline;">Ruchira Sasanka</a></span>, Ph.D. 2005
+                  &nbsp;<br />
+                  Ph.D. thesis:&nbsp;
+                  <a href="http://rsim.cs.uiuc.edu/Pubs/sasanka-phd-thesis.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">
+                    <span style="">Energy Efficient Support for All Levels of Parallelism 
+                      for Complex Media Applications</span><br />
+                  </a>First employment:&nbsp;Intel Corporation</td>
+              </tr>
+              <tr>
+                <td>
+                  <img alt="Chris' Picture" height="98" src="images/hughes_christopher.jpg" width="71" />
+                </td>
+                <td class="style12"><span style="">
+                    Christopher J. Hughes</span>, Ph.D. 2003<br />
+                  Ph.D. thesis:&nbsp;
+                  <span style="">General-Purpose Processors for Multimedia Applications: 
+                    Predictability and Energy Efficiency</span><br />
+                  First employment:&nbsp;Intel Microprocessor Research Labs</td>
+              </tr>
+              <tr>
+                <td>
+                  <img alt="Vijay's Picture" height="136" src="images/vsp.jpg" width="98" />
+                </td>
+                <td class="style12">
+                  <a href="http://cobweb.ecn.purdue.edu/~vpai/" style="color: rgb(51, 51, 102); text-decoration: underline;"><span style="">Vijay S.
+                      <span class="SpellE">Pai</span></span></a>, Ph.D. 2000 (<st1:place><st1:placename>Rice</st1:placename> <st1:placetype>
+                      University</st1:placetype></st1:place>)&nbsp;<br />
+                  Ph.D. thesis:&nbsp;
+                  <a href="http://rsim.cs.uiuc.edu/Pubs/phdthesis-pai.pdf">
+                    <span style="">Exploiting Instruction-Level Parallelism for Memory 
+                      System Performance</span></a>
+                  <br />
+                  First employment:&nbsp;Assistant Professor at <st1:place><st1:placename>
+                      Rice</st1:placename>
+                    <st1:placetype>University</st1:placetype></st1:place></td>
+              </tr>
+              <tr>
+                <td>
+                  <img alt="Patha's Picture" height="109" src="images/partha.jpg" width="100" /></td>
+                <td class="style12">
+                  <a href="http://www.hpl.hp.com/personal/Partha_Ranganathan/" style="color: rgb(51, 51, 102); text-decoration: underline;"><span class="SpellE"><span style="">
+                        Parthasarathy</span></span><span style=""> Ranganathan</span></a>, Ph.D. 
+                  2000 (<st1:place><st1:placename>Rice</st1:placename> <st1:placetype>
+                      University</st1:placetype></st1:place>),&nbsp;<br />
+                  Ph.D. Thesis:
+                  <a href="http://rsim.cs.uiuc.edu/Pubs/2000_PhdThesis_ParthaRanganathan.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">
+                    <span style="">General-Purpose Architectures for Media Processing and 
+                      Database Workloads</span><br />
+                  </a>First employment: Compaq Western Research Laboratory </td>
+              </tr>
+            </table>
+            <p class="style12"><b>
+                <span style="font-size: 13.5pt; font-family: Arial;">Graduated M.S. 
+                  students<o:p></o:p></span></b></p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+              Robert Smolinski, M.S. 2013</p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+              Vibhore Vardhan, M.S. 2004</p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Ritu 
+              Gupta, M.S. 2004</p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Rohit 
+              Jain, M.S. 2002</p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Praful 
+              Kaul, M.S. 2000</p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Murthy 
+              Durbhakula, M.S. 1998</p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Hazim 
+              Abdel-Shafi, M.S. 1997</p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Tracy 
+              Harton, M.E.E. 1997</p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+              Jonathan Hall, M.S. 1996 </p>
+            <!-- Past Undergrads -->
+            <p class="style12"><b>
+              <span style="font-size: 13.5pt; font-family: Arial;">Past visiting students and undergraduate students</span></b>
+            </p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;"><st1:place>
+              <st1:placename>Sean Nicolay</st1:placename></st1:place>
+            </p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;"><st1:place>
+              <st1:placename>Paul Adamczyk</st1:placename></st1:place>
+            </p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+              <st1:place>
+              <st1:placename>Apurva Jantrania</st1:placename></st1:place>
+            </p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;"><st1:place>
+              <st1:placename>Joshua Paul</st1:placename></st1:place></p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+              <st1:place>
+              <st1:placename>Chanik</st1:placename>
+              <st1:placetype>Park</st1:placetype></st1:place>
+            </p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+              Dennis Geels
+            </p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+              Michael Simon
+            </p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+              Khoa To
+            </p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+              Tracy Harton
+            </p>
+            <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+              Mathew Dumm
+            </p>
+          </td>
+        </tr>
+    </table></td>
+    <td class="shadow_right">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="middle_spacer"><div class="bottom_content"></div></td>
+    <td class="shadow_right">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="bottom_link_container">
+      <p>
+      </p>
+      <p>
+        <!-- All Right Reserved &copy; 2006 by bprizze<br /> -->
+        <!-- http://heartlessg.4uhost.info Web Master -->
+      </p>
+      <p/>
+    </td>
+    <td class="shadow_right">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
+@
+
+
+1.29
+log
+@Fixed bug with previous SWAT commit + added link for Siva's thesis to RSIM webpage.
+@
+text
+@a218 3
+                <!-- <td class="style13" style="width: 25%">
+                  &nbsp;
+                </td> -->
+a221 1
+                <!-- John Alsop Entry -->
+d225 5
+@
+
+
+1.28
+log
+@updating pradeep's website
+@
+text
+@d311 1
+a311 1
+                  <!--<a href="http://rsim.cs.uiuc.edu/Pubs/pradeep-ramachandran-thesis.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">-->
+@
+
+
+1.27
+log
+@Fix rendering
+@
+text
+@d322 1
+a322 1
+                  <a href="http://rsim.cs.uiuc.edu/~pramach2/" style="color: rgb(51, 51, 102); text-decoration: underline;">Pradeep Ramachandran</a>, Ph.D. 2011 &nbsp;
+@
+
+
+1.26
+log
+@Uncommented Abdulrahman's image
+@
+text
+@d219 1
+a219 1
+                <td class="style13" style="width: 25%">
+d221 1
+a221 1
+                </td>
+@
+
+
+1.25
+log
+@Added John and Huzaifa to group (people, news, news archive).
+@
+text
+@d216 3
+a218 3
+                <!-- <td class="style13" style="width: 25%"> -->
+                <!--   <img alt="Abdulrahman's Picture" height="96" width="99" src="images/mahmoud.jpg" /> -->
+                <!-- </td> -->
+@
+
+
+1.24
+log
+@Added Abdulrahman, moved Siva to graduates.
+@
+text
+@d216 3
+d220 1
+a220 1
+                  <img alt="Abdulrahman's Picture" height="96" width="99" src="images/mahmoud.jpg" />
+d225 17
+@
+
+
+1.23
+log
+@*** empty log message ***
+@
+text
+@a180 6
+                <!-- Siva K.S. Hari Entry -->
+                <td class="style13" style="width: 25%">
+                  <img alt="Siva's Picture" height="100" width="101" src="images/siva.jpg" /></td>
+                <td class="style12" style="width: 25%">
+                  <a href="http://rsim.cs.uiuc.edu/~shari2" style="color: rgb(51, 51, 102); text-decoration: underline;">Siva Kumar Sastry Hari</a>
+                </td>
+a187 3
+              </tr>
+
+              <tr>
+d195 3
+d205 7
+a211 3
+                <!-- MDS: These 2 columns appear to be here solely to center the text on the screen -->
+                <td class="style13" style="width: 25%">&nbsp;</td>
+                <td class="style12" style="width: 25%">&nbsp;</td>
+d215 1
+a215 1
+                <!-- Radha Venkatagiri Entry -->
+d217 1
+a217 1
+                  &nbsp;
+d220 1
+a220 1
+                  <a href="mailto:venktgr2@@illinois.edu">Radha Venkatagiri</a>
+d222 3
+d227 1
+a227 1
+            
+d284 14
+d306 2
+a307 1
+                  </a>First employment:&nbsp;Intel Corporation</td>
+@
+
+
+1.22
+log
+@Added Hetero project as a selectable project from drop-down menu.
+@
+text
+@d183 1
+a183 1
+                  <img alt="Siva's Picture" height="109" width="99" src="images/siva.jpg" /></td>
+@
+
+
+1.21
+log
+@Fixed spacing, added Sean to past undergrads.
+@
+text
+@d99 1
+@
+
+
+1.20
+log
+@Fixed spacing.
+@
+text
+@d64 21
+a84 21
+  <table width="100%" border="0" cellspacing="10" cellpadding="0">
+      <tr>
+        <td class="logo_area" style="font-size: x-large">
+          <strong><a class="style9" href="index.html"><span class="style11">Sarita Adve's Research Group</span></a></strong></td>
+        <th class="logo_area" rowspan="2">
+          <img src="images_template1/bold50.gif" alt=""></img>
+        </th>
+        <!-- <td width="300"> -->
+        <!--   <form id="form1" name="form1" method="post" action=""> -->
+    <!--    Search the website <br /> -->
+        <!--     <input name="search_text" type="text" id="search_text" /> -->
+        <!--     <input type="submit" name="Submit" value="Search" /> -->
+        <!--   </form> -->
+        <!-- </td> -->
+      </tr>
+      <tr>
+        <th class="sub_logo_area">
+          <a class="style9" href="http://illinois.edu"><span class="style10">University of Illinois at Urbana-Champaign
+          </span></a>
+        </th>
+      </tr>
+d91 1
+a91 1
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="linkcontainer">
+d94 8
+a101 10
+          <div class="navigation" style="font-size: medium"> <a href="projects.html" class="main_link">
+          Projects</a></div>
+      <ol>
+        <li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/swat"> SWAT  </a> </li>
+        <li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/denovo"> DeNovo </a> </li>
+        <li class="style8"> <a class="main_link" href="http://dpj.cs.uiuc.edu/DPJ/Home.html"> DPJ </a> </li>
+        <li class="style8"> <a class="main_link" href="projects.html#matured"> Matured Projects </a> </li>
+      </ol>
+
+    </td>
+d103 16
+a118 9
+          <td class="style4"><div class="navigation" style="font-size: medium"><a class="main_link" href="people.html">
+        People</a></div></td>
+          <td><div class="navigation" style="font-size: medium"><a href="pubs.html" class="main_link">
+        Publications</a></div></td>
+          <td><div class="navigation" style="font-size: medium"><a href="software.html" class="main_link">
+        Software</a></div></td>
+          <td><div class="navigation" style="font-size: medium"><a href="funding.html" class="main_link">Funding</a></div></td>
+          <td><div class="navigation" style="font-size: medium"><a href="news.html" class="main_link">News</a></div></td>
+      </tr>
+a123 7
+<!--   <tr> -->
+<!--     <td class="shadow_left">&nbsp;</td> -->
+<!--     <td class="below_header"> -->
+<!-- A large part of the complexity and inefficiency in current hardware concurrency mechanisms arguably arises from a software-oblivious approach to hardware design. The DeNovo project seeks to rethink concurrent hardware from the ground up, given the assumption that most future software will use disciplined concurrency models for better dependability. -->
+<!--     </td> -->
+<!--     <td class="shadow_right">&nbsp;</td> -->
+<!--   </tr> -->
+d127 67
+a193 58
+  <table width="100%" cellspacing="0" cellpadding="0" class="style5">
+      <tr>
+        <td class="body_content" style="font-size: small; text-align: center;" valign="top">
+    <p class="style12" style="margin-top: 5px;"><b>
+    <span style="font-size: 18pt; 
+font-family: Arial;">People</span></b></p>
+    <p class="style12"><b>
+    <span style="font-size: 13.5pt; font-family: Arial;">Faculty</span></b></p>
+    <table align="left" style="width: 50%; height: 104px;">
+      <tr>
+        <td class="style13" style="width: 50%">
+    <img alt="Sarita's Picture" height="100" src="images/sadve.jpg" width="100" /></td>
+        <td class="style12" style="width: 50%"><a href="http://www.cs.uiuc.edu/~sadve" style="color: rgb(51, 51, 
+102); text-decoration: underline;">Sarita V. Adve</a></td>
+      </tr>
+    </table>
+    <p class="style12" style="margin-left: 0.5in;">
+    &nbsp;</p>
+    <p class="style12">&nbsp;</p>
+    <p class="style12">&nbsp;</p>
+    <p class="style12">&nbsp;</p>
+<!--
+    <p class="style12"><b>
+    <span style="font-size: 13.5pt; font-family: Arial;">Current post-doc 
+    and researcher</span></b></p>
+    <table style="width: 100%">
+      <tr>
+        <td class="style13" style="width: 25%">
+        <img alt="Xin's Picture" height="105" src="images/xin.jpg" width="100" /></td>
+        <td class="style12" style="width: 25%">
+        <a href="http://rsim.cs.uiuc.edu/~xfu">Xin Fu</a></td>
+        <td class="style13" style="width: 25%">
+        <img alt="Lei's Picture" height="100" src="images/LeiChen.jpg" width="100" /></td>
+        <td class="style12" style="width: 25%">
+        <a href="mailto:lechen@@illinois.edu">Lei Chen</a></td>
+      </tr>
+    </table>
+    <br />
+-->
+    <p class="style12"><b>
+    <span style="font-size: 13.5pt; font-family: Arial;">Current graduate 
+    students</span></b></p>
+    <table style="width: 100%">
+      <tr>
+        <!-- Siva K.S. Hari Entry -->
+        <td class="style13" style="width: 25%">
+          <img alt="Siva's Picture" height="109" width="99" src="images/siva.jpg" /></td>
+        <td class="style12" style="width: 25%">
+          <a href="http://rsim.cs.uiuc.edu/~shari2" style="color: rgb(51, 51, 102); text-decoration: underline;">Siva Kumar Sastry Hari</a>
+        </td>
+        <!-- Rakesh Komuravelli Entry -->
+        <td class="style13" style="width: 25%">
+          <img alt="Rakesh's Picture" height="111" width="100" src="images/rakesh.JPG" />
+        </td>
+        <td class="style12" style="width: 25%">
+          <a href="http://rsim.cs.uiuc.edu/~komurav1" style="color: rgb(51, 51, 102); text-decoration: underline;">Rakesh Komuravelli</a>
+        </td>
+      </tr>
+d195 57
+a251 19
+      <tr>
+        <!-- Hyojin Sung Entry -->
+        <td class="style13" style="width: 25%">
+          <img alt="Hyojin's Picture" height="96" width="99" src="images/hyojin.jpeg" />
+        </td>
+        <td class="style12" style="width: 25%">
+          <a href="http://rsim.cs.uiuc.edu/~sung12" style="color: rgb(51, 51, 102); text-decoration: underline;">Hyojin Sung</a>
+        </td>
+        <!-- Matt Sinclair Entry -->
+        <td class="style13" style="width: 25%">
+          <img alt="Matt's Picture" height="96" width="99" src="images/sinclair.jpg" />
+        </td>
+        <td class="style12" style="width: 25%">
+          <a href="http://rsim.cs.illinois.edu/~mdsincl2" style="color: rgb(51, 51, 102); text-decoration: underline;">Matt Sinclair</a>
+        </td>
+        <!-- MDS: These 2 columns appear to be here solely to center the text on the screen -->
+        <td class="style13" style="width: 25%">&nbsp;</td>
+        <td class="style12" style="width: 25%">&nbsp;</td>
+      </tr>
+d253 11
+a263 10
+      <tr>
+        <!-- Radha Venkatagiri Entry -->
+        <td class="style13" style="width: 25%">
+          &nbsp;
+        </td>
+        <td class="style12" style="width: 25%">
+          <a href="mailto:venktgr2@@illinois.edu">Radha Venkatagiri</a>
+        </td>
+      </tr>
+    </table>
+d265 27
+a291 59
+<!--    <p class="style12"><b>
+    <span style="font-size: 13.5pt; font-family: Arial;">Current undergraduate 
+    student</span></b></p>
+    <table style="width: 100%">
+      <tr>
+      </tr>
+      </table>
+-->
+    <p class="style12">&nbsp;</p>
+    <p class="style12"><font size="4"><b><span style="font-family: Arial;">
+    Current collaborators</span></b></font> </p>
+    <table style="width: 100%">
+      <tr>
+        <td class="style13" style="width: 25%">
+        <img alt="Vikram's Picture" height="112" src="images/vadve.jpg" width="100" /></td>
+        <td class="style12"  style="width: 25%">
+        <a href="http://llvm.cs.uiuc.edu/~vadve/Home.html">Vikram Adve (UIUC)</a></td>
+        <td class="style13" style="width: 25%">
+        <img alt="John's Picture" height="124" src="images/jch.jpg" width="95" />&nbsp;</td>
+        <td class="style12" style="width: 25%">
+        <a href="http://graphics.cs.uiuc.edu/~jch/">John C. Hart</a></td>
+      </tr>
+
+      <tr>
+        <td class="style13" style="width: 25%">
+        <img alt="Swarup's Picture" height="95" src="images/swarup.jpg" width="100" />&nbsp;</td>
+        <td class="style12" style="width: 25%">
+        <a href="http://llvm.cs.uiuc.edu/~ssahoo2/">Swarup Sahoo&nbsp;</a></td>
+        <td class="style13" style="width: 25%">
+<!--  TODO      <img alt="Nick's Picture" height="102" src="images/ncarter.jpg" width="100" />&nbsp;-->
+        </td>
+        <td class="style12" style="width: 25%">
+        <a href="mailto:nicholas.p.carter@@intel.com">Nick Carter</a></td>
+      </tr>
+
+      <tr>
+        <td class="style13" style="width: 25%">
+        <img alt="Pablo's Picture" height="95" src="images/pmontesinos.jpg" width="100" />&nbsp;</td>
+        <td class="style12" style="width: 25%">
+        <a href="mailto:pablom@@qti.qualcomm.com">Pablo Montesinos Ortego</a></td>
+      </tr>
+      
+      </table>
+    <p class="style12" style="margin-left: 0.5in; margin-top: 0pt; 
+margin-bottom: 0.0001pt;">&nbsp;<br />
+    </p>
+    <p class="style12"><b>
+    <span style="font-size: 13.5pt; font-family: Arial;">Graduated Ph.D. 
+    students</span></b></p>
+    <table style="width: 100%">
+      <tr>
+        <td>
+        <img alt="Pradeep's Picture" height="102" src="images/pradeep.jpg" width="100" /></td>
+        <td class="style12">
+        <a href="http://rsim.cs.uiuc.edu/~pramach2/" style="color: rgb(51, 51, 102); text-decoration: underline;">Pradeep Ramachandran</a>, Ph.D. 2011 &nbsp;<br /> Ph.D. thesis:&nbsp;
+        <a href="http://rsim.cs.uiuc.edu/Pubs/pradeep-ramachandran-thesis.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">
+        <span style="">Detecting and Recovering from In-core Hardware Faults through Software Anomaly Treatment</span><br />
+        </a>First employment:&nbsp;Intel Corporation</td>
+      </tr>
+d293 157
+a449 136
+      <tr>
+        <td>
+        <img alt="Alexs' Picture" height="117" src="images/manlapli.jpg" width="100" /></td>
+        <td class="style12">
+    <a href="http://www.seas.gwu.edu/~alexli/" style="color: rgb(51, 
+51, 102); text-decoration: underline;">Man-Lap (Alex) Li</a>, Ph.D. 2009 &nbsp;<br />
+    Ph.D. thesis:&nbsp;
+    <a href="http://rsim.cs.uiuc.edu/Pubs/alex-li-thesis.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">
+    <span style="">SWAT: Designing Resilient Hardware by Treating Software 
+    Anomalies</span><br />
+    </a>First employment:&nbsp;Assistant Professor at The George Washington 
+    University</td>
+      </tr>
+      <tr>
+        <td>
+        <img alt="Jerry's Picture" height="124" src="images/jerry.jpg" width="100" /></td>
+        <td class="style12"><span style="">
+    <a href="mailto:xli3@@uiuc.edu" style="color: rgb(51, 51, 102); 
+text-decoration: underline;">Xiaodong (Jerry) Li</a>, Ph.D. 2008<br />
+    Ph.D. thesis:&nbsp;
+    <a href="http://rsim.cs.uiuc.edu/Pubs/jerry-li-phd-thesis.pdf">
+    <span style="text-decoration: underline;">Soft Error Modeling and 
+    Analysis for Microprocessors</span></a><a href="http://rsim.cs.uiuc.edu/Pubs/srinivsn-phd-thesis.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;"><br />
+    </a>First employment:&nbsp;Deutsche Bank</span></td>
+      </tr>
+      <tr>
+        <td>
+        <img alt="Jayanth's Picture" height="124" src="images/jayanth12.jpg" width="100" /></td>
+        <td class="style12"><span style="">
+    <a href="http://rsim.cs.uiuc.edu/~srinivsn/" style="color: rgb(51, 
+51, 102); text-decoration: underline;">Jayanth Srinivasan</a></span>, Ph.D. 2006 
+    &nbsp;<br />
+    Ph.D. thesis:&nbsp;
+    <a href="http://rsim.cs.uiuc.edu/Pubs/srinivsn-phd-thesis.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">
+    <span style="">Lifetime Reliability Aware Microprocessors</span><br />
+    </a>First employment:&nbsp;McKinsey and Company</td>
+      </tr>
+      <tr>
+        <td>
+        <img alt="Ruchira's Picture" height="157" src="images/ruchira.jpg" width="100" /></td>
+        <td class="style12"><span style="">
+    <a href="http://rsim.cs.uiuc.edu/~sasanka/" style="color: rgb(51, 
+51, 102); text-decoration: underline;">Ruchira Sasanka</a></span>, Ph.D. 2005 &nbsp;<br />
+    Ph.D. thesis:&nbsp;
+    <a href="http://rsim.cs.uiuc.edu/Pubs/sasanka-phd-thesis.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">
+    <span style="">Energy Efficient Support for All Levels of Parallelism 
+    for Complex Media Applications</span><br />
+    </a>First employment:&nbsp;Intel Corporation</td>
+      </tr>
+      <tr>
+        <td>
+        <img alt="Chris' Picture" height="98" src="images/hughes_christopher.jpg" width="71" /></td>
+        <td class="style12"><span style="">
+        Christopher J. Hughes</span>, Ph.D. 2003<br />
+    Ph.D. thesis:&nbsp;
+    <span style="">General-Purpose Processors for Multimedia Applications: 
+    Predictability and Energy Efficiency</span><br />
+        First employment:&nbsp;Intel Microprocessor Research Labs</td>
+      </tr>
+      <tr>
+        <td>
+        <img alt="Vijay's Picture" height="136" src="images/vsp.jpg" width="98" /></td>
+        <td class="style12">
+        <a href="http://cobweb.ecn.purdue.edu/~vpai/" style="color: rgb(51, 
+51, 102); text-decoration: underline;"><span style="">Vijay S.
+    <span class="SpellE">Pai</span></span></a>, Ph.D. 2000 (<st1:place><st1:placename>Rice</st1:placename> <st1:placetype>
+    University</st1:placetype></st1:place>)&nbsp;<br />
+    Ph.D. thesis:&nbsp;
+    <a href="http://rsim.cs.uiuc.edu/Pubs/phdthesis-pai.pdf">
+    <span style="">Exploiting Instruction-Level Parallelism for Memory 
+    System Performance</span></a><br />
+        First employment:&nbsp;Assistant Professor at <st1:place><st1:placename>
+    Rice</st1:placename>
+   <st1:placetype>University</st1:placetype></st1:place></td>
+      </tr>
+      <tr>
+        <td>
+        <img alt="Patha's Picture" height="109" src="images/partha.jpg" width="100" /></td>
+        <td class="style12">
+        <a href="http://www.hpl.hp.com/personal/Partha_Ranganathan/" style="color: rgb(51, 51,
+ 102); text-decoration: underline;"><span class="SpellE"><span style="">
+    Parthasarathy</span></span><span style=""> Ranganathan</span></a>, Ph.D. 
+    2000 (<st1:place><st1:placename>Rice</st1:placename> <st1:placetype>
+    University</st1:placetype></st1:place>),&nbsp;<br />
+    Ph.D. Thesis:
+    <a href="http://rsim.cs.uiuc.edu/Pubs/2000_PhdThesis_ParthaRanganathan.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">
+    <span style="">General-Purpose Architectures for Media Processing and 
+    Database Workloads</span><br />
+    </a>First employment: Compaq Western Research Laboratory </td>
+      </tr>
+    </table>
+    <p class="style12"><b>
+    <span style="font-size: 13.5pt; font-family: Arial;">Graduated M.S. 
+    students<o:p></o:p></span></b></p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+    Robert Smolinski, M.S. 2013</p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+    Vibhore Vardhan, M.S. 2004</p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Ritu 
+    Gupta, M.S. 2004</p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Rohit 
+    Jain, M.S. 2002</p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Praful 
+    Kaul, M.S. 2000</p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Murthy 
+    Durbhakula, M.S. 1998</p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Hazim 
+    Abdel-Shafi, M.S. 1997</p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Tracy 
+    Harton, M.E.E. 1997</p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+    Jonathan Hall, M.S. 1996 </p>
+    <p class="style12"><b>
+    <span style="font-size: 13.5pt; font-family: Arial;">Past visiting 
+    students and undergraduate students</span></b></p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;"><st1:place>
+  <st1:placename>Paul Adamczyk</st1:placename></st1:place></p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;"><st1:place>
+  <st1:placename>Apurva Jantrania</st1:placename></st1:place></p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;"><st1:place>
+  <st1:placename>Joshua Paul</st1:placename></st1:place></p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;"><st1:place>
+  <st1:placename>Chanik</st1:placename>
+   <st1:placetype>Park</st1:placetype></st1:place></p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Dennis 
+    Geels</p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+    Michael Simon</p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Khoa 
+    To</p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Tracy 
+    Harton</p>
+    <p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Mathew 
+    Dumm </p>
+      </td>
+      </tr>
+@
+
+
+1.19
+log
+@Fixed spacing and ordering for current students.
+@
+text
+@d175 1
+a175 1
+          <img alt="Siva's Picture" height="109" src="images/siva.jpg" width="99" /></td>
+d181 1
+a181 1
+          <img alt="Rakesh's Picture" height="111" width="100" src="images/rakesh.JPG" width="100" />
+d191 1
+a191 1
+          <img alt="Hyojin's Picture" height="96" width="99" src="images/hyojin.jpeg" width="96" />
+@
+
+
+1.18
+log
+@Updated students, moved Rob Smolinski to Graduated MS.
+@
+text
+@d9 1
+a9 1
+	font-size: medium;
+d12 1
+a12 1
+	font-size: medium;
+d15 6
+a20 6
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right: 1px solid #C0C0C0;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom: 1px solid #C0C0C0;
+d23 5
+a27 5
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	position: absolute;
+	display: none;
+d31 2
+a32 2
+	color: #FFFFFF;
+	text-align: center;
+d35 1
+a35 1
+	display: block;
+d38 1
+a38 1
+	text-decoration: none;
+d41 2
+a42 2
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+d45 1
+a45 1
+	color: #CCCCCC;
+d48 1
+a48 1
+	color: #FFFFFF;
+d51 1
+a51 1
+	text-align: left;
+d54 1
+a54 1
+	text-align: right;
+d64 1
+a64 1
+	<table width="100%" border="0" cellspacing="10" cellpadding="0">
+d73 1
+a73 1
+		<!--   	Search the website <br /> -->
+d89 1
+a89 1
+	  <td class="horizontal_column">&nbsp;</td>
+d91 1
+a91 1
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="linkcontainer">
+d95 7
+a101 7
+				  Projects</a></div>
+			<ol>
+				<li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/swat"> SWAT  </a> </li>
+				<li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/denovo"> DeNovo </a> </li>
+				<li class="style8"> <a class="main_link" href="http://dpj.cs.uiuc.edu/DPJ/Home.html"> DPJ </a> </li>
+				<li class="style8"> <a class="main_link" href="projects.html#matured"> Matured Projects </a> </li>
+			</ol>
+d103 1
+a103 1
+	  </td>
+d106 1
+a106 1
+			  People</a></div></td>
+d108 1
+a108 1
+			  Publications</a></div></td>
+d110 1
+a110 1
+			  Software</a></div></td>
+d129 1
+a129 1
+	<table width="100%" cellspacing="0" cellpadding="0" class="style5">
+d132 2
+a133 2
+		<p class="style12" style="margin-top: 5px;"><b>
+		<span style="font-size: 18pt; 
+d135 7
+a141 7
+		<p class="style12"><b>
+		<span style="font-size: 13.5pt; font-family: Arial;">Faculty</span></b></p>
+		<table align="left" style="width: 50%; height: 104px;">
+			<tr>
+				<td class="style13" style="width: 50%">
+		<img alt="Sarita's Picture" height="100" src="images/sadve.jpg" width="100" /></td>
+				<td class="style12" style="width: 50%"><a href="http://www.cs.uiuc.edu/~sadve" style="color: rgb(51, 51, 
+d143 7
+a149 7
+			</tr>
+		</table>
+		<p class="style12" style="margin-left: 0.5in;">
+		&nbsp;</p>
+		<p class="style12">&nbsp;</p>
+		<p class="style12">&nbsp;</p>
+		<p class="style12">&nbsp;</p>
+d151 16
+a166 16
+		<p class="style12"><b>
+		<span style="font-size: 13.5pt; font-family: Arial;">Current post-doc 
+		and researcher</span></b></p>
+		<table style="width: 100%">
+			<tr>
+				<td class="style13" style="width: 25%">
+				<img alt="Xin's Picture" height="105" src="images/xin.jpg" width="100" /></td>
+				<td class="style12" style="width: 25%">
+				<a href="http://rsim.cs.uiuc.edu/~xfu">Xin Fu</a></td>
+				<td class="style13" style="width: 25%">
+				<img alt="Lei's Picture" height="100" src="images/LeiChen.jpg" width="100" /></td>
+				<td class="style12" style="width: 25%">
+				<a href="mailto:lechen@@illinois.edu">Lei Chen</a></td>
+			</tr>
+		</table>
+		<br />
+d168 17
+a184 11
+		<p class="style12"><b>
+		<span style="font-size: 13.5pt; font-family: Arial;">Current graduate 
+		students</span></b></p>
+		<table style="width: 100%">
+			<tr>
+				<td class="style13" style="width: 25%">
+		<img alt="Siva's Picture" height="109" src="images/siva.jpg" width="99" /></td>
+				<td class="style12" style="width: 25%"><a href="http://rsim.cs.uiuc.edu/~shari2" style="color: rgb(51, 51, 
+102); text-decoration: underline;">Siva Kumar Sastry Hari</a></td>
+				<td class="style13" style="width: 25%">
+				<img alt="Matt Sinclair's Picture" height="100" src="images/sinclair.jpg" />
+d186 1
+a186 4
+				<td class="style12" style="width: 25%">
+		<a href="http://rsim.cs.illinois.edu/~mdsincl2" style="color: rgb(51, 
+51, 102); text-decoration: underline;">Matt Sinclair</a></td>
+			</tr>
+d188 19
+a206 14
+			<tr>
+				<td class="style13" style="width: 25%">
+				<img alt="Rakesh's Picture" height="111" src="images/rakesh.JPG" width="100" /></td>
+				<td class="style12" style="width: 25%">
+		<a href="http://rsim.cs.uiuc.edu/~komurav1" style="color: rgb(51, 
+51, 102); text-decoration: underline;">Rakesh Komuravelli</a></td>
+				<td class="style13" style="width: 25%">
+				<img alt="Hyojin's Picture" height="96" src="images/hyojin.jpeg" width="96" /></td>
+				<td class="style12" style="width: 25%">
+		<a href="http://rsim.cs.uiuc.edu/~sung12" style="color: rgb(51, 51, 102); 
+text-decoration: underline;">Hyojin Sung</a></td>
+				<td class="style13" style="width: 25%">&nbsp;</td>
+				<td class="style12" style="width: 25%">&nbsp;</td>
+			</tr>
+d208 10
+a217 7
+			<tr>
+				<td class="style13" style="width: 25%">
+				&nbsp;</td>
+				<td class="style12" style="width: 25%"><a href="mailto:venktgr2@@illinois.edu">
+				Radha Venkatagiri</a></td>
+			</tr>
+		</table>
+d219 7
+a225 7
+<!--		<p class="style12"><b>
+		<span style="font-size: 13.5pt; font-family: Arial;">Current undergraduate 
+		student</span></b></p>
+		<table style="width: 100%">
+			<tr>
+			</tr>
+			</table>
+d227 14
+a240 14
+		<p class="style12">&nbsp;</p>
+		<p class="style12"><font size="4"><b><span style="font-family: Arial;">
+		Current collaborators</span></b></font> </p>
+		<table style="width: 100%">
+			<tr>
+				<td class="style13" style="width: 25%">
+				<img alt="Vikram's Picture" height="112" src="images/vadve.jpg" width="100" /></td>
+				<td class="style12"  style="width: 25%">
+				<a href="http://llvm.cs.uiuc.edu/~vadve/Home.html">Vikram Adve (UIUC)</a></td>
+				<td class="style13" style="width: 25%">
+				<img alt="John's Picture" height="124" src="images/jch.jpg" width="95" />&nbsp;</td>
+				<td class="style12" style="width: 25%">
+				<a href="http://graphics.cs.uiuc.edu/~jch/">John C. Hart</a></td>
+			</tr>
+d242 7
+a248 7
+			<tr>
+				<td class="style13" style="width: 25%">
+				<img alt="Swarup's Picture" height="95" src="images/swarup.jpg" width="100" />&nbsp;</td>
+				<td class="style12" style="width: 25%">
+				<a href="http://llvm.cs.uiuc.edu/~ssahoo2/">Swarup Sahoo&nbsp;</a></td>
+				<td class="style13" style="width: 25%">
+<!--	TODO			<img alt="Nick's Picture" height="102" src="images/ncarter.jpg" width="100" />&nbsp;-->
+d250 3
+a252 3
+				<td class="style12" style="width: 25%">
+				<a href="mailto:nicholas.p.carter@@intel.com">Nick Carter</a></td>
+			</tr>
+d254 6
+a259 6
+			<tr>
+				<td class="style13" style="width: 25%">
+				<img alt="Pablo's Picture" height="95" src="images/pmontesinos.jpg" width="100" />&nbsp;</td>
+				<td class="style12" style="width: 25%">
+				<a href="mailto:pablom@@qti.qualcomm.com">Pablo Montesinos Ortego</a></td>
+			</tr>
+d261 2
+a262 2
+			</table>
+		<p class="style12" style="margin-left: 0.5in; margin-top: 0pt; 
+d264 14
+a277 14
+		</p>
+		<p class="style12"><b>
+		<span style="font-size: 13.5pt; font-family: Arial;">Graduated Ph.D. 
+		students</span></b></p>
+		<table style="width: 100%">
+			<tr>
+				<td>
+				<img alt="Pradeep's Picture" height="102" src="images/pradeep.jpg" width="100" /></td>
+				<td class="style12">
+				<a href="http://rsim.cs.uiuc.edu/~pramach2/" style="color: rgb(51, 51, 102); text-decoration: underline;">Pradeep Ramachandran</a>, Ph.D. 2011 &nbsp;<br /> Ph.D. thesis:&nbsp;
+				<a href="http://rsim.cs.uiuc.edu/Pubs/pradeep-ramachandran-thesis.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">
+				<span style="">Detecting and Recovering from In-core Hardware Faults through Software Anomaly Treatment</span><br />
+				</a>First employment:&nbsp;Intel Corporation</td>
+			</tr>
+d279 5
+a283 5
+			<tr>
+				<td>
+				<img alt="Alexs' Picture" height="117" src="images/manlapli.jpg" width="100" /></td>
+				<td class="style12">
+		<a href="http://www.seas.gwu.edu/~alexli/" style="color: rgb(51, 
+d285 12
+a296 12
+		Ph.D. thesis:&nbsp;
+		<a href="http://rsim.cs.uiuc.edu/Pubs/alex-li-thesis.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">
+		<span style="">SWAT: Designing Resilient Hardware by Treating Software 
+		Anomalies</span><br />
+		</a>First employment:&nbsp;Assistant Professor at The George Washington 
+		University</td>
+			</tr>
+			<tr>
+				<td>
+				<img alt="Jerry's Picture" height="124" src="images/jerry.jpg" width="100" /></td>
+				<td class="style12"><span style="">
+		<a href="mailto:xli3@@uiuc.edu" style="color: rgb(51, 51, 102); 
+d298 11
+a308 11
+		Ph.D. thesis:&nbsp;
+		<a href="http://rsim.cs.uiuc.edu/Pubs/jerry-li-phd-thesis.pdf">
+		<span style="text-decoration: underline;">Soft Error Modeling and 
+		Analysis for Microprocessors</span></a><a href="http://rsim.cs.uiuc.edu/Pubs/srinivsn-phd-thesis.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;"><br />
+		</a>First employment:&nbsp;Deutsche Bank</span></td>
+			</tr>
+			<tr>
+				<td>
+				<img alt="Jayanth's Picture" height="124" src="images/jayanth12.jpg" width="100" /></td>
+				<td class="style12"><span style="">
+		<a href="http://rsim.cs.uiuc.edu/~srinivsn/" style="color: rgb(51, 
+d310 11
+a320 11
+		&nbsp;<br />
+		Ph.D. thesis:&nbsp;
+		<a href="http://rsim.cs.uiuc.edu/Pubs/srinivsn-phd-thesis.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">
+		<span style="">Lifetime Reliability Aware Microprocessors</span><br />
+		</a>First employment:&nbsp;McKinsey and Company</td>
+			</tr>
+			<tr>
+				<td>
+				<img alt="Ruchira's Picture" height="157" src="images/ruchira.jpg" width="100" /></td>
+				<td class="style12"><span style="">
+		<a href="http://rsim.cs.uiuc.edu/~sasanka/" style="color: rgb(51, 
+d322 21
+a342 21
+		Ph.D. thesis:&nbsp;
+		<a href="http://rsim.cs.uiuc.edu/Pubs/sasanka-phd-thesis.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">
+		<span style="">Energy Efficient Support for All Levels of Parallelism 
+		for Complex Media Applications</span><br />
+		</a>First employment:&nbsp;Intel Corporation</td>
+			</tr>
+			<tr>
+				<td>
+				<img alt="Chris' Picture" height="98" src="images/hughes_christopher.jpg" width="71" /></td>
+				<td class="style12"><span style="">
+				Christopher J. Hughes</span>, Ph.D. 2003<br />
+		Ph.D. thesis:&nbsp;
+		<span style="">General-Purpose Processors for Multimedia Applications: 
+		Predictability and Energy Efficiency</span><br />
+				First employment:&nbsp;Intel Microprocessor Research Labs</td>
+			</tr>
+			<tr>
+				<td>
+				<img alt="Vijay's Picture" height="136" src="images/vsp.jpg" width="98" /></td>
+				<td class="style12">
+				<a href="http://cobweb.ecn.purdue.edu/~vpai/" style="color: rgb(51, 
+d344 8
+a351 8
+		<span class="SpellE">Pai</span></span></a>, Ph.D. 2000 (<st1:place><st1:placename>Rice</st1:placename> <st1:placetype>
+		University</st1:placetype></st1:place>)&nbsp;<br />
+		Ph.D. thesis:&nbsp;
+		<a href="http://rsim.cs.uiuc.edu/Pubs/phdthesis-pai.pdf">
+		<span style="">Exploiting Instruction-Level Parallelism for Memory 
+		System Performance</span></a><br />
+				First employment:&nbsp;Assistant Professor at <st1:place><st1:placename>
+		Rice</st1:placename>
+d353 6
+a358 6
+			</tr>
+			<tr>
+				<td>
+				<img alt="Patha's Picture" height="109" src="images/partha.jpg" width="100" /></td>
+				<td class="style12">
+				<a href="http://www.hpl.hp.com/personal/Partha_Ranganathan/" style="color: rgb(51, 51,
+d360 35
+a394 35
+		Parthasarathy</span></span><span style=""> Ranganathan</span></a>, Ph.D. 
+		2000 (<st1:place><st1:placename>Rice</st1:placename> <st1:placetype>
+		University</st1:placetype></st1:place>),&nbsp;<br />
+		Ph.D. Thesis:
+		<a href="http://rsim.cs.uiuc.edu/Pubs/2000_PhdThesis_ParthaRanganathan.pdf" style="color: rgb(51, 51, 102); text-decoration: underline;">
+		<span style="">General-Purpose Architectures for Media Processing and 
+		Database Workloads</span><br />
+		</a>First employment: Compaq Western Research Laboratory </td>
+			</tr>
+		</table>
+		<p class="style12"><b>
+		<span style="font-size: 13.5pt; font-family: Arial;">Graduated M.S. 
+		students<o:p></o:p></span></b></p>
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+		Robert Smolinski, M.S. 2013</p>
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+		Vibhore Vardhan, M.S. 2004</p>
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Ritu 
+		Gupta, M.S. 2004</p>
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Rohit 
+		Jain, M.S. 2002</p>
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Praful 
+		Kaul, M.S. 2000</p>
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Murthy 
+		Durbhakula, M.S. 1998</p>
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Hazim 
+		Abdel-Shafi, M.S. 1997</p>
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Tracy 
+		Harton, M.E.E. 1997</p>
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+		Jonathan Hall, M.S. 1996 </p>
+		<p class="style12"><b>
+		<span style="font-size: 13.5pt; font-family: Arial;">Past visiting 
+		students and undergraduate students</span></b></p>
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;"><st1:place>
+d396 1
+a396 1
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;"><st1:place>
+d398 1
+a398 1
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;"><st1:place>
+d400 1
+a400 1
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;"><st1:place>
+d403 11
+a413 11
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Dennis 
+		Geels</p>
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;">
+		Michael Simon</p>
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Khoa 
+		To</p>
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Tracy 
+		Harton</p>
+		<p class="style12" style="margin-left: 0.5in; margin-top: -17px;">Mathew 
+		Dumm </p>
+		  </td>
+@
+
+
+1.17
+log
+@MDS: Fixed so my picture wasn't pixelated because it was being stretched too much.
+@
+text
+@d178 2
+a179 1
+				<img alt="Byn's Picture" height="121" src="images/byn.jpg" width="100" /></td>
+d181 3
+a183 2
+		<a href="mailto:bynchoi1@@uiuc.edu" style="color: rgb(51, 51, 102); 
+text-decoration: underline;">Byn Choi</a></td>
+a184 1
+			</tr>
+d199 1
+d203 2
+a204 8
+				<td class="style12" style="width: 25%"><a href="mailto:rsmolin2@@illinois.edu">
+				Robert Smolinski</a></td>
+				<td class="style13" style="width: 25%">
+				<img alt="Matt Sinclair's Picture" height="100" src="images/sinclair.jpg" />
+</td>
+				<td class="style12" style="width: 25%">
+		<a href="http://rsim.cs.illinois.edu/~mdsincl2" style="color: rgb(51, 
+51, 102); text-decoration: underline;">Matt Sinclair</a></td>
+d230 1
+d237 2
+a238 1
+				<img alt="Rob's Picture" height="102" src="images/Rob.jpg" width="100" />&nbsp;</td>
+d240 1
+a240 2
+				<a href="http://llvm.cs.uiuc.edu/~bocchino/Home.html">Robert L. 
+				Bocchino Jr.</a></td>
+d242 8
+d363 2
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d204 1
+a204 1
+				<img alt="Matt Sinclair's Picture" height="111" src="images/sinclair.jpg" width="100" />
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d207 1
+a207 1
+		<a href="mailto:mdsincl2@@illinois.edu" style="color: rgb(51, 
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d204 5
+a208 3
+				&nbsp;</td>
+				<td class="style12" style="width: 25%">&nbsp;</td>
+
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d150 1
+d167 1
+@
+
+
+1.12
+log
+@updating link for Hyojin
+@
+text
+@a171 3
+		<img alt="Pradeep's Picture" height="102" src="images/pradeep.jpg" width="100" /></td>
+				<td class="style12" style="width: 25%"><a href="http://rsim.cs.uiuc.edu/~pramach2/"><span class="SpellE">Pradeep</span> <span class="SpellE">Ramachandran</span></a></td>
+				<td class="style13" style="width: 25%">
+a174 2
+			</tr>
+			<tr>
+d180 3
+a187 2
+			</tr>
+			<tr>
+a195 5
+		</table>
+		<p class="style12"><b>
+		<span style="font-size: 13.5pt; font-family: Arial;">Current undergraduate 
+		student</span></b></p>
+		<table style="width: 100%">
+d204 9
+d215 1
+d251 10
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d195 1
+a195 1
+		<a href="mailto:sung12@@uiuc.edu" style="color: rgb(51, 51, 102); 
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d252 1
+a252 1
+		<a href="http://seas.gwu.edu/~alexli/" style="color: rgb(51, 
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d252 1
+a252 1
+		<a href="http://rsim.cs.uiuc.edu/~manlapli/" style="color: rgb(51, 
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d250 1
+a250 1
+				<img alt="Alexs' Picture" height="124" src="images/manlapli.jpg" width="100" /></td>
+d298 2
+a299 1
+				<td>&nbsp;</td>
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@a392 1
+        <a href="#" class="bottom_link">Old Website</a>
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d1 27
+a27 101
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>People</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+span.MsoHyperlink
+	{color:#333366;
+	text-decoration:underline;
+	text-underline:single;}
+span.SpellE
+	{}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#333366" link="#333366" vlink="#993300" alink="#CC6600">
+<table width="800" border="0" cellpadding="0" cellspacing="0" height="909">
+  <tr align="left" valign="bottom"> 
+    <td colspan="3" width="800" height="75"> <p>
+    <img src="group.gif" width="800" height="75"></p></td>
+  </tr>
+  <tr align="left" valign="top"> 
+    <td width="137" bordercolor="#e7ebf0" bgcolor="#e7ebf0" rowspan="2" height="834"> <p><font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><b><br>
+        &nbsp;</b></font></p>
+    <p><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif"><b>
+    <a href="http://rsim.cs.uiuc.edu">Home</a></b></font></p>
+    <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+    <a href="people.html">People</a></font></b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif"><b> </b></font></p>
+      <p><b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="http://rsim.cs.uiuc.edu">Research</a></font></b></p>
+      <p style="margin-top: -10; margin-bottom: -12"><b>
+      <font face="Geneva, Arial, Helvetica, sans-serif">&nbsp;&nbsp;&nbsp;
+      <font size="2">Current</font></font></b></p>
+      <ul>
+        <li><font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif">
+        <a href="http://rsim.cs.uiuc.edu/swat">SWAT</a></font></li>
+        <li><font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif">
+        <a href="http://rsim.cs.uiuc.edu/ramp">RAMP</a></font></li>
+        <li><font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif">
+        <a href="http://rsim.cs.uiuc.edu/alp">ALP</a></font></li>
+        <li><font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><a href="http://www.cs.uiuc.edu/grace">GRACE</a></font></li>
+        <li><font face="Geneva, Arial, Helvetica, sans-serif" size="2">
+        <a href="http://rsim.cs.uiuc.edu/data-centers">Data Centers</a></font></li>
+      </ul>
+      <p style="margin-top: -10; margin-bottom: -10">
+      <font face="Geneva, Arial, Helvetica, sans-serif" size="2">&nbsp;&nbsp;&nbsp;
+      <b>Matured</b></font></p>
+      <ul>
+        <li><font face="Geneva, Arial, Helvetica, sans-serif" size="2">
+        <a href="http://rsim.cs.uiuc.edu/consistency">Memory 
+        Models</a></font></li>
+        <li><font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><a href="http://rsim.cs.uiuc.edu/rsim/dist.html">RSIM 
+          Simulator</a></font></li>
+        <li><font face="Geneva, Arial, Helvetica, sans-serif" size="2">
+        <a href="http://rsim.cs.uiuc.edu/rsim">RSIM Project</a></font></li>
+      </ul>
+      <p><b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="pubs.html">Publications</a></font></b></p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="software.html">Software</a></font></b></p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="funding.html">Funding</a></font></b><br>
+        <font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><br>
+        <br>
+        </font></p>
+      </td>
+    <td width="7" height="309">&nbsp;</td>
+    <td width="664" height="834" rowspan="2"> 
+    <p style="margin-top: 5"><b><span style='font-size:18.0pt;font-family:Arial'>People</span></b></p>
+  <p><b><span style='font-size:13.5pt;font-family:Arial'>Faculty</span></b></p>
+  <p class=MsoNormal style='margin-left:.5in'>
+  <a
+  href="http://www.cs.uiuc.edu/~sadve" style="color: #333366; text-decoration: underline; text-underline: single">Sarita V. Adve</a></p>
+  <p><font size="4"><b><span style="font-family: Arial">Current senior 
+  collaborators</span></b></font>&nbsp;&nbsp; </p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:0; margin-bottom:0.0001pt'>
+  Vikram Adve (UIUC)</p>
+	<p class=MsoNormal style='margin-left:.5in; margin-top:0; margin-bottom:0.0001pt'>
+  Pradip Bose (IBM)<br>
+  Jude Rivers (IBM)<br>
+  Yuanyuan Zhou (UIUC)</p>
+  <p><b><span style='font-size:13.5pt;font-family:Arial'>Current graduate
+  students</span></b></p>
+	  <p class=MsoNormal style='margin-left:.5in'>
+ <a href="mailto:bynchoi1@@uiuc.edu" style="color: #333366; text-decoration: underline; text-underlin\
+e: single">
+      Byn Choi</a><br>
+  <a href="http://rsim.cs.uiuc.edu/~komurav1" style="color: #333366; text-decoration: underline; text-underline: single">
+	  Rakesh Komuravelli</a><br>
+  <a href="http://rsim.cs.uiuc.edu/~shari2" style="color: #333366; text-decoration: underline; text-underline: single">
+	  Siva Kumar Sastry Hari</a><br>
+  <a href="http://rsim.cs.uiuc.edu/~pramach2/">
+  <span class=SpellE>Pradeep</span> <span class=SpellE>Ramachandran</span></a><br>
+  <a href="mailto:sung12@@uiuc.edu" style="color: #333366; text-decoration: underline; text-underline: single">Hyojin Sung</a><br>
+
+
+d29 377
+a405 132
+</p>
+  <p><b><span style='font-size:13.5pt;font-family:Arial'>Graduated Ph.D.
+  students</span></b></p>
+
+  <p class=MsoNormal style='margin-left:.5in'>
+  	<a href="http://rsim.cs.uiuc.edu/~manlapli/" style="color: #333366; text-decoration: underline; text-underline: 
+single">Man-Lap (Alex) Li</a></span>, Ph.D. 2009 &nbsp;<br>
+  Ph.D. thesis:&nbsp; 
+  <a
+  href="http://rsim.cs.uiuc.edu/Pubs/alex-li-thesis.pdf" style="color: #333366; text-decoration: underline; text-underline: single"><span
+  style='mso-fareast-font-family:"Courier New"'> SWAT: Designing Resilient Hardware by Treating Software Anomalies</span><br>
+  </a>First employment:&nbsp;Assistant Professor at The George Washington University</p>
+
+  <p class=MsoNormal style='margin-left:.5in'><span style='mso-fareast-font-family:
+  "Courier New"'>
+
+
+
+  <a href="mailto:xli3@@uiuc.edu" style="color: #333366; text-decoration: underline; text-underline: single">Xiaodong
+  (Jerry) Li</a>,<span style='mso-fareast-font-family:
+  "Courier New"'>
+
+
+  Ph.D. 2008</span><br>
+  Ph.D. thesis:&nbsp; 
+  <a href="http://rsim.cs.uiuc.edu/Pubs/jerry-li-phd-thesis.pdf">
+	<span style="text-decoration: underline">Soft Error Modeling and Analysis 
+	for Microprocessors</span></a><a
+  href="http://rsim.cs.uiuc.edu/Pubs/srinivsn-phd-thesis.pdf" style="color: #333366; text-decoration: underline; text-underline: single"><br>
+  </a>First employment:&nbsp;Deutsche Bank</p>
+	<p class=MsoNormal style='margin-left:.5in'>
+	<span style='mso-fareast-font-family:
+  "Courier New"'>
+
+
+  	<a href="http://rsim.cs.uiuc.edu/~srinivsn/" style="color: #333366; text-decoration: underline; text-underline: 
+single">Jayanth Srinivasan</a></span>, Ph.D. 2006 &nbsp;<br>
+  Ph.D. thesis:&nbsp; 
+  <a
+  href="http://rsim.cs.uiuc.edu/Pubs/srinivsn-phd-thesis.pdf" style="color: #333366; text-decoration: underline; text-underline: single"><span
+  style='mso-fareast-font-family:"Courier New"'> Lifetime Reliability Aware 
+	Microprocessors</span><br>
+  </a>First employment:&nbsp;McKinsey and Company</p>
+
+  <p class=MsoNormal style='margin-left:.5in'><span style='mso-fareast-font-family:
+  "Courier New"'>
+
+
+  <a href="http://rsim.cs.uiuc.edu/~sasanka/" style="color: #333366; text-decoration: underline; text-underline: 
+single">Ruchira Sasanka</a></span>, Ph.D. 2005 &nbsp;<br>
+  Ph.D. thesis:&nbsp; 
+  <a
+  href="http://rsim.cs.uiuc.edu/Pubs/sasanka-phd-thesis.pdf" style="color: #333366; text-decoration: underline; text-underline: single"><span
+  style='mso-fareast-font-family:"Courier New"'> Energy Efficient Support for All Levels of Parallelism
+	for Complex Media Applications</span><br>
+  </a>First employment:&nbsp;Intel Corporation</p>
+
+  <p class=MsoNormal style='margin-left:.5in'><span style='mso-fareast-font-family:
+  "Courier New"'>
+
+  <a href="http://rsim.cs.uiuc.edu/~cjhughes/" style="color: #333366; text-decoration: underline; text-underline: single">Christopher
+  J. Hughes</a></span>, Ph.D. 2003 &nbsp;<br>
+  Ph.D. thesis:&nbsp; 
+  <a
+  href="http://rsim.cs.uiuc.edu/Pubs/cjhughesthesis.tar.gz" style="color: #333366; text-decoration: underline; text-underline: single"><span
+  style='mso-fareast-font-family:"Courier New"'>General-Purpose Processors for
+  Multimedia Applications: Predictability and Energy Efficiency</span><br>
+  </a>First employment:&nbsp;Intel Microprocessor Research Labs</p>
+
+
+
+  <p class=MsoNormal style='margin-left:.5in'>
+  <a
+  href="http://www.ece.rice.edu/~vijaypai" style="color: #333366; text-decoration: underline; text-underline: single"><span style='mso-fareast-font-family:
+  "Courier New"'>Vijay S. <span class=SpellE>Pai</span></span></a>, Ph.D. 2000
+  (<st1:place><st1:PlaceName>Rice</st1:PlaceName> <st1:PlaceType>University</st1:PlaceType></st1:place>)&nbsp;<br>
+  Ph.D. thesis:&nbsp; 
+  <a
+  href="http://www.cs.uiuc.edu/~sadve/Theses/vijay-pai.phd.ps" style="color: #333366; text-decoration: underline; text-underline: single"><span
+  style='mso-fareast-font-family:"Courier New"'>Exploiting Instruction-Level
+  Parallelism for Memory System Performance</span><br>
+  </a>First employment:&nbsp;Assistant Professor at <st1:place><st1:PlaceName>Rice</st1:PlaceName>
+   <st1:PlaceType>University</st1:PlaceType></st1:place></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.5in'>
+  <a href="http://www.ece.rice.edu/~parthas" style="color: #333366; text-decoration: underline; text-underline: single"><span
+  class=SpellE><span style='mso-fareast-font-family:"Courier New"'>Parthasarathy</span></span><span
+  style='mso-fareast-font-family:"Courier New"'> Ranganathan</span></a>, Ph.D.
+  2000 (<st1:place><st1:PlaceName>Rice</st1:PlaceName> <st1:PlaceType>University</st1:PlaceType></st1:place>),&nbsp;<br>
+  Ph.D. Thesis: 
+  <a
+  href="http://www.cs.uiuc.edu/~sadve/Theses/partha-ranganathan.phd.ps" style="color: #333366; text-decoration: underline; text-underline: single"><span
+  style='mso-fareast-font-family:"Courier New"'>General-Purpose Architectures
+  for Media Processing and Database Workloads</span><br>
+  </a>First employment: Compaq Western Research Laboratory </p>
+  <p><b><span style='font-size:13.5pt;font-family:Arial'>Graduated M.S.
+  students<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:-17'>Vibhore Vardhan, M.S. 2004</p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:-17'>Ritu Gupta, M.S. 2004</p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:-17'>Rohit Jain, M.S. 2002</p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:-17'>Praful Kaul, M.S. 2000</p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:-17'>Murthy Durbhakula, M.S. 1998</p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:-17'>Hazim Abdel-Shafi, M.S. 1997</p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:-17'>Tracy Harton, M.E.E. 1997</p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:-17'>Jonathan Hall, M.S. 1996 </p>
+  <p><b><span style='font-size:13.5pt;font-family:Arial'>Past visiting students
+  and undergraduate students<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:-17'><st1:place>
+  <st1:PlaceName>Paul Adamczyk</st1:PlaceName></st1:place></p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:-17'><st1:place>
+  <st1:PlaceName>Apurva Jantrania</st1:PlaceName></st1:place></p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:-17'><st1:place>
+  <st1:PlaceName>Joshua Paul</st1:PlaceName></st1:place></p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:-17'><st1:place>
+  <st1:PlaceName>Chanik</st1:PlaceName>
+   <st1:PlaceType>Park</st1:PlaceType></st1:place></p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:-17'>Dennis Geels</p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:-17'>Michael Simon</p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:-17'>Khoa To</p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:-17'>Tracy Harton</p>
+  <p class=MsoNormal style='margin-left:.5in; margin-top:-17'>Mathew Dumm </p>
+    &nbsp;&nbsp;&nbsp;
+    </td>
+  </tr>
+  <tr align="left" valign="top"> 
+    <td width="7" height="525"><FONT color="#333366" 
+                  face="Verdana, Arial, Helvetica, sans-serif"><br>
+      </FONT></td>
+  </tr>
+</table>
+</body>
+</html>
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d95 1
+a95 1
+  <a href="mailto:shari2@@uiuc.edu" style="color: #333366; text-decoration: underline; text-underline: single">
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@a96 1
+  <a href="http://rsim.cs.uiuc.edu/~manlapli/" style="color: #333366; text-decoration: underline; text-underline: single">Man-Lap (Alex) Li</a><br>
+d108 13
+@
+
+
+1.3
+log
+@added homepage link for rakesh
+@
+text
+@d97 1
+a97 1
+  <a href="mailto:manlapli@@uiuc.edu" style="color: #333366; text-decoration: underline; text-underline: single">Man-Lap (Alex) Li</a><br>
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d93 1
+a93 1
+  <a href="mailto:komurav1@@uiuc.edu" style="color: #333366; text-decoration: underline; text-underline: single">
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d90 5
+a96 2
+  <a href="mailto:rkarpu2@@uiuc.edu" style="color: #333366; text-decoration: underline; text-underline: single">
+	  Rahmet Ulya Karpuzcu</a><br>
+d99 5
+a103 1
+  <span class=SpellE>Pradeep</span> <span class=SpellE>Ramachandran</span></a><br>
+@

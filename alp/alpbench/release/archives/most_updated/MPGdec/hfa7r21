@@ -1,0 +1,409 @@
+VTune(TM) Performance Analyzer 2.0 for Linux*
+Copyright (C) 2000-2003 Intel Corporation. All rights reserved.
+
+Event Summary
+Instructions Retired
+   5178 = Samples collected due to this event
+   1812158          = Sample after value used during collection
+   9383354124       = Total events (samples*SAV)
+Clockticks
+   5210 = Samples collected due to this event
+   2152577          = Sample after value used during collection
+   11214926170      = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                                  Module            Size    
+  Event                                                                 Events%    Samples     Events            Address          Segment          Offset        Full name
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fast_IDCT                                 mpeg2dec_nosse    0x18e   
+  Instructions Retired                                                  63.21%      3273       5931193134          0x0000000000005D3E 0x003           0x0000000000005C5E Fast_IDCT
+  Clockticks                                                            59.69%      3110       6694514470          0x0000000000005D3E 0x003           0x0000000000005C5E
+Thrd_Add_Block                            mpeg2dec_nosse    0x7ce   
+  Instructions Retired                                                   9.02%      467        846277786           0x00000000000043EA 0x003           0x000000000000430A Thrd_Add_Block
+  Clockticks                                                             4.18%      218        469261786           0x00000000000043EA 0x003           0x000000000000430A
+form_component_prediction                 mpeg2dec_nosse    0x606   
+  Instructions Retired                                                   6.03%      312        565393296           0x0000000000007CB6 0x003           0x0000000000007BD6 form_component_prediction
+  Clockticks                                                             5.62%      293        630705061           0x0000000000007CB6 0x003           0x0000000000007BD6
+Saturate                                  mpeg2dec_nosse    0x166   
+  Instructions Retired                                                   7.22%      374        677747092           0x0000000000002E3C 0x003           0x0000000000002D5C Saturate
+  Clockticks                                                             3.76%      196        421905092           0x0000000000002E3C 0x003           0x0000000000002D5C
+form_component_prediction2                mpeg2dec_nosse    0xac6   
+  Instructions Retired                                                   3.11%      161        291757438           0x00000000000082BC 0x003           0x00000000000081DC form_component_prediction2
+  Clockticks                                                             2.88%      150        322886550           0x00000000000082BC 0x003           0x00000000000081DC
+Thrd_Clear_Block                          mpeg2dec_nosse    0x230   
+  Instructions Retired                                                   1.31%      68         123226744           0x00000000000041BA 0x003           0x00000000000040DA Thrd_Clear_Block
+  Clockticks                                                             1.46%      76         163595852           0x00000000000041BA 0x003           0x00000000000040DA
+Thrd_Flush_Buffer                         mpeg2dec_nosse    0xb2    
+  Instructions Retired                                                   0.93%      48         86983584            0x0000000000000566 0x003           0x0000000000000486 Thrd_Flush_Buffer
+  Clockticks                                                             1.09%      57         122696889           0x0000000000000566 0x003           0x0000000000000486
+Thrd_motion_compensation                  mpeg2dec_nosse    0x174   
+  Instructions Retired                                                   1.04%      54         97856532            0x0000000000003E38 0x003           0x0000000000003D58 Thrd_motion_compensation
+  Clockticks                                                             0.48%      25         53814425            0x0000000000003E38 0x003           0x0000000000003D58
+form_prediction                           mpeg2dec_nosse    0x1a8   
+  Instructions Retired                                                   0.91%      47         85171426            0x0000000000007B0E 0x003           0x0000000000007A2E form_prediction
+  Clockticks                                                             0.54%      28         60272156            0x0000000000007B0E 0x003           0x0000000000007A2E
+Thrd_Decode_MPEG2_Non_Intra_Block         mpeg2dec_nosse    0x300   
+  Instructions Retired                                                   0.75%      39         70674162            0x00000000000014DC 0x003           0x00000000000013FC Thrd_Decode_MPEG2_Non_Intra_Block
+  Clockticks                                                             0.46%      24         51661848            0x00000000000014DC 0x003           0x00000000000013FC
+Flush_Buffer                              mpeg2dec_nosse    0x126   
+  Instructions Retired                                                   0.71%      37         67049846            0x00000000000003A8 0x003           0x00000000000002C8 Flush_Buffer
+  Clockticks                                                             0.35%      18         38746386            0x00000000000003A8 0x003           0x00000000000002C8
+Thrd_Decode_MPEG2_Intra_Block             mpeg2dec_nosse    0x37a   
+  Instructions Retired                                                   0.50%      26         47116108            0x0000000000001162 0x003           0x0000000000001082 Thrd_Decode_MPEG2_Intra_Block
+  Clockticks                                                             0.42%      22         47356694            0x0000000000001162 0x003           0x0000000000001082
+Thrd_Get_Bits                             mpeg2dec_nosse    0x24    
+  Instructions Retired                                                   0.35%      18         32618844            0x0000000000000618 0x003           0x0000000000000538 Thrd_Get_Bits
+  Clockticks                                                             0.48%      25         53814425            0x0000000000000618 0x003           0x0000000000000538
+Thrd_decode_macroblock                    mpeg2dec_nosse    0x506   
+  Instructions Retired                                                   0.25%      13         23558054            0x0000000000003838 0x003           0x0000000000003758 Thrd_decode_macroblock
+  Clockticks                                                             0.48%      25         53814425            0x0000000000003838 0x003           0x0000000000003758
+Thrd_Get_motion_code                      mpeg2dec_nosse    0x10c   
+  Instructions Retired                                                   0.29%      15         27182370            0x000000000000556A 0x003           0x000000000000548A Thrd_Get_motion_code
+  Clockticks                                                             0.21%      11         23678347            0x000000000000556A 0x003           0x000000000000548A
+Thrd_motion_vector                        mpeg2dec_nosse    0xd4    
+  Instructions Retired                                                   0.23%      12         21745896            0x00000000000066BC 0x003           0x00000000000065DC Thrd_motion_vector
+  Clockticks                                                             0.29%      15         32288655            0x00000000000066BC 0x003           0x00000000000065DC
+form_predictions                          mpeg2dec_nosse    0x756   
+  Instructions Retired                                                   0.21%      11         19933738            0x00000000000073B8 0x003           0x00000000000072D8 form_predictions
+  Clockticks                                                             0.21%      11         23678347            0x00000000000073B8 0x003           0x00000000000072D8
+new_slice                                 mpeg2dec_nosse    0x270   
+  Instructions Retired                                                   0.17%      9          16309422            0x00000000000034CC 0x003           0x00000000000033EC new_slice
+  Clockticks                                                             0.21%      11         23678347            0x00000000000034CC 0x003           0x00000000000033EC
+write_frame_buf8                          mpeg2dec_nosse    0x64    
+  Instructions Retired                                                   0.21%      11         19933738            0x000000000000315E 0x003           0x000000000000307E write_frame_buf8
+  Clockticks                                                             0.17%      9          19373193            0x000000000000315E 0x003           0x000000000000307E
+Thrd_macroblock_modes                     mpeg2dec_nosse    0x20e   
+  Instructions Retired                                                   0.29%      15         27182370            0x0000000000003FAC 0x003           0x0000000000003ECC Thrd_macroblock_modes
+  Clockticks                                                             0.08%      4          8610308             0x0000000000003FAC 0x003           0x0000000000003ECC
+Thrd_Show_Bits                            mpeg2dec_nosse    0x18    
+  Instructions Retired                                                   0.17%      9          16309422            0x000000000000053E 0x003           0x000000000000045E Thrd_Show_Bits
+  Clockticks                                                             0.23%      12         25830924            0x000000000000053E 0x003           0x000000000000045E
+Show_Bits                                 mpeg2dec_nosse    0x18    
+  Instructions Retired                                                   0.14%      7          12685106            0x0000000000000386 0x003           0x00000000000002A6 Show_Bits
+  Clockticks                                                             0.17%      9          19373193            0x0000000000000386 0x003           0x00000000000002A6
+Thrd_Work                                 mpeg2dec_nosse    0x2c2   
+  Instructions Retired                                                   0.08%      4          7248632             0x000000000000320A 0x003           0x000000000000312A Thrd_Work
+  Clockticks                                                             0.15%      8          17220616            0x000000000000320A 0x003           0x000000000000312A
+decode_motion_vector                      mpeg2dec_nosse    0x84    
+  Instructions Retired                                                   0.14%      7          12685106            0x00000000000063FE 0x003           0x000000000000631E decode_motion_vector
+  Clockticks                                                             0.08%      4          8610308             0x00000000000063FE 0x003           0x000000000000631E
+Thrd_Get_macroblock_address_increment     mpeg2dec_nosse    0xdc    
+  Instructions Retired                                                   0.08%      4          7248632             0x000000000000548E 0x003           0x00000000000053AE Thrd_Get_macroblock_address_increment
+  Clockticks                                                             0.10%      5          10762885            0x000000000000548E 0x003           0x00000000000053AE
+Thrd_motion_vectors                       mpeg2dec_nosse    0xfe    
+  Instructions Retired                                                   0.06%      3          5436474             0x00000000000065BE 0x003           0x00000000000064DE Thrd_motion_vectors
+  Clockticks                                                             0.08%      4          8610308             0x00000000000065BE 0x003           0x00000000000064DE
+Thrd_Get_Chroma_DC_dct_diff               mpeg2dec_nosse    0x8c    
+  Instructions Retired                                                   0.08%      4          7248632             0x00000000000057DE 0x003           0x00000000000056FE Thrd_Get_Chroma_DC_dct_diff
+  Clockticks                                                             0.04%      2          4305154             0x00000000000057DE 0x003           0x00000000000056FE
+Thrd_Get_Luma_DC_dct_diff                 mpeg2dec_nosse    0x8c    
+  Instructions Retired                                                   0.08%      4          7248632             0x0000000000005752 0x003           0x0000000000005672 Thrd_Get_Luma_DC_dct_diff
+  Clockticks                                                             0.02%      1          2152577             0x0000000000005752 0x003           0x0000000000005672
+Thrd_Get_B_macroblock_type                mpeg2dec_nosse    0x7c    
+  Instructions Retired                                                   0.02%      1          1812158             0x00000000000053E0 0x003           0x0000000000005300 Thrd_Get_B_macroblock_type
+  Clockticks                                                             0.08%      4          8610308             0x00000000000053E0 0x003           0x0000000000005300
+Thrd_Get_Bits1                            mpeg2dec_nosse    0x10    
+  Instructions Retired                                                   0.02%      1          1812158             0x0000000000000556 0x003           0x0000000000000476 Thrd_Get_Bits1
+  Clockticks                                                             0.06%      3          6457731             0x0000000000000556 0x003           0x0000000000000476
+Thrd_Get_macroblock_type                  mpeg2dec_nosse    0xa0    
+  Instructions Retired                                                   0.02%      1          1812158             0x000000000000527C 0x003           0x000000000000519C Thrd_Get_macroblock_type
+  Clockticks                                                             0.04%      2          4305154             0x000000000000527C 0x003           0x000000000000519C
+Thrd_Get_coded_block_pattern              mpeg2dec_nosse    0xa4    
+  Instructions Retired                                                   0.02%      1          1812158             0x00000000000056AE 0x003           0x00000000000055CE Thrd_Get_coded_block_pattern
+  Clockticks                                                             0.02%      1          2152577             0x00000000000056AE 0x003           0x00000000000055CE
+Decode_Picture                            mpeg2dec_nosse    0xa0    
+  Clockticks                                                             0.02%      1          2152577             0x00000000000026D4 0x003           0x00000000000025F4
+next_start_code                           mpeg2dec_nosse    0x3a    
+  Clockticks                                                             0.02%      1          2152577             0x0000000000001844 0x003           0x0000000000001764
+group_of_pictures_header                  mpeg2dec_nosse    0x8c    
+  Clockticks                                                             0.02%      1          2152577             0x0000000000001BE8 0x003           0x0000000000001B08
+__errno_location                          mpeg2dec_nosse    0x58    
+  Clockticks                                                             0.02%      1          2152577             0x000000000000F8EC 0x003           0x000000000000F80C
+Thrd_start_of_slice                       mpeg2dec_nosse    0xfc    
+  Clockticks                                                             0.02%      1          2152577             0x000000000000373C 0x003           0x000000000000365C
+Thrd_Get_P_macroblock_type                mpeg2dec_nosse    0x7c    
+  Clockticks                                                             0.02%      1          2152577             0x0000000000005364 0x003           0x0000000000005284
+Event Summary
+Uops Retired
+   5183 = Samples collected due to this event
+   3298843          = Sample after value used during collection
+   17097903269      = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                                  Module            Size    
+  Event                                                                 Events%    Samples     Events            Address          Segment          Offset        Full name
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fast_IDCT                                 mpeg2dec_nosse    0x18e   
+  Uops Retired                                                          71.93%      3728       12298086704         0x0000000000005D3E 0x003           0x0000000000005C5E Fast_IDCT
+Saturate                                  mpeg2dec_nosse    0x166   
+  Uops Retired                                                           5.52%      286        943469098           0x0000000000002E3C 0x003           0x0000000000002D5C Saturate
+Thrd_Add_Block                            mpeg2dec_nosse    0x7ce   
+  Uops Retired                                                           5.36%      278        917078354           0x00000000000043EA 0x003           0x000000000000430A Thrd_Add_Block
+form_component_prediction                 mpeg2dec_nosse    0x606   
+  Uops Retired                                                           4.78%      248        818113064           0x0000000000007CB6 0x003           0x0000000000007BD6 form_component_prediction
+form_component_prediction2                mpeg2dec_nosse    0xac6   
+  Uops Retired                                                           1.97%      102        336481986           0x00000000000082BC 0x003           0x00000000000081DC form_component_prediction2
+Thrd_Clear_Block                          mpeg2dec_nosse    0x230   
+  Uops Retired                                                           0.96%      50         164942150           0x00000000000041BA 0x003           0x00000000000040DA Thrd_Clear_Block
+form_prediction                           mpeg2dec_nosse    0x1a8   
+  Uops Retired                                                           0.81%      42         138551406           0x0000000000007B0E 0x003           0x0000000000007A2E form_prediction
+Thrd_Flush_Buffer                         mpeg2dec_nosse    0xb2    
+  Uops Retired                                                           0.81%      42         138551406           0x0000000000000566 0x003           0x0000000000000486 Thrd_Flush_Buffer
+Thrd_motion_compensation                  mpeg2dec_nosse    0x174   
+  Uops Retired                                                           0.77%      40         131953720           0x0000000000003E38 0x003           0x0000000000003D58 Thrd_motion_compensation
+Thrd_Decode_MPEG2_Non_Intra_Block         mpeg2dec_nosse    0x300   
+  Uops Retired                                                           0.58%      30         98965290            0x00000000000014DC 0x003           0x00000000000013FC Thrd_Decode_MPEG2_Non_Intra_Block
+Thrd_Decode_MPEG2_Intra_Block             mpeg2dec_nosse    0x37a   
+  Uops Retired                                                           0.54%      28         92367604            0x0000000000001162 0x003           0x0000000000001082 Thrd_Decode_MPEG2_Intra_Block
+Thrd_decode_macroblock                    mpeg2dec_nosse    0x506   
+  Uops Retired                                                           0.50%      26         85769918            0x0000000000003838 0x003           0x0000000000003758 Thrd_decode_macroblock
+Flush_Buffer                              mpeg2dec_nosse    0x126   
+  Uops Retired                                                           0.41%      21         69275703            0x00000000000003A8 0x003           0x00000000000002C8 Flush_Buffer
+Thrd_Get_Bits                             mpeg2dec_nosse    0x24    
+  Uops Retired                                                           0.41%      21         69275703            0x0000000000000618 0x003           0x0000000000000538 Thrd_Get_Bits
+Thrd_Show_Bits                            mpeg2dec_nosse    0x18    
+  Uops Retired                                                           0.31%      16         52781488            0x000000000000053E 0x003           0x000000000000045E Thrd_Show_Bits
+new_slice                                 mpeg2dec_nosse    0x270   
+  Uops Retired                                                           0.25%      13         42884959            0x00000000000034CC 0x003           0x00000000000033EC new_slice
+Thrd_Get_motion_code                      mpeg2dec_nosse    0x10c   
+  Uops Retired                                                           0.23%      12         39586116            0x000000000000556A 0x003           0x000000000000548A Thrd_Get_motion_code
+form_predictions                          mpeg2dec_nosse    0x756   
+  Uops Retired                                                           0.19%      10         32988430            0x00000000000073B8 0x003           0x00000000000072D8 form_predictions
+Thrd_motion_vectors                       mpeg2dec_nosse    0xfe    
+  Uops Retired                                                           0.15%      8          26390744            0x00000000000065BE 0x003           0x00000000000064DE Thrd_motion_vectors
+decode_motion_vector                      mpeg2dec_nosse    0x84    
+  Uops Retired                                                           0.14%      7          23091901            0x00000000000063FE 0x003           0x000000000000631E decode_motion_vector
+write_frame_buf8                          mpeg2dec_nosse    0x64    
+  Uops Retired                                                           0.12%      6          19793058            0x000000000000315E 0x003           0x000000000000307E write_frame_buf8
+Thrd_macroblock_modes                     mpeg2dec_nosse    0x20e   
+  Uops Retired                                                           0.10%      5          16494215            0x0000000000003FAC 0x003           0x0000000000003ECC Thrd_macroblock_modes
+Thrd_motion_vector                        mpeg2dec_nosse    0xd4    
+  Uops Retired                                                           0.08%      4          13195372            0x00000000000066BC 0x003           0x00000000000065DC Thrd_motion_vector
+Thrd_Work                                 mpeg2dec_nosse    0x2c2   
+  Uops Retired                                                           0.06%      3          9896529             0x000000000000320A 0x003           0x000000000000312A Thrd_Work
+Thrd_Get_B_macroblock_type                mpeg2dec_nosse    0x7c    
+  Uops Retired                                                           0.06%      3          9896529             0x00000000000053E0 0x003           0x0000000000005300 Thrd_Get_B_macroblock_type
+Show_Bits                                 mpeg2dec_nosse    0x18    
+  Uops Retired                                                           0.08%      4          13195372            0x0000000000000386 0x003           0x00000000000002A6 Show_Bits
+Flush_Buffer32                            mpeg2dec_nosse    0xe8    
+  Uops Retired                                                           0.04%      2          6597686             0x000000000000B906 0x003           0x000000000000B826 Flush_Buffer32
+Thrd_Get_macroblock_type                  mpeg2dec_nosse    0xa0    
+  Uops Retired                                                           0.02%      1          3298843             0x000000000000527C 0x003           0x000000000000519C Thrd_Get_macroblock_type
+Thrd_Get_macroblock_address_increment     mpeg2dec_nosse    0xdc    
+  Uops Retired                                                           0.02%      1          3298843             0x000000000000548E 0x003           0x00000000000053AE Thrd_Get_macroblock_address_increment
+Thrd_skipped_macroblock                   mpeg2dec_nosse    0xfa    
+  Uops Retired                                                           0.02%      1          3298843             0x0000000000003D3E 0x003           0x0000000000003C5E Thrd_skipped_macroblock
+Event Summary
+128-bit MMX(TM) Instructions Retired
+   73 = Samples collected due to this event
+   1                = Sample after value used during collection
+   73               = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function               Module            Size    
+  Event                                              Events%    Samples     Events            Address          Segment          Offset        Full name
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+__libm_sse2_cos        mpeg2dec_nosse    0x1b2   
+  128-bit MMX(TM) Instructions Retired               97.26%      71         71                  0x0000000000012158 0x003           0x0000000000012078 __libm_sse2_cos
+sequence_extension     mpeg2dec_nosse    0x172   
+  128-bit MMX(TM) Instructions Retired                1.37%      1          1                   0x0000000000001E92 0x003           0x0000000000001DB2 sequence_extension
+Event Summary
+64-bit MMX(TM) Instructions Retired
+   0 = Samples collected due to this event
+   1                = Sample after value used during collection
+   0                = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+No symbols were found
+
+Event Summary
+Loads Retired
+   10368 = Samples collected due to this event
+   326263           = Sample after value used during collection
+   3382694784       = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                              Module            Size    
+  Event                                                             Events%    Samples     Events            Address          Segment          Offset        Full name
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fast_IDCT                             mpeg2dec_nosse    0x18e   
+  Loads Retired                                                     74.64%      7739       2524949357          0x0000000000005D3E 0x003           0x0000000000005C5E Fast_IDCT
+Thrd_Add_Block                        mpeg2dec_nosse    0x7ce   
+  Loads Retired                                                      5.62%      583        190211329           0x00000000000043EA 0x003           0x000000000000430A Thrd_Add_Block
+form_component_prediction             mpeg2dec_nosse    0x606   
+  Loads Retired                                                      5.30%      550        179444650           0x0000000000007CB6 0x003           0x0000000000007BD6 form_component_prediction
+form_component_prediction2            mpeg2dec_nosse    0xac6   
+  Loads Retired                                                      2.66%      276        90048588            0x00000000000082BC 0x003           0x00000000000081DC form_component_prediction2
+Saturate                              mpeg2dec_nosse    0x166   
+  Loads Retired                                                      2.47%      256        83523328            0x0000000000002E3C 0x003           0x0000000000002D5C Saturate
+form_prediction                       mpeg2dec_nosse    0x1a8   
+  Loads Retired                                                      0.69%      72         23490936            0x0000000000007B0E 0x003           0x0000000000007A2E form_prediction
+Thrd_Flush_Buffer                     mpeg2dec_nosse    0xb2    
+  Loads Retired                                                      1.17%      121        39477823            0x0000000000000566 0x003           0x0000000000000486 Thrd_Flush_Buffer
+Flush_Buffer                          mpeg2dec_nosse    0x126   
+  Loads Retired                                                      0.59%      61         19902043            0x00000000000003A8 0x003           0x00000000000002C8 Flush_Buffer
+Thrd_Decode_MPEG2_Non_Intra_Block     mpeg2dec_nosse    0x300   
+  Loads Retired                                                      0.41%      43         14029309            0x00000000000014DC 0x003           0x00000000000013FC Thrd_Decode_MPEG2_Non_Intra_Block
+Thrd_Decode_MPEG2_Intra_Block         mpeg2dec_nosse    0x37a   
+  Loads Retired                                                      0.37%      38         12397994            0x0000000000001162 0x003           0x0000000000001082 Thrd_Decode_MPEG2_Intra_Block
+Thrd_decode_macroblock                mpeg2dec_nosse    0x506   
+  Loads Retired                                                      0.33%      34         11092942            0x0000000000003838 0x003           0x0000000000003758 Thrd_decode_macroblock
+Thrd_Get_Bits                         mpeg2dec_nosse    0x24    
+  Loads Retired                                                      0.49%      51         16639413            0x0000000000000618 0x003           0x0000000000000538 Thrd_Get_Bits
+Thrd_Get_motion_code                  mpeg2dec_nosse    0x10c   
+  Loads Retired                                                      0.23%      24         7830312             0x000000000000556A 0x003           0x000000000000548A Thrd_Get_motion_code
+Thrd_motion_compensation              mpeg2dec_nosse    0x174   
+  Loads Retired                                                      0.23%      24         7830312             0x0000000000003E38 0x003           0x0000000000003D58 Thrd_motion_compensation
+form_predictions                      mpeg2dec_nosse    0x756   
+  Loads Retired                                                      0.20%      21         6851523             0x00000000000073B8 0x003           0x00000000000072D8 form_predictions
+Thrd_macroblock_modes                 mpeg2dec_nosse    0x20e   
+  Loads Retired                                                      0.16%      17         5546471             0x0000000000003FAC 0x003           0x0000000000003ECC Thrd_macroblock_modes
+write_frame_buf8                      mpeg2dec_nosse    0x64    
+  Loads Retired                                                      0.18%      19         6198997             0x000000000000315E 0x003           0x000000000000307E write_frame_buf8
+Show_Bits                             mpeg2dec_nosse    0x18    
+  Loads Retired                                                      0.38%      39         12724257            0x0000000000000386 0x003           0x00000000000002A6 Show_Bits
+Thrd_Clear_Block                      mpeg2dec_nosse    0x230   
+  Loads Retired                                                      0.17%      18         5872734             0x00000000000041BA 0x003           0x00000000000040DA Thrd_Clear_Block
+Thrd_motion_vector                    mpeg2dec_nosse    0xd4    
+  Loads Retired                                                      0.15%      16         5220208             0x00000000000066BC 0x003           0x00000000000065DC Thrd_motion_vector
+Thrd_Work                             mpeg2dec_nosse    0x2c2   
+  Loads Retired                                                      0.10%      10         3262630             0x000000000000320A 0x003           0x000000000000312A Thrd_Work
+Thrd_Show_Bits                        mpeg2dec_nosse    0x18    
+  Loads Retired                                                      0.23%      24         7830312             0x000000000000053E 0x003           0x000000000000045E Thrd_Show_Bits
+Thrd_Get_Bits1                        mpeg2dec_nosse    0x10    
+  Loads Retired                                                      0.09%      9          2936367             0x0000000000000556 0x003           0x0000000000000476 Thrd_Get_Bits1
+decode_motion_vector                  mpeg2dec_nosse    0x84    
+  Loads Retired                                                      0.11%      11         3588893             0x00000000000063FE 0x003           0x000000000000631E decode_motion_vector
+Thrd_motion_vectors                   mpeg2dec_nosse    0xfe    
+  Loads Retired                                                      0.06%      6          1957578             0x00000000000065BE 0x003           0x00000000000064DE Thrd_motion_vectors
+Thrd_Get_B_macroblock_type            mpeg2dec_nosse    0x7c    
+  Loads Retired                                                      0.02%      2          652526              0x00000000000053E0 0x003           0x0000000000005300 Thrd_Get_B_macroblock_type
+Thrd_Get_coded_block_pattern          mpeg2dec_nosse    0xa4    
+  Loads Retired                                                      0.02%      2          652526              0x00000000000056AE 0x003           0x00000000000055CE Thrd_Get_coded_block_pattern
+Thrd_Get_Luma_DC_dct_diff             mpeg2dec_nosse    0x8c    
+  Loads Retired                                                      0.02%      2          652526              0x0000000000005752 0x003           0x0000000000005672 Thrd_Get_Luma_DC_dct_diff
+Thrd_start_of_slice                   mpeg2dec_nosse    0xfc    
+  Loads Retired                                                      0.01%      1          326263              0x000000000000373C 0x003           0x000000000000365C Thrd_start_of_slice
+__libc_write                          mpeg2dec_nosse    0x5a    
+  Loads Retired                                                      0.01%      1          326263              0x000000000000BC30 0x003           0x000000000000BB50 __libc_write
+Thrd_Get_macroblock_type              mpeg2dec_nosse    0xa0    
+  Loads Retired                                                      0.02%      2          652526              0x000000000000527C 0x003           0x000000000000519C Thrd_Get_macroblock_type
+Fill_Buffer                           mpeg2dec_nosse    0xb0    
+  Loads Retired                                                      0.01%      1          326263              0x0000000000000256 0x003           0x0000000000000176 Fill_Buffer
+Event Summary
+1st Level Cache Load Misses Retired
+   10502 = Samples collected due to this event
+   5786             = Sample after value used during collection
+   60764572         = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                                  Module            Size    
+  Event                                                                 Events%    Samples     Events            Address          Segment          Offset        Full name
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+form_component_prediction                 mpeg2dec_nosse    0x606   
+  1st Level Cache Load Misses Retired                                   26.01%      2732       15807352            0x0000000000007CB6 0x003           0x0000000000007BD6 form_component_prediction
+form_component_prediction2                mpeg2dec_nosse    0xac6   
+  1st Level Cache Load Misses Retired                                   15.68%      1647       9529542             0x00000000000082BC 0x003           0x00000000000081DC form_component_prediction2
+Saturate                                  mpeg2dec_nosse    0x166   
+  1st Level Cache Load Misses Retired                                   16.23%      1704       9859344             0x0000000000002E3C 0x003           0x0000000000002D5C Saturate
+Thrd_Add_Block                            mpeg2dec_nosse    0x7ce   
+  1st Level Cache Load Misses Retired                                    4.22%      443        2563198             0x00000000000043EA 0x003           0x000000000000430A Thrd_Add_Block
+form_prediction                           mpeg2dec_nosse    0x1a8   
+  1st Level Cache Load Misses Retired                                    2.21%      232        1342352             0x0000000000007B0E 0x003           0x0000000000007A2E form_prediction
+Thrd_motion_compensation                  mpeg2dec_nosse    0x174   
+  1st Level Cache Load Misses Retired                                    1.37%      144        833184              0x0000000000003E38 0x003           0x0000000000003D58 Thrd_motion_compensation
+Thrd_Flush_Buffer                         mpeg2dec_nosse    0xb2    
+  1st Level Cache Load Misses Retired                                    0.79%      83         480238              0x0000000000000566 0x003           0x0000000000000486 Thrd_Flush_Buffer
+Fast_IDCT                                 mpeg2dec_nosse    0x18e   
+  1st Level Cache Load Misses Retired                                    1.04%      109        630674              0x0000000000005D3E 0x003           0x0000000000005C5E Fast_IDCT
+form_predictions                          mpeg2dec_nosse    0x756   
+  1st Level Cache Load Misses Retired                                    0.37%      39         225654              0x00000000000073B8 0x003           0x00000000000072D8 form_predictions
+Thrd_macroblock_modes                     mpeg2dec_nosse    0x20e   
+  1st Level Cache Load Misses Retired                                    0.36%      38         219868              0x0000000000003FAC 0x003           0x0000000000003ECC Thrd_macroblock_modes
+Thrd_Decode_MPEG2_Non_Intra_Block         mpeg2dec_nosse    0x300   
+  1st Level Cache Load Misses Retired                                    0.60%      63         364518              0x00000000000014DC 0x003           0x00000000000013FC Thrd_Decode_MPEG2_Non_Intra_Block
+Thrd_Work                                 mpeg2dec_nosse    0x2c2   
+  1st Level Cache Load Misses Retired                                    0.40%      42         243012              0x000000000000320A 0x003           0x000000000000312A Thrd_Work
+Thrd_Get_motion_code                      mpeg2dec_nosse    0x10c   
+  1st Level Cache Load Misses Retired                                    0.20%      21         121506              0x000000000000556A 0x003           0x000000000000548A Thrd_Get_motion_code
+Thrd_Get_coded_block_pattern              mpeg2dec_nosse    0xa4    
+  1st Level Cache Load Misses Retired                                    0.10%      10         57860               0x00000000000056AE 0x003           0x00000000000055CE Thrd_Get_coded_block_pattern
+Thrd_decode_macroblock                    mpeg2dec_nosse    0x506   
+  1st Level Cache Load Misses Retired                                    0.13%      14         81004               0x0000000000003838 0x003           0x0000000000003758 Thrd_decode_macroblock
+Thrd_skipped_macroblock                   mpeg2dec_nosse    0xfa    
+  1st Level Cache Load Misses Retired                                    0.06%      6          34716               0x0000000000003D3E 0x003           0x0000000000003C5E Thrd_skipped_macroblock
+Thrd_Decode_MPEG2_Intra_Block             mpeg2dec_nosse    0x37a   
+  1st Level Cache Load Misses Retired                                    0.12%      13         75218               0x0000000000001162 0x003           0x0000000000001082 Thrd_Decode_MPEG2_Intra_Block
+Thrd_Get_B_macroblock_type                mpeg2dec_nosse    0x7c    
+  1st Level Cache Load Misses Retired                                    0.25%      26         150436              0x00000000000053E0 0x003           0x0000000000005300 Thrd_Get_B_macroblock_type
+Thrd_motion_vector                        mpeg2dec_nosse    0xd4    
+  1st Level Cache Load Misses Retired                                    0.05%      5          28930               0x00000000000066BC 0x003           0x00000000000065DC Thrd_motion_vector
+Thrd_Get_macroblock_address_increment     mpeg2dec_nosse    0xdc    
+  1st Level Cache Load Misses Retired                                    0.05%      5          28930               0x000000000000548E 0x003           0x00000000000053AE Thrd_Get_macroblock_address_increment
+Thrd_Get_P_macroblock_type                mpeg2dec_nosse    0x7c    
+  1st Level Cache Load Misses Retired                                    0.02%      2          11572               0x0000000000005364 0x003           0x0000000000005284 Thrd_Get_P_macroblock_type
+_IO_vfprintf                              mpeg2dec_nosse    0x3e94  
+  1st Level Cache Load Misses Retired                                    0.02%      2          11572               0x0000000000032B94 0x003           0x0000000000032AB4 _IO_vfprintf
+Thrd_Get_Bits                             mpeg2dec_nosse    0x24    
+  1st Level Cache Load Misses Retired                                    0.01%      1          5786                0x0000000000000618 0x003           0x0000000000000538 Thrd_Get_Bits
+Thrd_motion_vectors                       mpeg2dec_nosse    0xfe    
+  1st Level Cache Load Misses Retired                                    0.01%      1          5786                0x00000000000065BE 0x003           0x00000000000064DE Thrd_motion_vectors
+Thrd_slice_header                         mpeg2dec_nosse    0xfa    
+  1st Level Cache Load Misses Retired                                    0.01%      1          5786                0x00000000000018BE 0x003           0x00000000000017DE Thrd_slice_header
+Thrd_start_of_slice                       mpeg2dec_nosse    0xfc    
+  1st Level Cache Load Misses Retired                                    0.04%      4          23144               0x000000000000373C 0x003           0x000000000000365C Thrd_start_of_slice
+Thrd_Show_Bits                            mpeg2dec_nosse    0x18    
+  1st Level Cache Load Misses Retired                                    0.23%      24         138864              0x000000000000053E 0x003           0x000000000000045E Thrd_Show_Bits
+Show_Bits                                 mpeg2dec_nosse    0x18    
+  1st Level Cache Load Misses Retired                                    0.01%      1          5786                0x0000000000000386 0x003           0x00000000000002A6 Show_Bits
+Flush_Buffer                              mpeg2dec_nosse    0x126   
+  1st Level Cache Load Misses Retired                                    0.04%      4          23144               0x00000000000003A8 0x003           0x00000000000002C8 Flush_Buffer
+store_yuvp                                mpeg2dec_nosse    0xaa    
+  1st Level Cache Load Misses Retired                                    0.01%      1          5786                0x0000000000009BEA 0x003           0x0000000000009B0A store_yuvp
+Event Summary
+2nd Level Cache Load Misses Retired
+   10535 = Samples collected due to this event
+   1210             = Sample after value used during collection
+   12747350         = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                                   Module            Size    
+  Event                                                                  Events%    Samples     Events            Address          Segment          Offset        Full name
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+form_component_prediction                  mpeg2dec_nosse    0x606   
+  2nd Level Cache Load Misses Retired                                    29.52%      3110       3763100             0x0000000000007CB6 0x003           0x0000000000007BD6 form_component_prediction
+form_component_prediction2                 mpeg2dec_nosse    0xac6   
+  2nd Level Cache Load Misses Retired                                    15.33%      1615       1954150             0x00000000000082BC 0x003           0x00000000000081DC form_component_prediction2
+Thrd_Add_Block                             mpeg2dec_nosse    0x7ce   
+  2nd Level Cache Load Misses Retired                                     0.12%      13         15730               0x00000000000043EA 0x003           0x000000000000430A Thrd_Add_Block
+Thrd_Flush_Buffer                          mpeg2dec_nosse    0xb2    
+  2nd Level Cache Load Misses Retired                                     0.11%      12         14520               0x0000000000000566 0x003           0x0000000000000486 Thrd_Flush_Buffer
+Thrd_Decode_MPEG2_Non_Intra_Block          mpeg2dec_nosse    0x300   
+  2nd Level Cache Load Misses Retired                                     0.07%      7          8470                0x00000000000014DC 0x003           0x00000000000013FC Thrd_Decode_MPEG2_Non_Intra_Block
+_IO_vfprintf                               mpeg2dec_nosse    0x3e94  
+  2nd Level Cache Load Misses Retired                                     0.04%      4          4840                0x0000000000032B94 0x003           0x0000000000032AB4 _IO_vfprintf
+Flush_Buffer                               mpeg2dec_nosse    0x126   
+  2nd Level Cache Load Misses Retired                                     0.02%      2          2420                0x00000000000003A8 0x003           0x00000000000002C8 Flush_Buffer
+Flush_Buffer32                             mpeg2dec_nosse    0xe8    
+  2nd Level Cache Load Misses Retired                                     0.01%      1          1210                0x000000000000B906 0x003           0x000000000000B826 Flush_Buffer32
+Saturate                                   mpeg2dec_nosse    0x166   
+  2nd Level Cache Load Misses Retired                                     0.01%      1          1210                0x0000000000002E3C 0x003           0x0000000000002D5C Saturate
+Thrd_Flush_Buffer32                        mpeg2dec_nosse    0x1d6   
+  2nd Level Cache Load Misses Retired                                     0.01%      1          1210                0x000000000000BA1A 0x003           0x000000000000B93A Thrd_Flush_Buffer32
+Thrd_Show_Bits                             mpeg2dec_nosse    0x18    
+  2nd Level Cache Load Misses Retired                                     0.02%      2          2420                0x000000000000053E 0x003           0x000000000000045E Thrd_Show_Bits
+Thrd_motion_compensation                   mpeg2dec_nosse    0x174   
+  2nd Level Cache Load Misses Retired                                     0.22%      23         27830               0x0000000000003E38 0x003           0x0000000000003D58 Thrd_motion_compensation
+Update_Temporal_Reference_Tacking_Data     mpeg2dec_nosse    0xe0    
+  2nd Level Cache Load Misses Retired                                     0.01%      1          1210                0x00000000000025F4 0x003           0x0000000000002514 Update_Temporal_Reference_Tacking_Data
+__close                                    mpeg2dec_nosse    0x4f    
+  2nd Level Cache Load Misses Retired                                     0.02%      2          2420                0x000000000000BCF0 0x003           0x000000000000BC10 __close
+form_predictions                           mpeg2dec_nosse    0x756   
+  2nd Level Cache Load Misses Retired                                     0.03%      3          3630                0x00000000000073B8 0x003           0x00000000000072D8 form_predictions

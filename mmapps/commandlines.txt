@@ -1,0 +1,20 @@
+GSM Encoder (output will go to stdout)
+Usage: toast -lc <input file>
+Example: toast -lc speech.pcm
+
+GSM Decoder (output will go to stdout)
+Usage: toast -dlc <input file>
+Example: toast -dlc speech.pcm.gsm
+
+H.263 Encoder
+Usage: tmn -i <input file> -B <output file> -a <start frame> -b <last frame> -Z 25 -s 5 -I 5 -q 7 -S 0
+Example: tmn -i video.qcif -B output.263 -a 0 -b 99 -Z 25 -s 5 -I 5 -q 7 -S 0
+
+H.263 Decoder
+Usage: tmndec -o5 <input file> <output file>
+Example: tmndec -o5 video.263 output.qcif
+
+MPEG Decoder
+Usage: mpeg2decode -q -b <input file> -f -o0 <output file root>_%d
+Example: mpeg2decode -q -b video.m2v -f -o0 frame_%d
+

@@ -1,0 +1,8 @@
+ac3dparse  getargs    jpeg       pngfile    sphere     util
+api        global     light      ppm        texture    vector
+apigeom    glwin      main       quadric    tgafile    vol
+box        grid       mgfparse   render     threads    winbmp
+camera     hash       nffparse   ring       trace
+coordsys   imageio    parallel   sgirgb     trackball
+cylinder   imap       parse      shade      triangle
+extvol     intersect  plane      spaceball  ui

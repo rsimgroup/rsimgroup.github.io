@@ -1,0 +1,4 @@
+AuthType Basic 
+AuthUserFile /usr/dcs/www/etc/htpasswd
+AuthName "Adve Test Setup"
+require valid-user 

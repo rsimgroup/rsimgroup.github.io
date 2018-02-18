@@ -1,0 +1,4 @@
+AuthType Basic 
+AuthUserFile /usr/dcs/www/www-root/restricted/htpasswd_src
+AuthName "NSF Proposal"
+require valid-user 

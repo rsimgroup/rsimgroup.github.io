@@ -1,0 +1,291 @@
+VTune(TM) Performance Analyzer 2.0 for Linux*
+Copyright (C) 2000-2003 Intel Corporation. All rights reserved.
+
+Event Summary
+Instructions Retired
+   3077 = Samples collected due to this event
+   997943           = Sample after value used during collection
+   3070670611       = Total events (samples*SAV)
+Clockticks
+   3118 = Samples collected due to this event
+   1631586          = Sample after value used during collection
+   5087285148       = Total events (samples*SAV)
+
+Module View (all values in decimal)
+
+Module                           Process
+  Event                                             Events%    Samples    Events              Module Path
+------------------------------------------------------------------------------------------------------------------------------------
+mpeg2dec_sse                     mpeg2dec_sse
+  Instructions Retired                               93.34%     2872       2866092296          /tmp/alex_vtune/MPGdec/execs/mpeg2dec_sse
+  Clockticks                                         67.86%     2116       3452435976      
+vmlinux                          mpeg2dec_sse
+  Instructions Retired                                2.40%     74         73847782            vmlinux
+  Clockticks                                         15.68%     489        797845554       
+jbd                              mpeg2dec_sse
+  Instructions Retired                                2.27%     70         69856010            jbd
+  Clockticks                                         11.64%     363        592265718       
+ext3                             mpeg2dec_sse
+  Instructions Retired                                1.62%     50         49897150            ext3
+  Clockticks                                          1.51%     47         76684542        
++Other32+                        Pid 0x0
+  Instructions Retired                                0.03%     1          997943               
+  Clockticks                                          1.76%     55         89737230        
+vmlinux                          vtl.bin
+  Instructions Retired                                0.13%     4          3991772             vmlinux
+  Clockticks                                          0.48%     15         24473790        
+vmlinux                          vtl.bin
+  Instructions Retired                                0.10%     3          2993829             vmlinux
+  Clockticks                                          0.22%     7          11421102        
++Other32+                        XFree86
+  Instructions Retired                                0.03%     1          997943               
+  Clockticks                                          0.06%     2          3263172         
+libmutant.so                     vtl.bin
+  Clockticks                                          0.10%     3          4894758             /opt/sag/exx/v611/lib/libmutant.so
+vmlinux                          Pid 0x0
+  Clockticks                                          0.10%     3          4894758             vmlinux
+libpthread-0.10.so               vtl.bin
+  Instructions Retired                                0.03%     1          997943              /lib/i686/libpthread-0.10.so
+  Clockticks                                          0.03%     1          1631586         
+ntd                              ntd
+  Clockticks                                          0.06%     2          3263172             /opt/sag/exx/v611/bin/ntd
+usb-uhci                         mpeg2dec_sse
+  Clockticks                                          0.06%     2          3263172             usb-uhci
+usb-uhci                         Pid 0x0
+  Clockticks                                          0.03%     1          1631586             usb-uhci
+libpthread-0.10.so               ntd
+  Clockticks                                          0.03%     1          1631586             /lib/i686/libpthread-0.10.so
+libole32.so                      vtl.bin
+  Clockticks                                          0.03%     1          1631586             /opt/sag/exx/v611/lib/libole32.so
+vmlinux                          ntd
+  Clockticks                                          0.03%     1          1631586             vmlinux
+libgtk-x11-2.0.so.0.0.6          gdmgreeter
+  Clockticks                                          0.03%     1          1631586             /usr/lib/libgtk-x11-2.0.so.0.0.6
+libgobject-2.0.so.0.0.6          gdmgreeter
+  Clockticks                                          0.03%     1          1631586             /usr/lib/libgobject-2.0.so.0.0.6
+libc-2.3.2.so                    ntd
+  Clockticks                                          0.03%     1          1631586             /lib/i686/libc-2.3.2.so
+libX11.so.6.2                    gdmgreeter
+  Clockticks                                          0.03%     1          1631586             /usr/X11R6/lib/libX11.so.6.2
+ld-2.3.2.so                      vtl.bin
+  Clockticks                                          0.03%     1          1631586             /lib/ld-2.3.2.so
+vmlinux                          Pid 0x490
+  Clockticks                                          0.03%     1          1631586             vmlinux
+vmlinux                          XFree86
+  Clockticks                                          0.03%     1          1631586             vmlinux
+e1000                            Pid 0x0
+  Clockticks                                          0.03%     1          1631586             e1000
+vmlinux                          vtl.bin
+  Instructions Retired                                0.03%     1          997943              vmlinux
+vtune_drv-x32-2.4.20-18.8smpsmp  vtl.bin
+  Clockticks                                          0.03%     1          1631586             vtune_drv-x32-2.4.20-18.8smpsmp
+Event Summary
+Uops Retired
+   3083 = Samples collected due to this event
+   1414726          = Sample after value used during collection
+   4361600258       = Total events (samples*SAV)
+
+Module View (all values in decimal)
+
+Module                           Process
+  Event                                             Events%    Samples    Events              Module Path
+------------------------------------------------------------------------------------------------------------------------------------
+mpeg2dec_sse                     mpeg2dec_sse
+  Uops Retired                                       89.36%     2755       3897570130          /tmp/alex_vtune/MPGdec/execs/mpeg2dec_sse
+vmlinux                          mpeg2dec_sse
+  Uops Retired                                        4.25%     131        185329106           vmlinux
+jbd                              mpeg2dec_sse
+  Uops Retired                                        3.86%     119        168352394           jbd
+ext3                             mpeg2dec_sse
+  Uops Retired                                        1.62%     50         70736300            ext3
+vmlinux                          Pid 0x0
+  Uops Retired                                        0.36%     11         15561986            vmlinux
+vmlinux                          vtl.bin
+  Uops Retired                                        0.19%     6          8488356             vmlinux
+vmlinux                          vtl.bin
+  Uops Retired                                        0.10%     3          4244178             vmlinux
+vtune_drv-x32-2.4.20-18.8smpsmp  vtl.bin
+  Uops Retired                                        0.06%     2          2829452             vtune_drv-x32-2.4.20-18.8smpsmp
++Other32+                        Pid 0x0
+  Uops Retired                                        0.06%     2          2829452              
+vmlinux                          XFree86
+  Uops Retired                                        0.03%     1          1414726             vmlinux
+vmlinux                          Pid 0xd
+  Uops Retired                                        0.03%     1          1414726             vmlinux
+libmutant.so                     vtl.bin
+  Uops Retired                                        0.03%     1          1414726             /opt/sag/exx/v611/lib/libmutant.so
++Other32+                        XFree86
+  Uops Retired                                        0.03%     1          1414726              
+Event Summary
+128-bit MMX(TM) Instructions Retired
+   3078 = Samples collected due to this event
+   329792           = Sample after value used during collection
+   1015099776       = Total events (samples*SAV)
+
+Module View (all values in decimal)
+
+Module                                  Process
+  Event                                                    Events%    Samples    Events              Module Path
+-------------------------------------------------------------------------------------------------------------------------------------------
+mpeg2dec_sse                            mpeg2dec_sse
+  128-bit MMX(TM) Instructions Retired                     100.00%     3078       1015099776          /tmp/alex_vtune/MPGdec/execs/mpeg2dec_sse
+Event Summary
+64-bit MMX(TM) Instructions Retired
+   0 = Samples collected due to this event
+   1                = Sample after value used during collection
+   0                = Total events (samples*SAV)
+Event Summary
+Loads Retired
+   6156 = Samples collected due to this event
+   104557           = Sample after value used during collection
+   643652892        = Total events (samples*SAV)
+
+Module View (all values in decimal)
+
+Module                           Process
+  Event                                             Events%    Samples    Events              Module Path
+------------------------------------------------------------------------------------------------------------------------------------
+mpeg2dec_sse                     mpeg2dec_sse
+  Loads Retired                                      86.13%     5302       554361214           /tmp/alex_vtune/MPGdec/execs/mpeg2dec_sse
+vmlinux                          mpeg2dec_sse
+  Loads Retired                                       6.34%     390        40777230            vmlinux
+jbd                              mpeg2dec_sse
+  Loads Retired                                       3.98%     245        25616465            jbd
+ext3                             mpeg2dec_sse
+  Loads Retired                                       2.89%     178        18611146            ext3
+vmlinux                          vtl.bin
+  Loads Retired                                       0.24%     15         1568355             vmlinux
+vmlinux                          vtl.bin
+  Loads Retired                                       0.15%     9          941013              vmlinux
++Other32+                        XFree86
+  Loads Retired                                       0.05%     3          313671               
+ntd                              ntd
+  Loads Retired                                       0.05%     3          313671              /opt/sag/exx/v611/bin/ntd
+libmutant.so                     vtl.bin
+  Loads Retired                                       0.05%     3          313671              /opt/sag/exx/v611/lib/libmutant.so
+libglib-2.0.so.0.0.6             gdmgreeter
+  Loads Retired                                       0.02%     1          104557              /usr/lib/libglib-2.0.so.0.0.6
+libpangoxft-1.0.so.0.100.1       gdmgreeter
+  Loads Retired                                       0.02%     1          104557              /usr/lib/libpangoxft-1.0.so.0.100.1
+libpthread-0.10.so               ntd
+  Loads Retired                                       0.02%     1          104557              /lib/i686/libpthread-0.10.so
+nmbd                             nmbd
+  Loads Retired                                       0.02%     1          104557              /usr/sbin/nmbd
+vmlinux                          ntd
+  Loads Retired                                       0.02%     1          104557              vmlinux
+vmlinux                          nmbd
+  Loads Retired                                       0.02%     1          104557              vmlinux
+vmlinux                          vtl.bin
+  Loads Retired                                       0.02%     1          104557              vmlinux
+vtune_drv-x32-2.4.20-18.8smpsmp  vtl.bin
+  Loads Retired                                       0.02%     1          104557              vtune_drv-x32-2.4.20-18.8smpsmp
+Event Summary
+1st Level Cache Load Misses Retired
+   6175 = Samples collected due to this event
+   6960             = Sample after value used during collection
+   42978000         = Total events (samples*SAV)
+
+Module View (all values in decimal)
+
+Module                                 Process
+  Event                                                   Events%    Samples    Events              Module Path
+------------------------------------------------------------------------------------------------------------------------------------------
+mpeg2dec_sse                           mpeg2dec_sse
+  1st Level Cache Load Misses Retired                      58.98%     3642       25348320            /tmp/alex_vtune/MPGdec/execs/mpeg2dec_sse
+vmlinux                                mpeg2dec_sse
+  1st Level Cache Load Misses Retired                      33.72%     2082       14490720            vmlinux
+ext3                                   mpeg2dec_sse
+  1st Level Cache Load Misses Retired                       3.47%     214        1489440             ext3
+jbd                                    mpeg2dec_sse
+  1st Level Cache Load Misses Retired                       2.40%     148        1030080             jbd
+vmlinux                                vtl.bin
+  1st Level Cache Load Misses Retired                       0.58%     36         250560              vmlinux
+vmlinux                                vtl.bin
+  1st Level Cache Load Misses Retired                       0.44%     27         187920              vmlinux
+ntd                                    ntd
+  1st Level Cache Load Misses Retired                       0.10%     6          41760               /opt/sag/exx/v611/bin/ntd
+libmutant.so                           vtl.bin
+  1st Level Cache Load Misses Retired                       0.05%     3          20880               /opt/sag/exx/v611/lib/libmutant.so
+libc-2.3.2.so                          gdmgreeter
+  1st Level Cache Load Misses Retired                       0.03%     2          13920               /lib/i686/libc-2.3.2.so
+libpthread-0.10.so                     vtl.bin
+  1st Level Cache Load Misses Retired                       0.03%     2          13920               /lib/i686/libpthread-0.10.so
+vmlinux                                vtl.bin
+  1st Level Cache Load Misses Retired                       0.03%     2          13920               vmlinux
+sshd2                                  sshd2
+  1st Level Cache Load Misses Retired                       0.02%     1          6960                /etc/sshd2
+usb-uhci                               Pid 0x0
+  1st Level Cache Load Misses Retired                       0.02%     1          6960                usb-uhci
+vmlinux                                Pid 0x0
+  1st Level Cache Load Misses Retired                       0.02%     1          6960                vmlinux
+libgobject-2.0.so.0.0.6                gdmgreeter
+  1st Level Cache Load Misses Retired                       0.02%     1          6960                /usr/lib/libgobject-2.0.so.0.0.6
+libgdk-x11-2.0.so.0.0.6                gdmgreeter
+  1st Level Cache Load Misses Retired                       0.02%     1          6960                /usr/lib/libgdk-x11-2.0.so.0.0.6
+libc-2.3.2.so                          vtl.bin
+  1st Level Cache Load Misses Retired                       0.02%     1          6960                /lib/i686/libc-2.3.2.so
+vmlinux                                XFree86
+  1st Level Cache Load Misses Retired                       0.02%     1          6960                vmlinux
+ld-2.3.2.so                            vtl.bin
+  1st Level Cache Load Misses Retired                       0.02%     1          6960                /lib/ld-2.3.2.so
+vmlinux                                gdmgreeter
+  1st Level Cache Load Misses Retired                       0.02%     1          6960                vmlinux
+jbd                                    vtl.bin
+  1st Level Cache Load Misses Retired                       0.02%     1          6960                jbd
+ext3                                   Pid 0x498
+  1st Level Cache Load Misses Retired                       0.02%     1          6960                ext3
+Event Summary
+2nd Level Cache Load Misses Retired
+   6844 = Samples collected due to this event
+   1639             = Sample after value used during collection
+   11217316         = Total events (samples*SAV)
+
+Module View (all values in decimal)
+
+Module                                 Process
+  Event                                                   Events%    Samples    Events              Module Path
+------------------------------------------------------------------------------------------------------------------------------------------
+vmlinux                                mpeg2dec_sse
+  2nd Level Cache Load Misses Retired                      53.45%     3658       5995462             vmlinux
+mpeg2dec_sse                           mpeg2dec_sse
+  2nd Level Cache Load Misses Retired                      40.18%     2750       4507250             /tmp/alex_vtune/MPGdec/execs/mpeg2dec_sse
+ext3                                   mpeg2dec_sse
+  2nd Level Cache Load Misses Retired                       2.13%     146        239294              ext3
+vmlinux                                vtl.bin
+  2nd Level Cache Load Misses Retired                       1.14%     78         127842              vmlinux
+jbd                                    mpeg2dec_sse
+  2nd Level Cache Load Misses Retired                       0.86%     59         96701               jbd
+vmlinux                                Pid 0x0
+  2nd Level Cache Load Misses Retired                       0.82%     56         91784               vmlinux
+vmlinux                                vtl.bin
+  2nd Level Cache Load Misses Retired                       0.77%     53         86867               vmlinux
+ntd                                    ntd
+  2nd Level Cache Load Misses Retired                       0.16%     11         18029               /opt/sag/exx/v611/bin/ntd
+vmlinux                                Pid 0xd
+  2nd Level Cache Load Misses Retired                       0.15%     10         16390               vmlinux
+usb-uhci                               Pid 0x0
+  2nd Level Cache Load Misses Retired                       0.12%     8          13112               usb-uhci
+XFree86                                XFree86
+  2nd Level Cache Load Misses Retired                       0.03%     2          3278                /usr/X11R6/bin/XFree86
+ld-2.3.2.so                            vtl.bin
+  2nd Level Cache Load Misses Retired                       0.03%     2          3278                /lib/ld-2.3.2.so
+vmlinux                                vtl.bin
+  2nd Level Cache Load Misses Retired                       0.03%     2          3278                vmlinux
+libpthread-0.10.so                     ntd
+  2nd Level Cache Load Misses Retired                       0.01%     1          1639                /lib/i686/libpthread-0.10.so
+libole32.so                            vtl.bin
+  2nd Level Cache Load Misses Retired                       0.01%     1          1639                /opt/sag/exx/v611/lib/libole32.so
+libglib-2.0.so.0.0.6                   gdmgreeter
+  2nd Level Cache Load Misses Retired                       0.01%     1          1639                /usr/lib/libglib-2.0.so.0.0.6
+libc-2.3.2.so                          ntd
+  2nd Level Cache Load Misses Retired                       0.01%     1          1639                /lib/i686/libc-2.3.2.so
+libStandardExeCtrl.so                  vtl.bin
+  2nd Level Cache Load Misses Retired                       0.01%     1          1639                /opt/intel/vtune/shared/bin/libStandardExeCtrl.so
+ld-2.3.2.so                            vtl.bin
+  2nd Level Cache Load Misses Retired                       0.01%     1          1639                /lib/ld-2.3.2.so
+vmlinux                                ntd
+  2nd Level Cache Load Misses Retired                       0.01%     1          1639                vmlinux
+vmlinux                                gdmgreeter
+  2nd Level Cache Load Misses Retired                       0.01%     1          1639                vmlinux
+vtune_drv-x32-2.4.20-18.8smpsmp        vtl.bin
+  2nd Level Cache Load Misses Retired                       0.01%     1          1639                vtune_drv-x32-2.4.20-18.8smpsmp

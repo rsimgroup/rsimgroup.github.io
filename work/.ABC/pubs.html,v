@@ -1,0 +1,221 @@
+head	1.5;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2008.12.30.16.11.54;	author manlapli;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2008.12.22.17.04.23;	author manlapli;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2008.03.31.16.30.27;	author manlapli;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2008.02.25.20.39.16;	author pramach2;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2008.02.25.16.22.19;	author pramach2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>SWAT Publications</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+span.MsoHyperlink
+	{color:#333366;
+	text-decoration:underline;
+	text-underline:single;}
+span.SpellE
+	{}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#333366" link="#333366" vlink="#993300" alink="#CC6600">
+<table width="800" border="0" cellpadding="5" cellspacing="0" height="909">
+  <tr align="left" valign="bottom"> 
+    <td colspan="3" width="800" height="75"> <p>
+    <img src="swat.gif" width="800" height="75"></p></td>
+  </tr>
+  <tr align="left" valign="top"> 
+    <td width="137" bordercolor="#e7ebf0" bgcolor="#e7ebf0" rowspan="2" height="834"> <p><font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><b><br>
+        &nbsp;</b></font></p>
+    <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+    <a href="http://rsim.cs.uiuc.edu/swat">SWAT Home</a></font></b></p>
+    <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+    <a href="./people.html">People</a></font></b><font color="#333366" face="Geneva, Arial, 
+Helvetica, sans-serif"><b> </b></font></p>
+      <p><b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="./pubs.html">Publications</a></font></b></p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="./funding.html">Funding</a></font></b><br>
+        <font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><br>
+        <br>
+        </font></p>
+      </td>
+    <td width="7" height="309">&nbsp;</td>
+    <td width="674" height="834" rowspan="2"> 
+
+
+  <p>
+
+  <p><b><span style='font-size:18.0pt;font-family:Arial'>SWAT Publications</span></b></p>
+
+ <UL>
+
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l2 level1 lfo3;tab-stops:list .5in'>
+       <a href=../Pubs/09HPCA-Li.pdf>
+       Accurate Microarchitecture-Level Fault Modeling for Studying Hardware Faults</a>, Man-Lap Li,
+        Pradeep Ramachandran, Ulya R. Karpuzcu, Siva Kumar Sastry Hari, and Sarita V. Adve,
+        to appear in the <i
+       style='mso-bidi-font-style:normal'>Proceedings of the 15th International Symposium on High-Performance Computer Architecture (HPCA),</i> February 2009. <br
+       clear=all>
+       <br clear=all style='mso-special-character:line-break'>
+   </li>
+<li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:^M
+       auto;mso-list:l2 level1 lfo3;tab-stops:list .5in'>
+       <a href=../Pubs/08DSN-Li.pdf>
+       Trace-Based Microarchitecture-Level Diagnosis of Permanent Hardware Faults</a>, Man-Lap Li,
+       Pradeep Ramchandran, Swarup Kumar Sahoo, Sarita Adve, Vikram Adve, and
+       Yuanyuan Zhou, to appear in the <i
+       style='mso-bidi-font-style:normal'>Proceedings of the International
+       Conference on Dependable Systems and Networks (DSN),</i> June 2008. <br><br>
+   </li>
+
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:^M
+       auto;mso-list:l2 level1 lfo3;tab-stops:list .5in'>
+       <a href=../Pubs/08DSN-Sahoo.pdf>
+       Using Likely Program Invariants for Hardware Reliability</a>,
+       Swarup Kumar Sahoo, Man-Lap Li,
+       Pradeep Ramchandran,  Sarita Adve, Vikram Adve, and
+       Yuanyuan Zhou, to appear in the <i
+       style='mso-bidi-font-style:normal'>Proceedings of the International
+       Conference on Dependable Systems and Networks (DSN),</i> June 2008. <br><br>
+   </li>
+
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:^M
+       auto;text-align:justify;mso-list:l2 level1 lfo3;tab-stops:list .5in'>
+       <a href=../Pubs/08SELSE-Li.pdf>
+       SWAT: An Error Resilient System</a> , Man-Lap Li, Pradeep
+       Ramchandran, Sarita Adve, Vikram Adve, and Yuanyuan Zhou <i>, to appear
+       in the Fourth Workshop on Silicon Errors in Logic - System Effects 
+       (SELSE - IV)</i>, March 2008. <br><br>
+   </li>
+
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:^M
+       auto;text-align:justify;mso-list:l2 level1 lfo3;tab-stops:list .5in'>
+       <a href="../Pubs/08ASPLOS.pdf">Understanding the Propagation of Hard Errors to
+       Software and Implications for Resilient System Design</a>, Man-Lap Li,
+       Pradeep Ramchandran, Swarup Kumar Sahoo, Sarita Adve, Vikram Adve, and
+       Yuanyuan Zhou <i>, Proceedings of International Conference on
+       Architectural Support for Programming Languages and Operating Systems
+       (ASPLOS), March 2008 </i>.<br><br>
+    </li>
+
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;text-align:justify;mso-list:l2 level1 lfo3;tab-stops:list .5in'><a
+       href="http://rsim.cs.uiuc.edu/Pubs/Li-selse07.pdf">Towards a
+       Hardware-Software Co-designed Resilient System</a>, Man-Lap Li, Pradeep
+       Ramchandran, Sarita Adve, Vikram Adve and Yuanyuan Zhou <i>, Third Workshop
+       on Silicon Errors in Logic - System Effects (SELSE - III)</i>, April
+       2007. <br><br>
+    </li>
+	
+
+ </UL>
+
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='color:windowtext'>&nbsp;<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d61 1
+a61 2
+       style='mso-bidi-font-style:normal'>Proceedings of the 15th International Symposium on High-Performanc
+e Computer Architecture (HPCA),</i> February 2009. <br
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d55 12
+a66 1
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:^M
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d57 2
+a58 1
+       Trace-Based Diagnosis of Permanent Hardware Faults, Man-Lap Li,
+d67 2
+a68 1
+       Using Likely Program Invariants for Hardware Reliability,
+d78 2
+a79 1
+       SWAT: An Error Resilient System, Man-Lap Li, Pradeep
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a31 2
+    <p><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif"><b>
+    <a href="http://rsim.cs.uiuc.edu">Group Home</a></b></font></p>
+@

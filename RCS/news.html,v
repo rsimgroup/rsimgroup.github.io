@@ -1,0 +1,1495 @@
+head	1.29;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.29
+date	2014.10.30.15.54.53;	author mdsincl2;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2014.10.28.18.10.56;	author mdsincl2;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2014.06.27.04.16.51;	author mdsincl2;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2014.03.12.21.41.34;	author sung12;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2014.01.20.18.00.52;	author mdsincl2;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2013.10.08.21.58.02;	author mdsincl2;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2013.10.08.21.52.17;	author mdsincl2;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2013.07.13.15.47.34;	author shari2;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2013.07.13.15.20.24;	author mdsincl2;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2013.06.17.22.17.25;	author mdsincl2;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2013.06.17.17.58.56;	author mdsincl2;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2013.06.17.17.39.29;	author mdsincl2;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2013.06.14.13.29.42;	author sung12;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2013.01.22.02.33.17;	author shari2;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2012.05.03.15.06.31;	author mdsincl2;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2012.04.25.18.29.46;	author shari2;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2012.04.25.17.08.41;	author shari2;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2012.04.25.17.05.57;	author shari2;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2011.10.17.19.48.52;	author sung12;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2011.10.17.19.23.52;	author sung12;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2010.07.04.02.37.14;	author bynchoi1;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2010.04.09.15.08.01;	author pramach2;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2010.04.09.15.07.05;	author pramach2;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2010.04.02.06.28.53;	author komurav1;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2010.04.02.06.24.37;	author komurav1;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2010.03.06.04.35.15;	author sadve;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2010.03.03.17.19.56;	author shari2;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2010.03.01.20.36.57;	author shari2;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2010.02.28.20.13.00;	author shari2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.29
+log
+@Updated news with Sarita PC for ASPLOS.
+@
+text
+@<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Sarita Adve's Group: News</title>
+<link href="style/style1.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.style4 {
+        font-size: medium;
+}
+.projects {
+        font-size: medium;
+}
+.style5 {
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-right: 1px solid #C0C0C0;
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-bottom: 1px solid #C0C0C0;
+}
+ol {
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+        position: absolute;
+        display: none;
+
+}
+.style8 {
+        color: #FFFFFF;
+        text-align: center;
+}
+td.projects:hover ol, td.projects.over ol {
+        display: block;
+}
+.style9 {
+        text-decoration: none;
+}
+a.style9:hover{
+        opacity: 0.8;
+        filter:alpha(opacity=80);
+}
+.style10 {
+        color: #CCCCCC;
+}
+.style11 {
+        color: #FFFFFF;
+}
+.style12 {
+        text-align: left;
+}
+</style>
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="shadow_left">
+      &nbsp;
+    </td>
+    <td class="header_column">
+        <table width="100%" border="0" cellspacing="10" cellpadding="0">
+      <tr>
+        <td class="logo_area" style="font-size: x-large">
+          <strong><a class="style9" href="index.html"><span class="style11">Sarita Adve's Research Group</span></a></strong>
+        </td>
+        <th class="logo_area" rowspan="2">
+          <img src="images_template1/bold50.gif" alt=""></img>
+        </th>
+        <!-- <td width="300"> -->
+        <!--   <form id="form1" name="form1" method="post" action=""> -->
+        <!--    Search the website <br /> -->
+        <!--     <input name="search_text" type="text" id="search_text" /> -->
+        <!--     <input type="submit" name="Submit" value="Search" /> -->
+        <!--   </form> -->
+        <!-- </td> -->
+      </tr>
+      <tr>
+        <th class="sub_logo_area">
+          <a class="style9" href="http://illinois.edu"><span class="style10">University of Illinois at Urbana-Champaign</span></a>
+        </th>
+      </tr>
+    </table></td>
+    <td class="shadow_right">
+      &nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td class="horizontal_column">
+      &nbsp;
+    </td>
+    <td >
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" class="linkcontainer">
+        <tr>
+          <td class="projects">
+            <div class="navigation" style="font-size: medium"><a href="projects.html" class="main_link">Projects</a></div>
+            <ol>
+              <li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/swat"> SWAT  </a> </li>
+              <li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/denovo"> DeNovo </a> </li>
+              <li class="style8"> <a class="main_link" href="http://dpj.cs.uiuc.edu/DPJ/Home.html"> DPJ </a> </li>
+              <li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/heterogeneous"> Heterogeneous Computing </a> </li>
+              <li class="style8"> <a class="main_link" href="projects.html#matured"> Matured Projects </a> </li>
+            </ol>
+            
+          </td>
+          <!-- <td><div class="navigation"><a href="#" class="main_link">DeNovo Home</a></div></td> -->
+          <td class="style4"><div class="navigation" style="font-size: medium">
+              <a class="main_link" href="people.html">People</a></div>
+          </td>
+          <td>
+            <div class="navigation" style="font-size: medium"><a href="pubs.html" class="main_link">Publications</a></div>
+          </td>
+          <td>
+            <div class="navigation" style="font-size: medium"><a href="software.html" class="main_link">Software</a></div>
+          </td>
+          <td>
+            <div class="navigation" style="font-size: medium"><a href="funding.html" class="main_link">Funding</a></div>
+          </td>
+          <td>
+            <div class="navigation" style="font-size: medium"><a href="news.html" class="main_link">News</a></div>
+          </td>
+      </tr>
+      </table>
+
+    </td>
+    <td class="horizontal_column">&nbsp;</td>
+  </tr>
+  <!--   <tr> -->
+  <!--     <td class="shadow_left">&nbsp;</td> -->
+  <!--     <td class="below_header"> -->
+  <!-- A large part of the complexity and inefficiency in current hardware concurrency mechanisms arguably arises from a software-oblivious approach to hardware design. The DeNovo project seeks to rethink concurrent hardware from the ground up, given the assumption that most future software will use disciplined concurrency models for better dependability. -->
+  <!--     </td> -->
+  <!--     <td class="shadow_right">&nbsp;</td> -->
+  <!--   </tr> -->
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="main_content_box">
+        <table width="100%" cellspacing="0" cellpadding="0" class="style5">
+      <tr>
+        <td class="body_content" style="font-size: small; text-align: center;" valign="top">
+          <p class="style12"><strong><span style="font-size: 18pt; font-family: Arial;">News Archive</span> </strong></p>
+          <ul>
+            <li>
+              <p class="style12">
+                Siva received the 2014 <a href="http://cs.illinois.edu/prospective-students/graduate-students/ms-phd-programs/graduate-fellowships-awards/david-j-kuck-outs">David J. Kuck Outstanding Ph.D. Thesis Award</a>, October 2014
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Huzaifa passed the PhD qualifying exam, October 2014
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Our paper titled "Revisiting the Complexity of Hardware Cache Coherence and Some Implications" is accepted for publication in ACM's <a href="http://taco.acm.org/">TACO</a>
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Our paper titled "Hardware Fault Recovery for I/O Intensive Applications" is accepted for publication in ACM's <a href="http://taco.acm.org/">TACO</a>
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Siva presented GangES at <a href="http://cag.engr.uconn.edu/isca2014/">ISCA 2014</a>, June 2014
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Our paper titled "GangES: Gang Error Simulation for Hardware Resiliency Evaluation" is accepted for publication at <a href="http://cag.engr.uconn.edu/isca2014/">ISCA 2014</a>
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Hyojin received the <a href="http://cs.illinois.edu/prospective-students/graduate-students/ms-phd-programs/graduate-fellowships-awards/w-j-poppelbaum-me">W.J. Poppelbaum Memorial Award</a> for 2014
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Matt was recognized as an Outstanding Teaching Assistant for the Spring 2014 semester
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Sarita was Program Chair for <a href="http://www.cs.utah.edu/asplos14/">ASPLOS 2014</a>, March 2014
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Radha passed the PhD qualifying exam, March 2014
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Our <a href="http://rsim.cs.illinois.edu/Pubs/13-ASPLOS-denovond.pdf">DeNovoND paper</a> is chosen for the IEEE Micro's Top Picks 2014
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                John Alsop and Muhammad Huzaifa joined our research group, January 2014
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Rakesh and Matt present at Qualcomm Research, September 2013
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Sarita, Hyojin, Rakesh, and Matt present talks and posters at I2PC Summit, September 2013
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                <a href="http://rsim.cs.illinois.edu/~amahmou2/">Abdulrahman Mahmoud</a> joined our research group, August 2013
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Congratulations to Dr. Siva Kumar Sastry Hari for successfully defending his Ph.D. thesis, July 2013
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Sarita, Rakesh, and Matt present at Qualcomm Research, May 2013
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Siva received the Feng Chen Memorial Award in 2013
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Our <a href="http://rsim.cs.illinois.edu/Pubs/12-ASPLOS-Hari.pdf">Relyzer paper</a> is chosen for the <a href="http://illinois.edu/lb/article/4485/70499">IEEE Micro's Top Picks 2013</a>
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Hyojin presented <a href="http://rsim.cs.illinois.edu/Pubs/13-ASPLOS-denovond.pdf">DeNovoND</a> at <a href="http://asplos13.rice.edu/">ASPLOS 2013</a>, March 2013
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Sarita gave a <a href="http://rsim.cs.uiuc.edu/Talks/13-wodet.pptx">talk</a> at WoDet, March 2013
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Matt passed the PhD qualifying exam, March 2013
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Our paper titled "DeNovoND: Efficient Hardware Support for Disciplined Non-Determinism" is accepted for publication at <a href="http://asplos13.rice.edu">ASPLOS 2013</a>
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                <a href="http://cs.illinois.edu/node/957" target="blank">Article</a> on Rakesh and Matt's fellowship in the Departmental Click! magazine, September 2012
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Sarita selected as Program Chair for <a href="http://www.cs.utah.edu/asplos14/">ASPLOS 2014</a>!
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Siva received the Margarida Jacome GSRC Best Poster Award, Oct 2012
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Radha Venkatagiri joined our research group
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Rakesh and Matt received a Qualcomm Innovation Fellowship, May 2012
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Siva received the W.J. Poppelbaum Memorial Award for 2012
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Byn, Hyojin, Rakesh, and Rob received the Feng Chen Memorial Award in 2012
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Our paper titled "Virtual Instruction Set Computing for Heterogeneous Systems" is accepted for publication at <a href="https://www.usenix.org/conference/hotpar12">HotPar 2012</a>
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Sarita is named <a href="http://cs.illinois.edu/news/2012/Feb28-01">Woman of Vision in innovation by the Anita Borg Institute for Women in Technology</a> in 2012
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Rob passed the PhD qualifying exam, March 2012
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Rob presented <a href="http://rsim.cs.illinois.edu/~shari2/pubs/12-DATE-Pellegrini.pdf">CrashTest'ing SWAT</a> at <a href="http://www.date-conference.com/">DATE 2012</a>
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Siva presented <a href="http://rsim.cs.illinois.edu/~shari2/talks/12-asplos-relyzer.pptx">Relyzer</a> at <a href="http://research.microsoft.com/en-us/um/cambridge/events/asplos_2012/">ASPLOS 2012</a>
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Our paper titled "Low-cost Program-level Detectors for Reducing Silent Data Corruptions" is accepted for publication at <a href="http://2012.dsn.org/">DSN 2012</a>
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Sarita has been named an <a href="http://cs.illinois.edu/news/2011/Dec8-02">IEEE Fellow</a> for the class of 2012
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Best paper award for "DeNovo: Rethinking the Multicore Memory Hierarchy for Disciplined Parallelism" at <a href="http://www.pactconf.org">PACT 2011</a>!
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                <a href="http://rsim.cs.illinois.edu/~mdsincl2/"> Matt Sinclair</a> joined our research group
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Sarita gave a <a href="http://rsim.cs.uiuc.edu/Talks/11-ics-keynote.pdf">keynote speech</a> at ICS, June 2011
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Congratulations to Dr. Pradeep Ramachandran for successfully defending his Ph.D. thesis, May 2011
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Sarita gave a <a href="http://www.youtube.com/watch?v=Xy5_LOPBbOI">talk</a> at the Triangle distinguished lecture series, Duke University, April 2011
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Pradeep, Rob, and Siva presented three papers at SELSE 2011
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Sarita has been named <a href="http://fellows.acm.org/fellow_citation.cfm?id=3453289&srt=all">ACM Fellow</a> for the class of 2010, honored for her "impact on hardware and language memory models, and contributions to low-power and resilient systems."
+              </p>
+            </li>
+            <li>
+              <p class="style12">"
+                Parallel SAH k-D Tree Construction" accepted at <a href = http://www.highperformancegraphics.org/previous/www_2010>HPG 2010</a>
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                SWAT and DeNovo selected as top 10 projects to present in 2010 CS Spring Grad Expo at Illinois
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                An article about DeNovo appears on <a href="http://www.eetimes.com/electronics-news/4080124/Illinois-gives-sneak-peak-on-multicore-programming-ideas?pageNumber=1">EETimes</a>
+              </p> 
+            </li>
+            <li>
+              <p class="style12">
+                "DeNovo: Rethinking Hardware for Disciplined Parallelism" was accepted at HotPar '10
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                "A Language for Deterministic-by-Default Parallel Programming" was accepted at <a href = "http://www.complang.tuwien.ac.at/cpc10/">CPC 2010</a>
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Sarita gave a <a href = "http://rsim.cs.uiuc.edu/Talks/10-denovo-upcrc-summit.pptx">talk</a> on DeNovo at the Illinois UPCRC Summit, Mar '10
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Sarita and Hans Boehm will give a tutorial on 
+                memory models in PLDI'10
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Sarita gave a <a href="http://rsim.cs.uiuc.edu/Talks/10-MI-denovo.pptx">distinguished lecture</a> at the University of Michigan, Feb'10
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Sarita participated in the &quot;Advancing Computer 
+                Architecture Research&quot; workshop sponsored by CRA/CCC.
+                See position <a href="http://rsim.cs.uiuc.edu/Pubs/adve-10-acar-position.pdf">paper</a> and <a href="http://rsim.cs.uiuc.edu/Talks/10-acar.pptx">talk</a> here. Feb'10
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Pradeep successfully completed
+                his Preliminary Exam, Dec'09
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Siva presented
+                <a href="http://rsim.cs.uiuc.edu/Talks/10-MICRO-mSWAT.pptx">mSWAT</a> 
+                at MICRO-09, Dec'09
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Lei Chen joined the group as a research 
+                scientist, Nov'09
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Byn, Hyojin, Rakesh, and Siva 
+                cleared the PhD qualifying exam, Oct'09
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Xin Fu received the NSF Computing 
+                Innovation Fellowship. She recently joined the group as a post-doc, 
+                Oct'09
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Alex succesfully defended his PhD dissertation, 
+                Aug'09
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Sarita gave a <a href="http://rsim.cs.uiuc.edu/Talks/09-podc-spaa-memory-models.ppt">keynote</a> at a plenary session of 
+                PODC and SPAA, Aug'09
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                <a href="http://rsim.cs.illinois.edu/Pubs/10-cacm-memory-models.pdf">Paper</a> 
+                on a retrospective of memory models, motivating a rethinking of parallel languages and hardware, accepted for CACM.
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+                Pradeep received an Intel fellowship and an IBM 
+                scholarship, July'09
+              </p>
+            </li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td class="body_content" style="font-size: small; text-align: center;" valign="top">
+          &nbsp;
+        </td>
+      </tr>
+    </table>
+    </td>
+    <td class="shadow_right">
+      &nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td class="shadow_left">
+      &nbsp;
+    </td>
+    <td class="middle_spacer">
+      <div class="bottom_content"></div>
+    </td>
+    <td class="shadow_right">
+      &nbsp;
+    </td>
+  </tr>
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="bottom_link_container">
+      <p>
+      </p>
+      <p>
+        <!-- All Right Reserved &copy; 2006 by bprizze<br /> -->
+        <!-- http://heartlessg.4uhost.info Web Master -->
+      </p>
+      <p/>
+    </td>
+    <td class="shadow_right">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
+@
+
+
+1.28
+log
+@Updated news with recent events and added link/fixed month for Pradeep's TACO paper.
+@
+text
+@d186 5
+d201 1
+a201 1
+                John Alsop and Muhammad Huzaifa joined our research group, January 2014.
+@
+
+
+1.27
+log
+@Updated news with Sarita WoDet talk, Siva ISCA '14 paper and talk.
+@
+text
+@d146 20
+d176 15
+@
+
+
+1.26
+log
+@*** empty log message ***
+@
+text
+@d146 10
+d206 5
+@
+
+
+1.25
+log
+@Added John and Huzaifa to group (people, news, news archive).
+@
+text
+@d146 5
+@
+
+
+1.24
+log
+@Fixed bug in last commit.
+@
+text
+@d146 5
+@
+
+
+1.23
+log
+@Updated news, added talk at Qualcomm.
+@
+text
+@a155 5
+                Rakesh and Matt present at Qualcomm Research, September 2013
+              </p>
+            </li>
+            <li>
+              <p class="style12">
+@
+
+
+1.22
+log
+@*** empty log message ***
+@
+text
+@d146 25
+@
+
+
+1.21
+log
+@Added Siva's Feng Chen award to news.
+@
+text
+@d156 1
+a156 1
+                Our <a href="http://rsim.cs.illinois.edu/Pubs/12-ASPLOS-Hari.pdf">Relyzer paper</a> is chosen for the <a href="https://sites.google.com/site/ieeemicro/call-for-papers/top-picks-2013">IEEE Micro's Top Picks 2013</a>
+@
+
+
+1.20
+log
+@Added Radha joining.
+@
+text
+@d151 5
+@
+
+
+1.19
+log
+@Updated news on main page and archive to include some recent events.
+@
+text
+@d186 5
+@
+
+
+1.18
+log
+@Added Hetero project as a selectable project from drop-down menu.
+@
+text
+@d145 18
+a162 1
+              <p class="style12">Our <a href="http://rsim.cs.illinois.edu/Pubs/12-ASPLOS-Hari.pdf">Relyzer paper</a> is chosen for the <a href="https://sites.google.com/site/ieeemicro/call-for-papers/top-picks-2013">IEEE Micro's Top Picks 2013</a></p>
+d165 3
+a167 1
+              <p class="style12">Our paper titled "DeNovoND: Efficient Hardware Support for Disciplined Non-Determinism" is accpeted for publication at <a href="http://asplos13.rice.edu">ASPLOS 2013</a></p>
+d180 3
+a182 1
+              <p class="style12">Siva received the Margarida Jacome GSRC Best Poster Award, Oct 2012</p>
+d185 3
+a187 1
+              <p class="style12">Rakesh and Matt received a Qualcomm Innovation Fellowship, May 2012</p>
+d190 3
+a192 1
+              <p class="style12">Siva received the W.J. Poppelbaum Memorial Award for 2012</p>
+d195 3
+a197 1
+              <p class="style12">Byn, Hyojin, Rakesh, and Rob received the Feng Chen Memorial Award in 2012</p>
+d200 3
+a202 1
+              <p class="style12">Our paper titled "Virtual Instruction Set Computing for Heterogeneous Systems" is accepted for publication at <a href="https://www.usenix.org/conference/hotpar12">HotPar 2012</a></p>
+d205 3
+a207 1
+              <p class="style12">Sarita is named <a href="http://cs.illinois.edu/news/2012/Feb28-01">Woman of Vision in innovation by the Anita Borg Institute for Women in Technology</a> in 2012</p>
+d210 3
+a212 1
+              <p class="style12">Rob passed the PhD qualifying exam, March 2012</p>
+d215 3
+a217 1
+              <p class="style12">Rob presented <a href="http://rsim.cs.illinois.edu/~shari2/pubs/12-DATE-Pellegrini.pdf">CrashTest'ing SWAT</a> at <a href="http://www.date-conference.com/">DATE 2012</a></p>
+d220 3
+a222 1
+              <p class="style12">Siva presented <a href="http://rsim.cs.illinois.edu/~shari2/talks/12-asplos-relyzer.pptx">Relyzer</a> at <a href="http://research.microsoft.com/en-us/um/cambridge/events/asplos_2012/">ASPLOS 2012</a></p>
+d225 3
+a227 1
+              <p class="style12">Our paper titled "Low-cost Program-level Detectors for Reducing Silent Data Corruptions" is accepted for publication at <a href="http://2012.dsn.org/">DSN 2012</a></p>
+d230 3
+a232 1
+              <p class="style12">Sarita has been named an <a href="http://cs.illinois.edu/news/2011/Dec8-02">IEEE Fellow</a> for the class of 2012</p>
+d235 3
+a237 1
+              <p class="style12">Best paper award for "DeNovo: Rethinking the Multicore Memory Hierarchy for Disciplined Parallelism" at <a href="http://www.pactconf.org">PACT 2011</a>!</p>
+d240 3
+a242 1
+              <p class="style12"><a href="http://rsim.cs.illinois.edu/~mdsincl2/"> Matt Sinclair</a> joined our research group</p>
+d245 3
+a247 1
+              <p class="style12">Sarita gave a <a href="http://rsim.cs.uiuc.edu/Talks/11-ics-keynote.pdf">keynote speech</a> at ICS, June 2011</p>
+d250 3
+a252 1
+              <p class="style12">Congratulations to Dr. Pradeep Ramachandran for successfully defending his Ph.D. thesis, May 2011</p>
+d255 3
+a257 1
+              <p class="style12">Sarita gave a <a href="http://www.youtube.com/watch?v=Xy5_LOPBbOI">talk</a> at the Triangle distinguished lecture series, Duke University, April 2011</p>
+d260 3
+a262 1
+              <p class="style12">Pradeep, Rob, and Siva presented three papers at SELSE 2011</p>
+d265 3
+a267 1
+              <p class="style12">Sarita has been named <a href="http://fellows.acm.org/fellow_citation.cfm?id=3453289&srt=all">ACM Fellow</a> for the class of 2010, honored for her "impact on hardware and language memory models, and contributions to low-power and resilient systems."</p>
+d270 3
+a272 1
+              <p class="style12">"Parallel SAH k-D Tree Construction" accepted at <a href = http://www.highperformancegraphics.org/previous/www_2010>HPG 2010</a></p>
+d275 3
+a277 1
+              <p class="style12">SWAT and DeNovo selected as top 10 projects to present in 2010 CS Spring Grad Expo at Illinois</p>
+d280 3
+a282 1
+              <p class="style12">An article about DeNovo appears on <a href="http://www.eetimes.com/electronics-news/4080124/Illinois-gives-sneak-peak-on-multicore-programming-ideas?pageNumber=1">EETimes</a></p> 
+d285 3
+a287 1
+              <p class="style12">"DeNovo: Rethinking Hardware for Disciplined Parallelism" was accepted at HotPar '10</p>
+d290 3
+a292 1
+              <p class="style12">"A Language for Deterministic-by-Default Parallel Programming" was accepted at <a href = "http://www.complang.tuwien.ac.at/cpc10/">CPC 2010</a></p>
+d295 3
+a297 1
+              <p class="style12">Sarita gave a <a href = "http://rsim.cs.uiuc.edu/Talks/10-denovo-upcrc-summit.pptx">talk</a> on DeNovo at the Illinois UPCRC Summit, Mar '10</p>
+d300 4
+a303 2
+              <p class="style12">Sarita and Hans Boehm will give a tutorial on 
+                memory models in PLDI'10</p>
+d306 3
+a308 2
+              <p class="style12">Sarita gave a <a href="http://rsim.cs.uiuc.edu/Talks/10-MI-denovo.pptx">distinguished lecture</a> at the 
+                University of Michigan, Feb'10</p>
+d311 2
+a312 1
+              <p class="style12">Sarita participated in the &quot;Advancing Computer 
+d314 2
+a315 1
+                See position <a href="http://rsim.cs.uiuc.edu/Pubs/adve-10-acar-position.pdf">paper</a> and <a href="http://rsim.cs.uiuc.edu/Talks/10-acar.pptx">talk</a> here. Feb'10</p>
+d318 4
+a321 2
+              <p class="style12">Pradeep successfully completed
+                his Preliminary Exam, Dec'09</p>
+d324 2
+a325 1
+              <p class="style12">Siva presented
+d327 2
+a328 1
+                at MICRO-09, Dec'09</p>
+d331 4
+a334 2
+              <p class="style12">Lei Chen joined the group as a research 
+                scientist, Nov'09</p>
+d337 4
+a340 2
+              <p class="style12">Byn, Hyojin, Rakesh, and Siva 
+                cleared the PhD qualifying exam, Oct'09</p>
+d343 2
+a344 1
+              <p class="style12">Xin Fu received the NSF Computing 
+d346 2
+a347 1
+                Oct'09</p>
+d350 4
+a353 2
+              <p class="style12">Alex succesfully defended his PhD dissertation, 
+                Aug'09</p>
+d356 4
+a359 2
+              <p class="style12">Sarita gave a <a href="http://rsim.cs.uiuc.edu/Talks/09-podc-spaa-memory-models.ppt">keynote</a> at a plenary session of 
+                PODC and SPAA, Aug'09</p>
+d364 2
+a365 1
+                on a retrospective of memory models, motivating a rethinking of parallel languages and hardware, accepted for CACM.</p>
+d368 4
+a371 2
+              <p class="style12">Pradeep received an Intel fellowship and an IBM 
+                scholarship, July'09</p>
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d59 3
+a61 1
+    <td class="shadow_left">&nbsp;</td>
+d66 2
+a67 1
+          <strong><a class="style9" href="index.html"><span class="style11">Sarita Adve's Research Group</span></a></strong></td>
+d73 1
+a73 1
+                <!--    Search the website <br /> -->
+d81 1
+a81 2
+          <a class="style9" href="http://illinois.edu"><span class="style10">University of Illinois at Urbana-Champaign
+          </span></a>
+d85 3
+a87 1
+    <td class="shadow_right">&nbsp;</td>
+d90 3
+a92 1
+          <td class="horizontal_column">&nbsp;</td>
+d94 1
+a94 1
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="linkcontainer">
+d97 9
+a105 9
+          <div class="navigation" style="font-size: medium"> <a href="projects.html" class="main_link">
+                                  Projects</a></div>
+                        <ol>
+                                <li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/swat"> SWAT  </a> </li>
+                                <li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/denovo"> DeNovo </a> </li>
+                                <li class="style8"> <a class="main_link" href="http://dpj.cs.uiuc.edu/DPJ/Home.html"> DPJ </a> </li>
+                                <li class="style8"> <a class="main_link" href="projects.html#matured"> Matured Projects </a> </li>
+                        </ol>
+
+d108 15
+a122 8
+          <td class="style4"><div class="navigation" style="font-size: medium"><a class="main_link" href="people.html">
+                          People</a></div></td>
+          <td><div class="navigation" style="font-size: medium"><a href="pubs.html" class="main_link">
+                          Publications</a></div></td>
+          <td><div class="navigation" style="font-size: medium"><a href="software.html" class="main_link">
+                          Software</a></div></td>
+          <td><div class="navigation" style="font-size: medium"><a href="funding.html" class="main_link">Funding</a></div></td>
+          <td><div class="navigation" style="font-size: medium"><a href="news.html" class="main_link">News</a></div></td>
+d129 7
+a135 7
+<!--   <tr> -->
+<!--     <td class="shadow_left">&nbsp;</td> -->
+<!--     <td class="below_header"> -->
+<!-- A large part of the complexity and inefficiency in current hardware concurrency mechanisms arguably arises from a software-oblivious approach to hardware design. The DeNovo project seeks to rethink concurrent hardware from the ground up, given the assumption that most future software will use disciplined concurrency models for better dependability. -->
+<!--     </td> -->
+<!--     <td class="shadow_right">&nbsp;</td> -->
+<!--   </tr> -->
+d142 144
+a285 134
+                <p class="style12"><strong><span style="font-size: 18pt; font-family: Arial;">News Archive</span> </strong></p>
+                <ul>
+                        <li>
+                        <p class="style12">Our <a href="http://rsim.cs.illinois.edu/Pubs/12-ASPLOS-Hari.pdf">Relyzer paper</a> is chosen for the <a href="https://sites.google.com/site/ieeemicro/call-for-papers/top-picks-2013">IEEE Micro's Top Picks 2013</a></p>
+                        </li>
+                        <li>
+                        <p class="style12">Our paper titled "DeNovoND: Efficient Hardware Support for Disciplined Non-Determinism" is accpeted for publication at <a href="http://asplos13.rice.edu">ASPLOS 2013</a></p>
+                        </li>
+                        <li>
+                        <p class="style12">Siva received the Margarida Jacome GSRC Best Poster Award, Oct 2012</p>
+                        </li>
+                        <li>
+                        <p class="style12">Rakesh and Matt received a Qualcomm Innovation Fellowship, May 2012</p>
+                        </li>
+                        <li>
+                        <p class="style12">Siva received the W.J. Poppelbaum Memorial Award for 2012</p>
+                        </li>
+                        <li>
+                        <p class="style12">Byn, Hyojin, Rakesh, and Rob received the Feng Chen Memorial Award in 2012</p>
+                        </li>
+                        <li>
+                        <p class="style12">Our paper titled "Virtual Instruction Set Computing for Heterogeneous Systems" is accepted for publication at <a href="https://www.usenix.org/conference/hotpar12">HotPar 2012</a></p>
+                        </li>
+                        <li>
+                        <p class="style12">Sarita is named <a href="http://cs.illinois.edu/news/2012/Feb28-01">Woman of Vision in innovation by the Anita Borg Institute for Women in Technology</a> in 2012</p>
+                        </li>
+                        <li>
+                        <p class="style12">Rob passed the PhD qualifying exam, March 2012</p>
+                        </li>
+                        <li>
+                        <p class="style12">Rob presented <a href="http://rsim.cs.illinois.edu/~shari2/pubs/12-DATE-Pellegrini.pdf">CrashTest'ing SWAT</a> at <a href="http://www.date-conference.com/">DATE 2012</a></p>
+                        </li>
+                        <li>
+                        <p class="style12">Siva presented <a href="http://rsim.cs.illinois.edu/~shari2/talks/12-asplos-relyzer.pptx">Relyzer</a> at <a href="http://research.microsoft.com/en-us/um/cambridge/events/asplos_2012/">ASPLOS 2012</a></p>
+                        </li>
+                        <li>
+                        <p class="style12">Our paper titled "Low-cost Program-level Detectors for Reducing Silent Data Corruptions" is accepted for publication at <a href="http://2012.dsn.org/">DSN 2012</a></p>
+                        </li>
+                        <li>
+                        <p class="style12">Sarita has been named an <a href="http://cs.illinois.edu/news/2011/Dec8-02">IEEE Fellow</a> for the class of 2012</p>
+                        </li>
+                        <li>
+                        <p class="style12">Best paper award for "DeNovo: Rethinking the Multicore Memory Hierarchy for Disciplined Parallelism" at <a href="http://www.pactconf.org">PACT 2011</a>!</p>
+                        </li>
+                        <li>
+                        <p class="style12"><a href="http://rsim.cs.illinois.edu/~mdsincl2/"> Matt Sinclair</a> joined our research group</p>
+                        </li>
+                        <li>
+                        <p class="style12">Sarita gave a <a href="http://rsim.cs.uiuc.edu/Talks/11-ics-keynote.pdf">keynote speech</a> at ICS, June 2011</p>
+                        </li>
+                        <li>
+                        <p class="style12">Congratulations to Dr. Pradeep Ramachandran for successfully defending his Ph.D. thesis, May 2011</p>
+                        </li>
+                        <li>
+                        <p class="style12">Sarita gave a <a href="http://www.youtube.com/watch?v=Xy5_LOPBbOI">talk</a> at the Triangle distinguished lecture series, Duke University, April 2011</p>
+                        </li>
+                        <li>
+                        <p class="style12">Pradeep, Rob, and Siva presented three papers at SELSE 2011</p>
+                        </li>
+                        <li>
+                        <p class="style12">Sarita has been named <a href="http://fellows.acm.org/fellow_citation.cfm?id=3453289&srt=all">ACM Fellow</a> for the class of 2010, honored for her "impact on hardware and language memory models, and contributions to low-power and resilient systems."</p>
+                        </li>
+            <li>
+            <p class="style12">"Parallel SAH k-D Tree Construction" accepted at <a href = http://www.highperformancegraphics.org/previous/www_2010>HPG 2010</a></p>
+            </li>
+                        <li>
+                        <p class="style12">SWAT and DeNovo selected as top 10 projects to present in 2010 CS Spring Grad Expo at Illinois</p>
+                        </li>
+                        <li>
+                        <p class="style12">An article about DeNovo appears on <a href = http://www.eetimes.com/news/latest/showArticle.jhtml?articleID=224000194&pgno=1>EETimes</a></p> 
+                        </li>
+                        <li>
+                        <p class="style12">"DeNovo: Rethinking Hardware for Disciplined Parallelism" was accepted at HotPar '10</p>
+                        </li>
+                        <li>
+                        <p class="style12">"A Language for Deterministic-by-Default Parallel Programming" was accepted at <a href = "http://www.complang.tuwien.ac.at/cpc10/">CPC 2010</a></p>
+                        </li>
+                        <li>
+                        <p class="style12">Sarita gave a <a href = "http://rsim.cs.uiuc.edu/Talks/10-denovo-upcrc-summit.pptx">talk</a> on DeNovo at the Illinois UPCRC Summit, Mar '10</p>
+                        </li>
+                        <li>
+                        <p class="style12">Sarita and Hans Boehm will give a tutorial on 
+                        memory models in PLDI'10</p>
+                        </li>
+                        <li>
+                        <p class="style12">Sarita gave a <a href="http://rsim.cs.uiuc.edu/Talks/10-MI-denovo.pptx">distinguished lecture</a> at the 
+                        University of Michigan, Feb'10</p>
+                        </li>
+                        <li>
+                        <p class="style12">Sarita participated in the &quot;Advancing Computer 
+                        Architecture Research&quot; workshop sponsored by CRA/CCC.
+                        See position <a href="http://rsim.cs.uiuc.edu/Pubs/adve-10-acar-position.pdf">paper</a> and <a href="http://rsim.cs.uiuc.edu/Talks/10-acar.pptx">talk</a> here. Feb'10</p>
+                        </li>
+                        <li>
+                        <p class="style12">Pradeep successfully completed
+                        his Priliminary Exam, Dec'09</p>
+                        </li>
+                        <li>
+                        <p class="style12">Siva presented
+                        <a href="http://rsim.cs.uiuc.edu/Talks/10-MICRO-mSWAT.pptx">mSWAT</a> 
+                        at MICRO-09, Dec'09</p>
+                        </li>
+                        <li>
+                        <p class="style12">Lei Chen joined the group as a research 
+                        scientist, Nov'09</p>
+                        </li>
+                        <li>
+                        <p class="style12">Byn, Hyojin, Rakesh, and Siva 
+                        cleared the PhD qualifying exam, Oct'09</p>
+                        </li>
+                        <li>
+                        <p class="style12">Xin Fu received the NSF Computing 
+                        Innovation Fellowship. She recently joined the group as a post-doc, 
+                        Oct'09</p>
+                        </li>
+                        <li>
+                        <p class="style12">Alex succesfully defended his PhD dissertation, 
+                        Aug'09</p>
+                        </li>
+                        <li>
+                        <p class="style12">Sarita gave a <a href="http://rsim.cs.uiuc.edu/Talks/09-podc-spaa-memory-models.ppt">keynote</a> at a plenary session of 
+                        PODC and SPAA, Aug'09</p>
+                        </li>
+                        <li>
+                        <p class="style12">
+                        <a href="http://rsim.cs.illinois.edu/Pubs/10-cacm-memory-models.pdf">Paper</a> 
+                        on a retrospective of memory models, motivating a rethinking of parallel languages and hardware, accepted for CACM.</p>
+                        </li>
+                        <li>
+                        <p class="style12">Pradeep received an Intel fellowship and an IBM 
+                        scholarship, July'09</p>
+                        </li>
+                </ul>
+                  </td>
+d289 2
+a290 1
+                &nbsp;</td>
+d292 5
+a296 2
+    </table></td>
+    <td class="shadow_right">&nbsp;</td>
+d299 9
+a307 3
+    <td class="shadow_left">&nbsp;</td>
+    <td class="middle_spacer"><div class="bottom_content"></div></td>
+    <td class="shadow_right">&nbsp;</td>
+@
+
+
+1.16
+log
+@*** empty log message ***
+@
+text
+@d135 3
+@
+
+
+1.15
+log
+@Added HotPar stuff for Hetero DeNovo to news too since the archive is a separate file.
+@
+text
+@d132 9
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d9 1
+a9 1
+	font-size: medium;
+d12 1
+a12 1
+	font-size: medium;
+d15 6
+a20 6
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right: 1px solid #C0C0C0;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom: 1px solid #C0C0C0;
+d23 5
+a27 5
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	position: absolute;
+	display: none;
+d31 2
+a32 2
+	color: #FFFFFF;
+	text-align: center;
+d35 1
+a35 1
+	display: block;
+d38 1
+a38 1
+	text-decoration: none;
+d41 2
+a42 2
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+d45 1
+a45 1
+	color: #CCCCCC;
+d48 1
+a48 1
+	color: #FFFFFF;
+d51 1
+a51 1
+	text-align: left;
+d61 1
+a61 1
+	<table width="100%" border="0" cellspacing="10" cellpadding="0">
+d70 1
+a70 1
+		<!--   	Search the website <br /> -->
+d86 1
+a86 1
+	  <td class="horizontal_column">&nbsp;</td>
+d88 1
+a88 1
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="linkcontainer">
+d92 7
+a98 7
+				  Projects</a></div>
+			<ol>
+				<li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/swat"> SWAT  </a> </li>
+				<li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/denovo"> DeNovo </a> </li>
+				<li class="style8"> <a class="main_link" href="http://dpj.cs.uiuc.edu/DPJ/Home.html"> DPJ </a> </li>
+				<li class="style8"> <a class="main_link" href="projects.html#matured"> Matured Projects </a> </li>
+			</ol>
+d100 1
+a100 1
+	  </td>
+d103 1
+a103 1
+			  People</a></div></td>
+d105 1
+a105 1
+			  Publications</a></div></td>
+d107 1
+a107 1
+			  Software</a></div></td>
+d126 1
+a126 1
+	<table width="100%" cellspacing="0" cellpadding="0" class="style5">
+d129 50
+a178 47
+		<p class="style12"><strong><span style="font-size: 18pt; font-family: Arial;">News Archive</span> </strong></p>
+		<ul>
+			<li>
+			<p class="style12">Siva received the W.J. Poppelbaum Memorial Award for 2012</p>
+			</li>
+			<li>
+			<p class="style12">Byn, Hyojin, Rakesh, and Rob received the Feng Chen Memorial Award in 2012</p>
+			</li>
+			<li>
+			<p class="style12">Sarita is named <a href="http://cs.illinois.edu/news/2012/Feb28-01">Woman of Vision in innovation by the Anita Borg Institute for Women in Technology</a> in 2012</p>
+			</li>
+			<li>
+			<p class="style12">Rob passed the PhD qualifying exam, March 2012</p>
+			</li>
+	    		<li>
+			<p class="style12">Rob presented <a href="http://rsim.cs.illinois.edu/~shari2/pubs/12-DATE-Pellegrini.pdf">CrashTest'ing SWAT</a> at <a href="http://www.date-conference.com/">DATE 2012</a></p>
+			</li>
+	    		<li>
+			<p class="style12">Siva presented <a href="http://rsim.cs.illinois.edu/~shari2/talks/12-asplos-relyzer.pptx">Relyzer</a> at <a href="http://research.microsoft.com/en-us/um/cambridge/events/asplos_2012/">ASPLOS 2012</a></p>
+			</li>
+			<li>
+			<p class="style12">Our paper titled "Low-cost Program-level Detectors for Reducing Silent Data Corruptions" is accepted for publication at <a href="http://2012.dsn.org/">DSN 2012</a></p>
+			</li>
+			<li>
+			<p class="style12">Sarita has been named an <a href="http://cs.illinois.edu/news/2011/Dec8-02">IEEE Fellow</a> for the class of 2012</p>
+			</li>
+	    		<li>
+			<p class="style12">Best paper award for "DeNovo: Rethinking the Multicore Memory Hierarchy for Disciplined Parallelism" at <a href="http://www.pactconf.org">PACT 2011</a>!</p>
+			</li>
+	    		<li>
+			<p class="style12"><a href="http://rsim.cs.illinois.edu/~mdsincl2/"> Matt Sinclair</a> joing our research group</p>
+			</li>
+			<li>
+			<p class="style12">Sarita gave a <a href="http://rsim.cs.uiuc.edu/Talks/11-ics-keynote.pdf">keynote speech</a> at ICS, June 2011</p>
+			</li>
+			<li>
+			<p class="style12">Congratulations to Dr. Pradeep Ramachandran for successfully defending his Ph.D. thesis, May 2011</p>
+			</li>
+			<li>
+			<p class="style12">Sarita gave a <a href="http://www.youtube.com/watch?v=Xy5_LOPBbOI">talk</a> at the Triangle distinguished lecture series, Duke University, April 2011</p>
+			</li>
+			<li>
+			<p class="style12">Pradeep, Rob, and Siva presented three papers at SELSE 2011</p>
+			</li>
+			<li>
+			<p class="style12">Sarita has been named <a href="http://fellows.acm.org/fellow_citation.cfm?id=3453289&srt=all">ACM Fellow</a> for the class of 2010, honored for her "impact on hardware and language memory models, and contributions to low-power and resilient systems."</p>
+			</li>
+d182 69
+a250 69
+			<li>
+			<p class="style12">SWAT and DeNovo selected as top 10 projects to present in 2010 CS Spring Grad Expo at Illinois</p>
+			</li>
+			<li>
+			<p class="style12">An article about DeNovo appears on <a href = http://www.eetimes.com/news/latest/showArticle.jhtml?articleID=224000194&pgno=1>EETimes</a></p> 
+			</li>
+			<li>
+			<p class="style12">"DeNovo: Rethinking Hardware for Disciplined Parallelism" was accepted at HotPar '10</p>
+			</li>
+			<li>
+			<p class="style12">"A Language for Deterministic-by-Default Parallel Programming" was accepted at <a href = "http://www.complang.tuwien.ac.at/cpc10/">CPC 2010</a></p>
+			</li>
+			<li>
+			<p class="style12">Sarita gave a <a href = "http://rsim.cs.uiuc.edu/Talks/10-denovo-upcrc-summit.pptx">talk</a> on DeNovo at the Illinois UPCRC Summit, Mar '10</p>
+			</li>
+			<li>
+			<p class="style12">Sarita and Hans Boehm will give a tutorial on 
+			memory models in PLDI'10</p>
+			</li>
+			<li>
+			<p class="style12">Sarita gave a <a href="http://rsim.cs.uiuc.edu/Talks/10-MI-denovo.pptx">distinguished lecture</a> at the 
+			University of Michigan, Feb'10</p>
+			</li>
+			<li>
+			<p class="style12">Sarita participated in the &quot;Advancing Computer 
+			Architecture Research&quot; workshop sponsored by CRA/CCC.
+			See position <a href="http://rsim.cs.uiuc.edu/Pubs/adve-10-acar-position.pdf">paper</a> and <a href="http://rsim.cs.uiuc.edu/Talks/10-acar.pptx">talk</a> here. Feb'10</p>
+			</li>
+			<li>
+			<p class="style12">Pradeep successfully completed
+			his Priliminary Exam, Dec'09</p>
+			</li>
+			<li>
+			<p class="style12">Siva presented
+			<a href="http://rsim.cs.uiuc.edu/Talks/10-MICRO-mSWAT.pptx">mSWAT</a> 
+			at MICRO-09, Dec'09</p>
+			</li>
+			<li>
+			<p class="style12">Lei Chen joined the group as a research 
+			scientist, Nov'09</p>
+			</li>
+			<li>
+			<p class="style12">Byn, Hyojin, Rakesh, and Siva 
+			cleared the PhD qualifying exam, Oct'09</p>
+			</li>
+			<li>
+			<p class="style12">Xin Fu received the NSF Computing 
+			Innovation Fellowship. She recently joined the group as a post-doc, 
+			Oct'09</p>
+			</li>
+			<li>
+			<p class="style12">Alex succesfully defended his PhD dissertation, 
+			Aug'09</p>
+			</li>
+			<li>
+			<p class="style12">Sarita gave a <a href="http://rsim.cs.uiuc.edu/Talks/09-podc-spaa-memory-models.ppt">keynote</a> at a plenary session of 
+			PODC and SPAA, Aug'09</p>
+			</li>
+			<li>
+			<p class="style12">
+			<a href="http://rsim.cs.illinois.edu/Pubs/10-cacm-memory-models.pdf">Paper</a> 
+			on a retrospective of memory models, motivating a rethinking of parallel languages and hardware, accepted for CACM.</p>
+			</li>
+			<li>
+			<p class="style12">Pradeep received an Intel fellowship and an IBM 
+			scholarship, July'09</p>
+			</li>
+		</ul>
+		  </td>
+d254 1
+a254 1
+		&nbsp;</td>
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@a154 1
+
+d158 3
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d150 1
+a150 1
+			<p class="style12">Our paper titled "Low-cost Program-level Detectors for Reducing Silent Data Corruptions" is acceped for publication at <a href="http://2012.dsn.org/">DSN 2012</a></p>
+@
+
+
+1.11
+log
+@adding a link for acm fellow
+@
+text
+@d131 25
+d169 3
+@
+
+
+1.10
+log
+@updating the news archive
+@
+text
+@d144 1
+a144 1
+			<p class="style12">Sarita has been named ACM Fellow for the class of 2010, honored for her "impact on hardware and language memory models, and contributions to low-power and resilient systems."</p>
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d131 18
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d132 1
+a132 1
+			<p class="style12">SWAT and DeNovo selected as top 10 projects to present in 2010 CS Spring Grad Expo, UIUC</p>
+d138 1
+a138 1
+			<p class="style12">"DeNovo: Rethinking Hardware for Disciplined Parallelism" was accepted at HOTPAR '10</p>
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d132 1
+a132 1
+			<p class="style12">SWAT and DeNovo selected as top 10 projects to present in 2010 CS Spring Grad Expo</p>
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d132 3
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d141 1
+a141 1
+			<p class="style12">Sarita gave a <a href = "http://rsim.cs.uiuc.edu/Talks/10-denovo-upcrc-summit.pptx">talk</a> at the Illinois UPCRC Summit, Mar '10</p>
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d132 12
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d175 3
+a177 2
+			<p class="style12">Paper on retrospective on memory models and 
+			rethinking parallel languages and hardware accepted for CACM.</p>
+d180 1
+a180 1
+			<p class="style12">Pradeep received the Intel fellowship and the IBM 
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d145 1
+a145 1
+			<p class="style12">Pradeep for successfully completing 
+d158 2
+a159 2
+			<p class="style12">Byn, Hyojin, Rakesh, and Siva for 
+			clearing the PhD qualifying exam, Oct'09</p>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a200 1
+        <a href="http://rsim.cs.uiuc.edu/" class="bottom_link">Old Website</a>
+@

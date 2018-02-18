@@ -1,0 +1,635 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 31.34      2.92     2.92 42836076     0.00     0.00  dist1
+ 11.29      3.96     1.05                             __mcount_internal
+ 11.18      5.00     1.04  1188000     0.00     0.00  idct
+  8.92      5.83     0.83  1188000     0.00     0.00  fdct
+  6.72      6.46     0.62  1557600     0.00     0.00  fullsearch
+  4.09      6.84     0.38  1066266     0.00     0.00  quant_non_intra
+  3.66      7.18     0.34  1086393     0.00     0.00  pred_comp
+  2.69      7.43     0.25      150     0.00     0.00  ptdct_type_estimation
+  2.26      7.64     0.21  1188000     0.00     0.00  add_pred
+  2.20      7.84     0.20  1066266     0.00     0.00  iquant_non_intra
+  1.83      8.02     0.17   392040     0.00     0.00  bdist1
+  1.51      8.15     0.14                             mcount
+  1.29      8.28     0.12  1188000     0.00     0.00  sub_pred
+  1.18      8.38     0.11  4454352     0.00     0.00  put_bits
+  0.86      8.46     0.08   257173     0.00     0.00  dist2
+  0.86      8.54     0.08      150     0.00     0.01  ptitransform
+  0.75      8.62     0.07   163344     0.00     0.00  put_nonintrablk
+  0.75      8.69     0.07                             read
+  0.65      8.74     0.06    90322     0.00     0.00  bdist2
+  0.65      8.80     0.06      150     0.00     0.00  ptputpict
+  0.54      8.86     0.05   198000     0.00     0.00  frame_ME
+  0.54      8.90     0.05   198000     0.00     0.00  variance
+  0.43      8.95     0.04   362131     0.00     0.00  pred
+  0.43      8.98     0.04   121734     0.00     0.00  quant_intra
+  0.43      9.03     0.04      150     0.00     0.01  pttransform
+  0.43      9.06     0.04                             memcpy
+  0.43      9.11     0.04                             write
+  0.27      9.13     0.03   121734     0.00     0.00  iquant_intra
+  0.22      9.15     0.02   991803     0.00     0.00  put_AC
+  0.22      9.17     0.02   198000     0.00     0.00  predict_mb
+  0.22      9.19     0.02      150     0.00     0.00  ptquant
+  0.22      9.21     0.02                             munmap
+  0.11      9.22     0.01  1453858     0.00     0.00  write_buf
+  0.11      9.23     0.01   311520     0.00     0.00  frame_estimate
+  0.11      9.24     0.01   177121     0.00     0.00  put_addrinc
+  0.11      9.25     0.01   121734     0.00     0.00  put_DC
+  0.11      9.26     0.01   121734     0.00     0.00  put_intrablk
+  0.11      9.27     0.01                             _IO_switch_to_get_mode
+  0.11      9.28     0.01                             __pthread_lock
+  0.11      9.29     0.01                             __pthread_unlock
+  0.11      9.30     0.01                             mempcpy
+  0.00      9.30     0.00   630590     0.00     0.00  put_motioncode
+  0.00      9.30     0.00   630590     0.00     0.00  put_mv
+  0.00      9.30     0.00   189793     0.00     0.00  put_mvs
+  0.00      9.30     0.00   177121     0.00     0.00  put_mbtype
+  0.00      9.30     0.00   163344     0.00     0.00  put_ACfirst
+  0.00      9.30     0.00    81156     0.00     0.00  put_DClum
+  0.00      9.30     0.00    75704     0.00     0.00  put_cbp
+  0.00      9.30     0.00    40578     0.00     0.00  put_DCchrom
+  0.00      9.30     0.00    20289     0.00     0.00  clearblock
+  0.00      9.30     0.00     4650     0.00     0.00  align_bits
+  0.00      9.30     0.00     4360     0.00     0.00  putbits
+  0.00      9.30     0.00      468     0.00     0.00  alignbits
+  0.00      9.30     0.00      450     0.00     0.00  border_extend
+  0.00      9.30     0.00      150     0.00     0.00  bitcount
+  0.00      9.30     0.00      150     0.00     0.00  calc_vbv_delay
+  0.00      9.30     0.00      150     0.00     0.00  flushbits
+  0.00      9.30     0.00      150     0.00     0.00  ptiquant
+  0.00      9.30     0.00      150     0.00     0.03  ptmotion_estimation
+  0.00      9.30     0.00      150     0.00     0.00  ptpredict
+  0.00      9.30     0.00      150     0.00     0.00  putpictcodext
+  0.00      9.30     0.00      150     0.00     0.00  putpicthdr
+  0.00      9.30     0.00      150     0.00     0.00  read_y_u_v
+  0.00      9.30     0.00      150     0.00     0.00  readframe
+  0.00      9.30     0.00      150     0.00     0.05  thread_work
+  0.00      9.30     0.00      150     0.00     0.05  thread_work_dist
+  0.00      9.30     0.00      150     0.00     0.00  writeframe
+  0.00      9.30     0.00       13     0.00     0.00  frametotc
+  0.00      9.30     0.00       13     0.00     0.00  putgophdr
+  0.00      9.30     0.00       13     0.00     0.00  rc_init_GOP
+  0.00      9.30     0.00        1     0.00     0.00  init
+  0.00      9.30     0.00        1     0.00     0.00  init_fdct
+  0.00      9.30     0.00        1     0.00     0.00  init_idct
+  0.00      9.30     0.00        1     0.00     0.00  initbits
+  0.00      9.30     0.00        1     0.00     7.90  main
+  0.00      9.30     0.00        1     0.00     0.00  profile_and_level_checks
+  0.00      9.30     0.00        1     0.00     7.90  putseq
+  0.00      9.30     0.00        1     0.00     0.00  putseqdispext
+  0.00      9.30     0.00        1     0.00     0.00  putseqend
+  0.00      9.30     0.00        1     0.00     0.00  putseqext
+  0.00      9.30     0.00        1     0.00     0.00  putseqhdr
+  0.00      9.30     0.00        1     0.00     0.00  putuserdata
+  0.00      9.30     0.00        1     0.00     0.00  range_checks
+  0.00      9.30     0.00        1     0.00     0.00  rc_init_seq
+  0.00      9.30     0.00        1     0.00     0.00  readparmfile
+  0.00      9.30     0.00        1     0.00     0.00  readquantmat
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 0.12% of 8.11 seconds
+
+index % time    self  children    called     name
+                0.00    7.90     150/150         putseq [3]
+[1]     97.4    0.00    7.90     150         thread_work_dist [1]
+                0.00    7.90     150/150         thread_work [5]
+                0.00    0.00     150/150         flushbits [57]
+                0.00    0.00     150/150         putpicthdr [65]
+                0.00    0.00     150/150         putpictcodext [64]
+                0.00    0.00     150/468         alignbits [60]
+-----------------------------------------------
+                0.00    7.90       1/1           __libc_start_main [4]
+[2]     97.4    0.00    7.90       1         main [2]
+                0.00    7.90       1/1           putseq [3]
+                0.00    0.00       1/1           readquantmat [85]
+                0.00    0.00       1/1           readparmfile [84]
+                0.00    0.00       1/1           init [72]
+-----------------------------------------------
+                0.00    7.90       1/1           main [2]
+[3]     97.4    0.00    7.90       1         putseq [3]
+                0.00    7.90     150/150         thread_work_dist [1]
+                0.00    0.00     150/150         readframe [67]
+                0.00    0.00     150/150         writeframe [68]
+                0.00    0.00      13/13          rc_init_GOP [71]
+                0.00    0.00      13/13          putgophdr [70]
+                0.00    0.00       1/1           rc_init_seq [83]
+                0.00    0.00       1/1           putseqhdr [80]
+                0.00    0.00       1/1           putseqext [79]
+                0.00    0.00       1/1           putseqdispext [77]
+                0.00    0.00       1/1           putuserdata [81]
+                0.00    0.00       1/1           putseqend [78]
+-----------------------------------------------
+                                                 <spontaneous>
+[4]     97.4    0.00    7.90                 __libc_start_main [4]
+                0.00    7.90       1/1           main [2]
+-----------------------------------------------
+                0.00    7.90     150/150         thread_work_dist [1]
+[5]     97.4    0.00    7.90     150         thread_work [5]
+                0.00    3.96     150/150         ptmotion_estimation [7]
+                0.08    1.25     150/150         ptitransform [11]
+                0.04    0.95     150/150         pttransform [13]
+                0.02    0.42     150/150         ptquant [15]
+                0.00    0.40     150/150         ptpredict [17]
+                0.06    0.24     150/150         ptputpict [21]
+                0.25    0.00     150/150         ptdct_type_estimation [22]
+                0.00    0.23     150/150         ptiquant [23]
+-----------------------------------------------
+                0.05    3.91  198000/198000      ptmotion_estimation [7]
+[6]     48.8    0.05    3.91  198000         frame_ME [6]
+                0.01    3.54  311520/311520      frame_estimate [8]
+                0.17    0.00  392040/392040      bdist1 [26]
+                0.08    0.00  257173/257173      dist2 [30]
+                0.06    0.00   90322/90322       bdist2 [34]
+                0.05    0.00  198000/198000      variance [35]
+-----------------------------------------------
+                0.00    3.96     150/150         thread_work [5]
+[7]     48.8    0.00    3.96     150         ptmotion_estimation [7]
+                0.05    3.91  198000/198000      frame_ME [6]
+-----------------------------------------------
+                0.01    3.54  311520/311520      frame_ME [6]
+[8]     43.8    0.01    3.54  311520         frame_estimate [8]
+                0.62    2.92 1557600/1557600     fullsearch [9]
+-----------------------------------------------
+                0.62    2.92 1557600/1557600     frame_estimate [8]
+[9]     43.6    0.62    2.92 1557600         fullsearch [9]
+                2.92    0.00 42836076/42836076     dist1 [10]
+-----------------------------------------------
+                2.92    0.00 42836076/42836076     fullsearch [9]
+[10]    35.9    2.92    0.00 42836076         dist1 [10]
+-----------------------------------------------
+                0.08    1.25     150/150         thread_work [5]
+[11]    16.4    0.08    1.25     150         ptitransform [11]
+                1.04    0.00 1188000/1188000     idct [12]
+                0.21    0.00 1188000/1188000     add_pred [24]
+-----------------------------------------------
+                1.04    0.00 1188000/1188000     ptitransform [11]
+[12]    12.8    1.04    0.00 1188000         idct [12]
+-----------------------------------------------
+                0.04    0.95     150/150         thread_work [5]
+[13]    12.2    0.04    0.95     150         pttransform [13]
+                0.83    0.00 1188000/1188000     fdct [14]
+                0.12    0.00 1188000/1188000     sub_pred [28]
+-----------------------------------------------
+                0.83    0.00 1188000/1188000     pttransform [13]
+[14]    10.2    0.83    0.00 1188000         fdct [14]
+-----------------------------------------------
+                0.02    0.42     150/150         thread_work [5]
+[15]     5.4    0.02    0.42     150         ptquant [15]
+                0.38    0.00 1066266/1066266     quant_non_intra [18]
+                0.04    0.00  121734/121734      quant_intra [36]
+-----------------------------------------------
+                0.02    0.38  198000/198000      ptpredict [17]
+[16]     4.9    0.02    0.38  198000         predict_mb [16]
+                0.04    0.34  362131/362131      pred [19]
+                0.00    0.00   20289/20289       clearblock [58]
+-----------------------------------------------
+                0.00    0.40     150/150         thread_work [5]
+[17]     4.9    0.00    0.40     150         ptpredict [17]
+                0.02    0.38  198000/198000      predict_mb [16]
+-----------------------------------------------
+                0.38    0.00 1066266/1066266     ptquant [15]
+[18]     4.7    0.38    0.00 1066266         quant_non_intra [18]
+-----------------------------------------------
+                0.04    0.34  362131/362131      predict_mb [16]
+[19]     4.7    0.04    0.34  362131         pred [19]
+                0.34    0.00 1086393/1086393     pred_comp [20]
+-----------------------------------------------
+                0.34    0.00 1086393/1086393     pred [19]
+[20]     4.2    0.34    0.00 1086393         pred_comp [20]
+-----------------------------------------------
+                0.06    0.24     150/150         thread_work [5]
+[21]     3.7    0.06    0.24     150         ptputpict [21]
+                0.07    0.04  163344/163344      put_nonintrablk [29]
+                0.01    0.06  121734/121734      put_intrablk [33]
+                0.00    0.03  189793/189793      put_mvs [39]
+                0.01    0.00  177121/177121      put_addrinc [45]
+                0.01    0.00  244444/4454352     put_bits [27]
+                0.00    0.00  177121/177121      put_mbtype [54]
+                0.00    0.00   75704/75704       put_cbp [55]
+                0.00    0.00    4500/4650        align_bits [56]
+-----------------------------------------------
+                0.25    0.00     150/150         thread_work [5]
+[22]     3.1    0.25    0.00     150         ptdct_type_estimation [22]
+-----------------------------------------------
+                0.00    0.23     150/150         thread_work [5]
+[23]     2.8    0.00    0.23     150         ptiquant [23]
+                0.20    0.00 1066266/1066266     iquant_non_intra [25]
+                0.03    0.00  121734/121734      iquant_intra [42]
+-----------------------------------------------
+                0.21    0.00 1188000/1188000     ptitransform [11]
+[24]     2.6    0.21    0.00 1188000         add_pred [24]
+-----------------------------------------------
+                0.20    0.00 1066266/1066266     ptiquant [23]
+[25]     2.5    0.20    0.00 1066266         iquant_non_intra [25]
+-----------------------------------------------
+                0.17    0.00  392040/392040      frame_ME [6]
+[26]     2.1    0.17    0.00  392040         bdist1 [26]
+-----------------------------------------------
+                0.00    0.00    3974/4454352     align_bits [56]
+                0.00    0.00   23295/4454352     put_mv [40]
+                0.00    0.00   30163/4454352     put_ACfirst [46]
+                0.00    0.00   75704/4454352     put_cbp [55]
+                0.00    0.00  121734/4454352     put_intrablk [33]
+                0.00    0.00  163344/4454352     put_nonintrablk [29]
+                0.00    0.00  177121/4454352     put_mbtype [54]
+                0.00    0.00  177122/4454352     put_addrinc [45]
+                0.01    0.00  220602/4454352     put_DC [44]
+                0.01    0.00  244444/4454352     ptputpict [21]
+                0.01    0.00  251004/4454352     put_mvs [39]
+                0.02    0.00  946080/4454352     put_motioncode [41]
+                0.05    0.00 2019765/4454352     put_AC [31]
+[27]     1.5    0.11    0.01 4454352         put_bits [27]
+                0.01    0.00 1453858/1453858     write_buf [48]
+-----------------------------------------------
+                0.12    0.00 1188000/1188000     pttransform [13]
+[28]     1.5    0.12    0.00 1188000         sub_pred [28]
+-----------------------------------------------
+                0.07    0.04  163344/163344      ptputpict [21]
+[29]     1.4    0.07    0.04  163344         put_nonintrablk [29]
+                0.01    0.02  379587/991803      put_AC [31]
+                0.00    0.01  163344/163344      put_ACfirst [46]
+                0.00    0.00  163344/4454352     put_bits [27]
+-----------------------------------------------
+                0.08    0.00  257173/257173      frame_ME [6]
+[30]     1.0    0.08    0.00  257173         dist2 [30]
+-----------------------------------------------
+                0.00    0.01  133181/991803      put_ACfirst [46]
+                0.01    0.02  379587/991803      put_nonintrablk [29]
+                0.01    0.03  479035/991803      put_intrablk [33]
+[31]     0.9    0.02    0.05  991803         put_AC [31]
+                0.05    0.00 2019765/4454352     put_bits [27]
+-----------------------------------------------
+                                                 <spontaneous>
+[32]     0.9    0.07    0.00                 read [32]
+-----------------------------------------------
+                0.01    0.06  121734/121734      ptputpict [21]
+[33]     0.8    0.01    0.06  121734         put_intrablk [33]
+                0.01    0.03  479035/991803      put_AC [31]
+                0.00    0.01   81156/81156       put_DClum [47]
+                0.00    0.01   40578/40578       put_DCchrom [53]
+                0.00    0.00  121734/4454352     put_bits [27]
+-----------------------------------------------
+                0.06    0.00   90322/90322       frame_ME [6]
+[34]     0.7    0.06    0.00   90322         bdist2 [34]
+-----------------------------------------------
+                0.05    0.00  198000/198000      frame_ME [6]
+[35]     0.6    0.05    0.00  198000         variance [35]
+-----------------------------------------------
+                0.04    0.00  121734/121734      ptquant [15]
+[36]     0.5    0.04    0.00  121734         quant_intra [36]
+-----------------------------------------------
+                                                 <spontaneous>
+[37]     0.5    0.04    0.00                 memcpy [37]
+-----------------------------------------------
+                                                 <spontaneous>
+[38]     0.5    0.04    0.00                 write [38]
+-----------------------------------------------
+                0.00    0.03  189793/189793      ptputpict [21]
+[39]     0.4    0.00    0.03  189793         put_mvs [39]
+                0.00    0.03  630590/630590      put_mv [40]
+                0.01    0.00  251004/4454352     put_bits [27]
+-----------------------------------------------
+                0.00    0.03  630590/630590      put_mvs [39]
+[40]     0.3    0.00    0.03  630590         put_mv [40]
+                0.00    0.03  630590/630590      put_motioncode [41]
+                0.00    0.00   23295/4454352     put_bits [27]
+-----------------------------------------------
+                0.00    0.03  630590/630590      put_mv [40]
+[41]     0.3    0.00    0.03  630590         put_motioncode [41]
+                0.02    0.00  946080/4454352     put_bits [27]
+-----------------------------------------------
+                0.03    0.00  121734/121734      ptiquant [23]
+[42]     0.3    0.03    0.00  121734         iquant_intra [42]
+-----------------------------------------------
+                                                 <spontaneous>
+[43]     0.2    0.02    0.00                 munmap [43]
+-----------------------------------------------
+                0.00    0.00   40578/121734      put_DCchrom [53]
+                0.01    0.00   81156/121734      put_DClum [47]
+[44]     0.2    0.01    0.01  121734         put_DC [44]
+                0.01    0.00  220602/4454352     put_bits [27]
+-----------------------------------------------
+                0.01    0.00  177121/177121      ptputpict [21]
+[45]     0.2    0.01    0.00  177121         put_addrinc [45]
+                0.00    0.00  177122/4454352     put_bits [27]
+-----------------------------------------------
+                0.00    0.01  163344/163344      put_nonintrablk [29]
+[46]     0.1    0.00    0.01  163344         put_ACfirst [46]
+                0.00    0.01  133181/991803      put_AC [31]
+                0.00    0.00   30163/4454352     put_bits [27]
+-----------------------------------------------
+                0.00    0.01   81156/81156       put_intrablk [33]
+[47]     0.1    0.00    0.01   81156         put_DClum [47]
+                0.01    0.00   81156/121734      put_DC [44]
+-----------------------------------------------
+                0.01    0.00 1453858/1453858     put_bits [27]
+[48]     0.1    0.01    0.00 1453858         write_buf [48]
+-----------------------------------------------
+                                                 <spontaneous>
+[49]     0.1    0.01    0.00                 mempcpy [49]
+-----------------------------------------------
+                                                 <spontaneous>
+[50]     0.1    0.01    0.00                 _IO_switch_to_get_mode [50]
+-----------------------------------------------
+                                                 <spontaneous>
+[51]     0.1    0.01    0.00                 __pthread_lock [51]
+-----------------------------------------------
+                                                 <spontaneous>
+[52]     0.1    0.01    0.00                 __pthread_unlock [52]
+-----------------------------------------------
+                0.00    0.01   40578/40578       put_intrablk [33]
+[53]     0.1    0.00    0.01   40578         put_DCchrom [53]
+                0.00    0.00   40578/121734      put_DC [44]
+-----------------------------------------------
+                0.00    0.00  177121/177121      ptputpict [21]
+[54]     0.1    0.00    0.00  177121         put_mbtype [54]
+                0.00    0.00  177121/4454352     put_bits [27]
+-----------------------------------------------
+                0.00    0.00   75704/75704       ptputpict [21]
+[55]     0.0    0.00    0.00   75704         put_cbp [55]
+                0.00    0.00   75704/4454352     put_bits [27]
+-----------------------------------------------
+                0.00    0.00     150/4650        flushbits [57]
+                0.00    0.00    4500/4650        ptputpict [21]
+[56]     0.0    0.00    0.00    4650         align_bits [56]
+                0.00    0.00    3974/4454352     put_bits [27]
+-----------------------------------------------
+                0.00    0.00     150/150         thread_work_dist [1]
+[57]     0.0    0.00    0.00     150         flushbits [57]
+                0.00    0.00     150/4650        align_bits [56]
+-----------------------------------------------
+                0.00    0.00   20289/20289       predict_mb [16]
+[58]     0.0    0.00    0.00   20289         clearblock [58]
+-----------------------------------------------
+                0.00    0.00       1/4360        putseqend [78]
+                0.00    0.00      10/4360        putseqdispext [77]
+                0.00    0.00      11/4360        putseqhdr [80]
+                0.00    0.00      13/4360        putseqext [79]
+                0.00    0.00      37/4360        putuserdata [81]
+                0.00    0.00      52/4360        putgophdr [70]
+                0.00    0.00     314/4360        alignbits [60]
+                0.00    0.00    1222/4360        putpicthdr [65]
+                0.00    0.00    2700/4360        putpictcodext [64]
+[59]     0.0    0.00    0.00    4360         putbits [59]
+-----------------------------------------------
+                0.00    0.00       1/468         putseqhdr [80]
+                0.00    0.00       1/468         putseqext [79]
+                0.00    0.00       1/468         putseqdispext [77]
+                0.00    0.00       1/468         putuserdata [81]
+                0.00    0.00       1/468         putseqend [78]
+                0.00    0.00      13/468         putgophdr [70]
+                0.00    0.00     150/468         putpicthdr [65]
+                0.00    0.00     150/468         putpictcodext [64]
+                0.00    0.00     150/468         thread_work_dist [1]
+[60]     0.0    0.00    0.00     468         alignbits [60]
+                0.00    0.00     314/4360        putbits [59]
+-----------------------------------------------
+                0.00    0.00     450/450         read_y_u_v [66]
+[61]     0.0    0.00    0.00     450         border_extend [61]
+-----------------------------------------------
+                0.00    0.00     150/150         calc_vbv_delay [63]
+[62]     0.0    0.00    0.00     150         bitcount [62]
+-----------------------------------------------
+                0.00    0.00     150/150         putpicthdr [65]
+[63]     0.0    0.00    0.00     150         calc_vbv_delay [63]
+                0.00    0.00     150/150         bitcount [62]
+-----------------------------------------------
+                0.00    0.00     150/150         thread_work_dist [1]
+[64]     0.0    0.00    0.00     150         putpictcodext [64]
+                0.00    0.00    2700/4360        putbits [59]
+                0.00    0.00     150/468         alignbits [60]
+-----------------------------------------------
+                0.00    0.00     150/150         thread_work_dist [1]
+[65]     0.0    0.00    0.00     150         putpicthdr [65]
+                0.00    0.00    1222/4360        putbits [59]
+                0.00    0.00     150/468         alignbits [60]
+                0.00    0.00     150/150         calc_vbv_delay [63]
+-----------------------------------------------
+                0.00    0.00     150/150         readframe [67]
+[66]     0.0    0.00    0.00     150         read_y_u_v [66]
+                0.00    0.00     450/450         border_extend [61]
+-----------------------------------------------
+                0.00    0.00     150/150         putseq [3]
+[67]     0.0    0.00    0.00     150         readframe [67]
+                0.00    0.00     150/150         read_y_u_v [66]
+-----------------------------------------------
+                0.00    0.00     150/150         putseq [3]
+[68]     0.0    0.00    0.00     150         writeframe [68]
+-----------------------------------------------
+                0.00    0.00      13/13          putgophdr [70]
+[69]     0.0    0.00    0.00      13         frametotc [69]
+-----------------------------------------------
+                0.00    0.00      13/13          putseq [3]
+[70]     0.0    0.00    0.00      13         putgophdr [70]
+                0.00    0.00      52/4360        putbits [59]
+                0.00    0.00      13/468         alignbits [60]
+                0.00    0.00      13/13          frametotc [69]
+-----------------------------------------------
+                0.00    0.00      13/13          putseq [3]
+[71]     0.0    0.00    0.00      13         rc_init_GOP [71]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[72]     0.0    0.00    0.00       1         init [72]
+                0.00    0.00       1/1           init_fdct [73]
+                0.00    0.00       1/1           initbits [75]
+                0.00    0.00       1/1           init_idct [74]
+-----------------------------------------------
+                0.00    0.00       1/1           init [72]
+[73]     0.0    0.00    0.00       1         init_fdct [73]
+-----------------------------------------------
+                0.00    0.00       1/1           init [72]
+[74]     0.0    0.00    0.00       1         init_idct [74]
+-----------------------------------------------
+                0.00    0.00       1/1           init [72]
+[75]     0.0    0.00    0.00       1         initbits [75]
+-----------------------------------------------
+                0.00    0.00       1/1           readparmfile [84]
+[76]     0.0    0.00    0.00       1         profile_and_level_checks [76]
+-----------------------------------------------
+                0.00    0.00       1/1           putseq [3]
+[77]     0.0    0.00    0.00       1         putseqdispext [77]
+                0.00    0.00      10/4360        putbits [59]
+                0.00    0.00       1/468         alignbits [60]
+-----------------------------------------------
+                0.00    0.00       1/1           putseq [3]
+[78]     0.0    0.00    0.00       1         putseqend [78]
+                0.00    0.00       1/468         alignbits [60]
+                0.00    0.00       1/4360        putbits [59]
+-----------------------------------------------
+                0.00    0.00       1/1           putseq [3]
+[79]     0.0    0.00    0.00       1         putseqext [79]
+                0.00    0.00      13/4360        putbits [59]
+                0.00    0.00       1/468         alignbits [60]
+-----------------------------------------------
+                0.00    0.00       1/1           putseq [3]
+[80]     0.0    0.00    0.00       1         putseqhdr [80]
+                0.00    0.00      11/4360        putbits [59]
+                0.00    0.00       1/468         alignbits [60]
+-----------------------------------------------
+                0.00    0.00       1/1           putseq [3]
+[81]     0.0    0.00    0.00       1         putuserdata [81]
+                0.00    0.00      37/4360        putbits [59]
+                0.00    0.00       1/468         alignbits [60]
+-----------------------------------------------
+                0.00    0.00       1/1           readparmfile [84]
+[82]     0.0    0.00    0.00       1         range_checks [82]
+-----------------------------------------------
+                0.00    0.00       1/1           putseq [3]
+[83]     0.0    0.00    0.00       1         rc_init_seq [83]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[84]     0.0    0.00    0.00       1         readparmfile [84]
+                0.00    0.00       1/1           range_checks [82]
+                0.00    0.00       1/1           profile_and_level_checks [76]
+-----------------------------------------------
+                0.00    0.00       1/1           main [2]
+[85]     0.0    0.00    0.00       1         readquantmat [85]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+
+Index by function name
+
+  [50] _IO_switch_to_get_mode (681) mcount                [29] put_nonintrablk
+ (1239) __mcount_internal     [37] memcpy                 [59] putbits
+  [51] __pthread_lock         [49] mempcpy                [70] putgophdr
+  [52] __pthread_unlock       [43] munmap                 [64] putpictcodext
+  [24] add_pred (transfrm.c)  [19] pred (predict.c)       [65] putpicthdr
+  [56] align_bits             [20] pred_comp (predict.c)   [3] putseq
+  [60] alignbits              [16] predict_mb (predict.c) [77] putseqdispext
+  [26] bdist1 (motion.c)      [76] profile_and_level_checks [78] putseqend
+  [34] bdist2 (motion.c)      [22] ptdct_type_estimation  [79] putseqext
+  [62] bitcount               [23] ptiquant               [80] putseqhdr
+  [61] border_extend (readpic.c) [11] ptitransform        [81] putuserdata
+  [63] calc_vbv_delay          [7] ptmotion_estimation    [36] quant_intra
+  [58] clearblock (predict.c) [17] ptpredict              [18] quant_non_intra
+  [10] dist1 (motion.c)       [21] ptputpict              [82] range_checks
+  [30] dist2 (motion.c)       [15] ptquant                [71] rc_init_GOP
+  [14] fdct                   [13] pttransform            [83] rc_init_seq
+  [57] flushbits              [31] put_AC                 [32] read
+   [6] frame_ME (motion.c)    [46] put_ACfirst            [66] read_y_u_v (readpic.c)
+   [8] frame_estimate (motion.c) [44] put_DC (putvlc.c)   [67] readframe
+  [69] frametotc (puthdr.c)   [53] put_DCchrom            [84] readparmfile (mpeg2enc.c)
+   [9] fullsearch (motion.c)  [47] put_DClum              [85] readquantmat (mpeg2enc.c)
+  [12] idct                   [45] put_addrinc            [28] sub_pred (transfrm.c)
+  [72] init (mpeg2enc.c)      [27] put_bits                [5] thread_work
+  [73] init_fdct              [55] put_cbp                 [1] thread_work_dist
+  [74] init_idct              [33] put_intrablk           [35] variance (motion.c)
+  [75] initbits               [54] put_mbtype             [38] write
+  [42] iquant_intra           [41] put_motioncode         [48] write_buf
+  [25] iquant_non_intra       [40] put_mv                 [68] writeframe
+   [2] main                   [39] put_mvs (putpic.c)

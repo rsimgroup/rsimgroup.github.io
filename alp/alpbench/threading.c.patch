@@ -1,0 +1,14 @@
+--- threading.c	2009-02-20 10:34:08.000000000 -0600
++++ threading-patched.c	2009-02-20 10:29:19.000000000 -0600
+@@ -444,8 +444,9 @@
+ {
+ #if (NUM_THREADS>1)
+   pthread_mutex_lock(&update_lock);
+-#endif  
+-  ln->synch = 0;
++#endif
++  if (t==ln->synch)   
++      ln->synch = 0;
+ 
+ #if (NUM_THREADS>1)  
+   pthread_mutex_unlock(&update_lock);

@@ -1,0 +1,38 @@
+      <font face="Arial" size="5"><b>GRACE Presentations</b></font><br>
+       
+      <ul>
+	<li><a href="presentations/SOSP-03.ppt">Energy-Efficient Soft Real-Time CPU
+	Scheduling for Mobile Multimedia Systems</a>. Presented at the 19th ACM
+	Symposium on Operating Systems Principles (SOSP'03), Bolton Landing, NY, Oct
+	2003. <br><br>
+	</li>
+
+	<li><a href="presentations/ICME-03.ppt">Buffering Approach for Energy Saving in
+	Video Sensors</a>. Presented at the IEEE International Conference on Multimedia
+	and Expo (ICME'03), Baltimore, MD, July 2003. <br><br>
+	</li>
+
+	<li><a href="presentations/GRACE-OS-Lecture.ppt">Cross-Layer Adaptation for
+	Quality-Aware and Energy-Efficient Next Generation Mobile Multimedia Devices</a>.
+	Distinguished lecture presentation at UC Berkeley, September 24, 2003. <br><br>
+	</li>
+        <li><a href="presentations/icip-03.ppt">Cross-layer Adaptive Video Coding
+	to Reduce Energy on General Purpose Processors</a>. Presented at 
+	the <i>International Conference on Image Processing</i>, Barcelona,
+	Spain, September 2003.<br><br>
+        </li>
+        <li><a href="presentations/shaman-02.pdf">The Illinois GRACE Project: Global Resource 
+	Adaptation through CoopEration</a>. Presented at the <i>Workshop on 
+        Self-Healing, Adaptive, and self-MANaged Systems (SHAMAN)</i> (held in 
+        conjunction with the 16th Annual ACM International Conference on 
+        Supercomputing), New York, June 2002.<br>
+          <br>
+        </li>
+         <li><a href="presentations/intel-02.pdf">Energy-Driven Hardware Adaptations for 
+Multimedia Applications on General Purpose Processors</a>. Presented at Intel 
+         MRL - Santa Clara and Berkeley Wireless Research Center - San Francisco, 
+         April 2002. <br>
+          </ul>
+      <p>
+  <br>
+<!-- STRIP_BOTTOM -->

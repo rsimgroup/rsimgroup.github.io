@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+
+
+for ($i=0; $i<10;$i++) {
+  system("echo blah");
+  system("echo abc");
+}

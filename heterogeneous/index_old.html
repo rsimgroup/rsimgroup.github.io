@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Heterogeneous Computing</title>
+<link href="style/style1.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.style4 {
+  font-size: medium;
+}
+.projects {
+  font-size: medium;
+}
+.style5 {
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right: 1px solid #C0C0C0;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom: 1px solid #C0C0C0;
+}
+ol {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  position: absolute;
+  display: none;
+
+}
+td.projects:hover ol, td.projects.over ol {
+  display: block;
+}
+.style9 {
+  text-decoration: none;
+}
+a.style9:hover{
+  opacity: 0.8;
+  filter:alpha(opacity=80);
+}
+.style10 {
+  color: #CCCCCC;
+}
+.style11 {
+  color: #FFFFFF;
+}
+.style13 {
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="shadow_left">&nbsp;</td>
+      <td class="header_column">
+        <!-- Header/Intro stuff (pre-Menu bar) -->
+        <table width="100%" border="0" cellspacing="10" cellpadding="0">
+          <tr>
+            <td class="logo_area" style="font-size: x-large; height: 48px;">
+              <a class="style9" href="index.html"><span class="style11"><strong>Heterogeneous Computing: A Unified HW-SW Approach</strong></span></a>
+            </td>
+            <th class="logo_area" rowspan="3">
+              &nbsp;
+            </th>
+          </tr>
+	<tr>
+        <th class="sub_logo_area" style="font-size: 18px">
+           <a class="style9" href="http://rsim.cs.uiuc.edu"><span class="style11"><strong>Sarita Adve's Research Group</strong></span></a>
+          </th>
+          
+      </tr>
+
+          <tr>
+            <th class="sub_logo_area">
+              <a class="style9" href="http://illinois.edu"><span class="style10">University of Illinois at Urbana-Champaign</span></a></th>
+          </tr>
+        </table>
+      </td>
+      <td class="shadow_right">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td class="horizontal_column">&nbsp;
+      </td>
+      <td>
+        <!-- Menu bar -->
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="linkcontainer">
+          <tr>
+            <td class="projects">
+              <div class="navigation" style="font-size: medium"> <a href="index.html" class="main_link">Home</a></div>
+            </td>
+            <td class="style4">
+              <div class="navigation" style="font-size: medium"><a class="main_link" href="people.html">People</a></div>
+            </td>
+            <td>
+              <div class="navigation" style="font-size: medium"><a href="pubs.html" class="main_link">Publications</a></div>
+            </td>
+            <td>
+              <div class="navigation" style="font-size: medium"><a href="funding.html" class="main_link" style="width: 100%">Funding</a></div>
+            </td>
+            <td>
+              <div class="navigation" style="font-size: medium"><a href="news.html" class="main_link">News</a></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td class="horizontal_column">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="shadow_left">&nbsp;</td>
+      <td class="main_content_box">
+        <table width="100%" cellspacing="0" cellpadding="0" class="style5">
+          <tr>
+            <td class="body_content" style="font-size: small; text-align: left;" valign="top">
+              <div class="style13">
+                <br />
+                <span class="Apple-style-span" style="color: rgb(51, 51, 102); ">
+                  <span class="style12" >
+                    <p align="justify">
+                      Device specialization is a natural path to power efficiency.  
+                      Already, there has been a significant amount of work on 
+                      compute specialization; future systems will have some collection 
+                      of heterogeneous compute elements, a trend which has already 
+                      begun in modern embedded systems.  However, there are many 
+                      inefficiencies in current approaches which prevent significant 
+                      performance and energy savings from being attained.  We believe 
+                      that a unified, hardware-software co-design approach is needed 
+                      to remove these inefficiencies.  In this project, we specifically 
+                      focus on two inefficiencies: 
+                      
+                      <br><br>
+                      1.  Transferring data efficiently through the memory system.
+                      <br>
+                      2.  Enabling programmers to use diverse heterogeneous 
+                      hardware without losing portability, and enabling more effective software-hardware interfaces.
+                    </p>
+                    <p align="justify">
+                      <b>Memory system</b><span class="Apple-converted-space">&nbsp;</span>:
+                      <br>
+                      <br>
+                      The memory system that connects these 
+                      diverse compute elements has not received as much attention 
+                      as the compute units.  In current embedded systems, each compute 
+                      element has its own memory resources.  The memory resources are 
+                      only loosely integrated with each other, which results in 
+                      unnecessary data copying and movement.  In turn, this leads to 
+                      energy wastage and prevents fine-grained tasks from being 
+                      off-loaded to specialized units that may be able to perform a 
+                      task more efficiently.  Furthermore, as technology continues to 
+                      scale downwards, memory accesses are expected to become the 
+                      dominant consumer of energy.  Thus, finding efficient methods to 
+                      transfer data between compute elements is <i>essential</i>.
+
+                      <br>
+                      <br>
+                      We believe that a major source of energy wastage in modern memory 
+                      systems stems from the largely software-oblivious design of such 
+                      systems.  By utilizing information from the software, we can more 
+                      efficiently transfer data throughout the system.  This insight 
+                      derives from our ongoing and prior work in the 
+                      <a href="http://denovo.cs.uiuc.edu">DeNovo</a> project.
+                    </p>
+                    <p align="justify">
+                      <b>Interface mechanism</b><span class="Apple-converted-space">&nbsp;</span><b>- 
+                      a typed virtual instruction set:</b><br><br>
+                      Programming applications for such hardware that use diverse combinations of
+                      computing elements is extremely challenging. These challenges arise from three
+                      root causes: (1) diverse parallelism models; (2) diverse memory architectures;
+                      and (3) diverse hardware instruction set semantics. To make use of the full
+                      range of available hardware to maximize performance and energy efficiency, the
+                      programming environment needs to provide common abstractions for all the
+                      available hardware compute units in heterogeneous systems. Not only are these
+                      abstractions required at the level of source-code, but also at object-code
+                      level to make the object-code portable across the same and different
+                      manufacturer's devices, thus allowing the application vendor to be able to ship
+                      a single software version across a broad range of devices.
+
+                      <br><br>
+
+                      We believe that these issues are best addressed using a language-neutral, 
+                      virtual instruction set layer that abstracts away most of the low-level 
+                      details of hardware, an approach we call Virtual Instruction Set Computing or 
+                      VISC.  Our system organization is shown in Figure 1.  The key point is that 
+                      the only software components that can "see" the hardware details are the 
+                      translators (i.e., compiler back ends), system-level and application-level 
+                      schedulers, a minimal set of other low-level OS components and some device 
+                      drivers.  The rest of the software stack, including source-level language 
+                      implementations, application libraries, and middleware, lives above the 
+                      virtual ISA and is portable across different heterogeneous system 
+                      configurations.  Unlike previous VISC systems, our virtual instruction set 
+                      design abstracts away and unifies the diverse forms of parallelism in 
+                      hardware (using a combination of only two models of parallelism).  It also 
+                      provides abstractions for memory and communication, allowing back-end 
+                      translators to generate code for efficient data movement across compute 
+                      units. These abstractions enable programmers to write efficient software 
+                      applications that are portable across a diverse range of hardware 
+                      configurations.  Moreover, we are exploiting the flexible 
+                      translator-hardware communication in VISC systems to enable the novel 
+                      memory system designs described above.
+                    </p>
+
+                    <img alt="VISC Picture" src="images/test.png" height="400" width="500">
+                    <p align="center">
+                      <b>Figure 1</b>: System Organization
+                    </p>
+
+                    <font size="3">
+                      <p align="justify">
+                        <b><a href="https://cs.illinois.edu/news/komuravelli-and-sinclair-win-qualcomm-innovation-fellowship">2012 Qualcomm Innovation Fellowship</a></b>
+                      </p>
+                    </font>
+                  </span>
+                  <span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium; ">
+                  <font color="#333366" face="Verdana, Arial, Helvetica, sans-serif">
+                  <br />
+                  </font></span>
+                </span><br /></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td class="shadow_right">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="shadow_left">&nbsp;</td>
+      <td class="middle_spacer"><div class="bottom_content"></div></td>
+      <td class="shadow_right">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="shadow_left">&nbsp;</td>
+      <td class="bottom_link_container">
+        <p>
+        </p>
+        <p>
+          <!-- All Right Reserved &copy; 2006 by bprizze<br /> -->
+          <!-- http://heartlessg.4uhost.info Web Master -->
+        </p>
+        <p/>
+      </td>
+      <td class="shadow_right">&nbsp;</td>
+    </tr>
+  </table>
+</body>
+</html>

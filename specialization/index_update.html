@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<title>Heterogeneous Computing</title>
+<link href="style/style1.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.style4 {
+  font-size: medium;
+}
+.projects {
+  font-size: medium;
+}
+.style5 {
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right: 1px solid #C0C0C0;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom: 1px solid #C0C0C0;
+}
+ol {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  position: absolute;
+  display: none;
+
+}
+td.projects:hover ol, td.projects.over ol {
+  display: block;
+}
+.style9 {
+  text-decoration: none;
+}
+a.style9:hover{
+  opacity: 0.8;
+  filter:alpha(opacity=80);
+}
+.style10 {
+  color: #CCCCCC;
+}
+.style11 {
+  color: #FFFFFF;
+}
+.style13 {
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="shadow_left">&nbsp;</td>
+      <td class="header_column">
+        <!-- Header/Intro stuff (pre-Menu bar) -->
+        <table width="100%" border="0" cellspacing="10" cellpadding="0">
+          <tr>
+            <td class="logo_area" style="font-size: x-large; height: 48px;">
+              <a class="style9" href="index.html"><span class="style11"><strong>Heterogeneous Computing: A Unified HW-SW Approach</strong></span></a>
+            </td>
+            <th class="logo_area" rowspan="3">
+              &nbsp;
+            </th>
+          </tr>
+          <tr>
+            <th class="sub_logo_area">
+              <a class="style9" href="http://illinois.edu"><span class="style10">University of Illinois at Urbana-Champaign</span></a></th>
+          </tr>
+        </table>
+      </td>
+      <td class="shadow_right">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td class="horizontal_column">&nbsp;
+      </td>
+      <td>
+        <!-- Menu bar -->
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="linkcontainer">
+          <tr>
+            <td class="projects">
+              <div class="navigation" style="font-size: medium"> <a href="index.html" class="main_link">Home</a></div>
+            </td>
+            <td class="style4">
+              <div class="navigation" style="font-size: medium"><a class="main_link" href="people.html">People</a></div>
+            </td>
+            <td>
+              <div class="navigation" style="font-size: medium"><a href="pubs.html" class="main_link">Publications</a></div>
+            </td>
+            <td>
+              <div class="navigation" style="font-size: medium"><a href="funding.html" class="main_link" style="width: 100%">Funding</a></div>
+            </td>
+            <td>
+              <div class="navigation" style="font-size: medium"><a href="news.html" class="main_link">News</a></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td class="horizontal_column">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="shadow_left">&nbsp;</td>
+      <td class="main_content_box">
+        <table width="100%" cellspacing="0" cellpadding="0" class="style5">
+          <tr>
+            <td class="body_content" style="font-size: small; text-align: left;" valign="top">
+              <div class="style13">
+                <br />
+                <span class="Apple-style-span" style="color: rgb(51, 51, 102); ">
+                  <span class="style12" >
+                    <p align="justify">
+                    In nearly all compute domains, architectures are increasingly relying on parallelism and hardware specialization to exceed the limits of single core performance. GPUs, FPGAs, and other specialized devices are being incorporated into everything from mobile devices to supercomputers to data centers, offering new challenges and opportunities to both hardware and software designers.
+                    
+                    <br>
+                    <br>
+
+                    One of the biggest challenges in this area is efficient data movement. Growth in compute throughput has far exceeded that of memory throughput in specialized devices, while Amdahl's Law has motivated a push to deliver efficiency gains for workloads with irregular sharing and fine-grain synchronization.
+                    Conventional heterogeneous programming paradigms which offload coarse-grain tasks to accelerators and require communication through memory (or worse, explicit off-chip data transfer) cannot meet these new requirements.
+                     Technologies like the <a href="http://www.amd.com/Documents/48423_fusion_whitepaper_WEB.pdf">AMD APU</a>, <a href="https://community.arm.com/processors/b/blog/posts/extended-system-coherency---part-1---cache-coherency-fundamentals">ARM AXI Coherency Extensions</a>, <a href="https://developer.ibm.com/linuxonpower/capi/">IBM CAPI</a>, and <a href="https://devblogs.nvidia.com/unified-memory-in-cuda-6/">CUDA Unified Memory</a> represent a recent trend toward more tightly integrated heterogeneous systems.
+                     
+                    </p>
+                    <br>
+                    <img alt="Scalable Heterogeneous Compute Architecture" src="images/ADA_hetero_img.png" height="300">
+                    <br>
+                    <p align="center">
+                      <b>Scalable heterogeneous compute architecture</b>
+                    </p> 
+                    
+                    <p align="justify">
+                    This project focuses on developing architectures and programming interfaces which can flexibly, efficiently, and simply accommodate these rapidly evolving memory demands.
+                    Our cross-layer research includes innovations in coherence protocols and consistency models for heterogeneous systems, novel coherent storage structures for specialized devices, hardware and software scheduling strategies for emerging GPU workloads, and innovations to enable coherent data movement and automatic generation of efficient compute designs in configurable hardware (e.g., FPGAs).
+
+                    </p>
+                    <h2>Heterogeneous Coherence and Consistency</h2>
+                    <p align="justify">
+                    One of the main goals of this project is to offer improved coherence and consistency for emerging heterogeneous systems.
+                    Past efforts to improve efficiency for emerging GPU workloads tend to add complexity to the programming model through the use of non-coherent scratchpads, scoped synchronization, and relaxed atomics. Each of these methods trades efficiency for reduced programmability and limited usability.
+
+                    <br>
+                    <br>
+                    
+                    Our recent work has shown that it is possible to achieve high GPU cache efficiency without burdening the programmer with added complexity. The coherent stash architecture offers the efficiency benefits of a directly addressed scratchpad while also offering the programmability and global addressability of a coherent cache (ISCA 2015). 
+                    We have proposed and evaluated the use of the DeNovo coherence protocol for GPU caches (MICRO 2015), and found that high cache reuse is possible in the presence of frequent synchronization without relying on scoped synchronization.
+                    Finally, we have defined DRF-Relaxed (ISCA 2017), which formalizes safe use cases of atomic relaxation and offers simple SC-centric semantics for programs which use them.
+                    <br>
+                    <br>
+                    
+                    Current work in this project focuses on the challenge of integrating diverse coherence strategies in a tightly coupled heterogeneous system. Earlier efforts to implement coherence between heterogeneous devices tend to rely on a last level MESI cache interface. However, a MESI interface is inappropriate for the memory demands of many specialized workloads, and often these architectures rely on a hierarchical cache structure with an intermediate cache level to translate and coalesce requests from caches which prefer a different protocol.
+                    This restricts the sharing patterns that can execute efficiently, adding hierarchical indirection and MESI coherence overheads to any communication between different device types.
+                    </p>
+                    <div float=left>
+                    <p>
+                    <img src="images/hierarch_diagram.png" width=350>
+                    </p><p>
+                    Hierarchical MESI-based LLC
+                    </p>
+                    </div>
+                    <div float=left>
+                    <p>
+                    <img src="images/unified_diagram.png" width=350>
+                    </p><p>
+                    Flexible Unified LLC
+                    </p>
+                    </div>
+                    <p align="justify">
+                    Instead of a hierarchical MESI-based cache structure, we propose a flexible and efficient interface which is based on the DeNovo protocol. DeNovo has been shown to offer improved simplicity, scalability, and efficiency for CPU and GPU workloads, and we extend it to offer support for both self-invalidated reads and writer initiated reads, write-through and write-back caches, and requests of variable granularity. This unified strategy avoids the need for hierarchical indirection while allowing each attached device to choose request types which best fit their own memory demands.
+
+
+                    </p>
+                  </span>
+                  <span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium; ">
+                  <font color="#333366" face="Verdana, Arial, Helvetica, sans-serif">
+                  <br />
+                  </font></span>
+                </span><br /></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td class="shadow_right">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="shadow_left">&nbsp;</td>
+      <td class="middle_spacer"><div class="bottom_content"></div></td>
+      <td class="shadow_right">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="shadow_left">&nbsp;</td>
+      <td class="bottom_link_container">
+        <p>
+        </p>
+        <p>
+          <!-- All Right Reserved &copy; 2006 by bprizze<br /> -->
+          <!-- http://heartlessg.4uhost.info Web Master -->
+        </p>
+        <p/>
+      </td>
+      <td class="shadow_right">&nbsp;</td>
+    </tr>
+  </table>
+</body>
+</html>

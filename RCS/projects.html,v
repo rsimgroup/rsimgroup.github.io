@@ -1,0 +1,433 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2014.01.20.18.07.21;	author mdsincl2;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2010.03.01.20.37.18;	author shari2;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2010.02.28.20.12.50;	author shari2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Fixed links on Projects page so Heterogeneous project was included.
+@
+text
+@<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Sarita Adve's Group: Projects</title>
+<link href="style/style1.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.style4 {
+  font-size: medium;
+}
+.projects {
+  font-size: medium;
+}
+.style5 {
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right: 1px solid #C0C0C0;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom: 1px solid #C0C0C0;
+}
+ol {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  position: absolute;
+  display: none;
+
+}
+.style8 {
+  color: #FFFFFF;
+  text-align: center;
+}
+td.projects:hover ol, td.projects.over ol {
+  display: block;
+}
+.style9 {
+  text-decoration: none;
+}
+a.style9:hover{
+  opacity: 0.8;
+  filter:alpha(opacity=80);
+}
+.style10 {
+  color: #CCCCCC;
+}
+.style11 {
+  color: #FFFFFF;
+}
+.style12 {
+  text-align: left;
+}
+.style13 {
+  text-align: left;
+  font-size: large;
+  font-weight: bold;
+}
+.style14 {
+  font-size: x-large;
+  font-weight: bold;
+}
+.style16 {
+  text-align: left;
+  font-size: large;
+}
+.style17 {
+  font-size: x-large;
+}
+</style>
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="header_column">
+  <table width="100%" border="0" cellspacing="10" cellpadding="0">
+      <tr>
+        <td class="logo_area" style="font-size: x-large">
+          <strong><a class="style9" href="index.html"><span class="style11">Sarita Adve's Research Group</span></a></strong></td>
+        <th class="logo_area" rowspan="2">
+          <img src="images_template1/bold50.gif">
+        </th>
+        <!-- <td width="300"> -->
+        <!--   <form id="form1" name="form1" method="post" action=""> -->
+    <!--    Search the website <br /> -->
+        <!--     <input name="search_text" type="text" id="search_text" /> -->
+        <!--     <input type="submit" name="Submit" value="Search" /> -->
+        <!--   </form> -->
+        <!-- </td> -->
+      </tr>
+      <tr>
+        <th class="sub_logo_area">
+          <a class="style9" href="http://illinois.edu"><span class="style10">University of Illinois at Urbana-Champaign
+          </span></a>
+        </th>
+      </tr>
+    </table></td>
+    <td class="shadow_right">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="horizontal_column">&nbsp;</td>
+    <td >
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" class="linkcontainer">
+        <tr>
+          <td class="projects">
+            <div class="navigation" style="font-size: medium"> <a href="projects.html" class="main_link">
+                Projects</a></div>
+            <ol>
+              <li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/swat"> SWAT  </a> </li>
+              <li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/denovo"> DeNovo </a> </li>
+              <li class="style8"> <a class="main_link" href="http://dpj.cs.uiuc.edu/DPJ/Home.html"> DPJ </a> </li>
+              <li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/heterogeneous"> Heterogeneous Computing </a> </li>
+              <li class="style8"> <a class="main_link" href="projects.html#matured"> Matured Projects </a> </li>
+            </ol>
+
+          </td>
+          <!-- <td><div class="navigation"><a href="#" class="main_link">DeNovo Home</a></div></td> -->
+          <td class="style4"><div class="navigation" style="font-size: medium"><a class="main_link" href="people.html">
+                People</a></div></td>
+          <td><div class="navigation" style="font-size: medium"><a href="pubs.html" class="main_link">
+                Publications</a></div></td>
+          <td><div class="navigation" style="font-size: medium"><a href="software.html" class="main_link">
+                Software</a></div></td>
+          <td><div class="navigation" style="font-size: medium"><a href="funding.html" class="main_link">Funding</a></div></td>
+          <td><div class="navigation" style="font-size: medium"><a href="news.html" class="main_link">News</a></div></td>
+        </tr>
+      </table>
+
+    </td>
+    <td class="horizontal_column">&nbsp;</td>
+  </tr>
+<!--   <tr> -->
+<!--     <td class="shadow_left">&nbsp;</td> -->
+<!--     <td class="below_header"> -->
+<!-- A large part of the complexity and inefficiency in current hardware concurrency mechanisms arguably arises from a software-oblivious approach to hardware design. The DeNovo project seeks to rethink concurrent hardware from the ground up, given the assumption that most future software will use disciplined concurrency models for better dependability. -->
+<!--     </td> -->
+<!--     <td class="shadow_right">&nbsp;</td> -->
+<!--   </tr> -->
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="main_content_box">
+  <table width="100%" cellspacing="0" cellpadding="0" class="style5">
+      <tr>
+        <td class="body_content" style="font-size: small; text-align: center;" valign="top">
+    <br></br>
+
+    <p class="style13" style="margin-top: -10px; margin-bottom: -12px;">
+    <font face="Geneva, Arial, Helvetica, sans-serif"><span class="style17">
+    Current</span></font></p>
+    <p class="style13" style="margin-top: -10px; margin-bottom: -12px;">
+    &nbsp;</p>
+    <ul>
+      <li class="style16">
+      <font color="#333366" face="Geneva, Arial, Helvetica, 
+sans-serif"><a href="http://rsim.cs.uiuc.edu/denovo">DeNovo</a></font>
+      </li>
+      <li class="style16">
+      <font color="#333366" face="Geneva, Arial, Helvetica, 
+sans-serif"><a href="http://rsim.cs.uiuc.edu/heterogeneous">Heterogeneous Computing</a></font>
+      </li>
+      <li class="style16">
+      <font color="#333366" face="Geneva, Arial, Helvetica, 
+sans-serif"><a href="http://rsim.cs.uiuc.edu/swat">SWAT</a></font>
+      </li>
+      <li class="style16">DPJ
+      </li>
+    </ul>
+
+    <br></br>
+
+    <p class="style12" style="margin-top: -10px; margin-bottom: -10px;">&nbsp;</p>
+    <p class="style12" style="margin-top: -10px; margin-bottom: -10px;">
+    <font face="Geneva, Arial, Helvetica, sans-serif" size="2">
+    <span class="style17">&nbsp;</span><span class="style14"><a name="matured">Matured</a></span></font></p>
+    <p class="style12" style="margin-top: -10px; margin-bottom: -10px;">
+    &nbsp;</p>
+    <ul>
+      <li class="style16">
+      <font color="#333366" face="Geneva, Arial, Helvetica, 
+sans-serif"><a href="http://rsim.cs.uiuc.edu/ramp">RAMP</a></font></li>
+      <li class="style16">
+      <font color="#333366" face="Geneva, Arial, Helvetica, 
+sans-serif"><a href="http://rsim.cs.uiuc.edu/alp">ALP</a></font></li>
+      <li class="style16">
+      <font color="#333366" face="Geneva, Arial, Helvetica, 
+sans-serif"><a href="http://www.cs.uiuc.edu/grace">GRACE</a></font></li>
+      <li class="style16">
+      <font face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="http://rsim.cs.uiuc.edu/data-centers">Data Centers</a></font></li>
+      <li class="style16">
+      <font face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="http://rsim.cs.uiuc.edu/consistency">Memory Models</a></font></li>
+      <li class="style16">
+      <font color="#333366" face="Geneva, Arial, Helvetica, 
+sans-serif"><a href="http://rsim.cs.uiuc.edu/rsim/dist.html">RSIM Simulator</a></font></li>
+      <li class="style16">
+      <font face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="http://rsim.cs.uiuc.edu/rsim">RSIM Project</a></font></li>
+    </ul>
+      </td>
+      </tr>
+    </table></td>
+    <td class="shadow_right">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="middle_spacer"><div class="bottom_content"></div></td>
+    <td class="shadow_right">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="bottom_link_container">
+      <p>
+      </p>
+      <p>
+        <!-- All Right Reserved &copy; 2006 by bprizze<br /> -->
+        <!-- http://heartlessg.4uhost.info Web Master -->
+      </p>
+      <p/>
+    </td>
+    <td class="shadow_right">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d9 1
+a9 1
+	font-size: medium;
+d12 1
+a12 1
+	font-size: medium;
+d15 6
+a20 6
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right: 1px solid #C0C0C0;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom: 1px solid #C0C0C0;
+d23 5
+a27 5
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	position: absolute;
+	display: none;
+d31 2
+a32 2
+	color: #FFFFFF;
+	text-align: center;
+d35 1
+a35 1
+	display: block;
+d38 1
+a38 1
+	text-decoration: none;
+d41 2
+a42 2
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+d45 1
+a45 1
+	color: #CCCCCC;
+d48 1
+a48 1
+	color: #FFFFFF;
+d51 1
+a51 1
+	text-align: left;
+d54 3
+a56 3
+	text-align: left;
+	font-size: large;
+	font-weight: bold;
+d59 2
+a60 2
+	font-size: x-large;
+	font-weight: bold;
+d63 2
+a64 2
+	text-align: left;
+	font-size: large;
+d67 1
+a67 1
+	font-size: x-large;
+d77 1
+a77 1
+	<table width="100%" border="0" cellspacing="10" cellpadding="0">
+d86 1
+a86 1
+		<!--   	Search the website <br /> -->
+d102 1
+a102 1
+	  <td class="horizontal_column">&nbsp;</td>
+d104 1
+a104 1
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="linkcontainer">
+d107 9
+a115 8
+          <div class="navigation" style="font-size: medium"> <a href="projects.html" class="main_link">
+				  Projects</a></div>
+			<ol>
+				<li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/swat"> SWAT  </a> </li>
+				<li class="style8"> <a class="main_link" href="http://rsim.cs.uiuc.edu/denovo"> DeNovo </a> </li>
+				<li class="style8"> <a class="main_link" href="http://dpj.cs.uiuc.edu/DPJ/Home.html"> DPJ </a> </li>
+				<li class="style8"> <a class="main_link" href="projects.html#matured"> Matured Projects </a> </li>
+			</ol>
+d117 1
+a117 1
+	  </td>
+d120 1
+a120 1
+			  People</a></div></td>
+d122 1
+a122 1
+			  Publications</a></div></td>
+d124 1
+a124 1
+			  Software</a></div></td>
+d127 1
+a127 1
+      </tr>
+d143 1
+a143 1
+	<table width="100%" cellspacing="0" cellpadding="0" class="style5">
+d146 1
+a146 1
+		<br></br>
+d148 33
+a180 26
+		<p class="style13" style="margin-top: -10px; margin-bottom: -12px;">
+		<font face="Geneva, Arial, Helvetica, sans-serif"><span class="style17">
+		Current</span></font></p>
+		<p class="style13" style="margin-top: -10px; margin-bottom: -12px;">
+		&nbsp;</p>
+		<ul>
+			<li class="style16">
+			<font color="#333366" face="Geneva, Arial, Helvetica, 
+sans-serif"><a href="http://rsim.cs.uiuc.edu/denovo">DeNovo</a></font></li>
+			<li class="style16">
+			<font color="#333366" face="Geneva, Arial, Helvetica, 
+sans-serif"><a href="http://rsim.cs.uiuc.edu/swat">SWAT</a></font></li>
+			<li class="style16">DPJ</li>
+		</ul>
+		
+		<br></br>
+
+		<p class="style12" style="margin-top: -10px; margin-bottom: -10px;">&nbsp;</p>
+		<p class="style12" style="margin-top: -10px; margin-bottom: -10px;">
+		<font face="Geneva, Arial, Helvetica, sans-serif" size="2">
+		<span class="style17">&nbsp;</span><span class="style14"><a name="matured">Matured</a></span></font></p>
+		<p class="style12" style="margin-top: -10px; margin-bottom: -10px;">
+		&nbsp;</p>
+		<ul>
+			<li class="style16">
+			<font color="#333366" face="Geneva, Arial, Helvetica, 
+d182 2
+a183 2
+			<li class="style16">
+			<font color="#333366" face="Geneva, Arial, Helvetica, 
+d185 2
+a186 2
+			<li class="style16">
+			<font color="#333366" face="Geneva, Arial, Helvetica, 
+d188 8
+a195 8
+			<li class="style16">
+			<font face="Geneva, Arial, Helvetica, sans-serif">
+			<a href="http://rsim.cs.uiuc.edu/data-centers">Data Centers</a></font></li>
+			<li class="style16">
+			<font face="Geneva, Arial, Helvetica, sans-serif">
+			<a href="http://rsim.cs.uiuc.edu/consistency">Memory Models</a></font></li>
+			<li class="style16">
+			<font color="#333366" face="Geneva, Arial, Helvetica, 
+d197 5
+a201 5
+			<li class="style16">
+			<font face="Geneva, Arial, Helvetica, sans-serif">
+			<a href="http://rsim.cs.uiuc.edu/rsim">RSIM Project</a></font></li>
+		</ul>
+		  </td>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a206 1
+        <a href="http://rsim.cs.uiuc.edu/" class="bottom_link">Old Website</a>
+@

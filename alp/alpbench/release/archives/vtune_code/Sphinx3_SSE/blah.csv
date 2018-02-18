@@ -1,0 +1,922 @@
+VTune(TM) Performance Analyzer 2.0 for Linux*
+Copyright (C) 2000-2003 Intel Corporation. All rights reserved.
+
+Event Summary
+Clockticks
+   14414 = Samples collected due to this event
+   3066000          = Sample after value used during collection
+   44193324000      = Total events (samples*SAV)
+
+HotSpot View grouped by address (all values in decimal except where indicated)
+
+Instruction Pointer    Function Offset    Function                      FullName    
+  Event                                       Events%    Samples     Events             Segment          Process ID    Module             Module Path
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0x0804FD4F             0x65               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.87%     125         383250000           0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD4B             0x61               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.74%     107         328062000           0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CC76             0x48               logs3_add                         logs3_add
+  Clockticks                                    0.70%     101         309666000           0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF5F             0x1b1              mgau_eval                         mgau_eval
+  Clockticks                                    0.39%     56          171696000           0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD08             0x1e               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.38%     55          168630000           0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF1E             0x170              mgau_eval                         mgau_eval
+  Clockticks                                    0.38%     55          168630000           0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD1B             0x31               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.33%     48          147168000           0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD40             0x56               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.32%     46          141036000           0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD70             0x86               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.26%     38          116508000           0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD7D             0x93               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.21%     30          91980000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF08             0x15a              mgau_eval                         mgau_eval
+  Clockticks                                    0.21%     30          91980000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD11             0x27               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.20%     29          88914000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FECB             0x11d              mgau_eval                         mgau_eval
+  Clockticks                                    0.20%     29          88914000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD6A             0x80               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.17%     25          76650000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD64             0x7a               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.17%     24          73584000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FDA1             0xb7               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.17%     24          73584000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805AC83             0x1b               hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.17%     24          73584000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF54             0x1a6              mgau_eval                         mgau_eval
+  Clockticks                                    0.16%     23          70518000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF05             0x157              mgau_eval                         mgau_eval
+  Clockticks                                    0.15%     22          67452000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051C87             0x87               lextree_hmm_eval_thrd_work        lextree_hmm_eval_thrd_work
+  Clockticks                                    0.15%     22          67452000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF3D             0x18f              mgau_eval                         mgau_eval
+  Clockticks                                    0.15%     21          64386000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052209             0x69               sen_active_thrd_work              sen_active_thrd_work
+  Clockticks                                    0.14%     20          61320000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD1E             0x34               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.13%     19          58254000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF1A             0x16c              mgau_eval                         mgau_eval
+  Clockticks                                    0.12%     18          55188000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051CAA             0xaa               lextree_hmm_eval_thrd_work        lextree_hmm_eval_thrd_work
+  Clockticks                                    0.12%     18          55188000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD95             0xab               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.12%     17          52122000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805220D             0x6d               sen_active_thrd_work              sen_active_thrd_work
+  Clockticks                                    0.12%     17          52122000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD43             0x59               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.11%     16          49056000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD3D             0x53               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.10%     14          42924000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD9E             0xb4               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.09%     13          39858000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052106             0xae               sseq2sen_active_thrd_work         sseq2sen_active_thrd_work
+  Clockticks                                    0.09%     13          39858000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D0EC             0x7e               key2hash                          key2hash
+  Clockticks                                    0.08%     12          36792000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD6D             0x83               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.08%     12          36792000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD8D             0xa3               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.08%     12          36792000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD91             0xa7               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.08%     12          36792000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF0A             0x15c              mgau_eval                         mgau_eval
+  Clockticks                                    0.08%     12          36792000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF4A             0x19c              mgau_eval                         mgau_eval
+  Clockticks                                    0.08%     12          36792000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD52             0x68               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.08%     11          33726000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF03             0x155              mgau_eval                         mgau_eval
+  Clockticks                                    0.08%     11          33726000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF12             0x164              mgau_eval                         mgau_eval
+  Clockticks                                    0.08%     11          33726000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF4C             0x19e              mgau_eval                         mgau_eval
+  Clockticks                                    0.08%     11          33726000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051D2F             0xf                ln_lock                           ln_lock
+  Clockticks                                    0.08%     11          33726000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805ACD8             0x70               hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.08%     11          33726000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD27             0x3d               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.07%     10          30660000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF16             0x168              mgau_eval                         mgau_eval
+  Clockticks                                    0.07%     10          30660000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051F35             0x1e5              lextree_hmm_ppg_thrd_work         lextree_hmm_ppg_thrd_work
+  Clockticks                                    0.07%     10          30660000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052025             0x35               lextree_ssid_active_thrd_work     lextree_ssid_active_thrd_work
+  Clockticks                                    0.07%     10          30660000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805BDC6             0xd2               lextree_enter                     lextree_enter
+  Clockticks                                    0.07%     10          30660000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CC70             0x42               logs3_add                         logs3_add
+  Clockticks                                    0.06%     9           27594000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FCF9             0xf                mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.06%     9           27594000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD99             0xaf               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.06%     9           27594000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF4E             0x1a0              mgau_eval                         mgau_eval
+  Clockticks                                    0.06%     9           27594000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CC55             0x27               logs3_add                         logs3_add
+  Clockticks                                    0.06%     8           24528000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CC5A             0x2c               logs3_add                         logs3_add
+  Clockticks                                    0.06%     8           24528000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D31F             0x21               lookup                            lookup
+  Clockticks                                    0.06%     8           24528000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD5B             0x71               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.06%     8           24528000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD88             0x9e               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.06%     8           24528000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF29             0x17b              mgau_eval                         mgau_eval
+  Clockticks                                    0.06%     8           24528000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF60             0x1b2              mgau_eval                         mgau_eval
+  Clockticks                                    0.06%     8           24528000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B28             0x22e              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.06%     8           24528000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080520FA             0xa2               sseq2sen_active_thrd_work         sseq2sen_active_thrd_work
+  Clockticks                                    0.06%     8           24528000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CC51             0x23               logs3_add                         logs3_add
+  Clockticks                                    0.05%     7           21462000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CC63             0x35               logs3_add                         logs3_add
+  Clockticks                                    0.05%     7           21462000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CD01             0xd3               logs3_add                         logs3_add
+  Clockticks                                    0.05%     7           21462000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FCEB             0x1                mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.05%     7           21462000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD05             0x1b               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.05%     7           21462000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD47             0x5d               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.05%     7           21462000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD67             0x7d               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.05%     7           21462000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF23             0x175              mgau_eval                         mgau_eval
+  Clockticks                                    0.05%     7           21462000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052117             0xbf               sseq2sen_active_thrd_work         sseq2sen_active_thrd_work
+  Clockticks                                    0.05%     7           21462000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080522FE             0x15e              sen_active_thrd_work              sen_active_thrd_work
+  Clockticks                                    0.05%     7           21462000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804F6F9             0x87               mgau_var_floor                    mgau_var_floor
+  Clockticks                                    0.04%     6           18396000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FCF0             0x6                mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.04%     6           18396000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD76             0x8c               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.04%     6           18396000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD85             0x9b               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.04%     6           18396000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF20             0x172              mgau_eval                         mgau_eval
+  Clockticks                                    0.04%     6           18396000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08062184             0x1e2              fe_fft                            fe_fft
+  Clockticks                                    0.04%     6           18396000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD0B             0x21               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.03%     5           15330000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD14             0x2a               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.03%     5           15330000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD17             0x2d               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.03%     5           15330000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD21             0x37               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.03%     5           15330000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD61             0x77               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.03%     5           15330000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF6A             0x1bc              mgau_eval                         mgau_eval
+  Clockticks                                    0.03%     5           15330000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B3B             0x241              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.03%     5           15330000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080520EE             0x96               sseq2sen_active_thrd_work         sseq2sen_active_thrd_work
+  Clockticks                                    0.03%     5           15330000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052118             0xc0               sseq2sen_active_thrd_work         sseq2sen_active_thrd_work
+  Clockticks                                    0.03%     5           15330000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052B10             0xa                find_ph_rc                        find_ph_rc
+  Clockticks                                    0.03%     5           15330000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CC36             0x8                logs3_add                         logs3_add
+  Clockticks                                    0.03%     4           12264000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D0CC             0x5e               key2hash                          key2hash
+  Clockticks                                    0.03%     4           12264000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FCF6             0xc                mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.03%     4           12264000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FDAC             0xc2               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.03%     4           12264000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FEF2             0x144              mgau_eval                         mgau_eval
+  Clockticks                                    0.03%     4           12264000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF58             0x1aa              mgau_eval                         mgau_eval
+  Clockticks                                    0.03%     4           12264000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF6E             0x1c0              mgau_eval                         mgau_eval
+  Clockticks                                    0.03%     4           12264000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF81             0x1d3              mgau_eval                         mgau_eval
+  Clockticks                                    0.03%     4           12264000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051BD9             0x43               dict2pid_comsenscr_thrd_work      dict2pid_comsenscr_thrd_work
+  Clockticks                                    0.03%     4           12264000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051BDE             0x48               dict2pid_comsenscr_thrd_work      dict2pid_comsenscr_thrd_work
+  Clockticks                                    0.03%     4           12264000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080520F2             0x9a               sseq2sen_active_thrd_work         sseq2sen_active_thrd_work
+  Clockticks                                    0.03%     4           12264000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052111             0xb9               sseq2sen_active_thrd_work         sseq2sen_active_thrd_work
+  Clockticks                                    0.03%     4           12264000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08062261             0x2bf              fe_fft                            fe_fft
+  Clockticks                                    0.03%     4           12264000            0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804B170             0xb0               chksum_accum                      chksum_accum
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804B177             0xb7               chksum_accum                      chksum_accum
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CC34             0x6                logs3_add                         logs3_add
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CCFF             0xd1               logs3_add                         logs3_add
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CEA6             0x0                log_to_logs3_factor               log_to_logs3_factor
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D287             0x1d               keycmp_nocase                     keycmp_nocase
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD18             0x2e               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD24             0x3a               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FED9             0x12b              mgau_eval                         mgau_eval
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF35             0x187              mgau_eval                         mgau_eval
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF39             0x18b              mgau_eval                         mgau_eval
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF79             0x1cb              mgau_eval                         mgau_eval
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B2E             0x234              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051BE6             0x50               dict2pid_comsenscr_thrd_work      dict2pid_comsenscr_thrd_work
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051E44             0xf4               lextree_hmm_ppg_thrd_work         lextree_hmm_ppg_thrd_work
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051E80             0x130              lextree_hmm_ppg_thrd_work         lextree_hmm_ppg_thrd_work
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052102             0xaa               sseq2sen_active_thrd_work         sseq2sen_active_thrd_work
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052B1B             0x15               find_ph_rc                        find_ph_rc
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052CC3             0x21               mdef_ciphone_id                   mdef_ciphone_id
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08053386             0xec               parse_tmat_senmap                 parse_tmat_senmap
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080533FA             0x160              parse_tmat_senmap                 parse_tmat_senmap
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805AC77             0xf                hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805AC7D             0x15               hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805BDC9             0xd5               lextree_enter                     lextree_enter
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08062257             0x2b5              fe_fft                            fe_fft
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0806227F             0x2dd              fe_fft                            fe_fft
+  Clockticks                                    0.02%     3           9198000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080491D8             0x0                                                  
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080491E8             0x0                                                  
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08049562             0x2                __ckd_calloc                      __ckd_calloc(void)
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804956C             0xc                __ckd_calloc                      __ckd_calloc(void)
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804A94A             0xa                glist_chkdup_int32                glist_chkdup_int32
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804A950             0x10               glist_chkdup_int32                glist_chkdup_int32
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804B17E             0xbe               chksum_accum                      chksum_accum
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804B181             0xc1               chksum_accum                      chksum_accum
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804B196             0xd6               chksum_accum                      chksum_accum
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804B456             0x18               bio_fread                         bio_fread
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804B855             0x21               vector_is_zero                    vector_is_zero
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CC2F             0x1                logs3_add                         logs3_add
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CC3C             0xe                logs3_add                         logs3_add
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CC53             0x25               logs3_add                         logs3_add
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CC5D             0x2f               logs3_add                         logs3_add
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CC69             0x3b               logs3_add                         logs3_add
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CD06             0xd8               logs3_add                         logs3_add
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D0CE             0x60               key2hash                          key2hash
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D0DE             0x70               key2hash                          key2hash
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D33D             0x3f               lookup                            lookup
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D38A             0x0                hash_lookup                       hash_lookup
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D3C4             0x3a               hash_lookup                       hash_lookup
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D54D             0x39               hash_tolist                       hash_tolist
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804F8F1             0xb7               mgau_precomp                      mgau_precomp
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804F8FD             0xc3               mgau_precomp                      mgau_precomp
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804F907             0xcd               mgau_precomp                      mgau_precomp
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804F923             0xe9               mgau_precomp                      mgau_precomp
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804F929             0xef               mgau_precomp                      mgau_precomp
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FCFC             0x12               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FCFF             0x15               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD0E             0x24               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD31             0x47               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD5E             0x74               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD73             0x89               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FDBD             0xf                mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FDC6             0x18               mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FDDA             0x2c               mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FEDD             0x12f              mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FEE3             0x135              mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FEE8             0x13a              mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FEF7             0x149              mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FEFA             0x14c              mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF06             0x158              mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF0E             0x160              mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF2F             0x181              mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF42             0x194              mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B50             0x256              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B6C             0x272              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B73             0x279              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B7B             0x281              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051BD4             0x3e               dict2pid_comsenscr_thrd_work      dict2pid_comsenscr_thrd_work
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051C8D             0x8d               lextree_hmm_eval_thrd_work        lextree_hmm_eval_thrd_work
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051D41             0x21               ln_lock                           ln_lock
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051E23             0xd3               lextree_hmm_ppg_thrd_work         lextree_hmm_ppg_thrd_work
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052041             0x51               lextree_ssid_active_thrd_work     lextree_ssid_active_thrd_work
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805211A             0xc2               sseq2sen_active_thrd_work         sseq2sen_active_thrd_work
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805215B             0x103              sseq2sen_active_thrd_work         sseq2sen_active_thrd_work
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052160             0x108              sseq2sen_active_thrd_work         sseq2sen_active_thrd_work
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052302             0x162              sen_active_thrd_work              sen_active_thrd_work
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052AF8             0xa                find_ph_lc                        find_ph_lc
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052B14             0xe                find_ph_rc                        find_ph_rc
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052B16             0x10               find_ph_rc                        find_ph_rc
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052B52             0x34               triphone_add                      triphone_add
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052CA3             0x1                mdef_ciphone_id                   mdef_ciphone_id
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052EBF             0x79               mdef_phone_id                     mdef_phone_id
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080533F6             0x15c              parse_tmat_senmap                 parse_tmat_senmap
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080534E3             0x249              parse_tmat_senmap                 parse_tmat_senmap
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08053522             0x288              parse_tmat_senmap                 parse_tmat_senmap
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08053882             0x9e               parse_tri_line                    parse_tri_line
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805390F             0x12b              parse_tri_line                    parse_tri_line
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08053980             0x19c              parse_tri_line                    parse_tri_line
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08053C70             0xbc               sseq_compress                     sseq_compress
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08053CDA             0x2                noncomment_line                   noncomment_line
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08055E9C             0x112              ssidlist2comsseq                  ssidlist2comsseq
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08058E56             0x78               lm_bg_score                       lm_bg_score
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805ACE0             0x78               hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805AD02             0x9a               hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805AD76             0x10e              hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08062259             0x2b7              fe_fft                            fe_fft
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08068394             0x3                P2D1                              P2D1
+  Clockticks                                    0.01%     2           6132000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080492A8             0x0                                                  
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08049572             0x12               __ckd_calloc                      __ckd_calloc(void)
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08049A68             0xa6               __mymalloc                        __mymalloc(void)
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08049AE4             0x122              __mymalloc                        __mymalloc(void)
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08049B22             0x0                __myfree                          __myfree(void)
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804A94E             0xe                glist_chkdup_int32                glist_chkdup_int32
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804AB0F             0xd                glist_count                       glist_count
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804B173             0xb3               chksum_accum                      chksum_accum
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804B185             0xc5               chksum_accum                      chksum_accum
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804B44A             0xc                bio_fread                         bio_fread
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804B457             0x19               bio_fread                         bio_fread
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804B6BF             0x77               vector_sum_norm                   vector_sum_norm
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804B858             0x24               vector_is_zero                    vector_is_zero
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CADF             0x1ef              logs3_init                        logs3_init
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CB15             0x225              logs3_init                        logs3_init
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CB8F             0x29f              logs3_init                        logs3_init
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CC2E             0x0                logs3_add                         logs3_add
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CC3F             0x11               logs3_add                         logs3_add
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CC45             0x17               logs3_add                         logs3_add
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CC4F             0x21               logs3_add                         logs3_add
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CD05             0xd7               logs3_add                         logs3_add
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CD97             0x71               logs3                             logs3
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804CDB2             0x8c               logs3                             logs3
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D06E             0x0                key2hash                          key2hash
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D06F             0x1                key2hash                          key2hash
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D088             0x1a               key2hash                          key2hash
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D095             0x27               key2hash                          key2hash
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D0AD             0x3f               key2hash                          key2hash
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D0B7             0x49               key2hash                          key2hash
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D0C0             0x52               key2hash                          key2hash
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D0DA             0x6c               key2hash                          key2hash
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D0DF             0x71               key2hash                          key2hash
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D107             0x15               makekey                           makekey
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D157             0x65               makekey                           makekey
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D1E0             0xee               makekey                           makekey
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D220             0x12e              makekey                           makekey
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D22F             0x13d              makekey                           makekey
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D24A             0x158              makekey                           makekey
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D280             0x16               keycmp_nocase                     keycmp_nocase
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D282             0x18               keycmp_nocase                     keycmp_nocase
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D295             0x2b               keycmp_nocase                     keycmp_nocase
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D2A9             0x3f               keycmp_nocase                     keycmp_nocase
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D2B0             0x46               keycmp_nocase                     keycmp_nocase
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D2B6             0x4c               keycmp_nocase                     keycmp_nocase
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D2D9             0x17               keycmp_case                       keycmp_case
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D2DA             0x18               keycmp_case                       keycmp_case
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D2F3             0x31               keycmp_case                       keycmp_case
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D2FE             0x0                lookup                            lookup
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D309             0xb                lookup                            lookup
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D334             0x36               lookup                            lookup
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D338             0x3a               lookup                            lookup
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D378             0x7a               lookup                            lookup
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D385             0x87               lookup                            lookup
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D386             0x88               lookup                            lookup
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D38C             0x2                hash_lookup                       hash_lookup
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D391             0x7                hash_lookup                       hash_lookup
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D3A9             0x1f               hash_lookup                       hash_lookup
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D42E             0x22               enter                             enter
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D488             0x7c               enter                             enter
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D4DE             0xe                hash_enter_bkey                   hash_enter_bkey
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D506             0x36               hash_enter_bkey                   hash_enter_bkey
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D54A             0x36               hash_tolist                       hash_tolist
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D5C7             0x27               hash_free                         hash_free
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D5CD             0x2d               hash_free                         hash_free
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D5D2             0x32               hash_free                         hash_free
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D5E9             0x49               hash_free                         hash_free
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D627             0x1                subheap_insert                    subheap_insert
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D63C             0x16               subheap_insert                    subheap_insert
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D651             0x2b               subheap_insert                    subheap_insert
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D655             0x2f               subheap_insert                    subheap_insert
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804D6D0             0x8                subheap_pop                       subheap_pop
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804EC7F             0x643              mgau_file_read                    mgau_file_read
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804ED69             0x72d              mgau_file_read                    mgau_file_read
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804ED6E             0x732              mgau_file_read                    mgau_file_read
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804ED7C             0x740              mgau_file_read                    mgau_file_read
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804F372             0x496              mgau_mixw_read                    mgau_mixw_read
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804F56C             0x70               mgau_uninit_compact               mgau_uninit_compact
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804F6ED             0x7b               mgau_var_floor                    mgau_var_floor
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804F6F7             0x85               mgau_var_floor                    mgau_var_floor
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804F6FA             0x88               mgau_var_floor                    mgau_var_floor
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804F70B             0x99               mgau_var_floor                    mgau_var_floor
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804F913             0xd9               mgau_precomp                      mgau_precomp
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804F915             0xdb               mgau_precomp                      mgau_precomp
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804F92F             0xf5               mgau_precomp                      mgau_precomp
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804F94D             0x113              mgau_precomp                      mgau_precomp
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FCEA             0x0                mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FD58             0x6e               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FDA4             0xba               mgau_eval_inner                   mgau_eval_inner
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FDAE             0x0                mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FDB5             0x7                mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FDB6             0x8                mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FDB7             0x9                mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FEBF             0x111              mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FEC0             0x112              mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FEEC             0x13e              mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FEED             0x13f              mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF72             0x1c4              mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0804FF7F             0x1d1              mgau_eval                         mgau_eval
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051A72             0x178              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051ACB             0x1d1              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B1B             0x221              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B1D             0x223              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B1F             0x225              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B37             0x23d              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B3C             0x242              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B3E             0x244              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B3F             0x245              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B43             0x249              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B5A             0x260              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B61             0x267              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051B68             0x26e              frame_eval_thrd_work              frame_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051BD6             0x40               dict2pid_comsenscr_thrd_work      dict2pid_comsenscr_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051BDA             0x44               dict2pid_comsenscr_thrd_work      dict2pid_comsenscr_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051C80             0x80               lextree_hmm_eval_thrd_work        lextree_hmm_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051C93             0x93               lextree_hmm_eval_thrd_work        lextree_hmm_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051C9E             0x9e               lextree_hmm_eval_thrd_work        lextree_hmm_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051CA1             0xa1               lextree_hmm_eval_thrd_work        lextree_hmm_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051CB8             0xb8               lextree_hmm_eval_thrd_work        lextree_hmm_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051CDB             0xdb               lextree_hmm_eval_thrd_work        lextree_hmm_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051CDD             0xdd               lextree_hmm_eval_thrd_work        lextree_hmm_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051CEA             0xea               lextree_hmm_eval_thrd_work        lextree_hmm_eval_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051D29             0x9                ln_lock                           ln_lock
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051D4E             0x8                ln_unlock                         ln_unlock
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051E24             0xd4               lextree_hmm_ppg_thrd_work         lextree_hmm_ppg_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051E91             0x141              lextree_hmm_ppg_thrd_work         lextree_hmm_ppg_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051E9A             0x14a              lextree_hmm_ppg_thrd_work         lextree_hmm_ppg_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051EB5             0x165              lextree_hmm_ppg_thrd_work         lextree_hmm_ppg_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051ECE             0x17e              lextree_hmm_ppg_thrd_work         lextree_hmm_ppg_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051ED2             0x182              lextree_hmm_ppg_thrd_work         lextree_hmm_ppg_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08051F5C             0x20c              lextree_hmm_ppg_thrd_work         lextree_hmm_ppg_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080520F7             0x9f               sseq2sen_active_thrd_work         sseq2sen_active_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052133             0xdb               sseq2sen_active_thrd_work         sseq2sen_active_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052155             0xfd               sseq2sen_active_thrd_work         sseq2sen_active_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805216B             0x113              sseq2sen_active_thrd_work         sseq2sen_active_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052172             0x11a              sseq2sen_active_thrd_work         sseq2sen_active_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052180             0x128              sseq2sen_active_thrd_work         sseq2sen_active_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052212             0x72               sen_active_thrd_work              sen_active_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052307             0x167              sen_active_thrd_work              sen_active_thrd_work
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052B03             0x15               find_ph_lc                        find_ph_lc
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052BCA             0xac               triphone_add                      triphone_add
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052BCD             0xaf               triphone_add                      triphone_add
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052C09             0xeb               triphone_add                      triphone_add
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052C37             0x119              triphone_add                      triphone_add
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052CBB             0x19               mdef_ciphone_id                   mdef_ciphone_id
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052CC0             0x1e               mdef_ciphone_id                   mdef_ciphone_id
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08052EAC             0x66               mdef_phone_id                     mdef_phone_id
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080532D3             0x39               parse_tmat_senmap                 parse_tmat_senmap
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08053325             0x8b               parse_tmat_senmap                 parse_tmat_senmap
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805333A             0xa0               parse_tmat_senmap                 parse_tmat_senmap
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08053348             0xae               parse_tmat_senmap                 parse_tmat_senmap
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805334E             0xb4               parse_tmat_senmap                 parse_tmat_senmap
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080533BD             0x123              parse_tmat_senmap                 parse_tmat_senmap
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080533F3             0x159              parse_tmat_senmap                 parse_tmat_senmap
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080534B1             0x217              parse_tmat_senmap                 parse_tmat_senmap
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080534DF             0x245              parse_tmat_senmap                 parse_tmat_senmap
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08053803             0x1f               parse_tri_line                    parse_tri_line
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805380B             0x27               parse_tri_line                    parse_tri_line
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08053855             0x71               parse_tri_line                    parse_tri_line
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08053877             0x93               parse_tri_line                    parse_tri_line
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080538C1             0xdd               parse_tri_line                    parse_tri_line
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805392E             0x14a              parse_tri_line                    parse_tri_line
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08053941             0x15d              parse_tri_line                    parse_tri_line
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080539D9             0x1f5              parse_tri_line                    parse_tri_line
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08053A2B             0x247              parse_tri_line                    parse_tri_line
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08053B2D             0x349              parse_tri_line                    parse_tri_line
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08053C1B             0x67               sseq_compress                     sseq_compress
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08053C7A             0xc6               sseq_compress                     sseq_compress
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08053CEF             0x17               noncomment_line                   noncomment_line
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08054316             0x5fc              mdef_init                         mdef_init
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08054329             0x60f              mdef_init                         mdef_init
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805448C             0x772              mdef_init                         mdef_init
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08054494             0x77a              mdef_init                         mdef_init
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805449B             0x781              mdef_init                         mdef_init
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805449F             0x785              mdef_init                         mdef_init
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08055E47             0xbd               ssidlist2comsseq                  ssidlist2comsseq
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08055E76             0xec               ssidlist2comsseq                  ssidlist2comsseq
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08055E78             0xee               ssidlist2comsseq                  ssidlist2comsseq
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08055ED2             0x148              ssidlist2comsseq                  ssidlist2comsseq
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080571EC             0x0                fillpen                           fillpen
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08058E1C             0x3e               lm_bg_score                       lm_bg_score
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08058E21             0x43               lm_bg_score                       lm_bg_score
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08058E4C             0x6e               lm_bg_score                       lm_bg_score
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08058EAB             0xcd               lm_bg_score                       lm_bg_score
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08059380             0x4                lm_tg_score                       lm_tg_score
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08059391             0x15               lm_tg_score                       lm_tg_score
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805939F             0x23               lm_tg_score                       lm_tg_score
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080593A4             0x28               lm_tg_score                       lm_tg_score
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080593AB             0x2f               lm_tg_score                       lm_tg_score
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805AC75             0xd                hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805AC7A             0x12               hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805AC80             0x18               hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805AC86             0x1e               hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805ACC6             0x5e               hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805ACC8             0x60               hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805ACD4             0x6c               hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805ACE5             0x7d               hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805ACF0             0x88               hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805ACF6             0x8e               hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805AD11             0xa9               hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805AD1A             0xb2               hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805AD5D             0xf5               hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805AD7D             0x115              hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805AD86             0x11e              hmm_vit_eval_3st                  hmm_vit_eval_3st
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805BDC4             0xd0               lextree_enter                     lextree_enter
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805BDD1             0xdd               lextree_enter                     lextree_enter
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805BDD8             0xe4               lextree_enter                     lextree_enter
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805BDDB             0xe7               lextree_enter                     lextree_enter
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805C646             0x24               vh_lmstate_find                   vh_lmstate_find
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805C64A             0x28               vh_lmstate_find                   vh_lmstate_find
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805C7FD             0xb1               vithist_enter                     vithist_enter
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805C8A8             0x46               vithist_rescore                   vithist_rescore
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805C966             0x104              vithist_rescore                   vithist_rescore
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805C96D             0x10b              vithist_rescore                   vithist_rescore
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805C97D             0x11b              vithist_rescore                   vithist_rescore
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805C99B             0x139              vithist_rescore                   vithist_rescore
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0805C9AF             0x14d              vithist_rescore                   vithist_rescore
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08060004             0x116              utt_word_trans                    utt_word_trans
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08060105             0x217              utt_word_trans                    utt_word_trans
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08060B7E             0x34a              utt_decode_block                  utt_decode_block
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08060BFF             0x3cb              utt_decode_block                  utt_decode_block
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08061C20             0x1d2              fe_spec_magnitude                 fe_spec_magnitude
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08061E5D             0x7f               fe_mel_spec                       fe_mel_spec
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08061E62             0x84               fe_mel_spec                       fe_mel_spec
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08061F52             0xc0               fe_mel_cep                        fe_mel_cep
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080620AF             0x10d              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080620DF             0x13d              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080620F6             0x154              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080620FF             0x15d              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08062180             0x1de              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08062186             0x1e4              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08062218             0x276              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08062227             0x285              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08062254             0x2b2              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08062264             0x2c2              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0806226A             0x2c8              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0806226F             0x2cd              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08062281             0x2df              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0806228B             0x2e9              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x0806228D             0x2eb              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08062294             0x2f2              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080622CF             0x32d              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080622D9             0x337              fe_fft                            fe_fft
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08062BB4             0x190              fe_process_utt                    fe_process_utt
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x080681D6             0x6                not1                              not1
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08068700             0x0                movdqa8                           movdqa8
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08068708             0x8                movdqa8                           movdqa8
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08068A80             0x60               both.aligned                      both.aligned
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse
+0x08068C92             0x0                fix16.2b                          fix16.2b
+  Clockticks                                    0.01%     1           3066000             0x0          0x000029D6(002)livepretend_sse    /home/adve_s/sasanka/alex/release/vtune_code/Sphinx3_SSE/execs/livepretend_sse

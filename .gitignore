@@ -1,0 +1,15 @@
+./approxilyzer/GEMS_Approxilyzer.tar
+./approxilyzer/apps.iso
+./alp/alpbench/release/ALPBench/Sphinx3/model/lm/biglm
+./alp/alpbench/release/archives/most_updated/Sphinx3_SSE/model/lm/biglm
+./alp/alpbench/release/archives/vtune_code/Sphinx3_SSE/model/lm/biglm
+./Pubs/SRC/NSFProposal06.pdf
+./alpapps/alpbenchreport.pdf
+./alpapps/facerec/README.txt
+./alpapps/facerec/facerec_sse2.tar.gz
+./alpapps/speechrec/README.txt
+./alpapps/speechrec/facerec_sse2.tar.gz
+./alpapps/speechrec/sphinx3_sse2.tar.gz
+./grace/protected/lex.yy.c
+./distribution/index.html
+./rsim/

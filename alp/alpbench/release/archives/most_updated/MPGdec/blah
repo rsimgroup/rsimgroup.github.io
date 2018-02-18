@@ -1,0 +1,1797 @@
+/opt/intel_cc_80/bin/icc -o obj/display.o -use_msasm -g -Wall -DINT_IDCT -DTHRD -DNUM_THREADS=1 -DSSE2        -c src/display.c
+/opt/intel_cc_80/bin/icc -o obj/getbits.o -use_msasm -g -Wall -DINT_IDCT -DTHRD -DNUM_THREADS=1 -DSSE2        -c src/getbits.c
+src/global.h(534): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buffer;
+                 ^
+
+src/global.h(535): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buf_ptr;
+                 ^
+
+src/global.h(536): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_size;
+               ^
+
+src/global.h(537): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_offset;
+               ^
+
+src/global.h(539): remark #1418: external definition with no prior declaration
+  unsigned char *thrd_ptr[NUM_THREADS];
+                 ^
+
+src/global.h(540): remark #1418: external definition with no prior declaration
+  unsigned int thrd_buf[NUM_THREADS];
+               ^
+
+src/global.h(541): remark #1418: external definition with no prior declaration
+  int thrd_Incnt[NUM_THREADS];
+      ^
+
+src/global.h(556): remark #1418: external definition with no prior declaration
+  thrd_buf_info tb[NUM_THREADS];
+                ^
+
+src/global.h(574): remark #1418: external definition with no prior declaration
+  } thrd_ld[NUM_THREADS];
+    ^
+
+src/getbits.c(267): remark #279: controlling expression is constant
+        assert(0&&"System_Strem_Flag is 1\n");
+        ^
+
+/opt/intel_cc_80/bin/icc -o obj/getblk.o -use_msasm -g -Wall -DINT_IDCT -DTHRD -DNUM_THREADS=1 -DSSE2        -c src/getblk.c
+src/global.h(534): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buffer;
+                 ^
+
+src/global.h(535): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buf_ptr;
+                 ^
+
+src/global.h(536): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_size;
+               ^
+
+src/global.h(537): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_offset;
+               ^
+
+src/global.h(539): remark #1418: external definition with no prior declaration
+  unsigned char *thrd_ptr[NUM_THREADS];
+                 ^
+
+src/global.h(540): remark #1418: external definition with no prior declaration
+  unsigned int thrd_buf[NUM_THREADS];
+               ^
+
+src/global.h(541): remark #1418: external definition with no prior declaration
+  int thrd_Incnt[NUM_THREADS];
+      ^
+
+src/global.h(556): remark #1418: external definition with no prior declaration
+  thrd_buf_info tb[NUM_THREADS];
+                ^
+
+src/global.h(574): remark #1418: external definition with no prior declaration
+  } thrd_ld[NUM_THREADS];
+    ^
+
+src/getblk.c(41): remark #1419: external declaration in primary source file
+  extern DCTtab DCTtabfirst[],DCTtabnext[],DCTtab0[],DCTtab1[];
+                ^
+
+src/getblk.c(41): remark #1419: external declaration in primary source file
+  extern DCTtab DCTtabfirst[],DCTtabnext[],DCTtab0[],DCTtab1[];
+                              ^
+
+src/getblk.c(41): remark #1419: external declaration in primary source file
+  extern DCTtab DCTtabfirst[],DCTtabnext[],DCTtab0[],DCTtab1[];
+                                           ^
+
+src/getblk.c(41): remark #1419: external declaration in primary source file
+  extern DCTtab DCTtabfirst[],DCTtabnext[],DCTtab0[],DCTtab1[];
+                                                     ^
+
+src/getblk.c(42): remark #1419: external declaration in primary source file
+  extern DCTtab DCTtab2[],DCTtab3[],DCTtab4[],DCTtab5[],DCTtab6[];
+                ^
+
+src/getblk.c(42): remark #1419: external declaration in primary source file
+  extern DCTtab DCTtab2[],DCTtab3[],DCTtab4[],DCTtab5[],DCTtab6[];
+                          ^
+
+src/getblk.c(42): remark #1419: external declaration in primary source file
+  extern DCTtab DCTtab2[],DCTtab3[],DCTtab4[],DCTtab5[],DCTtab6[];
+                                    ^
+
+src/getblk.c(42): remark #1419: external declaration in primary source file
+  extern DCTtab DCTtab2[],DCTtab3[],DCTtab4[],DCTtab5[],DCTtab6[];
+                                              ^
+
+src/getblk.c(42): remark #1419: external declaration in primary source file
+  extern DCTtab DCTtab2[],DCTtab3[],DCTtab4[],DCTtab5[],DCTtab6[];
+                                                        ^
+
+src/getblk.c(43): remark #1419: external declaration in primary source file
+  extern DCTtab DCTtab0a[],DCTtab1a[];
+                ^
+
+src/getblk.c(43): remark #1419: external declaration in primary source file
+  extern DCTtab DCTtab0a[],DCTtab1a[];
+                           ^
+
+src/getblk.c(62): remark #810: conversion from "int" to "short" may lose significant bits
+      bp[0] = (dc_dct_pred[0]+=Get_Luma_DC_dct_diff()) << 3;
+            ^
+
+src/getblk.c(64): remark #810: conversion from "int" to "short" may lose significant bits
+      bp[0] = (dc_dct_pred[1]+=Get_Chroma_DC_dct_diff()) << 3;
+            ^
+
+src/getblk.c(66): remark #810: conversion from "int" to "short" may lose significant bits
+      bp[0] = (dc_dct_pred[2]+=Get_Chroma_DC_dct_diff()) << 3;
+            ^
+
+src/getblk.c(146): remark #810: conversion from "int" to "short" may lose significant bits
+        bp[j] = (val>2047) ?  2047 :  val; /* positive */
+              ^
+
+src/getblk.c(148): remark #810: conversion from "int" to "short" may lose significant bits
+        bp[j] = (val>2048) ? -2048 : -val; /* negative */
+              ^
+
+src/getblk.c(242): remark #810: conversion from "int" to "short" may lose significant bits
+        bp[j] = (val>2047) ?  2047 :  val; /* positive */
+              ^
+
+src/getblk.c(244): remark #810: conversion from "int" to "short" may lose significant bits
+        bp[j] = (val>2048) ? -2048 : -val; /* negative */
+              ^
+
+src/getblk.c(289): remark #810: conversion from "int" to "short" may lose significant bits
+    bp[0] = val << (3-intra_dc_precision);
+          ^
+
+src/getblk.c(413): remark #810: conversion from "int" to "short" may lose significant bits
+      bp[j] = sign ? -val : val;
+            ^
+
+src/getblk.c(255): remark #593: variable "run" was set but never used
+    int val, i, j, sign, nc, cc, run;
+                                 ^
+
+src/getblk.c(566): remark #810: conversion from "int" to "short" may lose significant bits
+      bp[j] = sign ? -val : val;
+            ^
+
+src/getblk.c(427): remark #593: variable "run" was set but never used
+    int val, i, j, sign, nc, run;
+                             ^
+
+src/getblk.c(607): remark #810: conversion from "int" to "short" may lose significant bits
+    bp[0] = val << (3-intra_dc_precision);
+          ^
+
+src/getblk.c(689): remark #810: conversion from "int" to "short" may lose significant bits
+      bp[j] = sign ? -val : val;
+            ^
+
+src/getblk.c(580): remark #593: variable "run" was set but never used
+    int val, i, j, sign, nc, cc, run;
+                                 ^
+
+src/getblk.c(800): remark #810: conversion from "int" to "short" may lose significant bits
+      bp[j] = sign ? -val : val;
+            ^
+
+src/getblk.c(704): remark #593: variable "run" was set but never used
+    int val, i, j, sign, nc, run;
+                             ^
+
+/opt/intel_cc_80/bin/icc -o obj/gethdr.o -use_msasm -g -Wall -DINT_IDCT -DTHRD -DNUM_THREADS=1 -DSSE2        -c src/gethdr.c
+src/global.h(534): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buffer;
+                 ^
+
+src/global.h(535): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buf_ptr;
+                 ^
+
+src/global.h(536): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_size;
+               ^
+
+src/global.h(537): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_offset;
+               ^
+
+src/global.h(539): remark #1418: external definition with no prior declaration
+  unsigned char *thrd_ptr[NUM_THREADS];
+                 ^
+
+src/global.h(540): remark #1418: external definition with no prior declaration
+  unsigned int thrd_buf[NUM_THREADS];
+               ^
+
+src/global.h(541): remark #1418: external definition with no prior declaration
+  int thrd_Incnt[NUM_THREADS];
+      ^
+
+src/global.h(556): remark #1418: external definition with no prior declaration
+  thrd_buf_info tb[NUM_THREADS];
+                ^
+
+src/global.h(574): remark #1418: external definition with no prior declaration
+  } thrd_ld[NUM_THREADS];
+    ^
+
+src/gethdr.c(115): remark #111: statement is unreachable
+        break;
+        ^
+
+src/gethdr.c(118): remark #111: statement is unreachable
+        break;
+        ^
+
+src/gethdr.c(152): remark #593: variable "slice_picture_id_enable" was set but never used
+    int slice_picture_id_enable = 0;
+        ^
+
+src/gethdr.c(153): remark #593: variable "slice_picture_id" was set but never used
+    int slice_picture_id = 0;
+        ^
+
+src/gethdr.c(154): remark #593: variable "extra_information_slice" was set but never used
+    int extra_information_slice = 0;
+        ^
+
+src/gethdr.c(207): remark #593: variable "pos" was set but never used
+    int pos;
+        ^
+
+src/gethdr.c(283): remark #593: variable "pos" was set but never used
+    int pos;
+        ^
+
+src/gethdr.c(328): remark #593: variable "pos" was set but never used
+    int pos;
+        ^
+
+src/gethdr.c(329): remark #593: variable "Extra_Information_Byte_Count" was set but never used
+    int Extra_Information_Byte_Count;
+        ^
+
+src/gethdr.c(394): remark #593: variable "pos" was set but never used
+    int pos;
+        ^
+
+src/gethdr.c(395): remark #593: variable "slice_picture_id_enable" was set but never used
+    int slice_picture_id_enable = 0;
+        ^
+
+src/gethdr.c(396): remark #593: variable "slice_picture_id" was set but never used
+    int slice_picture_id = 0;
+        ^
+
+src/gethdr.c(397): remark #593: variable "extra_information_slice" was set but never used
+    int extra_information_slice = 0;
+        ^
+
+src/gethdr.c(627): remark #593: variable "pos" was set but never used
+    int pos;
+        ^
+
+src/gethdr.c(678): remark #593: variable "pos" was set but never used
+    int pos;
+        ^
+
+src/gethdr.c(740): remark #593: variable "pos" was set but never used
+    int pos;
+        ^
+
+src/gethdr.c(804): remark #593: variable "pos" was set but never used
+    int pos;
+        ^
+
+src/gethdr.c(879): remark #593: variable "pos" was set but never used
+    int pos;
+        ^
+
+src/gethdr.c(955): remark #593: variable "pos" was set but never used
+    int pos;
+        ^
+
+src/gethdr.c(1034): remark #869: parameter "text" was never referenced
+  char *text;
+        ^
+
+src/gethdr.c(1036): remark #593: variable "marker" was set but never used
+    int marker;
+        ^
+
+src/gethdr.c(1064): remark #593: variable "reserved_data" was set but never used
+    int reserved_data;
+        ^
+
+/opt/intel_cc_80/bin/icc -o obj/getpic.o -use_msasm -g -Wall -DINT_IDCT -DTHRD -DNUM_THREADS=1 -DSSE2        -c src/getpic.c
+src/global.h(534): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buffer;
+                 ^
+
+src/global.h(535): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buf_ptr;
+                 ^
+
+src/global.h(536): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_size;
+               ^
+
+src/global.h(537): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_offset;
+               ^
+
+src/global.h(539): remark #1418: external definition with no prior declaration
+  unsigned char *thrd_ptr[NUM_THREADS];
+                 ^
+
+src/global.h(540): remark #1418: external definition with no prior declaration
+  unsigned int thrd_buf[NUM_THREADS];
+               ^
+
+src/global.h(541): remark #1418: external definition with no prior declaration
+  int thrd_Incnt[NUM_THREADS];
+      ^
+
+src/global.h(556): remark #1418: external definition with no prior declaration
+  thrd_buf_info tb[NUM_THREADS];
+                ^
+
+src/global.h(574): remark #1418: external definition with no prior declaration
+  } thrd_ld[NUM_THREADS];
+    ^
+
+src/getpic.c(153): remark #593: variable "ret" was set but never used
+    int ret;
+        ^
+
+src/getpic.c(199): remark #279: controlling expression is constant
+    if (DEBUG) printf("MBA %d\n",MBA);
+        ^
+
+src/getpic.c(183): remark #869: parameter "framenum" was never referenced
+  int framenum, MBAmax;
+      ^
+
+src/getpic.c(679): remark #177: variable "i" was declared but never referenced
+    int i;
+        ^
+
+src/getpic.c(724): remark #810: conversion from "int" to "short" may lose significant bits
+      *Block_Ptr1++ += *Block_Ptr2++;
+                    ^
+
+src/getpic.c(735): remark #177: variable "i" was declared but never referenced
+    int i, sum, val, j;
+        ^
+
+src/getpic.c(735): remark #177: variable "val" was declared but never referenced
+    int i, sum, val, j;
+                ^
+
+src/getpic.c(735): remark #177: variable "j" was declared but never referenced
+    int i, sum, val, j;
+                     ^
+
+src/getpic.c(736): remark #177: variable "upper" was declared but never referenced
+    const short upper[8] = {2047,2047,2047,2047,
+                ^
+
+src/getpic.c(738): remark #177: variable "lower" was declared but never referenced
+    const short lower[8] = {-2048,-2048,-2048,-2048,
+                ^
+
+src/getpic.c(1083): remark #279: controlling expression is constant
+    if (DEBUG) printf("slice_vert_pos_ext %d\n",slice_vert_pos_ext);
+        ^
+
+src/getpic.c(1108): remark #279: controlling expression is constant
+    if (DEBUG) printf("slice_vert_pos_ext %d code %d\n",slice_vert_pos_ext,code);
+        ^
+
+src/getpic.c(1108): remark #181: argument is incompatible with corresponding format string conversion
+    if (DEBUG) printf("slice_vert_pos_ext %d code %d\n",slice_vert_pos_ext,code);
+                                                                           ^
+
+src/getpic.c(1054): remark #869: parameter "MBAmax" was never referenced
+  int MBAmax;
+      ^
+
+src/getpic.c(1376): remark #1418: external definition with no prior declaration
+  void write_frame_buf8(int t, unsigned char data) {
+       ^
+
+src/getpic.c(1396): remark #1418: external definition with no prior declaration
+  void write_frame_buf32(int t, unsigned int data) {
+       ^
+
+src/getpic.c(1397): remark #810: conversion from "unsigned int" to "unsigned char" may lose significant bits
+    write_frame_buf8(t, (unsigned char) (data >> 24));
+                        ^
+
+src/getpic.c(1398): remark #810: conversion from "unsigned int" to "unsigned char" may lose significant bits
+    write_frame_buf8(t, (unsigned char) (data >> 16));
+                        ^
+
+src/getpic.c(1399): remark #810: conversion from "unsigned int" to "unsigned char" may lose significant bits
+    write_frame_buf8(t, (unsigned char) (data >> 8));
+                        ^
+
+src/getpic.c(1405): remark #1419: external declaration in primary source file
+  extern short ic[8][8];
+               ^
+
+src/getpic.c(1407): remark #1418: external definition with no prior declaration
+  void *Thrd_Work(void* thrd_args) {
+        ^
+
+src/getpic.c(1432): remark #279: controlling expression is constant
+    if (DEBUG)
+        ^
+
+src/getpic.c(1442): remark #279: controlling expression is constant
+    if (DEBUG)
+        ^
+
+src/getpic.c(1458): remark #279: controlling expression is constant
+  	    if (DEBUG) printf("exit 0\n");
+  	        ^
+
+src/getpic.c(1483): remark #279: controlling expression is constant
+  	    if (DEBUG) printf("exit 1 fault_flag %d ptr %p\n", Fault_Flag,thrd_ptr[id]);
+  	        ^
+
+src/getpic.c(1486): remark #111: statement is unreachable
+  	    return NULL;     /* trigger: go to next slice */
+  	    ^
+
+src/getpic.c(1505): remark #279: controlling expression is constant
+        if (DEBUG) printf("exit 2\n");
+            ^
+
+src/getpic.c(1516): remark #279: controlling expression is constant
+  	if (DEBUG) printf("exit 3\n");
+  	    ^
+
+src/getpic.c(1521): remark #279: controlling expression is constant
+  	if (DEBUG) printf("exit 4\n");
+  	    ^
+
+src/getpic.c(1543): remark #279: controlling expression is constant
+      if (DEBUG)
+          ^
+
+src/getpic.c(1559): remark #279: controlling expression is constant
+        if (DEBUG) printf("exit 5\n");
+            ^
+
+src/getpic.c(1564): remark #111: statement is unreachable
+    return NULL;
+    ^
+
+src/getpic.c(1568): remark #1418: external definition with no prior declaration
+  Thrd_Args thread_data_array[NUM_THREADS];
+            ^
+
+src/getpic.c(1604): remark #279: controlling expression is constant
+    if (DEBUG)
+        ^
+
+src/getpic.c(1605): remark #592: variable "next_marker" is used before its value is set
+      printf("next_marker %d mb_height %d\n",next_marker, mb_height);
+                                             ^
+
+src/getpic.c(1614): remark #810: conversion from "unsigned int" to "unsigned char" may lose significant bits
+        write_frame_buf8(thrd_num-1,(unsigned char)Show_Bits(8));
+                                    ^
+
+src/getpic.c(1579): remark #177: variable "tmp" was declared but never referenced
+    int tmp, t, next_marker;
+        ^
+
+src/getpic.c(1580): remark #177: variable "ptr_offset" was declared but never referenced
+    unsigned int ptr_offset[NUM_THREADS];
+                 ^
+
+src/getpic.c(1725): remark #279: controlling expression is constant
+    if (DEBUG) printf("thrd_ptr[t] %p frame_buf %p\n",thrd_ptr[t],frame_buffer);
+        ^
+
+src/getpic.c(1737): remark #279: controlling expression is constant
+    if (DEBUG) printf("thrd_ptr[t] %p frame_buf %p\n",thrd_ptr[t],frame_buffer);
+        ^
+
+src/getpic.c(1739): remark #279: controlling expression is constant
+    if (DEBUG) printf("thrd_ptr[t] %p\n",thrd_ptr[t]);
+        ^
+
+src/getpic.c(1743): remark #279: controlling expression is constant
+    if (DEBUG) printf("slice_vert_pos_ext %d code %d\n",slice_vert_pos_ext, code);
+        ^
+
+src/getpic.c(1743): remark #181: argument is incompatible with corresponding format string conversion
+    if (DEBUG) printf("slice_vert_pos_ext %d code %d\n",slice_vert_pos_ext, code);
+                                                                            ^
+
+src/getpic.c(1713): remark #869: parameter "MBAmax" was never referenced
+  int MBAmax;
+      ^
+
+src/getpic.c(2209): remark #177: variable "i" was declared but never referenced
+    int i, j;
+        ^
+
+src/getpic.c(2209): remark #177: variable "j" was declared but never referenced
+    int i, j;
+           ^
+
+src/getpic.c(2329): remark #810: conversion from "int" to "short" may lose significant bits
+  	tmp = *bp + *rfp;
+  	    ^
+
+src/getpic.c(2330): remark #810: conversion from "int" to "short" may lose significant bits
+  	tmp = (tmp<0) ? 0 : (tmp > 255) ? 255 : tmp;
+  	    ^
+
+src/getpic.c(2331): remark #810: conversion from "short" to "unsigned char" may lose significant bits
+  	*rfp = tmp;
+  	     ^
+
+src/getpic.c(2343): remark #810: conversion from "int" to "short" may lose significant bits
+  	tmp = *bp + *rfp;
+  	    ^
+
+src/getpic.c(2344): remark #810: conversion from "int" to "short" may lose significant bits
+  	tmp = (tmp<0) ? 0 : (tmp > 255) ? 255 : tmp;
+  	    ^
+
+src/getpic.c(2345): remark #810: conversion from "short" to "unsigned char" may lose significant bits
+  	*rfp = tmp;
+  	     ^
+
+src/getpic.c(2364): remark #810: conversion from "int" to "short" may lose significant bits
+  	tmp = *bp + 128;
+  	    ^
+
+src/getpic.c(2365): remark #810: conversion from "int" to "short" may lose significant bits
+  	tmp = (tmp<0) ? 0 : (tmp > 255) ? 255 : tmp;
+  	    ^
+
+src/getpic.c(2366): remark #810: conversion from "short" to "unsigned char" may lose significant bits
+  	*rfp = tmp;
+  	     ^
+
+src/getpic.c(2373): remark #810: conversion from "int" to "short" may lose significant bits
+  	tmp = *bp + 128;
+  	    ^
+
+src/getpic.c(2374): remark #810: conversion from "int" to "short" may lose significant bits
+  	tmp = (tmp<0) ? 0 : (tmp > 255) ? 255 : tmp;
+  	    ^
+
+src/getpic.c(2375): remark #810: conversion from "short" to "unsigned char" may lose significant bits
+  	*rfp = tmp;
+  	     ^
+
+src/getpic.c(182): remark #177: function "slice" was declared but never referenced
+  static int slice(framenum, MBAmax)
+             ^
+
+/opt/intel_cc_80/bin/icc -o obj/getvlc.o -use_msasm -g -Wall -DINT_IDCT -DTHRD -DNUM_THREADS=1 -DSSE2        -c src/getvlc.c
+src/global.h(534): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buffer;
+                 ^
+
+src/global.h(535): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buf_ptr;
+                 ^
+
+src/global.h(536): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_size;
+               ^
+
+src/global.h(537): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_offset;
+               ^
+
+src/global.h(539): remark #1418: external definition with no prior declaration
+  unsigned char *thrd_ptr[NUM_THREADS];
+                 ^
+
+src/global.h(540): remark #1418: external definition with no prior declaration
+  unsigned int thrd_buf[NUM_THREADS];
+               ^
+
+src/global.h(541): remark #1418: external definition with no prior declaration
+  int thrd_Incnt[NUM_THREADS];
+      ^
+
+src/global.h(556): remark #1418: external definition with no prior declaration
+  thrd_buf_info tb[NUM_THREADS];
+                ^
+
+src/global.h(574): remark #1418: external definition with no prior declaration
+  } thrd_ld[NUM_THREADS];
+    ^
+
+src/getvlc.h(310): remark #1418: external definition with no prior declaration
+  DCTtab DCTtabfirst[12] =
+         ^
+
+src/getvlc.h(320): remark #1418: external definition with no prior declaration
+  DCTtab DCTtabnext[12] =
+         ^
+
+src/getvlc.h(330): remark #1418: external definition with no prior declaration
+  DCTtab DCTtab0[60] =
+         ^
+
+src/getvlc.h(352): remark #1418: external definition with no prior declaration
+  DCTtab DCTtab0a[252] =
+         ^
+
+src/getvlc.h(422): remark #1418: external definition with no prior declaration
+  DCTtab DCTtab1[8] =
+         ^
+
+src/getvlc.h(431): remark #1418: external definition with no prior declaration
+  DCTtab DCTtab1a[8] =
+         ^
+
+src/getvlc.h(440): remark #1418: external definition with no prior declaration
+  DCTtab DCTtab2[16] =
+         ^
+
+src/getvlc.h(451): remark #1418: external definition with no prior declaration
+  DCTtab DCTtab3[16] =
+         ^
+
+src/getvlc.h(462): remark #1418: external definition with no prior declaration
+  DCTtab DCTtab4[16] =
+         ^
+
+src/getvlc.h(473): remark #1418: external definition with no prior declaration
+  DCTtab DCTtab5[16] =
+         ^
+
+src/getvlc.h(484): remark #1418: external definition with no prior declaration
+  DCTtab DCTtab6[16] =
+         ^
+
+/opt/intel_cc_80/bin/icc -o obj/idct.o -use_msasm -g -Wall -DINT_IDCT -DTHRD -DNUM_THREADS=1 -DSSE2        -c src/idct.c
+src/idct.c(57): remark #1419: external declaration in primary source file
+  void Initialize_Fast_IDCT _ANSI_ARGS_((void));
+       ^
+
+src/idct.c(58): remark #1419: external declaration in primary source file
+  void Fast_IDCT _ANSI_ARGS_((short *block));
+       ^
+
+src/idct.c(66): remark #1418: external definition with no prior declaration
+  short ic[8][8];
+        ^
+
+src/idct.c(91): remark #810: conversion from "int" to "short" may lose significant bits
+      blk[0]=blk[1]=blk[2]=blk[3]=blk[4]=blk[5]=blk[6]=blk[7]=blk[0]<<3;
+                                                             ^
+
+src/idct.c(125): remark #810: conversion from "int" to "short" may lose significant bits
+    blk[0] = (x7+x1)>>8;
+           ^
+
+src/idct.c(126): remark #810: conversion from "int" to "short" may lose significant bits
+    blk[1] = (x3+x2)>>8;
+           ^
+
+src/idct.c(127): remark #810: conversion from "int" to "short" may lose significant bits
+    blk[2] = (x0+x4)>>8;
+           ^
+
+src/idct.c(128): remark #810: conversion from "int" to "short" may lose significant bits
+    blk[3] = (x8+x6)>>8;
+           ^
+
+src/idct.c(129): remark #810: conversion from "int" to "short" may lose significant bits
+    blk[4] = (x8-x6)>>8;
+           ^
+
+src/idct.c(130): remark #810: conversion from "int" to "short" may lose significant bits
+    blk[5] = (x0-x4)>>8;
+           ^
+
+src/idct.c(131): remark #810: conversion from "int" to "short" may lose significant bits
+    blk[6] = (x3-x2)>>8;
+           ^
+
+src/idct.c(132): remark #810: conversion from "int" to "short" may lose significant bits
+    blk[7] = (x7-x1)>>8;
+           ^
+
+src/idct.c(202): remark #279: controlling expression is constant
+    if (0) {
+        ^
+
+src/idct.c(211): remark #177: variable "i" was declared but never referenced
+      int i, j, k;
+          ^
+
+src/idct.c(211): remark #177: variable "j" was declared but never referenced
+      int i, j, k;
+             ^
+
+src/idct.c(211): remark #177: variable "k" was declared but never referenced
+      int i, j, k;
+                ^
+
+src/idct.c(212): remark #177: variable "s" was declared but never referenced
+      int s;
+          ^
+
+src/idct.c(441): remark #810: conversion from "double" to "short" may lose significant bits
+        ic[j][i] = (short) ((s * cos((PI/8.0)*i*(j+0.5)) * 32768) + 0.5); 
+                   ^
+
+/opt/intel_cc_80/bin/icc -o obj/idctref.o -use_msasm -g -Wall -DINT_IDCT -DTHRD -DNUM_THREADS=1 -DSSE2        -c src/idctref.c
+src/idctref.c(51): remark #1419: external declaration in primary source file
+  void Initialize_Fast_IDCTref _ANSI_ARGS_((void));
+       ^
+
+src/idctref.c(52): remark #1419: external declaration in primary source file
+  void Reference_IDCT _ANSI_ARGS_((short *block));
+       ^
+
+src/idctref.c(61): remark #1418: external definition with no prior declaration
+  void Initialize_Reference_IDCT()
+       ^
+
+src/idctref.c(105): remark #810: conversion from "double" to "int" may lose significant bits
+        v = (int) floor(partial_product+0.5);
+            ^
+
+src/idctref.c(106): remark #810: conversion from "int" to "short" may lose significant bits
+        block[8*i+j] = (v<-256) ? -256 : ((v>255) ? 255 : v);
+                     ^
+
+/opt/intel_cc_80/bin/icc -o obj/motion.o -use_msasm -g -Wall -DINT_IDCT -DTHRD -DNUM_THREADS=1 -DSSE2        -c src/motion.c
+src/global.h(534): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buffer;
+                 ^
+
+src/global.h(535): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buf_ptr;
+                 ^
+
+src/global.h(536): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_size;
+               ^
+
+src/global.h(537): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_offset;
+               ^
+
+src/global.h(539): remark #1418: external definition with no prior declaration
+  unsigned char *thrd_ptr[NUM_THREADS];
+                 ^
+
+src/global.h(540): remark #1418: external definition with no prior declaration
+  unsigned int thrd_buf[NUM_THREADS];
+               ^
+
+src/global.h(541): remark #1418: external definition with no prior declaration
+  int thrd_Incnt[NUM_THREADS];
+      ^
+
+src/global.h(556): remark #1418: external definition with no prior declaration
+  thrd_buf_info tb[NUM_THREADS];
+                ^
+
+src/global.h(574): remark #1418: external definition with no prior declaration
+  } thrd_ld[NUM_THREADS];
+    ^
+
+/opt/intel_cc_80/bin/icc -o obj/mpeg2dec.o -use_msasm -g -Wall -DINT_IDCT -DTHRD -DNUM_THREADS=1 -DSSE2        -c src/mpeg2dec.c
+src/global.h(177): remark #1418: external definition with no prior declaration
+  EXTERN char Version[]
+              ^
+
+src/global.h(183): remark #1418: external definition with no prior declaration
+  EXTERN char Author[]
+              ^
+
+src/global.h(191): remark #1418: external definition with no prior declaration
+  EXTERN unsigned char scan[2][64]
+                       ^
+
+src/global.h(212): remark #1418: external definition with no prior declaration
+  EXTERN unsigned char default_intra_quantizer_matrix[64]
+                       ^
+
+src/global.h(229): remark #1418: external definition with no prior declaration
+  EXTERN unsigned char Non_Linear_quantizer_scale[32]
+                       ^
+
+src/global.h(256): remark #1418: external definition with no prior declaration
+  EXTERN int Inverse_Table_6_9[8][4]
+             ^
+
+src/global.h(285): remark #1418: external definition with no prior declaration
+  EXTERN int Output_Type;
+             ^
+
+src/global.h(286): remark #1418: external definition with no prior declaration
+  EXTERN int hiQdither;
+             ^
+
+src/global.h(289): remark #1418: external definition with no prior declaration
+  EXTERN int Quiet_Flag;
+             ^
+
+src/global.h(290): remark #1418: external definition with no prior declaration
+  EXTERN int Trace_Flag;
+             ^
+
+src/global.h(291): remark #1418: external definition with no prior declaration
+  EXTERN int Fault_Flag;
+             ^
+
+src/global.h(292): remark #1418: external definition with no prior declaration
+  EXTERN int Verbose_Flag;
+             ^
+
+src/global.h(293): remark #1418: external definition with no prior declaration
+  EXTERN int Two_Streams;
+             ^
+
+src/global.h(294): remark #1418: external definition with no prior declaration
+  EXTERN int Spatial_Flag;
+             ^
+
+src/global.h(295): remark #1418: external definition with no prior declaration
+  EXTERN int Reference_IDCT_Flag;
+             ^
+
+src/global.h(296): remark #1418: external definition with no prior declaration
+  EXTERN int Frame_Store_Flag;
+             ^
+
+src/global.h(297): remark #1418: external definition with no prior declaration
+  EXTERN int System_Stream_Flag;
+             ^
+
+src/global.h(298): remark #1418: external definition with no prior declaration
+  EXTERN int Display_Progressive_Flag;
+             ^
+
+src/global.h(299): remark #1418: external definition with no prior declaration
+  EXTERN int Ersatz_Flag;
+             ^
+
+src/global.h(300): remark #1418: external definition with no prior declaration
+  EXTERN int Big_Picture_Flag;
+             ^
+
+src/global.h(301): remark #1418: external definition with no prior declaration
+  EXTERN int Verify_Flag;
+             ^
+
+src/global.h(302): remark #1418: external definition with no prior declaration
+  EXTERN int Stats_Flag;
+             ^
+
+src/global.h(303): remark #1418: external definition with no prior declaration
+  EXTERN int User_Data_Flag;
+             ^
+
+src/global.h(304): remark #1418: external definition with no prior declaration
+  EXTERN int Main_Bitstream_Flag;
+             ^
+
+src/global.h(308): remark #1418: external definition with no prior declaration
+  EXTERN char *Output_Picture_Filename;
+               ^
+
+src/global.h(309): remark #1418: external definition with no prior declaration
+  EXTERN char *Substitute_Picture_Filename;
+               ^
+
+src/global.h(310): remark #1418: external definition with no prior declaration
+  EXTERN char *Main_Bitstream_Filename; 
+               ^
+
+src/global.h(311): remark #1418: external definition with no prior declaration
+  EXTERN char *Enhancement_Layer_Bitstream_Filename; 
+               ^
+
+src/global.h(315): remark #1418: external definition with no prior declaration
+  EXTERN char Error_Text[256];
+              ^
+
+src/global.h(316): remark #1418: external definition with no prior declaration
+  EXTERN unsigned char *Clip;
+                        ^
+
+src/global.h(319): remark #1418: external definition with no prior declaration
+  EXTERN unsigned char *backward_reference_frame[3];
+                        ^
+
+src/global.h(320): remark #1418: external definition with no prior declaration
+  EXTERN unsigned char *forward_reference_frame[3];
+                        ^
+
+src/global.h(322): remark #1418: external definition with no prior declaration
+  EXTERN unsigned char *auxframe[3];
+                        ^
+
+src/global.h(323): remark #1418: external definition with no prior declaration
+  EXTERN unsigned char *current_frame[3];
+                        ^
+
+src/global.h(324): remark #1418: external definition with no prior declaration
+  EXTERN unsigned char *substitute_frame[3];
+                        ^
+
+src/global.h(328): remark #1418: external definition with no prior declaration
+  EXTERN unsigned char *llframe0[3];
+                        ^
+
+src/global.h(329): remark #1418: external definition with no prior declaration
+  EXTERN unsigned char *llframe1[3];
+                        ^
+
+src/global.h(331): remark #1418: external definition with no prior declaration
+  EXTERN short *lltmp;
+                ^
+
+src/global.h(332): remark #1418: external definition with no prior declaration
+  EXTERN char *Lower_Layer_Picture_Filename;
+               ^
+
+src/global.h(338): remark #1418: external definition with no prior declaration
+  EXTERN int Coded_Picture_Width;
+             ^
+
+src/global.h(339): remark #1418: external definition with no prior declaration
+  EXTERN int Coded_Picture_Height;
+             ^
+
+src/global.h(340): remark #1418: external definition with no prior declaration
+  EXTERN int Chroma_Width;
+             ^
+
+src/global.h(341): remark #1418: external definition with no prior declaration
+  EXTERN int Chroma_Height;
+             ^
+
+src/global.h(342): remark #1418: external definition with no prior declaration
+  EXTERN int block_count;
+             ^
+
+src/global.h(343): remark #1418: external definition with no prior declaration
+  EXTERN int Second_Field;
+             ^
+
+src/global.h(344): remark #1418: external definition with no prior declaration
+  EXTERN int profile, level;
+             ^
+
+src/global.h(344): remark #1418: external definition with no prior declaration
+  EXTERN int profile, level;
+                      ^
+
+src/global.h(347): remark #1418: external definition with no prior declaration
+  EXTERN int horizontal_size;
+             ^
+
+src/global.h(348): remark #1418: external definition with no prior declaration
+  EXTERN int vertical_size;
+             ^
+
+src/global.h(349): remark #1418: external definition with no prior declaration
+  EXTERN int mb_width;
+             ^
+
+src/global.h(350): remark #1418: external definition with no prior declaration
+  EXTERN int mb_height;
+             ^
+
+src/global.h(351): remark #1418: external definition with no prior declaration
+  EXTERN double bit_rate;
+                ^
+
+src/global.h(352): remark #1418: external definition with no prior declaration
+  EXTERN double frame_rate; 
+                ^
+
+src/global.h(359): remark #1418: external definition with no prior declaration
+  EXTERN int aspect_ratio_information;
+             ^
+
+src/global.h(360): remark #1418: external definition with no prior declaration
+  EXTERN int frame_rate_code; 
+             ^
+
+src/global.h(361): remark #1418: external definition with no prior declaration
+  EXTERN int bit_rate_value; 
+             ^
+
+src/global.h(362): remark #1418: external definition with no prior declaration
+  EXTERN int vbv_buffer_size;
+             ^
+
+src/global.h(363): remark #1418: external definition with no prior declaration
+  EXTERN int constrained_parameters_flag;
+             ^
+
+src/global.h(366): remark #1418: external definition with no prior declaration
+  EXTERN int profile_and_level_indication;
+             ^
+
+src/global.h(367): remark #1418: external definition with no prior declaration
+  EXTERN int progressive_sequence;
+             ^
+
+src/global.h(368): remark #1418: external definition with no prior declaration
+  EXTERN int chroma_format;
+             ^
+
+src/global.h(369): remark #1418: external definition with no prior declaration
+  EXTERN int low_delay;
+             ^
+
+src/global.h(370): remark #1418: external definition with no prior declaration
+  EXTERN int frame_rate_extension_n;
+             ^
+
+src/global.h(371): remark #1418: external definition with no prior declaration
+  EXTERN int frame_rate_extension_d;
+             ^
+
+src/global.h(374): remark #1418: external definition with no prior declaration
+  EXTERN int video_format;  
+             ^
+
+src/global.h(375): remark #1418: external definition with no prior declaration
+  EXTERN int color_description;
+             ^
+
+src/global.h(376): remark #1418: external definition with no prior declaration
+  EXTERN int color_primaries;
+             ^
+
+src/global.h(377): remark #1418: external definition with no prior declaration
+  EXTERN int transfer_characteristics;
+             ^
+
+src/global.h(378): remark #1418: external definition with no prior declaration
+  EXTERN int matrix_coefficients;
+             ^
+
+src/global.h(379): remark #1418: external definition with no prior declaration
+  EXTERN int display_horizontal_size;
+             ^
+
+src/global.h(380): remark #1418: external definition with no prior declaration
+  EXTERN int display_vertical_size;
+             ^
+
+src/global.h(383): remark #1418: external definition with no prior declaration
+  EXTERN int temporal_reference;
+             ^
+
+src/global.h(384): remark #1418: external definition with no prior declaration
+  EXTERN int picture_coding_type;
+             ^
+
+src/global.h(385): remark #1418: external definition with no prior declaration
+  EXTERN int vbv_delay;
+             ^
+
+src/global.h(386): remark #1418: external definition with no prior declaration
+  EXTERN int full_pel_forward_vector;
+             ^
+
+src/global.h(387): remark #1418: external definition with no prior declaration
+  EXTERN int forward_f_code;
+             ^
+
+src/global.h(388): remark #1418: external definition with no prior declaration
+  EXTERN int full_pel_backward_vector;
+             ^
+
+src/global.h(389): remark #1418: external definition with no prior declaration
+  EXTERN int backward_f_code;
+             ^
+
+src/global.h(393): remark #1418: external definition with no prior declaration
+  EXTERN int f_code[2][2];
+             ^
+
+src/global.h(394): remark #1418: external definition with no prior declaration
+  EXTERN int intra_dc_precision;
+             ^
+
+src/global.h(395): remark #1418: external definition with no prior declaration
+  EXTERN int picture_structure;
+             ^
+
+src/global.h(396): remark #1418: external definition with no prior declaration
+  EXTERN int top_field_first;
+             ^
+
+src/global.h(397): remark #1418: external definition with no prior declaration
+  EXTERN int frame_pred_frame_dct;
+             ^
+
+src/global.h(398): remark #1418: external definition with no prior declaration
+  EXTERN int concealment_motion_vectors;
+             ^
+
+src/global.h(400): remark #1418: external definition with no prior declaration
+  EXTERN int intra_vlc_format;
+             ^
+
+src/global.h(402): remark #1418: external definition with no prior declaration
+  EXTERN int repeat_first_field;
+             ^
+
+src/global.h(404): remark #1418: external definition with no prior declaration
+  EXTERN int chroma_420_type;
+             ^
+
+src/global.h(405): remark #1418: external definition with no prior declaration
+  EXTERN int progressive_frame;
+             ^
+
+src/global.h(406): remark #1418: external definition with no prior declaration
+  EXTERN int composite_display_flag;
+             ^
+
+src/global.h(407): remark #1418: external definition with no prior declaration
+  EXTERN int v_axis;
+             ^
+
+src/global.h(408): remark #1418: external definition with no prior declaration
+  EXTERN int field_sequence;
+             ^
+
+src/global.h(409): remark #1418: external definition with no prior declaration
+  EXTERN int sub_carrier;
+             ^
+
+src/global.h(410): remark #1418: external definition with no prior declaration
+  EXTERN int burst_amplitude;
+             ^
+
+src/global.h(411): remark #1418: external definition with no prior declaration
+  EXTERN int sub_carrier_phase;
+             ^
+
+src/global.h(416): remark #1418: external definition with no prior declaration
+  EXTERN int frame_center_horizontal_offset[3];
+             ^
+
+src/global.h(417): remark #1418: external definition with no prior declaration
+  EXTERN int frame_center_vertical_offset[3];
+             ^
+
+src/global.h(422): remark #1418: external definition with no prior declaration
+  EXTERN int layer_id;
+             ^
+
+src/global.h(423): remark #1418: external definition with no prior declaration
+  EXTERN int lower_layer_prediction_horizontal_size;
+             ^
+
+src/global.h(424): remark #1418: external definition with no prior declaration
+  EXTERN int lower_layer_prediction_vertical_size;
+             ^
+
+src/global.h(425): remark #1418: external definition with no prior declaration
+  EXTERN int horizontal_subsampling_factor_m;
+             ^
+
+src/global.h(426): remark #1418: external definition with no prior declaration
+  EXTERN int horizontal_subsampling_factor_n;
+             ^
+
+src/global.h(427): remark #1418: external definition with no prior declaration
+  EXTERN int vertical_subsampling_factor_m;
+             ^
+
+src/global.h(428): remark #1418: external definition with no prior declaration
+  EXTERN int vertical_subsampling_factor_n;
+             ^
+
+src/global.h(432): remark #1418: external definition with no prior declaration
+  EXTERN int lower_layer_temporal_reference;
+             ^
+
+src/global.h(433): remark #1418: external definition with no prior declaration
+  EXTERN int lower_layer_horizontal_offset;
+             ^
+
+src/global.h(434): remark #1418: external definition with no prior declaration
+  EXTERN int lower_layer_vertical_offset;
+             ^
+
+src/global.h(435): remark #1418: external definition with no prior declaration
+  EXTERN int spatial_temporal_weight_code_table_index;
+             ^
+
+src/global.h(436): remark #1418: external definition with no prior declaration
+  EXTERN int lower_layer_progressive_frame;
+             ^
+
+src/global.h(437): remark #1418: external definition with no prior declaration
+  EXTERN int lower_layer_deinterlaced_field_select;
+             ^
+
+src/global.h(445): remark #1418: external definition with no prior declaration
+  EXTERN int copyright_flag;
+             ^
+
+src/global.h(446): remark #1418: external definition with no prior declaration
+  EXTERN int copyright_identifier;
+             ^
+
+src/global.h(447): remark #1418: external definition with no prior declaration
+  EXTERN int original_or_copy;
+             ^
+
+src/global.h(448): remark #1418: external definition with no prior declaration
+  EXTERN int copyright_number_1;
+             ^
+
+src/global.h(449): remark #1418: external definition with no prior declaration
+  EXTERN int copyright_number_2;
+             ^
+
+src/global.h(450): remark #1418: external definition with no prior declaration
+  EXTERN int copyright_number_3;
+             ^
+
+src/global.h(453): remark #1418: external definition with no prior declaration
+  EXTERN int drop_flag;
+             ^
+
+src/global.h(454): remark #1418: external definition with no prior declaration
+  EXTERN int hour;
+             ^
+
+src/global.h(455): remark #1418: external definition with no prior declaration
+  EXTERN int minute;
+             ^
+
+src/global.h(456): remark #1418: external definition with no prior declaration
+  EXTERN int sec;
+             ^
+
+src/global.h(457): remark #1418: external definition with no prior declaration
+  EXTERN int frame;
+             ^
+
+src/global.h(458): remark #1418: external definition with no prior declaration
+  EXTERN int closed_gop;
+             ^
+
+src/global.h(459): remark #1418: external definition with no prior declaration
+  EXTERN int broken_link;
+             ^
+
+src/global.h(499): remark #1418: external definition with no prior declaration
+  } base, enhan, *ld;
+    ^
+
+src/global.h(499): remark #1418: external definition with no prior declaration
+  } base, enhan, *ld;
+          ^
+
+src/global.h(499): remark #1418: external definition with no prior declaration
+  } base, enhan, *ld;
+                  ^
+
+src/global.h(520): remark #1418: external definition with no prior declaration
+  EXTERN int Decode_Layer;
+             ^
+
+src/global.h(529): remark #1418: external definition with no prior declaration
+  EXTERN int global_MBA;
+             ^
+
+src/global.h(530): remark #1418: external definition with no prior declaration
+  EXTERN int global_pic;
+             ^
+
+src/global.h(531): remark #1418: external definition with no prior declaration
+  EXTERN int True_Framenum;
+             ^
+
+src/global.h(534): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buffer;
+                 ^
+
+src/global.h(535): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buf_ptr;
+                 ^
+
+src/global.h(536): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_size;
+               ^
+
+src/global.h(537): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_offset;
+               ^
+
+src/global.h(539): remark #1418: external definition with no prior declaration
+  unsigned char *thrd_ptr[NUM_THREADS];
+                 ^
+
+src/global.h(540): remark #1418: external definition with no prior declaration
+  unsigned int thrd_buf[NUM_THREADS];
+               ^
+
+src/global.h(541): remark #1418: external definition with no prior declaration
+  int thrd_Incnt[NUM_THREADS];
+      ^
+
+src/global.h(556): remark #1418: external definition with no prior declaration
+  thrd_buf_info tb[NUM_THREADS];
+                ^
+
+src/global.h(574): remark #1418: external definition with no prior declaration
+  } thrd_ld[NUM_THREADS];
+    ^
+
+src/mpeg2dec.c(54): remark #193: zero used for undefined preprocessing identifier
+  #if OLD
+      ^
+
+src/mpeg2dec.c(60): remark #310: old-style parameter list (anachronism)
+  static void Clear_Options();
+              ^
+
+src/mpeg2dec.c(69): remark #593: variable "ret" was set but never used
+    int ret, code;
+        ^
+
+src/mpeg2dec.c(192): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+      Clip[i] = (i<0) ? 0 : ((i>255) ? 255 : i);
+              ^
+
+/opt/intel_cc_80/bin/icc -o obj/recon.o -use_msasm -g -Wall -DINT_IDCT -DTHRD -DNUM_THREADS=1 -DSSE2        -c src/recon.c
+src/global.h(534): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buffer;
+                 ^
+
+src/global.h(535): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buf_ptr;
+                 ^
+
+src/global.h(536): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_size;
+               ^
+
+src/global.h(537): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_offset;
+               ^
+
+src/global.h(539): remark #1418: external definition with no prior declaration
+  unsigned char *thrd_ptr[NUM_THREADS];
+                 ^
+
+src/global.h(540): remark #1418: external definition with no prior declaration
+  unsigned int thrd_buf[NUM_THREADS];
+               ^
+
+src/global.h(541): remark #1418: external definition with no prior declaration
+  int thrd_Incnt[NUM_THREADS];
+      ^
+
+src/global.h(556): remark #1418: external definition with no prior declaration
+  thrd_buf_info tb[NUM_THREADS];
+                ^
+
+src/global.h(574): remark #1418: external definition with no prior declaration
+  } thrd_ld[NUM_THREADS];
+    ^
+
+src/recon.c(58): remark #1419: external declaration in primary source file
+  extern int phase;
+             ^
+
+src/recon.c(440): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+            tmp[j*w+i] = (v+(v>=0?1:0))>>1;
+                       ^
+
+src/recon.c(433): remark #177: variable "s_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                       ^
+
+src/recon.c(433): remark #177: variable "d_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                               ^
+
+src/recon.c(493): remark #177: variable "s_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                       ^
+
+src/recon.c(493): remark #177: variable "d_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                               ^
+
+src/recon.c(565): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+            tmp[j*w+i]=(v+(v>=0?1:0))>>1;
+                      ^
+
+src/recon.c(558): remark #177: variable "s_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                       ^
+
+src/recon.c(558): remark #177: variable "d_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                               ^
+
+src/recon.c(627): remark #810: conversion from "unsigned int" to "unsigned char" may lose significant bits
+            tmp[j*w+i] =  (unsigned int)(s[j*lx2+i]+s[j*lx2+i+lx]+1)>>1;
+                       ^
+
+src/recon.c(621): remark #177: variable "s_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                       ^
+
+src/recon.c(621): remark #177: variable "d_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                               ^
+
+src/recon.c(694): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+            tmp[j*w+i] = (v+(v>=0?1:0))>>1;
+                       ^
+
+src/recon.c(686): remark #177: variable "s_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                       ^
+
+src/recon.c(686): remark #177: variable "d_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                               ^
+
+src/recon.c(752): remark #810: conversion from "unsigned int" to "unsigned char" may lose significant bits
+            tmp[j*w+i] =  (unsigned int)(s[j*lx2+i]+s[j*lx2+i+1]+1)>>1;
+                       ^
+
+src/recon.c(746): remark #177: variable "s_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                       ^
+
+src/recon.c(746): remark #177: variable "d_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                               ^
+
+src/recon.c(812): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+  	  tmp[j*w+i] = (v+(v>=0?1:0))>>1;
+  	             ^
+
+src/recon.c(805): remark #177: variable "s_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                       ^
+
+src/recon.c(805): remark #177: variable "d_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                               ^
+
+src/recon.c(879): remark #810: conversion from "unsigned int" to "unsigned char" may lose significant bits
+            tmp[j*w+i] = (unsigned int)(s[j*lx2+i]+s[j*lx2+i+1]+s[j*lx2+i+lx]+s[j*lx2+i+lx+1]+2)>>2;
+                       ^
+
+src/recon.c(873): remark #177: variable "s_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                       ^
+
+src/recon.c(873): remark #177: variable "d_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                               ^
+
+src/recon.c(1012): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+            tmp[j*w+i] = (v+(v>=0?1:0))>>1;
+                       ^
+
+src/recon.c(1005): remark #177: variable "s_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                       ^
+
+src/recon.c(1005): remark #177: variable "d_t" was declared but never referenced
+        unsigned char *s_t=s, *d_t=d;
+                               ^
+
+src/recon.c(1135): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+            d[i]=(v+(v>=0?1:0))>>1;
+                ^
+
+src/recon.c(1144): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+            d[i]=(v+(v>=0?1:0))>>1;
+                ^
+
+src/recon.c(1160): remark #810: conversion from "unsigned int" to "unsigned char" may lose significant bits
+            d[i] = (unsigned int)(s[i]+s[i+lx]+1)>>1;
+                 ^
+
+src/recon.c(1168): remark #810: conversion from "unsigned int" to "unsigned char" may lose significant bits
+            d[i] = (unsigned int)(s[i]+s[i+lx]+1)>>1;
+                 ^
+
+src/recon.c(1192): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+            d[i] = (v+(v>=0?1:0))>>1;
+                 ^
+
+src/recon.c(1202): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+            d[i] = (v+(v>=0?1:0))>>1;
+                 ^
+
+src/recon.c(1217): remark #810: conversion from "unsigned int" to "unsigned char" may lose significant bits
+            d[i] = (unsigned int)(s[i]+s[i+1]+1)>>1;
+                 ^
+
+src/recon.c(1225): remark #810: conversion from "unsigned int" to "unsigned char" may lose significant bits
+            d[i] = (unsigned int)(s[i]+s[i+1]+1)>>1;
+                 ^
+
+src/recon.c(1246): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+            d[i] = (v+(v>=0?1:0))>>1;
+                 ^
+
+src/recon.c(1255): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+            d[i] = (v+(v>=0?1:0))>>1;
+                 ^
+
+src/recon.c(1268): remark #810: conversion from "unsigned int" to "unsigned char" may lose significant bits
+  	    d[i] = (unsigned int)(s[i]+s[i+1]+s[i+lx]+s[i+lx+1]+2)>>2;
+  	         ^
+
+src/recon.c(1274): remark #810: conversion from "unsigned int" to "unsigned char" may lose significant bits
+  	    d[i] = (unsigned int)(s[i]+s[i+1]+s[i+lx]+s[i+lx+1]+2)>>2;
+  	         ^
+
+src/recon.c(967): remark #177: variable "xint" was declared but never referenced
+    int xint;      /* horizontal integer sample vector: analogous to int_vec[0] */
+        ^
+
+src/recon.c(968): remark #177: variable "yint" was declared but never referenced
+    int yint;      /* vertical integer sample vectors: analogous to int_vec[1] */
+        ^
+
+/opt/intel_cc_80/bin/icc -o obj/spatscal.o -use_msasm -g -Wall -DINT_IDCT -DTHRD -DNUM_THREADS=1 -DSSE2        -c src/spatscal.c
+src/global.h(534): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buffer;
+                 ^
+
+src/global.h(535): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buf_ptr;
+                 ^
+
+src/global.h(536): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_size;
+               ^
+
+src/global.h(537): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_offset;
+               ^
+
+src/global.h(539): remark #1418: external definition with no prior declaration
+  unsigned char *thrd_ptr[NUM_THREADS];
+                 ^
+
+src/global.h(540): remark #1418: external definition with no prior declaration
+  unsigned int thrd_buf[NUM_THREADS];
+               ^
+
+src/global.h(541): remark #1418: external definition with no prior declaration
+  int thrd_Incnt[NUM_THREADS];
+      ^
+
+src/global.h(556): remark #1418: external definition with no prior declaration
+  thrd_buf_info tb[NUM_THREADS];
+                ^
+
+src/global.h(574): remark #1418: external definition with no prior declaration
+  } thrd_ld[NUM_THREADS];
+    ^
+
+src/spatscal.c(92): warning #266: function declared implicitly
+    strcat(fname,ext[comp]);
+    ^
+
+src/spatscal.c(101): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+         llframe0[comp][lw*j+i]=fgetc(fd);
+                               ^
+
+src/spatscal.c(105): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+  	  llframe1[comp][lw*j+i]=fgetc(fd);
+  	                        ^
+
+src/spatscal.c(123): warning #266: function declared implicitly
+    strcat(fname,ext[comp]);
+    ^
+
+src/spatscal.c(132): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+        llframe0[comp][lw*j+i]=fgetc(fd);
+                              ^
+
+src/spatscal.c(146): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+          llframe1[comp][lw*j+i]=fgetc(fd);
+                                ^
+
+src/spatscal.c(264): remark #810: conversion from "unsigned int" to "unsigned char" may lose significant bits
+          p0[i] = (unsigned int)(p0m1[i] + p0p1[i] + 1)>>1;
+                ^
+
+src/spatscal.c(298): remark #810: conversion from "int" to "short" may lose significant bits
+        d1[i] = c1*s1[i] + c2*s2[i];
+              ^
+
+src/spatscal.c(324): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+        *d1 = (v + ((v>=0) ? 128 : 127))>>8;
+            ^
+
+/opt/intel_cc_80/bin/icc -o obj/store.o -use_msasm -g -Wall -DINT_IDCT -DTHRD -DNUM_THREADS=1 -DSSE2        -c src/store.c
+src/global.h(534): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buffer;
+                 ^
+
+src/global.h(535): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buf_ptr;
+                 ^
+
+src/global.h(536): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_size;
+               ^
+
+src/global.h(537): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_offset;
+               ^
+
+src/global.h(539): remark #1418: external definition with no prior declaration
+  unsigned char *thrd_ptr[NUM_THREADS];
+                 ^
+
+src/global.h(540): remark #1418: external definition with no prior declaration
+  unsigned int thrd_buf[NUM_THREADS];
+               ^
+
+src/global.h(541): remark #1418: external definition with no prior declaration
+  int thrd_Incnt[NUM_THREADS];
+      ^
+
+src/global.h(556): remark #1418: external definition with no prior declaration
+  thrd_buf_info tb[NUM_THREADS];
+                ^
+
+src/global.h(574): remark #1418: external definition with no prior declaration
+  } thrd_ld[NUM_THREADS];
+    ^
+
+src/store.c(128): remark #869: parameter "offset" was never referenced
+  int offset,incr,width,height;
+      ^
+
+src/store.c(128): remark #869: parameter "incr" was never referenced
+  int offset,incr,width,height;
+             ^
+
+src/store.c(130): remark #177: variable "i" was declared but never referenced
+    int i, j;
+        ^
+
+src/store.c(130): remark #177: variable "j" was declared but never referenced
+    int i, j;
+           ^
+
+src/store.c(131): remark #177: variable "p" was declared but never referenced
+    unsigned char *p;
+                   ^
+
+src/store.c(277): warning #266: function declared implicitly
+    strcat(outname,".SIF");
+    ^
+
+src/store.c(370): warning #266: function declared implicitly
+    strcat(outname,tgaflag ? ".tga" : ".ppm");
+    ^
+
+src/store.c(442): remark #810: conversion from "int" to "unsigned char" may lose significant bits
+    *optr++ = c;
+            ^
+
+/opt/intel_cc_80/bin/icc -o obj/subspic.o -use_msasm -g -Wall -DINT_IDCT -DTHRD -DNUM_THREADS=1 -DSSE2        -c src/subspic.c
+src/global.h(534): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buffer;
+                 ^
+
+src/global.h(535): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buf_ptr;
+                 ^
+
+src/global.h(536): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_size;
+               ^
+
+src/global.h(537): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_offset;
+               ^
+
+src/global.h(539): remark #1418: external definition with no prior declaration
+  unsigned char *thrd_ptr[NUM_THREADS];
+                 ^
+
+src/global.h(540): remark #1418: external definition with no prior declaration
+  unsigned int thrd_buf[NUM_THREADS];
+               ^
+
+src/global.h(541): remark #1418: external definition with no prior declaration
+  int thrd_Incnt[NUM_THREADS];
+      ^
+
+src/global.h(556): remark #1418: external definition with no prior declaration
+  thrd_buf_info tb[NUM_THREADS];
+                ^
+
+src/global.h(574): remark #1418: external definition with no prior declaration
+  } thrd_ld[NUM_THREADS];
+    ^
+
+src/subspic.c(59): remark #593: variable "previous_bitstream_framenum" was set but never used
+    static int previous_bitstream_framenum;
+               ^
+
+src/subspic.c(61): remark #593: variable "previous_anchor_bitstream_framenum" was set but never used
+    static int previous_anchor_bitstream_framenum;
+               ^
+
+/opt/intel_cc_80/bin/icc -o obj/systems.o -use_msasm -g -Wall -DINT_IDCT -DTHRD -DNUM_THREADS=1 -DSSE2        -c src/systems.c
+src/global.h(534): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buffer;
+                 ^
+
+src/global.h(535): remark #1418: external definition with no prior declaration
+  unsigned char *frame_buf_ptr;
+                 ^
+
+src/global.h(536): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_size;
+               ^
+
+src/global.h(537): remark #1418: external definition with no prior declaration
+  unsigned int frame_buf_offset;
+               ^
+
+src/global.h(539): remark #1418: external definition with no prior declaration
+  unsigned char *thrd_ptr[NUM_THREADS];
+                 ^
+
+src/global.h(540): remark #1418: external definition with no prior declaration
+  unsigned int thrd_buf[NUM_THREADS];
+               ^
+
+src/global.h(541): remark #1418: external definition with no prior declaration
+  int thrd_Incnt[NUM_THREADS];
+      ^
+
+src/global.h(556): remark #1418: external definition with no prior declaration
+  thrd_buf_info tb[NUM_THREADS];
+                ^
+
+src/global.h(574): remark #1418: external definition with no prior declaration
+  } thrd_ld[NUM_THREADS];
+    ^
+
+/opt/intel_cc_80/bin/icc -o obj/verify.o -use_msasm -g -Wall -DINT_IDCT -DTHRD -DNUM_THREADS=1 -DSSE2        -c src/verify.c
+/opt/intel_cc_80/bin/icc    -dn  -use_msasm -g -Wall -DINT_IDCT -DTHRD -DNUM_THREADS=1 -DSSE2         -o execs/mpeg2dec obj/display.o obj/getbits.o obj/getblk.o obj/gethdr.o obj/getpic.o obj/getvlc.o obj/idct.o obj/idctref.o obj/motion.o obj/mpeg2dec.o obj/recon.o obj/spatscal.o obj/store.o obj/subspic.o obj/systems.o obj/verify.o  -lm -lpthread

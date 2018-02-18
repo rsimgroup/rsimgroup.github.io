@@ -1,0 +1,508 @@
+VTune(TM) Performance Analyzer 2.0 for Linux*
+Copyright (C) 2000-2003 Intel Corporation. All rights reserved.
+
+Event Summary
+   1933 = Samples collected due to this event
+   1171516          = Sample after value used during collection
+   2264540428       = Total events (samples*SAV)
+Clockticks
+   2746 = Samples collected due to this event
+   2213381          = Sample after value used during collection
+   6077944226       = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                           Module               Size    
+  Event                                                             Events%    Samples     Events            Address          Segment          Offset        Full name
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+vector_gautbl_eval_logs3_inner     livepretend_nosse    0x116   
+  Clockticks                                                        27.90%      766        1695449846          0x000000000000493A 0x00d           0x00000000000036BA
+mgau_eval_inner                    livepretend_nosse    0x16a   
+  Clockticks                                                        27.90%      766        1695449846          0x0000000000007EB6 0x00d           0x0000000000006C36
+thrd_subvq_mgau_shortlist          livepretend_nosse    0x26c   
+  Clockticks                                                         9.87%      271        599826251           0x00000000000099F4 0x00d           0x0000000000008774
+vector_gautbl_eval_logs3           livepretend_nosse    0x86    
+  Clockticks                                                         5.13%      141        312086721           0x0000000000004A50 0x00d           0x00000000000037D0
+frame_eval_thrd_work               livepretend_nosse    0x2a8   
+  Clockticks                                                         2.44%      67         148296527           0x0000000000009C60 0x00d           0x00000000000089E0
+mgau_eval                          livepretend_nosse    0x152   
+  Clockticks                                                         3.46%      95         210271195           0x0000000000008020 0x00d           0x0000000000006DA0
+sseq2sen_active_thrd_work          livepretend_nosse    0x156   
+  Clockticks                                                         1.97%      54         119522574           0x000000000000A3DC 0x00d           0x000000000000915C
+fe_fft                             livepretend_nosse    0x4d0   
+  Clockticks                                                         1.38%      38         84108478            0x000000000001A630 0x00d           0x00000000000193B0
+lextree_hmm_eval_thrd_work         livepretend_nosse    0x124   
+  Clockticks                                                         2.08%      57         126162717           0x0000000000009F76 0x00d           0x0000000000008CF6
+sen_active_thrd_work               livepretend_nosse    0x270   
+  Clockticks                                                         1.86%      51         112882431           0x000000000000A532 0x00d           0x00000000000092B2
+logs3_add                          livepretend_nosse    0xbe    
+  Clockticks                                                         2.08%      57         126162717           0x0000000000004DB0 0x00d           0x0000000000003B30
+hmm_vit_eval_3st                   livepretend_nosse    0x126   
+  Clockticks                                                         2.29%      63         139443003           0x0000000000013062 0x00d           0x0000000000011DE2
+dict2pid_comsenscr_thrd_work       livepretend_nosse    0x6e    
+  Clockticks                                                         0.87%      24         53121144            0x0000000000009F08 0x00d           0x0000000000008C88
+lextree_hmm_ppg_thrd_work          livepretend_nosse    0x2a6   
+  Clockticks                                                         0.73%      20         44267620            0x000000000000A0CA 0x00d           0x0000000000008E4A
+lextree_ssid_active_thrd_work      livepretend_nosse    0x6a    
+  Clockticks                                                         0.69%      19         42054239            0x000000000000A372 0x00d           0x00000000000090F2
+vithist_rescore                    livepretend_nosse    0x1de   
+  Clockticks                                                         0.40%      11         24347191            0x0000000000014CE6 0x00d           0x0000000000013A66
+lextree_enter                      livepretend_nosse    0x18e   
+  Clockticks                                                         0.73%      20         44267620            0x0000000000014144 0x00d           0x0000000000012EC4
+__libm_sse2_sincos                 livepretend_nosse    0x1d6   
+  Clockticks                                                         0.22%      6          13280286            0x0000000000022180 0x00d           0x0000000000020F00
+ln_lock                            livepretend_nosse    0x26    
+  Clockticks                                                         0.29%      8          17707048            0x000000000000A09A 0x00d           0x0000000000008E1A
+lm_bg_score                        livepretend_nosse    0xfc    
+  Clockticks                                                         0.18%      5          11066905            0x000000000001112A 0x00d           0x000000000000FEAA
+subheap_pop                        livepretend_nosse    0x88    
+  Clockticks                                                         0.07%      2          4426762             0x0000000000005746 0x00d           0x00000000000044C6
+vh_lmstate_find                    livepretend_nosse    0x58    
+  Clockticks                                                         0.07%      2          4426762             0x0000000000014AA6 0x00d           0x0000000000013826
+fe_mel_cep                         livepretend_nosse    0xfa    
+fe_mel_spec                        livepretend_nosse    0xb6    
+  Clockticks                                                         0.07%      2          4426762             0x000000000001A480 0x00d           0x0000000000019200
+lm_tg_score                        livepretend_nosse    0x238   
+  Clockticks                                                         0.07%      2          4426762             0x00000000000116DE 0x00d           0x000000000001045E
+vithist_prune                      livepretend_nosse    0x1fa   
+  Clockticks                                                         0.07%      2          4426762             0x0000000000015044 0x00d           0x0000000000013DC4
+vithist_enter                      livepretend_nosse    0x116   
+  Clockticks                                                         0.07%      2          4426762             0x0000000000014BD0 0x00d           0x0000000000013950
+__libm_sse2_log                    livepretend_nosse    0x236   
+  Clockticks                                                         0.07%      2          4426762             0x0000000000021640 0x00d           0x00000000000203C0
+subheap_insert                     livepretend_nosse    0x86    
+  Clockticks                                                         0.07%      2          4426762             0x00000000000056A2 0x00d           0x0000000000004422
+ln_unlock                          livepretend_nosse    0xa     
+  Clockticks                                                         0.04%      1          2213381             0x000000000000A0C0 0x00d           0x0000000000008E40
+subvq_gautbl_eval_logs3            livepretend_nosse    0xb0    
+  Clockticks                                                         0.11%      3          6640143             0x00000000000094DC 0x00d           0x000000000000825C
+__mymalloc                         livepretend_nosse    0x166   
+  Clockticks                                                         0.07%      2          4426762             0x0000000000001992 0x00d           0x0000000000000712
+make_sec                           livepretend_nosse    0x28    
+  Clockticks                                                         0.07%      2          4426762             0x0000000000006070 0x00d           0x0000000000004DF0
+vithist_frame_gc                   livepretend_nosse    0x180   
+  Clockticks                                                         0.04%      1          2213381             0x0000000000014EC4 0x00d           0x0000000000013C44
+hmm_clear                          livepretend_nosse    0xc0    
+  Clockticks                                                         0.07%      2          4426762             0x0000000000012DF6 0x00d           0x0000000000011B76
+utt_decode_block                   livepretend_nosse    0x47a   
+vithist_lmstate_reset              livepretend_nosse    0x84    
+P0D2                               livepretend_nosse    0x6     
+  Clockticks                                                         0.04%      1          2213381             0x0000000000026A16 0x00d           0x0000000000025796
+__myfree                           livepretend_nosse    0x70    
+thrd_scoring_phase                 livepretend_nosse    0x92    
+  Clockticks                                                         0.04%      1          2213381             0x000000000000A856 0x00d           0x00000000000095D6
+dict_filler_word                   livepretend_nosse    0x80    
+  Clockticks                                                         0.07%      2          4426762             0x000000000000DB8C 0x00d           0x000000000000C90C
+not.got.2                          livepretend_nosse    0x17    
+  Clockticks                                                         0.04%      1          2213381             0x000000000002692C 0x00d           0x00000000000256AC
+new_thrd_lextree_hmm_eval          livepretend_nosse    0xc8    
+new_lextree_hmm_ppg_thrd_work      livepretend_nosse    0xd2    
+  Clockticks                                                         0.04%      1          2213381             0x000000000000AAB8 0x00d           0x0000000000009838
+movdqa8                            livepretend_nosse    0x50    
+double_next_active                 livepretend_nosse    0x62    
+  Clockticks                                                         0.04%      1          2213381             0x00000000000098C4 0x00d           0x0000000000008644
+log_to_logs3_factor                livepretend_nosse    0x8     
+fe_pre_emphasis                    livepretend_nosse    0x12c   
+Event Summary
+Uops Retired
+   1793 = Samples collected due to this event
+   1805113          = Sample after value used during collection
+   3236567609       = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                           Module               Size    
+  Event                                                             Events%    Samples     Events            Address          Segment          Offset        Full name
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+vector_gautbl_eval_logs3_inner     livepretend_nosse    0x116   
+  Uops Retired                                                      42.72%      766        1382716558          0x000000000000493A 0x00d           0x00000000000036BA vector_gautbl_eval_logs3_inner
+mgau_eval_inner                    livepretend_nosse    0x16a   
+  Uops Retired                                                      18.01%      323        583051499           0x0000000000007EB6 0x00d           0x0000000000006C36 mgau_eval_inner
+vector_gautbl_eval_logs3           livepretend_nosse    0x86    
+  Uops Retired                                                       7.75%      139        250910707           0x0000000000004A50 0x00d           0x00000000000037D0 vector_gautbl_eval_logs3
+thrd_subvq_mgau_shortlist          livepretend_nosse    0x26c   
+  Uops Retired                                                       6.97%      125        225639125           0x00000000000099F4 0x00d           0x0000000000008774 thrd_subvq_mgau_shortlist
+frame_eval_thrd_work               livepretend_nosse    0x2a8   
+  Uops Retired                                                       2.90%      52         93865876            0x0000000000009C60 0x00d           0x00000000000089E0 frame_eval_thrd_work
+dict2pid_comsenscr_thrd_work       livepretend_nosse    0x6e    
+  Uops Retired                                                       2.90%      52         93865876            0x0000000000009F08 0x00d           0x0000000000008C88 dict2pid_comsenscr_thrd_work
+sseq2sen_active_thrd_work          livepretend_nosse    0x156   
+  Uops Retired                                                       2.96%      53         95670989            0x000000000000A3DC 0x00d           0x000000000000915C sseq2sen_active_thrd_work
+mgau_eval                          livepretend_nosse    0x152   
+  Uops Retired                                                       2.01%      36         64984068            0x0000000000008020 0x00d           0x0000000000006DA0 mgau_eval
+fe_fft                             livepretend_nosse    0x4d0   
+  Uops Retired                                                       1.95%      35         63178955            0x000000000001A630 0x00d           0x00000000000193B0 fe_fft
+sen_active_thrd_work               livepretend_nosse    0x270   
+  Uops Retired                                                       1.73%      31         55958503            0x000000000000A532 0x00d           0x00000000000092B2 sen_active_thrd_work
+logs3_add                          livepretend_nosse    0xbe    
+  Uops Retired                                                       0.95%      17         30686921            0x0000000000004DB0 0x00d           0x0000000000003B30 logs3_add
+lextree_hmm_ppg_thrd_work          livepretend_nosse    0x2a6   
+  Uops Retired                                                       0.67%      12         21661356            0x000000000000A0CA 0x00d           0x0000000000008E4A lextree_hmm_ppg_thrd_work
+lextree_hmm_eval_thrd_work         livepretend_nosse    0x124   
+  Uops Retired                                                       0.84%      15         27076695            0x0000000000009F76 0x00d           0x0000000000008CF6 lextree_hmm_eval_thrd_work
+vithist_rescore                    livepretend_nosse    0x1de   
+  Uops Retired                                                       0.45%      8          14440904            0x0000000000014CE6 0x00d           0x0000000000013A66 vithist_rescore
+hmm_vit_eval_3st                   livepretend_nosse    0x126   
+  Uops Retired                                                       0.50%      9          16246017            0x0000000000013062 0x00d           0x0000000000011DE2 hmm_vit_eval_3st
+__libm_sse2_sincos                 livepretend_nosse    0x1d6   
+  Uops Retired                                                       0.33%      6          10830678            0x0000000000022180 0x00d           0x0000000000020F00 __libm_sse2_sincos
+subheap_insert                     livepretend_nosse    0x86    
+  Uops Retired                                                       0.28%      5          9025565             0x00000000000056A2 0x00d           0x0000000000004422 subheap_insert
+lm_bg_score                        livepretend_nosse    0xfc    
+  Uops Retired                                                       0.28%      5          9025565             0x000000000001112A 0x00d           0x000000000000FEAA lm_bg_score
+lextree_ssid_active_thrd_work      livepretend_nosse    0x6a    
+  Uops Retired                                                       0.28%      5          9025565             0x000000000000A372 0x00d           0x00000000000090F2 lextree_ssid_active_thrd_work
+lm_tg_score                        livepretend_nosse    0x238   
+  Uops Retired                                                       0.22%      4          7220452             0x00000000000116DE 0x00d           0x000000000001045E lm_tg_score
+vithist_enter                      livepretend_nosse    0x116   
+  Uops Retired                                                       0.17%      3          5415339             0x0000000000014BD0 0x00d           0x0000000000013950 vithist_enter
+vh_lmstate_find                    livepretend_nosse    0x58    
+  Uops Retired                                                       0.28%      5          9025565             0x0000000000014AA6 0x00d           0x0000000000013826 vh_lmstate_find
+fe_mel_cep                         livepretend_nosse    0xfa    
+  Uops Retired                                                       0.17%      3          5415339             0x000000000001A536 0x00d           0x00000000000192B6 fe_mel_cep
+fe_spec_magnitude                  livepretend_nosse    0x450   
+  Uops Retired                                                       0.17%      3          5415339             0x000000000001A030 0x00d           0x0000000000018DB0 fe_spec_magnitude
+ln_lock                            livepretend_nosse    0x26    
+  Uops Retired                                                       0.17%      3          5415339             0x000000000000A09A 0x00d           0x0000000000008E1A ln_lock
+hmm_clear                          livepretend_nosse    0xc0    
+  Uops Retired                                                       0.11%      2          3610226             0x0000000000012DF6 0x00d           0x0000000000011B76 hmm_clear
+fe_mel_spec                        livepretend_nosse    0xb6    
+  Uops Retired                                                       0.11%      2          3610226             0x000000000001A480 0x00d           0x0000000000019200 fe_mel_spec
+vithist_prune                      livepretend_nosse    0x1fa   
+  Uops Retired                                                       0.11%      2          3610226             0x0000000000015044 0x00d           0x0000000000013DC4 vithist_prune
+feat_s2mfc2feat_block              livepretend_nosse    0x7a2   
+  Uops Retired                                                       0.06%      1          1805113             0x000000000001E2EA 0x00d           0x000000000001D06A feat_s2mfc2feat_block
+fe_process_utt                     livepretend_nosse    0x37e   
+  Uops Retired                                                       0.06%      1          1805113             0x000000000001B098 0x00d           0x0000000000019E18 fe_process_utt
+log_to_logs3_factor                livepretend_nosse    0x8     
+  Uops Retired                                                       0.06%      1          1805113             0x0000000000004F44 0x00d           0x0000000000003CC4 log_to_logs3_factor
+subvq_gautbl_eval_logs3            livepretend_nosse    0xb0    
+  Uops Retired                                                       0.06%      1          1805113             0x00000000000094DC 0x00d           0x000000000000825C subvq_gautbl_eval_logs3
+dict_filler_word                   livepretend_nosse    0x80    
+  Uops Retired                                                       0.06%      1          1805113             0x000000000000DB8C 0x00d           0x000000000000C90C dict_filler_word
+utt_word_trans                     livepretend_nosse    0x294   
+  Uops Retired                                                       0.06%      1          1805113             0x00000000000184E2 0x00d           0x0000000000017262 utt_word_trans
+__mymalloc                         livepretend_nosse    0x166   
+  Uops Retired                                                       0.11%      2          3610226             0x0000000000001992 0x00d           0x0000000000000712 __mymalloc(void)
+__libm_sse2_log                    livepretend_nosse    0x236   
+  Uops Retired                                                       0.06%      1          1805113             0x0000000000021640 0x00d           0x00000000000203C0 __libm_sse2_log
+lextree_enter                      livepretend_nosse    0x18e   
+  Uops Retired                                                       0.06%      1          1805113             0x0000000000014144 0x00d           0x0000000000012EC4 lextree_enter
+__ckd_calloc                       livepretend_nosse    0x4c    
+  Uops Retired                                                       0.06%      1          1805113             0x000000000000151C 0x00d           0x000000000000029C __ckd_calloc(void)
+Event Summary
+   349 = Samples collected due to this event
+   1835             = Sample after value used during collection
+   640415           = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function               Module               Size    
+  Event                                                 Events%    Samples     Events            Address          Segment          Offset        Full name
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+__libm_sse2_sincos     livepretend_nosse    0x1d6   
+fe_pre_emphasis        livepretend_nosse    0x12c   
+movdqa8                livepretend_nosse    0x50    
+utt_decode_block       livepretend_nosse    0x47a   
+__libm_sse2_log        livepretend_nosse    0x236   
+fe_mel_cep             livepretend_nosse    0xfa    
+P0D5                   livepretend_nosse    0x6     
+fe_fft                 livepretend_nosse    0x4d0   
+make_sec               livepretend_nosse    0x28    
+movdqa.epi             livepretend_nosse    0x1b    
+ptmr_start             livepretend_nosse    0x72    
+ptmr_stop              livepretend_nosse    0xc6    
+Event Summary
+   479 = Samples collected due to this event
+   1                = Sample after value used during collection
+   479              = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function        Module               Size    
+  Event                                          Events%    Samples     Events            Address          Segment          Offset        Full name
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+fe_mel_spec     livepretend_nosse    0xb6    
+Event Summary
+Loads Retired
+   3840 = Samples collected due to this event
+   210555           = Sample after value used during collection
+   808531200        = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                           Module               Size    
+  Event                                                             Events%    Samples     Events            Address          Segment          Offset        Full name
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+vector_gautbl_eval_logs3_inner     livepretend_nosse    0x116   
+  Loads Retired                                                     43.98%      1689       355627395           0x000000000000493A 0x00d           0x00000000000036BA vector_gautbl_eval_logs3_inner
+mgau_eval_inner                    livepretend_nosse    0x16a   
+  Loads Retired                                                     17.60%      676        142335180           0x0000000000007EB6 0x00d           0x0000000000006C36 mgau_eval_inner
+thrd_subvq_mgau_shortlist          livepretend_nosse    0x26c   
+  Loads Retired                                                      8.39%      322        67798710            0x00000000000099F4 0x00d           0x0000000000008774 thrd_subvq_mgau_shortlist
+mgau_eval                          livepretend_nosse    0x152   
+  Loads Retired                                                      4.09%      157        33057135            0x0000000000008020 0x00d           0x0000000000006DA0 mgau_eval
+vector_gautbl_eval_logs3           livepretend_nosse    0x86    
+  Loads Retired                                                      6.02%      231        48638205            0x0000000000004A50 0x00d           0x00000000000037D0 vector_gautbl_eval_logs3
+frame_eval_thrd_work               livepretend_nosse    0x2a8   
+  Loads Retired                                                      2.60%      100        21055500            0x0000000000009C60 0x00d           0x00000000000089E0 frame_eval_thrd_work
+fe_fft                             livepretend_nosse    0x4d0   
+  Loads Retired                                                      1.74%      67         14107185            0x000000000001A630 0x00d           0x00000000000193B0 fe_fft
+hmm_vit_eval_3st                   livepretend_nosse    0x126   
+  Loads Retired                                                      2.01%      77         16212735            0x0000000000013062 0x00d           0x0000000000011DE2 hmm_vit_eval_3st
+dict2pid_comsenscr_thrd_work       livepretend_nosse    0x6e    
+  Loads Retired                                                      1.90%      73         15370515            0x0000000000009F08 0x00d           0x0000000000008C88 dict2pid_comsenscr_thrd_work
+vithist_rescore                    livepretend_nosse    0x1de   
+  Loads Retired                                                      0.78%      30         6316650             0x0000000000014CE6 0x00d           0x0000000000013A66 vithist_rescore
+sseq2sen_active_thrd_work          livepretend_nosse    0x156   
+  Loads Retired                                                      2.63%      101        21266055            0x000000000000A3DC 0x00d           0x000000000000915C sseq2sen_active_thrd_work
+logs3_add                          livepretend_nosse    0xbe    
+  Loads Retired                                                      0.96%      37         7790535             0x0000000000004DB0 0x00d           0x0000000000003B30 logs3_add
+lextree_hmm_ppg_thrd_work          livepretend_nosse    0x2a6   
+  Loads Retired                                                      0.57%      22         4632210             0x000000000000A0CA 0x00d           0x0000000000008E4A lextree_hmm_ppg_thrd_work
+lm_bg_score                        livepretend_nosse    0xfc    
+  Loads Retired                                                      0.47%      18         3789990             0x000000000001112A 0x00d           0x000000000000FEAA lm_bg_score
+lextree_hmm_eval_thrd_work         livepretend_nosse    0x124   
+  Loads Retired                                                      0.44%      17         3579435             0x0000000000009F76 0x00d           0x0000000000008CF6 lextree_hmm_eval_thrd_work
+__libm_sse2_sincos                 livepretend_nosse    0x1d6   
+  Loads Retired                                                      0.34%      13         2737215             0x0000000000022180 0x00d           0x0000000000020F00 __libm_sse2_sincos
+ln_lock                            livepretend_nosse    0x26    
+  Loads Retired                                                      0.31%      12         2526660             0x000000000000A09A 0x00d           0x0000000000008E1A ln_lock
+vh_lmstate_find                    livepretend_nosse    0x58    
+  Loads Retired                                                      0.26%      10         2105550             0x0000000000014AA6 0x00d           0x0000000000013826 vh_lmstate_find
+fe_mel_spec                        livepretend_nosse    0xb6    
+  Loads Retired                                                      0.18%      7          1473885             0x000000000001A480 0x00d           0x0000000000019200 fe_mel_spec
+lm_tg_score                        livepretend_nosse    0x238   
+  Loads Retired                                                      0.21%      8          1684440             0x00000000000116DE 0x00d           0x000000000001045E lm_tg_score
+fe_mel_cep                         livepretend_nosse    0xfa    
+  Loads Retired                                                      0.18%      7          1473885             0x000000000001A536 0x00d           0x00000000000192B6 fe_mel_cep
+fe_hamming_window                  livepretend_nosse    0xc2    
+  Loads Retired                                                      0.13%      5          1052775             0x0000000000019ECE 0x00d           0x0000000000018C4E fe_hamming_window
+hmm_clear                          livepretend_nosse    0xc0    
+  Loads Retired                                                      0.18%      7          1473885             0x0000000000012DF6 0x00d           0x0000000000011B76 hmm_clear
+fe_process_utt                     livepretend_nosse    0x37e   
+  Loads Retired                                                      0.18%      7          1473885             0x000000000001B098 0x00d           0x0000000000019E18 fe_process_utt
+subheap_insert                     livepretend_nosse    0x86    
+  Loads Retired                                                      0.10%      4          842220              0x00000000000056A2 0x00d           0x0000000000004422 subheap_insert
+vithist_lmstate_enter              livepretend_nosse    0xb0    
+  Loads Retired                                                      0.10%      4          842220              0x0000000000014AFE 0x00d           0x000000000001387E vithist_lmstate_enter
+lextree_ssid_active_thrd_work      livepretend_nosse    0x6a    
+  Loads Retired                                                      0.10%      4          842220              0x000000000000A372 0x00d           0x00000000000090F2 lextree_ssid_active_thrd_work
+subheap_pop                        livepretend_nosse    0x88    
+  Loads Retired                                                      0.21%      8          1684440             0x0000000000005746 0x00d           0x00000000000044C6 subheap_pop
+ln_unlock                          livepretend_nosse    0xa     
+  Loads Retired                                                      0.21%      8          1684440             0x000000000000A0C0 0x00d           0x0000000000008E40 ln_unlock
+__mymalloc                         livepretend_nosse    0x166   
+  Loads Retired                                                      0.05%      2          421110              0x0000000000001992 0x00d           0x0000000000000712 __mymalloc(void)
+utt_word_trans                     livepretend_nosse    0x294   
+  Loads Retired                                                      0.05%      2          421110              0x00000000000184E2 0x00d           0x0000000000017262 utt_word_trans
+vithist_enter                      livepretend_nosse    0x116   
+  Loads Retired                                                      0.05%      2          421110              0x0000000000014BD0 0x00d           0x0000000000013950 vithist_enter
+__libm_sse2_log                    livepretend_nosse    0x236   
+  Loads Retired                                                      0.10%      4          842220              0x0000000000021640 0x00d           0x00000000000203C0 __libm_sse2_log
+dict_filler_word                   livepretend_nosse    0x80    
+  Loads Retired                                                      0.05%      2          421110              0x000000000000DB8C 0x00d           0x000000000000C90C dict_filler_word
+lextree_enter                      livepretend_nosse    0x18e   
+  Loads Retired                                                      0.05%      2          421110              0x0000000000014144 0x00d           0x0000000000012EC4 lextree_enter
+heap_insert                        livepretend_nosse    0x1e    
+  Loads Retired                                                      0.05%      2          421110              0x0000000000005728 0x00d           0x00000000000044A8 heap_insert
+glist_free                         livepretend_nosse    0x32    
+  Loads Retired                                                      0.05%      2          421110              0x0000000000002AE2 0x00d           0x0000000000001862 glist_free
+fe_spec_magnitude                  livepretend_nosse    0x450   
+  Loads Retired                                                      0.05%      2          421110              0x000000000001A030 0x00d           0x0000000000018DB0 fe_spec_magnitude
+new_lextree_hmm_ppg_thrd_work      livepretend_nosse    0xd2    
+  Loads Retired                                                      0.03%      1          210555              0x000000000000AAB8 0x00d           0x0000000000009838 new_lextree_hmm_ppg_thrd_work
+both.aligned                       livepretend_nosse    0x68    
+  Loads Retired                                                      0.03%      1          210555              0x00000000000271A0 0x00d           0x0000000000025F20 both.aligned
+make_sec                           livepretend_nosse    0x28    
+  Loads Retired                                                      0.03%      1          210555              0x0000000000006070 0x00d           0x0000000000004DF0 make_sec
+log_to_logs3_factor                livepretend_nosse    0x8     
+  Loads Retired                                                      0.16%      6          1263330             0x0000000000004F44 0x00d           0x0000000000003CC4 log_to_logs3_factor
+thread_barrier                     livepretend_nosse    0x2     
+  Loads Retired                                                      0.03%      1          210555              0x000000000000142A 0x00d           0x00000000000001AA thread_barrier
+live_utt_decode_block              livepretend_nosse    0x1a4   
+  Loads Retired                                                      0.03%      1          210555              0x000000000001EE60 0x00d           0x000000000001DBE0 live_utt_decode_block
+__myfree                           livepretend_nosse    0x70    
+  Loads Retired                                                      0.03%      1          210555              0x0000000000001AF8 0x00d           0x0000000000000878 __myfree(void)
+fe_pre_emphasis                    livepretend_nosse    0x12c   
+  Loads Retired                                                      0.03%      1          210555              0x0000000000019C6E 0x00d           0x00000000000189EE fe_pre_emphasis
+vithist_id2entry                   livepretend_nosse    0x22    
+  Loads Retired                                                      0.03%      1          210555              0x0000000000014BAE 0x00d           0x000000000001392E vithist_id2entry
+vithist_lmstate_reset              livepretend_nosse    0x84    
+  Loads Retired                                                      0.03%      1          210555              0x000000000001523E 0x00d           0x0000000000013FBE vithist_lmstate_reset
+vithist_prune                      livepretend_nosse    0x1fa   
+  Loads Retired                                                      0.03%      1          210555              0x0000000000015044 0x00d           0x0000000000013DC4 vithist_prune
+Event Summary
+1st Level Cache Load Misses Retired
+   8465 = Samples collected due to this event
+   13864            = Sample after value used during collection
+   117358760        = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                           Module               Size    
+  Event                                                             Events%    Samples     Events            Address          Segment          Offset        Full name
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+vector_gautbl_eval_logs3_inner     livepretend_nosse    0x116   
+  1st Level Cache Load Misses Retired                               34.00%      2878       39900592            0x000000000000493A 0x00d           0x00000000000036BA vector_gautbl_eval_logs3_inner
+mgau_eval_inner                    livepretend_nosse    0x16a   
+  1st Level Cache Load Misses Retired                               24.96%      2113       29294632            0x0000000000007EB6 0x00d           0x0000000000006C36 mgau_eval_inner
+thrd_subvq_mgau_shortlist          livepretend_nosse    0x26c   
+  1st Level Cache Load Misses Retired                               17.99%      1523       21114872            0x00000000000099F4 0x00d           0x0000000000008774 thrd_subvq_mgau_shortlist
+fe_fft                             livepretend_nosse    0x4d0   
+  1st Level Cache Load Misses Retired                                4.35%      368        5101952             0x000000000001A630 0x00d           0x00000000000193B0 fe_fft
+hmm_vit_eval_3st                   livepretend_nosse    0x126   
+  1st Level Cache Load Misses Retired                                3.45%      292        4048288             0x0000000000013062 0x00d           0x0000000000011DE2 hmm_vit_eval_3st
+frame_eval_thrd_work               livepretend_nosse    0x2a8   
+  1st Level Cache Load Misses Retired                                2.47%      209        2897576             0x0000000000009C60 0x00d           0x00000000000089E0 frame_eval_thrd_work
+mgau_eval                          livepretend_nosse    0x152   
+  1st Level Cache Load Misses Retired                                1.35%      114        1580496             0x0000000000008020 0x00d           0x0000000000006DA0 mgau_eval
+lextree_hmm_eval_thrd_work         livepretend_nosse    0x124   
+  1st Level Cache Load Misses Retired                                1.08%      91         1261624             0x0000000000009F76 0x00d           0x0000000000008CF6 lextree_hmm_eval_thrd_work
+dict2pid_comsenscr_thrd_work       livepretend_nosse    0x6e    
+  1st Level Cache Load Misses Retired                                1.06%      90         1247760             0x0000000000009F08 0x00d           0x0000000000008C88 dict2pid_comsenscr_thrd_work
+lextree_hmm_ppg_thrd_work          livepretend_nosse    0x2a6   
+  1st Level Cache Load Misses Retired                                0.85%      72         998208              0x000000000000A0CA 0x00d           0x0000000000008E4A lextree_hmm_ppg_thrd_work
+sseq2sen_active_thrd_work          livepretend_nosse    0x156   
+  1st Level Cache Load Misses Retired                                2.94%      249        3452136             0x000000000000A3DC 0x00d           0x000000000000915C sseq2sen_active_thrd_work
+logs3_add                          livepretend_nosse    0xbe    
+  1st Level Cache Load Misses Retired                                0.67%      57         790248              0x0000000000004DB0 0x00d           0x0000000000003B30 logs3_add
+lextree_ssid_active_thrd_work      livepretend_nosse    0x6a    
+  1st Level Cache Load Misses Retired                                0.63%      53         734792              0x000000000000A372 0x00d           0x00000000000090F2 lextree_ssid_active_thrd_work
+lextree_enter                      livepretend_nosse    0x18e   
+  1st Level Cache Load Misses Retired                                0.54%      46         637744              0x0000000000014144 0x00d           0x0000000000012EC4 lextree_enter
+vithist_rescore                    livepretend_nosse    0x1de   
+  1st Level Cache Load Misses Retired                                0.28%      24         332736              0x0000000000014CE6 0x00d           0x0000000000013A66 vithist_rescore
+fe_spec_magnitude                  livepretend_nosse    0x450   
+  1st Level Cache Load Misses Retired                                0.19%      16         221824              0x000000000001A030 0x00d           0x0000000000018DB0 fe_spec_magnitude
+lm_bg_score                        livepretend_nosse    0xfc    
+  1st Level Cache Load Misses Retired                                0.24%      20         277280              0x000000000001112A 0x00d           0x000000000000FEAA lm_bg_score
+fe_hamming_window                  livepretend_nosse    0xc2    
+  1st Level Cache Load Misses Retired                                0.13%      11         152504              0x0000000000019ECE 0x00d           0x0000000000018C4E fe_hamming_window
+vh_lmstate_find                    livepretend_nosse    0x58    
+  1st Level Cache Load Misses Retired                                0.11%      9          124776              0x0000000000014AA6 0x00d           0x0000000000013826 vh_lmstate_find
+__libm_sse2_sincos                 livepretend_nosse    0x1d6   
+  1st Level Cache Load Misses Retired                                0.11%      9          124776              0x0000000000022180 0x00d           0x0000000000020F00 __libm_sse2_sincos
+vector_gautbl_eval_logs3           livepretend_nosse    0x86    
+  1st Level Cache Load Misses Retired                                0.08%      7          97048               0x0000000000004A50 0x00d           0x00000000000037D0 vector_gautbl_eval_logs3
+subheap_insert                     livepretend_nosse    0x86    
+  1st Level Cache Load Misses Retired                                0.06%      5          69320               0x00000000000056A2 0x00d           0x0000000000004422 subheap_insert
+__mymalloc                         livepretend_nosse    0x166   
+  1st Level Cache Load Misses Retired                                0.08%      7          97048               0x0000000000001992 0x00d           0x0000000000000712 __mymalloc(void)
+hmm_clear                          livepretend_nosse    0xc0    
+  1st Level Cache Load Misses Retired                                0.06%      5          69320               0x0000000000012DF6 0x00d           0x0000000000011B76 hmm_clear
+vithist_enter                      livepretend_nosse    0x116   
+  1st Level Cache Load Misses Retired                                0.04%      3          41592               0x0000000000014BD0 0x00d           0x0000000000013950 vithist_enter
+vithist_prune                      livepretend_nosse    0x1fa   
+  1st Level Cache Load Misses Retired                                0.04%      3          41592               0x0000000000015044 0x00d           0x0000000000013DC4 vithist_prune
+fe_mel_spec                        livepretend_nosse    0xb6    
+  1st Level Cache Load Misses Retired                                0.04%      3          41592               0x000000000001A480 0x00d           0x0000000000019200 fe_mel_spec
+subvq_gautbl_eval_logs3            livepretend_nosse    0xb0    
+  1st Level Cache Load Misses Retired                                0.04%      3          41592               0x00000000000094DC 0x00d           0x000000000000825C subvq_gautbl_eval_logs3
+fe_process_utt                     livepretend_nosse    0x37e   
+  1st Level Cache Load Misses Retired                                0.02%      2          27728               0x000000000001B098 0x00d           0x0000000000019E18 fe_process_utt
+vithist_frame_gc                   livepretend_nosse    0x180   
+  1st Level Cache Load Misses Retired                                0.01%      1          13864               0x0000000000014EC4 0x00d           0x0000000000013C44 vithist_frame_gc
+vithist_entry_alloc                livepretend_nosse    0x98    
+  1st Level Cache Load Misses Retired                                0.01%      1          13864               0x000000000001492C 0x00d           0x00000000000136AC vithist_entry_alloc
+vithist_lmstate_reset              livepretend_nosse    0x84    
+  1st Level Cache Load Misses Retired                                0.02%      2          27728               0x000000000001523E 0x00d           0x0000000000013FBE vithist_lmstate_reset
+utt_word_trans                     livepretend_nosse    0x294   
+  1st Level Cache Load Misses Retired                                0.01%      1          13864               0x00000000000184E2 0x00d           0x0000000000017262 utt_word_trans
+vithist_partialutt_end             livepretend_nosse    0x14c   
+  1st Level Cache Load Misses Retired                                0.01%      1          13864               0x0000000000015628 0x00d           0x00000000000143A8 vithist_partialutt_end
+sen_active_thrd_work               livepretend_nosse    0x270   
+  1st Level Cache Load Misses Retired                                0.01%      1          13864               0x000000000000A532 0x00d           0x00000000000092B2 sen_active_thrd_work
+new_lextree_hmm_eval_thrd_work     livepretend_nosse    0x108   
+  1st Level Cache Load Misses Retired                                0.01%      1          13864               0x000000000000A8E8 0x00d           0x0000000000009668 new_lextree_hmm_eval_thrd_work
+movdqa8                            livepretend_nosse    0x50    
+  1st Level Cache Load Misses Retired                                0.02%      2          27728               0x0000000000026E80 0x00d           0x0000000000025C00 movdqa8
+make_sec                           livepretend_nosse    0x28    
+  1st Level Cache Load Misses Retired                                0.01%      1          13864               0x0000000000006070 0x00d           0x0000000000004DF0 make_sec
+log_to_logs3_factor                livepretend_nosse    0x8     
+  1st Level Cache Load Misses Retired                                0.15%      13         180232              0x0000000000004F44 0x00d           0x0000000000003CC4 log_to_logs3_factor
+ln_lock                            livepretend_nosse    0x26    
+  1st Level Cache Load Misses Retired                                0.41%      35         485240              0x000000000000A09A 0x00d           0x0000000000008E1A ln_lock
+fe_pre_emphasis                    livepretend_nosse    0x12c   
+  1st Level Cache Load Misses Retired                                0.01%      1          13864               0x0000000000019C6E 0x00d           0x00000000000189EE fe_pre_emphasis
+dict_filler_word                   livepretend_nosse    0x80    
+  1st Level Cache Load Misses Retired                                0.01%      1          13864               0x000000000000DB8C 0x00d           0x000000000000C90C dict_filler_word
+both.aligned                       livepretend_nosse    0x68    
+  1st Level Cache Load Misses Retired                                0.01%      1          13864               0x00000000000271A0 0x00d           0x0000000000025F20 both.aligned
+__myfree                           livepretend_nosse    0x70    
+  1st Level Cache Load Misses Retired                                0.01%      1          13864               0x0000000000001AF8 0x00d           0x0000000000000878 __myfree(void)
+UnmappedSamples                    livepretend_nosse    0x0     
+  1st Level Cache Load Misses Retired                                0.01%      1          13864               0x0000000000001280 0x00d           0x0000000000000000 
+Event Summary
+2nd Level Cache Load Misses Retired
+   7724 = Samples collected due to this event
+   3701             = Sample after value used during collection
+   28586524         = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                           Module               Size    
+  Event                                                             Events%    Samples     Events            Address          Segment          Offset        Full name
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mgau_eval_inner                    livepretend_nosse    0x16a   
+  2nd Level Cache Load Misses Retired                               62.52%      4829       17872129            0x0000000000007EB6 0x00d           0x0000000000006C36 mgau_eval_inner
+thrd_subvq_mgau_shortlist          livepretend_nosse    0x26c   
+  2nd Level Cache Load Misses Retired                               13.37%      1033       3823133             0x00000000000099F4 0x00d           0x0000000000008774 thrd_subvq_mgau_shortlist
+vector_gautbl_eval_logs3_inner     livepretend_nosse    0x116   
+  2nd Level Cache Load Misses Retired                                7.12%      550        2035550             0x000000000000493A 0x00d           0x00000000000036BA vector_gautbl_eval_logs3_inner
+hmm_vit_eval_3st                   livepretend_nosse    0x126   
+  2nd Level Cache Load Misses Retired                                6.38%      493        1824593             0x0000000000013062 0x00d           0x0000000000011DE2 hmm_vit_eval_3st
+frame_eval_thrd_work               livepretend_nosse    0x2a8   
+  2nd Level Cache Load Misses Retired                                2.87%      222        821622              0x0000000000009C60 0x00d           0x00000000000089E0 frame_eval_thrd_work
+sseq2sen_active_thrd_work          livepretend_nosse    0x156   
+  2nd Level Cache Load Misses Retired                                1.90%      147        544047              0x000000000000A3DC 0x00d           0x000000000000915C sseq2sen_active_thrd_work
+lextree_hmm_eval_thrd_work         livepretend_nosse    0x124   
+  2nd Level Cache Load Misses Retired                                1.49%      115        425615              0x0000000000009F76 0x00d           0x0000000000008CF6 lextree_hmm_eval_thrd_work
+lextree_enter                      livepretend_nosse    0x18e   
+  2nd Level Cache Load Misses Retired                                0.88%      68         251668              0x0000000000014144 0x00d           0x0000000000012EC4 lextree_enter
+lextree_hmm_ppg_thrd_work          livepretend_nosse    0x2a6   
+  2nd Level Cache Load Misses Retired                                0.69%      53         196153              0x000000000000A0CA 0x00d           0x0000000000008E4A lextree_hmm_ppg_thrd_work
+lextree_ssid_active_thrd_work      livepretend_nosse    0x6a    
+  2nd Level Cache Load Misses Retired                                0.25%      19         70319               0x000000000000A372 0x00d           0x00000000000090F2 lextree_ssid_active_thrd_work
+vithist_rescore                    livepretend_nosse    0x1de   
+  2nd Level Cache Load Misses Retired                                0.18%      14         51814               0x0000000000014CE6 0x00d           0x0000000000013A66 vithist_rescore
+lm_bg_score                        livepretend_nosse    0xfc    
+  2nd Level Cache Load Misses Retired                                0.13%      10         37010               0x000000000001112A 0x00d           0x000000000000FEAA lm_bg_score
+dict2pid_comsenscr_thrd_work       livepretend_nosse    0x6e    
+  2nd Level Cache Load Misses Retired                                0.12%      9          33309               0x0000000000009F08 0x00d           0x0000000000008C88 dict2pid_comsenscr_thrd_work
+vh_lmstate_find                    livepretend_nosse    0x58    
+  2nd Level Cache Load Misses Retired                                0.06%      5          18505               0x0000000000014AA6 0x00d           0x0000000000013826 vh_lmstate_find
+subvq_gautbl_eval_logs3            livepretend_nosse    0xb0    
+  2nd Level Cache Load Misses Retired                                0.14%      11         40711               0x00000000000094DC 0x00d           0x000000000000825C subvq_gautbl_eval_logs3
+hmm_clear                          livepretend_nosse    0xc0    
+  2nd Level Cache Load Misses Retired                                0.05%      4          14804               0x0000000000012DF6 0x00d           0x0000000000011B76 hmm_clear
+mgau_eval                          livepretend_nosse    0x152   
+  2nd Level Cache Load Misses Retired                                0.05%      4          14804               0x0000000000008020 0x00d           0x0000000000006DA0 mgau_eval
+logs3_add                          livepretend_nosse    0xbe    
+  2nd Level Cache Load Misses Retired                                0.05%      4          14804               0x0000000000004DB0 0x00d           0x0000000000003B30 logs3_add
+__libm_sse2_sincos                 livepretend_nosse    0x1d6   
+  2nd Level Cache Load Misses Retired                                0.01%      1          3701                0x0000000000022180 0x00d           0x0000000000020F00 __libm_sse2_sincos
+vithist_lmstate_enter              livepretend_nosse    0xb0    
+  2nd Level Cache Load Misses Retired                                0.01%      1          3701                0x0000000000014AFE 0x00d           0x000000000001387E vithist_lmstate_enter
+__mymalloc                         livepretend_nosse    0x166   
+  2nd Level Cache Load Misses Retired                                0.01%      1          3701                0x0000000000001992 0x00d           0x0000000000000712 __mymalloc(void)
+utt_word_trans                     livepretend_nosse    0x294   
+  2nd Level Cache Load Misses Retired                                0.05%      4          14804               0x00000000000184E2 0x00d           0x0000000000017262 utt_word_trans
+both.aligned                       livepretend_nosse    0x68    
+  2nd Level Cache Load Misses Retired                                0.01%      1          3701                0x00000000000271A0 0x00d           0x0000000000025F20 both.aligned
+sen_active_thrd_work               livepretend_nosse    0x270   
+  2nd Level Cache Load Misses Retired                                0.01%      1          3701                0x000000000000A532 0x00d           0x00000000000092B2 sen_active_thrd_work
+movdqa8                            livepretend_nosse    0x50    
+  2nd Level Cache Load Misses Retired                                0.04%      3          11103               0x0000000000026E80 0x00d           0x0000000000025C00 movdqa8
+dict_filler_word                   livepretend_nosse    0x80    
+  2nd Level Cache Load Misses Retired                                0.01%      1          3701                0x000000000000DB8C 0x00d           0x000000000000C90C dict_filler_word
+ln_lock                            livepretend_nosse    0x26    
+  2nd Level Cache Load Misses Retired                                0.03%      2          7402                0x000000000000A09A 0x00d           0x0000000000008E1A ln_lock
+fe_fft                             livepretend_nosse    0x4d0   
+  2nd Level Cache Load Misses Retired                                0.01%      1          3701                0x000000000001A630 0x00d           0x00000000000193B0 fe_fft
+fe_hamming_window                  livepretend_nosse    0xc2    
+  2nd Level Cache Load Misses Retired                                0.03%      2          7402                0x0000000000019ECE 0x00d           0x0000000000018C4E fe_hamming_window
+fe_mel_cep                         livepretend_nosse    0xfa    
+  2nd Level Cache Load Misses Retired                                0.01%      1          3701                0x000000000001A536 0x00d           0x00000000000192B6 fe_mel_cep
+fe_spec_magnitude                  livepretend_nosse    0x450   
+  2nd Level Cache Load Misses Retired                                0.03%      2          7402                0x000000000001A030 0x00d           0x0000000000018DB0 fe_spec_magnitude

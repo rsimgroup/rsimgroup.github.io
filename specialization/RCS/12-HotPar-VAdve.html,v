@@ -1,0 +1,97 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2013.06.17.20.47.32;	author mdsincl2;	state Exp;
+branches;
+next	;
+
+
+desc
+@Initial HotPar 12 webpage
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Virtual Instruction Set Computing for Heterogeneous Systems</title>
+</head>
+<body>
+
+<h1 align="center">
+  Virtual Instruction Set Computing for Heterogeneous Systems
+</h1>
+<h3 align="center">
+  <a href="http://llvm.cs.uiuc.edu/~vadve/Home.html">Vikram Adve</a>,
+  <a href="http://rsim.cs.illinois.edu/~sadve">Sarita Adve</a>,
+  <a href="http://rsim.cs.uiuc.edu/~komurav1">Rakesh Komuravelli</a>,
+  <a href="http://rsim.cs.uiuc.edu/~mdsincl2">Matthew D. Sinclair</a> and
+  <a href="mailto:psrivas2@@illinois.edu">Prakalp Srivastava</a>
+</h3>
+
+<h2>Abstract:</h2>
+<blockquote>
+Developing software applications for emerging and future heterogeneous systems
+with diverse combinations of
+hardware is signiﬁcantly harder than for homogeneous
+multicore systems. In this paper, we identify three root
+causes that underlie the programming challenges: (1) diverse parallelism models;
+(2) diverse memory architectures; and (3) diverse hardware instruction set
+semantics. We believe that these issues must be addressed using a
+language-neutral, virtual instruction set layer that
+abstracts away most of the low-level details of hardware,
+an approach we call Virtual Instruction Set Computing.
+Most importantly, the virtual instruction set must abstract away and unify the
+diverse forms of parallelism
+and memory architectures using only one or two models
+of parallelism. We discuss how this approach can solve
+the root causes of the programmability challenges, illustrate the design with an
+example, and discuss the research
+challenges that arise in realizing this vision.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Virtual Instruction Set Computing for Heterogeneous Systems", Vikram Adve,
+  Sarita Adve, Rakesh Komuravelli, Matthew D. Sinclair and Prakalp Srivastava.<br>
+  Proceedings of the 4th USENIX Workshop on
+  <a  href="https://www.usenix.org/conference/hotpar12">Hot Topics in
+  Parallelism</a> (HotPar'12), Berkeley, California, June 2012.
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="12-HotPar-VAdve.pdf">Virtual Instruction Set Computing for
+  Heterogeneous Systems</a> (PDF)</li>
+  <li><a href="12-Hotpar-VAdve.ppt">Virtual Instruction Set Computing for
+  Heterogeneous Systems Presentation</a>
+  (PPT)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+  @@InProceedings{VISC:HOTPAR12,
+    author    = {Vikram Adve, Sarita Adve, Rakesh Komuravelli, Matthew D. Sinclair and Prakalp Srivastava},
+    title     = "{Virtual Instruction Set Computing for Heterogeneous Systems}",
+    booktitle = "{Proceedings of the 2012 4th USENIX Workshop on Hot Topics in Parallelism (HotPar'12)}",
+    address   = {Berkeley, California},
+    month     = {June},
+    year      = {2012}
+  }
+</pre>
+
+</body>
+</html>
+
+@

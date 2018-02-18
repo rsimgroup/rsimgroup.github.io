@@ -1,0 +1,10 @@
+
+This directory contains various example scenes in multiple formats.
+Some of these scenes require volumetric data sets in order to render
+correctly, others require texture maps in order to render correctly.
+These are primarily intended as simple examples for people interested
+in designing their own scenes.
+
+Most if not all of these scenes should render in under a few minutes
+on the current crop of machines.
+

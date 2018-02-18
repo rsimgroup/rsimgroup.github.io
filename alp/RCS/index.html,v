@@ -1,0 +1,132 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2005.04.13.14.45.51;	author sadve;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.04.13.14.30.26;	author sadve;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Sarita Adve</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+span.MsoHyperlink
+	{color:#333366;
+	text-decoration:underline;
+	text-underline:single;}
+span.SpellE
+	{}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#333366" link="#333366" vlink="#993300" alink="#CC6600">
+<table width="800" border="0" cellpadding="0" cellspacing="0" height="909">
+  <tr align="left" valign="bottom"> 
+    <td colspan="3" width="800" height="75"> <p>
+    <img src="alp.gif" width="800" height="75"></p></td>
+  </tr>
+  <tr align="left" valign="top"> 
+    <td width="137" bordercolor="#e7ebf0" bgcolor="#e7ebf0" rowspan="2" height="834"> <p><font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><b><br>
+        &nbsp;</b></font></p>
+    <p><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif"><b>
+    <a href="http://rsim.cs.uiuc.edu">Group Home</a></b></font></p>
+    <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+    <a href="http://rsim.cs.uiuc.edu/alp">ALP Home</a></font></b></p>
+    <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+    <a href="people.html">People</a></font></b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif"><b> </b></font></p>
+      <p><b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="pubs.html">Publications</a></font></b></p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="software.html">Software</a></font></b></p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="funding.html">Funding</a></font></b><br>
+        <font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><br>
+        <br>
+        </font></p>
+      </td>
+    <td width="7" height="309">&nbsp;</td>
+    <td width="664" height="834" rowspan="2"> 
+    <font SIZE="2">&nbsp;</font><font size="3"><p align="justify">The objective 
+    of this project is to develop general-purpose architectures that can meet 
+    the performance demands of future complex media applications in an 
+    energy-efficient way, while also continuing to work well on other common 
+    workloads for desktop, laptop, and handheld systems. This project makes two 
+    broad contributions:</p>
+    <p align="justify">(1) Analysis of complete media applications. We analyze 
+    several complex media applications and make the case that complex media 
+    applications require efficient support for multiple types of parallelism 
+    including instruction and thread level parallelism (ILP and TLP), and 
+    multiple forms of DLP such as sub-word SIMD, vectors, streams, and 
+    vectors/streams of SIMD. </p>
+    </font><font SIZE="2">
+    <p align="justify"></p>
+    <font size="3">
+    <p align="justify">(2) ALP: Exploiting ILP, TLP, and DLP with an 
+    evolutionary programming model and hardware. Our second broad contribution 
+    is a complete architecture, called ALP, that effectively supports all levels 
+    of parallelism described above in an energy efficient way, using an 
+    evolutionary programming model and hardware. </p>
+    <p align="justify">The most novel part of ALP is a new technique called 
+    indexed vectors and streams to support larger amounts of DLP than possible 
+    with SIMD.The programming model for indexed vectors/streams lies between 
+    SIMD and conventional vectors. Indexed vectors exploit the regular data 
+    access patterns that are the hallmark of DLP by providing support for 
+    conventional vector memory instructions. They differ from a conventional 
+    vector implementation in that computation on indexed vector data is 
+    performed by conventional SIMDsw instructions.</p>
+    <p align="justify">Our evaluations show that our design decisions in ALP are 
+    effective. Relative to a single-thread superscalar without SIMDsw, for our 
+    application suite, ALP achieves aggregate speedups from 5X to 58X, energy 
+    reduction from 1.5X to 15X, and energy-delay product (EDP) reduction of 7.3X 
+    to 873X. These results include benefits from a 4-way CMP, 2-way SMT, SIMDsw, 
+    and indexed vectors/streams.</p>
+    </font></font>
+    <font face="Times New Roman" size="3">
+    <p align="justify"><i>This work is in collaboration with Yen-Kuang Chen and 
+    Eric Debes at Intel.</i></p>
+    </font>
+    <p>&nbsp;</td>
+  </tr>
+  <tr align="left" valign="top"> 
+    <td width="7" height="525"><FONT color="#333366" 
+                  face="Verdana, Arial, Helvetica, sans-serif"><br>
+      </FONT></td>
+  </tr>
+</table>
+</body>
+</html>@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d83 4
+@

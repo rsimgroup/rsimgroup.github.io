@@ -1,0 +1,1877 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 16.62      0.63     0.63  1116269     0.00     0.00  mgau_eval_inner
+  8.97      0.97     0.34                             _IO_vfscanf
+  8.71      1.30     0.33  5873664     0.00     0.00  vector_gautbl_eval_logs3_inner
+  7.12      1.57     0.27   699012     0.00     0.00  thrd_subvq_mgau_shortlist
+  6.86      1.83     0.26                             __mcount_internal
+  5.28      2.03     0.20                             _IO_str_init_static
+  2.64      2.13     0.10                             __strtof_internal
+  2.37      2.22     0.09                             __ieee754_log
+  2.37      2.31     0.09                             __pthread_internal_tsd_address
+  2.11      2.39     0.08      478     0.00     0.00  sseq2sen_active_thrd_work
+  2.11      2.47     0.08                             __strtol_internal
+  2.11      2.55     0.08                             mcount
+  1.85      2.62     0.07     2868     0.00     0.00  lextree_hmm_eval_thrd_work
+  1.85      2.69     0.07                             _IO_no_init
+  1.58      2.75     0.06   369057     0.00     0.00  hmm_vit_eval_3st
+  1.58      2.81     0.06      479     0.00     0.00  fe_fft
+  1.58      2.87     0.06      478     0.00     0.00  frame_eval_thrd_work
+  1.58      2.93     0.06                             log
+  1.58      2.99     0.06                             pthread_mutex_trylock
+  1.32      3.04     0.05  1116375     0.00     0.00  logs3_add
+  1.32      3.09     0.05     1434     0.00     0.00  vector_gautbl_eval_logs3
+  1.32      3.14     0.05                             read
+  1.06      3.18     0.04   536895     0.00     0.00  key2hash
+  1.06      3.22     0.04     2868     0.00     0.00  lextree_hmm_ppg_thrd_work
+  1.06      3.26     0.04                             isnan
+  0.79      3.29     0.03      478     0.00     0.00  dict2pid_comsenscr_thrd_work
+  0.53      3.31     0.02   699012     0.00     0.00  mgau_eval
+  0.53      3.33     0.02   133548     0.00     0.00  triphone_add
+  0.53      3.35     0.02     2699     0.00     0.00  lextree_enter
+  0.53      3.37     0.02        1     0.02     0.02  mgau_precomp
+  0.53      3.39     0.02                             _IO_sputbackc
+  0.53      3.41     0.02                             __errno_location
+  0.53      3.43     0.02                             __mpn_lshift
+  0.53      3.45     0.02                             __pthread_internal_tsd_get
+  0.53      3.47     0.02                             __pthread_unlock
+  0.53      3.49     0.02                             memchr
+  0.53      3.51     0.02                             vsscanf
+  0.53      3.53     0.02                             write
+  0.26      3.54     0.01   536895     0.00     0.00  lookup
+  0.26      3.55     0.01   456871     0.00     0.00  ln_unlock
+  0.26      3.56     0.01   401390     0.00     0.00  hash_lookup
+  0.26      3.57     0.01   401122     0.00     0.00  mdef_ciphone_id
+  0.26      3.58     0.01   133556     0.00     0.00  noncomment_line
+  0.26      3.59     0.01   133500     0.00     0.00  parse_tri_line
+  0.26      3.60     0.01    94788     0.00     0.00  vithist_enter
+  0.26      3.61     0.01    50300     0.00     0.00  logs3
+  0.26      3.62     0.01    14357     0.00     0.00  vithist_rescore
+  0.26      3.63     0.01     2868     0.00     0.00  lextree_ssid_active_thrd_work
+  0.26      3.64     0.01      478     0.00     0.00  sen_active_thrd_work
+  0.26      3.65     0.01       71     0.00     0.00  ldiph_comsseq
+  0.26      3.66     0.01        1     0.01     0.01  lm_read
+  0.26      3.67     0.01        1     0.01     0.01  mgau_var_floor
+  0.26      3.68     0.01                             __pthread_alt_lock
+  0.26      3.69     0.01                             __pthread_alt_unlock
+  0.26      3.70     0.01                             __pthread_fork
+  0.26      3.71     0.01                             __pthread_lock
+  0.26      3.72     0.01                             _int_free
+  0.26      3.73     0.01                             _int_malloc
+  0.26      3.74     0.01                             _pthread_cleanup_push_defer
+  0.26      3.75     0.01                             fgets
+  0.26      3.76     0.01                             memset
+  0.26      3.77     0.01                             pthread_mutex_unlock
+  0.26      3.78     0.01                             str_to_mpn
+  0.13      3.79     0.01                             P2D0
+  0.13      3.79     0.01                             P2D1
+  0.00      3.79     0.00   700446     0.00     0.00  log_to_logs3_factor
+  0.00      3.79     0.00   502680     0.00     0.00  __ckd_calloc__
+  0.00      3.79     0.00   456871     0.00     0.00  ln_lock
+  0.00      3.79     0.00   401208     0.00     0.00  keycmp_nocase
+  0.00      3.79     0.00   259268     0.00     0.00  lm_bg_score
+  0.00      3.79     0.00   259268     0.00     0.00  lm_tg_score
+  0.00      3.79     0.00   181504     0.00     0.00  find_ph_lc
+  0.00      3.79     0.00   170512     0.00     0.00  find_ph_rc
+  0.00      3.79     0.00   135505     0.00     0.00  enter
+  0.00      3.79     0.00   135268     0.00     0.00  hash_enter_bkey
+  0.00      3.79     0.00   135268     0.00     0.00  makekey
+  0.00      3.79     0.00   133548     0.00     0.00  parse_tmat_senmap
+  0.00      3.79     0.00   112625     0.00     0.00  keycmp_case
+  0.00      3.79     0.00   103609     0.00     0.00  __mymalloc__
+  0.00      3.79     0.00    94788     0.00     0.00  vh_lmstate_find
+  0.00      3.79     0.00    87301     0.00     0.00  __myfree__
+  0.00      3.79     0.00    70823     0.00     0.00  hmm_clear
+  0.00      3.79     0.00    63787     0.00     0.00  glist_add_ptr
+  0.00      3.79     0.00    55296     0.00     0.00  vector_is_zero
+  0.00      3.79     0.00    37900     0.00     0.00  mdef_phone_id
+  0.00      3.79     0.00    29023     0.00     0.00  glist_chkdup_int32
+  0.00      3.79     0.00    27308     0.00     0.00  dict_filler_word
+  0.00      3.79     0.00    18213     0.00     0.00  heap_pop
+  0.00      3.79     0.00    17948     0.00     0.00  glist_add_int32
+  0.00      3.79     0.00    17590     0.00     0.00  vithist_entry_alloc
+  0.00      3.79     0.00    17587     0.00     0.00  heap_insert
+  0.00      3.79     0.00    17587     0.00     0.00  subheap_insert
+  0.00      3.79     0.00    17587     0.00     0.00  subheap_pop
+  0.00      3.79     0.00    17587     0.00     0.00  vithist_lmstate_enter
+  0.00      3.79     0.00    12288     0.00     0.00  vector_floor
+  0.00      3.79     0.00    12288     0.00     0.00  vector_maha_precomp
+  0.00      3.79     0.00     9809     0.00     0.00  vithist_id2entry
+  0.00      3.79     0.00     6429     0.00     0.00  vector_sum_norm
+  0.00      3.79     0.00     6285     0.00     0.00  vector_nz_floor
+  0.00      3.79     0.00     6212     0.00     0.00  bio_fread
+  0.00      3.79     0.00     6212     0.00     0.00  chksum_accum
+  0.00      3.79     0.00     5736     0.00     0.00  make_sec
+  0.00      3.79     0.00     5267     0.00     0.00  glist_free
+  0.00      3.79     0.00     4780     0.00     0.00  thread_barrier
+  0.00      3.79     0.00     4287     0.00     0.00  lextree_node_alloc
+  0.00      3.79     0.00     3724     0.00     0.00  mdef_phone_id_nearest
+  0.00      3.79     0.00     2874     0.00     0.00  lextree_active_swap
+  0.00      3.79     0.00     1581     0.00     0.00  find_bg
+  0.00      3.79     0.00     1527     0.00     0.00  glist_chkdup_ptr
+  0.00      3.79     0.00      999     0.00     0.00  fillpen
+  0.00      3.79     0.00      956     0.00     0.00  ptmr_start
+  0.00      3.79     0.00      956     0.00     0.00  ptmr_stop
+  0.00      3.79     0.00      573     0.00     0.00  dict_ciphone_id
+  0.00      3.79     0.00      479     0.00     0.00  fe_frame_to_fea
+  0.00      3.79     0.00      479     0.00     0.00  fe_hamming_window
+  0.00      3.79     0.00      479     0.00     0.00  fe_mel_cep
+  0.00      3.79     0.00      479     0.00     0.00  fe_mel_spec
+  0.00      3.79     0.00      479     0.00     0.00  fe_spec_magnitude
+  0.00      3.79     0.00      479     0.00     0.00  kb_lextree_active_swap
+  0.00      3.79     0.00      479     0.00     0.00  vithist_lmstate_reset
+  0.00      3.79     0.00      478     0.00     0.00  heap_destroy
+  0.00      3.79     0.00      478     0.00     0.00  heap_new
+  0.00      3.79     0.00      478     0.00     0.00  new_lextree_hmm_eval_thrd_work
+  0.00      3.79     0.00      478     0.00     0.00  new_lextree_hmm_ppg_thrd_work
+  0.00      3.79     0.00      478     0.00     0.00  new_thrd_lextree_hmm_eval
+  0.00      3.79     0.00      478     0.00     0.00  new_thrd_lextree_hmm_propagate
+  0.00      3.79     0.00      478     0.00     0.00  subvq_gautbl_eval_logs3
+  0.00      3.79     0.00      478     0.00     0.00  thrd_scoring_phase
+  0.00      3.79     0.00      478     0.00     0.00  thrd_sen_active_phase
+  0.00      3.79     0.00      478     0.00     0.00  utt_word_trans
+  0.00      3.79     0.00      478     0.00     0.00  vithist_frame_gc
+  0.00      3.79     0.00      478     0.00     0.00  vithist_frame_windup
+  0.00      3.79     0.00      478     0.00     0.00  vithist_prune
+  0.00      3.79     0.00      463     0.00     0.00  __ckd_malloc__
+  0.00      3.79     0.00      430     0.00     0.00  glist_count
+  0.00      3.79     0.00      430     0.00     0.00  ssidlist2comsseq
+  0.00      3.79     0.00      306     0.00     0.00  __ckd_salloc__
+  0.00      3.79     0.00      288     0.00     0.00  single_lc_comsseq
+  0.00      3.79     0.00      260     0.00     0.00  cmp_name
+  0.00      3.79     0.00      260     0.00     0.00  strcmp_nocase
+  0.00      3.79     0.00      237     0.00     0.00  hash_enter
+  0.00      3.79     0.00      216     0.00     0.00  log10_to_logs3
+  0.00      3.79     0.00      146     0.00     0.00  _E__pr_info
+  0.00      3.79     0.00      146     0.00     0.00  _E__pr_info_header
+  0.00      3.79     0.00      133     0.00     0.00  dict_add_word
+  0.00      3.79     0.00      133     0.00     0.00  dict_word2basestr
+  0.00      3.79     0.00      133     0.00     0.00  str2words
+  0.00      3.79     0.00      111     0.00     0.00  dict_wordid
+  0.00      3.79     0.00      105     0.00     0.00  cmd_ln_access
+  0.00      3.79     0.00       65     0.00     0.00  rdiph_comsseq
+  0.00      3.79     0.00       56     0.00     0.00  arg_str2val
+  0.00      3.79     0.00       48     0.00     0.00  ciphone_add
+  0.00      3.79     0.00       48     0.00     0.00  parse_base_line
+  0.00      3.79     0.00       43     0.00     0.00  ckd_free_2d
+  0.00      3.79     0.00       42     0.00     0.00  fe_melinv
+  0.00      3.79     0.00       41     0.00     0.00  fe_create_2d
+  0.00      3.79     0.00       40     0.00     0.00  fe_pre_emphasis
+  0.00      3.79     0.00       40     0.00     0.00  vithist_backtrace
+  0.00      3.79     0.00       39     0.00     0.00  cmn_prior
+  0.00      3.79     0.00       39     0.00     0.00  fe_process_utt
+  0.00      3.79     0.00       39     0.00     0.00  feat_s2mfc2feat_block
+  0.00      3.79     0.00       39     0.00     0.00  live_get_partialhyp
+  0.00      3.79     0.00       39     0.00     0.05  live_utt_decode_block
+  0.00      3.79     0.00       39     0.00     0.05  utt_decode_block
+  0.00      3.79     0.00       38     0.00     0.00  vithist_partialutt_end
+  0.00      3.79     0.00       34     0.00     0.00  lm_fread_int32
+  0.00      3.79     0.00       18     0.00     0.00  __ckd_calloc_2d__
+  0.00      3.79     0.00       18     0.00     0.00  double_next_active
+  0.00      3.79     0.00        6     0.00     0.00  hash_new
+  0.00      3.79     0.00        6     0.00     0.00  lextree_build
+  0.00      3.79     0.00        6     0.00     0.00  lextree_utt_end
+  0.00      3.79     0.00        6     0.00     0.00  prime_size
+  0.00      3.79     0.00        6     0.00     0.00  single_comsseq
+  0.00      3.79     0.00        4     0.00     0.00  _E__pr_header
+  0.00      3.79     0.00        4     0.00     0.00  _E__pr_warn
+  0.00      3.79     0.00        4     0.00     0.00  _myfopen
+  0.00      3.79     0.00        4     0.00     0.00  bio_hdrarg_free
+  0.00      3.79     0.00        4     0.00     0.00  bio_readhdr
+  0.00      3.79     0.00        4     0.00     0.00  bio_verify_chksum
+  0.00      3.79     0.00        4     0.00     0.00  logs3_to_log
+  0.00      3.79     0.00        4     0.00     0.00  swap_check
+  0.00      3.79     0.00        3     0.00     0.00  __ckd_calloc_3d__
+  0.00      3.79     0.00        3     0.00     0.00  hash_free
+  0.00      3.79     0.00        3     0.00     0.00  hash_tolist
+  0.00      3.79     0.00        3     0.00     0.00  vector_gautbl_alloc
+  0.00      3.79     0.00        3     0.00     0.00  vector_gautbl_maha_precomp
+  0.00      3.79     0.00        3     0.00     0.00  vector_gautbl_var_floor
+  0.00      3.79     0.00        2     0.00     0.00  dict_read
+  0.00      3.79     0.00        2     0.00     0.00  fe_mel
+  0.00      3.79     0.00        2     0.00     0.00  mgau_file_read
+  0.00      3.79     0.00        2     0.00     0.00  ptmr_init
+  0.00      3.79     0.00        2     0.00     0.00  ptmr_reset
+  0.00      3.79     0.00        2     0.00     0.00  vithist_utt_end
+  0.00      3.79     0.00        1     0.00     0.00  arg_dump
+  0.00      3.79     0.00        1     0.00     0.00  arg_sort
+  0.00      3.79     0.00        1     0.00     0.00  arg_strlen
+  0.00      3.79     0.00        1     0.00     0.00  ascr_init
+  0.00      3.79     0.00        1     0.00     0.00  beam_init
+  0.00      3.79     0.00        1     0.00     0.00  cmd_ln_parse
+  0.00      3.79     0.00        1     0.00     0.01  dict2pid_build
+  0.00      3.79     0.00        1     0.00     0.00  dict_init
+  0.00      3.79     0.00        1     0.00     0.00  fe_build_melfilters
+  0.00      3.79     0.00        1     0.00     0.00  fe_compute_melcosine
+  0.00      3.79     0.00        1     0.00     0.00  fe_create_hamming
+  0.00      3.79     0.00        1     0.00     0.00  fe_end_utt
+  0.00      3.79     0.00        1     0.00     0.00  fe_init
+  0.00      3.79     0.00        1     0.00     0.00  fe_parse_general_params
+  0.00      3.79     0.00        1     0.00     0.00  fe_parse_melfb_params
+  0.00      3.79     0.00        1     0.00     0.00  fe_start_utt
+  0.00      3.79     0.00        1     0.00     0.00  feat_array_alloc
+  0.00      3.79     0.00        1     0.00     0.00  feat_init
+  0.00      3.79     0.00        1     0.00     0.00  feat_stream_len_sum
+  0.00      3.79     0.00        1     0.00     0.00  fillpen_init
+  0.00      3.79     0.00        1     0.00     0.17  kb_init
+  0.00      3.79     0.00        1     0.00     0.17  kbcore_init
+  0.00      3.79     0.00        1     0.00     0.17  live_initialize_decoder
+  0.00      3.79     0.00        1     0.00     0.00  lm2logs3
+  0.00      3.79     0.00        1     0.00     0.00  lm_cache_reset
+  0.00      3.79     0.00        1     0.00     0.00  lm_cache_stats_dump
+  0.00      3.79     0.00        1     0.00     0.00  lm_read_dump
+  0.00      3.79     0.00        1     0.00     0.00  lm_set_param
+  0.00      3.79     0.00        1     0.00     0.00  lm_ug_wordprob
+  0.00      3.79     0.00        1     0.00     0.00  lm_uw
+  0.00      3.79     0.00        1     0.00     0.00  load_bg
+  0.00      3.79     0.00        1     0.00     0.00  logs3_init
+  0.00      3.79     0.00        1     0.00     1.99  main
+  0.00      3.79     0.00        1     0.00     0.00  matchseg_write
+  0.00      3.79     0.00        1     0.00     0.11  mdef_init
+  0.00      3.79     0.00        1     0.00     0.04  mgau_init
+  0.00      3.79     0.00        1     0.00     0.01  mgau_mixw_read
+  0.00      3.79     0.00        1     0.00     0.00  mgau_uninit_compact
+  0.00      3.79     0.00        1     0.00     0.00  parse_args_file
+  0.00      3.79     0.00        1     0.00     0.01  sseq_compress
+  0.00      3.79     0.00        1     0.00     0.00  subvq_init
+  0.00      3.79     0.00        1     0.00     0.00  subvq_maha_precomp
+  0.00      3.79     0.00        1     0.00     0.00  subvq_map_compact
+  0.00      3.79     0.00        1     0.00     0.00  subvq_map_linearize
+  0.00      3.79     0.00        1     0.00     0.00  thread_barrier_init
+  0.00      3.79     0.00        1     0.00     0.00  threading_support_init
+  0.00      3.79     0.00        1     0.00     0.00  tmat_chk_1skip
+  0.00      3.79     0.00        1     0.00     0.00  tmat_chk_uppertri
+  0.00      3.79     0.00        1     0.00     0.00  tmat_init
+  0.00      3.79     0.00        1     0.00     0.00  unlimit
+  0.00      3.79     0.00        1     0.00     0.00  utt_begin
+  0.00      3.79     0.00        1     0.00     0.00  utt_end
+  0.00      3.79     0.00        1     0.00     0.00  vithist_init
+  0.00      3.79     0.00        1     0.00     0.00  vithist_utt_begin
+  0.00      3.79     0.00        1     0.00     0.00  vithist_utt_reset
+  0.00      3.79     0.00        1     0.00     0.00  wid_dict_lm_map
+  0.00      3.79     0.00        1     0.00     0.00  wid_wordprob2alt
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 0.29% of 3.45 seconds
+
+index % time    self  children    called     name
+                0.00    1.99       1/1           __libc_start_main [2]
+[1]     57.7    0.00    1.99       1         main [1]
+                0.00    1.82      39/39          live_utt_decode_block [3]
+                0.00    0.17       1/1           live_initialize_decoder [15]
+                0.00    0.00      39/146         _E__pr_info_header [1276]
+                0.00    0.00      39/146         _E__pr_info [1275]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]     57.7    0.00    1.99                 __libc_start_main [2]
+                0.00    1.99       1/1           main [1]
+-----------------------------------------------
+                0.00    1.82      39/39          main [1]
+[3]     52.8    0.00    1.82      39         live_utt_decode_block [3]
+                0.00    1.76      39/39          utt_decode_block [4]
+                0.00    0.06      39/39          fe_process_utt [40]
+                0.00    0.00       1/1           fe_end_utt [90]
+                0.00    0.00       1/1           utt_begin [98]
+                0.00    0.00       1/1           utt_end [111]
+                0.00    0.00      39/39          feat_s2mfc2feat_block [182]
+                0.00    0.00      39/146         _E__pr_info_header [1276]
+                0.00    0.00      39/146         _E__pr_info [1275]
+                0.00    0.00      39/39          live_get_partialhyp [183]
+                0.00    0.00      39/43          ckd_free_2d [176]
+                0.00    0.00       1/1           fe_start_utt [216]
+-----------------------------------------------
+                0.00    1.76      39/39          live_utt_decode_block [3]
+[4]     51.0    0.00    1.76      39         utt_decode_block [4]
+                0.00    1.44     478/478         thrd_scoring_phase [5]
+                0.00    0.13     478/478         new_thrd_lextree_hmm_eval [20]
+                0.00    0.10     478/478         thrd_sen_active_phase [23]
+                0.00    0.07     478/478         new_thrd_lextree_hmm_propagate [32]
+                0.00    0.02     478/478         utt_word_trans [61]
+                0.00    0.00     956/956         ptmr_start [155]
+                0.00    0.00     956/956         ptmr_stop [156]
+                0.00    0.00     478/478         vithist_prune [166]
+                0.00    0.00     478/478         vithist_frame_windup [165]
+                0.00    0.00     478/479         kb_lextree_active_swap [160]
+-----------------------------------------------
+                0.00    1.44     478/478         utt_decode_block [4]
+[5]     41.7    0.00    1.44     478         thrd_scoring_phase [5]
+                0.06    1.35     478/478         frame_eval_thrd_work [6]
+                0.03    0.00     478/478         dict2pid_comsenscr_thrd_work [48]
+                0.00    0.00    1434/4780        thread_barrier [148]
+-----------------------------------------------
+                0.06    1.35     478/478         thrd_scoring_phase [5]
+[6]     40.9    0.06    1.35     478         frame_eval_thrd_work [6]
+                0.02    0.68  699012/699012      mgau_eval [7]
+                0.00    0.38     478/478         subvq_gautbl_eval_logs3 [10]
+                0.27    0.00  699012/699012      thrd_subvq_mgau_shortlist [13]
+                0.00    0.00     478/4780        thread_barrier [148]
+-----------------------------------------------
+                0.02    0.68  699012/699012      frame_eval_thrd_work [6]
+[7]     20.3    0.02    0.68  699012         mgau_eval [7]
+                0.63    0.00 1116269/1116269     mgau_eval_inner [8]
+                0.05    0.00 1116269/1116375     logs3_add [42]
+                0.00    0.00  699012/700446      log_to_logs3_factor [115]
+-----------------------------------------------
+                0.63    0.00 1116269/1116269     mgau_eval [7]
+[8]     18.3    0.63    0.00 1116269         mgau_eval_inner [8]
+-----------------------------------------------
+                0.05    0.33    1434/1434        subvq_gautbl_eval_logs3 [10]
+[9]     11.0    0.05    0.33    1434         vector_gautbl_eval_logs3 [9]
+                0.33    0.00 5873664/5873664     vector_gautbl_eval_logs3_inner [12]
+                0.00    0.00    1434/700446      log_to_logs3_factor [115]
+-----------------------------------------------
+                0.00    0.38     478/478         frame_eval_thrd_work [6]
+[10]    11.0    0.00    0.38     478         subvq_gautbl_eval_logs3 [10]
+                0.05    0.33    1434/1434        vector_gautbl_eval_logs3 [9]
+-----------------------------------------------
+                                                 <spontaneous>
+[11]     9.9    0.34    0.00                 _IO_vfscanf [11]
+-----------------------------------------------
+                0.33    0.00 5873664/5873664     vector_gautbl_eval_logs3 [9]
+[12]     9.6    0.33    0.00 5873664         vector_gautbl_eval_logs3_inner [12]
+-----------------------------------------------
+                0.27    0.00  699012/699012      frame_eval_thrd_work [6]
+[13]     7.8    0.27    0.00  699012         thrd_subvq_mgau_shortlist [13]
+-----------------------------------------------
+                                                 <spontaneous>
+[14]     5.8    0.20    0.00                 _IO_str_init_static [14]
+-----------------------------------------------
+                0.00    0.17       1/1           main [1]
+[15]     4.9    0.00    0.17       1         live_initialize_decoder [15]
+                0.00    0.17       1/1           kb_init [16]
+                0.00    0.00       1/1           parse_args_file [100]
+                0.00    0.00      11/105         cmd_ln_access [103]
+                0.00    0.00       3/502680      __ckd_calloc__ [1270]
+                0.00    0.00       1/1           unlimit [233]
+                0.00    0.00       1/306         __ckd_salloc__ [1274]
+                0.00    0.00       1/1           fe_init [213]
+                0.00    0.00       1/1           thread_barrier_init [229]
+-----------------------------------------------
+                0.00    0.17       1/1           live_initialize_decoder [15]
+[16]     4.9    0.00    0.17       1         kb_init [16]
+                0.00    0.17       1/1           kbcore_init [17]
+                0.00    0.00      32/105         cmd_ln_access [103]
+                0.00    0.00       1/1           beam_init [110]
+                0.00    0.00       9/502680      __ckd_calloc__ [1270]
+                0.00    0.00       6/6           lextree_build [188]
+                0.00    0.00       4/146         _E__pr_info_header [1276]
+                0.00    0.00       4/146         _E__pr_info [1275]
+                0.00    0.00       3/27308       dict_filler_word [131]
+                0.00    0.00       2/2           ptmr_init [204]
+                0.00    0.00       1/1           tmat_chk_1skip [231]
+                0.00    0.00       1/1           lm_ug_wordprob [222]
+                0.00    0.00       1/1           wid_wordprob2alt [237]
+                0.00    0.00       1/999         fillpen [154]
+                0.00    0.00       1/1           ascr_init [209]
+                0.00    0.00       1/1           feat_array_alloc [217]
+                0.00    0.00       1/1           vithist_init [234]
+-----------------------------------------------
+                0.00    0.17       1/1           kb_init [16]
+[17]     4.9    0.00    0.17       1         kbcore_init [17]
+                0.00    0.11       1/1           mdef_init [21]
+                0.00    0.04       1/1           mgau_init [47]
+                0.00    0.01       1/1           dict2pid_build [64]
+                0.01    0.00       1/1           lm_read [65]
+                0.00    0.00       1/1           dict_init [91]
+                0.00    0.00       1/1           tmat_init [94]
+                0.00    0.00       1/1           wid_dict_lm_map [102]
+                0.00    0.00       1/1           fillpen_init [109]
+                0.00    0.00       1/1           logs3_init [113]
+                0.00    0.00       1/1           subvq_init [114]
+                0.00    0.00       2/146         _E__pr_info_header [1276]
+                0.00    0.00       2/146         _E__pr_info [1275]
+                0.00    0.00       1/502680      __ckd_calloc__ [1270]
+                0.00    0.00       1/1           feat_init [218]
+-----------------------------------------------
+                0.07    0.06    2868/2868        new_lextree_hmm_eval_thrd_work [19]
+[18]     3.8    0.07    0.06    2868         lextree_hmm_eval_thrd_work [18]
+                0.06    0.00  369057/369057      hmm_vit_eval_3st [34]
+-----------------------------------------------
+                0.00    0.13     478/478         new_thrd_lextree_hmm_eval [20]
+[19]     3.8    0.00    0.13     478         new_lextree_hmm_eval_thrd_work [19]
+                0.07    0.06    2868/2868        lextree_hmm_eval_thrd_work [18]
+-----------------------------------------------
+                0.00    0.13     478/478         utt_decode_block [4]
+[20]     3.8    0.00    0.13     478         new_thrd_lextree_hmm_eval [20]
+                0.00    0.13     478/478         new_lextree_hmm_eval_thrd_work [19]
+                0.00    0.00     956/4780        thread_barrier [148]
+-----------------------------------------------
+                0.00    0.11       1/1           kbcore_init [17]
+[21]     3.2    0.00    0.11       1         mdef_init [21]
+                0.01    0.08  133500/133500      parse_tri_line [27]
+                0.00    0.01       1/1           sseq_compress [63]
+                0.01    0.00  133556/133556      noncomment_line [67]
+                0.00    0.00      48/48          parse_base_line [96]
+                0.00    0.00       1/401122      mdef_ciphone_id [41]
+                0.00    0.00      10/146         _E__pr_info_header [1276]
+                0.00    0.00      10/146         _E__pr_info [1275]
+                0.00    0.00       8/502680      __ckd_calloc__ [1270]
+                0.00    0.00       2/18          __ckd_calloc_2d__ [1277]
+                0.00    0.00       1/6           hash_new [187]
+-----------------------------------------------
+                0.01    0.09     478/478         thrd_sen_active_phase [23]
+[22]     2.9    0.01    0.09     478         sen_active_thrd_work [22]
+                0.08    0.00     478/478         sseq2sen_active_thrd_work [28]
+                0.01    0.00    2868/2868        lextree_ssid_active_thrd_work [70]
+                0.00    0.00     956/4780        thread_barrier [148]
+-----------------------------------------------
+                0.00    0.10     478/478         utt_decode_block [4]
+[23]     2.9    0.00    0.10     478         thrd_sen_active_phase [23]
+                0.01    0.09     478/478         sen_active_thrd_work [22]
+                0.00    0.00     478/4780        thread_barrier [148]
+-----------------------------------------------
+                                                 <spontaneous>
+[24]     2.9    0.10    0.00                 __strtof_internal [24]
+-----------------------------------------------
+                                                 <spontaneous>
+[25]     2.6    0.09    0.00                 __ieee754_log [25]
+-----------------------------------------------
+                                                 <spontaneous>
+[26]     2.6    0.09    0.00                 __pthread_internal_tsd_address [26]
+-----------------------------------------------
+                0.01    0.08  133500/133500      mdef_init [21]
+[27]     2.5    0.01    0.08  133500         parse_tri_line [27]
+                0.01    0.05  400500/401122      mdef_ciphone_id [41]
+                0.02    0.00  133500/133548      triphone_add [49]
+                0.00    0.00  133500/133548      parse_tmat_senmap [123]
+-----------------------------------------------
+                0.08    0.00     478/478         sen_active_thrd_work [22]
+[28]     2.3    0.08    0.00     478         sseq2sen_active_thrd_work [28]
+-----------------------------------------------
+                                                 <spontaneous>
+[29]     2.3    0.08    0.00                 __strtol_internal [29]
+-----------------------------------------------
+                0.04    0.03    2868/2868        new_lextree_hmm_ppg_thrd_work [31]
+[30]     2.0    0.04    0.03    2868         lextree_hmm_ppg_thrd_work [30]
+                0.01    0.01   14357/14357       vithist_rescore [50]
+                0.01    0.00  456871/456871      ln_unlock [66]
+                0.00    0.00  456871/456871      ln_lock [116]
+                0.00    0.00   66226/70823       hmm_clear [126]
+                0.00    0.00      18/18          double_next_active [186]
+-----------------------------------------------
+                0.00    0.07     478/478         new_thrd_lextree_hmm_propagate [32]
+[31]     2.0    0.00    0.07     478         new_lextree_hmm_ppg_thrd_work [31]
+                0.04    0.03    2868/2868        lextree_hmm_ppg_thrd_work [30]
+-----------------------------------------------
+                0.00    0.07     478/478         utt_decode_block [4]
+[32]     2.0    0.00    0.07     478         new_thrd_lextree_hmm_propagate [32]
+                0.00    0.07     478/478         new_lextree_hmm_ppg_thrd_work [31]
+                0.00    0.00     478/4780        thread_barrier [148]
+-----------------------------------------------
+                                                 <spontaneous>
+[33]     2.0    0.07    0.00                 _IO_no_init [33]
+-----------------------------------------------
+                0.06    0.00  369057/369057      lextree_hmm_eval_thrd_work [18]
+[34]     1.7    0.06    0.00  369057         hmm_vit_eval_3st [34]
+-----------------------------------------------
+                0.06    0.00     479/479         fe_spec_magnitude [37]
+[35]     1.7    0.06    0.00     479         fe_fft [35]
+-----------------------------------------------
+                0.00    0.00       1/479         fe_end_utt [90]
+                0.00    0.06     478/479         fe_process_utt [40]
+[36]     1.7    0.00    0.06     479         fe_frame_to_fea [36]
+                0.00    0.06     479/479         fe_spec_magnitude [37]
+                0.00    0.00     479/479         fe_mel_spec [159]
+                0.00    0.00     479/479         fe_mel_cep [158]
+-----------------------------------------------
+                0.00    0.06     479/479         fe_frame_to_fea [36]
+[37]     1.7    0.00    0.06     479         fe_spec_magnitude [37]
+                0.06    0.00     479/479         fe_fft [35]
+-----------------------------------------------
+                                                 <spontaneous>
+[38]     1.7    0.06    0.00                 log [38]
+-----------------------------------------------
+                                                 <spontaneous>
+[39]     1.7    0.06    0.00                 pthread_mutex_trylock [39]
+-----------------------------------------------
+                0.00    0.06      39/39          live_utt_decode_block [3]
+[40]     1.7    0.00    0.06      39         fe_process_utt [40]
+                0.00    0.06     478/479         fe_frame_to_fea [36]
+                0.00    0.00     478/479         fe_hamming_window [157]
+                0.00    0.00      39/41          fe_create_2d [178]
+                0.00    0.00      39/40          fe_pre_emphasis [179]
+-----------------------------------------------
+                0.00    0.00       1/401122      mdef_init [21]
+                0.00    0.00      48/401122      parse_base_line [96]
+                0.00    0.00     573/401122      dict_ciphone_id [93]
+                0.01    0.05  400500/401122      parse_tri_line [27]
+[41]     1.7    0.01    0.05  401122         mdef_ciphone_id [41]
+                0.01    0.04  401122/401390      hash_lookup [44]
+-----------------------------------------------
+                0.00    0.00     106/1116375     lm_uw [107]
+                0.05    0.00 1116269/1116375     mgau_eval [7]
+[42]     1.4    0.05    0.00 1116375         logs3_add [42]
+-----------------------------------------------
+                                                 <spontaneous>
+[43]     1.4    0.05    0.00                 read [43]
+-----------------------------------------------
+                0.00    0.00      23/401390      cmd_ln_parse [99]
+                0.00    0.00      29/401390      dict_add_word [97]
+                0.00    0.00     105/401390      cmd_ln_access [103]
+                0.00    0.00     111/401390      dict_wordid [101]
+                0.01    0.04  401122/401390      mdef_ciphone_id [41]
+[44]     1.4    0.01    0.04  401390         hash_lookup [44]
+                0.03    0.00  401390/536895      key2hash [46]
+                0.01    0.00  401390/536895      lookup [84]
+-----------------------------------------------
+                                                 <spontaneous>
+[45]     1.2    0.04    0.00                 isnan [45]
+-----------------------------------------------
+                0.00    0.00     237/536895      hash_enter [95]
+                0.01    0.00  135268/536895      hash_enter_bkey [62]
+                0.03    0.00  401390/536895      hash_lookup [44]
+[46]     1.2    0.04    0.00  536895         key2hash [46]
+-----------------------------------------------
+                0.00    0.04       1/1           kbcore_init [17]
+[47]     1.2    0.00    0.04       1         mgau_init [47]
+                0.02    0.00       1/1           mgau_precomp [52]
+                0.01    0.00       1/1           mgau_var_floor [72]
+                0.00    0.01       1/1           mgau_mixw_read [85]
+                0.00    0.00       2/2           mgau_file_read [203]
+                0.00    0.00       1/502680      __ckd_calloc__ [1270]
+                0.00    0.00       1/1           mgau_uninit_compact [225]
+                0.00    0.00       1/4           logs3_to_log [195]
+-----------------------------------------------
+                0.03    0.00     478/478         thrd_scoring_phase [5]
+[48]     0.9    0.03    0.00     478         dict2pid_comsenscr_thrd_work [48]
+-----------------------------------------------
+                0.00    0.00      48/133548      parse_base_line [96]
+                0.02    0.00  133500/133548      parse_tri_line [27]
+[49]     0.6    0.02    0.00  133548         triphone_add [49]
+                0.00    0.00  138430/502680      __ckd_calloc__ [1270]
+                0.00    0.00  133500/181504      find_ph_lc [120]
+                0.00    0.00  133500/170512      find_ph_rc [121]
+-----------------------------------------------
+                0.01    0.01   14357/14357       lextree_hmm_ppg_thrd_work [30]
+[50]     0.6    0.01    0.01   14357         vithist_rescore [50]
+                0.01    0.00   94788/94788       vithist_enter [68]
+                0.00    0.00  258467/259268      lm_tg_score [119]
+                0.00    0.00   14357/27308       dict_filler_word [131]
+                0.00    0.00     998/999         fillpen [154]
+-----------------------------------------------
+                0.00    0.00       2/2699        utt_begin [98]
+                0.02    0.00    2697/2699        utt_word_trans [61]
+[51]     0.6    0.02    0.00    2699         lextree_enter [51]
+-----------------------------------------------
+                0.02    0.00       1/1           mgau_init [47]
+[52]     0.6    0.02    0.00       1         mgau_precomp [52]
+                0.00    0.00       1/146         _E__pr_info_header [1276]
+                0.00    0.00       1/146         _E__pr_info [1275]
+-----------------------------------------------
+                                                 <spontaneous>
+[53]     0.6    0.02    0.00                 memchr [53]
+-----------------------------------------------
+                                                 <spontaneous>
+[54]     0.6    0.02    0.00                 vsscanf [54]
+-----------------------------------------------
+                                                 <spontaneous>
+[55]     0.6    0.02    0.00                 write [55]
+-----------------------------------------------
+                                                 <spontaneous>
+[56]     0.6    0.02    0.00                 _IO_sputbackc [56]
+-----------------------------------------------
+                                                 <spontaneous>
+[57]     0.6    0.02    0.00                 __errno_location [57]
+-----------------------------------------------
+                                                 <spontaneous>
+[58]     0.6    0.02    0.00                 __mpn_lshift [58]
+-----------------------------------------------
+                                                 <spontaneous>
+[59]     0.6    0.02    0.00                 __pthread_internal_tsd_get [59]
+-----------------------------------------------
+                                                 <spontaneous>
+[60]     0.6    0.02    0.00                 __pthread_unlock [60]
+-----------------------------------------------
+                0.00    0.02     478/478         utt_decode_block [4]
+[61]     0.6    0.00    0.02     478         utt_word_trans [61]
+                0.02    0.00    2697/2699        lextree_enter [51]
+                0.00    0.00       1/105         cmd_ln_access [103]
+                0.00    0.00    9809/9809        vithist_id2entry [141]
+                0.00    0.00       2/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00    1720/135268      ssidlist2comsseq [89]
+                0.00    0.01  133548/135268      sseq_compress [63]
+[62]     0.4    0.00    0.01  135268         hash_enter_bkey [62]
+                0.01    0.00  135268/536895      key2hash [46]
+                0.00    0.00  135268/135505      enter [88]
+                0.00    0.00  135268/135268      makekey [122]
+-----------------------------------------------
+                0.00    0.01       1/1           mdef_init [21]
+[63]     0.4    0.00    0.01       1         sseq_compress [63]
+                0.00    0.01  133548/135268      hash_enter_bkey [62]
+                0.00    0.00       1/6           hash_new [187]
+                0.00    0.00       1/18          __ckd_calloc_2d__ [1277]
+                0.00    0.00       1/3           hash_tolist [198]
+                0.00    0.00       1/5267        glist_free [147]
+                0.00    0.00       1/43          ckd_free_2d [176]
+                0.00    0.00       1/3           hash_free [197]
+-----------------------------------------------
+                0.00    0.01       1/1           kbcore_init [17]
+[64]     0.3    0.00    0.01       1         dict2pid_build [64]
+                0.01    0.00      71/71          ldiph_comsseq [71]
+                0.00    0.00     873/50300       logs3 [69]
+                0.00    0.00     430/430         ssidlist2comsseq [89]
+                0.00    0.00    3724/3724        mdef_phone_id_nearest [150]
+                0.00    0.00     432/5267        glist_free [147]
+                0.00    0.00     288/288         single_lc_comsseq [168]
+                0.00    0.00      65/65          rdiph_comsseq [174]
+                0.00    0.00       9/502680      __ckd_calloc__ [1270]
+                0.00    0.00       6/6           single_comsseq [191]
+                0.00    0.00       3/18          __ckd_calloc_2d__ [1277]
+                0.00    0.00       2/146         _E__pr_info_header [1276]
+                0.00    0.00       2/146         _E__pr_info [1275]
+                0.00    0.00       2/6           hash_new [187]
+                0.00    0.00       2/43          ckd_free_2d [176]
+                0.00    0.00       2/3           hash_tolist [198]
+                0.00    0.00       2/3           hash_free [197]
+                0.00    0.00       1/3           __ckd_calloc_3d__ [1281]
+-----------------------------------------------
+                0.01    0.00       1/1           kbcore_init [17]
+[65]     0.3    0.01    0.00       1         lm_read [65]
+                0.00    0.00       1/1           lm_read_dump [105]
+                0.00    0.00       1/50300       logs3 [69]
+                0.00    0.00       1/105         cmd_ln_access [103]
+                0.00    0.00       1/146         _E__pr_info_header [1276]
+                0.00    0.00       1/146         _E__pr_info [1275]
+                0.00    0.00       1/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.01    0.00  456871/456871      lextree_hmm_ppg_thrd_work [30]
+[66]     0.3    0.01    0.00  456871         ln_unlock [66]
+-----------------------------------------------
+                0.01    0.00  133556/133556      mdef_init [21]
+[67]     0.3    0.01    0.00  133556         noncomment_line [67]
+-----------------------------------------------
+                0.01    0.00   94788/94788       vithist_rescore [50]
+[68]     0.3    0.01    0.00   94788         vithist_enter [68]
+                0.00    0.00   94788/94788       vh_lmstate_find [125]
+                0.00    0.00   17587/17590       vithist_entry_alloc [134]
+                0.00    0.00   17587/17587       vithist_lmstate_enter [138]
+-----------------------------------------------
+                0.00    0.00       1/50300       lm_set_param [112]
+                0.00    0.00       1/50300       lm_read [65]
+                0.00    0.00       3/50300       lm_uw [107]
+                0.00    0.00       4/50300       beam_init [110]
+                0.00    0.00       8/50300       fillpen_init [109]
+                0.00    0.00     282/50300       tmat_init [94]
+                0.00    0.00     873/50300       dict2pid_build [64]
+                0.01    0.00   49128/50300       mgau_mixw_read [85]
+[69]     0.3    0.01    0.00   50300         logs3 [69]
+-----------------------------------------------
+                0.01    0.00    2868/2868        sen_active_thrd_work [22]
+[70]     0.3    0.01    0.00    2868         lextree_ssid_active_thrd_work [70]
+-----------------------------------------------
+                0.01    0.00      71/71          dict2pid_build [64]
+[71]     0.3    0.01    0.00      71         ldiph_comsseq [71]
+                0.00    0.00    3408/37900       mdef_phone_id [129]
+                0.00    0.00    3408/29023       glist_chkdup_int32 [130]
+                0.00    0.00    1496/17948       glist_add_int32 [133]
+-----------------------------------------------
+                0.01    0.00       1/1           mgau_init [47]
+[72]     0.3    0.01    0.00       1         mgau_var_floor [72]
+                0.00    0.00       2/146         _E__pr_info_header [1276]
+                0.00    0.00       2/146         _E__pr_info [1275]
+-----------------------------------------------
+                                                 <spontaneous>
+[73]     0.3    0.01    0.00                 fgets [73]
+-----------------------------------------------
+                                                 <spontaneous>
+[74]     0.3    0.01    0.00                 memset [74]
+-----------------------------------------------
+                                                 <spontaneous>
+[75]     0.3    0.01    0.00                 pthread_mutex_unlock [75]
+-----------------------------------------------
+                                                 <spontaneous>
+[76]     0.3    0.01    0.00                 str_to_mpn [76]
+-----------------------------------------------
+                                                 <spontaneous>
+[77]     0.3    0.01    0.00                 __pthread_alt_lock [77]
+-----------------------------------------------
+                                                 <spontaneous>
+[78]     0.3    0.01    0.00                 __pthread_alt_unlock [78]
+-----------------------------------------------
+                                                 <spontaneous>
+[79]     0.3    0.01    0.00                 __pthread_fork [79]
+-----------------------------------------------
+                                                 <spontaneous>
+[80]     0.3    0.01    0.00                 __pthread_lock [80]
+-----------------------------------------------
+                                                 <spontaneous>
+[81]     0.3    0.01    0.00                 _int_free [81]
+-----------------------------------------------
+                                                 <spontaneous>
+[82]     0.3    0.01    0.00                 _int_malloc [82]
+-----------------------------------------------
+                                                 <spontaneous>
+[83]     0.3    0.01    0.00                 _pthread_cleanup_push_defer [83]
+-----------------------------------------------
+                0.00    0.00  135505/536895      enter [88]
+                0.01    0.00  401390/536895      hash_lookup [44]
+[84]     0.3    0.01    0.00  536895         lookup [84]
+                0.00    0.00  401208/401208      keycmp_nocase [117]
+                0.00    0.00  112625/112625      keycmp_case [124]
+-----------------------------------------------
+                0.00    0.01       1/1           mgau_init [47]
+[85]     0.3    0.00    0.01       1         mgau_mixw_read [85]
+                0.01    0.00   49128/50300       logs3 [69]
+                0.00    0.00    6148/6212        bio_fread [144]
+                0.00    0.00    6144/55296       vector_is_zero [128]
+                0.00    0.00    6141/6285        vector_nz_floor [143]
+                0.00    0.00    6141/6429        vector_sum_norm [142]
+                0.00    0.00       2/146         _E__pr_info_header [1276]
+                0.00    0.00       2/146         _E__pr_info [1275]
+                0.00    0.00       2/502680      __ckd_calloc__ [1270]
+                0.00    0.00       1/4           _myfopen [1280]
+                0.00    0.00       1/4           bio_readhdr [193]
+                0.00    0.00       1/4           bio_hdrarg_free [192]
+                0.00    0.00       1/4           _E__pr_header [1278]
+                0.00    0.00       1/4           _E__pr_warn [1279]
+                0.00    0.00       1/4           bio_verify_chksum [194]
+-----------------------------------------------
+                                                 <spontaneous>
+[86]     0.1    0.01    0.00                 P2D0 [86]
+-----------------------------------------------
+                                                 <spontaneous>
+[87]     0.1    0.01    0.00                 P2D1 [87]
+-----------------------------------------------
+                0.00    0.00     237/135505      hash_enter [95]
+                0.00    0.00  135268/135505      hash_enter_bkey [62]
+[88]     0.1    0.00    0.00  135505         enter [88]
+                0.00    0.00  135505/536895      lookup [84]
+                0.00    0.00    2686/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00     430/430         dict2pid_build [64]
+[89]     0.0    0.00    0.00     430         ssidlist2comsseq [89]
+                0.00    0.00    1720/135268      hash_enter_bkey [62]
+                0.00    0.00    2150/502680      __ckd_calloc__ [1270]
+                0.00    0.00     430/430         glist_count [167]
+-----------------------------------------------
+                0.00    0.00       1/1           live_utt_decode_block [3]
+[90]     0.0    0.00    0.00       1         fe_end_utt [90]
+                0.00    0.00       1/479         fe_frame_to_fea [36]
+                0.00    0.00       1/40          fe_pre_emphasis [179]
+                0.00    0.00       1/479         fe_hamming_window [157]
+-----------------------------------------------
+                0.00    0.00       1/1           kbcore_init [17]
+[91]     0.0    0.00    0.00       1         dict_init [91]
+                0.00    0.00       2/2           dict_read [92]
+                0.00    0.00       3/111         dict_wordid [101]
+                0.00    0.00       4/146         _E__pr_info_header [1276]
+                0.00    0.00       4/146         _E__pr_info [1275]
+                0.00    0.00       2/502680      __ckd_calloc__ [1270]
+                0.00    0.00       1/6           hash_new [187]
+-----------------------------------------------
+                0.00    0.00       2/2           dict_init [91]
+[92]     0.0    0.00    0.00       2         dict_read [92]
+                0.00    0.00     573/573         dict_ciphone_id [93]
+                0.00    0.00     133/133         dict_add_word [97]
+                0.00    0.00     133/133         str2words [173]
+                0.00    0.00       2/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00     573/573         dict_read [92]
+[93]     0.0    0.00    0.00     573         dict_ciphone_id [93]
+                0.00    0.00     573/401122      mdef_ciphone_id [41]
+-----------------------------------------------
+                0.00    0.00       1/1           kbcore_init [17]
+[94]     0.0    0.00    0.00       1         tmat_init [94]
+                0.00    0.00     282/50300       logs3 [69]
+                0.00    0.00     288/6429        vector_sum_norm [142]
+                0.00    0.00     144/6285        vector_nz_floor [143]
+                0.00    0.00      52/6212        bio_fread [144]
+                0.00    0.00       3/4           _E__pr_header [1278]
+                0.00    0.00       3/4           _E__pr_warn [1279]
+                0.00    0.00       2/146         _E__pr_info_header [1276]
+                0.00    0.00       2/146         _E__pr_info [1275]
+                0.00    0.00       1/502680      __ckd_calloc__ [1270]
+                0.00    0.00       1/4           bio_readhdr [193]
+                0.00    0.00       1/4           bio_hdrarg_free [192]
+                0.00    0.00       1/3           __ckd_calloc_3d__ [1281]
+                0.00    0.00       1/18          __ckd_calloc_2d__ [1277]
+                0.00    0.00       1/43          ckd_free_2d [176]
+                0.00    0.00       1/4           bio_verify_chksum [194]
+                0.00    0.00       1/1           tmat_chk_uppertri [232]
+-----------------------------------------------
+                0.00    0.00      48/237         ciphone_add [108]
+                0.00    0.00      56/237         cmd_ln_parse [99]
+                0.00    0.00     133/237         dict_add_word [97]
+[95]     0.0    0.00    0.00     237         hash_enter [95]
+                0.00    0.00     237/536895      key2hash [46]
+                0.00    0.00     237/135505      enter [88]
+-----------------------------------------------
+                0.00    0.00      48/48          mdef_init [21]
+[96]     0.0    0.00    0.00      48         parse_base_line [96]
+                0.00    0.00      48/133548      triphone_add [49]
+                0.00    0.00      48/401122      mdef_ciphone_id [41]
+                0.00    0.00      48/48          ciphone_add [108]
+                0.00    0.00      48/133548      parse_tmat_senmap [123]
+-----------------------------------------------
+                0.00    0.00     133/133         dict_read [92]
+[97]     0.0    0.00    0.00     133         dict_add_word [97]
+                0.00    0.00     133/237         hash_enter [95]
+                0.00    0.00      29/401390      hash_lookup [44]
+                0.00    0.00     133/306         __ckd_salloc__ [1274]
+                0.00    0.00     133/463         __ckd_malloc__ [1273]
+                0.00    0.00     133/133         dict_word2basestr [172]
+-----------------------------------------------
+                0.00    0.00       1/1           live_utt_decode_block [3]
+[98]     0.0    0.00    0.00       1         utt_begin [98]
+                0.00    0.00       2/2699        lextree_enter [51]
+                0.00    0.00       1/1           vithist_utt_begin [235]
+                0.00    0.00       1/479         kb_lextree_active_swap [160]
+                0.00    0.00       1/1           threading_support_init [230]
+-----------------------------------------------
+                0.00    0.00       1/1           parse_args_file [100]
+[99]     0.0    0.00    0.00       1         cmd_ln_parse [99]
+                0.00    0.00       1/1           arg_dump [104]
+                0.00    0.00      56/237         hash_enter [95]
+                0.00    0.00      23/401390      hash_lookup [44]
+                0.00    0.00      56/56          arg_str2val [175]
+                0.00    0.00       1/146         _E__pr_info_header [1276]
+                0.00    0.00       1/146         _E__pr_info [1275]
+                0.00    0.00       1/6           hash_new [187]
+                0.00    0.00       1/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00       1/1           live_initialize_decoder [15]
+[100]    0.0    0.00    0.00       1         parse_args_file [100]
+                0.00    0.00       1/1           cmd_ln_parse [99]
+                0.00    0.00       1/502680      __ckd_calloc__ [1270]
+                0.00    0.00       1/18          __ckd_calloc_2d__ [1277]
+-----------------------------------------------
+                0.00    0.00       1/111         fillpen_init [109]
+                0.00    0.00       3/111         dict_init [91]
+                0.00    0.00     107/111         wid_dict_lm_map [102]
+[101]    0.0    0.00    0.00     111         dict_wordid [101]
+                0.00    0.00     111/401390      hash_lookup [44]
+-----------------------------------------------
+                0.00    0.00       1/1           kbcore_init [17]
+[102]    0.0    0.00    0.00       1         wid_dict_lm_map [102]
+                0.00    0.00     107/111         dict_wordid [101]
+                0.00    0.00     101/27308       dict_filler_word [131]
+                0.00    0.00       1/502680      __ckd_calloc__ [1270]
+                0.00    0.00       1/146         _E__pr_info_header [1276]
+                0.00    0.00       1/146         _E__pr_info [1275]
+-----------------------------------------------
+                0.00    0.00       1/105         logs3_init [113]
+                0.00    0.00       1/105         subvq_init [114]
+                0.00    0.00       1/105         lm_read [65]
+                0.00    0.00       1/105         utt_word_trans [61]
+                0.00    0.00       2/105         utt_end [111]
+                0.00    0.00      11/105         live_initialize_decoder [15]
+                0.00    0.00      32/105         kb_init [16]
+                0.00    0.00      56/105         arg_dump [104]
+[103]    0.0    0.00    0.00     105         cmd_ln_access [103]
+                0.00    0.00     105/401390      hash_lookup [44]
+-----------------------------------------------
+                0.00    0.00       1/1           cmd_ln_parse [99]
+[104]    0.0    0.00    0.00       1         arg_dump [104]
+                0.00    0.00      56/105         cmd_ln_access [103]
+                0.00    0.00       1/1           arg_strlen [208]
+                0.00    0.00       1/1           arg_sort [207]
+-----------------------------------------------
+                0.00    0.00       1/1           lm_read [65]
+[105]    0.0    0.00    0.00       1         lm_read_dump [105]
+                0.00    0.00       1/1           lm2logs3 [106]
+                0.00    0.00       1/1           lm_set_param [112]
+                0.00    0.00     107/306         __ckd_salloc__ [1274]
+                0.00    0.00      34/34          lm_fread_int32 [185]
+                0.00    0.00       6/502680      __ckd_calloc__ [1270]
+                0.00    0.00       4/146         _E__pr_info_header [1276]
+                0.00    0.00       4/146         _E__pr_info [1275]
+-----------------------------------------------
+                0.00    0.00       1/1           lm_read_dump [105]
+[106]    0.0    0.00    0.00       1         lm2logs3 [106]
+                0.00    0.00       1/1           lm_uw [107]
+                0.00    0.00     216/216         log10_to_logs3 [171]
+-----------------------------------------------
+                0.00    0.00       1/1           lm2logs3 [106]
+[107]    0.0    0.00    0.00       1         lm_uw [107]
+                0.00    0.00     106/1116375     logs3_add [42]
+                0.00    0.00       3/50300       logs3 [69]
+-----------------------------------------------
+                0.00    0.00      48/48          parse_base_line [96]
+[108]    0.0    0.00    0.00      48         ciphone_add [108]
+                0.00    0.00      48/237         hash_enter [95]
+                0.00    0.00      48/306         __ckd_salloc__ [1274]
+-----------------------------------------------
+                0.00    0.00       1/1           kbcore_init [17]
+[109]    0.0    0.00    0.00       1         fillpen_init [109]
+                0.00    0.00       8/50300       logs3 [69]
+                0.00    0.00       1/111         dict_wordid [101]
+                0.00    0.00       2/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00       1/1           kb_init [16]
+[110]    0.0    0.00    0.00       1         beam_init [110]
+                0.00    0.00       4/50300       logs3 [69]
+                0.00    0.00       1/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00       1/1           live_utt_decode_block [3]
+[111]    0.0    0.00    0.00       1         utt_end [111]
+                0.00    0.00       2/105         cmd_ln_access [103]
+                0.00    0.00      18/27308       dict_filler_word [131]
+                0.00    0.00       6/6           lextree_utt_end [189]
+                0.00    0.00       2/146         _E__pr_info_header [1276]
+                0.00    0.00       2/146         _E__pr_info [1275]
+                0.00    0.00       2/2           ptmr_reset [205]
+                0.00    0.00       1/2           vithist_utt_end [206]
+                0.00    0.00       1/40          vithist_backtrace [180]
+                0.00    0.00       1/1           matchseg_write [224]
+                0.00    0.00       1/5267        glist_free [147]
+                0.00    0.00       1/1           vithist_utt_reset [236]
+                0.00    0.00       1/1           lm_cache_stats_dump [221]
+                0.00    0.00       1/1           lm_cache_reset [220]
+-----------------------------------------------
+                0.00    0.00       1/1           lm_read_dump [105]
+[112]    0.0    0.00    0.00       1         lm_set_param [112]
+                0.00    0.00       1/50300       logs3 [69]
+-----------------------------------------------
+                0.00    0.00       1/1           kbcore_init [17]
+[113]    0.0    0.00    0.00       1         logs3_init [113]
+                0.00    0.00       1/105         cmd_ln_access [103]
+                0.00    0.00       2/146         _E__pr_info_header [1276]
+                0.00    0.00       2/146         _E__pr_info [1275]
+                0.00    0.00       1/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00       1/1           kbcore_init [17]
+[114]    0.0    0.00    0.00       1         subvq_init [114]
+                0.00    0.00       1/105         cmd_ln_access [103]
+                0.00    0.00      15/146         _E__pr_info_header [1276]
+                0.00    0.00      15/146         _E__pr_info [1275]
+                0.00    0.00      14/502680      __ckd_calloc__ [1270]
+                0.00    0.00       3/3           vector_gautbl_alloc [199]
+                0.00    0.00       1/4           _myfopen [1280]
+                0.00    0.00       1/3           __ckd_calloc_3d__ [1281]
+                0.00    0.00       1/1           subvq_maha_precomp [226]
+                0.00    0.00       1/1           subvq_map_compact [227]
+                0.00    0.00       1/1           subvq_map_linearize [228]
+                0.00    0.00       1/18          __ckd_calloc_2d__ [1277]
+-----------------------------------------------
+                0.00    0.00    1434/700446      vector_gautbl_eval_logs3 [9]
+                0.00    0.00  699012/700446      mgau_eval [7]
+[115]    0.0    0.00    0.00  700446         log_to_logs3_factor [115]
+-----------------------------------------------
+                0.00    0.00  456871/456871      lextree_hmm_ppg_thrd_work [30]
+[116]    0.0    0.00    0.00  456871         ln_lock [116]
+-----------------------------------------------
+                0.00    0.00  401208/401208      lookup [84]
+[117]    0.0    0.00    0.00  401208         keycmp_nocase [117]
+-----------------------------------------------
+                0.00    0.00  259268/259268      lm_tg_score [119]
+[118]    0.0    0.00    0.00  259268         lm_bg_score [118]
+                0.00    0.00    1581/1581        find_bg [152]
+                0.00    0.00       1/1           load_bg [223]
+-----------------------------------------------
+                0.00    0.00       2/259268      vithist_utt_end [206]
+                0.00    0.00     799/259268      vithist_partialutt_end [184]
+                0.00    0.00  258467/259268      vithist_rescore [50]
+[119]    0.0    0.00    0.00  259268         lm_tg_score [119]
+                0.00    0.00  259268/259268      lm_bg_score [118]
+-----------------------------------------------
+                0.00    0.00   48004/181504      mdef_phone_id [129]
+                0.00    0.00  133500/181504      triphone_add [49]
+[120]    0.0    0.00    0.00  181504         find_ph_lc [120]
+-----------------------------------------------
+                0.00    0.00   37012/170512      mdef_phone_id [129]
+                0.00    0.00  133500/170512      triphone_add [49]
+[121]    0.0    0.00    0.00  170512         find_ph_rc [121]
+-----------------------------------------------
+                0.00    0.00  135268/135268      hash_enter_bkey [62]
+[122]    0.0    0.00    0.00  135268         makekey [122]
+                0.00    0.00  135268/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00      48/133548      parse_base_line [96]
+                0.00    0.00  133500/133548      parse_tri_line [27]
+[123]    0.0    0.00    0.00  133548         parse_tmat_senmap [123]
+-----------------------------------------------
+                0.00    0.00  112625/112625      lookup [84]
+[124]    0.0    0.00    0.00  112625         keycmp_case [124]
+-----------------------------------------------
+                0.00    0.00   94788/94788       vithist_enter [68]
+[125]    0.0    0.00    0.00   94788         vh_lmstate_find [125]
+-----------------------------------------------
+                0.00    0.00     310/70823       lextree_utt_end [189]
+                0.00    0.00    4287/70823       lextree_node_alloc [149]
+                0.00    0.00   66226/70823       lextree_hmm_ppg_thrd_work [30]
+[126]    0.0    0.00    0.00   70823         hmm_clear [126]
+-----------------------------------------------
+                0.00    0.00     343/63787       vithist_backtrace [180]
+                0.00    0.00   12021/63787       lextree_build [188]
+                0.00    0.00   17587/63787       vithist_lmstate_enter [138]
+                0.00    0.00   33836/63787       hash_tolist [198]
+[127]    0.0    0.00    0.00   63787         glist_add_ptr [127]
+                0.00    0.00   63787/103609      __mymalloc__ [1271]
+-----------------------------------------------
+                0.00    0.00    6144/55296       mgau_mixw_read [85]
+                0.00    0.00   49152/55296       mgau_uninit_compact [225]
+[128]    0.0    0.00    0.00   55296         vector_is_zero [128]
+-----------------------------------------------
+                               10104             mdef_phone_id [129]
+                0.00    0.00    3120/37900       rdiph_comsseq [174]
+                0.00    0.00    3408/37900       ldiph_comsseq [71]
+                0.00    0.00    3724/37900       mdef_phone_id_nearest [150]
+                0.00    0.00   13824/37900       single_comsseq [191]
+                0.00    0.00   13824/37900       single_lc_comsseq [168]
+[129]    0.0    0.00    0.00   37900+10104   mdef_phone_id [129]
+                0.00    0.00   48004/181504      find_ph_lc [120]
+                0.00    0.00   37012/170512      find_ph_rc [121]
+                               10104             mdef_phone_id [129]
+-----------------------------------------------
+                0.00    0.00    3055/29023       rdiph_comsseq [174]
+                0.00    0.00    3408/29023       ldiph_comsseq [71]
+                0.00    0.00   11280/29023       single_comsseq [191]
+                0.00    0.00   11280/29023       single_lc_comsseq [168]
+[130]    0.0    0.00    0.00   29023         glist_chkdup_int32 [130]
+-----------------------------------------------
+                0.00    0.00       3/27308       kb_init [16]
+                0.00    0.00      18/27308       utt_end [111]
+                0.00    0.00     101/27308       wid_dict_lm_map [102]
+                0.00    0.00   12829/27308       vithist_prune [166]
+                0.00    0.00   14357/27308       vithist_rescore [50]
+[131]    0.0    0.00    0.00   27308         dict_filler_word [131]
+-----------------------------------------------
+                0.00    0.00    4906/18213       heap_destroy [162]
+                0.00    0.00   13307/18213       vithist_prune [166]
+[132]    0.0    0.00    0.00   18213         heap_pop [132]
+                0.00    0.00   17587/17587       subheap_pop [137]
+-----------------------------------------------
+                0.00    0.00    1496/17948       ldiph_comsseq [71]
+                0.00    0.00    1743/17948       rdiph_comsseq [174]
+                0.00    0.00    3594/17948       single_comsseq [191]
+                0.00    0.00    4315/17948       vithist_lmstate_enter [138]
+                0.00    0.00    6800/17948       single_lc_comsseq [168]
+[133]    0.0    0.00    0.00   17948         glist_add_int32 [133]
+                0.00    0.00   17948/103609      __mymalloc__ [1271]
+-----------------------------------------------
+                0.00    0.00       1/17590       vithist_utt_begin [235]
+                0.00    0.00       2/17590       vithist_utt_end [206]
+                0.00    0.00   17587/17590       vithist_enter [68]
+[134]    0.0    0.00    0.00   17590         vithist_entry_alloc [134]
+                0.00    0.00       1/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00   17587/17587       vithist_prune [166]
+[135]    0.0    0.00    0.00   17587         heap_insert [135]
+                0.00    0.00   17587/17587       subheap_insert [136]
+-----------------------------------------------
+                               72922             subheap_insert [136]
+                0.00    0.00   17587/17587       heap_insert [135]
+[136]    0.0    0.00    0.00   17587+72922   subheap_insert [136]
+                0.00    0.00   17587/103609      __mymalloc__ [1271]
+                               72922             subheap_insert [136]
+-----------------------------------------------
+                               72922             subheap_pop [137]
+                0.00    0.00   17587/17587       heap_pop [132]
+[137]    0.0    0.00    0.00   17587+72922   subheap_pop [137]
+                0.00    0.00   17587/87301       __myfree__ [1272]
+                               72922             subheap_pop [137]
+-----------------------------------------------
+                0.00    0.00   17587/17587       vithist_enter [68]
+[138]    0.0    0.00    0.00   17587         vithist_lmstate_enter [138]
+                0.00    0.00   21902/502680      __ckd_calloc__ [1270]
+                0.00    0.00   17587/63787       glist_add_ptr [127]
+                0.00    0.00    4315/17948       glist_add_int32 [133]
+-----------------------------------------------
+                0.00    0.00   12288/12288       vector_gautbl_var_floor [201]
+[139]    0.0    0.00    0.00   12288         vector_floor [139]
+-----------------------------------------------
+                0.00    0.00   12288/12288       vector_gautbl_maha_precomp [200]
+[140]    0.0    0.00    0.00   12288         vector_maha_precomp [140]
+-----------------------------------------------
+                0.00    0.00    9809/9809        utt_word_trans [61]
+[141]    0.0    0.00    0.00    9809         vithist_id2entry [141]
+-----------------------------------------------
+                0.00    0.00     288/6429        tmat_init [94]
+                0.00    0.00    6141/6429        mgau_mixw_read [85]
+[142]    0.0    0.00    0.00    6429         vector_sum_norm [142]
+-----------------------------------------------
+                0.00    0.00     144/6285        tmat_init [94]
+                0.00    0.00    6141/6285        mgau_mixw_read [85]
+[143]    0.0    0.00    0.00    6285         vector_nz_floor [143]
+-----------------------------------------------
+                0.00    0.00      12/6212        mgau_file_read [203]
+                0.00    0.00      52/6212        tmat_init [94]
+                0.00    0.00    6148/6212        mgau_mixw_read [85]
+[144]    0.0    0.00    0.00    6212         bio_fread [144]
+                0.00    0.00    6212/6212        chksum_accum [145]
+-----------------------------------------------
+                0.00    0.00    6212/6212        bio_fread [144]
+[145]    0.0    0.00    0.00    6212         chksum_accum [145]
+-----------------------------------------------
+                0.00    0.00    2868/5736        ptmr_start [155]
+                0.00    0.00    2868/5736        ptmr_stop [156]
+[146]    0.0    0.00    0.00    5736         make_sec [146]
+-----------------------------------------------
+                0.00    0.00       1/5267        sseq_compress [63]
+                0.00    0.00       1/5267        utt_end [111]
+                0.00    0.00      39/5267        live_get_partialhyp [183]
+                0.00    0.00     432/5267        dict2pid_build [64]
+                0.00    0.00    4794/5267        vithist_lmstate_reset [161]
+[147]    0.0    0.00    0.00    5267         glist_free [147]
+                0.00    0.00   69714/87301       __myfree__ [1272]
+-----------------------------------------------
+                0.00    0.00     478/4780        frame_eval_thrd_work [6]
+                0.00    0.00     478/4780        thrd_sen_active_phase [23]
+                0.00    0.00     478/4780        new_thrd_lextree_hmm_propagate [32]
+                0.00    0.00     956/4780        sen_active_thrd_work [22]
+                0.00    0.00     956/4780        new_thrd_lextree_hmm_eval [20]
+                0.00    0.00    1434/4780        thrd_scoring_phase [5]
+[148]    0.0    0.00    0.00    4780         thread_barrier [148]
+-----------------------------------------------
+                0.00    0.00    4287/4287        lextree_build [188]
+[149]    0.0    0.00    0.00    4287         lextree_node_alloc [149]
+                0.00    0.00    4287/103609      __mymalloc__ [1271]
+                0.00    0.00    4287/502680      __ckd_calloc__ [1270]
+                0.00    0.00    4287/70823       hmm_clear [126]
+-----------------------------------------------
+                0.00    0.00    3724/3724        dict2pid_build [64]
+[150]    0.0    0.00    0.00    3724         mdef_phone_id_nearest [150]
+                0.00    0.00    3724/37900       mdef_phone_id [129]
+-----------------------------------------------
+                0.00    0.00    2874/2874        kb_lextree_active_swap [160]
+[151]    0.0    0.00    0.00    2874         lextree_active_swap [151]
+-----------------------------------------------
+                0.00    0.00    1581/1581        lm_bg_score [118]
+[152]    0.0    0.00    0.00    1581         find_bg [152]
+-----------------------------------------------
+                0.00    0.00    1527/1527        lextree_build [188]
+[153]    0.0    0.00    0.00    1527         glist_chkdup_ptr [153]
+-----------------------------------------------
+                0.00    0.00       1/999         kb_init [16]
+                0.00    0.00     998/999         vithist_rescore [50]
+[154]    0.0    0.00    0.00     999         fillpen [154]
+-----------------------------------------------
+                0.00    0.00     956/956         utt_decode_block [4]
+[155]    0.0    0.00    0.00     956         ptmr_start [155]
+                0.00    0.00    2868/5736        make_sec [146]
+-----------------------------------------------
+                0.00    0.00     956/956         utt_decode_block [4]
+[156]    0.0    0.00    0.00     956         ptmr_stop [156]
+                0.00    0.00    2868/5736        make_sec [146]
+-----------------------------------------------
+                0.00    0.00       1/479         fe_end_utt [90]
+                0.00    0.00     478/479         fe_process_utt [40]
+[157]    0.0    0.00    0.00     479         fe_hamming_window [157]
+-----------------------------------------------
+                0.00    0.00     479/479         fe_frame_to_fea [36]
+[158]    0.0    0.00    0.00     479         fe_mel_cep [158]
+-----------------------------------------------
+                0.00    0.00     479/479         fe_frame_to_fea [36]
+[159]    0.0    0.00    0.00     479         fe_mel_spec [159]
+-----------------------------------------------
+                0.00    0.00       1/479         utt_begin [98]
+                0.00    0.00     478/479         utt_decode_block [4]
+[160]    0.0    0.00    0.00     479         kb_lextree_active_swap [160]
+                0.00    0.00    2874/2874        lextree_active_swap [151]
+-----------------------------------------------
+                0.00    0.00       1/479         vithist_utt_reset [236]
+                0.00    0.00     478/479         vithist_frame_windup [165]
+[161]    0.0    0.00    0.00     479         vithist_lmstate_reset [161]
+                0.00    0.00    4794/5267        glist_free [147]
+-----------------------------------------------
+                0.00    0.00     478/478         vithist_prune [166]
+[162]    0.0    0.00    0.00     478         heap_destroy [162]
+                0.00    0.00    4906/18213       heap_pop [132]
+-----------------------------------------------
+                0.00    0.00     478/478         vithist_prune [166]
+[163]    0.0    0.00    0.00     478         heap_new [163]
+                0.00    0.00     478/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00     478/478         vithist_prune [166]
+[164]    0.0    0.00    0.00     478         vithist_frame_gc [164]
+-----------------------------------------------
+                0.00    0.00     478/478         utt_decode_block [4]
+[165]    0.0    0.00    0.00     478         vithist_frame_windup [165]
+                0.00    0.00     478/479         vithist_lmstate_reset [161]
+-----------------------------------------------
+                0.00    0.00     478/478         utt_decode_block [4]
+[166]    0.0    0.00    0.00     478         vithist_prune [166]
+                0.00    0.00   17587/17587       heap_insert [135]
+                0.00    0.00   13307/18213       heap_pop [132]
+                0.00    0.00   12829/27308       dict_filler_word [131]
+                0.00    0.00     478/478         heap_new [163]
+                0.00    0.00     478/502680      __ckd_calloc__ [1270]
+                0.00    0.00     478/478         heap_destroy [162]
+                0.00    0.00     478/478         vithist_frame_gc [164]
+-----------------------------------------------
+                0.00    0.00     430/430         ssidlist2comsseq [89]
+[167]    0.0    0.00    0.00     430         glist_count [167]
+-----------------------------------------------
+                0.00    0.00     288/288         dict2pid_build [64]
+[168]    0.0    0.00    0.00     288         single_lc_comsseq [168]
+                0.00    0.00   13824/37900       mdef_phone_id [129]
+                0.00    0.00   11280/29023       glist_chkdup_int32 [130]
+                0.00    0.00    6800/17948       glist_add_int32 [133]
+-----------------------------------------------
+                0.00    0.00     260/260         msort_with_tmp [970]
+[169]    0.0    0.00    0.00     260         cmp_name [169]
+                0.00    0.00     260/260         strcmp_nocase [170]
+-----------------------------------------------
+                0.00    0.00     260/260         cmp_name [169]
+[170]    0.0    0.00    0.00     260         strcmp_nocase [170]
+-----------------------------------------------
+                0.00    0.00     216/216         lm2logs3 [106]
+[171]    0.0    0.00    0.00     216         log10_to_logs3 [171]
+-----------------------------------------------
+                0.00    0.00     133/133         dict_add_word [97]
+[172]    0.0    0.00    0.00     133         dict_word2basestr [172]
+-----------------------------------------------
+                0.00    0.00     133/133         dict_read [92]
+[173]    0.0    0.00    0.00     133         str2words [173]
+-----------------------------------------------
+                0.00    0.00      65/65          dict2pid_build [64]
+[174]    0.0    0.00    0.00      65         rdiph_comsseq [174]
+                0.00    0.00    3120/37900       mdef_phone_id [129]
+                0.00    0.00    3055/29023       glist_chkdup_int32 [130]
+                0.00    0.00    1743/17948       glist_add_int32 [133]
+-----------------------------------------------
+                0.00    0.00      56/56          cmd_ln_parse [99]
+[175]    0.0    0.00    0.00      56         arg_str2val [175]
+-----------------------------------------------
+                0.00    0.00       1/43          sseq_compress [63]
+                0.00    0.00       1/43          tmat_init [94]
+                0.00    0.00       2/43          dict2pid_build [64]
+                0.00    0.00      39/43          live_utt_decode_block [3]
+[176]    0.0    0.00    0.00      43         ckd_free_2d [176]
+-----------------------------------------------
+                0.00    0.00      42/42          fe_build_melfilters [210]
+[177]    0.0    0.00    0.00      42         fe_melinv [177]
+-----------------------------------------------
+                0.00    0.00       1/41          fe_build_melfilters [210]
+                0.00    0.00       1/41          fe_compute_melcosine [211]
+                0.00    0.00      39/41          fe_process_utt [40]
+[178]    0.0    0.00    0.00      41         fe_create_2d [178]
+-----------------------------------------------
+                0.00    0.00       1/40          fe_end_utt [90]
+                0.00    0.00      39/40          fe_process_utt [40]
+[179]    0.0    0.00    0.00      40         fe_pre_emphasis [179]
+-----------------------------------------------
+                0.00    0.00       1/40          utt_end [111]
+                0.00    0.00      39/40          live_get_partialhyp [183]
+[180]    0.0    0.00    0.00      40         vithist_backtrace [180]
+                0.00    0.00     343/502680      __ckd_calloc__ [1270]
+                0.00    0.00     343/63787       glist_add_ptr [127]
+-----------------------------------------------
+                0.00    0.00      39/39          feat_s2mfc2feat_block [182]
+[181]    0.0    0.00    0.00      39         cmn_prior [181]
+                0.00    0.00       2/502680      __ckd_calloc__ [1270]
+                0.00    0.00       1/146         _E__pr_info_header [1276]
+                0.00    0.00       1/146         _E__pr_info [1275]
+-----------------------------------------------
+                0.00    0.00      39/39          live_utt_decode_block [3]
+[182]    0.0    0.00    0.00      39         feat_s2mfc2feat_block [182]
+                0.00    0.00      39/39          cmn_prior [181]
+                0.00    0.00       2/18          __ckd_calloc_2d__ [1277]
+                0.00    0.00       1/146         _E__pr_info_header [1276]
+                0.00    0.00       1/146         _E__pr_info [1275]
+-----------------------------------------------
+                0.00    0.00      39/39          live_utt_decode_block [3]
+[183]    0.0    0.00    0.00      39         live_get_partialhyp [183]
+                0.00    0.00      39/40          vithist_backtrace [180]
+                0.00    0.00      39/5267        glist_free [147]
+                0.00    0.00      38/38          vithist_partialutt_end [184]
+                0.00    0.00       1/2           vithist_utt_end [206]
+-----------------------------------------------
+                0.00    0.00      38/38          live_get_partialhyp [183]
+[184]    0.0    0.00    0.00      38         vithist_partialutt_end [184]
+                0.00    0.00     799/259268      lm_tg_score [119]
+-----------------------------------------------
+                0.00    0.00      34/34          lm_read_dump [105]
+[185]    0.0    0.00    0.00      34         lm_fread_int32 [185]
+-----------------------------------------------
+                0.00    0.00      18/18          lextree_hmm_ppg_thrd_work [30]
+[186]    0.0    0.00    0.00      18         double_next_active [186]
+-----------------------------------------------
+                0.00    0.00       1/6           cmd_ln_parse [99]
+                0.00    0.00       1/6           sseq_compress [63]
+                0.00    0.00       1/6           mdef_init [21]
+                0.00    0.00       1/6           dict_init [91]
+                0.00    0.00       2/6           dict2pid_build [64]
+[187]    0.0    0.00    0.00       6         hash_new [187]
+                0.00    0.00      12/502680      __ckd_calloc__ [1270]
+                0.00    0.00       6/6           prime_size [190]
+-----------------------------------------------
+                0.00    0.00       6/6           kb_init [16]
+[188]    0.0    0.00    0.00       6         lextree_build [188]
+                0.00    0.00  195873/502680      __ckd_calloc__ [1270]
+                0.00    0.00   12021/63787       glist_add_ptr [127]
+                0.00    0.00    4287/4287        lextree_node_alloc [149]
+                0.00    0.00    1527/1527        glist_chkdup_ptr [153]
+-----------------------------------------------
+                0.00    0.00       6/6           utt_end [111]
+[189]    0.0    0.00    0.00       6         lextree_utt_end [189]
+                0.00    0.00     310/70823       hmm_clear [126]
+-----------------------------------------------
+                0.00    0.00       6/6           hash_new [187]
+[190]    0.0    0.00    0.00       6         prime_size [190]
+-----------------------------------------------
+                0.00    0.00       6/6           dict2pid_build [64]
+[191]    0.0    0.00    0.00       6         single_comsseq [191]
+                0.00    0.00   13824/37900       mdef_phone_id [129]
+                0.00    0.00   11280/29023       glist_chkdup_int32 [130]
+                0.00    0.00    3594/17948       glist_add_int32 [133]
+-----------------------------------------------
+                0.00    0.00       1/4           mgau_mixw_read [85]
+                0.00    0.00       1/4           tmat_init [94]
+                0.00    0.00       2/4           mgau_file_read [203]
+[192]    0.0    0.00    0.00       4         bio_hdrarg_free [192]
+-----------------------------------------------
+                0.00    0.00       1/4           mgau_mixw_read [85]
+                0.00    0.00       1/4           tmat_init [94]
+                0.00    0.00       2/4           mgau_file_read [203]
+[193]    0.0    0.00    0.00       4         bio_readhdr [193]
+                0.00    0.00      16/306         __ckd_salloc__ [1274]
+                0.00    0.00       8/502680      __ckd_calloc__ [1270]
+                0.00    0.00       4/4           swap_check [196]
+-----------------------------------------------
+                0.00    0.00       1/4           mgau_mixw_read [85]
+                0.00    0.00       1/4           tmat_init [94]
+                0.00    0.00       2/4           mgau_file_read [203]
+[194]    0.0    0.00    0.00       4         bio_verify_chksum [194]
+-----------------------------------------------
+                0.00    0.00       1/4           mgau_init [47]
+                0.00    0.00       3/4           vector_gautbl_alloc [199]
+[195]    0.0    0.00    0.00       4         logs3_to_log [195]
+-----------------------------------------------
+                0.00    0.00       4/4           bio_readhdr [193]
+[196]    0.0    0.00    0.00       4         swap_check [196]
+-----------------------------------------------
+                0.00    0.00       1/3           sseq_compress [63]
+                0.00    0.00       2/3           dict2pid_build [64]
+[197]    0.0    0.00    0.00       3         hash_free [197]
+-----------------------------------------------
+                0.00    0.00       1/3           sseq_compress [63]
+                0.00    0.00       2/3           dict2pid_build [64]
+[198]    0.0    0.00    0.00       3         hash_tolist [198]
+                0.00    0.00   33836/63787       glist_add_ptr [127]
+-----------------------------------------------
+                0.00    0.00       3/3           subvq_init [114]
+[199]    0.0    0.00    0.00       3         vector_gautbl_alloc [199]
+                0.00    0.00       6/18          __ckd_calloc_2d__ [1277]
+                0.00    0.00       3/502680      __ckd_calloc__ [1270]
+                0.00    0.00       3/4           logs3_to_log [195]
+-----------------------------------------------
+                0.00    0.00       3/3           subvq_maha_precomp [226]
+[200]    0.0    0.00    0.00       3         vector_gautbl_maha_precomp [200]
+                0.00    0.00   12288/12288       vector_maha_precomp [140]
+-----------------------------------------------
+                0.00    0.00       3/3           subvq_maha_precomp [226]
+[201]    0.0    0.00    0.00       3         vector_gautbl_var_floor [201]
+                0.00    0.00   12288/12288       vector_floor [139]
+-----------------------------------------------
+                0.00    0.00       2/2           fe_build_melfilters [210]
+[202]    0.0    0.00    0.00       2         fe_mel [202]
+-----------------------------------------------
+                0.00    0.00       2/2           mgau_init [47]
+[203]    0.0    0.00    0.00       2         mgau_file_read [203]
+                0.00    0.00      12/6212        bio_fread [144]
+                0.00    0.00       6/502680      __ckd_calloc__ [1270]
+                0.00    0.00       4/146         _E__pr_info_header [1276]
+                0.00    0.00       4/146         _E__pr_info [1275]
+                0.00    0.00       2/4           _myfopen [1280]
+                0.00    0.00       2/4           bio_readhdr [193]
+                0.00    0.00       2/4           bio_hdrarg_free [192]
+                0.00    0.00       2/4           bio_verify_chksum [194]
+-----------------------------------------------
+                0.00    0.00       2/2           kb_init [16]
+[204]    0.0    0.00    0.00       2         ptmr_init [204]
+-----------------------------------------------
+                0.00    0.00       2/2           utt_end [111]
+[205]    0.0    0.00    0.00       2         ptmr_reset [205]
+-----------------------------------------------
+                0.00    0.00       1/2           utt_end [111]
+                0.00    0.00       1/2           live_get_partialhyp [183]
+[206]    0.0    0.00    0.00       2         vithist_utt_end [206]
+                0.00    0.00       2/259268      lm_tg_score [119]
+                0.00    0.00       2/17590       vithist_entry_alloc [134]
+-----------------------------------------------
+                0.00    0.00       1/1           arg_dump [104]
+[207]    0.0    0.00    0.00       1         arg_sort [207]
+                0.00    0.00       1/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00       1/1           arg_dump [104]
+[208]    0.0    0.00    0.00       1         arg_strlen [208]
+-----------------------------------------------
+                0.00    0.00       1/1           kb_init [16]
+[209]    0.0    0.00    0.00       1         ascr_init [209]
+                0.00    0.00       2/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00       1/1           fe_init [213]
+[210]    0.0    0.00    0.00       1         fe_build_melfilters [210]
+                0.00    0.00      42/42          fe_melinv [177]
+                0.00    0.00       2/2           fe_mel [202]
+                0.00    0.00       1/41          fe_create_2d [178]
+-----------------------------------------------
+                0.00    0.00       1/1           fe_init [213]
+[211]    0.0    0.00    0.00       1         fe_compute_melcosine [211]
+                0.00    0.00       1/41          fe_create_2d [178]
+-----------------------------------------------
+                0.00    0.00       1/1           fe_init [213]
+[212]    0.0    0.00    0.00       1         fe_create_hamming [212]
+-----------------------------------------------
+                0.00    0.00       1/1           live_initialize_decoder [15]
+[213]    0.0    0.00    0.00       1         fe_init [213]
+                0.00    0.00       1/1           fe_parse_general_params [214]
+                0.00    0.00       1/1           fe_create_hamming [212]
+                0.00    0.00       1/1           fe_parse_melfb_params [215]
+                0.00    0.00       1/1           fe_build_melfilters [210]
+                0.00    0.00       1/1           fe_compute_melcosine [211]
+-----------------------------------------------
+                0.00    0.00       1/1           fe_init [213]
+[214]    0.0    0.00    0.00       1         fe_parse_general_params [214]
+-----------------------------------------------
+                0.00    0.00       1/1           fe_init [213]
+[215]    0.0    0.00    0.00       1         fe_parse_melfb_params [215]
+-----------------------------------------------
+                0.00    0.00       1/1           live_utt_decode_block [3]
+[216]    0.0    0.00    0.00       1         fe_start_utt [216]
+-----------------------------------------------
+                0.00    0.00       1/1           kb_init [16]
+[217]    0.0    0.00    0.00       1         feat_array_alloc [217]
+                0.00    0.00       1/1           feat_stream_len_sum [219]
+                0.00    0.00       1/18          __ckd_calloc_2d__ [1277]
+                0.00    0.00       1/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00       1/1           kbcore_init [17]
+[218]    0.0    0.00    0.00       1         feat_init [218]
+                0.00    0.00       2/502680      __ckd_calloc__ [1270]
+                0.00    0.00       1/146         _E__pr_info_header [1276]
+                0.00    0.00       1/146         _E__pr_info [1275]
+                0.00    0.00       1/306         __ckd_salloc__ [1274]
+-----------------------------------------------
+                0.00    0.00       1/1           feat_array_alloc [217]
+[219]    0.0    0.00    0.00       1         feat_stream_len_sum [219]
+-----------------------------------------------
+                0.00    0.00       1/1           utt_end [111]
+[220]    0.0    0.00    0.00       1         lm_cache_reset [220]
+-----------------------------------------------
+                0.00    0.00       1/1           utt_end [111]
+[221]    0.0    0.00    0.00       1         lm_cache_stats_dump [221]
+                0.00    0.00       2/146         _E__pr_info_header [1276]
+                0.00    0.00       2/146         _E__pr_info [1275]
+-----------------------------------------------
+                0.00    0.00       1/1           kb_init [16]
+[222]    0.0    0.00    0.00       1         lm_ug_wordprob [222]
+-----------------------------------------------
+                0.00    0.00       1/1           lm_bg_score [118]
+[223]    0.0    0.00    0.00       1         load_bg [223]
+                0.00    0.00       1/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00       1/1           utt_end [111]
+[224]    0.0    0.00    0.00       1         matchseg_write [224]
+-----------------------------------------------
+                0.00    0.00       1/1           mgau_init [47]
+[225]    0.0    0.00    0.00       1         mgau_uninit_compact [225]
+                0.00    0.00   49152/55296       vector_is_zero [128]
+                0.00    0.00       2/146         _E__pr_info_header [1276]
+                0.00    0.00       2/146         _E__pr_info [1275]
+-----------------------------------------------
+                0.00    0.00       1/1           subvq_init [114]
+[226]    0.0    0.00    0.00       1         subvq_maha_precomp [226]
+                0.00    0.00       3/3           vector_gautbl_var_floor [201]
+                0.00    0.00       3/3           vector_gautbl_maha_precomp [200]
+                0.00    0.00       1/146         _E__pr_info_header [1276]
+                0.00    0.00       1/146         _E__pr_info [1275]
+                0.00    0.00       1/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00       1/1           subvq_init [114]
+[227]    0.0    0.00    0.00       1         subvq_map_compact [227]
+-----------------------------------------------
+                0.00    0.00       1/1           subvq_init [114]
+[228]    0.0    0.00    0.00       1         subvq_map_linearize [228]
+-----------------------------------------------
+                0.00    0.00       1/1           live_initialize_decoder [15]
+[229]    0.0    0.00    0.00       1         thread_barrier_init [229]
+-----------------------------------------------
+                0.00    0.00       1/1           utt_begin [98]
+[230]    0.0    0.00    0.00       1         threading_support_init [230]
+                0.00    0.00      11/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00       1/1           kb_init [16]
+[231]    0.0    0.00    0.00       1         tmat_chk_1skip [231]
+-----------------------------------------------
+                0.00    0.00       1/1           tmat_init [94]
+[232]    0.0    0.00    0.00       1         tmat_chk_uppertri [232]
+-----------------------------------------------
+                0.00    0.00       1/1           live_initialize_decoder [15]
+[233]    0.0    0.00    0.00       1         unlimit [233]
+-----------------------------------------------
+                0.00    0.00       1/1           kb_init [16]
+[234]    0.0    0.00    0.00       1         vithist_init [234]
+                0.00    0.00       6/502680      __ckd_calloc__ [1270]
+                0.00    0.00       1/146         _E__pr_info_header [1276]
+                0.00    0.00       1/146         _E__pr_info [1275]
+-----------------------------------------------
+                0.00    0.00       1/1           utt_begin [98]
+[235]    0.0    0.00    0.00       1         vithist_utt_begin [235]
+                0.00    0.00       1/17590       vithist_entry_alloc [134]
+-----------------------------------------------
+                0.00    0.00       1/1           utt_end [111]
+[236]    0.0    0.00    0.00       1         vithist_utt_reset [236]
+                0.00    0.00       1/479         vithist_lmstate_reset [161]
+-----------------------------------------------
+                0.00    0.00       1/1           kb_init [16]
+[237]    0.0    0.00    0.00       1         wid_wordprob2alt [237]
+-----------------------------------------------
+                0.00    0.00       1/502680      arg_sort [207]
+                0.00    0.00       1/502680      cmd_ln_parse [99]
+                0.00    0.00       1/502680      logs3_init [113]
+                0.00    0.00       1/502680      parse_args_file [100]
+                0.00    0.00       1/502680      mgau_init [47]
+                0.00    0.00       1/502680      subvq_maha_precomp [226]
+                0.00    0.00       1/502680      lm_read [65]
+                0.00    0.00       1/502680      load_bg [223]
+                0.00    0.00       1/502680      wid_dict_lm_map [102]
+                0.00    0.00       1/502680      tmat_init [94]
+                0.00    0.00       1/502680      kbcore_init [17]
+                0.00    0.00       1/502680      vithist_entry_alloc [134]
+                0.00    0.00       1/502680      beam_init [110]
+                0.00    0.00       1/502680      feat_array_alloc [217]
+                0.00    0.00       2/502680      mgau_mixw_read [85]
+                0.00    0.00       2/502680      dict_read [92]
+                0.00    0.00       2/502680      dict_init [91]
+                0.00    0.00       2/502680      fillpen_init [109]
+                0.00    0.00       2/502680      ascr_init [209]
+                0.00    0.00       2/502680      utt_word_trans [61]
+                0.00    0.00       2/502680      cmn_prior [181]
+                0.00    0.00       2/502680      feat_init [218]
+                0.00    0.00       3/502680      __ckd_calloc_3d__ [1281]
+                0.00    0.00       3/502680      vector_gautbl_alloc [199]
+                0.00    0.00       3/502680      live_initialize_decoder [15]
+                0.00    0.00       6/502680      mgau_file_read [203]
+                0.00    0.00       6/502680      lm_read_dump [105]
+                0.00    0.00       6/502680      vithist_init [234]
+                0.00    0.00       8/502680      bio_readhdr [193]
+                0.00    0.00       8/502680      mdef_init [21]
+                0.00    0.00       9/502680      dict2pid_build [64]
+                0.00    0.00       9/502680      kb_init [16]
+                0.00    0.00      11/502680      threading_support_init [230]
+                0.00    0.00      12/502680      hash_new [187]
+                0.00    0.00      14/502680      subvq_init [114]
+                0.00    0.00      18/502680      __ckd_calloc_2d__ [1277]
+                0.00    0.00     343/502680      vithist_backtrace [180]
+                0.00    0.00     478/502680      heap_new [163]
+                0.00    0.00     478/502680      vithist_prune [166]
+                0.00    0.00     639/502680      __mymalloc__ [1271]
+                0.00    0.00    2150/502680      ssidlist2comsseq [89]
+                0.00    0.00    2686/502680      enter [88]
+                0.00    0.00    4287/502680      lextree_node_alloc [149]
+                0.00    0.00   21902/502680      vithist_lmstate_enter [138]
+                0.00    0.00  135268/502680      makekey [122]
+                0.00    0.00  138430/502680      triphone_add [49]
+                0.00    0.00  195873/502680      lextree_build [188]
+[1270]   0.0    0.00    0.00  502680         __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00    4287/103609      lextree_node_alloc [149]
+                0.00    0.00   17587/103609      subheap_insert [136]
+                0.00    0.00   17948/103609      glist_add_int32 [133]
+                0.00    0.00   63787/103609      glist_add_ptr [127]
+[1271]   0.0    0.00    0.00  103609         __mymalloc__ [1271]
+                0.00    0.00     639/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+                0.00    0.00   17587/87301       subheap_pop [137]
+                0.00    0.00   69714/87301       glist_free [147]
+[1272]   0.0    0.00    0.00   87301         __myfree__ [1272]
+-----------------------------------------------
+                0.00    0.00       6/463         __ckd_calloc_3d__ [1281]
+                0.00    0.00      18/463         __ckd_calloc_2d__ [1277]
+                0.00    0.00     133/463         dict_add_word [97]
+                0.00    0.00     306/463         __ckd_salloc__ [1274]
+[1273]   0.0    0.00    0.00     463         __ckd_malloc__ [1273]
+-----------------------------------------------
+                0.00    0.00       1/306         feat_init [218]
+                0.00    0.00       1/306         live_initialize_decoder [15]
+                0.00    0.00      16/306         bio_readhdr [193]
+                0.00    0.00      48/306         ciphone_add [108]
+                0.00    0.00     107/306         lm_read_dump [105]
+                0.00    0.00     133/306         dict_add_word [97]
+[1274]   0.0    0.00    0.00     306         __ckd_salloc__ [1274]
+                0.00    0.00     306/463         __ckd_malloc__ [1273]
+-----------------------------------------------
+                0.00    0.00       1/146         cmd_ln_parse [99]
+                0.00    0.00       1/146         mgau_precomp [52]
+                0.00    0.00       1/146         subvq_maha_precomp [226]
+                0.00    0.00       1/146         lm_read [65]
+                0.00    0.00       1/146         wid_dict_lm_map [102]
+                0.00    0.00       1/146         vithist_init [234]
+                0.00    0.00       1/146         cmn_prior [181]
+                0.00    0.00       1/146         feat_init [218]
+                0.00    0.00       1/146         feat_s2mfc2feat_block [182]
+                0.00    0.00       2/146         logs3_init [113]
+                0.00    0.00       2/146         mgau_mixw_read [85]
+                0.00    0.00       2/146         mgau_uninit_compact [225]
+                0.00    0.00       2/146         mgau_var_floor [72]
+                0.00    0.00       2/146         dict2pid_build [64]
+                0.00    0.00       2/146         lm_cache_stats_dump [221]
+                0.00    0.00       2/146         tmat_init [94]
+                0.00    0.00       2/146         kbcore_init [17]
+                0.00    0.00       2/146         utt_end [111]
+                0.00    0.00       4/146         mgau_file_read [203]
+                0.00    0.00       4/146         dict_init [91]
+                0.00    0.00       4/146         lm_read_dump [105]
+                0.00    0.00       4/146         kb_init [16]
+                0.00    0.00      10/146         mdef_init [21]
+                0.00    0.00      15/146         subvq_init [114]
+                0.00    0.00      39/146         live_utt_decode_block [3]
+                0.00    0.00      39/146         main [1]
+[1275]   0.0    0.00    0.00     146         _E__pr_info [1275]
+-----------------------------------------------
+                0.00    0.00       1/146         cmd_ln_parse [99]
+                0.00    0.00       1/146         mgau_precomp [52]
+                0.00    0.00       1/146         subvq_maha_precomp [226]
+                0.00    0.00       1/146         lm_read [65]
+                0.00    0.00       1/146         wid_dict_lm_map [102]
+                0.00    0.00       1/146         vithist_init [234]
+                0.00    0.00       1/146         cmn_prior [181]
+                0.00    0.00       1/146         feat_init [218]
+                0.00    0.00       1/146         feat_s2mfc2feat_block [182]
+                0.00    0.00       2/146         logs3_init [113]
+                0.00    0.00       2/146         mgau_mixw_read [85]
+                0.00    0.00       2/146         mgau_uninit_compact [225]
+                0.00    0.00       2/146         mgau_var_floor [72]
+                0.00    0.00       2/146         dict2pid_build [64]
+                0.00    0.00       2/146         lm_cache_stats_dump [221]
+                0.00    0.00       2/146         tmat_init [94]
+                0.00    0.00       2/146         kbcore_init [17]
+                0.00    0.00       2/146         utt_end [111]
+                0.00    0.00       4/146         mgau_file_read [203]
+                0.00    0.00       4/146         dict_init [91]
+                0.00    0.00       4/146         lm_read_dump [105]
+                0.00    0.00       4/146         kb_init [16]
+                0.00    0.00      10/146         mdef_init [21]
+                0.00    0.00      15/146         subvq_init [114]
+                0.00    0.00      39/146         live_utt_decode_block [3]
+                0.00    0.00      39/146         main [1]
+[1276]   0.0    0.00    0.00     146         _E__pr_info_header [1276]
+-----------------------------------------------
+                0.00    0.00       1/18          parse_args_file [100]
+                0.00    0.00       1/18          subvq_init [114]
+                0.00    0.00       1/18          sseq_compress [63]
+                0.00    0.00       1/18          tmat_init [94]
+                0.00    0.00       1/18          feat_array_alloc [217]
+                0.00    0.00       2/18          mdef_init [21]
+                0.00    0.00       2/18          feat_s2mfc2feat_block [182]
+                0.00    0.00       3/18          dict2pid_build [64]
+                0.00    0.00       6/18          vector_gautbl_alloc [199]
+[1277]   0.0    0.00    0.00      18         __ckd_calloc_2d__ [1277]
+                0.00    0.00      18/502680      __ckd_calloc__ [1270]
+                0.00    0.00      18/463         __ckd_malloc__ [1273]
+-----------------------------------------------
+                0.00    0.00       1/4           mgau_mixw_read [85]
+                0.00    0.00       3/4           tmat_init [94]
+[1278]   0.0    0.00    0.00       4         _E__pr_header [1278]
+-----------------------------------------------
+                0.00    0.00       1/4           mgau_mixw_read [85]
+                0.00    0.00       3/4           tmat_init [94]
+[1279]   0.0    0.00    0.00       4         _E__pr_warn [1279]
+-----------------------------------------------
+                0.00    0.00       1/4           mgau_mixw_read [85]
+                0.00    0.00       1/4           subvq_init [114]
+                0.00    0.00       2/4           mgau_file_read [203]
+[1280]   0.0    0.00    0.00       4         _myfopen [1280]
+-----------------------------------------------
+                0.00    0.00       1/3           subvq_init [114]
+                0.00    0.00       1/3           dict2pid_build [64]
+                0.00    0.00       1/3           tmat_init [94]
+[1281]   0.0    0.00    0.00       3         __ckd_calloc_3d__ [1281]
+                0.00    0.00       6/463         __ckd_malloc__ [1273]
+                0.00    0.00       3/502680      __ckd_calloc__ [1270]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+
+Index by function name
+
+  [86] P2D0                  [219] feat_stream_len_sum   [225] mgau_uninit_compact
+  [87] P2D1                   [73] fgets                  [72] mgau_var_floor
+ [1278] _E__pr_header        [154] fillpen                [19] new_lextree_hmm_eval_thrd_work
+ [1275] _E__pr_info          [109] fillpen_init           [31] new_lextree_hmm_ppg_thrd_work
+ [1276] _E__pr_info_header   [152] find_bg                [20] new_thrd_lextree_hmm_eval
+ [1279] _E__pr_warn          [120] find_ph_lc             [32] new_thrd_lextree_hmm_propagate
+  [33] _IO_no_init           [121] find_ph_rc             [67] noncomment_line
+  [56] _IO_sputbackc           [6] frame_eval_thrd_work  [100] parse_args_file
+  [14] _IO_str_init_static   [133] glist_add_int32        [96] parse_base_line
+  [11] _IO_vfscanf           [127] glist_add_ptr         [123] parse_tmat_senmap
+ [1277] __ckd_calloc_2d__    [130] glist_chkdup_int32     [27] parse_tri_line
+ [1281] __ckd_calloc_3d__    [153] glist_chkdup_ptr      [190] prime_size
+ [1270] __ckd_calloc__       [167] glist_count            [39] pthread_mutex_trylock
+ [1273] __ckd_malloc__       [147] glist_free             [75] pthread_mutex_unlock
+ [1274] __ckd_salloc__        [95] hash_enter            [204] ptmr_init
+  [57] __errno_location       [62] hash_enter_bkey       [205] ptmr_reset
+  [25] __ieee754_log         [197] hash_free             [155] ptmr_start
+ (1537) __mcount_internal     [44] hash_lookup           [156] ptmr_stop
+  [58] __mpn_lshift          [187] hash_new              [174] rdiph_comsseq
+ [1272] __myfree__           [198] hash_tolist            [43] read
+ [1271] __mymalloc__         [162] heap_destroy           [22] sen_active_thrd_work
+  [77] __pthread_alt_lock    [135] heap_insert           [191] single_comsseq
+  [78] __pthread_alt_unlock  [163] heap_new              [168] single_lc_comsseq
+  [79] __pthread_fork        [132] heap_pop               [28] sseq2sen_active_thrd_work
+  [26] __pthread_internal_tsd_address [126] hmm_clear     [63] sseq_compress
+  [59] __pthread_internal_tsd_get [34] hmm_vit_eval_3st   [89] ssidlist2comsseq
+  [80] __pthread_lock         [45] isnan                 [173] str2words
+  [60] __pthread_unlock       [16] kb_init                [76] str_to_mpn
+  [24] __strtof_internal     [160] kb_lextree_active_swap [170] strcmp_nocase
+  [29] __strtol_internal      [17] kbcore_init           [136] subheap_insert
+  [81] _int_free              [46] key2hash              [137] subheap_pop
+  [82] _int_malloc           [124] keycmp_case            [10] subvq_gautbl_eval_logs3
+ [1280] _myfopen             [117] keycmp_nocase         [114] subvq_init
+  [83] _pthread_cleanup_push_defer [71] ldiph_comsseq    [226] subvq_maha_precomp
+ [104] arg_dump              [151] lextree_active_swap   [227] subvq_map_compact
+ [207] arg_sort              [188] lextree_build         [228] subvq_map_linearize
+ [175] arg_str2val            [51] lextree_enter         [196] swap_check
+ [208] arg_strlen             [18] lextree_hmm_eval_thrd_work [5] thrd_scoring_phase
+ [209] ascr_init              [30] lextree_hmm_ppg_thrd_work [23] thrd_sen_active_phase
+ [110] beam_init             [149] lextree_node_alloc     [13] thrd_subvq_mgau_shortlist
+ [144] bio_fread              [70] lextree_ssid_active_thrd_work [148] thread_barrier
+ [192] bio_hdrarg_free       [189] lextree_utt_end       [229] thread_barrier_init
+ [193] bio_readhdr           [183] live_get_partialhyp   [230] threading_support_init
+ [194] bio_verify_chksum      [15] live_initialize_decoder [231] tmat_chk_1skip
+ [145] chksum_accum            [3] live_utt_decode_block [232] tmat_chk_uppertri
+ [108] ciphone_add           [106] lm2logs3               [94] tmat_init
+ [176] ckd_free_2d           [118] lm_bg_score            [49] triphone_add
+ [103] cmd_ln_access         [220] lm_cache_reset        [233] unlimit
+  [99] cmd_ln_parse          [221] lm_cache_stats_dump    [98] utt_begin
+ [181] cmn_prior             [185] lm_fread_int32          [4] utt_decode_block
+ [169] cmp_name               [65] lm_read               [111] utt_end
+  [64] dict2pid_build        [105] lm_read_dump           [61] utt_word_trans
+  [48] dict2pid_comsenscr_thrd_work [112] lm_set_param   [139] vector_floor
+  [97] dict_add_word         [119] lm_tg_score           [199] vector_gautbl_alloc
+  [93] dict_ciphone_id       [222] lm_ug_wordprob          [9] vector_gautbl_eval_logs3
+ [131] dict_filler_word      [107] lm_uw                  [12] vector_gautbl_eval_logs3_inner
+  [91] dict_init             [116] ln_lock               [200] vector_gautbl_maha_precomp
+  [92] dict_read              [66] ln_unlock             [201] vector_gautbl_var_floor
+ [172] dict_word2basestr     [223] load_bg               [128] vector_is_zero
+ [101] dict_wordid            [38] log                   [140] vector_maha_precomp
+ [186] double_next_active    [171] log10_to_logs3        [143] vector_nz_floor
+  [88] enter                 [115] log_to_logs3_factor   [142] vector_sum_norm
+ [210] fe_build_melfilters    [69] logs3                 [125] vh_lmstate_find
+ [211] fe_compute_melcosine   [42] logs3_add             [180] vithist_backtrace
+ [178] fe_create_2d          [113] logs3_init             [68] vithist_enter
+ [212] fe_create_hamming     [195] logs3_to_log          [134] vithist_entry_alloc
+  [90] fe_end_utt             [84] lookup                [164] vithist_frame_gc
+  [35] fe_fft                  [1] main                  [165] vithist_frame_windup
+  [36] fe_frame_to_fea       [146] make_sec              [141] vithist_id2entry
+ [157] fe_hamming_window     [122] makekey               [234] vithist_init
+ [213] fe_init               [224] matchseg_write        [138] vithist_lmstate_enter
+ [202] fe_mel                (923) mcount                [161] vithist_lmstate_reset
+ [158] fe_mel_cep             [41] mdef_ciphone_id       [184] vithist_partialutt_end
+ [159] fe_mel_spec            [21] mdef_init             [166] vithist_prune
+ [177] fe_melinv             [129] mdef_phone_id          [50] vithist_rescore
+ [214] fe_parse_general_params [150] mdef_phone_id_nearest [235] vithist_utt_begin
+ [215] fe_parse_melfb_params  [53] memchr                [206] vithist_utt_end
+ [179] fe_pre_emphasis        [74] memset                [236] vithist_utt_reset
+  [40] fe_process_utt          [7] mgau_eval              [54] vsscanf
+  [37] fe_spec_magnitude       [8] mgau_eval_inner       [102] wid_dict_lm_map
+ [216] fe_start_utt          [203] mgau_file_read        [237] wid_wordprob2alt
+ [217] feat_array_alloc       [47] mgau_init              [55] write
+ [218] feat_init              [85] mgau_mixw_read
+ [182] feat_s2mfc2feat_block  [52] mgau_precomp

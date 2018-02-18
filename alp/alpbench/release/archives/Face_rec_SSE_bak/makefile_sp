@@ -1,0 +1,41 @@
+HEADERS =  csuCommon csuCommonUtil csuCommonMatrix csuCommonFile \
+csuCommonSubspace csuCommonCommandLine csuCommonImage threading
+
+SRC =  csuCommonUtil csuCommonMatrix csuCommonFile csuCommonSubspace \
+csuCommonCommandLine csuCommonImage csuSubspaceProject csuSubspaceEigen \
+csuSubspaceFisher csuSubspaceCVEigen threading
+
+TARGET = face_project
+
+# Uncomment USE_THREADS if multithreading is desired. Use THREAD_NUM to specify
+# number of threads.
+
+THREAD_NUM =4 
+USE_THREADS = -DTHRD -DNUM_THREADS=$(THREAD_NUM)
+
+# Uncomment USE_SSE2 if SSE2 support is desired.
+USE_SSE2 = -DSSE2
+
+USERFLAGS = $(USE_SSE2) $(USE_THREADS)
+USERLIBS = -lm -lpthread
+
+LIBDIR = /usr/lib
+
+LD =  /opt/intel_cc_80/bin/icc       # Use icc as the compiler for SSE2
+STATLINK = -dn # Option to force static linkage
+CC =  /opt/intel_cc_80/bin/icc
+OPTIMIZE = -use_msasm -g -O4 -Wall
+
+LIBS = $(USERLIBS)
+CFLAGS = $(OPTIMIZE) $(USERFLAGS)
+OBJS = $(SRC:%=obj/%.o)
+
+execs/$(TARGET).out: $(OBJS)
+	$(LD) $(STATLINK) $(USERFLAGS) -o execs/$(TARGET) $(OBJS) $(LIBS)
+
+$(OBJS): $(HEADERS:%=src/%.h) $(SRC:%=src/%.c)
+	$(CC) -o $@ $(CFLAGS) -c $(*:obj/%=src/%.c)
+
+clean:
+	rm -f obj/*.o execs/$(TARGET)
+

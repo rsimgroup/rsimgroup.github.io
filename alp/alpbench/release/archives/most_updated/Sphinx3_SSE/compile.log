@@ -1,0 +1,78 @@
+/opt/intel_cc_80/bin/icc -o obj/barrier.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/barrier.c
+/opt/intel_cc_80/bin/icc -o obj/bitvec.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/bitvec.c
+/opt/intel_cc_80/bin/icc -o obj/case.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/case.c
+/opt/intel_cc_80/bin/icc -o obj/ckd_alloc.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/ckd_alloc.c
+src/ckd_alloc.c(153) : (col. 5) remark: LOOP WAS VECTORIZED.
+src/ckd_alloc.c(171) : (col. 5) remark: LOOP WAS VECTORIZED.
+src/ckd_alloc.c(209) : (col. 5) remark: LOOP WAS VECTORIZED.
+/opt/intel_cc_80/bin/icc -o obj/cmd_ln.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/cmd_ln.c
+src/cmd_ln.c(146) : (col. 5) remark: LOOP WAS VECTORIZED.
+/opt/intel_cc_80/bin/icc -o obj/err.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/err.c
+/opt/intel_cc_80/bin/icc -o obj/filename.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/filename.c
+/opt/intel_cc_80/bin/icc -o obj/glist.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/glist.c
+/opt/intel_cc_80/bin/icc -o obj/bio.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/bio.c
+src/bio.c(237) : (col. 2) remark: LOOP WAS VECTORIZED.
+/opt/intel_cc_80/bin/icc -o obj/vector.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/vector.c
+src/vector.c(442): warning #266: function declared implicitly
+      gautbl->mean = (float32 **) ckd_calloc_2da (n_gau, tmp, sizeof(float32));
+                                  ^
+
+src/vector.c(82) : (col. 2) remark: LOOP WAS VECTORIZED.
+src/vector.c(96) : (col. 5) remark: LOOP WAS VECTORIZED.
+src/vector.c(188) : (col. 5) remark: LOOP WAS VECTORIZED.
+src/vector.c(215) : (col. 5) remark: LOOP WAS VECTORIZED.
+src/vector.c(224) : (col. 5) remark: LOOP WAS VECTORIZED.
+/opt/intel_cc_80/bin/icc -o obj/logs3.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/logs3.c
+/opt/intel_cc_80/bin/icc -o obj/hash.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/hash.c
+/opt/intel_cc_80/bin/icc -o obj/heap.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/heap.c
+/opt/intel_cc_80/bin/icc -o obj/io.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/io.c
+/opt/intel_cc_80/bin/icc -o obj/profile.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/profile.c
+/opt/intel_cc_80/bin/icc -o obj/str2words.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/str2words.c
+/opt/intel_cc_80/bin/icc -o obj/unlimit.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/unlimit.c
+/opt/intel_cc_80/bin/icc -o obj/parse_args_file.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/parse_args_file.c
+/opt/intel_cc_80/bin/icc -o obj/cont_mgau.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/cont_mgau.c
+/opt/intel_cc_80/bin/icc -o obj/subvq.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/subvq.c
+/opt/intel_cc_80/bin/icc -o obj/threading.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/threading.c
+src/threading.c(256) : (col. 3) remark: LOOP WAS VECTORIZED.
+/opt/intel_cc_80/bin/icc -o obj/mdef.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/mdef.c
+/opt/intel_cc_80/bin/icc -o obj/dict.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/dict.c
+src/dict.c(257) : (col. 2) remark: LOOP WAS VECTORIZED.
+/opt/intel_cc_80/bin/icc -o obj/dict2pid.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/dict2pid.c
+/opt/intel_cc_80/bin/icc -o obj/fillpen.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/fillpen.c
+/opt/intel_cc_80/bin/icc -o obj/lm.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/lm.c
+src/lm.c(457) : (col. 5) remark: LOOP WAS VECTORIZED.
+/opt/intel_cc_80/bin/icc -o obj/wid.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/wid.c
+/opt/intel_cc_80/bin/icc -o obj/tmat.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/tmat.c
+/opt/intel_cc_80/bin/icc -o obj/kbcore.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/kbcore.c
+src/kbcore.c(93) : (col. 5) remark: BLOCK WAS VECTORIZED.
+/opt/intel_cc_80/bin/icc -o obj/hmm.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/hmm.c
+/opt/intel_cc_80/bin/icc -o obj/lextree.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/lextree.c
+/opt/intel_cc_80/bin/icc -o obj/vithist.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/vithist.c
+/opt/intel_cc_80/bin/icc -o obj/ascr.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/ascr.c
+/opt/intel_cc_80/bin/icc -o obj/beam.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/beam.c
+/opt/intel_cc_80/bin/icc -o obj/kb.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/kb.c
+/opt/intel_cc_80/bin/icc -o obj/corpus.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/corpus.c
+/opt/intel_cc_80/bin/icc -o obj/utt.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/utt.c
+src/utt.c(645): warning #266: function declared implicitly
+        thrd_sen_active_phase(&sen_active_args);
+        ^
+
+src/utt.c(345) : (col. 3) remark: LOOP WAS VECTORIZED.
+/opt/intel_cc_80/bin/icc -o obj/new_fe_sp.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/new_fe_sp.c
+src/new_fe_sp.c(476) : (col. 5) remark: LOOP WAS VECTORIZED.
+/opt/intel_cc_80/bin/icc -o obj/new_fe.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/new_fe.c
+/opt/intel_cc_80/bin/icc -o obj/cmn.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/cmn.c
+/opt/intel_cc_80/bin/icc -o obj/cmn_prior.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/cmn_prior.c
+src/cmn_prior.c(89) : (col. 5) remark: LOOP WAS VECTORIZED.
+src/cmn_prior.c(95) : (col. 7) remark: LOOP WAS VECTORIZED.
+src/cmn_prior.c(112) : (col. 5) remark: LOOP WAS VECTORIZED.
+src/cmn_prior.c(118) : (col. 7) remark: LOOP WAS VECTORIZED.
+/opt/intel_cc_80/bin/icc -o obj/agc.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/agc.c
+/opt/intel_cc_80/bin/icc -o obj/feat.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/feat.c
+src/feat.c(935): warning #266: function declared implicitly
+  	feat = (float32 **)ckd_calloc_2da(LIVEBUFBLOCKSIZE,
+  	                   ^
+
+/opt/intel_cc_80/bin/icc -o obj/live.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/live.c
+/opt/intel_cc_80/bin/icc -o obj/main_live_pretend.o -p -march=pentiumiii -mcpu=pentiumpro -g -O3   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -c src/main_live_pretend.c
+/opt/intel_cc_80/bin/icc        -p -dn   -DLOGS3_NO_LOOP -DMGAU_NO_LOOP -DDEBUG=0  -DAD_BACKEND_OSS -DTHRD  -DNUM_THREADS=1 -DPHASES=7  -DNEW_EVAL_LOGS3 -o execs/livepretend_nosse obj/barrier.o obj/bitvec.o obj/case.o obj/ckd_alloc.o obj/cmd_ln.o obj/err.o obj/filename.o obj/glist.o obj/bio.o obj/vector.o obj/logs3.o obj/hash.o obj/heap.o obj/io.o obj/profile.o obj/str2words.o obj/unlimit.o obj/parse_args_file.o obj/cont_mgau.o obj/subvq.o obj/threading.o obj/mdef.o obj/dict.o obj/dict2pid.o obj/fillpen.o obj/lm.o obj/wid.o obj/tmat.o obj/kbcore.o obj/hmm.o obj/lextree.o obj/vithist.o obj/ascr.o obj/beam.o obj/kb.o obj/corpus.o obj/utt.o obj/new_fe_sp.o obj/new_fe.o obj/cmn.o obj/cmn_prior.o obj/agc.o obj/feat.o obj/live.o obj/main_live_pretend.o -lm -lpthread 

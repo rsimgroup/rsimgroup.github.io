@@ -1,0 +1,91 @@
+VTune(TM) Performance Analyzer 2.0 for Linux*
+Copyright (C) 2000-2003 Intel Corporation. All rights reserved.
+
+Event Summary
+Instructions Retired
+   5178 = Samples collected due to this event
+   1812158          = Sample after value used during collection
+   9383354124       = Total events (samples*SAV)
+Clockticks
+   5210 = Samples collected due to this event
+   2152577          = Sample after value used during collection
+   11214926170      = Total events (samples*SAV)
+
+Module View (all values in decimal)
+
+Module                                  Process
+  Event                                                      Events%    Samples    Events              Module Path
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+mpeg2dec_nosse                          mpeg2dec_nosse
+  Instructions Retired                                        97.64%     5056       9162270848          /tmp/alex_vtune/MPGdec/execs/mpeg2dec_nosse
+  Clockticks                                                  84.24%     4389       9447660453      
+Event Summary
+Uops Retired
+   5183 = Samples collected due to this event
+   3298843          = Sample after value used during collection
+   17097903269      = Total events (samples*SAV)
+
+Module View (all values in decimal)
+
+Module                                  Process
+  Event                                                      Events%    Samples    Events              Module Path
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+mpeg2dec_nosse                          mpeg2dec_nosse
+  Uops Retired                                                97.20%     5038       16619571034         /tmp/alex_vtune/MPGdec/execs/mpeg2dec_nosse
+Event Summary
+128-bit MMX(TM) Instructions Retired
+   73 = Samples collected due to this event
+   1                = Sample after value used during collection
+   73               = Total events (samples*SAV)
+
+Module View (all values in decimal)
+
+Module                                  Process
+  Event                                                      Events%    Samples    Events              Module Path
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+mpeg2dec_nosse                          mpeg2dec_nosse
+  128-bit MMX(TM) Instructions Retired                        98.63%     72         72                  /tmp/alex_vtune/MPGdec/execs/mpeg2dec_nosse
+Event Summary
+64-bit MMX(TM) Instructions Retired
+   0 = Samples collected due to this event
+   1                = Sample after value used during collection
+   0                = Total events (samples*SAV)
+Event Summary
+Loads Retired
+   10368 = Samples collected due to this event
+   326263           = Sample after value used during collection
+   3382694784       = Total events (samples*SAV)
+
+Module View (all values in decimal)
+
+Module                                  Process
+  Event                                                      Events%    Samples    Events              Module Path
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+mpeg2dec_nosse                          mpeg2dec_nosse
+  Loads Retired                                               97.15%     10073      3286447199          /tmp/alex_vtune/MPGdec/execs/mpeg2dec_nosse
+Event Summary
+1st Level Cache Load Misses Retired
+   10502 = Samples collected due to this event
+   5786             = Sample after value used during collection
+   60764572         = Total events (samples*SAV)
+
+Module View (all values in decimal)
+
+Module                                  Process
+  Event                                                      Events%    Samples    Events              Module Path
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+mpeg2dec_nosse                          mpeg2dec_nosse
+  1st Level Cache Load Misses Retired                         70.62%     7417       42914762            /tmp/alex_vtune/MPGdec/execs/mpeg2dec_nosse
+Event Summary
+2nd Level Cache Load Misses Retired
+   10535 = Samples collected due to this event
+   1210             = Sample after value used during collection
+   12747350         = Total events (samples*SAV)
+
+Module View (all values in decimal)
+
+Module                                  Process
+  Event                                                      Events%    Samples    Events              Module Path
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+mpeg2dec_nosse                          mpeg2dec_nosse
+  2nd Level Cache Load Misses Retired                         45.53%     4797       5804370             /tmp/alex_vtune/MPGdec/execs/mpeg2dec_nosse

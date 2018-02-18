@@ -1,0 +1,696 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 32.54      0.82     0.82  1188000     0.00     0.00  Fast_IDCT
+ 18.65      1.29     0.47                             write
+ 17.86      1.74     0.45                             __mcount_internal
+  4.37      1.85     0.11                             open
+  3.17      1.93     0.08                             mcount
+  2.78      2.00     0.07  1188000     0.00     0.00  Saturate
+  2.78      2.07     0.07  1109148     0.00     0.00  form_component_prediction2
+  2.38      2.13     0.06  1188000     0.00     0.00  Thrd_Add_Block
+  1.98      2.18     0.05  5212443     0.00     0.00  Thrd_Flush_Buffer
+  1.98      2.23     0.05  1188000     0.00     0.00  Thrd_Clear_Block
+  1.98      2.28     0.05   554574     0.00     0.00  form_component_prediction
+  1.39      2.31     0.04   198000     0.00     0.00  Thrd_motion_compensation
+  1.19      2.35     0.03  1454597     0.00     0.00  Flush_Buffer
+  1.19      2.38     0.03      150     0.00     0.01  Thrd_Work
+  0.79      2.40     0.02  5400427     0.00     0.00  Thrd_Show_Bits
+  0.79      2.42     0.02   554574     0.00     0.00  form_prediction
+  0.79      2.44     0.02      150     0.00     0.01  new_slice
+  0.60      2.45     0.01  1289186     0.00     0.00  Thrd_Get_Bits1
+  0.40      2.46     0.01   853648     0.00     0.00  Thrd_Get_motion_code
+  0.40      2.47     0.01   853648     0.00     0.00  decode_motion_vector
+  0.40      2.48     0.01   180565     0.00     0.00  Thrd_Get_macroblock_type
+  0.40      2.49     0.01   180565     0.00     0.00  Thrd_decode_macroblock
+  0.40      2.50     0.01   150119     0.00     0.00  Thrd_Decode_MPEG2_Non_Intra_Block
+  0.40      2.51     0.01   122064     0.00     0.00  Thrd_Decode_MPEG2_Intra_Block
+  0.20      2.52     0.01  3020239     0.00     0.00  Thrd_Get_Bits
+  0.20      2.52     0.01   180565     0.00     0.00  Thrd_macroblock_modes
+  0.00      2.52     0.00  2914246     0.00     0.00  Show_Bits
+  0.00      2.52     0.00  1468167     0.00     0.00  write_frame_buf8
+  0.00      2.52     0.00   426824     0.00     0.00  Thrd_motion_vector
+  0.00      2.52     0.00   237407     0.00     0.00  Thrd_motion_vectors
+  0.00      2.52     0.00   180565     0.00     0.00  Thrd_Get_macroblock_address_increment
+  0.00      2.52     0.00   177656     0.00     0.00  form_predictions
+  0.00      2.52     0.00   130117     0.00     0.00  Thrd_Get_B_macroblock_type
+  0.00      2.52     0.00    81376     0.00     0.00  Thrd_Get_Luma_DC_dct_diff
+  0.00      2.52     0.00    69950     0.00     0.00  Thrd_Get_coded_block_pattern
+  0.00      2.52     0.00    40688     0.00     0.00  Thrd_Get_Chroma_DC_dct_diff
+  0.00      2.52     0.00    33288     0.00     0.00  Thrd_Get_P_macroblock_type
+  0.00      2.52     0.00    17435     0.00     0.00  Thrd_skipped_macroblock
+  0.00      2.52     0.00    17160     0.00     0.00  Thrd_Get_I_macroblock_type
+  0.00      2.52     0.00     4819     0.00     0.00  Flush_Buffer32
+  0.00      2.52     0.00     4500     0.00     0.00  Thrd_Flush_Buffer32
+  0.00      2.52     0.00     4500     0.00     0.00  Thrd_next_start_code
+  0.00      2.52     0.00     4500     0.00     0.00  Thrd_slice_header
+  0.00      2.52     0.00     4500     0.00     0.00  Thrd_start_of_slice
+  0.00      2.52     0.00     4500     0.00     0.00  write_frame_buf32
+  0.00      2.52     0.00     3757     0.00     0.00  Get_Bits
+  0.00      2.52     0.00      721     0.00     0.00  Fill_Buffer
+  0.00      2.52     0.00      634     0.00     0.00  next_start_code
+  0.00      2.52     0.00      450     0.00     0.00  store_yuvp
+  0.00      2.52     0.00      166     0.00     0.00  Get_Bits32
+  0.00      2.52     0.00      164     0.00     0.00  extension_and_user_data
+  0.00      2.52     0.00      152     0.00     0.00  Get_Hdr
+  0.00      2.52     0.00      152     0.00     0.00  Headers
+  0.00      2.52     0.00      150     0.00     0.01  Decode_Picture
+  0.00      2.52     0.00      150     0.00     0.00  Get_Bits1
+  0.00      2.52     0.00      150     0.00     0.00  Thrd_Initialize_Buffer
+  0.00      2.52     0.00      150     0.00     0.00  Update_Picture_Buffers
+  0.00      2.52     0.00      150     0.00     0.00  Update_Temporal_Reference_Tacking_Data
+  0.00      2.52     0.00      150     0.00     0.00  Write_Frame
+  0.00      2.52     0.00      150     0.00     0.00  extra_bit_information
+  0.00      2.52     0.00      150     0.00     0.00  frame_reorder
+  0.00      2.52     0.00      150     0.00     0.00  picture_coding_extension
+  0.00      2.52     0.00      150     0.00     0.01  picture_data
+  0.00      2.52     0.00      150     0.00     0.00  picture_header
+  0.00      2.52     0.00      150     0.00     0.00  store_one
+  0.00      2.52     0.00      150     0.00     0.00  store_yuv_progressive
+  0.00      2.52     0.00       16     0.00     0.00  marker_bit
+  0.00      2.52     0.00       13     0.00     0.00  group_of_pictures_header
+  0.00      2.52     0.00        3     0.00     0.00  Initialize_Buffer
+  0.00      2.52     0.00        1     0.00     0.00  Clear_Options
+  0.00      2.52     0.00        1     0.00     1.41  Decode_Bitstream
+  0.00      2.52     0.00        1     0.00     0.00  Deinitialize_Sequence
+  0.00      2.52     0.00        1     0.00     0.00  Initialize_Decoder
+  0.00      2.52     0.00        1     0.00     0.00  Initialize_Fast_IDCT
+  0.00      2.52     0.00        1     0.00     0.00  Initialize_Frame_Buffer
+  0.00      2.52     0.00        1     0.00     0.00  Initialize_Sequence
+  0.00      2.52     0.00        1     0.00     0.00  Output_Last_Frame_of_Sequence
+  0.00      2.52     0.00        1     0.00     0.00  Process_Options
+  0.00      2.52     0.00        1     0.00     1.41  main
+  0.00      2.52     0.00        1     0.00     0.00  sequence_display_extension
+  0.00      2.52     0.00        1     0.00     0.00  sequence_extension
+  0.00      2.52     0.00        1     0.00     0.00  sequence_header
+  0.00      2.52     0.00        1     0.00     0.00  user_data
+  0.00      2.52     0.00        1     0.00     1.41  video_sequence
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 0.50% of 1.99 seconds
+
+index % time    self  children    called     name
+                0.00    1.41       1/1           __libc_start_main [2]
+[1]     70.9    0.00    1.41       1         main [1]
+                0.00    1.41       1/1           Decode_Bitstream [3]
+                0.00    0.00       3/3           Initialize_Buffer [60]
+                0.00    0.00       1/634         next_start_code [51]
+                0.00    0.00       2/2914246     Show_Bits [62]
+                0.00    0.00       1/1           Clear_Options [76]
+                0.00    0.00       1/1           Process_Options [83]
+                0.00    0.00       1/1           Initialize_Frame_Buffer [80]
+                0.00    0.00       1/1           Initialize_Decoder [78]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]     70.9    0.00    1.41                 __libc_start_main [2]
+                0.00    1.41       1/1           main [1]
+-----------------------------------------------
+                0.00    1.41       1/1           main [1]
+[3]     70.9    0.00    1.41       1         Decode_Bitstream [3]
+                0.00    1.41       1/1           video_sequence [4]
+                0.00    0.00       2/152         Headers [45]
+-----------------------------------------------
+                0.00    1.41       1/1           Decode_Bitstream [3]
+[4]     70.9    0.00    1.41       1         video_sequence [4]
+                0.00    1.41     150/150         Decode_Picture [5]
+                0.00    0.00     150/152         Headers [45]
+                0.00    0.00       1/1           Initialize_Sequence [81]
+                0.00    0.00       1/1           Output_Last_Frame_of_Sequence [82]
+                0.00    0.00       1/1           Deinitialize_Sequence [77]
+-----------------------------------------------
+                0.00    1.41     150/150         video_sequence [4]
+[5]     70.8    0.00    1.41     150         Decode_Picture [5]
+                0.00    1.41     150/150         picture_data [7]
+                0.00    0.00     150/150         Update_Picture_Buffers [70]
+                0.00    0.00     150/150         frame_reorder [73]
+-----------------------------------------------
+                0.02    1.39     150/150         picture_data [7]
+[6]     70.8    0.02    1.39     150         new_slice [6]
+                0.03    1.33     150/150         Thrd_Work [8]
+                0.03    0.00 1450167/1454597     Flush_Buffer [27]
+                0.00    0.00     150/634         next_start_code [51]
+                0.00    0.00     150/150         Thrd_Initialize_Buffer [55]
+                0.00    0.00 2909334/2914246     Show_Bits [62]
+                0.00    0.00 1450167/1468167     write_frame_buf8 [63]
+                0.00    0.00    4500/4500        write_frame_buf32 [66]
+                0.00    0.00    4500/4819        Flush_Buffer32 [64]
+-----------------------------------------------
+                0.00    1.41     150/150         Decode_Picture [5]
+[7]     70.8    0.00    1.41     150         picture_data [7]
+                0.02    1.39     150/150         new_slice [6]
+-----------------------------------------------
+                0.03    1.33     150/150         new_slice [6]
+[8]     68.3    0.03    1.33     150         Thrd_Work [8]
+                0.04    1.09  198000/198000      Thrd_motion_compensation [9]
+                0.01    0.19  180565/180565      Thrd_decode_macroblock [12]
+                0.00    0.00   17435/17435       Thrd_skipped_macroblock [34]
+                0.00    0.00  176065/180565      Thrd_Get_macroblock_address_increment [35]
+                0.00    0.00  180415/5400427     Thrd_Show_Bits [31]
+                0.00    0.00    4500/4500        Thrd_start_of_slice [42]
+-----------------------------------------------
+                0.04    1.09  198000/198000      Thrd_Work [8]
+[9]     56.5    0.04    1.09  198000         Thrd_motion_compensation [9]
+                0.82    0.00 1188000/1188000     Fast_IDCT [10]
+                0.00    0.14  177656/177656      form_predictions [14]
+                0.07    0.00 1188000/1188000     Saturate [16]
+                0.06    0.00 1188000/1188000     Thrd_Add_Block [19]
+-----------------------------------------------
+                0.82    0.00 1188000/1188000     Thrd_motion_compensation [9]
+[10]    41.2    0.82    0.00 1188000         Fast_IDCT [10]
+-----------------------------------------------
+                                                 <spontaneous>
+[11]    23.6    0.47    0.00                 write [11]
+-----------------------------------------------
+                0.01    0.19  180565/180565      Thrd_Work [8]
+[12]     9.9    0.01    0.19  180565         Thrd_decode_macroblock [12]
+                0.00    0.07  237407/237407      Thrd_motion_vectors [18]
+                0.05    0.00 1083390/1188000     Thrd_Clear_Block [22]
+                0.01    0.02  122064/122064      Thrd_Decode_MPEG2_Intra_Block [28]
+                0.01    0.02  150119/150119      Thrd_Decode_MPEG2_Non_Intra_Block [29]
+                0.01    0.02  180565/180565      Thrd_macroblock_modes [30]
+                0.00    0.00   69950/69950       Thrd_Get_coded_block_pattern [39]
+-----------------------------------------------
+                0.02    0.12  554574/554574      form_predictions [14]
+[13]     7.0    0.02    0.12  554574         form_prediction [13]
+                0.07    0.00 1109148/1109148     form_component_prediction2 [17]
+                0.05    0.00  554574/554574      form_component_prediction [23]
+-----------------------------------------------
+                0.00    0.14  177656/177656      Thrd_motion_compensation [9]
+[14]     7.0    0.00    0.14  177656         form_predictions [14]
+                0.02    0.12  554574/554574      form_prediction [13]
+-----------------------------------------------
+                                                 <spontaneous>
+[15]     5.5    0.11    0.00                 open [15]
+-----------------------------------------------
+                0.07    0.00 1188000/1188000     Thrd_motion_compensation [9]
+[16]     3.5    0.07    0.00 1188000         Saturate [16]
+-----------------------------------------------
+                0.07    0.00 1109148/1109148     form_prediction [13]
+[17]     3.5    0.07    0.00 1109148         form_component_prediction2 [17]
+-----------------------------------------------
+                0.00    0.07  237407/237407      Thrd_decode_macroblock [12]
+[18]     3.3    0.00    0.07  237407         Thrd_motion_vectors [18]
+                0.00    0.06  426824/426824      Thrd_motion_vector [20]
+                0.00    0.01  378834/3020239     Thrd_Get_Bits [25]
+-----------------------------------------------
+                0.06    0.00 1188000/1188000     Thrd_motion_compensation [9]
+[19]     3.0    0.06    0.00 1188000         Thrd_Add_Block [19]
+-----------------------------------------------
+                0.00    0.06  426824/426824      Thrd_motion_vectors [18]
+[20]     3.0    0.00    0.06  426824         Thrd_motion_vector [20]
+                0.01    0.04  853648/853648      Thrd_Get_motion_code [24]
+                0.01    0.00  853648/853648      decode_motion_vector [33]
+                0.00    0.00   21330/3020239     Thrd_Get_Bits [25]
+-----------------------------------------------
+                0.00    0.00     150/5212443     Thrd_Initialize_Buffer [55]
+                0.00    0.00    4960/5212443     Thrd_next_start_code [48]
+                0.00    0.00   33288/5212443     Thrd_Get_P_macroblock_type [41]
+                0.00    0.00   40688/5212443     Thrd_Get_Chroma_DC_dct_diff [38]
+                0.00    0.00   69950/5212443     Thrd_Get_coded_block_pattern [39]
+                0.00    0.00   81376/5212443     Thrd_Get_Luma_DC_dct_diff [36]
+                0.00    0.00  130117/5212443     Thrd_Get_B_macroblock_type [37]
+                0.00    0.00  180568/5212443     Thrd_Get_macroblock_address_increment [35]
+                0.00    0.00  418378/5212443     Thrd_Get_motion_code [24]
+                0.01    0.00  603482/5212443     Thrd_Decode_MPEG2_Intra_Block [28]
+                0.01    0.00  629247/5212443     Thrd_Decode_MPEG2_Non_Intra_Block [29]
+                0.03    0.00 3020239/5212443     Thrd_Get_Bits [25]
+[21]     2.5    0.05    0.00 5212443         Thrd_Flush_Buffer [21]
+-----------------------------------------------
+                0.00    0.00  104610/1188000     Thrd_skipped_macroblock [34]
+                0.05    0.00 1083390/1188000     Thrd_decode_macroblock [12]
+[22]     2.5    0.05    0.00 1188000         Thrd_Clear_Block [22]
+-----------------------------------------------
+                0.05    0.00  554574/554574      form_prediction [13]
+[23]     2.5    0.05    0.00  554574         form_component_prediction [23]
+-----------------------------------------------
+                0.01    0.04  853648/853648      Thrd_motion_vector [20]
+[24]     2.5    0.01    0.04  853648         Thrd_Get_motion_code [24]
+                0.01    0.02 1272026/1289186     Thrd_Get_Bits1 [26]
+                0.00    0.00  418378/5212443     Thrd_Flush_Buffer [21]
+                0.00    0.00  418378/5400427     Thrd_Show_Bits [31]
+-----------------------------------------------
+                0.00    0.00    9000/3020239     Thrd_slice_header [43]
+                0.00    0.00   21330/3020239     Thrd_motion_vector [20]
+                0.00    0.00   26465/3020239     Thrd_Get_Chroma_DC_dct_diff [38]
+                0.00    0.00   72627/3020239     Thrd_Get_Luma_DC_dct_diff [36]
+                0.00    0.00  228601/3020239     Thrd_macroblock_modes [30]
+                0.00    0.01  378834/3020239     Thrd_motion_vectors [18]
+                0.00    0.01  487870/3020239     Thrd_Decode_MPEG2_Intra_Block [28]
+                0.00    0.01  506326/3020239     Thrd_Decode_MPEG2_Non_Intra_Block [29]
+                0.00    0.02 1289186/3020239     Thrd_Get_Bits1 [26]
+[25]     2.3    0.01    0.04 3020239         Thrd_Get_Bits [25]
+                0.03    0.00 3020239/5212443     Thrd_Flush_Buffer [21]
+                0.01    0.00 3020239/5400427     Thrd_Show_Bits [31]
+-----------------------------------------------
+                0.00    0.00   17160/1289186     Thrd_Get_I_macroblock_type [40]
+                0.01    0.02 1272026/1289186     Thrd_Get_motion_code [24]
+[26]     1.7    0.01    0.02 1289186         Thrd_Get_Bits1 [26]
+                0.00    0.02 1289186/3020239     Thrd_Get_Bits [25]
+-----------------------------------------------
+                0.00    0.00       3/1454597     Initialize_Buffer [60]
+                0.00    0.00     670/1454597     next_start_code [51]
+                0.00    0.00    3757/1454597     Get_Bits [46]
+                0.03    0.00 1450167/1454597     new_slice [6]
+[27]     1.5    0.03    0.00 1454597         Flush_Buffer [27]
+                0.00    0.00     708/721         Fill_Buffer [67]
+-----------------------------------------------
+                0.01    0.02  122064/122064      Thrd_decode_macroblock [12]
+[28]     1.4    0.01    0.02  122064         Thrd_Decode_MPEG2_Intra_Block [28]
+                0.00    0.01  487870/3020239     Thrd_Get_Bits [25]
+                0.01    0.00  603482/5212443     Thrd_Flush_Buffer [21]
+                0.00    0.00  603482/5400427     Thrd_Show_Bits [31]
+                0.00    0.00   81376/81376       Thrd_Get_Luma_DC_dct_diff [36]
+                0.00    0.00   40688/40688       Thrd_Get_Chroma_DC_dct_diff [38]
+-----------------------------------------------
+                0.01    0.02  150119/150119      Thrd_decode_macroblock [12]
+[29]     1.3    0.01    0.02  150119         Thrd_Decode_MPEG2_Non_Intra_Block [29]
+                0.00    0.01  506326/3020239     Thrd_Get_Bits [25]
+                0.01    0.00  629247/5212443     Thrd_Flush_Buffer [21]
+                0.00    0.00  629247/5400427     Thrd_Show_Bits [31]
+-----------------------------------------------
+                0.01    0.02  180565/180565      Thrd_decode_macroblock [12]
+[30]     1.1    0.01    0.02  180565         Thrd_macroblock_modes [30]
+                0.01    0.00  180565/180565      Thrd_Get_macroblock_type [32]
+                0.00    0.00  228601/3020239     Thrd_Get_Bits [25]
+-----------------------------------------------
+                0.00    0.00    4500/5400427     Thrd_start_of_slice [42]
+                0.00    0.00    4960/5400427     Thrd_next_start_code [48]
+                0.00    0.00   33288/5400427     Thrd_Get_P_macroblock_type [41]
+                0.00    0.00   41155/5400427     Thrd_Get_Chroma_DC_dct_diff [38]
+                0.00    0.00   69950/5400427     Thrd_Get_coded_block_pattern [39]
+                0.00    0.00   84128/5400427     Thrd_Get_Luma_DC_dct_diff [36]
+                0.00    0.00  130117/5400427     Thrd_Get_B_macroblock_type [37]
+                0.00    0.00  180415/5400427     Thrd_Work [8]
+                0.00    0.00  180568/5400427     Thrd_Get_macroblock_address_increment [35]
+                0.00    0.00  418378/5400427     Thrd_Get_motion_code [24]
+                0.00    0.00  603482/5400427     Thrd_Decode_MPEG2_Intra_Block [28]
+                0.00    0.00  629247/5400427     Thrd_Decode_MPEG2_Non_Intra_Block [29]
+                0.01    0.00 3020239/5400427     Thrd_Get_Bits [25]
+[31]     1.0    0.02    0.00 5400427         Thrd_Show_Bits [31]
+-----------------------------------------------
+                0.01    0.00  180565/180565      Thrd_macroblock_modes [30]
+[32]     0.6    0.01    0.00  180565         Thrd_Get_macroblock_type [32]
+                0.00    0.00  130117/130117      Thrd_Get_B_macroblock_type [37]
+                0.00    0.00   17160/17160       Thrd_Get_I_macroblock_type [40]
+                0.00    0.00   33288/33288       Thrd_Get_P_macroblock_type [41]
+-----------------------------------------------
+                0.01    0.00  853648/853648      Thrd_motion_vector [20]
+[33]     0.5    0.01    0.00  853648         decode_motion_vector [33]
+-----------------------------------------------
+                0.00    0.00   17435/17435       Thrd_Work [8]
+[34]     0.2    0.00    0.00   17435         Thrd_skipped_macroblock [34]
+                0.00    0.00  104610/1188000     Thrd_Clear_Block [22]
+-----------------------------------------------
+                0.00    0.00    4500/180565      Thrd_start_of_slice [42]
+                0.00    0.00  176065/180565      Thrd_Work [8]
+[35]     0.1    0.00    0.00  180565         Thrd_Get_macroblock_address_increment [35]
+                0.00    0.00  180568/5212443     Thrd_Flush_Buffer [21]
+                0.00    0.00  180568/5400427     Thrd_Show_Bits [31]
+-----------------------------------------------
+                0.00    0.00   81376/81376       Thrd_Decode_MPEG2_Intra_Block [28]
+[36]     0.1    0.00    0.00   81376         Thrd_Get_Luma_DC_dct_diff [36]
+                0.00    0.00   72627/3020239     Thrd_Get_Bits [25]
+                0.00    0.00   81376/5212443     Thrd_Flush_Buffer [21]
+                0.00    0.00   84128/5400427     Thrd_Show_Bits [31]
+-----------------------------------------------
+                0.00    0.00  130117/130117      Thrd_Get_macroblock_type [32]
+[37]     0.1    0.00    0.00  130117         Thrd_Get_B_macroblock_type [37]
+                0.00    0.00  130117/5212443     Thrd_Flush_Buffer [21]
+                0.00    0.00  130117/5400427     Thrd_Show_Bits [31]
+-----------------------------------------------
+                0.00    0.00   40688/40688       Thrd_Decode_MPEG2_Intra_Block [28]
+[38]     0.0    0.00    0.00   40688         Thrd_Get_Chroma_DC_dct_diff [38]
+                0.00    0.00   26465/3020239     Thrd_Get_Bits [25]
+                0.00    0.00   40688/5212443     Thrd_Flush_Buffer [21]
+                0.00    0.00   41155/5400427     Thrd_Show_Bits [31]
+-----------------------------------------------
+                0.00    0.00   69950/69950       Thrd_decode_macroblock [12]
+[39]     0.0    0.00    0.00   69950         Thrd_Get_coded_block_pattern [39]
+                0.00    0.00   69950/5212443     Thrd_Flush_Buffer [21]
+                0.00    0.00   69950/5400427     Thrd_Show_Bits [31]
+-----------------------------------------------
+                0.00    0.00   17160/17160       Thrd_Get_macroblock_type [32]
+[40]     0.0    0.00    0.00   17160         Thrd_Get_I_macroblock_type [40]
+                0.00    0.00   17160/1289186     Thrd_Get_Bits1 [26]
+-----------------------------------------------
+                0.00    0.00   33288/33288       Thrd_Get_macroblock_type [32]
+[41]     0.0    0.00    0.00   33288         Thrd_Get_P_macroblock_type [41]
+                0.00    0.00   33288/5212443     Thrd_Flush_Buffer [21]
+                0.00    0.00   33288/5400427     Thrd_Show_Bits [31]
+-----------------------------------------------
+                0.00    0.00    4500/4500        Thrd_Work [8]
+[42]     0.0    0.00    0.00    4500         Thrd_start_of_slice [42]
+                0.00    0.00    4500/4500        Thrd_slice_header [43]
+                0.00    0.00    4500/4500        Thrd_next_start_code [48]
+                0.00    0.00    4500/180565      Thrd_Get_macroblock_address_increment [35]
+                0.00    0.00    4500/5400427     Thrd_Show_Bits [31]
+                0.00    0.00    4500/4500        Thrd_Flush_Buffer32 [65]
+-----------------------------------------------
+                0.00    0.00    4500/4500        Thrd_start_of_slice [42]
+[43]     0.0    0.00    0.00    4500         Thrd_slice_header [43]
+                0.00    0.00    9000/3020239     Thrd_Get_Bits [25]
+-----------------------------------------------
+                0.00    0.00     152/152         Headers [45]
+[44]     0.0    0.00    0.00     152         Get_Hdr [44]
+                0.00    0.00     150/150         picture_header [47]
+                0.00    0.00      13/13          group_of_pictures_header [52]
+                0.00    0.00     166/634         next_start_code [51]
+                0.00    0.00       1/1           sequence_header [56]
+                0.00    0.00     166/166         Get_Bits32 [69]
+-----------------------------------------------
+                0.00    0.00       2/152         Decode_Bitstream [3]
+                0.00    0.00     150/152         video_sequence [4]
+[45]     0.0    0.00    0.00     152         Headers [45]
+                0.00    0.00     152/152         Get_Hdr [44]
+-----------------------------------------------
+                0.00    0.00       7/3757        sequence_display_extension [59]
+                0.00    0.00       9/3757        sequence_header [56]
+                0.00    0.00      10/3757        sequence_extension [58]
+                0.00    0.00      16/3757        marker_bit [57]
+                0.00    0.00      91/3757        group_of_pictures_header [52]
+                0.00    0.00     150/3757        Get_Bits1 [53]
+                0.00    0.00     152/3757        extension_and_user_data [49]
+                0.00    0.00     922/3757        picture_header [47]
+                0.00    0.00    2400/3757        picture_coding_extension [50]
+[46]     0.0    0.00    0.00    3757         Get_Bits [46]
+                0.00    0.00    3757/1454597     Flush_Buffer [27]
+                0.00    0.00    3757/2914246     Show_Bits [62]
+-----------------------------------------------
+                0.00    0.00     150/150         Get_Hdr [44]
+[47]     0.0    0.00    0.00     150         picture_header [47]
+                0.00    0.00     150/164         extension_and_user_data [49]
+                0.00    0.00     922/3757        Get_Bits [46]
+                0.00    0.00     150/150         extra_bit_information [54]
+                0.00    0.00     150/150         Update_Temporal_Reference_Tacking_Data [71]
+-----------------------------------------------
+                0.00    0.00    4500/4500        Thrd_start_of_slice [42]
+[48]     0.0    0.00    0.00    4500         Thrd_next_start_code [48]
+                0.00    0.00    4960/5212443     Thrd_Flush_Buffer [21]
+                0.00    0.00    4960/5400427     Thrd_Show_Bits [31]
+-----------------------------------------------
+                0.00    0.00       1/164         sequence_header [56]
+                0.00    0.00      13/164         group_of_pictures_header [52]
+                0.00    0.00     150/164         picture_header [47]
+[49]     0.0    0.00    0.00     164         extension_and_user_data [49]
+                0.00    0.00     150/150         picture_coding_extension [50]
+                0.00    0.00     316/634         next_start_code [51]
+                0.00    0.00     152/3757        Get_Bits [46]
+                0.00    0.00       1/1           sequence_extension [58]
+                0.00    0.00       1/1           sequence_display_extension [59]
+                0.00    0.00       1/1           user_data [61]
+                0.00    0.00     317/2914246     Show_Bits [62]
+                0.00    0.00     153/4819        Flush_Buffer32 [64]
+-----------------------------------------------
+                0.00    0.00     150/150         extension_and_user_data [49]
+[50]     0.0    0.00    0.00     150         picture_coding_extension [50]
+                0.00    0.00    2400/3757        Get_Bits [46]
+-----------------------------------------------
+                0.00    0.00       1/634         user_data [61]
+                0.00    0.00       1/634         main [1]
+                0.00    0.00     150/634         new_slice [6]
+                0.00    0.00     166/634         Get_Hdr [44]
+                0.00    0.00     316/634         extension_and_user_data [49]
+[51]     0.0    0.00    0.00     634         next_start_code [51]
+                0.00    0.00     670/1454597     Flush_Buffer [27]
+                0.00    0.00     670/2914246     Show_Bits [62]
+-----------------------------------------------
+                0.00    0.00      13/13          Get_Hdr [44]
+[52]     0.0    0.00    0.00      13         group_of_pictures_header [52]
+                0.00    0.00      13/164         extension_and_user_data [49]
+                0.00    0.00      91/3757        Get_Bits [46]
+                0.00    0.00      13/16          marker_bit [57]
+-----------------------------------------------
+                0.00    0.00     150/150         extra_bit_information [54]
+[53]     0.0    0.00    0.00     150         Get_Bits1 [53]
+                0.00    0.00     150/3757        Get_Bits [46]
+-----------------------------------------------
+                0.00    0.00     150/150         picture_header [47]
+[54]     0.0    0.00    0.00     150         extra_bit_information [54]
+                0.00    0.00     150/150         Get_Bits1 [53]
+-----------------------------------------------
+                0.00    0.00     150/150         new_slice [6]
+[55]     0.0    0.00    0.00     150         Thrd_Initialize_Buffer [55]
+                0.00    0.00     150/5212443     Thrd_Flush_Buffer [21]
+-----------------------------------------------
+                0.00    0.00       1/1           Get_Hdr [44]
+[56]     0.0    0.00    0.00       1         sequence_header [56]
+                0.00    0.00       1/164         extension_and_user_data [49]
+                0.00    0.00       9/3757        Get_Bits [46]
+                0.00    0.00       1/16          marker_bit [57]
+-----------------------------------------------
+                0.00    0.00       1/16          sequence_header [56]
+                0.00    0.00       1/16          sequence_extension [58]
+                0.00    0.00       1/16          sequence_display_extension [59]
+                0.00    0.00      13/16          group_of_pictures_header [52]
+[57]     0.0    0.00    0.00      16         marker_bit [57]
+                0.00    0.00      16/3757        Get_Bits [46]
+-----------------------------------------------
+                0.00    0.00       1/1           extension_and_user_data [49]
+[58]     0.0    0.00    0.00       1         sequence_extension [58]
+                0.00    0.00      10/3757        Get_Bits [46]
+                0.00    0.00       1/16          marker_bit [57]
+-----------------------------------------------
+                0.00    0.00       1/1           extension_and_user_data [49]
+[59]     0.0    0.00    0.00       1         sequence_display_extension [59]
+                0.00    0.00       7/3757        Get_Bits [46]
+                0.00    0.00       1/16          marker_bit [57]
+-----------------------------------------------
+                0.00    0.00       3/3           main [1]
+[60]     0.0    0.00    0.00       3         Initialize_Buffer [60]
+                0.00    0.00       3/1454597     Flush_Buffer [27]
+-----------------------------------------------
+                0.00    0.00       1/1           extension_and_user_data [49]
+[61]     0.0    0.00    0.00       1         user_data [61]
+                0.00    0.00       1/634         next_start_code [51]
+-----------------------------------------------
+                0.00    0.00       2/2914246     main [1]
+                0.00    0.00     166/2914246     Get_Bits32 [69]
+                0.00    0.00     317/2914246     extension_and_user_data [49]
+                0.00    0.00     670/2914246     next_start_code [51]
+                0.00    0.00    3757/2914246     Get_Bits [46]
+                0.00    0.00 2909334/2914246     new_slice [6]
+[62]     0.0    0.00    0.00 2914246         Show_Bits [62]
+-----------------------------------------------
+                0.00    0.00   18000/1468167     write_frame_buf32 [66]
+                0.00    0.00 1450167/1468167     new_slice [6]
+[63]     0.0    0.00    0.00 1468167         write_frame_buf8 [63]
+-----------------------------------------------
+                0.00    0.00     153/4819        extension_and_user_data [49]
+                0.00    0.00     166/4819        Get_Bits32 [69]
+                0.00    0.00    4500/4819        new_slice [6]
+[64]     0.0    0.00    0.00    4819         Flush_Buffer32 [64]
+                0.00    0.00      13/721         Fill_Buffer [67]
+-----------------------------------------------
+                0.00    0.00    4500/4500        Thrd_start_of_slice [42]
+[65]     0.0    0.00    0.00    4500         Thrd_Flush_Buffer32 [65]
+-----------------------------------------------
+                0.00    0.00    4500/4500        new_slice [6]
+[66]     0.0    0.00    0.00    4500         write_frame_buf32 [66]
+                0.00    0.00   18000/1468167     write_frame_buf8 [63]
+-----------------------------------------------
+                0.00    0.00      13/721         Flush_Buffer32 [64]
+                0.00    0.00     708/721         Flush_Buffer [27]
+[67]     0.0    0.00    0.00     721         Fill_Buffer [67]
+-----------------------------------------------
+                0.00    0.00     450/450         store_yuv_progressive [75]
+[68]     0.0    0.00    0.00     450         store_yuvp [68]
+-----------------------------------------------
+                0.00    0.00     166/166         Get_Hdr [44]
+[69]     0.0    0.00    0.00     166         Get_Bits32 [69]
+                0.00    0.00     166/2914246     Show_Bits [62]
+                0.00    0.00     166/4819        Flush_Buffer32 [64]
+-----------------------------------------------
+                0.00    0.00     150/150         Decode_Picture [5]
+[70]     0.0    0.00    0.00     150         Update_Picture_Buffers [70]
+-----------------------------------------------
+                0.00    0.00     150/150         picture_header [47]
+[71]     0.0    0.00    0.00     150         Update_Temporal_Reference_Tacking_Data [71]
+-----------------------------------------------
+                0.00    0.00       1/150         Output_Last_Frame_of_Sequence [82]
+                0.00    0.00     149/150         frame_reorder [73]
+[72]     0.0    0.00    0.00     150         Write_Frame [72]
+                0.00    0.00     150/150         store_one [74]
+-----------------------------------------------
+                0.00    0.00     150/150         Decode_Picture [5]
+[73]     0.0    0.00    0.00     150         frame_reorder [73]
+                0.00    0.00     149/150         Write_Frame [72]
+-----------------------------------------------
+                0.00    0.00     150/150         Write_Frame [72]
+[74]     0.0    0.00    0.00     150         store_one [74]
+                0.00    0.00     150/150         store_yuv_progressive [75]
+-----------------------------------------------
+                0.00    0.00     150/150         store_one [74]
+[75]     0.0    0.00    0.00     150         store_yuv_progressive [75]
+                0.00    0.00     450/450         store_yuvp [68]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[76]     0.0    0.00    0.00       1         Clear_Options [76]
+-----------------------------------------------
+                0.00    0.00       1/1           video_sequence [4]
+[77]     0.0    0.00    0.00       1         Deinitialize_Sequence [77]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[78]     0.0    0.00    0.00       1         Initialize_Decoder [78]
+                0.00    0.00       1/1           Initialize_Fast_IDCT [79]
+-----------------------------------------------
+                0.00    0.00       1/1           Initialize_Decoder [78]
+[79]     0.0    0.00    0.00       1         Initialize_Fast_IDCT [79]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[80]     0.0    0.00    0.00       1         Initialize_Frame_Buffer [80]
+-----------------------------------------------
+                0.00    0.00       1/1           video_sequence [4]
+[81]     0.0    0.00    0.00       1         Initialize_Sequence [81]
+-----------------------------------------------
+                0.00    0.00       1/1           video_sequence [4]
+[82]     0.0    0.00    0.00       1         Output_Last_Frame_of_Sequence [82]
+                0.00    0.00       1/150         Write_Frame [72]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[83]     0.0    0.00    0.00       1         Process_Options [83]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+
+Index by function name
+
+  [76] Clear_Options (mpeg2dec.c) [37] Thrd_Get_B_macroblock_type (getvlc.c) [49] extension_and_user_data (gethdr.c)
+   [3] Decode_Bitstream (mpeg2dec.c) [25] Thrd_Get_Bits   [54] extra_bit_information (gethdr.c)
+   [5] Decode_Picture         [26] Thrd_Get_Bits1         [23] form_component_prediction (recon.c)
+  [77] Deinitialize_Sequence (mpeg2dec.c) [38] Thrd_Get_Chroma_DC_dct_diff [17] form_component_prediction2 (recon.c)
+  [10] Fast_IDCT              [40] Thrd_Get_I_macroblock_type (getvlc.c) [13] form_prediction (recon.c)
+  [67] Fill_Buffer            [36] Thrd_Get_Luma_DC_dct_diff [14] form_predictions
+  [27] Flush_Buffer           [41] Thrd_Get_P_macroblock_type (getvlc.c) [73] frame_reorder (getpic.c)
+  [64] Flush_Buffer32         [39] Thrd_Get_coded_block_pattern [52] group_of_pictures_header (gethdr.c)
+  [46] Get_Bits               [35] Thrd_Get_macroblock_address_increment [1] main
+  [53] Get_Bits1              [32] Thrd_Get_macroblock_type [57] marker_bit
+  [69] Get_Bits32             [24] Thrd_Get_motion_code  (331) mcount
+  [44] Get_Hdr                [55] Thrd_Initialize_Buffer  [6] new_slice (getpic.c)
+  [45] Headers (mpeg2dec.c)   [31] Thrd_Show_Bits         [51] next_start_code
+  [60] Initialize_Buffer       [8] Thrd_Work              [15] open
+  [78] Initialize_Decoder (mpeg2dec.c) [12] Thrd_decode_macroblock (getpic.c) [50] picture_coding_extension (gethdr.c)
+  [79] Initialize_Fast_IDCT   [30] Thrd_macroblock_modes (getpic.c) [7] picture_data (getpic.c)
+  [80] Initialize_Frame_Buffer (mpeg2dec.c) [9] Thrd_motion_compensation (getpic.c) [47] picture_header (gethdr.c)
+  [81] Initialize_Sequence (mpeg2dec.c) [20] Thrd_motion_vector [59] sequence_display_extension (gethdr.c)
+  [82] Output_Last_Frame_of_Sequence [18] Thrd_motion_vectors [58] sequence_extension (gethdr.c)
+  [83] Process_Options (mpeg2dec.c) [48] Thrd_next_start_code [56] sequence_header (gethdr.c)
+  [16] Saturate (getpic.c)    [34] Thrd_skipped_macroblock (getpic.c) [74] store_one (store.c)
+  [62] Show_Bits              [43] Thrd_slice_header      [75] store_yuv_progressive (store.c)
+  [19] Thrd_Add_Block (getpic.c) [42] Thrd_start_of_slice (getpic.c) [68] store_yuvp (store.c)
+  [22] Thrd_Clear_Block (getpic.c) [70] Update_Picture_Buffers (getpic.c) [61] user_data (gethdr.c)
+  [28] Thrd_Decode_MPEG2_Intra_Block [71] Update_Temporal_Reference_Tacking_Data (gethdr.c) [4] video_sequence (mpeg2dec.c)
+  [29] Thrd_Decode_MPEG2_Non_Intra_Block [72] Write_Frame [11] write
+  [21] Thrd_Flush_Buffer     (848) __mcount_internal      [66] write_frame_buf32
+  [65] Thrd_Flush_Buffer32    [33] decode_motion_vector (motion.c) [63] write_frame_buf8

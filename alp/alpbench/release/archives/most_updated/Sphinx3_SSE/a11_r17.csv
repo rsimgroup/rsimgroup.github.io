@@ -1,0 +1,486 @@
+VTune(TM) Performance Analyzer 2.0 for Linux*
+Copyright (C) 2000-2003 Intel Corporation. All rights reserved.
+
+Event Summary
+   1578 = Samples collected due to this event
+   1067958          = Sample after value used during collection
+   1685237724       = Total events (samples*SAV)
+Clockticks
+   2158 = Samples collected due to this event
+   2193263          = Sample after value used during collection
+   4733061554       = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                           Module                Size    
+  Event                                                              Events%    Samples     Events            Address          Segment          Offset        Full name
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mgau_eval_inner                    livepretend_sse320    0xd8    
+  Clockticks                                                         46.71%      1008       2210809104          0x0000000000007EA6 0x00d           0x0000000000006C26
+mgau_eval                          livepretend_sse320    0x152   
+  Clockticks                                                         13.53%      292        640432796           0x0000000000007F7E 0x00d           0x0000000000006CFE
+logs3_add                          livepretend_sse320    0xbe    
+  Clockticks                                                         10.61%      229        502257227           0x0000000000004DA0 0x00d           0x0000000000003B20
+sseq2sen_active_thrd_work          livepretend_sse320    0x156   
+  Clockticks                                                          2.69%      58         127209254           0x000000000000A338 0x00d           0x00000000000090B8
+hmm_vit_eval_3st                   livepretend_sse320    0x126   
+  Clockticks                                                          3.29%      71         155721673           0x0000000000012FD6 0x00d           0x0000000000011D56
+frame_eval_thrd_work               livepretend_sse320    0x2a8   
+  Clockticks                                                          2.04%      44         96503572            0x0000000000009BBC 0x00d           0x000000000000893C
+lextree_hmm_eval_thrd_work         livepretend_sse320    0x124   
+  Clockticks                                                          2.87%      62         135982306           0x0000000000009ED2 0x00d           0x0000000000008C52
+fe_fft                             livepretend_sse320    0x4d0   
+  Clockticks                                                          1.53%      33         72377679            0x000000000001A5A4 0x00d           0x0000000000019324
+dict2pid_comsenscr_thrd_work       livepretend_sse320    0x6e    
+  Clockticks                                                          1.11%      24         52638312            0x0000000000009E64 0x00d           0x0000000000008BE4
+sen_active_thrd_work               livepretend_sse320    0x286   
+  Clockticks                                                          2.27%      49         107469887           0x000000000000A48E 0x00d           0x000000000000920E
+lextree_hmm_ppg_thrd_work          livepretend_sse320    0x2a6   
+  Clockticks                                                          0.93%      20         43865260            0x000000000000A026 0x00d           0x0000000000008DA6
+ln_lock                            livepretend_sse320    0x26    
+  Clockticks                                                          0.37%      8          17546104            0x0000000000009FF6 0x00d           0x0000000000008D76
+lextree_ssid_active_thrd_work      livepretend_sse320    0x6a    
+  Clockticks                                                          0.88%      19         41671997            0x000000000000A2CE 0x00d           0x000000000000904E
+vithist_rescore                    livepretend_sse320    0x1de   
+  Clockticks                                                          0.23%      5          10966315            0x0000000000014C5A 0x00d           0x00000000000139DA
+lextree_enter                      livepretend_sse320    0x18e   
+  Clockticks                                                          1.16%      25         54831575            0x00000000000140B8 0x00d           0x0000000000012E38
+__libm_sse2_sincos                 livepretend_sse320    0x1d6   
+  Clockticks                                                          0.19%      4          8773052             0x0000000000022100 0x00d           0x0000000000020E80
+subheap_insert                     livepretend_sse320    0x86    
+  Clockticks                                                          0.32%      7          15352841            0x0000000000005692 0x00d           0x0000000000004412
+lm_tg_score                        livepretend_sse320    0x238   
+  Clockticks                                                          0.09%      2          4386526             0x0000000000011652 0x00d           0x00000000000103D2
+vh_lmstate_find                    livepretend_sse320    0x58    
+  Clockticks                                                          0.19%      4          8773052             0x0000000000014A1A 0x00d           0x000000000001379A
+fe_mel_cep                         livepretend_sse320    0xfa    
+  Clockticks                                                          0.23%      5          10966315            0x000000000001A4AA 0x00d           0x000000000001922A
+lm_bg_score                        livepretend_sse320    0xfc    
+  Clockticks                                                          0.05%      1          2193263             0x000000000001109E 0x00d           0x000000000000FE1E
+__mymalloc                         livepretend_sse320    0x166   
+  Clockticks                                                          0.09%      2          4386526             0x0000000000001992 0x00d           0x0000000000000712
+vithist_prune                      livepretend_sse320    0x1fa   
+  Clockticks                                                          0.14%      3          6579789             0x0000000000014FB8 0x00d           0x0000000000013D38
+fe_mel_spec                        livepretend_sse320    0xb6    
+  Clockticks                                                          0.14%      3          6579789             0x000000000001A3F4 0x00d           0x0000000000019174
+fe_spec_magnitude                  livepretend_sse320    0x450   
+subheap_pop                        livepretend_sse320    0x88    
+  Clockticks                                                          0.14%      3          6579789             0x0000000000005736 0x00d           0x00000000000044B6
+hmm_clear                          livepretend_sse320    0xc0    
+  Clockticks                                                          0.05%      1          2193263             0x0000000000012D6A 0x00d           0x0000000000011AEA
+dict_filler_word                   livepretend_sse320    0x80    
+  Clockticks                                                          0.09%      2          4386526             0x000000000000DB00 0x00d           0x000000000000C880
+__libm_sse2_log                    livepretend_sse320    0x236   
+  Clockticks                                                          0.09%      2          4386526             0x00000000000215C0 0x00d           0x0000000000020340
+vithist_enter                      livepretend_sse320    0x116   
+  Clockticks                                                          0.05%      1          2193263             0x0000000000014B44 0x00d           0x00000000000138C4
+__ckd_calloc                       livepretend_sse320    0x4c    
+  Clockticks                                                          0.05%      1          2193263             0x000000000000151C 0x00d           0x000000000000029C
+utt_word_trans                     livepretend_sse320    0x294   
+  Clockticks                                                          0.09%      2          4386526             0x0000000000018456 0x00d           0x00000000000171D6
+__myfree                           livepretend_sse320    0x70    
+  Clockticks                                                          0.05%      1          2193263             0x0000000000001AF8 0x00d           0x0000000000000878
+UnmappedSamples                    livepretend_sse320    0x0     
+  Clockticks                                                          0.05%      1          2193263             0x0000000000001280 0x00d           0x0000000000000000
+vithist_lmstate_enter              livepretend_sse320    0xb0    
+  Clockticks                                                          0.05%      1          2193263             0x0000000000014A72 0x00d           0x00000000000137F2
+vithist_backtrace                  livepretend_sse320    0xae    
+ptmr_stop                          livepretend_sse320    0xc6    
+ptmr_start                         livepretend_sse320    0x72    
+  Clockticks                                                          0.05%      1          2193263             0x0000000000006088 0x00d           0x0000000000004E08
+new_thrd_lextree_hmm_propagate     livepretend_sse320    0xee    
+  Clockticks                                                          0.05%      1          2193263             0x000000000000AAFC 0x00d           0x000000000000987C
+new_lextree_hmm_eval_thrd_work     livepretend_sse320    0x108   
+  Clockticks                                                          0.09%      2          4386526             0x000000000000A85A 0x00d           0x00000000000095DA
+both.aligned                       livepretend_sse320    0x68    
+  Clockticks                                                          0.05%      1          2193263             0x0000000000027120 0x00d           0x0000000000025EA0
+make_sec                           livepretend_sse320    0x28    
+  Clockticks                                                          0.05%      1          2193263             0x0000000000006060 0x00d           0x0000000000004DE0
+log_to_logs3_factor                livepretend_sse320    0x8     
+ln_unlock                          livepretend_sse320    0xa     
+fe_pre_emphasis                    livepretend_sse320    0x12c   
+  Clockticks                                                          0.05%      1          2193263             0x0000000000019BE2 0x00d           0x0000000000018962
+fe_process_utt                     livepretend_sse320    0x37e   
+feat_s2mfc2feat_block              livepretend_sse320    0x7a2   
+  Clockticks                                                          0.05%      1          2193263             0x000000000001E25E 0x00d           0x000000000001CFDE
+kb_lextree_active_swap             livepretend_sse320    0x48    
+  Clockticks                                                          0.05%      1          2193263             0x0000000000016C2A 0x00d           0x00000000000159AA
+Event Summary
+Uops Retired
+   1428 = Samples collected due to this event
+   1615193          = Sample after value used during collection
+   2306495604       = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                          Module                Size    
+  Event                                                             Events%    Samples     Events            Address          Segment          Offset        Full name
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mgau_eval_inner                   livepretend_sse320    0xd8    
+  Uops Retired                                                      57.07%      815        1316382295          0x0000000000007EA6 0x00d           0x0000000000006C26 mgau_eval_inner
+mgau_eval                         livepretend_sse320    0x152   
+  Uops Retired                                                       7.14%      102        164749686           0x0000000000007F7E 0x00d           0x0000000000006CFE mgau_eval
+logs3_add                         livepretend_sse320    0xbe    
+  Uops Retired                                                       6.93%      99         159904107           0x0000000000004DA0 0x00d           0x0000000000003B20 logs3_add
+sseq2sen_active_thrd_work         livepretend_sse320    0x156   
+  Uops Retired                                                       5.04%      72         116293896           0x000000000000A338 0x00d           0x00000000000090B8 sseq2sen_active_thrd_work
+frame_eval_thrd_work              livepretend_sse320    0x2a8   
+  Uops Retired                                                       3.08%      44         71068492            0x0000000000009BBC 0x00d           0x000000000000893C frame_eval_thrd_work
+dict2pid_comsenscr_thrd_work      livepretend_sse320    0x6e    
+  Uops Retired                                                       2.80%      40         64607720            0x0000000000009E64 0x00d           0x0000000000008BE4 dict2pid_comsenscr_thrd_work
+fe_fft                            livepretend_sse320    0x4d0   
+  Uops Retired                                                       2.31%      33         53301369            0x000000000001A5A4 0x00d           0x0000000000019324 fe_fft
+lextree_hmm_ppg_thrd_work         livepretend_sse320    0x2a6   
+  Uops Retired                                                       1.54%      22         35534246            0x000000000000A026 0x00d           0x0000000000008DA6 lextree_hmm_ppg_thrd_work
+hmm_vit_eval_3st                  livepretend_sse320    0x126   
+  Uops Retired                                                       1.26%      18         29073474            0x0000000000012FD6 0x00d           0x0000000000011D56 hmm_vit_eval_3st
+sen_active_thrd_work              livepretend_sse320    0x286   
+  Uops Retired                                                       1.61%      23         37149439            0x000000000000A48E 0x00d           0x000000000000920E sen_active_thrd_work
+vithist_rescore                   livepretend_sse320    0x1de   
+  Uops Retired                                                       0.63%      9          14536737            0x0000000000014C5A 0x00d           0x00000000000139DA vithist_rescore
+vh_lmstate_find                   livepretend_sse320    0x58    
+  Uops Retired                                                       0.70%      10         16151930            0x0000000000014A1A 0x00d           0x000000000001379A vh_lmstate_find
+lm_bg_score                       livepretend_sse320    0xfc    
+  Uops Retired                                                       0.56%      8          12921544            0x000000000001109E 0x00d           0x000000000000FE1E lm_bg_score
+vithist_enter                     livepretend_sse320    0x116   
+  Uops Retired                                                       0.42%      6          9691158             0x0000000000014B44 0x00d           0x00000000000138C4 vithist_enter
+fe_mel_cep                        livepretend_sse320    0xfa    
+  Uops Retired                                                       0.35%      5          8075965             0x000000000001A4AA 0x00d           0x000000000001922A fe_mel_cep
+ln_lock                           livepretend_sse320    0x26    
+  Uops Retired                                                       0.21%      3          4845579             0x0000000000009FF6 0x00d           0x0000000000008D76 ln_lock
+fe_mel_spec                       livepretend_sse320    0xb6    
+  Uops Retired                                                       0.21%      3          4845579             0x000000000001A3F4 0x00d           0x0000000000019174 fe_mel_spec
+lextree_hmm_eval_thrd_work        livepretend_sse320    0x124   
+  Uops Retired                                                       0.77%      11         17767123            0x0000000000009ED2 0x00d           0x0000000000008C52 lextree_hmm_eval_thrd_work
+lextree_enter                     livepretend_sse320    0x18e   
+  Uops Retired                                                       0.21%      3          4845579             0x00000000000140B8 0x00d           0x0000000000012E38 lextree_enter
+hmm_clear                         livepretend_sse320    0xc0    
+  Uops Retired                                                       0.14%      2          3230386             0x0000000000012D6A 0x00d           0x0000000000011AEA hmm_clear
+vithist_prune                     livepretend_sse320    0x1fa   
+  Uops Retired                                                       0.14%      2          3230386             0x0000000000014FB8 0x00d           0x0000000000013D38 vithist_prune
+__libm_sse2_sincos                livepretend_sse320    0x1d6   
+  Uops Retired                                                       0.21%      3          4845579             0x0000000000022100 0x00d           0x0000000000020E80 __libm_sse2_sincos
+subheap_pop                       livepretend_sse320    0x88    
+  Uops Retired                                                       0.14%      2          3230386             0x0000000000005736 0x00d           0x00000000000044B6 subheap_pop
+subheap_insert                    livepretend_sse320    0x86    
+  Uops Retired                                                       0.14%      2          3230386             0x0000000000005692 0x00d           0x0000000000004412 subheap_insert
+__libm_sse2_log                   livepretend_sse320    0x236   
+  Uops Retired                                                       0.14%      2          3230386             0x00000000000215C0 0x00d           0x0000000000020340 __libm_sse2_log
+not1                              livepretend_sse320    0x8     
+  Uops Retired                                                       0.07%      1          1615193             0x00000000000268D0 0x00d           0x0000000000025650 not1
+fe_pre_emphasis                   livepretend_sse320    0x12c   
+  Uops Retired                                                       0.07%      1          1615193             0x0000000000019BE2 0x00d           0x0000000000018962 fe_pre_emphasis
+fe_process_utt                    livepretend_sse320    0x37e   
+  Uops Retired                                                       0.07%      1          1615193             0x000000000001B00C 0x00d           0x0000000000019D8C fe_process_utt
+fe_spec_magnitude                 livepretend_sse320    0x450   
+  Uops Retired                                                       0.07%      1          1615193             0x0000000000019FA4 0x00d           0x0000000000018D24 fe_spec_magnitude
+log_to_logs3_factor               livepretend_sse320    0x8     
+  Uops Retired                                                       0.07%      1          1615193             0x0000000000004F34 0x00d           0x0000000000003CB4 log_to_logs3_factor
+ln_unlock                         livepretend_sse320    0xa     
+  Uops Retired                                                       0.14%      2          3230386             0x000000000000A01C 0x00d           0x0000000000008D9C ln_unlock
+lm_tg_score                       livepretend_sse320    0x238   
+  Uops Retired                                                       0.14%      2          3230386             0x0000000000011652 0x00d           0x00000000000103D2 lm_tg_score
+lextree_ssid_active_thrd_work     livepretend_sse320    0x6a    
+  Uops Retired                                                       0.14%      2          3230386             0x000000000000A2CE 0x00d           0x000000000000904E lextree_ssid_active_thrd_work
+Event Summary
+   2439 = Samples collected due to this event
+   4825             = Sample after value used during collection
+   11768175         = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function               Module                Size    
+  Event                                                  Events%    Samples     Events            Address          Segment          Offset        Full name
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mgau_eval_inner        livepretend_sse320    0xd8    
+mgau_eval              livepretend_sse320    0x152   
+fe_pre_emphasis        livepretend_sse320    0x12c   
+__libm_sse2_sincos     livepretend_sse320    0x1d6   
+movdqa8                livepretend_sse320    0x50    
+__libm_sse2_log        livepretend_sse320    0x236   
+fe_mel_cep             livepretend_sse320    0xfa    
+make_sec               livepretend_sse320    0x28    
+ptmr_start             livepretend_sse320    0x72    
+ptmr_stop              livepretend_sse320    0xc6    
+Event Summary
+   479 = Samples collected due to this event
+   1                = Sample after value used during collection
+   479              = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function        Module                Size    
+  Event                                           Events%    Samples     Events            Address          Segment          Offset        Full name
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+fe_mel_spec     livepretend_sse320    0xb6    
+Event Summary
+Loads Retired
+   3154 = Samples collected due to this event
+   183442           = Sample after value used during collection
+   578576068        = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                          Module                Size    
+  Event                                                             Events%    Samples     Events            Address          Segment          Offset        Full name
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mgau_eval_inner                   livepretend_sse320    0xd8    
+  Loads Retired                                                     51.27%      1617       296625714           0x0000000000007EA6 0x00d           0x0000000000006C26 mgau_eval_inner
+mgau_eval                         livepretend_sse320    0x152   
+  Loads Retired                                                     13.73%      433        79430386            0x0000000000007F7E 0x00d           0x0000000000006CFE mgau_eval
+logs3_add                         livepretend_sse320    0xbe    
+  Loads Retired                                                      5.33%      168        30818256            0x0000000000004DA0 0x00d           0x0000000000003B20 logs3_add
+frame_eval_thrd_work              livepretend_sse320    0x2a8   
+  Loads Retired                                                      2.82%      89         16326338            0x0000000000009BBC 0x00d           0x000000000000893C frame_eval_thrd_work
+fe_fft                            livepretend_sse320    0x4d0   
+  Loads Retired                                                      2.79%      88         16142896            0x000000000001A5A4 0x00d           0x0000000000019324 fe_fft
+dict2pid_comsenscr_thrd_work      livepretend_sse320    0x6e    
+  Loads Retired                                                      2.60%      82         15042244            0x0000000000009E64 0x00d           0x0000000000008BE4 dict2pid_comsenscr_thrd_work
+hmm_vit_eval_3st                  livepretend_sse320    0x126   
+  Loads Retired                                                      2.69%      85         15592570            0x0000000000012FD6 0x00d           0x0000000000011D56 hmm_vit_eval_3st
+sseq2sen_active_thrd_work         livepretend_sse320    0x156   
+  Loads Retired                                                      3.52%      111        20362062            0x000000000000A338 0x00d           0x00000000000090B8 sseq2sen_active_thrd_work
+vithist_rescore                   livepretend_sse320    0x1de   
+  Loads Retired                                                      0.92%      29         5319818             0x0000000000014C5A 0x00d           0x00000000000139DA vithist_rescore
+lextree_hmm_ppg_thrd_work         livepretend_sse320    0x2a6   
+  Loads Retired                                                      0.86%      27         4952934             0x000000000000A026 0x00d           0x0000000000008DA6 lextree_hmm_ppg_thrd_work
+lm_bg_score                       livepretend_sse320    0xfc    
+  Loads Retired                                                      0.92%      29         5319818             0x000000000001109E 0x00d           0x000000000000FE1E lm_bg_score
+lextree_hmm_eval_thrd_work        livepretend_sse320    0x124   
+  Loads Retired                                                      0.76%      24         4402608             0x0000000000009ED2 0x00d           0x0000000000008C52 lextree_hmm_eval_thrd_work
+__libm_sse2_sincos                livepretend_sse320    0x1d6   
+  Loads Retired                                                      0.44%      14         2568188             0x0000000000022100 0x00d           0x0000000000020E80 __libm_sse2_sincos
+vh_lmstate_find                   livepretend_sse320    0x58    
+  Loads Retired                                                      0.38%      12         2201304             0x0000000000014A1A 0x00d           0x000000000001379A vh_lmstate_find
+lm_tg_score                       livepretend_sse320    0x238   
+  Loads Retired                                                      0.35%      11         2017862             0x0000000000011652 0x00d           0x00000000000103D2 lm_tg_score
+ln_lock                           livepretend_sse320    0x26    
+  Loads Retired                                                      0.32%      10         1834420             0x0000000000009FF6 0x00d           0x0000000000008D76 ln_lock
+vithist_enter                     livepretend_sse320    0x116   
+  Loads Retired                                                      0.29%      9          1650978             0x0000000000014B44 0x00d           0x00000000000138C4 vithist_enter
+fe_mel_cep                        livepretend_sse320    0xfa    
+  Loads Retired                                                      0.41%      13         2384746             0x000000000001A4AA 0x00d           0x000000000001922A fe_mel_cep
+subheap_pop                       livepretend_sse320    0x88    
+  Loads Retired                                                      0.25%      8          1467536             0x0000000000005736 0x00d           0x00000000000044B6 subheap_pop
+fe_mel_spec                       livepretend_sse320    0xb6    
+  Loads Retired                                                      0.19%      6          1100652             0x000000000001A3F4 0x00d           0x0000000000019174 fe_mel_spec
+hmm_clear                         livepretend_sse320    0xc0    
+  Loads Retired                                                      0.19%      6          1100652             0x0000000000012D6A 0x00d           0x0000000000011AEA hmm_clear
+lextree_ssid_active_thrd_work     livepretend_sse320    0x6a    
+  Loads Retired                                                      0.25%      8          1467536             0x000000000000A2CE 0x00d           0x000000000000904E lextree_ssid_active_thrd_work
+ln_unlock                         livepretend_sse320    0xa     
+  Loads Retired                                                      0.32%      10         1834420             0x000000000000A01C 0x00d           0x0000000000008D9C ln_unlock
+__ckd_calloc                      livepretend_sse320    0x4c    
+  Loads Retired                                                      0.10%      3          550326              0x000000000000151C 0x00d           0x000000000000029C __ckd_calloc(void)
+vithist_prune                     livepretend_sse320    0x1fa   
+  Loads Retired                                                      0.10%      3          550326              0x0000000000014FB8 0x00d           0x0000000000013D38 vithist_prune
+lextree_enter                     livepretend_sse320    0x18e   
+  Loads Retired                                                      0.13%      4          733768              0x00000000000140B8 0x00d           0x0000000000012E38 lextree_enter
+fe_process_utt                    livepretend_sse320    0x37e   
+  Loads Retired                                                      0.10%      3          550326              0x000000000001B00C 0x00d           0x0000000000019D8C fe_process_utt
+subheap_insert                    livepretend_sse320    0x86    
+  Loads Retired                                                      0.06%      2          366884              0x0000000000005692 0x00d           0x0000000000004412 subheap_insert
+heap_insert                       livepretend_sse320    0x1e    
+  Loads Retired                                                      0.06%      2          366884              0x0000000000005718 0x00d           0x0000000000004498 heap_insert
+fe_spec_magnitude                 livepretend_sse320    0x450   
+  Loads Retired                                                      0.06%      2          366884              0x0000000000019FA4 0x00d           0x0000000000018D24 fe_spec_magnitude
+vithist_lmstate_enter             livepretend_sse320    0xb0    
+  Loads Retired                                                      0.06%      2          366884              0x0000000000014A72 0x00d           0x00000000000137F2 vithist_lmstate_enter
+fe_hamming_window                 livepretend_sse320    0xc2    
+  Loads Retired                                                      0.03%      1          183442              0x0000000000019E42 0x00d           0x0000000000018BC2 fe_hamming_window
+log_to_logs3_factor               livepretend_sse320    0x8     
+  Loads Retired                                                      0.16%      5          917210              0x0000000000004F34 0x00d           0x0000000000003CB4 log_to_logs3_factor
+cmn_prior                         livepretend_sse320    0x426   
+  Loads Retired                                                      0.03%      1          183442              0x000000000001BC48 0x00d           0x000000000001A9C8 cmn_prior
+make_sec                          livepretend_sse320    0x28    
+  Loads Retired                                                      0.03%      1          183442              0x0000000000006060 0x00d           0x0000000000004DE0 make_sec
+__mymalloc                        livepretend_sse320    0x166   
+  Loads Retired                                                      0.06%      2          366884              0x0000000000001992 0x00d           0x0000000000000712 __mymalloc(void)
+__myfree                          livepretend_sse320    0x70    
+  Loads Retired                                                      0.10%      3          550326              0x0000000000001AF8 0x00d           0x0000000000000878 __myfree(void)
+find_bg                           livepretend_sse320    0xa6    
+  Loads Retired                                                      0.03%      1          183442              0x0000000000010EB6 0x00d           0x000000000000FC36 find_bg
+vithist_frame_gc                  livepretend_sse320    0x180   
+  Loads Retired                                                      0.03%      1          183442              0x0000000000014E38 0x00d           0x0000000000013BB8 vithist_frame_gc
+fe_pre_emphasis                   livepretend_sse320    0x12c   
+  Loads Retired                                                      0.03%      1          183442              0x0000000000019BE2 0x00d           0x0000000000018962 fe_pre_emphasis
+Event Summary
+1st Level Cache Load Misses Retired
+   8438 = Samples collected due to this event
+   12784            = Sample after value used during collection
+   107871392        = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                           Module                Size    
+  Event                                                              Events%    Samples     Events            Address          Segment          Offset        Full name
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mgau_eval_inner                    livepretend_sse320    0xd8    
+  1st Level Cache Load Misses Retired                                55.63%      4694       60008096            0x0000000000007EA6 0x00d           0x0000000000006C26 mgau_eval_inner
+mgau_eval                          livepretend_sse320    0x152   
+  1st Level Cache Load Misses Retired                                 5.72%      483        6174672             0x0000000000007F7E 0x00d           0x0000000000006CFE mgau_eval
+fe_fft                             livepretend_sse320    0x4d0   
+  1st Level Cache Load Misses Retired                                 4.81%      406        5190304             0x000000000001A5A4 0x00d           0x0000000000019324 fe_fft
+hmm_vit_eval_3st                   livepretend_sse320    0x126   
+  1st Level Cache Load Misses Retired                                 3.67%      310        3963040             0x0000000000012FD6 0x00d           0x0000000000011D56 hmm_vit_eval_3st
+frame_eval_thrd_work               livepretend_sse320    0x2a8   
+  1st Level Cache Load Misses Retired                                 2.58%      218        2786912             0x0000000000009BBC 0x00d           0x000000000000893C frame_eval_thrd_work
+logs3_add                          livepretend_sse320    0xbe    
+  1st Level Cache Load Misses Retired                                 2.22%      187        2390608             0x0000000000004DA0 0x00d           0x0000000000003B20 logs3_add
+lextree_hmm_eval_thrd_work         livepretend_sse320    0x124   
+  1st Level Cache Load Misses Retired                                 1.20%      101        1291184             0x0000000000009ED2 0x00d           0x0000000000008C52 lextree_hmm_eval_thrd_work
+sseq2sen_active_thrd_work          livepretend_sse320    0x156   
+  1st Level Cache Load Misses Retired                                 3.48%      294        3758496             0x000000000000A338 0x00d           0x00000000000090B8 sseq2sen_active_thrd_work
+lextree_hmm_ppg_thrd_work          livepretend_sse320    0x2a6   
+  1st Level Cache Load Misses Retired                                 0.94%      79         1009936             0x000000000000A026 0x00d           0x0000000000008DA6 lextree_hmm_ppg_thrd_work
+dict2pid_comsenscr_thrd_work       livepretend_sse320    0x6e    
+  1st Level Cache Load Misses Retired                                 0.75%      63         805392              0x0000000000009E64 0x00d           0x0000000000008BE4 dict2pid_comsenscr_thrd_work
+lextree_enter                      livepretend_sse320    0x18e   
+  1st Level Cache Load Misses Retired                                 0.65%      55         703120              0x00000000000140B8 0x00d           0x0000000000012E38 lextree_enter
+lextree_ssid_active_thrd_work      livepretend_sse320    0x6a    
+  1st Level Cache Load Misses Retired                                 0.55%      46         588064              0x000000000000A2CE 0x00d           0x000000000000904E lextree_ssid_active_thrd_work
+vithist_rescore                    livepretend_sse320    0x1de   
+  1st Level Cache Load Misses Retired                                 0.27%      23         294032              0x0000000000014C5A 0x00d           0x00000000000139DA vithist_rescore
+vh_lmstate_find                    livepretend_sse320    0x58    
+  1st Level Cache Load Misses Retired                                 0.19%      16         204544              0x0000000000014A1A 0x00d           0x000000000001379A vh_lmstate_find
+__libm_sse2_sincos                 livepretend_sse320    0x1d6   
+  1st Level Cache Load Misses Retired                                 0.14%      12         153408              0x0000000000022100 0x00d           0x0000000000020E80 __libm_sse2_sincos
+lm_bg_score                        livepretend_sse320    0xfc    
+  1st Level Cache Load Misses Retired                                 0.14%      12         153408              0x000000000001109E 0x00d           0x000000000000FE1E lm_bg_score
+fe_spec_magnitude                  livepretend_sse320    0x450   
+  1st Level Cache Load Misses Retired                                 0.11%      9          115056              0x0000000000019FA4 0x00d           0x0000000000018D24 fe_spec_magnitude
+hmm_clear                          livepretend_sse320    0xc0    
+  1st Level Cache Load Misses Retired                                 0.14%      12         153408              0x0000000000012D6A 0x00d           0x0000000000011AEA hmm_clear
+fe_mel_cep                         livepretend_sse320    0xfa    
+  1st Level Cache Load Misses Retired                                 0.12%      10         127840              0x000000000001A4AA 0x00d           0x000000000001922A fe_mel_cep
+fe_mel_spec                        livepretend_sse320    0xb6    
+  1st Level Cache Load Misses Retired                                 0.08%      7          89488               0x000000000001A3F4 0x00d           0x0000000000019174 fe_mel_spec
+fe_hamming_window                  livepretend_sse320    0xc2    
+  1st Level Cache Load Misses Retired                                 0.08%      7          89488               0x0000000000019E42 0x00d           0x0000000000018BC2 fe_hamming_window
+subheap_pop                        livepretend_sse320    0x88    
+  1st Level Cache Load Misses Retired                                 0.06%      5          63920               0x0000000000005736 0x00d           0x00000000000044B6 subheap_pop
+dict_filler_word                   livepretend_sse320    0x80    
+  1st Level Cache Load Misses Retired                                 0.05%      4          51136               0x000000000000DB00 0x00d           0x000000000000C880 dict_filler_word
+utt_word_trans                     livepretend_sse320    0x294   
+  1st Level Cache Load Misses Retired                                 0.04%      3          38352               0x0000000000018456 0x00d           0x00000000000171D6 utt_word_trans
+vithist_enter                      livepretend_sse320    0x116   
+  1st Level Cache Load Misses Retired                                 0.05%      4          51136               0x0000000000014B44 0x00d           0x00000000000138C4 vithist_enter
+__mymalloc                         livepretend_sse320    0x166   
+  1st Level Cache Load Misses Retired                                 0.04%      3          38352               0x0000000000001992 0x00d           0x0000000000000712 __mymalloc(void)
+both.aligned                       livepretend_sse320    0x68    
+  1st Level Cache Load Misses Retired                                 0.05%      4          51136               0x0000000000027120 0x00d           0x0000000000025EA0 both.aligned
+vithist_lmstate_reset              livepretend_sse320    0x84    
+  1st Level Cache Load Misses Retired                                 0.04%      3          38352               0x00000000000151B2 0x00d           0x0000000000013F32 vithist_lmstate_reset
+lm_tg_score                        livepretend_sse320    0x238   
+  1st Level Cache Load Misses Retired                                 0.05%      4          51136               0x0000000000011652 0x00d           0x00000000000103D2 lm_tg_score
+subheap_insert                     livepretend_sse320    0x86    
+  1st Level Cache Load Misses Retired                                 0.02%      2          25568               0x0000000000005692 0x00d           0x0000000000004412 subheap_insert
+vithist_prune                      livepretend_sse320    0x1fa   
+  1st Level Cache Load Misses Retired                                 0.02%      2          25568               0x0000000000014FB8 0x00d           0x0000000000013D38 vithist_prune
+P0D2                               livepretend_sse320    0x6     
+  1st Level Cache Load Misses Retired                                 0.01%      1          12784               0x0000000000026996 0x00d           0x0000000000025716 P0D2
+utt_decode_block                   livepretend_sse320    0x47a   
+  1st Level Cache Load Misses Retired                                 0.01%      1          12784               0x0000000000018DC8 0x00d           0x0000000000017B48 utt_decode_block
+vithist_backtrace                  livepretend_sse320    0xae    
+  1st Level Cache Load Misses Retired                                 0.01%      1          12784               0x0000000000015968 0x00d           0x00000000000146E8 vithist_backtrace
+vithist_frame_gc                   livepretend_sse320    0x180   
+  1st Level Cache Load Misses Retired                                 0.01%      1          12784               0x0000000000014E38 0x00d           0x0000000000013BB8 vithist_frame_gc
+UnmappedSamples                    livepretend_sse320    0x0     
+  1st Level Cache Load Misses Retired                                 0.02%      2          25568               0x0000000000001280 0x00d           0x0000000000000000 
+sse2.align.tbl.2                   livepretend_sse320    0xd     
+  1st Level Cache Load Misses Retired                                 0.01%      1          12784               0x000000000002742A 0x00d           0x00000000000261AA sse2.align.tbl.2
+sen_active_thrd_work               livepretend_sse320    0x286   
+  1st Level Cache Load Misses Retired                                 0.02%      2          25568               0x000000000000A48E 0x00d           0x000000000000920E sen_active_thrd_work
+new_thrd_lextree_hmm_propagate     livepretend_sse320    0xee    
+  1st Level Cache Load Misses Retired                                 0.01%      1          12784               0x000000000000AAFC 0x00d           0x000000000000987C new_thrd_lextree_hmm_propagate
+new_thrd_lextree_hmm_eval          livepretend_sse320    0xc8    
+  1st Level Cache Load Misses Retired                                 0.01%      1          12784               0x000000000000A962 0x00d           0x00000000000096E2 new_thrd_lextree_hmm_eval
+new_lextree_hmm_eval_thrd_work     livepretend_sse320    0x108   
+  1st Level Cache Load Misses Retired                                 0.01%      1          12784               0x000000000000A85A 0x00d           0x00000000000095DA new_lextree_hmm_eval_thrd_work
+__libm_sse2_log                    livepretend_sse320    0x236   
+  1st Level Cache Load Misses Retired                                 0.01%      1          12784               0x00000000000215C0 0x00d           0x0000000000020340 __libm_sse2_log
+__myfree                           livepretend_sse320    0x70    
+  1st Level Cache Load Misses Retired                                 0.01%      1          12784               0x0000000000001AF8 0x00d           0x0000000000000878 __myfree(void)
+ln_lock                            livepretend_sse320    0x26    
+  1st Level Cache Load Misses Retired                                 0.34%      29         370736              0x0000000000009FF6 0x00d           0x0000000000008D76 ln_lock
+fix.16b                            livepretend_sse320    0x18    
+  1st Level Cache Load Misses Retired                                 0.01%      1          12784               0x0000000000027188 0x00d           0x0000000000025F08 fix.16b
+fillpen                            livepretend_sse320    0x3e    
+  1st Level Cache Load Misses Retired                                 0.01%      1          12784               0x000000000000F546 0x00d           0x000000000000E2C6 fillpen
+fe_process_utt                     livepretend_sse320    0x37e   
+  1st Level Cache Load Misses Retired                                 0.05%      4          51136               0x000000000001B00C 0x00d           0x0000000000019D8C fe_process_utt
+fe_pre_emphasis                    livepretend_sse320    0x12c   
+  1st Level Cache Load Misses Retired                                 0.01%      1          12784               0x0000000000019BE2 0x00d           0x0000000000018962 fe_pre_emphasis
+Event Summary
+2nd Level Cache Load Misses Retired
+   7491 = Samples collected due to this event
+   3611             = Sample after value used during collection
+   27050001         = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                          Module                Size    
+  Event                                                             Events%    Samples     Events            Address          Segment          Offset        Full name
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mgau_eval_inner                   livepretend_sse320    0xd8    
+  2nd Level Cache Load Misses Retired                               63.77%      4777       17249747            0x0000000000007EA6 0x00d           0x0000000000006C26 mgau_eval_inner
+hmm_vit_eval_3st                  livepretend_sse320    0x126   
+  2nd Level Cache Load Misses Retired                                6.77%      507        1830777             0x0000000000012FD6 0x00d           0x0000000000011D56 hmm_vit_eval_3st
+frame_eval_thrd_work              livepretend_sse320    0x2a8   
+  2nd Level Cache Load Misses Retired                                2.87%      215        776365              0x0000000000009BBC 0x00d           0x000000000000893C frame_eval_thrd_work
+sseq2sen_active_thrd_work         livepretend_sse320    0x156   
+  2nd Level Cache Load Misses Retired                                2.51%      188        678868              0x000000000000A338 0x00d           0x00000000000090B8 sseq2sen_active_thrd_work
+lextree_hmm_eval_thrd_work        livepretend_sse320    0x124   
+  2nd Level Cache Load Misses Retired                                1.68%      126        454986              0x0000000000009ED2 0x00d           0x0000000000008C52 lextree_hmm_eval_thrd_work
+lextree_enter                     livepretend_sse320    0x18e   
+  2nd Level Cache Load Misses Retired                                1.29%      97         350267              0x00000000000140B8 0x00d           0x0000000000012E38 lextree_enter
+lextree_hmm_ppg_thrd_work         livepretend_sse320    0x2a6   
+  2nd Level Cache Load Misses Retired                                0.97%      73         263603              0x000000000000A026 0x00d           0x0000000000008DA6 lextree_hmm_ppg_thrd_work
+lextree_ssid_active_thrd_work     livepretend_sse320    0x6a    
+  2nd Level Cache Load Misses Retired                                0.53%      40         144440              0x000000000000A2CE 0x00d           0x000000000000904E lextree_ssid_active_thrd_work
+mgau_eval                         livepretend_sse320    0x152   
+  2nd Level Cache Load Misses Retired                                0.23%      17         61387               0x0000000000007F7E 0x00d           0x0000000000006CFE mgau_eval
+vithist_rescore                   livepretend_sse320    0x1de   
+  2nd Level Cache Load Misses Retired                                0.21%      16         57776               0x0000000000014C5A 0x00d           0x00000000000139DA vithist_rescore
+dict2pid_comsenscr_thrd_work      livepretend_sse320    0x6e    
+  2nd Level Cache Load Misses Retired                                0.19%      14         50554               0x0000000000009E64 0x00d           0x0000000000008BE4 dict2pid_comsenscr_thrd_work
+logs3_add                         livepretend_sse320    0xbe    
+  2nd Level Cache Load Misses Retired                                0.11%      8          28888               0x0000000000004DA0 0x00d           0x0000000000003B20 logs3_add
+ln_lock                           livepretend_sse320    0x26    
+  2nd Level Cache Load Misses Retired                                0.11%      8          28888               0x0000000000009FF6 0x00d           0x0000000000008D76 ln_lock
+vh_lmstate_find                   livepretend_sse320    0x58    
+  2nd Level Cache Load Misses Retired                                0.09%      7          25277               0x0000000000014A1A 0x00d           0x000000000001379A vh_lmstate_find
+hmm_clear                         livepretend_sse320    0xc0    
+  2nd Level Cache Load Misses Retired                                0.07%      5          18055               0x0000000000012D6A 0x00d           0x0000000000011AEA hmm_clear
+lm_bg_score                       livepretend_sse320    0xfc    
+  2nd Level Cache Load Misses Retired                                0.05%      4          14444               0x000000000001109E 0x00d           0x000000000000FE1E lm_bg_score
+fe_mel_spec                       livepretend_sse320    0xb6    
+  2nd Level Cache Load Misses Retired                                0.05%      4          14444               0x000000000001A3F4 0x00d           0x0000000000019174 fe_mel_spec
+both.aligned                      livepretend_sse320    0x68    
+  2nd Level Cache Load Misses Retired                                0.05%      4          14444               0x0000000000027120 0x00d           0x0000000000025EA0 both.aligned
+utt_word_trans                    livepretend_sse320    0x294   
+  2nd Level Cache Load Misses Retired                                0.05%      4          14444               0x0000000000018456 0x00d           0x00000000000171D6 utt_word_trans
+fe_fft                            livepretend_sse320    0x4d0   
+  2nd Level Cache Load Misses Retired                                0.03%      2          7222                0x000000000001A5A4 0x00d           0x0000000000019324 fe_fft
+dict_filler_word                  livepretend_sse320    0x80    
+  2nd Level Cache Load Misses Retired                                0.04%      3          10833               0x000000000000DB00 0x00d           0x000000000000C880 dict_filler_word
+fe_hamming_window                 livepretend_sse320    0xc2    
+  2nd Level Cache Load Misses Retired                                0.03%      2          7222                0x0000000000019E42 0x00d           0x0000000000018BC2 fe_hamming_window
+__libm_sse2_log                   livepretend_sse320    0x236   
+  2nd Level Cache Load Misses Retired                                0.01%      1          3611                0x00000000000215C0 0x00d           0x0000000000020340 __libm_sse2_log
+vithist_prune                     livepretend_sse320    0x1fa   
+  2nd Level Cache Load Misses Retired                                0.01%      1          3611                0x0000000000014FB8 0x00d           0x0000000000013D38 vithist_prune
+vithist_frame_gc                  livepretend_sse320    0x180   
+  2nd Level Cache Load Misses Retired                                0.01%      1          3611                0x0000000000014E38 0x00d           0x0000000000013BB8 vithist_frame_gc
+utt_decode_block                  livepretend_sse320    0x47a   
+  2nd Level Cache Load Misses Retired                                0.01%      1          3611                0x0000000000018DC8 0x00d           0x0000000000017B48 utt_decode_block
+__mymalloc                        livepretend_sse320    0x166   
+  2nd Level Cache Load Misses Retired                                0.01%      1          3611                0x0000000000001992 0x00d           0x0000000000000712 __mymalloc(void)
+sen_active_thrd_work              livepretend_sse320    0x286   
+  2nd Level Cache Load Misses Retired                                0.01%      1          3611                0x000000000000A48E 0x00d           0x000000000000920E sen_active_thrd_work
+movdqa8                           livepretend_sse320    0x50    
+  2nd Level Cache Load Misses Retired                                0.01%      1          3611                0x0000000000026E00 0x00d           0x0000000000025B80 movdqa8
+fe_mel_cep                        livepretend_sse320    0xfa    
+  2nd Level Cache Load Misses Retired                                0.01%      1          3611                0x000000000001A4AA 0x00d           0x000000000001922A fe_mel_cep
+lm_tg_score                       livepretend_sse320    0x238   
+  2nd Level Cache Load Misses Retired                                0.01%      1          3611                0x0000000000011652 0x00d           0x00000000000103D2 lm_tg_score

@@ -1,0 +1,171 @@
+VTune(TM) Performance Analyzer 2.0 for Linux*
+Copyright (C) 2000-2003 Intel Corporation. All rights reserved.
+
+Event Summary
+   8313 = Samples collected due to this event
+   1381793          = Sample after value used during collection
+   11486845209      = Total events (samples*SAV)
+Clockticks
+   8322 = Samples collected due to this event
+   2643126          = Sample after value used during collection
+   21996094572      = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                          Module              Size    
+  Event                                                           Events%    Samples     Events            Address          Segment          Offset        Full name
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+thrd_transposeMultiplyMatrixL     face_project_sse    0x104   
+  Clockticks                                                      23.04%      1917       5066872542          0x0000000000011B4A 0x00d           0x0000000000010C4A
+distanceMahCosine                 face_project_sse    0x1ee   
+  Clockticks                                                       1.59%      132        348892632           0x000000000000CF56 0x00d           0x000000000000C056
+readFloat                         face_project_sse    0xb2    
+  Clockticks                                                       0.78%      65         171803190           0x0000000000003F26 0x00d           0x0000000000003026
+thrd_mean_subtract_images         face_project_sse    0x9e    
+  Clockticks                                                       0.37%      31         81936906            0x0000000000011AAC 0x00d           0x0000000000010BAC
+readFile                          face_project_sse    0x208   
+  Clockticks                                                       0.25%      21         55505646            0x00000000000049B4 0x00d           0x0000000000003AB4
+isMachineLittleEndian             face_project_sse    0x6a    
+  Clockticks                                                       0.07%      6          15858756            0x0000000000001F24 0x00d           0x0000000000001024
+dist_thrd_work                    face_project_sse    0x556   
+  Clockticks                                                       0.01%      1          2643126             0x000000000000DD84 0x00d           0x000000000000CE84
+duplicateMatrix                   face_project_sse    0x68    
+  Clockticks                                                       0.01%      1          2643126             0x00000000000028FC 0x00d           0x00000000000019FC
+main                              face_project_sse    0x5ea   
+  Clockticks                                                       0.01%      1          2643126             0x000000000000E55C 0x00d           0x000000000000D65C
+UnmappedSamples                   face_project_sse    0x0     
+  Clockticks                                                       0.30%      25         66078150            0x0000000000000F00 0x00d           0x0000000000000000
+autoFileLength                    face_project_sse    0x17c   
+  Clockticks                                                       0.01%      1          2643126             0x0000000000004BBC 0x00d           0x0000000000003CBC
+computeOneDistances               face_project_sse    0xe4    
+  Clockticks                                                       0.01%      1          2643126             0x000000000000E2DA 0x00d           0x000000000000D3DA
+Event Summary
+Uops Retired
+   8312 = Samples collected due to this event
+   2357063          = Sample after value used during collection
+   19591907656      = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                          Module              Size    
+  Event                                                           Events%    Samples     Events            Address          Segment          Offset        Full name
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+thrd_transposeMultiplyMatrixL     face_project_sse    0x104   
+  Uops Retired                                                    10.35%      860        2027074180          0x0000000000011B4A 0x00d           0x0000000000010C4A thrd_transposeMultiplyMatrixL
+distanceMahCosine                 face_project_sse    0x1ee   
+  Uops Retired                                                     1.49%      124        292275812           0x000000000000CF56 0x00d           0x000000000000C056 distanceMahCosine
+readFloat                         face_project_sse    0xb2    
+  Uops Retired                                                     0.90%      75         176779725           0x0000000000003F26 0x00d           0x0000000000003026 readFloat
+readFile                          face_project_sse    0x208   
+  Uops Retired                                                     0.83%      69         162637347           0x00000000000049B4 0x00d           0x0000000000003AB4 readFile
+isMachineLittleEndian             face_project_sse    0x6a    
+  Uops Retired                                                     0.25%      21         49498323            0x0000000000001F24 0x00d           0x0000000000001024 isMachineLittleEndian
+thrd_mean_subtract_images         face_project_sse    0x9e    
+  Uops Retired                                                     0.05%      4          9428252             0x0000000000011AAC 0x00d           0x0000000000010BAC thrd_mean_subtract_images
+UnmappedSamples                   face_project_sse    0x0     
+  Uops Retired                                                     0.01%      1          2357063             0x0000000000000F00 0x00d           0x0000000000000000 
+dist_thrd_work                    face_project_sse    0x556   
+  Uops Retired                                                     0.02%      2          4714126             0x000000000000DD84 0x00d           0x000000000000CE84 dist_thrd_work
+Event Summary
+   8346 = Samples collected due to this event
+   101              = Sample after value used during collection
+   842946           = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                          Module              Size    
+  Event                                                           Events%    Samples     Events            Address          Segment          Offset        Full name
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+distanceMahCosine                 face_project_sse    0x1ee   
+dist_thrd_work                    face_project_sse    0x556   
+thrd_transposeMultiplyMatrixL     face_project_sse    0x104   
+Event Summary
+   0 = Samples collected due to this event
+   1                = Sample after value used during collection
+   0                = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+No symbols were found
+
+Event Summary
+Loads Retired
+   16645 = Samples collected due to this event
+   261265           = Sample after value used during collection
+   4348755925       = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                          Module              Size    
+  Event                                                           Events%    Samples     Events            Address          Segment          Offset        Full name
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+thrd_transposeMultiplyMatrixL     face_project_sse    0x104   
+  Loads Retired                                                   13.90%      2314       604567210           0x0000000000011B4A 0x00d           0x0000000000010C4A thrd_transposeMultiplyMatrixL
+distanceMahCosine                 face_project_sse    0x1ee   
+  Loads Retired                                                    1.42%      237        61919805            0x000000000000CF56 0x00d           0x000000000000C056 distanceMahCosine
+readFile                          face_project_sse    0x208   
+  Loads Retired                                                    0.78%      129        33703185            0x00000000000049B4 0x00d           0x0000000000003AB4 readFile
+readFloat                         face_project_sse    0xb2    
+  Loads Retired                                                    0.76%      127        33180655            0x0000000000003F26 0x00d           0x0000000000003026 readFloat
+dist_thrd_work                    face_project_sse    0x556   
+  Loads Retired                                                    0.07%      11         2873915             0x000000000000DD84 0x00d           0x000000000000CE84 dist_thrd_work
+thrd_mean_subtract_images         face_project_sse    0x9e    
+  Loads Retired                                                    0.14%      23         6009095             0x0000000000011AAC 0x00d           0x0000000000010BAC thrd_mean_subtract_images
+UnmappedSamples                   face_project_sse    0x0     
+  Loads Retired                                                    2.89%      481        125668465           0x0000000000000F00 0x00d           0x0000000000000000 
+computeOneDistances               face_project_sse    0xe4    
+  Loads Retired                                                    0.01%      2          522530              0x000000000000E2DA 0x00d           0x000000000000D3DA computeOneDistances
+isMachineLittleEndian             face_project_sse    0x6a    
+  Loads Retired                                                    0.23%      39         10189335            0x0000000000001F24 0x00d           0x0000000000001024 isMachineLittleEndian
+main                              face_project_sse    0x5ea   
+  Loads Retired                                                    0.01%      1          261265              0x000000000000E55C 0x00d           0x000000000000D65C main
+Event Summary
+1st Level Cache Load Misses Retired
+   17530 = Samples collected due to this event
+   28227            = Sample after value used during collection
+   494819310        = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                          Module              Size    
+  Event                                                           Events%    Samples     Events            Address          Segment          Offset        Full name
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+thrd_transposeMultiplyMatrixL     face_project_sse    0x104   
+  1st Level Cache Load Misses Retired                             91.25%      15996      451519092           0x0000000000011B4A 0x00d           0x0000000000010C4A thrd_transposeMultiplyMatrixL
+distanceMahCosine                 face_project_sse    0x1ee   
+  1st Level Cache Load Misses Retired                              1.93%      339        9568953             0x000000000000CF56 0x00d           0x000000000000C056 distanceMahCosine
+thrd_mean_subtract_images         face_project_sse    0x9e    
+  1st Level Cache Load Misses Retired                              1.12%      197        5560719             0x0000000000011AAC 0x00d           0x0000000000010BAC thrd_mean_subtract_images
+readFile                          face_project_sse    0x208   
+  1st Level Cache Load Misses Retired                              0.45%      79         2229933             0x00000000000049B4 0x00d           0x0000000000003AB4 readFile
+dist_thrd_work                    face_project_sse    0x556   
+  1st Level Cache Load Misses Retired                              0.03%      6          169362              0x000000000000DD84 0x00d           0x000000000000CE84 dist_thrd_work
+UnmappedSamples                   face_project_sse    0x0     
+  1st Level Cache Load Misses Retired                              0.38%      66         1862982             0x0000000000000F00 0x00d           0x0000000000000000 
+isMachineLittleEndian             face_project_sse    0x6a    
+  1st Level Cache Load Misses Retired                              0.21%      36         1016172             0x0000000000001F24 0x00d           0x0000000000001024 isMachineLittleEndian
+main                              face_project_sse    0x5ea   
+  1st Level Cache Load Misses Retired                              0.01%      1          28227               0x000000000000E55C 0x00d           0x000000000000D65C main
+Event Summary
+2nd Level Cache Load Misses Retired
+   16917 = Samples collected due to this event
+   16790            = Sample after value used during collection
+   284036430        = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                          Module              Size    
+  Event                                                           Events%    Samples     Events            Address          Segment          Offset        Full name
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+thrd_transposeMultiplyMatrixL     face_project_sse    0x104   
+  2nd Level Cache Load Misses Retired                             96.15%      16266      273106140           0x0000000000011B4A 0x00d           0x0000000000010C4A thrd_transposeMultiplyMatrixL
+distanceMahCosine                 face_project_sse    0x1ee   
+  2nd Level Cache Load Misses Retired                              1.45%      246        4130340             0x000000000000CF56 0x00d           0x000000000000C056 distanceMahCosine
+thrd_mean_subtract_images         face_project_sse    0x9e    
+  2nd Level Cache Load Misses Retired                              1.19%      202        3391580             0x0000000000011AAC 0x00d           0x0000000000010BAC thrd_mean_subtract_images
+dist_thrd_work                    face_project_sse    0x556   
+  2nd Level Cache Load Misses Retired                              0.02%      3          50370               0x000000000000DD84 0x00d           0x000000000000CE84 dist_thrd_work
+duplicateMatrix                   face_project_sse    0x68    
+  2nd Level Cache Load Misses Retired                              0.01%      1          16790               0x00000000000028FC 0x00d           0x00000000000019FC duplicateMatrix
+readFile                          face_project_sse    0x208   
+  2nd Level Cache Load Misses Retired                              0.25%      43         721970              0x00000000000049B4 0x00d           0x0000000000003AB4 readFile

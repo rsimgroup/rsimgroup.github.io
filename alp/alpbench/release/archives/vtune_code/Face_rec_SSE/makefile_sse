@@ -1,0 +1,42 @@
+HEADERS =  csuCommon csuCommonUtil csuCommonMatrix csuCommonFile \
+csuCommonSubspace csuCommonCommandLine csuCommonImage threading
+
+SRC =  csuCommonUtil csuCommonMatrix csuCommonFile csuCommonSubspace \
+csuCommonCommandLine csuCommonImage csuSubspaceProject csuSubspaceEigen \
+csuSubspaceFisher csuSubspaceCVEigen threading
+
+TARGET = face_project_sse
+
+# Uncomment USE_THREADS if multithreading is desired. Use THREAD_NUM to specify
+# number of threads.
+
+THREAD_NUM =1 
+USE_THREADS = -DTHRD -DNUM_THREADS=$(THREAD_NUM)
+USE_SSE2 = -use_msasm -DSSE2
+#USE_VTUNE = -DVTUNE 
+
+USERFLAGS = $(USE_VTUNE) $(USE_THREADS) $(USE_SSE2) 
+USERLIBS = -lm -lpthread 
+
+LIBDIR = /usr/lib
+USE_PENTIUM_M =  -march=pentiumiii -mcpu=pentiumpro
+USE_GPROF = -p
+
+LD = /opt/intel_cc_80/bin/icc       # Using GCC as the compiler for now
+STATLINK = -dn # Option to force static linkage
+CC = /opt/intel_cc_80/bin/icc
+OPTIMIZE =  $(USE_GPROF) $(USE_PENTIUM_M) -g -O3 #-Wall
+
+LIBS = $(USERLIBS)
+CFLAGS = $(OPTIMIZE) $(USERFLAGS) 
+OBJS = $(SRC:%=obj/%.o)
+
+execs/$(TARGET).out: $(OBJS)
+	$(LD) $(USE_GPROF) $(STATLINK) $(USERFLAGS) -o execs/$(TARGET) $(OBJS) $(LIBS)
+
+$(OBJS): $(HEADERS:%=src/%.h) $(SRC:%=src/%.c)
+	$(CC) -o $@ $(CFLAGS) -c $(*:obj/%=src/%.c)
+
+clean:
+	rm -f obj/*.o execs/$(TARGET)
+

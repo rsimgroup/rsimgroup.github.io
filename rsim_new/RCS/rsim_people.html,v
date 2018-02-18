@@ -1,0 +1,487 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2003.03.28.22.53.32;	author sadve;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.03.21.21.49.25;	author sadve;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="rsim_people_files/filelist.xml">
+<link rel=Edit-Time-Data href="rsim_people_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>RSIM People</title>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceName"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceType"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="place"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Jayanth Srinivasan</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Sarita V. Adve</o:LastAuthor>
+  <o:Revision>13</o:Revision>
+  <o:TotalTime>9</o:TotalTime>
+  <o:Created>2003-03-20T21:10:00Z</o:Created>
+  <o:LastSaved>2003-03-21T23:07:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>324</o:Words>
+  <o:Characters>1849</o:Characters>
+  <o:Company>Dept. of Computer Science, University of Illinois</o:Company>
+  <o:Lines>15</o:Lines>
+  <o:Paragraphs>4</o:Paragraphs>
+  <o:CharactersWithSpaces>2169</o:CharactersWithSpaces>
+  <o:Version>10.3501</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @@font-face
+	{font-family:Geneva;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-alt:Arial;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:536871559 0 0 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:#333366;}
+a:link, span.MsoHyperlink
+	{color:#333366;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#993300;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:#333366;}
+tt
+	{font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:"Courier New";
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+@@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white lang=EN-US link="#333366" vlink="#993300" style='tab-interval:
+.5in' alink="#CC6600">
+
+<div class=Section1>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="91%"
+ style='width:91.5%;mso-cellspacing:0in;mso-padding-alt:0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0'>
+  <td width="100%" colspan=2 valign=bottom style='width:100.0%;padding:0in 0in 0in 0in'>
+  <p><img width=800 height=75 id="_x0000_i1025" src="../sheila/rsim.gif"></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:47.4pt'>
+  <td width="20%" valign=top style='width:20.16%;background:#E7EBF0;padding:
+  0in 0in 0in 0in;height:47.4pt'>
+  <p><b><span style='font-size:10.0pt;font-family:Geneva'><br>
+  </span></b><b><span style='font-family:Arial'><a
+  href="http://rsim.cs.uiuc.edu/rsim_new">RSIM home</a></span></b></p>
+  <p><b><span style='font-size:10.0pt;font-family:Geneva'><br>
+  </span></b><b><span style='font-family:Arial'><a href="rsim_people.html">People</a></span></b></p>
+  <p><br>
+  <b><span style='font-family:Arial'>Research Projects<o:p></o:p></span></b></p>
+  <p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:
+  .25in'><a href="http://rsim.cs.uiuc.edu/3peac"><span style='font-size:10.0pt'>3-PEAC</span></a><span
+  class=MsoHyperlink><span style='font-size:10.0pt;color:windowtext;text-decoration:
+  none;text-underline:none'><o:p></o:p></span></span></p>
+  <p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:
+  .25in'><span style='font-size:10.0pt'><a href="http://rsim.cs.uiuc.edu/grace">GRACE</a>
+  </span></p>
+  <p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:
+  .25in'><span style='font-size:10.0pt'><a
+  href="http://rsim.cs.uiuc.edu/distribution/">RSIM Simulator</a><o:p></o:p></span></p>
+  <p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:
+  .25in'><span style='font-size:10.0pt'><a href="http://rsim.cs.uiuc.edu/rsim/">RSIM
+  Project</a></span></p>
+  <p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:
+  .25in'><span style='font-size:10.0pt'><a
+  href="http://rsim.cs.uiuc.edu/consistency/">Memory Models</a></span><b><span
+  style='font-size:10.0pt;font-family:Geneva'><br style='mso-special-character:
+  line-break'>
+  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+  <![endif]></span></b></p>
+  <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-size:10.0pt;
+  font-family:Geneva'><br>
+  </span><b><span style='font-family:Arial'><a href="rsim_pubs.html">Papers</a></span></b></p>
+  <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-family:
+  Verdana;color:#00006C'><br>
+  </span><b><span style='font-family:Arial'><a
+  href="http://rsim.cs.uiuc.edu/rsim_new/rsim_software.html">Software</a></span></b></p>
+  <p class=MsoNormal style='margin-bottom:12.0pt'><b><span style='font-size:
+  10.0pt;font-family:Geneva'><br>
+  </span></b><b><span style='font-family:Arial'><a href="rsim_funding.html">Funding</a></span></b></p>
+  </td>
+  <td width="79%" valign=top style='width:79.84%;background:#F5F8FB;padding:
+  0in 0in 0in 0in;height:47.4pt'>
+  <p><b><span style='font-size:18.0pt;font-family:Arial'>RSIM People</span></b></p>
+  <p><b><span style='font-size:13.5pt;font-family:Arial'>Faculty</span></b></p>
+  <p class=MsoNormal style='margin-left:.5in'><a
+  href="http://www.cs.uiuc.edu/~sadve">Sarita V. Adve</a></p>
+  <p><b><span style='font-size:13.5pt;font-family:Arial'>Current graduate
+  students</span></b></p>
+  <p class=MsoNormal style='margin-left:.5in'><a
+  href="http://rsim.cs.uiuc.edu/~cjhughes">Christopher J. Hughes</a></p>
+  <p class=MsoNormal style='margin-left:.5in'><a href="mailto:xli3@@uiuc.edu"><span
+  class=SpellE>Xiaodong</span> (Jerry) Li</a></p>
+  <p class=MsoNormal style='margin-left:.5in'>Daniel <span class=SpellE>Grobe</span>
+  Sachs</p>
+  <p class=MsoNormal style='margin-left:.5in'><span class=MsoHyperlink><span
+  style='color:windowtext;text-decoration:none;text-underline:none'><a
+  href="mailto:sasanka@@uiuc.edu">Ruchira Sasanka</a></span></span><br>
+  <a href="http://rsim.cs.uiuc.edu/~srinivsn">Jayanth Srinivasan</a></p>
+  <p class=MsoNormal style='margin-left:.5in'><a href="mailto:vvardhan@@uiuc.edu"><span
+  class=SpellE>Vibhore</span> <span class=SpellE>Vardhan</span></a></p>
+  <p><b><span style='font-size:13.5pt;font-family:Arial'>Current undergraduate
+  students</span></b></p>
+  <p class=MsoNormal style='margin-left:.5in'><a href="mailto:jpaul@@uiuc.edu">Joshua
+  Paul</a></p>
+  <p><b><span style='font-size:13.5pt;font-family:Arial'>Graduated Ph.D.
+  students</span></b></p>
+  <p class=MsoNormal style='margin-left:.5in'><a
+  href="http://www.ece.rice.edu/~vijaypai"><span style='mso-fareast-font-family:
+  "Courier New"'>Vijay S. Pai</span></a>, Ph.D. 2000 (<st1:place><st1:PlaceName>Rice</st1:PlaceName>
+   <st1:PlaceType>University</st1:PlaceType></st1:place>)&nbsp;<br>
+  Ph.D. thesis:&nbsp; <a
+  href="http://www.cs.uiuc.edu/~sadve/Theses/vijay-pai.phd.ps"><span
+  style='mso-fareast-font-family:"Courier New"'>Exploiting Instruction-Level
+  Parallelism for Memory System Performance</span><br>
+  </a>First employment:&nbsp;Assistant Professor at <st1:place><st1:PlaceName>Rice</st1:PlaceName>
+   <st1:PlaceType>University</st1:PlaceType></st1:place></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:.5in'><a href="http://www.ece.rice.edu/~parthas"><span
+  style='mso-fareast-font-family:"Courier New"'>Parthasarathy Ranganathan</span></a>,
+  Ph.D. 2000 (<st1:place><st1:PlaceName>Rice</st1:PlaceName> <st1:PlaceType>University</st1:PlaceType></st1:place>),&nbsp;<br>
+  Ph.D. Thesis: <a
+  href="http://www.cs.uiuc.edu/~sadve/Theses/partha-ranganathan.phd.ps"><span
+  style='mso-fareast-font-family:"Courier New"'>General-Purpose Architectures
+  for Media Processing and Database Workloads</span><br>
+  </a>First employment: Compaq Western Research Laboratory </p>
+  <p><b><span style='font-size:13.5pt;font-family:Arial'>Graduated M.S.
+  students<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-left:.5in'>Rohit Jain, M.S. 2002</p>
+  <p class=MsoNormal style='margin-left:.5in'>Praful Kaul, M.S. 2000</p>
+  <p class=MsoNormal style='margin-left:.5in'>Murthy <span class=SpellE>Durbhakula</span>,
+  M.S. 1998</p>
+  <p class=MsoNormal style='margin-left:.5in'><span class=SpellE>Hazim</span> <span
+  class=SpellE>Abdel-Shafi</span>, M.S. 1997</p>
+  <p class=MsoNormal style='margin-left:.5in'>Tracy <span class=SpellE>Harton</span>,
+  M.E.E. 1997</p>
+  <p class=MsoNormal style='margin-left:.5in'>Jonathan Hall, M.S. 1996 </p>
+  <p><b><span style='font-size:13.5pt;font-family:Arial'>Past visiting students
+  and undergraduate students<o:p></o:p></span></b></p>
+  <p class=MsoNormal style='margin-left:.5in'><st1:place><st1:PlaceName>Chanik</st1:PlaceName>
+   <st1:PlaceType>Park</st1:PlaceType></st1:place></p>
+  <p class=MsoNormal style='margin-left:.5in'>Dennis <span class=SpellE>Geels</span></p>
+  <p class=MsoNormal style='margin-left:.5in'>Michael Simon</p>
+  <p class=MsoNormal style='margin-left:.5in'><span class=SpellE>Khoa</span> To</p>
+  <p class=MsoNormal style='margin-left:.5in'>Tracy <span class=SpellE>Harton</span></p>
+  <p class=MsoNormal style='margin-left:.5in'>Mathew <span class=SpellE>Dumm</span>
+  </p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='color:windowtext'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d4 1
+d10 4
+a13 4
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="../sheila/./index5_files/filelist.xml">
+<link rel=Edit-Time-Data href="../sheila/./index5_files/editdata.mso">
+d23 6
+d33 3
+a35 3
+  <o:LastAuthor>Jayanth Srinivasan</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>3</o:TotalTime>
+d37 1
+a37 1
+  <o:LastSaved>2003-03-20T21:13:00Z</o:LastSaved>
+d39 2
+a40 2
+  <o:Words>216</o:Words>
+  <o:Characters>1232</o:Characters>
+d42 4
+a45 4
+  <o:Lines>10</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1512</o:CharactersWithSpaces>
+  <o:Version>9.2720</o:Version>
+d47 12
+a58 1
+</xml><![endif]-->
+d62 1
+a62 1
+@@font-face
+d79 1
+a79 1
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+d97 6
+a102 1
+	{font-size:12.0pt;
+d107 2
+a108 1
+	{mso-ascii-font-family:"Courier New";
+d112 3
+d125 18
+a142 2
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027"/>
+d154 19
+a172 18
+  <table border=0 cellspacing=0 cellpadding=0 width="91%" style='width:91.5%;
+ mso-cellspacing:0in;mso-padding-alt:0in 0in 0in 0in'>
+    <tr> 
+      <td width="100%" colspan=2 valign=bottom style='width:100.0%;padding:0in 0in 0in 0in'> 
+        <p><img width=800 height=75 id="_x0000_i1025" src=../sheila/rsim.gif></p></td>
+    </tr>
+    <tr style='height:47.4pt'> 
+      <td width="100%" valign=top bordercolor="#e7ebf0" bgcolor="#e7ebf0" style='width:20.16%;background:#E7EBF0;padding:
+  0in 0in 0in 0in;height:47.4pt'> 
+        <p><b><span style='font-size:10.0pt;font-family:Geneva'><br>
+          </span><span style='font-family:Arial'><a href="http://rsim.cs.uiuc.edu/rsim_new">RSIM 
+          home</a></span></b></p>
+        <p><b><span style='font-size:10.0pt;font-family:Geneva'><br>
+          </span><span style='font-family:Arial'>People</span></b></p>
+        <p><br>
+          <b><span style='font-family:Arial'>Research Projects<o:p></o:p></span></b></p>
+        <p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:
+  0in'><a href="http://rsim.cs.uiuc.edu/3peac"><span style='font-size:10.0pt'>3-PEAC</span></a><span
+d175 5
+a179 5
+        <p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:
+  0in'><span style='font-size:10.0pt'><a href="http://rsim.cs.uiuc.edu/grace">Illinois 
+          GRACE</a> </span></p>
+        <p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:
+  0in'><span style='font-size:10.0pt'><a
+d181 6
+a186 6
+        <p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:
+  0in'><span style='font-size:10.0pt'><a href="http://rsim.cs.uiuc.edu/rsim/">RSIM 
+          Project</a></span></p>
+        <p style='margin-top:6.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:
+  0in'><span style='font-size:10.0pt'><a
+  href="http://rsim.cs.uiuc.edu/consistency/">Memory Consistency Models</a></span><b><span
+d189 3
+a191 5
+          <![if !supportLineBreakNewLine]>
+          <br style='mso-special-character:line-break'>
+          <![endif]>
+          </span></b></p>
+        <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-size:10.0pt;
+d193 2
+a194 2
+          </span><b><span style='font-family:Arial'><a href="rsim_pubs.html">Papers</a></span></b></p>
+        <p class=MsoNormal style='margin-bottom:12.0pt'><span style='font-family:
+d196 3
+a198 2
+          </span><b><span style='font-family:Arial'><a href="rsim_software.html">Software</a></span></b></p>
+        <p class=MsoNormal style='margin-bottom:12.0pt'><b><span style='font-size:
+d200 7
+a206 5
+          </span></b><b><span style='font-family:Arial'><a href="rsim_funding.html">Funding</a></span></b></p></td>
+      <td width="100%" valign=top bordercolor="#e7ebf0" bgcolor="#f5f8fb" style='width:79.84%;padding:0in 0in 0in 0in;
+  height:47.4pt'><p><b><span style='font-size:18.0pt;font-family:Arial'>RSIM People</span></b></p>
+        <p><b><span style='font-size:13.5pt;font-family:Arial'>Faculty</span></b></p>
+        <p class=MsoNormal style='margin-left:.5in'><a
+d208 3
+a210 3
+        <p><b><span style='font-size:13.5pt;font-family:Arial'>Current graduate 
+          students</span></b></p>
+        <p class=MsoNormal style='margin-left:.5in'><a
+d212 5
+a216 3
+        <p class=MsoNormal style='margin-left:.5in'><a href="mailto:xli3@@uiuc.edu">Xiaodong 
+          (Jerry) Li</a></p>
+        <p class=MsoNormal style='margin-left:.5in'><span class=MsoHyperlink><span
+d219 10
+a228 10
+          <a href="http://rsim.cs.uiuc.edu/~srinivsn">Jayanth Srinivasan</a></p>
+        <p class=MsoNormal style='margin-left:.5in'><a href="mailto:vvardhan@@uiuc.edu">Vibhore 
+          Vardhan</a></p>
+        <p><b><span style='font-size:13.5pt;font-family:Arial'>Current undergraduate 
+          students</span></b></p>
+        <p class=MsoNormal style='margin-left:.5in'><a href="mailto:jpaul@@uiuc.edu">Joshua 
+          Paul</a></p>
+        <p><b><span style='font-size:13.5pt;font-family:Arial'>Graduated Ph.D. 
+          students</span></b></p>
+        <p class=MsoNormal style='margin-left:.5in'><a
+d230 3
+a232 2
+  "Courier New"'>Vijay Pai</span></a>, Ph.D. 2000 (Rice University)&nbsp;<br>
+          Ph.D. thesis:&nbsp; <a
+d234 5
+a238 4
+  style='mso-fareast-font-family:"Courier New"'>Exploiting Instruction-Level Parallelism 
+          for Memory System Performance</span><br>
+          </a>First employment:&nbsp;Assistant Professor at Rice University</p>
+        <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+d240 3
+a242 3
+  style='mso-fareast-font-family:"Courier New"'>Parthasarathy Ranganathan</span></a>, 
+          Ph.D. 2000 (Rice University),&nbsp;<br>
+          Ph.D. Thesis: <a
+d244 24
+a267 24
+  style='mso-fareast-font-family:"Courier New"'>General-Purpose Architectures 
+          for Media Processing and Database Workloads</span><br>
+          </a>First employment: Compaq Western Research Laboratory </p>
+        <p><b><span style='font-size:13.5pt;font-family:Arial'>Graduated M.S. 
+          students<o:p></o:p></span></b></p>
+        <p class=MsoNormal style='margin-left:.5in'>Rohit Jain, M.S. 2002</p>
+        <p class=MsoNormal style='margin-left:.5in'>Praful Kaul, M.S. 2000</p>
+        <p class=MsoNormal style='margin-left:.5in'>Murthy Durbhakula, M.S. 1998</p>
+        <p class=MsoNormal style='margin-left:.5in'>Hazim Abdel-Shafi, M.S. 1997</p>
+        <p class=MsoNormal style='margin-left:.5in'>Tracy Harton, M.E.E. 1997</p>
+        <p class=MsoNormal style='margin-left:.5in'>Jonathan Hall, M.S. 1996 </p>
+        <p><b><span style='font-size:13.5pt;font-family:Arial'>Past visiting students 
+          and undergraduate students<o:p></o:p></span></b></p>
+        <p class=MsoNormal style='margin-left:.5in'>Chanik Park, Visiting student 
+          from Seoul National University, August 2000 -- July 2001</p>
+        <p class=MsoNormal style='margin-left:.5in'>Dennis Geels, B.S. 1999</p>
+        <p class=MsoNormal style='margin-left:.5in'>Michael Simon, January 1998 
+          - May 1998</p>
+        <p class=MsoNormal style='margin-left:.5in'>Khoa To, January 1998 - May 
+          1998</p>
+        <p class=MsoNormal style='margin-left:.5in'>Tracy Harton, September 1995 
+          - May 1996</p>
+        <p class=MsoNormal style='margin-left:.5in'>Mathew Dumm, September 1994 
+          - May 1995 </p>
+d269 2
+a270 2
+    </tr>
+  </table>
+d272 1
+a272 1
+<p class=MsoNormal><span style='color:windowtext'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+@

@@ -1,0 +1,116 @@
+mmx32_fdct_col07: // begin processing columns 0-3
+movdqa xmm0, [x1] ; 0 ; x1
+
+movdqa xmm1, [x6] ; 1 ; x6
+movdqa xmm2, xmm0 ; 2 ; x1
+
+movdqa xmm3, [x2] ; 3 ; x2
+paddsw xmm0, xmm1 ; t1 = x[1] + x[6]
+
+movdqa xmm4, [x5] ; 4 ; x5
+psllw xmm0, SHIFT_FRW_COL ; t1
+
+movdqa xmm5, [x0] ; 5 ; x0
+paddsw xmm4, xmm3 ; t2 = x[2] + x[5]
+
+paddsw xmm5, [x7] ; t0 = x[0] + x[7]
+psllw xmm4, SHIFT_FRW_COL ; t2
+
+movdqa xmm6, xmm0 ; 6 ; t1
+psubsw xmm2, xmm1 ; 1 ; t6 = x[1] - x[6]
+
+movdqa xmm1, xmmword ptr [tg_2_16] ; 1 ; tg_2_16
+psubsw xmm0, xmm4 ; tm12 = t1 - t2
+
+movdqa xmm7, [x3] ; 7 ; x3
+pmulhw xmm1, xmm0 ; tm12*tg_2_16
+
+paddsw xmm7, [x4] ; t3 = x[3] + x[4]
+psllw xmm5, SHIFT_FRW_COL ; t0
+
+paddsw xmm6, xmm4 ; 4 ; tp12 = t1 + t2
+psllw xmm7, SHIFT_FRW_COL ; t3
+
+movdqa xmm4, xmm5 ; 4 ; t0
+psubsw xmm5, xmm7 ; tm03 = t0 - t3
+
+paddsw xmm1, xmm5 ; y2 = tm03 + tm12*tg_2_16
+paddsw xmm4, xmm7 ; 7 ; tp03 = t0 + t3
+
+por xmm1, xmmword ptr one_corr ; correction y2 +0.5
+psllw xmm2, SHIFT_FRW_COL+1 ; t6
+
+pmulhw xmm5, xmmword ptr [tg_2_16] ; tm03*tg_2_16
+movdqa xmm7, xmm4 ; 7 ; tp03
+
+psubsw xmm3, [x5] ; t5 = x[2] - x[5]
+psubsw xmm4, xmm6 ; y4 = tp03 - tp12
+
+movdqa [y2], xmm1 ; 1 ; save y2
+paddsw xmm7, xmm6 ; 6 ; y0 = tp03 + tp12
+
+movdqa xmm1, [x3] ; 1 ; x3
+psllw xmm3, SHIFT_FRW_COL+1 ; t5
+
+psubsw xmm1, [x4] ; t4 = x[3] - x[4]
+movdqa xmm6, xmm2 ; 6 ; t6
+
+movdqa [y4], xmm4 ; 4 ; save y4
+paddsw xmm2, xmm3 ; t6 + t5
+
+pmulhw xmm2, xmmword ptr [ocos_4_16] ; tp65 = (t6 + t5)*cos_4_16
+psubsw xmm6, xmm3 ; 3 ; t6 - t5
+
+pmulhw xmm6, xmmword ptr [ocos_4_16] ; tm65 = (t6 - t5)*cos_4_16
+psubsw xmm5, xmm0 ; 0 ; y6 = tm03*tg_2_16 - tm12
+
+por xmm5, xmmword ptr one_corr ; correction y6 +0.5
+psllw xmm1, SHIFT_FRW_COL ; t4
+
+por xmm2, xmmword ptr one_corr ; correction tp65 +0.5
+movdqa xmm4, xmm1 ; 4 ; t4
+
+movdqa xmm3, [x0] ; 3 ; x0
+paddsw xmm1, xmm6 ; tp465 = t4 + tm65
+
+psubsw xmm3, [x7] ; t7 = x[0] - x[7]
+psubsw xmm4, xmm6 ; 6 ; tm465 = t4 - tm65
+
+movdqa xmm0, xmmword ptr [tg_1_16] ; 0 ; tg_1_16
+psllw xmm3, SHIFT_FRW_COL ; t7
+
+movdqa xmm6, xmmword ptr [tg_3_16] ; 6 ; tg_3_16
+pmulhw xmm0, xmm1 ; tp465*tg_1_16
+
+movdqa [y0], xmm7 ; 7 ; save y0
+pmulhw xmm6, xmm4 ; tm465*tg_3_16
+
+movdqa [y6], xmm5 ; 5 ; save y6
+movdqa xmm7, xmm3 ; 7 ; t7
+
+movdqa xmm5, xmmword ptr [tg_3_16] ; 5 ; tg_3_16
+psubsw xmm7, xmm2 ; tm765 = t7 - tp65
+
+paddsw xmm3, xmm2 ; 2 ; tp765 = t7 + tp65
+pmulhw xmm5, xmm7 ; tm765*tg_3_16
+
+paddsw xmm0, xmm3 ; y1 = tp765 + tp465*tg_1_16
+paddsw xmm6, xmm4 ; tm465*tg_3_16
+
+pmulhw xmm3, xmmword ptr [tg_1_16] ; tp765*tg_1_16
+;//
+
+por xmm0, xmmword ptr one_corr ; correction y1 +0.5
+paddsw xmm5, xmm7 ; tm765*tg_3_16
+
+psubsw xmm7, xmm6 ; 6 ; y3 = tm765 - tm465*tg_3_16
+add INP, 0x08   ; // increment pointer
+
+movdqa [y1], xmm0 ; 0 ; save y1
+paddsw xmm5, xmm4 ; 4 ; y5 = tm765*tg_3_16 + tm465
+
+movdqa [y3], xmm7 ; 7 ; save y3
+psubsw xmm3, xmm1 ; 1 ; y7 = tp765*tg_1_16 - tp465
+
+movdqa [y5], xmm5 ; 5 ; save y5
+

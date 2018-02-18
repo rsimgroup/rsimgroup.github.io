@@ -1,0 +1,97 @@
+128-bit MMX(TM) Instructions Retired
+1st Level Cache Load Misses Retired
+2nd Level Cache Load Misses Retired
+2nd Level Cache Read Misses
+2nd-Level Cache Read References
+2nd-Level Cache Reads Hit Exclusive
+2nd-Level Cache Reads Hit Modified
+2nd-Level Cache Reads Hit Shared
+3rd-Level Cache Read Misses
+3rd-Level Cache Read References
+3rd-Level Cache Reads Hit Exclusive
+3rd-Level Cache Reads Hit Modified
+3rd-Level Cache Reads Hit Shared
+64-bit MMX(TM) Instructions Retired
+64k Aliasing Conflicts
+All UC Underway from The Processor (TI-E)
+All UC from the Processor
+All WC Underway from The Processor (TI-E)
+All WC from the Processor
+All WCB Evictions (TI)
+All calls
+All conditionals
+All indirect branches
+All returns
+Branches Retired
+Bus Accesses Underway from All Agents (TI-E)
+Bus Accesses Underway from The Processor (TI-E)
+Bus Accesses from All agents
+Bus Accesses from the Processor
+Bus Data Ready from the Processor (TI)
+Bus Reads Underway from The Processor (TI-E)
+Clockticks
+DTLB Load Misses Retired
+DTLB Load and Store Misses Retired
+DTLB Page Walks (TI)
+DTLB Store Misses Retired
+IO Reads Chunk (BSQ) (TI-E)
+IO Writes Chunk (BSQ) (TI-E)
+ITLB Misses
+ITLB Page Walks (TI)
+Instructions Retired
+Loads Retired
+MOB Loads Replays (TI-E)
+MOB Loads Replays Retired
+Machine Clear Count
+Memory Order Machine Clear
+Mispredicted Branches Retired
+Mispredicted calls
+Mispredicted conditionals
+Mispredicted indirect branches
+Mispredicted returns
+Non-Halted Clockticks
+Non-prefetch Bus Accesses from the Processor
+Non-prefetch Reads Underway from The Processor (TI-E)
+Packed Double-precision Floating-point Streaming SIMD Extension Instructions Retired
+Packed Single-precision Floating-point Streaming SIMD Extension Instructions Retired
+Reads Invalidate Full - RFO (BSQ) (TI-E)
+Reads Non-prefetch Full (BSQ) (TI-E)
+Reads Non-prefetch from the Processor
+Reads from the Processor
+Scalar Double-Precision Floating-Point Streaming SIMD Extension Instructions Retired
+Scalar Single-precision Floating-point Streaming SIMD Extension Instructions Retired
+Self-Modifying Code Clear
+Speculative Microcode uops
+Speculative TC-built uops
+Speculative TC-delivered uops
+Speculative Uops Retired
+Split Load Replays
+Split Loads Retired (TI-E)
+Split Store Replays
+Split Stores Retired (TI-E)
+Stalled Cycles of Store Buffer Resources (Non-Standard)
+Stalls of Store Buffer Resources (Non-Standard)
+Stores Retired
+Streaming SIMD Extensions Input Assists (TI)
+TC flushes
+TC to ROM Transfers
+Tagged Mispredicted Branches Retired
+Trace Cache Build Mode
+Trace Cache Deliver Mode
+Trace Cache Misses
+UC Reads Chunk (BSQ) (TI-E)
+UC Reads Chunk Split (BSQ) (TI-E)
+UC Reads Chunk Underway (BSQ) (TI-E)
+UC Write Partial (BSQ) (TI-E)
+Uops Retired
+WB Writes Full Underway(BSQ) (TI-E)
+WCB Full Evictions (TI)
+Write WC Full (BSQ) (TI-E)
+Write WC Partial (BSQ) (TI-E)
+Write WC Partial Underway (BSQ) (TI-E)
+Writes Underway from The Processor (TI-E)
+Writes WB Full (BSQ) (TI-E)
+Writes from the Processor
+x87 Input Assists
+x87 Instructions Retired
+x87 Output Assists

@@ -1,0 +1,7 @@
+### Robots.txt made by logman-config.sh ###
+### on Tue Jul 25 16:09:26 CDT 2000 ###
+
+User-agent: *
+Disallow: /stats/ /cgi-bin/cgit/
+
+

@@ -1,0 +1,42 @@
+VTune(TM) Performance Analyzer 2.0 for Linux*
+Copyright (C) 2000-2003 Intel Corporation. All rights reserved.
+
+Event Summary
+Instructions Retired
+   23040 = Samples collected due to this event
+   3915860          = Sample after value used during collection
+   90221414400      = Total events (samples*SAV)
+Clockticks
+   23104 = Samples collected due to this event
+   2867389          = Sample after value used during collection
+   66248155456      = Total events (samples*SAV)
+Event Summary
+Uops Retired
+   23033 = Samples collected due to this event
+   5381019          = Sample after value used during collection
+   123941010627     = Total events (samples*SAV)
+Event Summary
+128-bit MMX(TM) Instructions Retired
+   22938 = Samples collected due to this event
+   51               = Sample after value used during collection
+   1169838          = Total events (samples*SAV)
+Event Summary
+64-bit MMX(TM) Instructions Retired
+   0 = Samples collected due to this event
+   1                = Sample after value used during collection
+   0                = Total events (samples*SAV)
+Event Summary
+Loads Retired
+   46063 = Samples collected due to this event
+   623535           = Sample after value used during collection
+   28721892705      = Total events (samples*SAV)
+Event Summary
+1st Level Cache Load Misses Retired
+   46657 = Samples collected due to this event
+   6780             = Sample after value used during collection
+   316334460        = Total events (samples*SAV)
+Event Summary
+2nd Level Cache Load Misses Retired
+   42226 = Samples collected due to this event
+   1317             = Sample after value used during collection
+   55611642         = Total events (samples*SAV)

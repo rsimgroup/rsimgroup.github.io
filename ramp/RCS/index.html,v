@@ -1,0 +1,109 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2011.10.18.13.07.07;	author shari2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<head>
+<title>RAMP Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+span.MsoHyperlink
+	{color:#333366;
+	text-decoration:underline;
+	text-underline:single;}
+span.SpellE
+	{}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#333366" link="#333366" vlink="#993300" alink="#CC6600">
+<table width="800" border="0" cellpadding="0" cellspacing="0" height="909">
+  <tr align="left" valign="bottom"> 
+    <td colspan="3" width="800" height="75"> <p>
+    <img src="ramp.gif" width="800" height="75"></p></td>
+  </tr>
+  <tr align="left" valign="top"> 
+    <td width="137" bordercolor="#e7ebf0" bgcolor="#e7ebf0" rowspan="2" height="834"> <p><font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><b><br>
+        &nbsp;</b></font></p>
+    <p><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif"><b>
+    <a href="http://rsim.cs.uiuc.edu">Group Home</a></b></font></p>
+    <p>
+    <font face="Geneva, Arial, Helvetica,
+	sans-serif"></font></b></a><b><font face="Geneva, Arial, Helvetica,
+	sans-serif"> RAMP Home</font></b></p>
+    <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+    <a href="people.html">People</a></font></b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif"><b> </b></font></p>
+      <p><b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="pubs.html">Publications</a></font></b></p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="ramp20/index.html">Software</a></font></b></p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="funding.html">Funding</a></font></b><br>
+        <font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><br>
+        <br>
+        </font></p>
+      </td>
+    <td width="7" height="309">&nbsp;</td>
+    <td width="664" height="834" rowspan="2"> 
+    <font SIZE="2">&nbsp;</font><font size="3"><p>Our research on 
+    reliability-aware microprocessors focuses on both hard errors (lifetime 
+    reliability) and soft errors.</p>
+    <p><b>Lifetime reliability:</b></p>
+    <p align="justify">Relentless technology scaling coupled with increasing 
+    power densities is threatening the nearly unlimited processor lifetime 
+    reliability standards that computer users have come to expect. It has been 
+    predicted that in the future, product cost and performance requirements will 
+    be substantially affected, and in many cases, superseded by constraints 
+    brought on by dwindling lifetime reliability due to wear-out mechanisms like 
+    electromigration and gate-oxide breakdown. We observe that the 
+    microarchitecture's ability to track application behavior can potentially be 
+    leveraged for reliability benefit. In this direction, we have (1) developed 
+    RAMP, the first microarchitectural model for lifetime reliability, (2) 
+    incorporated technology scaling models into RAMP to quantify the impact of 
+    scaling on lifetime reliability, and (3) are developing a range of 
+    architectural techniques for reliability enhancement and management.</p>
+    </font>
+    <p><b>Soft errors:</b><font FACE="Times New Roman" size="3"><p ALIGN="justify">
+    Soft errors due to high energy particle strikes are a growing concern for 
+    processor reliability. Recent work has motivated architecture-level studies 
+    of soft errors since the architecture can mask many raw errors and 
+    architectural solutions can exploit workload knowledge. We have proposed a 
+    model and tool, called SoftArch, to enable analysis of soft errors at the 
+    architecture level in modern processors. SoftArch is based on a 
+    probabilistic model of the error generation and propagation process in a 
+    processor. Compared to prior architecture-level tools, SoftArch is more 
+    comprehensive or faster.<p ALIGN="justify">
+    <i>This work is in collaboration with Pradip Bose and Jude Rivers from IBM.</i></font></td>
+  </tr>
+  <tr align="left" valign="top"> 
+    <td width="7" height="525"><FONT color="#333366" 
+                  face="Verdana, Arial, Helvetica, sans-serif"><br>
+      </FONT></td>
+  </tr>
+</table>
+</body>
+</html>
+@

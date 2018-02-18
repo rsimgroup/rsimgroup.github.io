@@ -1,0 +1,104 @@
+
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>ALP Publications</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+span.MsoHyperlink
+	{color:#333366;
+	text-decoration:underline;
+	text-underline:single;}
+span.SpellE
+	{}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#333366" link="#333366" vlink="#993300" alink="#CC6600">
+<table width="800" border="0" cellpadding="0" cellspacing="0" height="909">
+  <tr align="left" valign="bottom"> 
+    <td colspan="3" width="800" height="75"> <p>
+    <img src="alp.gif" width="800" height="75"></p></td>
+  </tr>
+  <tr align="left" valign="top"> 
+    <td width="137" bordercolor="#e7ebf0" bgcolor="#e7ebf0" rowspan="2" height="834"> <p><font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><b><br>
+        &nbsp;</b></font></p>
+    <p><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif"><b>
+    <a href="http://rsim.cs.uiuc.edu">Group Home</a></b></font></p>
+    <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+    <a href="http://rsim.cs.uiuc.edu/alp">ALP Home</a></font></b></p>
+    <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+    <a href="./people.html">People</a></font></b><font color="#333366" face="Geneva, Arial, 
+Helvetica, sans-serif"><b> </b></font></p>
+      <p><b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="./pubs.html">Publications</a></font></b></p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="./alpbench/index.html">Software</a></font></b></p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="./funding.html">Funding</a></font></b><br>
+        <font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><br>
+        <br>
+        </font></p>
+      </td>
+    <td width="7" height="309">&nbsp;</td>
+    <td width="664" height="834" rowspan="2"> 
+
+
+  <p>
+
+  <p><b><span style='font-size:18.0pt;font-family:Arial'>ALP Publications</span></b></p>
+
+ <UL>
+  <LI> <a href="http://rsim.cs.uiuc.edu/Pubs/li.ms.thesis.pdf">
+           Data-Level and Thread-Level Parallelism in Emerging Multimedia Applications</a>,
+           Man-Lap (Alex) Li.
+	<i> M.S. Thesis,</i> August 2005. <p> </li>
+
+  <LI> <a href="http://rsim.cs.uiuc.edu/Pubs/sasanka-alp.pdf">
+ ALP: Efficient Support for All Levels of Parallelism for Complex Media Applications</a>, R. Sasanka, M. Li, 
+S. V. Adve, Y.-K. Chen, E. Debes. Submitted for publication. 
+	<i> UIUC CS Technical Report UIUCDCS-R-2005-2605,</i> July 2005. <p> </li>
+
+  <LI> <a href="http://rsim.cs.uiuc.edu/Pubs/sasanka-phd-thesis.pdf">
+ ALP: Energy Efficient Support for All Levels of Parallelism for Complex Media Applications</a>, R. Sasanka. 
+	<i> Ph.D. Thesis,</i> July 2005. <p> </li>
+
+
+
+
+  <LI> <a href="alpbench/release/alpbench_report.pdf">The
+       ALPBench Benchmark Suite for Multimedia Applications</a>, 
+	M. Li, R. Sasanka, S. V. Adve, Y. -K. Chen, and E. Debes 
+	<i> UIUC CS Technical Report UIUCDCS-R-2005-2603,</i> July 2005. <p> </li>
+
+
+  <LI>    <a
+       href="http://rsim.cs.uiuc.edu/Pubs/sasanka-ics04.pdf" style="color: #333366; text-decoration: 
+underline; text-underline: single">The Energy Efficiency of
+       CMP vs. SMT for Multimedia Workloads </a>, R. <span class=SpellE>Sasanka</span>,
+       S. V. Adve, Y. -K. Chen, and E. <span class=SpellE>Debes</span>, <i>
+       Proceedings of the 18th Annual ACM International Conference
+       on Supercomputing (ICS '04)</i>, June 2004.<br><p> </li>
+
+
+
+
+ </UL>
+
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='color:windowtext'>&nbsp;<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

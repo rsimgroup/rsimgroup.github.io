@@ -1,0 +1,389 @@
+VTune(TM) Performance Analyzer 2.0 for Linux*
+Copyright (C) 2000-2003 Intel Corporation. All rights reserved.
+
+Event Summary
+Clockticks
+   14459 = Samples collected due to this event
+   3066000          = Sample after value used during collection
+   44331294000      = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                           Module             Size    
+  Event                                                           Events%    Samples     Events            Address          Segment          Offset        Full name
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mgau_eval_inner                    livepretend_sse    0xd2    
+  Clockticks                                                       6.26%      905        2774730000          0x0000000000007CEA 0x00d           0x0000000000006A1A mgau_eval_inner
+mgau_eval                          livepretend_sse    0x1e6   
+  Clockticks                                                       2.88%      417        1278522000          0x0000000000007DBC 0x00d           0x0000000000006AEC mgau_eval
+logs3_add                          livepretend_sse    0xf8    
+  Clockticks                                                       1.22%      176        539616000           0x0000000000004C2E 0x00d           0x000000000000395E logs3_add
+sseq2sen_active_thrd_work          livepretend_sse    0x148   
+  Clockticks                                                       0.41%      59         180894000           0x000000000000A068 0x00d           0x0000000000008D98 sseq2sen_active_thrd_work
+lextree_hmm_eval_thrd_work         livepretend_sse    0x120   
+  Clockticks                                                       0.39%      57         174762000           0x0000000000009C10 0x00d           0x0000000000008940 lextree_hmm_eval_thrd_work
+hmm_vit_eval_3st                   livepretend_sse    0x126   
+  Clockticks                                                       0.35%      50         153300000           0x0000000000012C78 0x00d           0x00000000000119A8 hmm_vit_eval_3st
+frame_eval_thrd_work               livepretend_sse    0x29c   
+  Clockticks                                                       0.32%      46         141036000           0x000000000000990A 0x00d           0x000000000000863A frame_eval_thrd_work
+fe_fft                             livepretend_sse    0x43c   
+  Clockticks                                                       0.21%      30         91980000            0x0000000000019FB2 0x00d           0x0000000000018CE2 fe_fft
+parse_tmat_senmap                  livepretend_sse    0x296   
+  Clockticks                                                       0.20%      29         88914000            0x000000000000B2AA 0x00d           0x0000000000009FDA parse_tmat_senmap
+lextree_hmm_ppg_thrd_work          livepretend_sse    0x29e   
+  Clockticks                                                       0.17%      25         76650000            0x0000000000009D60 0x00d           0x0000000000008A90 lextree_hmm_ppg_thrd_work
+dict2pid_comsenscr_thrd_work       livepretend_sse    0x6a    
+  Clockticks                                                       0.16%      23         70518000            0x0000000000009BA6 0x00d           0x00000000000088D6 dict2pid_comsenscr_thrd_work
+sen_active_thrd_work               livepretend_sse    0x284   
+  Clockticks                                                       0.30%      43         131838000           0x000000000000A1B0 0x00d           0x0000000000008EE0 sen_active_thrd_work
+parse_tri_line                     livepretend_sse    0x3d0   
+  Clockticks                                                       0.13%      19         58254000            0x000000000000B7F4 0x00d           0x000000000000A524 parse_tri_line
+key2hash                           livepretend_sse    0x84    
+  Clockticks                                                       0.12%      17         52122000            0x000000000000506E 0x00d           0x0000000000003D9E key2hash
+lookup                             livepretend_sse    0x8c    
+  Clockticks                                                       0.10%      14         42924000            0x00000000000052FE 0x00d           0x000000000000402E lookup
+lextree_enter                      livepretend_sse    0x17e   
+  Clockticks                                                       0.10%      14         42924000            0x0000000000013D04 0x00d           0x0000000000012A34 lextree_enter
+triphone_add                       livepretend_sse    0x184   
+  Clockticks                                                       0.08%      11         33726000            0x000000000000AB2E 0x00d           0x000000000000985E triphone_add
+vithist_rescore                    livepretend_sse    0x1d8   
+  Clockticks                                                       0.07%      10         30660000            0x0000000000014872 0x00d           0x00000000000135A2 vithist_rescore
+mgau_var_floor                     livepretend_sse    0xee    
+  Clockticks                                                       0.06%      9          27594000            0x0000000000007672 0x00d           0x00000000000063A2 mgau_var_floor
+mgau_precomp                       livepretend_sse    0x16e   
+  Clockticks                                                       0.06%      8          24528000            0x000000000000783A 0x00d           0x000000000000656A mgau_precomp
+chksum_accum                       livepretend_sse    0x16c   
+  Clockticks                                                       0.06%      9          27594000            0x00000000000030C0 0x00d           0x0000000000001DF0 chksum_accum
+find_ph_rc                         livepretend_sse    0x18    
+  Clockticks                                                       0.06%      9          27594000            0x000000000000AB16 0x00d           0x0000000000009846 find_ph_rc
+lextree_ssid_active_thrd_work      livepretend_sse    0x68    
+  Clockticks                                                       0.12%      17         52122000            0x000000000000A000 0x00d           0x0000000000008D30 lextree_ssid_active_thrd_work
+UnmappedSamples                    livepretend_sse    0x0     
+  Clockticks                                                       0.04%      6          18396000            0x00000000000012D0 0x00d           0x0000000000000000 
+bio_fread                          livepretend_sse    0x60    
+  Clockticks                                                       0.04%      6          18396000            0x000000000000343E 0x00d           0x000000000000216E bio_fread
+enter                              livepretend_sse    0x86    
+  Clockticks                                                       0.03%      5          15330000            0x000000000000540C 0x00d           0x000000000000413C enter
+mdef_phone_id                      livepretend_sse    0x16e   
+  Clockticks                                                       0.03%      5          15330000            0x000000000000AE56 0x00d           0x0000000000009B86 mdef_phone_id
+mdef_init                          livepretend_sse    0xade   
+  Clockticks                                                       0.03%      5          15330000            0x000000000000BD2A 0x00d           0x000000000000AA5A mdef_init
+hash_enter_bkey                    livepretend_sse    0x44    
+  Clockticks                                                       0.03%      5          15330000            0x00000000000054D0 0x00d           0x0000000000004200 hash_enter_bkey
+ssidlist2comsseq                   livepretend_sse    0x266   
+  Clockticks                                                       0.03%      4          12264000            0x000000000000DD9A 0x00d           0x000000000000CACA ssidlist2comsseq
+sseq_compress                      livepretend_sse    0x124   
+  Clockticks                                                       0.03%      4          12264000            0x000000000000BBC4 0x00d           0x000000000000A8F4 sseq_compress
+hash_lookup                        livepretend_sse    0x3e    
+  Clockticks                                                       0.03%      4          12264000            0x000000000000538A 0x00d           0x00000000000040BA hash_lookup
+mdef_ciphone_id                    livepretend_sse    0x6a    
+  Clockticks                                                       0.03%      5          15330000            0x000000000000ACB2 0x00d           0x00000000000099E2 mdef_ciphone_id
+find_ph_lc                         livepretend_sse    0x18    
+  Clockticks                                                       0.03%      4          12264000            0x000000000000AAFE 0x00d           0x000000000000982E find_ph_lc
+glist_chkdup_int32                 livepretend_sse    0x20    
+  Clockticks                                                       0.03%      4          12264000            0x0000000000002940 0x00d           0x0000000000001670 glist_chkdup_int32
+hash_tolist                        livepretend_sse    0x8c    
+  Clockticks                                                       0.02%      3          9198000             0x0000000000005514 0x00d           0x0000000000004244 hash_tolist
+makekey                            livepretend_sse    0x178   
+  Clockticks                                                       0.02%      3          9198000             0x00000000000050F2 0x00d           0x0000000000003E22 makekey
+vector_is_zero                     livepretend_sse    0x84    
+  Clockticks                                                       0.02%      3          9198000             0x0000000000003834 0x00d           0x0000000000002564 vector_is_zero
+vh_lmstate_find                    livepretend_sse    0x58    
+  Clockticks                                                       0.02%      3          9198000             0x0000000000014632 0x00d           0x0000000000013362 vh_lmstate_find
+fe_spec_magnitude                  livepretend_sse    0x390   
+  Clockticks                                                       0.02%      3          9198000             0x0000000000019A5E 0x00d           0x000000000001878E fe_spec_magnitude
+__mymalloc                         livepretend_sse    0x160   
+  Clockticks                                                       0.01%      2          6132000             0x00000000000019C2 0x00d           0x00000000000006F2 __mymalloc(void)
+noncomment_line                    livepretend_sse    0x42    
+  Clockticks                                                       0.01%      2          6132000             0x000000000000BCE8 0x00d           0x000000000000AA18 noncomment_line
+new_lextree_hmm_eval_thrd_work     livepretend_sse    0x106   
+  Clockticks                                                       0.01%      2          6132000             0x000000000000A57A 0x00d           0x00000000000092AA new_lextree_hmm_eval_thrd_work
+__myfree                           livepretend_sse    0x70    
+  Clockticks                                                       0.01%      2          6132000             0x0000000000001B22 0x00d           0x0000000000000852 __myfree(void)
+mgau_mixw_read                     livepretend_sse    0x620   
+  Clockticks                                                       0.01%      2          6132000             0x0000000000006EDC 0x00d           0x0000000000005C0C mgau_mixw_read
+__ckd_calloc                       livepretend_sse    0x4c    
+  Clockticks                                                       0.01%      2          6132000             0x0000000000001560 0x00d           0x0000000000000290 __ckd_calloc(void)
+keycmp_case                        livepretend_sse    0x3c    
+  Clockticks                                                       0.01%      2          6132000             0x00000000000052C2 0x00d           0x0000000000003FF2 keycmp_case
+keycmp_nocase                      livepretend_sse    0x58    
+  Clockticks                                                       0.01%      2          6132000             0x000000000000526A 0x00d           0x0000000000003F9A keycmp_nocase
+fe_mel_spec                        livepretend_sse    0xb4    
+  Clockticks                                                       0.01%      2          6132000             0x0000000000019DEE 0x00d           0x0000000000018B1E fe_mel_spec
+lm_bg_score                        livepretend_sse    0xf8    
+  Clockticks                                                       0.02%      3          9198000             0x0000000000010DEE 0x00d           0x000000000000FB1E lm_bg_score
+vithist_prune                      livepretend_sse    0x1ea   
+  Clockticks                                                       0.01%      2          6132000             0x0000000000014BC0 0x00d           0x00000000000138F0 vithist_prune
+ln_lock                            livepretend_sse    0x26    
+  Clockticks                                                       0.03%      5          15330000            0x0000000000009D30 0x00d           0x0000000000008A60 ln_lock
+subheap_insert                     livepretend_sse    0x84    
+  Clockticks                                                       0.01%      1          3066000             0x0000000000005626 0x00d           0x0000000000004356 subheap_insert
+glist_add_ptr                      livepretend_sse    0x20    
+  Clockticks                                                       0.01%      1          3066000             0x0000000000002880 0x00d           0x00000000000015B0 glist_add_ptr
+subheap_pop                        livepretend_sse    0x86    
+  Clockticks                                                       0.01%      1          3066000             0x00000000000056C8 0x00d           0x00000000000043F8 subheap_pop
+P2D1                               livepretend_sse    0x6     
+  Clockticks                                                       0.03%      4          12264000            0x00000000000203A1 0x00d           0x000000000001F0D1 P2D1
+utt_decode_block                   livepretend_sse    0x46a   
+  Clockticks                                                       0.01%      1          3066000             0x0000000000018844 0x00d           0x0000000000017574 utt_decode_block
+single_comsseq                     livepretend_sse    0xa8    
+  Clockticks                                                       0.01%      1          3066000             0x000000000000DC68 0x00d           0x000000000000C998 single_comsseq
+utt_word_trans                     livepretend_sse    0x288   
+  Clockticks                                                       0.01%      1          3066000             0x0000000000017EFE 0x00d           0x0000000000016C2E utt_word_trans
+ptmr_start                         livepretend_sse    0x52    
+  Clockticks                                                       0.01%      1          3066000             0x0000000000005FE8 0x00d           0x0000000000004D18 ptmr_start
+vithist_enter                      livepretend_sse    0x116   
+  Clockticks                                                       0.01%      1          3066000             0x000000000001475C 0x00d           0x000000000001348C vithist_enter
+feat_s2mfc2feat_block              livepretend_sse    0x782   
+  Clockticks                                                       0.01%      1          3066000             0x000000000001DB72 0x00d           0x000000000001C8A2 feat_s2mfc2feat_block
+lm_read                            livepretend_sse    0x23c   
+  Clockticks                                                       0.01%      1          3066000             0x0000000000010532 0x00d           0x000000000000F262 lm_read
+lm_tg_score                        livepretend_sse    0x234   
+  Clockticks                                                       0.01%      1          3066000             0x000000000001138C 0x00d           0x00000000000100BC lm_tg_score
+ln_unlock                          livepretend_sse    0xa     
+  Clockticks                                                       0.01%      2          6132000             0x0000000000009D56 0x00d           0x0000000000008A86 ln_unlock
+log_to_logs3_factor                livepretend_sse    0x8     
+  Clockticks                                                       0.01%      1          3066000             0x0000000000004EA6 0x00d           0x0000000000003BD6 log_to_logs3_factor
+logs3                              livepretend_sse    0xe8    
+  Clockticks                                                       0.01%      1          3066000             0x0000000000004D26 0x00d           0x0000000000003A56 logs3
+fe_mel_cep                         livepretend_sse    0x110   
+  Clockticks                                                       0.01%      1          3066000             0x0000000000019EA2 0x00d           0x0000000000018BD2 fe_mel_cep
+logs3_init                         livepretend_sse    0x33e   
+  Clockticks                                                       0.01%      1          3066000             0x00000000000048F0 0x00d           0x0000000000003620 logs3_init
+fe_hamming_window                  livepretend_sse    0xa8    
+  Clockticks                                                       0.01%      1          3066000             0x0000000000019916 0x00d           0x0000000000018646 fe_hamming_window
+heap_insert                        livepretend_sse    0x1e    
+  Clockticks                                                       0.01%      1          3066000             0x00000000000056AA 0x00d           0x00000000000043DA heap_insert
+mdef_phone_id_nearest              livepretend_sse    0x1fc   
+  Clockticks                                                       0.01%      1          3066000             0x000000000000AFC4 0x00d           0x0000000000009CF4 mdef_phone_id_nearest
+dict2pid_build                     livepretend_sse    0x8a8   
+  Clockticks                                                       0.01%      1          3066000             0x000000000000E000 0x00d           0x000000000000CD30 dict2pid_build
+mgau_file_read                     livepretend_sse    0x8a0   
+  Clockticks                                                       0.01%      1          3066000             0x000000000000663C 0x00d           0x000000000000536C mgau_file_read
+ck.use.sse2                        livepretend_sse    0x13    
+  Clockticks                                                       0.01%      1          3066000             0x0000000000020443 0x00d           0x000000000001F173 ck.use.sse2
+mgau_uninit_compact                livepretend_sse    0x176   
+  Clockticks                                                       0.01%      1          3066000             0x00000000000074FC 0x00d           0x000000000000622C mgau_uninit_compact
+both.aligned.pre                   livepretend_sse    0xb     
+  Clockticks                                                       0.01%      1          3066000             0x0000000000020A25 0x00d           0x000000000001F755 both.aligned.pre
+hash_free                          livepretend_sse    0x6c    
+  Clockticks                                                       0.01%      1          3066000             0x00000000000055A0 0x00d           0x00000000000042D0 hash_free
+Event Summary
+Loads Retired
+   1540 = Samples collected due to this event
+   1000000          = Sample after value used during collection
+   1540000000       = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                          Module             Size    
+  Event                                                          Events%    Samples     Events            Address          Segment          Offset        Full name
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mgau_eval_inner                   livepretend_sse    0xd2    
+  Loads Retired                                                  18.90%      291        291000000           0x0000000000007CEA 0x00d           0x0000000000006A1A mgau_eval_inner
+mgau_eval                         livepretend_sse    0x1e6   
+  Loads Retired                                                   5.84%      90         90000000            0x0000000000007DBC 0x00d           0x0000000000006AEC mgau_eval
+logs3_add                         livepretend_sse    0xf8    
+  Loads Retired                                                   2.08%      32         32000000            0x0000000000004C2E 0x00d           0x000000000000395E logs3_add
+frame_eval_thrd_work              livepretend_sse    0x29c   
+  Loads Retired                                                   1.36%      21         21000000            0x000000000000990A 0x00d           0x000000000000863A frame_eval_thrd_work
+hmm_vit_eval_3st                  livepretend_sse    0x126   
+  Loads Retired                                                   1.23%      19         19000000            0x0000000000012C78 0x00d           0x00000000000119A8 hmm_vit_eval_3st
+fe_fft                            livepretend_sse    0x43c   
+  Loads Retired                                                   1.04%      16         16000000            0x0000000000019FB2 0x00d           0x0000000000018CE2 fe_fft
+find_ph_rc                        livepretend_sse    0x18    
+  Loads Retired                                                   0.97%      15         15000000            0x000000000000AB16 0x00d           0x0000000000009846 find_ph_rc
+dict2pid_comsenscr_thrd_work      livepretend_sse    0x6a    
+  Loads Retired                                                   0.91%      14         14000000            0x0000000000009BA6 0x00d           0x00000000000088D6 dict2pid_comsenscr_thrd_work
+vithist_rescore                   livepretend_sse    0x1d8   
+  Loads Retired                                                   0.45%      7          7000000             0x0000000000014872 0x00d           0x00000000000135A2 vithist_rescore
+parse_tri_line                    livepretend_sse    0x3d0   
+  Loads Retired                                                   0.45%      7          7000000             0x000000000000B7F4 0x00d           0x000000000000A524 parse_tri_line
+triphone_add                      livepretend_sse    0x184   
+  Loads Retired                                                   0.39%      6          6000000             0x000000000000AB2E 0x00d           0x000000000000985E triphone_add
+chksum_accum                      livepretend_sse    0x16c   
+  Loads Retired                                                   0.39%      6          6000000             0x00000000000030C0 0x00d           0x0000000000001DF0 chksum_accum
+keycmp_nocase                     livepretend_sse    0x58    
+  Loads Retired                                                   0.45%      7          7000000             0x000000000000526A 0x00d           0x0000000000003F9A keycmp_nocase
+parse_tmat_senmap                 livepretend_sse    0x296   
+  Loads Retired                                                   0.32%      5          5000000             0x000000000000B2AA 0x00d           0x0000000000009FDA parse_tmat_senmap
+key2hash                          livepretend_sse    0x84    
+  Loads Retired                                                   0.45%      7          7000000             0x000000000000506E 0x00d           0x0000000000003D9E key2hash
+UnmappedSamples                   livepretend_sse    0x0     
+  Loads Retired                                                   0.65%      10         10000000            0x00000000000012D0 0x00d           0x0000000000000000 
+mdef_init                         livepretend_sse    0xade   
+  Loads Retired                                                   0.32%      5          5000000             0x000000000000BD2A 0x00d           0x000000000000AA5A mdef_init
+makekey                           livepretend_sse    0x178   
+  Loads Retired                                                   0.26%      4          4000000             0x00000000000050F2 0x00d           0x0000000000003E22 makekey
+lm_tg_score                       livepretend_sse    0x234   
+  Loads Retired                                                   0.26%      4          4000000             0x000000000001138C 0x00d           0x00000000000100BC lm_tg_score
+lextree_hmm_eval_thrd_work        livepretend_sse    0x120   
+  Loads Retired                                                   0.32%      5          5000000             0x0000000000009C10 0x00d           0x0000000000008940 lextree_hmm_eval_thrd_work
+lextree_enter                     livepretend_sse    0x17e   
+  Loads Retired                                                   0.26%      4          4000000             0x0000000000013D04 0x00d           0x0000000000012A34 lextree_enter
+enter                             livepretend_sse    0x86    
+  Loads Retired                                                   0.39%      6          6000000             0x000000000000540C 0x00d           0x000000000000413C enter
+lookup                            livepretend_sse    0x8c    
+  Loads Retired                                                   0.26%      4          4000000             0x00000000000052FE 0x00d           0x000000000000402E lookup
+lextree_hmm_ppg_thrd_work         livepretend_sse    0x29e   
+  Loads Retired                                                   0.19%      3          3000000             0x0000000000009D60 0x00d           0x0000000000008A90 lextree_hmm_ppg_thrd_work
+find_ph_lc                        livepretend_sse    0x18    
+  Loads Retired                                                   0.26%      4          4000000             0x000000000000AAFE 0x00d           0x000000000000982E find_ph_lc
+fe_mel_cep                        livepretend_sse    0x110   
+  Loads Retired                                                   0.19%      3          3000000             0x0000000000019EA2 0x00d           0x0000000000018BD2 fe_mel_cep
+hash_lookup                       livepretend_sse    0x3e    
+  Loads Retired                                                   0.26%      4          4000000             0x000000000000538A 0x00d           0x00000000000040BA hash_lookup
+vithist_frame_gc                  livepretend_sse    0x176   
+  Loads Retired                                                   0.13%      2          2000000             0x0000000000014A4A 0x00d           0x000000000001377A vithist_frame_gc
+subheap_insert                    livepretend_sse    0x84    
+  Loads Retired                                                   0.19%      3          3000000             0x0000000000005626 0x00d           0x0000000000004356 subheap_insert
+sseq2sen_active_thrd_work         livepretend_sse    0x148   
+  Loads Retired                                                   1.04%      16         16000000            0x000000000000A068 0x00d           0x0000000000008D98 sseq2sen_active_thrd_work
+__mymalloc                        livepretend_sse    0x160   
+  Loads Retired                                                   0.13%      2          2000000             0x00000000000019C2 0x00d           0x00000000000006F2 __mymalloc(void)
+mgau_precomp                      livepretend_sse    0x16e   
+  Loads Retired                                                   0.91%      14         14000000            0x000000000000783A 0x00d           0x000000000000656A mgau_precomp
+glist_chkdup_int32                livepretend_sse    0x20    
+  Loads Retired                                                   0.52%      8          8000000             0x0000000000002940 0x00d           0x0000000000001670 glist_chkdup_int32
+logs3                             livepretend_sse    0xe8    
+  Loads Retired                                                   0.13%      2          2000000             0x0000000000004D26 0x00d           0x0000000000003A56 logs3
+keycmp_case                       livepretend_sse    0x3c    
+  Loads Retired                                                   0.13%      2          2000000             0x00000000000052C2 0x00d           0x0000000000003FF2 keycmp_case
+fe_mel_spec                       livepretend_sse    0xb4    
+  Loads Retired                                                   0.13%      2          2000000             0x0000000000019DEE 0x00d           0x0000000000018B1E fe_mel_spec
+lm_bg_score                       livepretend_sse    0xf8    
+  Loads Retired                                                   0.13%      2          2000000             0x0000000000010DEE 0x00d           0x000000000000FB1E lm_bg_score
+hash_enter_bkey                   livepretend_sse    0x44    
+  Loads Retired                                                   0.13%      2          2000000             0x00000000000054D0 0x00d           0x0000000000004200 hash_enter_bkey
+ln_unlock                         livepretend_sse    0xa     
+  Loads Retired                                                   0.26%      4          4000000             0x0000000000009D56 0x00d           0x0000000000008A86 ln_unlock
+vithist_lmstate_enter             livepretend_sse    0xb0    
+  Loads Retired                                                   0.06%      1          1000000             0x000000000001468A 0x00d           0x00000000000133BA vithist_lmstate_enter
+lextree_build                     livepretend_sse    0xa70   
+  Loads Retired                                                   0.06%      1          1000000             0x0000000000012EBE 0x00d           0x0000000000011BEE lextree_build
+vithist_enter                     livepretend_sse    0x116   
+  Loads Retired                                                   0.06%      1          1000000             0x000000000001475C 0x00d           0x000000000001348C vithist_enter
+vector_sum_norm                   livepretend_sse    0xfc    
+  Loads Retired                                                   0.06%      1          1000000             0x0000000000003648 0x00d           0x0000000000002378 vector_sum_norm
+__ckd_calloc                      livepretend_sse    0x4c    
+  Loads Retired                                                   0.06%      1          1000000             0x0000000000001560 0x00d           0x0000000000000290 __ckd_calloc(void)
+dict2pid_build                    livepretend_sse    0x8a8   
+  Loads Retired                                                   0.06%      1          1000000             0x000000000000E000 0x00d           0x000000000000CD30 dict2pid_build
+lextree_ssid_active_thrd_work     livepretend_sse    0x68    
+  Loads Retired                                                   0.13%      2          2000000             0x000000000000A000 0x00d           0x0000000000008D30 lextree_ssid_active_thrd_work
+__myfree                          livepretend_sse    0x70    
+  Loads Retired                                                   0.06%      1          1000000             0x0000000000001B22 0x00d           0x0000000000000852 __myfree(void)
+logs3_init                        livepretend_sse    0x33e   
+  Loads Retired                                                   0.06%      1          1000000             0x00000000000048F0 0x00d           0x0000000000003620 logs3_init
+noncomment_line                   livepretend_sse    0x42    
+  Loads Retired                                                   0.06%      1          1000000             0x000000000000BCE8 0x00d           0x000000000000AA18 noncomment_line
+mgau_var_floor                    livepretend_sse    0xee    
+  Loads Retired                                                   0.52%      8          8000000             0x0000000000007672 0x00d           0x00000000000063A2 mgau_var_floor
+mgau_uninit_compact               livepretend_sse    0x176   
+  Loads Retired                                                   0.06%      1          1000000             0x00000000000074FC 0x00d           0x000000000000622C mgau_uninit_compact
+glist_free                        livepretend_sse    0x32    
+  Loads Retired                                                   0.06%      1          1000000             0x0000000000002A7E 0x00d           0x00000000000017AE glist_free
+mgau_file_read                    livepretend_sse    0x8a0   
+  Loads Retired                                                   0.06%      1          1000000             0x000000000000663C 0x00d           0x000000000000536C mgau_file_read
+_intel_fast_memcpy                livepretend_sse    0x28    
+  Loads Retired                                                   0.06%      1          1000000             0x000000000001F446 0x00d           0x000000000001E176 _intel_fast_memcpy
+bio_fread                         livepretend_sse    0x60    
+  Loads Retired                                                   0.06%      1          1000000             0x000000000000343E 0x00d           0x000000000000216E bio_fread
+fe_spec_magnitude                 livepretend_sse    0x390   
+  Loads Retired                                                   0.06%      1          1000000             0x0000000000019A5E 0x00d           0x000000000001878E fe_spec_magnitude
+mdef_ciphone_id                   livepretend_sse    0x6a    
+  Loads Retired                                                   0.06%      1          1000000             0x000000000000ACB2 0x00d           0x00000000000099E2 mdef_ciphone_id
+ln_lock                           livepretend_sse    0x26    
+  Loads Retired                                                   0.06%      1          1000000             0x0000000000009D30 0x00d           0x0000000000008A60 ln_lock
+Event Summary
+1st Level Cache Load Misses Retired
+   99 = Samples collected due to this event
+   1000000          = Sample after value used during collection
+   99000000         = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                          Module             Size    
+  Event                                                          Events%    Samples     Events            Address          Segment          Offset        Full name
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mgau_eval_inner                   livepretend_sse    0xd2    
+  1st Level Cache Load Misses Retired                            52.53%      52         52000000            0x0000000000007CEA 0x00d           0x0000000000006A1A mgau_eval_inner
+fe_fft                            livepretend_sse    0x43c   
+  1st Level Cache Load Misses Retired                             8.08%      8          8000000             0x0000000000019FB2 0x00d           0x0000000000018CE2 fe_fft
+mgau_eval                         livepretend_sse    0x1e6   
+  1st Level Cache Load Misses Retired                             8.08%      8          8000000             0x0000000000007DBC 0x00d           0x0000000000006AEC mgau_eval
+hmm_vit_eval_3st                  livepretend_sse    0x126   
+  1st Level Cache Load Misses Retired                             4.04%      4          4000000             0x0000000000012C78 0x00d           0x00000000000119A8 hmm_vit_eval_3st
+logs3_add                         livepretend_sse    0xf8    
+  1st Level Cache Load Misses Retired                             4.04%      4          4000000             0x0000000000004C2E 0x00d           0x000000000000395E logs3_add
+frame_eval_thrd_work              livepretend_sse    0x29c   
+  1st Level Cache Load Misses Retired                             2.02%      2          2000000             0x000000000000990A 0x00d           0x000000000000863A frame_eval_thrd_work
+sseq2sen_active_thrd_work         livepretend_sse    0x148   
+  1st Level Cache Load Misses Retired                             3.03%      3          3000000             0x000000000000A068 0x00d           0x0000000000008D98 sseq2sen_active_thrd_work
+glist_chkdup_int32                livepretend_sse    0x20    
+  1st Level Cache Load Misses Retired                             1.01%      1          1000000             0x0000000000002940 0x00d           0x0000000000001670 glist_chkdup_int32
+keycmp_nocase                     livepretend_sse    0x58    
+  1st Level Cache Load Misses Retired                             1.01%      1          1000000             0x000000000000526A 0x00d           0x0000000000003F9A keycmp_nocase
+lextree_enter                     livepretend_sse    0x17e   
+  1st Level Cache Load Misses Retired                             2.02%      2          2000000             0x0000000000013D04 0x00d           0x0000000000012A34 lextree_enter
+lextree_hmm_eval_thrd_work        livepretend_sse    0x120   
+  1st Level Cache Load Misses Retired                             1.01%      1          1000000             0x0000000000009C10 0x00d           0x0000000000008940 lextree_hmm_eval_thrd_work
+lextree_hmm_ppg_thrd_work         livepretend_sse    0x29e   
+  1st Level Cache Load Misses Retired                             1.01%      1          1000000             0x0000000000009D60 0x00d           0x0000000000008A90 lextree_hmm_ppg_thrd_work
+lextree_ssid_active_thrd_work     livepretend_sse    0x68    
+  1st Level Cache Load Misses Retired                             1.01%      1          1000000             0x000000000000A000 0x00d           0x0000000000008D30 lextree_ssid_active_thrd_work
+ln_lock                           livepretend_sse    0x26    
+  1st Level Cache Load Misses Retired                             1.01%      1          1000000             0x0000000000009D30 0x00d           0x0000000000008A60 ln_lock
+sseq_compress                     livepretend_sse    0x124   
+  1st Level Cache Load Misses Retired                             1.01%      1          1000000             0x000000000000BBC4 0x00d           0x000000000000A8F4 sseq_compress
+subheap_insert                    livepretend_sse    0x84    
+  1st Level Cache Load Misses Retired                             1.01%      1          1000000             0x0000000000005626 0x00d           0x0000000000004356 subheap_insert
+Event Summary
+2nd Level Cache Load Misses Retired
+   295 = Samples collected due to this event
+   100000           = Sample after value used during collection
+   29500000         = Total events (samples*SAV)
+
+HotSpot View grouped by function (all values in decimal except where indicated)
+
+Function                          Module             Size    
+  Event                                                          Events%    Samples     Events            Address          Segment          Offset        Full name
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mgau_eval_inner                   livepretend_sse    0xd2    
+  2nd Level Cache Load Misses Retired                            54.58%      161        16100000            0x0000000000007CEA 0x00d           0x0000000000006A1A mgau_eval_inner
+hmm_vit_eval_3st                  livepretend_sse    0x126   
+  2nd Level Cache Load Misses Retired                             5.42%      16         1600000             0x0000000000012C78 0x00d           0x00000000000119A8 hmm_vit_eval_3st
+lextree_hmm_eval_thrd_work        livepretend_sse    0x120   
+  2nd Level Cache Load Misses Retired                             3.39%      10         1000000             0x0000000000009C10 0x00d           0x0000000000008940 lextree_hmm_eval_thrd_work
+find_ph_rc                        livepretend_sse    0x18    
+  2nd Level Cache Load Misses Retired                             5.76%      17         1700000             0x000000000000AB16 0x00d           0x0000000000009846 find_ph_rc
+frame_eval_thrd_work              livepretend_sse    0x29c   
+  2nd Level Cache Load Misses Retired                             2.03%      6          600000              0x000000000000990A 0x00d           0x000000000000863A frame_eval_thrd_work
+find_ph_lc                        livepretend_sse    0x18    
+  2nd Level Cache Load Misses Retired                             1.69%      5          500000              0x000000000000AAFE 0x00d           0x000000000000982E find_ph_lc
+glist_chkdup_int32                livepretend_sse    0x20    
+  2nd Level Cache Load Misses Retired                             3.05%      9          900000              0x0000000000002940 0x00d           0x0000000000001670 glist_chkdup_int32
+sseq2sen_active_thrd_work         livepretend_sse    0x148   
+  2nd Level Cache Load Misses Retired                             1.02%      3          300000              0x000000000000A068 0x00d           0x0000000000008D98 sseq2sen_active_thrd_work
+lextree_enter                     livepretend_sse    0x17e   
+  2nd Level Cache Load Misses Retired                             1.02%      3          300000              0x0000000000013D04 0x00d           0x0000000000012A34 lextree_enter
+lextree_ssid_active_thrd_work     livepretend_sse    0x68    
+  2nd Level Cache Load Misses Retired                             1.02%      3          300000              0x000000000000A000 0x00d           0x0000000000008D30 lextree_ssid_active_thrd_work
+vithist_rescore                   livepretend_sse    0x1d8   
+  2nd Level Cache Load Misses Retired                             0.68%      2          200000              0x0000000000014872 0x00d           0x00000000000135A2 vithist_rescore
+sen_active_thrd_work              livepretend_sse    0x284   
+  2nd Level Cache Load Misses Retired                             0.34%      1          100000              0x000000000000A1B0 0x00d           0x0000000000008EE0 sen_active_thrd_work
+mgau_var_floor                    livepretend_sse    0xee    
+  2nd Level Cache Load Misses Retired                             0.34%      1          100000              0x0000000000007672 0x00d           0x00000000000063A2 mgau_var_floor
+mgau_eval                         livepretend_sse    0x1e6   
+  2nd Level Cache Load Misses Retired                             3.73%      11         1100000             0x0000000000007DBC 0x00d           0x0000000000006AEC mgau_eval
+logs3_add                         livepretend_sse    0xf8    
+  2nd Level Cache Load Misses Retired                             0.34%      1          100000              0x0000000000004C2E 0x00d           0x000000000000395E logs3_add
+hash_tolist                       livepretend_sse    0x8c    
+  2nd Level Cache Load Misses Retired                             0.34%      1          100000              0x0000000000005514 0x00d           0x0000000000004244 hash_tolist
+hash_free                         livepretend_sse    0x6c    
+  2nd Level Cache Load Misses Retired                             0.68%      2          200000              0x00000000000055A0 0x00d           0x00000000000042D0 hash_free
+fe_hamming_window                 livepretend_sse    0xa8    
+  2nd Level Cache Load Misses Retired                             0.34%      1          100000              0x0000000000019916 0x00d           0x0000000000018646 fe_hamming_window
+P2D0                              livepretend_sse    0xd     
+  2nd Level Cache Load Misses Retired                             0.34%      1          100000              0x00000000000203A7 0x00d           0x000000000001F0D7 P2D0

@@ -1,0 +1,198 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2013.06.17.17.43.11;	author mdsincl2;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.06.13.18.14.17;	author mdsincl2;	state Exp;
+branches;
+next	;
+
+
+desc
+@Initial commit.
+@
+
+
+1.2
+log
+@Updated with Sarita's suggestions.
+@
+text
+@<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Heterogeneous Computing: Funding</title>
+<link href="style/style1.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.style4 {
+	font-size: medium;
+}
+.projects {
+	font-size: medium;
+}
+.style5 {
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right: 1px solid #C0C0C0;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom: 1px solid #C0C0C0;
+}
+ol {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	position: absolute;
+	display: none;
+
+}
+td.projects:hover ol, td.projects.over ol {
+	display: block;
+}
+.style9 {
+	text-decoration: none;
+}
+a.style9:hover{
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+}
+.style10 {
+	color: #CCCCCC;
+}
+.style11 {
+	color: #FFFFFF;
+}
+.style12 {
+	text-align: left;
+}
+</style>
+</head>
+
+<body>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="shadow_left">&nbsp;</td>
+      <td class="header_column">
+        <!-- Header/Intro stuff (pre-Menu bar) -->
+        <table width="100%" border="0" cellspacing="10" cellpadding="0">
+          <tr>
+            <td class="logo_area" style="font-size: x-large; height: 48px;">
+              <a class="style9" href="index.html"><span class="style11"><strong>Heterogeneous Computing: A Unified HW-SW Approach</strong></span></a>
+            </td>
+            <th class="logo_area" rowspan="3">
+              &nbsp;
+            </th>
+          </tr>
+          <tr>
+            <th class="sub_logo_area">
+              <a class="style9" href="http://illinois.edu"><span class="style10">University of Illinois at Urbana-Champaign</span></a></th>
+          </tr>
+        </table>
+      </td>
+      <td class="shadow_right">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="horizontal_column">&nbsp;
+      </td>
+      <td>
+        <!-- Menu bar -->
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="linkcontainer">
+          <tr>
+            <td class="projects">
+              <div class="navigation" style="font-size: medium"> <a href="index.html" class="main_link">Home</a></div>
+            </td>
+            <!-- <td><div class="navigation"><a href="#" class="main_link">DeNovo Home</a></div></td> -->
+            <td class="style4">
+              <div class="navigation" style="font-size: medium"><a class="main_link" href="people.html">People</a></div>
+            </td>
+            <td>
+              <div class="navigation" style="font-size: medium"><a href="pubs.html" class="main_link">Publications</a></div>
+            </td>
+            <td>
+              <div class="navigation" style="font-size: medium"><a href="funding.html" class="main_link" style="width: 100%">Funding</a></div>
+            </td>
+            <td>
+              <div class="navigation" style="font-size: medium"><a href="news.html" class="main_link">News</a></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td class="horizontal_column">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="shadow_left">&nbsp;</td>
+      <td class="main_content_box">
+	      <table width="100%" cellspacing="0" cellpadding="0" class="style5">
+          <tr>
+            <td class="body_content" style="font-size: small; text-align: center;" valign="top">
+		          <p class="style12">
+                <b><span style="font-size: 18pt; font-family: Arial;">Funding</span></b>
+              </p>
+		          <p class="style12">
+                The Heterogeneous Computing project is supported by the Illinois-Intel 
+                Parallelism Center, the National Science Foundation under grant 
+                CCF-1018796, and 
+                a <a href="http://www.qualcomm.com/research/university-relations/innovation-fellowship-2012" target="blank">Qualcomm Innovation Fellowship</a>.
+		          </p>
+		          &nbsp;
+            </td>
+          </tr>
+      </table>
+      </td>
+      <td class="shadow_right">
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td class="shadow_left">&nbsp;</td>
+      <td class="middle_spacer"><div class="bottom_content"></div></td>
+      <td class="shadow_right">&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="shadow_left">&nbsp;</td>
+      <td class="bottom_link_container">
+        <p>
+        </p>
+        <p>
+          <!-- All Right Reserved &copy; 2006 by bprizze<br /> -->
+          <!-- http://heartlessg.4uhost.info Web Master -->
+        </p>
+        <p/>
+      </td>
+      <td class="shadow_right">&nbsp;</td>
+    </tr>
+  </table>
+</body>
+</html>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a67 5
+            <th class="sub_logo_area" style="font-size: 18px">
+              <a class="style9" href="http://rsim.cs.uiuc.edu"><span class="style11"><strong>Joint project between Sarita and Vikram Adve's Research Groups</strong></span></a>
+            </th>
+          </tr>
+          <tr>
+a108 3
+		          <p class="style12"><b>
+		              <span style="font-size: 18pt; font-family: 
+                               Arial;">Funding</span></b> </p>
+d110 7
+a116 2
+                The Heterogeneous Computing project is supported by the 
+		            Intel/Microsoft Universal Parallel Computing Research Center and a <a href="http://www.qualcomm.com/research/university-relations/innovation-fellowship-2012" target="blank">Qualcomm Innovation Fellowship</a>.
+@

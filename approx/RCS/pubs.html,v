@@ -1,0 +1,1075 @@
+head	1.27;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.27
+date	2015.02.02.06.57.36;	author komurav1;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2014.10.30.16.04.39;	author mdsincl2;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2014.10.28.18.32.46;	author mdsincl2;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2014.06.06.20.11.19;	author sadve;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2013.07.13.16.50.24;	author shari2;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2012.08.06.15.50.46;	author shari2;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2012.05.01.20.38.33;	author shari2;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2012.04.30.15.34.16;	author shari2;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2012.04.24.19.21.35;	author shari2;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2012.01.30.02.34.42;	author shari2;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2011.12.15.21.54.18;	author shari2;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2011.10.27.20.04.46;	author shari2;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2011.08.01.19.49.45;	author shari2;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2010.12.20.00.46.11;	author shari2;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2010.03.02.17.38.40;	author shari2;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2010.03.01.20.34.59;	author shari2;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2010.02.28.19.59.39;	author shari2;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2010.02.02.20.47.39;	author shari2;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2010.01.21.16.05.12;	author shari2;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2009.09.15.05.30.22;	author shari2;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2009.05.11.19.29.03;	author sadve;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2009.03.04.18.45.50;	author manlapli;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2008.12.30.16.11.54;	author manlapli;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2008.12.22.17.04.23;	author manlapli;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2008.03.31.16.30.27;	author manlapli;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2008.02.25.20.39.16;	author pramach2;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2008.02.25.16.22.19;	author pramach2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.27
+log
+@*** empty log message ***
+@
+text
+@<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>SWAT: Publications</title>
+<link href="style/style1.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.style4 {
+	font-size: medium;
+}
+.projects {
+	font-size: medium;
+}
+.style5 {
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right: 1px solid #C0C0C0;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom: 1px solid #C0C0C0;
+}
+ol {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	position: absolute;
+	display: none;
+
+}
+td.projects:hover ol, td.projects.over ol {
+	display: block;
+}
+.style9 {
+	text-decoration: none;
+}
+a.style9:hover{
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+}
+.style10 {
+	color: #CCCCCC;
+}
+.style11 {
+	color: #FFFFFF;
+}
+.style12 {
+	text-align: left;
+}
+</style>
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="header_column">
+	<table width="100%" border="0" cellspacing="10" cellpadding="0">
+      <tr>
+        <td class="logo_area" style="font-size: x-large; height: 48px;">
+          <a class="style9" href="index.html"><span class="style11"><strong>SWAT: Designing Reliable Hardware</strong></span></a></td>
+        <th class="logo_area" rowspan="3">
+          <img alt="SWAT logo" height="99" src="images/new_logo.jpg" width="150" />
+        </th>
+        <!-- <td width="300"> -->
+        <!--   <form id="form1" name="form1" method="post" action=""> -->
+		<!--   	Search the website <br /> -->
+        <!--     <input name="search_text" type="text" id="search_text" /> -->
+        <!--     <input type="submit" name="Submit" value="Search" /> -->
+        <!--   </form> -->
+        <!-- </td> -->
+      </tr>
+      <tr>
+        <th class="sub_logo_area" style="font-size: 18px">
+           <a class="style9" href="http://rsim.cs.uiuc.edu"><span class="style11"><strong>Sarita Adve's Research Group</strong></span></a>
+          </th>
+          
+      </tr>
+      <tr>
+        <th class="sub_logo_area">
+          <a class="style9" href="http://illinois.edu"><span class="style10">University of Illinois at Urbana-Champaign</span></a></th>
+      </tr>
+    </table></td>
+    <td class="shadow_right">&nbsp;</td>
+  </tr>
+  <tr>
+	  <td class="horizontal_column">&nbsp;</td>
+    <td >
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="linkcontainer">
+        <tr>
+          <td class="projects">
+          <div class="navigation" style="font-size: medium"> <a href="index.html" class="main_link">
+				  Home</a></div>
+
+	  </td>
+          <!-- <td><div class="navigation"><a href="#" class="main_link">DeNovo Home</a></div></td> -->
+          <td class="style4"><div class="navigation" style="font-size: medium"><a class="main_link" href="people.html">
+			  People</a></div></td>
+          <td><div class="navigation" style="font-size: medium"><a href="pubs.html" class="main_link">
+			  Publications</a></div></td>
+          <td><div class="navigation" style="font-size: medium">
+			  <a href="funding.html" class="main_link" style="width: 100%">
+			  Funding</a></div></td>
+          <td><div class="navigation" style="font-size: medium"><a href="http://rsim.cs.uiuc.edu/news.html" class="main_link">News</a></div></td>
+      </tr>
+      </table>
+
+    </td>
+    <td class="horizontal_column">&nbsp;</td>
+  </tr>
+<!--   <tr> -->
+<!--     <td class="shadow_left">&nbsp;</td> -->
+<!--     <td class="below_header"> -->
+<!-- A large part of the complexity and inefficiency in current hardware concurrency mechanisms arguably arises from a software-oblivious approach to hardware design. The DeNovo project seeks to rethink concurrent hardware from the ground up, given the assumption that most future software will use disciplined concurrency models for better dependability. -->
+<!--     </td> -->
+<!--     <td class="shadow_right">&nbsp;</td> -->
+<!--   </tr> -->
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="main_content_box">
+	<table width="100%" cellspacing="0" cellpadding="0" class="style5">
+      <tr>
+        <td class="body_content" style="font-size: small; text-align: center;" valign="top">
+		<p></p>
+		<p class="style12"><b>
+		<span style="font-size: 18pt; font-family: Arial;">Publications</span></b></p>
+		<ul>
+      <li class="style12" style="">
+        <a href="http://dl.acm.org/citation.cfm?id=2656342&CFID=592643488&CFTOKEN=38058500">
+          Hardware Fault Recovery for I/O Intensive Applications</a>,
+        Pradeep Ramachandran, Siva Kumar Sastry Hari, Manlap Li, Sarita V. Adve,
+        in <i>ACM Transactions on Architecture and Code Optimization (TACO)</i>, 
+        October 2014.
+        <br /> <br />
+      </li>
+			<li class="style12" style="">
+			<a href="http://rsim.cs.illinois.edu/Pubs/14-ISCA-Hari.pdf">
+			GangES: Gang Error Simulation for Hardware Resiliency Evaluation</a>, 
+			S. Hari, R. Venkatagiri, S. V. Adve, and H. Naeimi, 
+			<i>Proceedings of the International Symposium on Computer Architecture (ISCA)</i>, June 2014. 
+			<br /><br />
+			</li>
+
+                <li class="style12" style="">
+                  <a href="http://rsim.cs.illinois.edu/Pubs/76372.pdf">
+                    Addressing Failures in Exascale Computing</a>,
+                  M. Snir, R. W. Wisniewski, J. A. Abraham, S. V. Adve, S. Bagchi, P. Balaji, J. Belak, P. Bose, F. Cappello, B. Carlson, A. A. Chien, P. Coteus, N. A. Debardeleben, P. Diniz, C. Engelmann, M. Erez, S. Fazzari, A. Geist, R. Gupta, F. Johnson, S. Krishnamoorthy, S. Leyffer, D. Liberty, S. Mitra, T. Munson, R. Schreiber, J. Stearley, E. V. Hensbergen.  
+                  <i>International Journal of High Performance Computing
+                  Applications,</i>
+                  vol. 28, issue 2, May 2014, pp 129-173, first published
+                  online on March 21, 2014. (Preliminary version available
+                  as an ANL technical report.) 
+                  <br /> <br />
+                </li>
+
+	                <li class="style12">
+			<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6487478">Relyzer: Application Resiliency Analyzer for Transient Faults</a>, 
+	                  Siva kumar Sastry Hari, Sarita V. Adve, Helia Naeimi, and Pradeep Ramachandran, in <i>IEEE 
+	                  Micro, special issue on the Top Picks from the 2012 Computer Architecture 
+	                  Conferences</i>, vol. 33, issue 3, May - June 2013. (One of eleven papers chosen.)
+	                  <br /><br />
+	                </li>
+
+			<li class="style12" style="">
+			<a href="http://rsim.cs.illinois.edu/Pubs/12-DSN-Hari.pdf">
+			Low-cost Program-level Detectors for Reducing Silent Data Corruptions</a>, 
+			Siva Kumar Sastry Hari, Sarita V. Adve, Helia Naeimi, 
+			<i>Proceedings of the IEEE/IFIP International
+Conference on Dependable Systems and Networks (DSN)</i>, June 2012. 
+			<br /><br />
+			</li>
+
+			<li class="style12" style="">
+			<a href="http://rsim.cs.illinois.edu/~shari2/pubs/12-DATE-Pellegrini.pdf"> CrashTest'ing SWAT: Accurate, Gate-Level Evaluation of Symptom-Based Resiliency Solutions</a>,
+			A. Pellegrini, R. Smolinski, X. Fu, L. Chen, S. K. S.  Hari, J.
+			Jiang, S. V. Adve, T. Austin, V. Bertacco, <i>Proceedings of
+			the Design, Automation and Test in Europe
+				(DATE) </i>, March 2012. 
+			<br /><br />
+			</li>
+			<li class="style12" style="">
+			<a href="http://rsim.cs.illinois.edu/Pubs/12-ASPLOS-Hari.pdf"> Relyzer: Exploiting Application-Level Fault Equivalence 
+			to Analyze Application Resiliency to Transient Faults</a>, 
+			Siva Kumar Sastry Hari, Sarita V. Adve, Helia Naeimi, and Pradeep Ramachandran, 
+			to appear in the
+			<i style="">Proceedings of Architectural Support for Programming Languages and 
+			Operating Systems (ASPLOS), </i> March 2012. 
+			<br /><br />
+			</li>
+			<li class="style12" style="">
+			<a href="http://rsim.cs.uiuc.edu/Pubs/11SELSE-Ramachandran.pdf">Understanding When Symptom Detectors Work by Studying Data-Only Application Values</a>, 
+			Pradeep Ramachandran, Siva Kumar Sastry Hari, Sarita Adve, and Helia Naeimi,
+			in the
+			<i style="">Proceedings of IEEE Workshop on Silicon Errors in Logic - System Effects (SELSE), 
+			</i> March 2011. 
+			<br /><br />
+			</li>
+			<li class="style12" style="">
+			<a href="http://rsim.cs.uiuc.edu/Pubs/11SELSE-Hari.pdf">Relyzer: Application Resiliency Analyzer for Transient Faults</a>, 
+			Siva Kumar Sastry Hari, Helia Naeimi, Pradeep Ramachandran, and Sarita Adve, 
+			in the
+			<i style="">Proceedings of IEEE Workshop on Silicon Errors in Logic - System Effects (SELSE), 
+			</i> March 2011. 
+			<br /><br />
+			<li class="style12" style="">
+			<a href="http://rsim.cs.illinois.edu/Pubs/11-SELSE-Pellegrini.pdf"> CrashTest'ing SWAT: Accurate, Gate-Level Evaluation of Symptom-Based Resiliency Solutions</a>,
+			A. Pellegrini, R. Smolinski, X. Fu, L. Chen, S. K. S.  Hari, J.
+			Jiang, S. V. Adve, T. Austin, V. Bertacco, in the
+			<i>Proceedings of IEEE Workshop on Silicon Errors in Logic - System Effects
+			(SELSE)</i>, March 2011. 
+			<br /><br />
+			</li>
+			<li class="style12" style="">
+			<a href="http://rsim.cs.uiuc.edu/Pubs/11DATE.pdf">Architectures for 
+			Online Error Detection and Recovery in Multicore Processors</a>, 
+			Dimitris Gizopoulos, Mihalis Psarakis, Sarita V. Adve,
+			Pradeep Ramachandran, Siva Kumar Sastry Hari, Daniel Sorin, 
+			Albert Meixner, Arijit Biswas, and Xavier Vera, 
+			to appear in the
+			<i style="">Proceedings of the Design, Automation and Test in Europe (DATE), 
+			</i> March 2011. 
+			<br /><br />
+			</li>
+			<li class="style12" style="">
+			<a href="http://rsim.cs.uiuc.edu/Pubs/09-MICRO-Hari.pdf">mSWAT: 
+			Low-Cost Hardware Fault Detection and Diagnosis for Multicore 
+			Systems</a>, Siva Kumar Sastry Hari, Man-Lap Li, Pradeep 
+			Ramachandran, Byn Choi, and Sarita V. Adve, to appear in the
+			<i style="">Proceedings of the 42nd International Symposium on 
+			Microarchitecture (MICRO),</i> December 2009. (<a href="http://rsim.cs.uiuc.edu/Talks/10-MICRO-mSWAT.pptx">ppt</a>)
+			<br /><br />
+			</li>
+			<li class="style12" style="">
+			<a href="http://rsim.cs.uiuc.edu/Pubs/09HPCA-Li.pdf">Accurate 
+			Microarchitecture-Level Fault Modeling for Studying Hardware Faults</a>, 
+			Man-Lap Li, Pradeep Ramachandran, Ulya R. Karpuzcu, Siva Kumar 
+			Sastry Hari, and Sarita V. Adve, <i style="">Proceedings of the 15th 
+			International Symposium on High-Performance Computer Architecture 
+			(HPCA),</i> February 2009. <br /><br />
+			</li>
+			<li class="style12" style="">
+			<a href="http://rsim.cs.uiuc.edu/Pubs/08DSN-Li.pdf">Trace-Based 
+			Microarchitecture-Level Diagnosis of Permanent Hardware Faults</a>, 
+			Man-Lap Li, Pradeep Ramchandran, Swarup Kumar Sahoo, Sarita Adve, 
+			Vikram Adve, and Yuanyuan Zhou, <i style="">Proceedings of the 
+			International Conference on Dependable Systems and Networks (DSN),</i> 
+			June 2008. <br /><br />
+			</li>
+			<li class="style12" style="">
+			<a href="http://rsim.cs.uiuc.edu/Pubs/08DSN-Sahoo.pdf">Using Likely 
+			Program Invariants for Hardware Reliability</a>, Swarup Kumar Sahoo, 
+			Man-Lap Li, Pradeep Ramchandran, Sarita Adve, Vikram Adve, and 
+			Yuanyuan Zhou, <i style="">Proceedings of the International 
+			Conference on Dependable Systems and Networks (DSN),</i> June 2008.
+			<br /><br />
+			</li>
+			<li class="style12">
+			<a href="http://rsim.cs.uiuc.edu/Pubs/08SELSE-Li.pdf">SWAT: An Error 
+			Resilient System</a> , Man-Lap Li, Pradeep Ramchandran, Sarita Adve, 
+			Vikram Adve, and Yuanyuan Zhou <i>, to appear in the Fourth Workshop 
+			on Silicon Errors in Logic - System Effects (SELSE - IV)</i>, March 
+			2008. <br /><br />
+			</li>
+			<li class="style12">
+			<a href="http://rsim.cs.uiuc.edu/Pubs/08ASPLOS.pdf">Understanding 
+			the Propagation of Hard Errors to Software and Implications for 
+			Resilient System Design</a>, Man-Lap Li, Pradeep Ramchandran, Swarup 
+			Kumar Sahoo, Sarita Adve, Vikram Adve, and Yuanyuan Zhou <i>, 
+			Proceedings of International Conference on Architectural Support for 
+			Programming Languages and Operating Systems (ASPLOS), March 2008 </i>
+			.<br /><br />
+			</li>
+			<li class="style12">
+			<a href="http://rsim.cs.uiuc.edu/Pubs/Li-selse07.pdf">Towards a 
+			Hardware-Software Co-designed Resilient System</a>, Man-Lap Li, 
+			Pradeep Ramchandran, Sarita Adve, Vikram Adve and Yuanyuan Zhou <i>, 
+			Third Workshop on Silicon Errors in Logic - System Effects (SELSE - 
+			III)</i>, April 2007. <br /><br />
+			</li>
+		</ul>
+		<p class="style12"><b>
+		<span style="font-size: 18pt; font-family: Arial;">Talks</span></b></p>
+		<ul>
+                  <li class="style12" style="margin-bottom: 12pt;">
+                    <a href="http://rsim.cs.uiuc.edu/Talks/15-pradeep-hipeac.pptx">
+                    Hardware Fault Recovery for I/O Intensive Applications</a>, High Performance and Embedded Architecture and Compilation, January 2015.
+                  </li>
+			<li class="style12" style="margin-bottom: 12pt;"> 
+			<a href="http://rsim.cs.uiuc.edu/~shari2/talks/12-dsn.pptx">Low-cost Program-level
+			Detectors for Reducing Silent Data Corruptions</a> by Siva Hari at DSN, 2012 </li>
+
+			<li class="style12" style="margin-bottom: 12pt;"> 
+			<a href="http://rsim.cs.uiuc.edu/~shari2/talks/12-asplos-relyzer.pptx">Relyzer:
+			Exploiting Application-Level Fault Equivalence to Analyze Application
+			Resiliency to Transient Faults</a> by Siva Hari at ASPLOS, 2012 </li>
+
+			<li class="style12" style="margin-bottom: 12pt;">
+			<a href="http://rsim.cs.uiuc.edu/Talks/10-MI-swat.pptx">SWAT: Designing Resilient Hardware 
+			by Treating Software Anomalies</a>, an invited talk by Sarita Adve 
+			at University of Michigan, Feb 2010</li>
+
+			<li class="style12" style="margin-bottom: 12pt;">
+			<a href="http://rsim.cs.uiuc.edu/Talks/10-MICRO-mSWAT.pptx">mSWAT: Low-Cost Hardware Fault 
+			Detection and Diagnosis for Multicore Systems</a>, at the 42nd 
+			International Symposium on Microarchitecture (MICRO), Dec 2009</li>
+			
+			<li class="style12" style="margin-bottom: 12pt;">
+			<a href="http://rsim.cs.uiuc.edu/Talks/09-GSRC-sarita-swat-sep.pptx">Application-Aware 
+			SoftWare AnomalyTreatment (SWAT) of Hardware Faults</a> by Sarita Adve at the
+			GSRC Annual Symposium, Sep 2009</li>
+			
+			<li class="style12" style="margin-bottom: 12pt;">
+			<a href="http://rsim.cs.uiuc.edu/Talks/09-pradeep-swat-intel.pptx">SWAT: Designing Resilient 
+			Hardware by Treating Software Anomalies</a>, by Pradep Ramachandran at Intel, 
+			Oct 2009</li>
+			
+			<li class="style12" style="margin-bottom: 12pt;">
+			<a href="http://rsim.cs.uiuc.edu/Talks/09-MSWAT-GSRC-EWorkshop.ppt">MSWAT: Hardware Fault Detection 
+			and Diagnosis for Multicore Systems</a>, by Siva Hari at the 
+			GSRC E-Workshop, July 2009</li>
+
+			<li class="style12" style="margin-bottom: 12pt;">
+			<a href="http://rsim.cs.uiuc.edu/Talks/08-sahoo-DSN-invariant.ppt">Using Likely Program Invariants 
+			to Detect Hardware Errors</a>, by Swarup Sahoo at DSN, 2008</li>
+
+			<li class="style12" style="margin-bottom: 12pt;">
+			<a href="http://rsim.cs.uiuc.edu/Talks/08-pradeep-SWAT-GSRC.ppt">SWAT: Designing Resilient Hardware 
+			by Treating Software Anomalies</a>, by Pradeep Ramachandran at the 
+			GSRC Annual Symposium, Sep 2008</li>
+			
+			<li class="style12" style="margin-bottom: 12pt;">
+			<a href="http://rsim.cs.uiuc.edu/Talks/07-li-selse.ppt">Towards a Hardware-Software
+			Co-Designed Resilient System</a>, by Alex Li at SELSE, 2007</li>
+
+		</ul>
+		<p class="style12">&nbsp;</p>
+		<p class="style12"><b>
+		<span style="font-size: 18pt; font-family: Arial;">Posters</span></b></p>
+		<ul>
+			<li class="style12">
+			<div class="style12">
+				<a href="http://rsim.cs.uiuc.edu/Posters/MSWAT-poster-GSRC-09.pdf">
+				MSWAT: Low-Cost Hardware Fault Detection and Diagnosis for 
+				Multicore Systems</a>, Siva Kumar Sastry Hari, Man-Lap Li, 
+				Pradeep Ramachandran, Byn Choi, and Sarita Adve, in the <i>
+				Giga-Scale Research Center (GSRC) Annual Symposium</i>, 2009<br />
+&nbsp;</div>
+			</li>
+			<li class="style12">
+			<div class="style12">
+				<a href="http://rsim.cs.uiuc.edu/Posters/SWAT-poster-GSRC-09.pdf">
+				Application Aware SoftWare Anomaly Treatment</a>, Pradeep 
+				Ramachandran, Siva Kumar Sastry Hari, Man-Lap Li, Sarita Adve, 
+				and Shobha Vasudevan, in the <i>Giga-Scale Research Center 
+				(GSRC) Annual Symposium</i>, 2009<br />
+&nbsp;</div>
+			</li>
+			<li class="style12">
+			<div class="style12">
+				<a href="http://rsim.cs.uiuc.edu/Posters/SWAT-poster-GSRC-08.pdf">
+				SWAT: Hardware Reliability through Software Anomaly Treatment</a>, 
+				Man-Lap Li, Pradeep Ramachandran, Swarup Sahoo, Siva Kumar 
+				Sastry Hari, Sarita Adve, Vikram Adve, and Yuanyuan Zhou, in the
+				<i>Giga-Scale Research Center (GSRC) Annual Symposium</i>, 2008<br />
+&nbsp;</div>
+			</li>
+			<li class="style12">
+			<a href="http://rsim.cs.uiuc.edu/Posters/SWATSim-poster-GSRC-08.pdf">
+			SWAT-Sim: Accurate Microarchitecture-level Fault Models</a>, Man-Lap 
+			Li, Pradeep Ramachandran, Rahmet Ulya Karpuzcu, Siva Kumar Sastry 
+			Hari, and Sarita Adve, in the <i>Giga-Scale Research Center (GSRC) 
+			Annual Symposium</i>, 2008<br /><br /> </li>
+		</ul>
+
+
+		<p class="style12"><b>
+		<span style="font-size: 18pt; font-family: Arial;">Ph.D. Theses</span></b></p>
+		<ul>
+
+			<li class="style12" style="margin-bottom: 12pt;">
+			<a href="http://rsim.cs.uiuc.edu/Pubs/pradeep-ramachandran-thesis.pdf"> 
+			Detecting and Recovering from In-core Hardware Faults through Software 
+			Anomaly Treatment</a>, 
+			Pradeep Ramachandran, 2011. &nbsp; </li>
+			<li class="style12" style="margin-bottom: 12pt;">
+			<a href="http://rsim.cs.uiuc.edu/Pubs/alex-li-thesis.pdf">SWAT: 
+			Designing Resilient Hardware by Treating Software Anomalies</a>, 
+			Man-Lap (Alex) Li, 2009. &nbsp; </li>
+
+		</ul>
+
+		  </td>
+      </tr>
+    </table></td>
+    <td class="shadow_right">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="middle_spacer"><div class="bottom_content"></div></td>
+    <td class="shadow_right">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="shadow_left">&nbsp;</td>
+    <td class="bottom_link_container">
+      <p>
+      </p>
+      <p>
+        <!-- All Right Reserved &copy; 2006 by bprizze<br /> -->
+        <!-- http://heartlessg.4uhost.info Web Master -->
+      </p>
+      <p/>
+    </td>
+    <td class="shadow_right">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
+@
+
+
+1.26
+log
+@Fixed link for Pradeep's TACO paper.
+@
+text
+@d283 4
+@
+
+
+1.25
+log
+@Updated Publications for SWAT to include Pradeep's TACO 2014 paper + updated People to include Adbulrahman and move Siva and Swarup to Alumni section (plus added links for Siva and Swarup's thesii.
+@
+text
+@d128 1
+a128 1
+        <a href="http://dl.acm.org/citation.cfm?id=2658949">
+@
+
+
+1.24
+log
+@*** empty log message ***
+@
+text
+@d127 8
+@
+
+
+1.23
+log
+@*** empty log message ***
+@
+text
+@d127 20
+d159 1
+a159 1
+			in the <i>Proceedings of the IEEE/IFIP International
+d167 1
+a167 1
+			Jiang, S. V. Adve, T. Austin, V. Bertacco, in the <i>Proceedings of
+@
+
+
+1.22
+log
+@*** empty log message ***
+@
+text
+@d127 8
+d139 1
+a139 1
+			to apprear in the <i>Proceedings of the IEEE/IFIP International
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d247 9
+d278 1
+a278 1
+			and Diagnosis for Multicore Systems</a>, by Siva Kumar Sastry Hari at the 
+@
+
+
+1.20
+log
+@*** empty log message ***
+@
+text
+@d140 1
+a140 1
+			the the Design, Automation and Test in Europe
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d128 2
+a129 1
+			Low-cost Program-level Detectors for Reducing Silent Data Corruptions, 
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@d128 8
+d138 1
+a138 1
+			Jiang, S. V. Adve, T. Austin, V. Bertacco, to appear in the <i>Proceedings of
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d136 3
+a138 3
+			Relyzer: Exploiting Application-Level Fault Equivalence 
+			to Analyze Application Resiliency to Transient Faults, 
+			Siva Kumar Sastry Hari et al. 
+@
+
+
+1.16
+log
+@updated selse11 and asplos12 papers
+@
+text
+@d128 8
+d160 8
+@
+
+
+1.15
+log
+@*** empty log message ***
+@
+text
+@d128 24
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d275 18
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d128 11
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d196 2
+a197 1
+<li class="style12" style="margin-bottom: 12pt;">
+d199 2
+a200 3
+SoftWare AnomalyTreatment (SWAT)
+of Hardware Faults</a>, at the GSRC Annual Symposium, 
+			Sep 2009</li>
+d211 1
+d215 1
+d223 1
+a223 1
+			Co-Designed Resilient System</a>, by Alex Li SELSE, 2007</li>
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@a275 1
+        <a href="http://rsim.cs.uiuc.edu/swat" class="bottom_link">Old Website</a>
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d1 288
+a288 176
+
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>SWAT Publications</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+span.MsoHyperlink
+	{color:#333366;
+	text-decoration:underline;
+	text-underline:single;}
+span.SpellE
+	{}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#333366" link="#333366" vlink="#993300" alink="#CC6600">
+<table width="800" border="0" cellpadding="5" cellspacing="0" height="909">
+  <tr align="left" valign="bottom"> 
+    <td colspan="3" width="800" height="75"> <p>
+    <img src="swat.gif" width="800" height="75"></p></td>
+  </tr>
+  <tr align="left" valign="top"> 
+    <td width="138" bordercolor="#e7ebf0" bgcolor="#e7ebf0" rowspan="2" height="834"> <p><font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><b><br>
+        &nbsp;</b></font></p>
+    <p><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif"><b>
+    <a href="http://rsim.cs.uiuc.edu">Group Home</a></b></font></p>
+<p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+    <a href="http://rsim.cs.uiuc.edu/swat">SWAT Home</a></font></b></p>
+    <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+    <a href="./people.html">People</a></font></b><font color="#333366" face="Geneva, Arial, 
+Helvetica, sans-serif"><b> </b></font></p>
+      <p><b><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="./pubs.html">Publications</a></font></b></p>
+      <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+      <a href="./funding.html">Funding</a></font></b><br>
+        <font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><br>
+        <br>
+        </font></p>
+      </td>
+    <td width="6" height="309">&nbsp;</td>
+    <td width="674" height="834" rowspan="2"> 
+
+
+  <p>
+
+  <p><b><span style='font-size:18.0pt;font-family:Arial'>SWAT Publications</span></b></p>
+
+ <UL>
+
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l2 level1 lfo3;tab-stops:list .5in'>
+       <a href="http://rsim.cs.uiuc.edu/Pubs/09-MICRO-Hari.pdf">mSWAT: Low-Cost Hardware Fault Detection and Diagnosis for Multicore Systems</a>, Siva Kumar Sastry Hari, Man-Lap Li,
+        Pradeep Ramachandran, Byn Choi, and Sarita V. Adve,
+        to appear in the <i
+       style='mso-bidi-font-style:normal'>Proceedings of the 42nd International Symposium on Microarchitecture (MICRO),</i> December 2009. (<a href="http://rsim.cs.uiuc.edu/ppt/mSWAT.pptx">ppt</a>)<br
+       clear=all>
+       <br clear=all style='mso-special-character:line-break'>
+   </li>
+
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l2 level1 lfo3;tab-stops:list .5in'>
+       <a href="http://rsim.cs.uiuc.edu/Pubs/09HPCA-Li.pdf">Accurate Microarchitecture-Level Fault Modeling for Studying Hardware Faults</a>, Man-Lap Li,
+        Pradeep Ramachandran, Ulya R. Karpuzcu, Siva Kumar Sastry Hari, and Sarita V. Adve,
+        <i
+       style='mso-bidi-font-style:normal'>Proceedings of the 15th International Symposium on High-Performance Computer Architecture (HPCA),</i> February 2009. <br
+       clear=all>
+       <br clear=all style='mso-special-character:line-break'>
+   </li>
+<li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:^M
+       auto;mso-list:l2 level1 lfo3;tab-stops:list .5in'>
+       <a href="http://rsim.cs.uiuc.edu/Pubs/08DSN-Li.pdf">Trace-Based Microarchitecture-Level Diagnosis of Permanent Hardware Faults</a>, Man-Lap Li,
+       Pradeep Ramchandran, Swarup Kumar Sahoo, Sarita Adve, Vikram Adve, and
+       Yuanyuan Zhou, <i
+       style='mso-bidi-font-style:normal'>Proceedings of the International
+       Conference on Dependable Systems and Networks (DSN),</i> June 2008. <br><br>
+   </li>
+
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:^M
+       auto;mso-list:l2 level1 lfo3;tab-stops:list .5in'>
+       <a href="http://rsim.cs.uiuc.edu/Pubs/08DSN-Sahoo.pdf">Using Likely Program Invariants for Hardware Reliability</a>,
+       Swarup Kumar Sahoo, Man-Lap Li,
+       Pradeep Ramchandran,  Sarita Adve, Vikram Adve, and
+       Yuanyuan Zhou, <i
+       style='mso-bidi-font-style:normal'>Proceedings of the International
+       Conference on Dependable Systems and Networks (DSN),</i> June 2008. <br><br>
+   </li>
+
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:^M
+       auto;text-align:justify;mso-list:l2 level1 lfo3;tab-stops:list .5in'>
+       <a href="http://rsim.cs.uiuc.edu/Pubs/08SELSE-Li.pdf">SWAT: An Error Resilient System</a> , Man-Lap Li, Pradeep
+       Ramchandran, Sarita Adve, Vikram Adve, and Yuanyuan Zhou <i>, to appear
+       in the Fourth Workshop on Silicon Errors in Logic - System Effects 
+       (SELSE - IV)</i>, March 2008. <br><br>
+   </li>
+
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:^M
+       auto;text-align:justify;mso-list:l2 level1 lfo3;tab-stops:list .5in'>
+       <a href="http://rsim.cs.uiuc.edu/Pubs/08ASPLOS.pdf">Understanding the Propagation of Hard Errors to
+       Software and Implications for Resilient System Design</a>, Man-Lap Li,
+       Pradeep Ramchandran, Swarup Kumar Sahoo, Sarita Adve, Vikram Adve, and
+       Yuanyuan Zhou <i>, Proceedings of International Conference on
+       Architectural Support for Programming Languages and Operating Systems
+       (ASPLOS), March 2008 </i>.<br><br>
+    </li>
+
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;text-align:justify;mso-list:l2 level1 lfo3;tab-stops:list .5in'>
+	<a href="http://rsim.cs.uiuc.edu/Pubs/Li-selse07.pdf">Towards a
+       Hardware-Software Co-designed Resilient System</a>, Man-Lap Li, Pradeep
+       Ramchandran, Sarita Adve, Vikram Adve and Yuanyuan Zhou <i>, Third Workshop
+       on Silicon Errors in Logic - System Effects (SELSE - III)</i>, April
+       2007. <br><br>
+    </li>
+	
+
+ </UL>
+
+
+  <p><b><span style='font-size:18.0pt;font-family:Arial'>SWAT Posters</span></b></p>
+
+ <UL>
+<LI> <a href="http://rsim.cs.uiuc.edu/Posters/MSWAT-poster-GSRC-09.pdf"> MSWAT: Low-Cost Hardware Fault Detection and
+Diagnosis for Multicore Systems</a>, Siva Kumar Sastry Hari, Man-Lap Li, Pradeep Ramachandran,
+Byn Choi, and Sarita Adve, in the <I>Giga-Scale Research Center (GSRC)
+Annual Symposium</I>,  2009
+
+<P>
+</LI>
+<LI><a href="http://rsim.cs.uiuc.edu/Posters/SWAT-poster-GSRC-09.pdf">Application Aware SoftWare Anomaly
+Treatment</a>, Pradeep Ramachandran, Siva Kumar Sastry Hari, Man-Lap Li,
+Sarita Adve, and Shobha Vasudevan,  in the <I>Giga-Scale Research Center (GSRC) Annual Symposium</I>,
+2009
+
+<P>
+</LI>
+<LI><a href="http://rsim.cs.uiuc.edu/Posters/SWAT-poster-GSRC-08.pdf">SWAT: Hardware
+Reliability through Software Anomaly Treatment</a>, Man-Lap Li, Pradeep Ramachandran, Swarup Sahoo, Siva Kumar
+Sastry Hari, Sarita Adve, Vikram Adve, and Yuanyuan Zhou, in the <I>Giga-Scale
+Research Center (GSRC) Annual Symposium</I>, 2008
+
+<P>
+</LI>
+<LI><a href="http://rsim.cs.uiuc.edu/Posters/SWATSim-poster-GSRC-08.pdf">SWAT-Sim: Accurate
+Microarchitecture-level Fault Models</a>, Man-Lap Li, Pradeep Ramachandran, Rahmet Ulya Karpuzcu, Siva
+Kumar Sastry Hari, and Sarita Adve,  in the <I>Giga-Scale Research Center
+(GSRC) Annual Symposium</I>, 2008 
+
+</UL>
+
+<!--
+  <p><b><span style='font-size:18.0pt;font-family:Arial'>SWAT Posters</span></b></p>
+
+ <UL>
+	
+
+ </UL>
+-->
+
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='color:windowtext'>&nbsp;<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d125 41
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d62 1
+a62 1
+       style='mso-bidi-font-style:normal'>Proceedings of the 42nd International Symposium on Microarchitecture (MICRO),</i> December 2009. <br
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d59 10
+d71 1
+a71 1
+        to appear in the <i
+d80 1
+a80 1
+       Yuanyuan Zhou, to appear in the <i
+d90 1
+a90 1
+       Yuanyuan Zhou, to appear in the <i
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d30 1
+a30 1
+    <td width="137" bordercolor="#e7ebf0" bgcolor="#e7ebf0" rowspan="2" height="834"> <p><font color="#333366" size="2" face="Geneva, Arial, Helvetica, sans-serif"><b><br>
+d47 1
+a47 1
+    <td width="7" height="309">&nbsp;</td>
+d59 1
+a59 2
+       <a href=../Pubs/09HPCA-Li.pdf>
+       Accurate Microarchitecture-Level Fault Modeling for Studying Hardware Faults</a>, Man-Lap Li,
+d68 1
+a68 2
+       <a href=../Pubs/08DSN-Li.pdf>
+       Trace-Based Microarchitecture-Level Diagnosis of Permanent Hardware Faults</a>, Man-Lap Li,
+d77 1
+a77 2
+       <a href=../Pubs/08DSN-Sahoo.pdf>
+       Using Likely Program Invariants for Hardware Reliability</a>,
+d87 1
+a87 2
+       <a href=../Pubs/08SELSE-Li.pdf>
+       SWAT: An Error Resilient System</a> , Man-Lap Li, Pradeep
+d95 1
+a95 1
+       <a href="../Pubs/08ASPLOS.pdf">Understanding the Propagation of Hard Errors to
+d104 2
+a105 2
+       auto;text-align:justify;mso-list:l2 level1 lfo3;tab-stops:list .5in'><a
+       href="http://rsim.cs.uiuc.edu/Pubs/Li-selse07.pdf">Towards a
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d32 3
+a34 1
+    <p><b><font face="Geneva, Arial, Helvetica, sans-serif">
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d61 1
+a61 2
+       style='mso-bidi-font-style:normal'>Proceedings of the 15th International Symposium on High-Performanc
+e Computer Architecture (HPCA),</i> February 2009. <br
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d55 12
+a66 1
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:^M
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d57 2
+a58 1
+       Trace-Based Diagnosis of Permanent Hardware Faults, Man-Lap Li,
+d67 2
+a68 1
+       Using Likely Program Invariants for Hardware Reliability,
+d78 2
+a79 1
+       SWAT: An Error Resilient System, Man-Lap Li, Pradeep
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a31 2
+    <p><font color="#333366" face="Geneva, Arial, Helvetica, sans-serif"><b>
+    <a href="http://rsim.cs.uiuc.edu">Group Home</a></b></font></p>
+@

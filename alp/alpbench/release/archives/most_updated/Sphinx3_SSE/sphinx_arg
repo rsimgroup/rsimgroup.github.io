@@ -1,0 +1,1 @@
+./model/lm/an4/an4.ctl ./model/lm/an4 ./model/lm/an4/args.an4_nosl > & an4.log

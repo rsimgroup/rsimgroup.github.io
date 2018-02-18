@@ -1,0 +1,460 @@
+<html>
+<head> 
+<title> Siva Kumar Sastry Hari </title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26751203-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<style type="text/css" media="screen">
+@import "general.css"; /* Mostly just text styling. */
+
+body {
+	margin:20px 0px; padding:0px; /* Need to set body margin and padding to get consistency between browsers. */
+	text-align:center; /* Hack for IE5/Win */
+	}
+	
+#Content {
+	width:800px;
+	margin:0px auto; /* Right and left margin widths set to "auto" */
+	text-align:left; /* Counteract to IE5/Win Hack */
+	padding:15px;
+	border:1px dashed #333;
+	background-color:#eee;
+	}
+</style>
+
+</head>
+<body>
+<div id="Content"> 
+
+<a name="top" />
+<br>
+
+<table>
+<tr>
+	<td> <img src=images/siva_small.jpg height=250 width=255> </td>
+	<td width="10%"> </td>
+	<td> <font size="4"> <b>Siva Kumar Sastry Hari</b> </font> <br> <br>
+		Department of Computer Science<br>
+		University of Illinois at Urbana-Champaign  <br>
+		<i>E-mail:</i> shari2 [at] illinois [dot] edu </td>
+</tr>
+<table>
+<br>
+
+<p>
+I am a doctoral candidate at the <a href="http://www.cs.uiuc.edu">Computer
+Science Department</a> at <a href="http://www.illinois.edu">University of
+Illinois at Urbana-Champaign</a> (expecting to graduate in Summer 2013).  My
+interests lie in the fields of computer architecture, reliability-aware
+systems, and power-aware architectures.
+My current research is on developing low-cost architecture-level solutions to
+make future error-prone processors reliable.  I participate in the <a
+href="http://rsim.cs.uiuc.edu/swat">SWAT</a> project directed by my advisor <a
+href="http://rsim.cs.uiuc.edu/~sadve">Prof. Sarita V. Adve</a>.  This project
+focuses on developing low-cost, flexible, and practical error detection,
+diagnosis, and recovery solutions. 
+</p>
+
+
+<p>
+I received my Master's degree from the Computer Science Department at UIUC and 
+Bachelor's degree from the <a href=http://www.cse.iitm.ac.in>Computer Science
+and Engineering Department</a> at <a href=http://www.iitm.ac.in>IIT Madras</a>.
+I have 18 months of industry experience through internships at Intel
+Labs (CA), Sun Microsystems (CA), and Design and Test Solutions Group at Intel
+(India). I am a recipient of the <a
+href="http://cs.illinois.edu/graduate/awards#deptfellow">W.J. Poppelbaum
+Memorial Award</a> by the Computer Science Department at University of Illinois
+at Urbana-Champaign in 2012 for academic merit and creativity in computer
+hardware or architecture. I also won the Margarida Jacome Best Poster
+Award in 2012, two posters were selected for this award from 56 showcased
+projects from 15 universities at the GSRC Annual Symposium.  
+My <a href="http://dl.acm.org/authorize?6607790">Relyzer paper</a>, originally
+published in ASPLOS 2012, was recently selected for the <a
+href="http://illinois.edu/lb/article/4485/70499">IEEE
+Micro's Top Picks 2013</a>, only 11 papers were chosen from top computer
+architecture papers in 2012. Here's my <a href="siva_hari.pdf">CV</a>.
+</p>
+<!--https://sites.google.com/site/ieeemicro/call-for-papers/top-picks-2013-->
+
+<br><br>
+
+<!-- My research interests include computer architecture, compilers, and
+parallel architectures. I am also interested in fault-tolerant hardware
+design.
+
+<br><br>
+-->
+
+<!-- Here's my resume: <a href="siva_hari.pdf">pdf</a> (updated on 20 Jan 2011) <br>
+My current research statement: <a href="research_statement.pdf">pdf</a> (updated on 25 Feb 2010) <br> -->
+<!-- Here's the list of my publications: <a href="pubs.html">pubs</a> -->
+
+<hr>
+<table border=0 width="100%"> <tr>
+<td align="center" width="25%"> <h4> <a href="#pubs"> Publications </a> </h4> </td>
+<td align="center" width="25%"> <h4> <a href="#posters"> Posters  </a> </h4> </td>
+<td align="center" width="25%"> <h4> <a href="#talks">Talks </a> </h4> </td>
+<td align="center" width="25%"> <h4> <a href="#theses">Theses </a> </h4> </td>
+</tr> </table>
+<hr>
+
+<a name="pubs" />
+<table border=0 width="100%"> <tr>
+<td  align="left"> <h2> Publications:</h2> </td>
+<td align="right"> <a href="#top">Top</a> </td>
+</tr> </table>
+
+<ol>
+<!-- <h3> 2012</h3> -->
+	<li>
+	<a href="http://dx.doi.org/10.1109/MM.2013.30">
+        Relyzer: Application Resiliency Analyzer for Transient Faults</a> <br> 
+	<b>S. K. S. Hari</b>, S. V. Adve, H. Naeimi, and P. Ramachandran <br> 
+	<i>IEEE  Micro</i>, special issue on the Top Picks from the 2012 Computer Architecture Conferences</i>, May - June 2013. (Only eleven papers were selected from published papers from top computer architecture conferences in 2012)
+                  <br />
+                </li>
+
+	<li>
+	 <a href="http://rsim.cs.illinois.edu/Pubs/12-DSN-Hari.pdf">
+	Low-cost Program-level Detectors for Reducing Silent Data Corruptions</a> <br>
+		<b>S. K. S. Hari</b>, S. V. Adve, and H. Naeimi <br>
+<i> <b>DSN'12</b> Proceedings of the IEEE/IFIP International
+Conference on Dependable Systems and Networks</i>, 2012 (acceptance rate: 17.3%)
+                <br />
+		<br />
+	</li>
+
+	<li>
+<!--
+ <a
+href="http://rsim.cs.illinois.edu/Pubs/12-ASPLOS-Hari.pdf">
+Relyzer: Exploiting
+Application-Level Fault Equivalence to Analyze Application Resiliency to
+Transient Faults</a> <br>
+		<b>S. K. S. Hari</b>, S. V. Adve, H. Naeimi, and P. Ramachandran <br>
+<i>Proceedings of the ACM International
+Conference on Architectural Support for Programming Languages and Operating
+Systems (<b>ASPLOS'12</b>)</i>, 2012 (acceptance rate: 21.5%)
+                <br />
+-->
+
+<a href="http://dl.acm.org/authorize?6607790" title="Relyzer: exploiting application-level fault equivalence to analyze application resiliency to transient faults">Relyzer: Exploiting Application-level Fault Equivalence to Analyze Application Resiliency to Transient Faults</a>
+<br>
+<b>S. K. S. Hari</b>, S. V. Adve, H. Naeimi, and P. Ramachandran 
+<br>
+<i> <b>ASPLOS '12</b> Proceedings of the seventeenth international conference on Architectural Support for Programming Languages and Operating Systems</i>, 2012 (acceptance rate: 21.5%)
+
+<div class="acmdlstat" id ="stats2150990"><iframe src="http://dl.acm.org/authorizestats?6607790" width="100%" height="30" scrolling="no" frameborder="0">frames are not supported</iframe></div>
+
+<!--<b>Selected for the <a
+href="https://sites.google.com/site/ieeemicro/call-for-papers/top-picks-2013">IEEE
+Micro's Top Picks 2013</a></b> (Only 11 papers were selected from 78 published papers from top computer architecture conferences in 2012. Acceptance rate: 14.1%)
+		<br />
+-->
+		<br />
+	</li>
+	<li>
+		 <a
+href="http://rsim.cs.illinois.edu/~shari2/pubs/12-DATE-Pellegrini.pdf">CrashTest'ing
+SWAT: Accurate, Gate-Level Evaluation of Symptom-Based Resiliency
+Solutions</a> <br>
+A. Pellegrini, R. Smolinski, L. Chen, X. Fu, <b>S. K. S.
+Hari</b>, J. Jiang, S. V. Adve, T. Austin, V. Bertacco <br>
+<i> <b>DATE'12</b> Proceedings of the Design, Automation
+and Test in Europe</i>, 2012
+		<br />
+		<br />
+	</li>
+
+
+<!-- <h3> 2011</h3> -->
+	<li>
+<a href="http://rsim.cs.uiuc.edu/Pubs/11SELSE-Hari.pdf">Relyzer: Application
+Resiliency Analyzer for Transient Faults</a> <br>
+		<b>S. K. S. Hari</b>, H. Naeimi, P. Ramachandran, S. V. Adve <br>
+<i><b>SELSE'11</b>  Proceedings of the
+IEEE Workshop of Silicon Errors in Logic - System Effects </i>, 2011
+		<br />
+		<br />
+	</li>
+	<li>
+<a href="http://rsim.cs.uiuc.edu/Pubs/11SELSE-Ramachandran.pdf">Understanding
+When Symptom Detectors Work by Studying Data-Only Application Values</a> <br> 
+		P. Ramachandran, <b>S. K. S. Hari</b>, S. V. Adve, H. Naeimi <br>
+<i><b>SELSE'11</b> Proceedings of the IEEE Workshop of Silicon Errors in Logic - System
+Effects</i>, 2011.
+		<br />
+		<br />
+	</li>
+	<li>
+<a
+href="http://rsim.cs.illinois.edu/~shari2/pubs/11-SELSE-Pellegrini.pdf">CrashTest'ing SWAT:
+Accurate, Gate-Level Evaluation of Symptom-Based Resiliency Solutions</a> <br>
+		A. Pellegrini, R. Smolinski, X. Fu, L. Chen, <b>S. K. S.
+Hari</b>, J. Jiang, S. V. Adve, T. Austin, V. Bertacco <br>
+<i><b>SELSE'11</b> Proceedings of the IEEE Workshop of Silicon Errors in Logic - System Effects</i>, 2011
+		<br />
+		<br />
+	</li>
+	<li>
+<a
+href="http://rsim.cs.uiuc.edu/Pubs/11DATE.pdf"> Architectures for Online Error
+Detection and Recovery in Multicore Processors</a>
+		D. Gizopoulos, M. Psarakis, S. V. Adve, P. Ramachandran, <b>S.
+K. S.  Hari</b>, D. Sorin, A. Meixner, A. Biswas, X. Vera <br>
+<i> <b>DATE'11</b> Proceedings of
+the Design, Automation and Test in Europe</i>, 2011 (acceptance rate: ~25%)
+		<br />
+		<br />
+	</li>
+
+<!-- <h3> 2009</h3> -->
+
+	<li>
+<!--
+<a href="http://rsim.cs.uiuc.edu/Pubs/09-MICRO-Hari.pdf"> mSWAT: Low-Cost
+Hardware Fault Detection and Diagnosis for Multicore Systems</a> <br>
+		<b>S. K. S. Hari</b>, M. Li, P. Ramachandran, B. Choi, S. V. Adve <br>
+<i>Proceedings of the IEEE/ACM International Symposium on
+Microarchitecture (<b>MICRO'09</b>)</i>, 2009 (acceptance rate: 24.9%)
+		<br />
+-->
+
+<a href="http://dl.acm.org/authorize?100183" title="mSWAT: low-cost hardware fault detection and diagnosis for multicore systems">mSWAT: Low-Cost Hardware Fault Detection and Diagnosis for Multicore Systems</a>
+<br> <b>S. K. S. Hari</b>, M. Li, P. Ramachandran, B. Choi, S. V. Adve <br>
+<i><b>MICRO'09</b> Proceedings of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture, 2009 </i> (acceptance rate: 24.9%)
+
+<div class="acmdlstat" id ="stats1669129"><iframe src="http://dl.acm.org/authorizestats?100183" width="100%" height="30" scrolling="no" frameborder="0">frames are not supported</iframe></div>
+		<br />
+	</li>
+	<li>
+<a href="http://rsim.cs.illinois.edu/Pubs/09HPCA-Li.pdf"> Accurate
+Microarchitecture-level Fault modeling for Studing Wear-out Faults</a> <br>
+		M. Li, P. Ramachandran, U. Karpuzcu, <b>S. K. S. Hari</b>, S. V. Adve <br>
+<i> <b>HPCA'09</b> Proceeding of the International Conference on High-Performance Computer
+Architecture</i>, 2009 (acceptance rate: 19%)
+		<br />
+		<br />
+	</li>
+
+<!-- <h3> Before 2009</h3> -->
+
+	<li>
+<a
+href="http://rsim.cs.illinois.edu/~shari2/pubs/08TVLSI-Hari.pdf"> Automatic
+Constraint Based Test Generation for Behavioral HDL Models</a> <br>
+		<b>S. K. S. Hari</b>, V. V. Konda, V. Kamakoti, V. Vedula, K.
+S. Maneperambil <br>
+<i><b>TVLSI'08</b> IEEE
+Transactions on VLSI Systems in the special section on Design
+Verification and Validation: Theory and Techniques</i>, 2008
+		<br />
+		<br />
+	</li>
+	<li>
+<a
+href="http://rsim.cs.illinois.edu/~shari2/pubs/07VTS-Najeeb.pdf"> Power Virus
+Generation Using Behavioural Models of Circuits</a> <br>
+	 K. Najeeb, V. V. Konda, <b>S. K. S. Hari</b>, V. Kamakoti, V.
+Vedula<br>
+<i> <b>VTS'07</b> Proceedings of
+the 25th IEEE VLSI Test Symposium </i>, 2007 (acceptance rate: ~35%)
+		<br />
+		<br />
+	</li>
+	<li>
+<a
+href="http://rsim.cs.illinois.edu/~shari2/pubs/06VDAT-Noor.pdf"> Constructing
+Online Testable Circuits using Reversible Logic</a> <br>
+		N. Mahammad, <b>S. K. S. Hari</b>, S. Shroff, V. Kamakoti <br>
+<i> <b>VDAT'06</b> Proceedings of
+10th IEEE VLSI Design and Test Symposium</i>, 2006
+		<br />
+		<br />
+	</li>
+	<li>
+<a
+href="http://rsim.cs.illinois.edu/~shari2/pubs/06-MWSCAS-Hari.pdf"> Efficient
+Building Blocks for Reversible Sequential Circuit Design</a>  <br>
+		<b>S. K. S. Hari</b>, S. Shroff, N. Mahammad, V. Kamakoti <br>
+<i><b>MWSCAS'06</b>  IEEE
+International Midwest Symposium on Circuits and Systems </i>, 2006 
+		<br />
+		<br />
+	</li>
+</ol>
+
+<hr>
+<a name="posters" />
+<table border=0 width="100%"> <tr>
+<td  align="left"> <h2> Poster Presentations:</h2> </td>
+<td align="right"> <a href="#top">Top</a> </td>
+</tr> </table>
+
+<ol>
+	<li>
+<a href="http://rsim.cs.illinois.edu/~shari2/pubs/12-GSRC-SDC-analysis.pdf">Look Ma, No SDCs!</a> <br>
+		<b>S. K. S. Hari</b>, R. Venkatagiri, S. Adve, and H. Naeimi <br>
+<i> Giga-Scale Research Center (GSRC) Annual
+Symposium</i>,  2012 <br>
+[<b>Margarida Jacome GSRC Best Poster Award</b>, awarded to two posters among
+50+ showcased projects from 10+ Universities] <br />
+		<br />
+	</ li>
+
+	<li>
+<a
+href="http://rsim.cs.illinois.edu/~shari2/pubs/11-GSRC-Relyzer-poster.pdf">Relyzer:
+Application Resiliency Analyzer for Transients Faults</a> <br>
+		<b>S. K. S. Hari</b>, S. V. Adve, H. Naeimi, and P. Ramachandran <br>
+<i> Giga-Scale
+Research Center (GSRC) Annual Symposium</i>,  2011 
+		<br />
+		<br />
+	</li>
+	<li>
+<a
+href="http://rsim.cs.illinois.edu/~shari2/pubs/10-GSRC-SWAT-poster.pdf"> SWAT:
+The Whole Enchilada for In-Core Fault Resiliency</a> <br> 
+		P. Ramachandran, <b>S. K. S. Hari</b>, M. Li, S. K. Sahoo, R.
+Smolinski, X. Fu, L. Chen, S. V. Adve <br>
+<i>Giga-Scale Research Center (GSRC) Annual Symposium</i>,  2010
+		<br />
+		<br />
+	</li>
+	<li>
+ <a
+href="http://rsim.cs.illinois.edu/~shari2/pubs/mSWAT-poster-GradExpo-2010.pdf">
+mSWAT: Low-Cost Hardware Fault Detection and Diagnosis for Multicores</a> <br> 
+		<b>S. K. S. Hari</b>, M. Li, P. Ramachandran, B. Choi, S. V.
+Adve <br> 
+<i>Spring CS Grad Expo</i>, UIUC, 2010 
+<br> I also presented a slightly different version of
+this poster at the <i>Gigascale Research Center (GSRC)
+Annual Symposium</i>, 2009 (<a
+href="http://rsim.cs.illinois.edu/~shari2/pubs/09-GSRC-MSWAT-poster.pdf">pdf</a>)
+		<br />
+		<br />
+	</li>
+	<li>
+<a href="http://rsim.cs.illinois.edu/~shari2/pubs/09-GSRC-SWAT-poster.pdf"> Application Aware SoftWare Anomaly Treatment</a> <br>
+		P. Ramachandran, <b>S. K. S. Hari</b>, M. Li, S. V. Adve, S. Vasudevan <br>
+<i>Giga-Scale Research Center (GSRC) Annual Symposium </i>, 2009
+		<br />
+		<br />
+	</li>
+	<li>
+<a
+href="http://rsim.cs.illinois.edu/~shari2/pubs/08-GSRC-SWAT-poster.pdf"> SWAT:
+Hardware Reliability through Software Anomaly Treatment</a> <br>
+		M. Li, P. Ramachandran, S. K. Sahoo, <b>S. K. S. Hari</b>, S.
+V.  Adve, V. Adve, Y. Y. Zhou <br>
+<i>Giga-Scale Research Center (GSRC) Annual Symposium</i>, 2008
+		<br />
+		<br />
+	</li>
+	<li>
+<a
+href="http://rsim.cs.illinois.edu/~shari2/pubs/08-GSRC-SWATSim-poster.pdf">
+SWAT-Sim: Accurate Microarchitecture-level Fault Models</a> <br>
+		M. Li, P. Ramachandran, U. Karpuzcu, <b>S. K. S. Hari</b>, S.
+V. Adve <br>
+<i>Giga-Scale Research Center (GSRC) Annual Symposium</i>, 2008
+		<br />
+		<br />
+	</li>
+	<li>
+<a
+href="http://rsim.cs.illinois.edu/~shari2/pubs/07DATE-Hari-poster.jpg">
+Automatic Constraint Based Test Generation for Behavioral HDL Models</a> <br> 
+		<b>S. K. S. Hari</b>, V. V. Konda, V. Kamakoti, V. Vedula, K.
+S. Maneperambil <br>
+University Booth at <i>Design, Automation and Test in Europe (DATE)</i>, 2007
+		<br />
+		<br />
+	</li>
+
+</ol>
+
+<hr>
+<a name="talks" />
+<table border=0 width="100%"> <tr>
+<td  align="left"> <h2> Talks:</h2> </td>
+<td align="right"> <a href="#top">Top</a> </td>
+</tr> </table>
+
+<ol>
+<li> <a href="talks/12-sc.pptx">Analyzing and Reducing Silent Data Corruptions caused by Soft-Errors</a>, at
+the Doctoral Showcase program at the International Conference for High Performance
+Computing, Networking, Storage, and Analysis (SC), Nov 2012, Salt Lake City, UT
+(Acceptance rate: 25.5%) <br /> <br /> </li>
+
+<li> <a href="talks/12-dsn.pptx">Low-cost Program-level Detectors for Reducing Silent Data Corruptions</a>
+at the <i>IEEE/IFIP International
+Conference on Dependable Systems and Networks (DSN)</i>, June 2012, Boston, MA (<a href="talks/12-dsn.pdf">pdf</a>)<br /> <br /> </li>
+
+
+<li> <a href="talks/12-asplos-relyzer.pptx">Relyzer: Exploiting Application-Level Fault Equivalence to
+Analyze Application Resiliency to Transient Faults</a> at the <i>ACM International
+Conference on Architectureal Support for Programming Languages and Operating
+Systems (ASPLOS)</i>, March 2012, London, UK (<a href="talks/12-asplos-relyzer.pdf">pdf</a>)<br /> <br /> </li>
+
+<li><a href="talks/Relyzer-SELSE11.pdf">Relyzer: Application Resiliency
+Analyzer for Transient Faults</a> at the <i>IEEE Workshop on Silicon Errors in
+Logic - System Effects (SELSE)</i>, March 2011, Champaign, IL <br /> <br /> </li>
+
+<li> Relyzer: Application Resiliency Analyzer for Transient Faults at the
+<i>MDG ArchFest at Intel Corporation</i>, Jan 2011, Portland, OR  <br />  <br /> </li>
+
+<li><a href="talks/mSWAT.pdf">mSWAT: Low-Cost Hardware Fault Detection and
+Diagnosis for Multicore Systems </a> at the <i>42<sup>nd</sup> International
+Symposium of Microarchitecture (MICRO)</i>, Dec 2009, New York, NY <br />  <br /> </li>
+
+<li> <a href="talks/gsrc-nov-09.pdf">Software Managed Resiliency</a> 
+<!-- on behalf of Prof. Sarita Adve --> 
+at the <i>Gigascale Systems Research Center (GSRC) Kickoff
+meeting</i>, Nov 2009, Princeton, NJ <br /> <br />  </li>
+
+<li><a href="talks/MSWAT-e-seminar-09.pdf">MSWAT: Hardware Fault Detection and
+Diagnosis for Multicore Systems</a> at the <i>Resilient Theme Summer Workshop
+of Gigascale Systems Research Center (GSRC)</i>, July 2009, Urbana, IL <br /> <br /> </li>
+
+</ol>
+
+<hr>
+<a name="theses" />
+<table border=0 width="100%"> <tr>
+<td  align="left"> <h2> Theses:</h2> </td>
+<td align="right"> <a href="#top">Top</a> </td>
+</tr> </table>
+
+<ul>
+<li><B>M. S. Thesis: </B><a href="pubs/hari.ms.thesis.pdf"> Low-Cost
+Hardware Fault Detection and Diagnosis for Multicore Systems running
+Multithreaded Workloads</a>,  2009
+		<br />
+		<br />
+</li>
+
+<li><B>B. Tech. Thesis: </B> <a href="pubs/hari.btech.thesis.pdf">Automatic
+Constraint Based Test Generation for Behavioral HDL Models</a>,  2007
+		<br />
+		<br />
+</li>
+</ul>
+
+</div> 
+</body>
+</html>

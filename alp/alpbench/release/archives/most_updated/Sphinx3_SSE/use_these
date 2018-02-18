@@ -1,0 +1,5 @@
+sphinx_base_nosl a9::r1
+sphinx_sse_nosl a10::r1
+sphinx_sse_nosl a11::r17
+sphinx_nosse a12::r17
+sphinx_sse a13::r1

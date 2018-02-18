@@ -1,0 +1,578 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2003.03.28.22.52.39;	author sadve;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.03.28.18.26.18;	author sadve;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="3peac_research_files/filelist.xml">
+<link rel=Edit-Time-Data href="3peac_research_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>3PEAC Research</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Jayanth Srinivasan</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Sarita V. Adve</o:LastAuthor>
+  <o:Revision>38</o:Revision>
+  <o:TotalTime>73</o:TotalTime>
+  <o:Created>2003-03-20T21:10:00Z</o:Created>
+  <o:LastSaved>2003-03-28T22:02:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1112</o:Words>
+  <o:Characters>6339</o:Characters>
+  <o:Company>Dept. of Computer Science, University of Illinois</o:Company>
+  <o:Lines>52</o:Lines>
+  <o:Paragraphs>14</o:Paragraphs>
+  <o:CharactersWithSpaces>7437</o:CharactersWithSpaces>
+  <o:Version>10.3501</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:DoNotShowRevisions/>
+  <w:DoNotPrintRevisions/>
+  <w:DoNotShowMarkup/>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @@font-face
+	{font-family:Geneva;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-alt:Arial;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:536871559 0 0 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:#333366;}
+h1
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman";
+	color:windowtext;
+	font-weight:bold;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:#333366;}
+a:link, span.MsoHyperlink
+	{color:#333366;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#993300;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:#333366;}
+tt
+	{font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:"Courier New";
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+@@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="3074"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white lang=EN-US link="#333366" vlink="#993300" style='tab-interval:
+.5in' alink="#CC6600">
+
+<div class=Section1>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="91%"
+ style='width:91.58%;mso-cellspacing:0in;mso-padding-alt:0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0;height:6.85pt'>
+  <td width="100%" colspan=2 valign=bottom style='width:100.0%;padding:0in 0in 0in 0in;
+  height:6.85pt'>
+  <p><img width=800 height=75 id="_x0000_i1025" src=3peac.gif></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:44.95pt'>
+  <td width="20%" valign=top style='width:20.16%;background:#E7EBF0;padding:
+  0in 0in 0in 0in;height:44.95pt'>
+  <p><b><span style='font-size:10.0pt;font-family:Geneva'><br>
+  </span></b><b><span style='font-family:Arial'><a
+  href="http://rsim.cs.uiuc.edu/3peac">3PEAC Home</a></span></b></p>
+  <p>&nbsp;</p>
+  <p><b><span style='font-family:Arial'><a href="3peac_people.html">People</a></span></b></p>
+  <p><b><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+  <p><b><span style='font-family:Arial'>Results</span></b></p>
+  <p>&nbsp;</p>
+  <p><b><span style='font-family:Arial'><a href="3peac_pubs.html">Papers</a></span></b></p>
+  <p>&nbsp;</p>
+  <p><b><span style='font-family:Arial'><a href="3peac_funding.html">Funding</a><o:p></o:p></span></b></p>
+  <p>&nbsp;</p>
+  <p><b><span style='font-family:Arial'><a href="3peac_links.html">Links</a></span></b></p>
+  </td>
+  <td width="79%" valign=top style='width:79.84%;background:#F5F8FB;padding:
+  0in 0in 0in 0in;height:44.95pt'>
+  <p><b><span style='font-size:18.0pt;font-family:Arial'>3-PEAC Research
+  Results and Ongoing Work<o:p></o:p></span></b></p>
+  <p class=MsoBodyText><b><a href="#exec_pred">Execution time predictability</a><o:p></o:p></b></p>
+  <p class=MsoBodyText><b><a href="#hard_adapt">Hardware adaptation to save
+  energy</a><o:p></o:p></b></p>
+  <p class=MsoBodyText><b><a href="#thermal">Hardware adaptation for
+  temperature control</a><o:p></o:p></b></p>
+  <p class=MsoBodyText><b><a href="#rtos">Real-time scheduling for simultaneous
+  multithreaded (SMT) processors</a><o:p></o:p></b></p>
+  <p class=MsoBodyText><b><a href="#smtcmp">Energy consumption of SMT vs. CMP</a><o:p></o:p></b></p>
+  <p class=MsoBodyText><b><a href="#app_analysis">Analysis of media
+  applications on current general-purpose processors</a><o:p></o:p></b></p>
+  <p class=MsoBodyText><b><a href="#caches">Reconfigurable caches</a><o:p></o:p></b></p>
+  <p class=MsoBodyText><b><a href="#network">Architectures for network
+  workloads</a><o:p></o:p></b></p>
+  <p class=MsoBodyText><b><a href="fix">Cross-layer adaptation</a><o:p></o:p></b></p>
+  <p class=MsoBodyText><b><o:p>&nbsp;</o:p></b></p>
+  <p><a name="exec_pred"><b>Execution time predictability</b></a><a
+  name="_Reconfigurable_caches"></a></p>
+  <p style='margin-left:.5in;text-align:justify'>One commonly cited shortcoming
+  of general-purpose processors is that their complex features (e.g.,
+  out-of-order issue) result in unpredictable execution times, making them
+  unsuitable for real-time multimedia applications. Our <a
+  href="http://www.cs.uiuc.edu/~sadve/Publications/isca01.ps">ISCA'01</a> paper
+  tests this conjecture by examining execution time variability at the frame
+  granularity for several multimedia applications. We find that while there is
+  often some variability, it is mostly caused by the application algorithm and
+  input. <i>In contrast to conventional wisdom, aggressive architectural
+  features induce little additional variability and unpredictability.</i>&nbsp;</p>
+  <p><a name="hard_adapt"><b>Hardware adaptation to save energy</b></a></p>
+  <p style='margin-left:.5in;text-align:justify'>Two sources of
+  energy-inefficiency in modern processors are: (1) computational slack, where
+  the system runs faster than necessary for the application's real-time
+  constraint, and (2) variable resource utility, where often resources stay
+  active, consuming energy, but contributing little to performance.<span
+  style='mso-spacerun:yes'>  </span>Recently, researchers have proposed two
+  forms of hardware adaptation to improve energy efficiency: architecture
+  adaptation and dynamic voltage/frequency scaling (DVS).<span
+  style='mso-spacerun:yes'>  </span>A key to the effective use of these
+  adaptations is the control algorithm that determines when and what to
+  adapt.<span style='mso-spacerun:yes'>  </span><i style='mso-bidi-font-style:
+  normal'>We have proposed the first (to our knowledge) adaptation control
+  algorithms that integrate both architecture adaptation and DVS and address
+  both sources of energy inefficiency (computational slack and variable
+  resource utility), targeted towards multimedia applications.<span
+  style='mso-spacerun:yes'>  </span></i>Our results show that the proposed
+  algorithms are effective at reducing energy consumption in a variety of
+  scenarios, architecture adaptation is effective with and without DVS, and
+  addressing both sources of energy inefficiency gives significant gains.<span
+  style='mso-spacerun:yes'>  </span>Overall, an integrated design works better
+  than using any technique alone.</p>
+  <p style='margin-left:.5in;text-align:justify'>This work appeared in <a
+  href="http://rsim.cs.uiuc.edu/Pubs/hughes-micro34.pdf">MICRO'01</a> (an
+  adaptation control algorithm that addresses computation slack with integrated
+  DVS and architecture adaptation) and in <a
+  href="http://rsim.cs.uiuc.edu/Pubs/sasanka-asplos10.pdf">ASPLOS'02</a> (an
+  algorithm that integrates the MICRO&#8217;01 algorithm with algorithms to
+  address energy inefficiencies through variable resource utility).</p>
+  <p class=MsoBodyText><b>Hardware adaptation for temperature control<o:p></o:p></b></p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify'>Power
+  management to control chip temperature is becoming an increasingly important
+  area of research for general-purpose processors. In order to save on chip
+  packaging costs, Dynamic Thermal Management (DTM) techniques have been
+  proposed. However, these techniques result in degradation in processor
+  performance when invoked. Exploiting the features of multimedia and
+  networking applications, we are developing techniques for temperature control
+  that have a much lower impact on performance than current techniques. More
+  results coming soon&#8230;</p>
+  <p class=MsoBodyText><b>Real-time scheduling for simultaneous multithreaded (SMT)
+  processors<o:p></o:p></b></p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify;mso-layout-grid-align:
+  none;text-autospace:none'>The scheduling of soft real-time applications such
+  as multimedia applications on SMT processors introduces new challenges that
+  cannot be met by traditional real-time scheduling algorithms.<span
+  style='mso-spacerun:yes'>  </span>In particular, to run these workloads on
+  SMT processors, we must determine 1) which threads to run simultaneously (the
+  co-schedule) and 2) how to share processor resources amongst them, given the
+  real-time constraints of the applications. Our <a
+  href="http://www.cs.uiuc.edu/~sadve/Publications/rtss02.pdf">RTSS&#8217;02</a>
+  paper was the first to explore soft real-time scheduling on an SMT processor.
+  <span style='mso-bidi-font-style:italic'>We examined previous multiprocessor
+  co-scheduling algorithms, including partitioning and global scheduling. We
+  proposed new variations that consider resource sharing and try to utilize SMT
+  more effectively by exploiting application </span>symbiosis<span
+  style='mso-bidi-font-style:italic'>. We found that the best algorithm uses
+  global scheduling, exploits symbiosis, prioritizes high utilization tasks,
+  and uses dynamic resource sharing. This algorithm, however, imposes
+  significant profiling overhead and does not provide admission control. We
+  proposed alternatives to overcome these limitations, but at the cost of
+  schedulability.<o:p></o:p></span></p>
+  <p class=MsoBodyText><b style='mso-bidi-font-weight:normal'>Energy consumption
+  of SMT vs. CMP<o:p></o:p></b></p>
+  <p class=MsoBodyText style='margin-left:.5in'>Results coming soon&#8230;<o:p></o:p></p>
+  <p><a name="app_analysis"><b>Analysis of media applications on current
+  general-purpose processors</b></a></p>
+  <p style='margin-left:.5in;text-align:justify'>Our <a
+  href="http://www.cs.uiuc.edu/~sadve/Publications/isca99.ps">ISCA'99</a> paper
+  was our first step in<i> understanding the performance of multimedia
+  applications on general-purpose processors.</i> The paper finds that several
+  conventional processor techniques that enhance instruction-level parallelism
+  (ILP) and the recent media ISA extensions are generally effective for our
+  media benchmarks. The memory behavior of the benchmarks makes large caches
+  generally ineffective, but software prefetching can often be used to
+  substantially improve memory performance. After the use of software
+  prefetching, our benchmarks become primarily compute (vs. memory) bound,
+  motivating a focus on improving computation speed.</p>
+  <p><a name=caches><b>Reconfigurable caches</b></a></p>
+  <p style='margin-left:.5in;text-align:justify'>While large caches are
+  generally not effective for media applications, a large number of on-chip
+  transistors will continue to be devoted to caches for other general-purpose
+  applications. Our <a
+  href="http://www.cs.uiuc.edu/~sadve/Publications/isca00.ps">ISCA'00</a> paper
+  proposes a new reconfigurable cache organization that allows the cache SRAM
+  arrays to be dynamically divided into partitions that can be used for other
+  processor activities. For media applications, we illustrate the use of such <i>reconfigurable
+  caches for instruction memoization to improve computation speed.</i></p>
+  <p>&nbsp;<a name=network><b>Architectures for network </b></a><b>workloads<o:p></o:p></b></p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify'>Network
+  applications are becoming a major part of computing systems and everyday
+  life. As today's networks getting faster, more processing power is needed for
+  these applications. Currently, there are many specialized network processors
+  that have dedicated instruction sets and functional units for packet
+  processing. There is much diversity in these architectures and it is yet
+  unclear which design is best for network applications. We are exploring the
+  behavior of network applications on general-purpose processors and are researching
+  the special needs of these applications in terms of performance,
+  predictability, and power consumption.</p>
+  <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Cross-layer
+  adaptation<o:p></o:p></b></p>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify'>Our results on
+  cross-layer adaptation are reported on the <a
+  href="http://www.cs.uiuc.edu/grace">GRACE</a> web site.<o:p></o:p></p>
+  <p class=MsoNormal><span style='font-family:Verdana'>&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='color:windowtext'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d9 4
+a12 4
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./3peac_research_files/filelist.xml">
+<link rel=Edit-Time-Data href="./3peac_research_files/editdata.mso">
+d26 3
+a28 3
+  <o:LastAuthor>Jayanth Srinivasan</o:LastAuthor>
+  <o:Revision>4</o:Revision>
+  <o:TotalTime>11</o:TotalTime>
+d30 4
+a33 4
+  <o:LastSaved>2003-03-20T22:45:00Z</o:LastSaved>
+  <o:Pages>3</o:Pages>
+  <o:Words>1038</o:Words>
+  <o:Characters>5921</o:Characters>
+d35 4
+a38 4
+  <o:Lines>49</o:Lines>
+  <o:Paragraphs>11</o:Paragraphs>
+  <o:CharactersWithSpaces>7271</o:CharactersWithSpaces>
+  <o:Version>9.2720</o:Version>
+d40 8
+d52 1
+a52 1
+@@font-face
+d69 1
+a69 1
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+d78 11
+d90 2
+a91 2
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+d108 2
+a109 2
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+d118 2
+a119 1
+	{mso-ascii-font-family:"Courier New";
+d133 18
+a150 2
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027"/>
+d162 5
+a166 4
+<table border=0 cellspacing=0 cellpadding=0 width="91%" style='width:91.5%;
+ mso-cellspacing:0in;mso-padding-alt:0in 0in 0in 0in'>
+ <tr>
+  <td width="100%" colspan=2 valign=bottom style='width:100.0%;padding:0in 0in 0in 0in'>
+d170 1
+a170 1
+ <tr style='height:47.4pt'>
+d172 1
+a172 1
+  0in 0in 0in 0in;height:47.4pt'>
+d175 1
+a175 1
+  href="http://rsim.cs.uiuc.edu/3peac">3PEAC home</a></span></b></p>
+d178 2
+a179 2
+  <p><b><span style='font-family:Arial'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></b></p>
+  <p><b><span style='font-family:Arial'>Research</span></b></p>
+d188 3
+a190 2
+  0in 0in 0in 0in;height:47.4pt'>
+  <p><b><span style='font-size:18.0pt;font-family:Arial'>3-PEAC Research<o:p></o:p></span></b></p>
+d194 5
+a198 8
+  <p class=MsoBodyText><b><a href="#smtcmp">Minimizing the energy consumption
+  of SMTs and CMPs</a><o:p></o:p></b></p>
+  <p class=MsoBodyText><b><a href="#thermal">Thermal power control in general
+  purpose processors</a><o:p></o:p></b></p>
+  <p class=MsoBodyText><b><a href="#network">Efficient architectures for
+  network applications</a><o:p></o:p></b></p>
+  <p class=MsoBodyText><b><a href="#rtos">Real time scheduling on multithreaded
+  processors</a><o:p></o:p></b></p>
+d202 4
+a205 1
+  <h1 style='line-height:150%'><span style='font-weight:normal'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></h1>
+a217 1
+  <p><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+d220 6
+a225 5
+  energy-inefficiency in modern processors are: (1) they often run faster than
+  necessary for the application's real-time constraint, and (2) often resources
+  stay active, consuming energy, but contribute little to performance.<span
+  style="mso-spacerun: yes">&nbsp; </span>Recently, researchers have proposed
+  two forms of hardware adaptation to improve energy efficiency: architecture
+d227 1
+a227 1
+  style="mso-spacerun: yes">&nbsp; </span>A key to the effective use of these
+d229 53
+a281 98
+  adapt.<span style="mso-spacerun: yes">&nbsp; </span>We propose adaptation
+  control algorithms that integrate both architecture adaptation and DVS and
+  address both sources of energy inefficiency, targeted towards multimedia
+  applications.<span style="mso-spacerun: yes">&nbsp; </span>Our results show
+  that the proposed algorithms are effective at reducing energy consumption in
+  a variety of scenarios, architecture adaptation is effective with and without
+  DVS, and addressing both sources of energy inefficiency gives significant
+  gains.<span style="mso-spacerun: yes">&nbsp; </span>Overall, an integrated
+  design works better than using any technique alone.</p>
+  <p style='margin-left:.5in;text-align:justify'>Specifically, frame-level
+  execution time variability (seen in our <a
+  href="http://www.cs.uiuc.edu/~sadve/Publications/isca01.ps">ISCA'01</a>
+  paper) motivates frame-level hardware adaptation to save energy. We use our
+  variability analysis from ISCA'01 to develop an adaptation control algorithm.
+  To our knowledge,<i> this is the first integrated algorithm to control both
+  DVS and architecture adaptation targeted for multimedia applications.</i> We
+  have evaluated the control algorithm and analyzed the interaction between the
+  two forms of adaptation in our <a
+  href="http://rsim.cs.uiuc.edu/Pubs/hughes-micro34.pdf">MICRO'01</a> paper.</p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify'>We have also
+  examined hardware adaptation at a finer granularity to save energy. A
+  combined global and local hardware adaptation algorithm for energy control is
+  discussed in our <a href="http://rsim.cs.uiuc.edu/Pubs/sasanka-asplos10.pdf">ASPLOS'02</a>
+  paper.</p>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p><b>Minimizing the en<a name=smtcmp></a>ergy consumption of SMTs and CMPs<o:p></o:p></b></p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify'>Simultaneous
+  Multithreading (SMT) and Chip Multiprocessing (CMP) are two recently adopted
+  techniques for improving the throughput of general-purpose processors by
+  supporting multiple threads on the same processor. These techniques provide
+  new opportunities for real-time multimedia and networking applications that
+  are becoming increasingly important workloads. These applications are well
+  suited to SMT and CMP processors since they are inherently multithreaded and
+  often run concurrently on real systems (e.g., a video encoder and several
+  video decoders for a video conferencing application). Since these
+  applications are often run in energy constrained environments, our first
+  research goal is to identify SMT and CMP architectures that give the best
+  performance subject to given energy and power constraints.<o:p></o:p></p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify'>The next
+  research goal is to identify techniques that could be used to further reduce
+  the energy consumption of SMT and CMP architectures for these applications.
+  We intend to approach this in two ways: (1)by exploiting the characteristics
+  of these applications like their soft real-time nature, execution slack,
+  common computation and memory access patterns and symbiotic relationships,
+  and (2)by exploiting architectural design features like Dynamic Frequency/Voltage
+  Scaling (DVS), architectural adaptation, hybrid CMP and SMT architectures,
+  and processors with heterogeneous cores. By combining these two approaches,
+  we intend to maximize energy efficiency for multi-media and networking
+  applications on future general-purpose SMT and CMP processors.</p>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p><a name=thermal><b>Thermal power control in general purpose processors</b></a><b><o:p></o:p></b></p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify'>Thermal power
+  management is becoming an increasingly important area of research for
+  general-purpose processors. In order to save on chip packaging costs, Dynamic
+  Thermal Management (DTM) techniques have been proposed. However, these techniques
+  result in a degradation in processor performance when invoked. Exploiting the
+  features of multimedia applications, we have proposed a predictive DTM
+  algorithm which we find performs significantly better than existing reactive
+  DTM algorithms for our applications.</p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify'>We are also
+  currently exploring thermal modeling and the effect of thermal power on
+  processor reliability.</p>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p style='margin:0in;margin-bottom:.0001pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p><a name=network><b>Efficient architectures for network applications</b></a><b><o:p></o:p></b></p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify'>Network
+  applications are becoming a major part of computing systems and everyday
+  life. As today's network are getting faster and faster, more and more
+  processing power is needed for network applications. Currently, there are
+  many specialized network processors that have dedicated instruction sets and
+  functional units for packet processing. There is much diversity in these
+  architectures and it is yet unclear which design is best for network
+  applications.</p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify'>We are
+  exploring the behavior of network applications on general-purpose processors
+  and are researching the special needs of these applications in terms of
+  performance, predictability and power consumption.</p>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p><a name=rtos><b>Real time scheduling on multithreaded processors</b></a><b><o:p></o:p></b></p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify'>The scheduling
+  of soft real-time applications like multimedia applications on SMT processors
+  introduces new challenges that cannot be met by traditional real-time
+  scheduling algorithms.<span style="mso-spacerun: yes">&nbsp; </span>In
+  particular, to run these workloads on SMT processors we must determine 1)
+  which threads to run simultaneously (the co-schedule) and 2) how to share processor
+  resources amongst them, given the real-time constraints of the applications.</p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal style='margin-left:.5in;text-align:justify'>We explore
+  several algorithms for co-schedule selection and resource sharing.<span
+  style="mso-spacerun: yes">&nbsp; </span>We also propose and evaluate some
+  variations on those algorithms that try to utilize the SMT more efficiently.</p>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+a294 1
+  <p><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+d296 4
+a299 3
+  <p style='margin-left:.5in;text-align:justify'>While caches are generally not
+  effective for media applications, a large number of on-chip transistors will
+  continue to be devoted to caches for other general-purpose applications. Our <a
+d305 18
+a322 2
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <p class=MsoNormal>&nbsp;</p>
+d328 1
+a328 1
+<p class=MsoNormal><span style='color:windowtext'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+@
