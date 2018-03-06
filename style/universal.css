@@ -1,0 +1,91 @@
+/*li {*/
+    /*margin-left: -15px;*/
+/*}*/
+
+.body_content {
+    font-size: small;
+    text-align: center;
+}
+
+.hetero_title_style {
+    font-size: 18pt;
+    font-family: Arial, sans-serif;
+}
+.hetero_subtitle_style {
+    font-size: 13.5pt
+    font-family: Arial, sans-serif;
+}
+
+.approx_people_style {
+    color: rgb(51, 51, 102);
+    text-decoration: underline;
+}
+
+
+
+
+.style4 {
+    font-size: medium;
+}
+.projects {
+    font-size: medium;
+}
+.style5 {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right: 1px solid #C0C0C0;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom: 1px solid #C0C0C0;
+}
+.style6 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+ol {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    position: absolute;
+    display: none;
+
+}
+.style8 {
+    color: #FFFFFF;
+    text-align: center;
+}
+td.projects:hover ol, td.projects.over ol {
+    display: block;
+}
+.style9 {
+    text-decoration: none;
+}
+a.style9:hover{
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+}
+.style10 {
+    color: #CCCCCC;
+}
+.style11 {
+    color: #FFFFFF;
+}
+.style12 {
+    text-align: left;
+}
+.style13 {
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+}
+.style14 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.style15 {
+    font-size: medium;
+    font-weight: bold;
+}
+.style16 {
+    text-align: left;
+    font-size: large;
