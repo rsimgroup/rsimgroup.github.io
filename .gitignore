@@ -13,3 +13,4 @@
 ./grace/protected/lex.yy.c
 ./distribution/index.html
 ./rsim/
+*.DS_Store
