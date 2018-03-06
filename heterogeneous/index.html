@@ -23,7 +23,7 @@
 			<table cellpadding="0" cellspacing="0" class="style5" width="100%">
 				<tbody>
 					<tr>
-						<td class="body_content" style="font-size: small; text-align: left;" valign="top">
+						<td class="body_content" valign="top">
 							<div class="style13">&nbsp;</div>
 						<p align="justify"><span class="style12">In nearly all compute domains, architectures are increasingly relying on parallelism and hardware specialization to exceed the limits of single core performance. GPUs, FPGAs, and other specialized accelerators are being incorporated into systems ranging from mobile devices to supercomputers to data centers, offering new challenges and opportunities to both hardware and software designers.<br />
 						<br />
@@ -36,9 +36,9 @@
 						<p align="center"></p>
 						<span class="style12"> </span>
 
-						<p align="justify"><strong><span class="hetero_index_span">Recent results</span></strong></p>
+						<p align="justify"><strong>Recent results</strong></p>
 
-						<p align="justify"><span class="hetero_index_span">Our recent work has questioned conventional wisdom in industry </span><span class="hetero_index_span">on </span><span class="hetero_index_span">coherence protocols</span><span class="hetero_index_span">&nbsp;and consistency models </span><span class="hetero_index_span">for heterogeneous systems. Industry </span><span class="hetero_index_span">efforts to improve efficiency for emerging heterogeneous </span><span class="hetero_index_span">workloads (especially for GPUs) have tended to add complexity to the programming model through the use of non-coherent scratchpads, scoped synchronization, and relaxed atomics. Each of these methods trades efficiency for reduced programmability and limited usability.</span></p>
+						<p align="justify">Our recent work has questioned conventional wisdom in industry on coherence protocols and consistency models for heterogeneous systems. Industry efforts to improve efficiency for emerging heterogeneous workloads (especially for GPUs) have tended to add complexity to the programming model through the use of non-coherent scratchpads, scoped synchronization, and relaxed atomics. Each of these methods trades efficiency for reduced programmability and limited usability.</p>
 
 						<p align="justify"><br />
 						<span class="style12">Building on our past work on the DeNovo project and the data-race-free memory model, we have&nbsp;shown that it is possible to achieve high GPU cache efficiency without burdening the programmer with added complexity. The coherent stash architecture offers the efficiency benefits of a directly addressed scratchpad while also offering the programmability and global addressability of a coherent cache (ISCA 2015). We have proposed and evaluated the use of the DeNovo coherence protocol for GPU caches (MICRO 2015), and found that high cache reuse is possible in the presence of frequent synchronization without relying on scoped synchronization. Finally, we have defined DRF-Relaxed (ISCA 2017), which formalizes safe use cases of atomic relaxation and offers simple SC-centric semantics for programs which use them. Our work has&nbsp;been recognized as honorable mentions for IEEE Micro Top Picks, the Kuck PhD thesis award, keynote and other invited talks, and has led to multiple industry collaborations.</span><br />
