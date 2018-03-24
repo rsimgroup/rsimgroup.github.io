@@ -13,7 +13,5 @@
 ./grace/protected/lex.yy.c
 ./distribution/index.html
 ./rsim/
-*.DS_Store
-.idea/workspace.xml
-.DS_Store
-.DS_Store
+./idea/
+**/.DS_Store
