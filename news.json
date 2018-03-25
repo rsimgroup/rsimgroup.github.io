@@ -1,0 +1,136 @@
+{
+  "News": {
+    
+    "Item1": {
+      "Contents": "Our paper titled &quot;HPVM: Heterogeneous Parallel Virtual Machine&quot; has been accepted for publication at PPoPP 2018!",
+      "Keyword_Link": {
+        "PPoPP": "https://conf.researchr.org/home/ppopp-2018"
+      },
+      "Time": {}
+    },
+    
+    "Item2": {
+      "Contents": "Matt received the 2018 David J. Kuck Outstanding Ph.D. Thesis Award!",
+      "Keyword_Link": {
+        "David J. Kuck Outstanding Ph.D. Thesis Award": "https://cs.illinois.edu/about-us/awards/graduate-fellowships-awards/david-j-kuck-outstanding-thesis-awards"
+      },
+      "Time": {}
+    },
+    
+    "Item3": {
+      "Contents": "Sarita was invited to join DARPA&#39;s Information Science and Technology Study Group (ISAT) for a three year appointment!",
+      "Keyword_Link": {
+        "Information Science and Technology Study Group (ISAT)": "https://cs.illinois.edu/news/sarita-adve-joins-darpa-group-keeps-eye-out-technological-surprises-opportunities"
+      },
+      "Time": {}
+    },
+    
+    "Item4": {
+      "Contents": "Our paper titled &quot;HeteroSync: A Benchmark Suite for Fine-Grained Synchronization on Tightly Coupled GPUs&quot; has been accepted for publication at IISWC 2017!",
+      "Keyword_Link": {
+        "IISWC 2017": "http://www.iiswc.org/iiswc2017/index.html"
+      },
+      "Time": {}
+    },
+    
+    "Item5": {
+      "Contents": "Sarita and Matt invited to the Dagstuhl Seminar on New Challenges in Parallelism",
+      "Keyword_Link": {
+        "Dagstuhl Seminar on New Challenges in Parallelism": "http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=17451"
+      },
+      "Time": "November 2017"
+    },
+    
+    "Item6": {
+      "Contents": "Matt presented at ISCA!",
+      "Keyword_Link": {
+        "ISCA": "http://isca17.ece.utoronto.ca/doku.php"
+      },
+      "Time": "June 2017"
+    },
+    
+    "Item7": {
+      "Contents": "Congratulations to Lin Cheng for depositing his M.S. thesis!",
+      "Keyword_Link": {},
+      "Time": "April 2017"
+    },
+    
+    "Item8": {
+      "Contents": "Gio passed the PhD qualifying exam!",
+      "Keyword_Link": {},
+      "Time": "April 2017"
+    },
+    
+    "Item9": {
+      "Contents": "Matt was invited to The 50 Years of ACM Turing Award Celebration!",
+      "Keyword_Link": {
+        "The 50 Years of ACM Turing Award Celebration": "http://www.acm.org/turing-award-50/conference"
+      },
+      "Time": {}
+    },
+    
+    "Item10": {
+      "Contents": "Abdulrahman presented at WAX!",
+      "Keyword_Link": {
+        "WAX": "http://approximate.computer/wax2017/"
+      },
+      "Time": "April, 2017"
+    },
+    
+    "Item11": {
+      "Contents": "Radha was invited to the SNF International Exploratory Workshop on Theory and Practice for Error-Efficient Computing Systems!",
+      "Keyword_Link": {
+        "SNF International Exploratory Workshop on Theory and Practice for Error-Efficient Computing Systems": "http://people.csail.mit.edu/psm/tpeecs-2017"
+      },
+      "Time": "April 2017"
+    },
+    
+    "Item12": {
+      "Contents": "Matt was invited to The 50 Years of ACM Turing Award Celebration!",
+      "Keyword_Link": {
+        "The 50 Years of ACM Turing Award Celebration": "http://www.acm.org/turing-award-50/conference"
+      },
+      "Time": {}
+    },
+  
+    "Item13": {
+      "Contents": "Our paper titled &quot;Chasing Away RAts: Semantics and Evaluation for Relaxed Atomics on Heterogeneous Systems&quot; has been accepted for publication at ISCA 2017!",
+      "Keyword_Link": {
+        "ISCA 2017": "http://isca17.ece.utoronto.ca/doku.php"
+      },
+      "Time": {}
+    },
+  
+    "Item14": {
+      "Contents": "Our paper titled &quot;Leveraging Software Testing to Explore Input Dependence for Approximate Computing&quot; has been accepted for publication at WAX 2017",
+      "Keyword_Link": {
+        "WAX 2017": "http://approximate.computer/wax2017/"
+      },
+      "Time": {}
+    },
+  
+    "Item15": {
+      "Contents": "John received the Rambus Computer Engineering Fellowship for 2017-2018!",
+      "Keyword_Link": {
+        "Rambus Computer Engineering Fellowship": "https://www.ece.illinois.edu/academics/grad/fellowships/rambus"
+      },
+      "Time": {}
+    },
+  
+    "Item16": {
+      "Contents": "Sarita gave a keynote speech at HiPEAC 2017 in Stockholm. Watch the full keynote here!",
+      "Keyword_Link": {
+        "keynote speech": "Talks/17-hipeac.pdf",
+        "HiPEAC 2017": "https://www.hipeac.net/2017/stockholm",
+        "Watch the full keynote here": "https://youtu.be/kjFjL_vTUWU"
+      },
+      "Time": {}
+    },
+  
+    "Item17": {
+      "Contents": "Huzaifa was recognized as an Outstanding Teaching Assistant for the Spring 2016 semester!",
+      "Keyword_Link": {},
+      "Time": {}
+    }
+  }
+}
