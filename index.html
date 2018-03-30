@@ -22,57 +22,30 @@
 						<h3>NEWS</h3>
 
 						<ul>
-							<li>
-							<p class="style12">Our paper titled &quot;HPVM: Heterogeneous Parallel Virtual Machine&quot; has been accepted for publication at <a href="https://conf.researchr.org/home/ppopp-2018" target="blank">PPoPP 2018</a>!</p>
-							</li>
-							<li>
-							<p class="style12">Matt received the 2018 <a href="https://cs.illinois.edu/about-us/awards/graduate-fellowships-awards/david-j-kuck-outstanding-thesis-awards">David J. Kuck Outstanding Ph.D. Thesis Award</a>!</p>
-							</li>
-							<li>
-							<p class="style12">Sarita was invited to join DARPA&#39;s <a href="https://cs.illinois.edu/news/sarita-adve-joins-darpa-group-keeps-eye-out-technological-surprises-opportunities" target="blank">Information Science and Technology Study Group (ISAT)</a> for a three year appointment!</p>
-							</li>
-							<li>
-							<p class="style12">Our paper titled &quot;HeteroSync: A Benchmark Suite for Fine-Grained Synchronization on Tightly Coupled GPUs&quot; has been accepted for publication at <a href="http://www.iiswc.org/iiswc2017/index.html" target="blank">IISWC 2017</a>!</p>
-							</li>
-							<li>
-							<p class="style12">Sarita and Matt invited to the <a href="http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=17451" target="blank">Dagstuhl Seminar on New Challenges in Parallelism</a>, November 2017!</p>
-							</li>
-							<li>
-							<p class="style12">Matt presented at <a href="http://isca17.ece.utoronto.ca/doku.php">ISCA</a>, June 2017!</p>
-							</li>
-							<li>
-							<p class="style12">Congratulations to Lin Cheng for depositing his M.S. thesis, April 2017!</p>
-							</li>
-							<li>
-							<p class="style12">Gio passed the PhD qualifying exam, April 2017!</p>
-							</li>
-							<li>
-							<p class="style12">Matt was invited to <a href="http://www.acm.org/turing-award-50/conference">The 50 Years of ACM Turing Award Celebration</a>!</p>
-							</li>
-							<li>
-							<p class="style12">Abdulrahman presented at <a href="http://approximate.computer/wax2017/">WAX</a>, April, 2017!</p>
-							</li>
-							<li>
-							<p class="style12">Radha was invited to the <a href="http://people.csail.mit.edu/psm/tpeecs-2017">SNF International Exploratory Workshop on Theory and Practice for Error-Efficient Computing Systems</a>, April 2017!</p>
-							</li>
-							<li>
-							<p class="style12">Matt was invited to <a href="http://www.acm.org/turing-award-50/conference">The 50 Years of ACM Turing Award Celebration</a>!</p>
-							</li>
-							<li>
-							<p class="style12">Our paper titled &quot;Chasing Away RAts: Semantics and Evaluation for Relaxed Atomics on Heterogeneous Systems&quot; has been accepted for publication at <a href="http://isca17.ece.utoronto.ca/doku.php" target="blank">ISCA 2017</a>!</p>
-							</li>
-							<li>
-							<p class="style12">Our paper titled &quot;Leveraging Software Testing to Explore Input Dependence for Approximate Computing&quot; has been accepted for publication at <a href="http://approximate.computer/wax2017/">WAX 2017</a>!</p>
-							</li>
-							<li>
-							<p class="style12">John received the <a href="https://www.ece.illinois.edu/academics/grad/fellowships/rambus">Rambus Computer Engineering Fellowship</a> for 2017-2018!</p>
-							</li>
-							<li>
-							<p class="style12">Sarita gave a <a href="Talks/17-hipeac.pdf">keynote</a> speech at <a href="https://www.hipeac.net/2017/stockholm">HiPEAC 2017</a> in Stockholm. Watch the full keynote <a href="https://youtu.be/kjFjL_vTUWU">here</a>!</p>
-							</li>
-							<li>
-							<p class="style12">Huzaifa was recognized as an Outstanding Teaching Assistant for the Spring 2016 semester!</p>
-							</li>
+							<?php
+
+							$json_file = file_get_contents("news.json");
+							$json = json_decode($json_file, true);
+
+
+							foreach ($json['News'] as $item) {
+
+								$contents = $item['Contents'];
+								$keys = array_keys($item['Keyword_Link']);
+								$time = $item['Time'];
+								if (count($time) <= 0) {
+									$time = '';
+								}
+
+								$final_string = $contents;
+								foreach($keys as $temp_key) {
+									$temp_link = $key_link[$keys[0]];
+									$final_string = str_replace($temp_key, '<a href=\"'.$temp_link.'\" target=\"blank\">'.$temp_key.'</a>', $final_string);
+							}
+							echo '<li><p class=\"style12\">'.$final_string.'&nbsp;&nbsp; <em>'.$time.'</em>'.'</p></li>';
+							}
+
+							?>
 						</ul>
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="news.html">News Archive</a> </td>
 						<td class="body_content" valign="top">

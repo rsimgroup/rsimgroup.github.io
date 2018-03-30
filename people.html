@@ -1,54 +1,107 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Sarita Adve's Group: People</title>
-<link href="style/style1.css" rel="stylesheet" type="text/css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Sarita Adve's Group: People</title>
+  <link href="style/style1.css" rel="stylesheet" type="text/css" />
   <link href="style/universal.css" rel="stylesheet" type="text/css"/>
-<style type="text/css">
+  <style type="text/css">
 
-  .people_style13_variant {
-    text-align: right;
-  }
-  .people_paragraph {
-    margin-left: 0.5in;
-    margin-top: -17px;
-  }
-  .people_width {
-    width: 25%;
-  }
+    .people_style13_variant {
+      text-align: right;
+    }
+    .people_paragraph {
+      margin-left: 0.5in;
+      margin-top: -17px;
+    }
+    .people_width {
+      width: 25%;
+    }
 
-</style>
+  </style>
 </head>
 
 <body>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 
   <?php include 'header.html';?>
+
+  <?php
+    $json_file = file_get_contents("people.json");
+    $json = json_decode($json_file, true);
+  ?>
+
   <tr>
     <td class="shadow_left">&nbsp;</td>
     <td class="main_content_box">
       <table width="100%" cellspacing="0" cellpadding="0" class="style5">
         <tr>
           <td class="body_content" valign="top">
+
+
+
             <p class="style12" style="margin-top: 5px;"><b>
               <span class="hetero_title_style">People</span></b>
             </p>
+
+            <!-------------------------Faculty Here-------------------------->
+
             <p class="style12">
               <b><span class="hetero_subtitle_style">Faculty</span></b>
             </p>
             <table align="left" style="width: 50%; height: 104px;">
-              <tr>
-                <td class="people_style13_variant" style="width: 50%">
-                  <img alt="Sarita's Picture" height="130" src="images/Sarita-Adve-2016-300x400.jpg" width="100" /></td>
-              &nbsp;
-                <td class="style12" style="width: 50%">
-                  <a href="http://www.cs.illinois.edu/~sadve" class="approx_people_style" >Sarita V. Adve</a>
-              &nbsp;
-                </td>
-              </tr>
+
+              <?php
+                $flag = 0;
+
+                foreach($json['Faculty'] as $faculty) {
+                  if ($flag === 0) {
+                    echo '<tr>';
+              }
+
+              echo '<td class="people_style13_variant" style="width: 50%">';
+
+              $name = trim($faculty['Name'], '"');
+
+              $name_link = trim($faculty['Source'], '"');
+              $image_link = trim($faculty['Image']['link'], '"');
+              $image_altertext = $name.'\'s Picture';
+              $image_width = trim($faculty['Image']['width'], '"');
+              $image_height = trim($faculty['Image']['height'], '"');
+
+              echo '<img alt="'.$image_altertext.'" height='.$image_height.' width='.$image_width.' src="'.$image_link.'">';
+
+              echo '</td>';
+
+              echo '<td class="style12" style="width: 50%">';
+
+              echo '<a href="'.$name_link.'" class="approx_people_style">'.$name.'</a>';
+
+              echo '</td>';
+
+              if ($flag === 1) {
+              echo '</tr>';
+              }
+
+
+              $flag = ($flag === 1 ? 0 : 1);
+              }
+
+              if ($flag === 0) {
+              echo '</tr>';
+              }
+              else {
+              $flag = 0;
+              }
+
+              ?>
+
+
             </table>
             <p class="style12" style="margin-left: 0.5in;">
+              &nbsp;
+            </p>
+            <p class="style12">
               &nbsp;
             </p>
             <p class="style12">
@@ -78,83 +131,61 @@
             </table>
             <br />
             -->
+
+
             <p class="style12"><b>
               <span class="hetero_subtitle_style">Current graduate students</span></b>
             </p>
             <table style="width: 100%">
-              <tr>
-		<!-- Radha Venkatagiri Entry -->
-                <td class="people_style13_variant people_width">
-                <img alt="Radha's Picture" height="96" width="99" src="images/radha.jpg" />
-                </td>
-                <td class="style12 people_width">
-                  <a href="mailto:venktgr2@illinois.edu">Radha Venkatagiri</a>
-                </td>
-	
-		<!-- John Alsop Entry -->
-                <td class="people_style13_variant people_width">
-                <img alt="John's Picture" height="96" width="99" src="images/alsop.jpg" />
-                </td>
-                <td class="style12 people_width">
-                  <!--<a href="mailto:alsop2@illinois.edu">John Alsop</a> -->
-                  <a href="http://www.johnalsop.net">John Alsop</a>
-                </td>
 
-              </tr>
+              <!-------------------------Current Grad Here-------------------------->
+              <?php
+                $flag = 0;
 
-              <tr>
-                <!-- Abdulrahman Mahmoud Entry -->
-                <td class="people_style13_variant people_width">
-                <img alt="Abdulrahman's Picture" height="96" width="99" src="images/mahmoud.jpg" />
-                </td>
-                <td class="style12 people_width">
-                  <a href="http://web.engr.illinois.edu/~amahmou2" class="approx_people_style">Abdulrahman Mahmoud</a>
-                </td>
-		
-         	<!-- Muhammad Huzaifa Entry -->
-                <td class="people_style13_variant people_width">
-                <img alt="Huzaifa's Picture" height="120" width="99" src="images/huzaifa2.jpeg" /> 
-                </td>
-                <td class="style12 people_width">
-                  <a href="https://rsim.cs.illinois.edu/~huzaifa2" class="approx_people_style">Muhammad Huzaifa</a>
-                </td>
-       
-              </tr>
-              
-              <tr>
-	                
-		<td class="people_style13_variant people_width">
-                <img alt="Gio's Picture" height="120" width="99" src="images/gio.png" /> 
-                </td>
-                
-		<!-- Giordano Salvador Entry -->
-                <td class="style12 people_width">
-                  <a href="mailto:gsalvad2@illinois.edu">Giordano Salvador</a>
-                </td>
-   
-		<td class="people_style13_variant people_width">
-                <img alt="Adel's Picture" height="120" width="99" src="images/aejjeh.jpg" /> 
-                </td>
-                
-		<!-- Giordano Salvador Entry -->
-                <td class="style12 people_width">
-                  <a href="https://www.linkedin.com/in/adel-ejjeh">Adel Ejjeh</a>
-                </td>
-              
+                foreach($json['Current graduate students'] as $currGrad) {
+                  if ($flag === 0) {
+                    echo '<tr>';
+              }
 
-               
-              </tr>
-               
-              <tr>
-			<!-- Khalique Ahmed Entry -->
-                <td class="people_style13_variant people_width">
-                <img alt="Khalique's Picture" height="120" width="99" src="images/kahmed10.jpg" /> 
-                </td>
-                <td class="style12 people_width">
-                  <a href="https://rsim.cs.illinois.edu/~kahmed10" class="approx_people_style">Khalique Ahmed</a>
-                </td>
-                             </tr>
- 
+              echo '<td class="people_style13_variant people_width">';
+
+              $name = trim($currGrad['Name'], '"');
+
+              $name_link = trim($currGrad['Source'], '"');
+              $image_link = trim($currGrad['Image']['link'], '"');
+              $image_altertext = $name.'\'s Picture';
+              $image_width = trim($currGrad['Image']['width'], '"');
+              $image_height = trim($currGrad['Image']['height'], '"');
+
+              echo '<img alt="'.$image_altertext.'" height='.$image_height.' width='.$image_width.' src="'.$image_link.'">';
+
+              echo '</td>';
+
+
+              echo '<td class="style12 people_width">';
+
+              echo '<a href="'.$name_link.'">'.$name.'</a>';
+
+              echo '</td>';
+
+              if ($flag === 1) {
+              echo '</tr>';
+              }
+
+
+              $flag = ($flag === 1 ? 0 : 1);
+              }
+
+              if ($flag === 0) {
+              echo '</tr>';
+              }
+              else {
+              $flag = 0;
+              }
+
+              ?>
+
+
               <tr>
                 <!-- MDS: These 2 columns appear to be here solely to center the text on the screen -->
                 <td class="people_style13_variant people_width">&nbsp;</td>
@@ -174,310 +205,195 @@
             <p class="style12">
               &nbsp;
             </p>
+
+
             <p class="style12">
-              <b><span class="hetero_subtitle_style">Current collaborators</span></b></font>
+              <b><span class="hetero_subtitle_style">Current collaborators</span></b>
             </p>
             <table style="width: 100%">
-              <tr>
-                <td class="people_style13_variant people_width">
-                  <img alt="Vikram's Picture" height="112" src="images/vadve.jpg" width="100" /></td>
-                <td class="style12"  style="width: 25%">
-                  <a href="http://vikram.cs.illinois.edu">Vikram Adve (UIUC)</a></td>
-                <td class="people_style13_variant people_width">
-                  <img alt="Darko's Picture" height="124" src="images/marinov.jpg" width="95" />&nbsp;</td>
-                <td class="style12 people_width">
-                  <a href="http://mir.cs.illinois.edu/marinov">Darko Marinov</a></td>
-              </tr>
 
-              <tr>
-                <td class="people_style13_variant people_width">
-                  <img alt="Sasa's Picture" height="95" src="images/sasa.jpg" width="100" />&nbsp;</td>
-                <td class="style12 people_width">
-                  <a href="http://misailo.cs.illinois.edu">Sasa Misailovic</a></td>
-                <td class="people_style13_variant people_width">
-                  <!--  TODO      <img alt="Nick's Picture" height="102" src="images/ncarter.jpg" width="100" />&nbsp;-->
-                  <img alt="Chris's Picture" height="95" src="images/chrisfletcher.jpg" width="100" />&nbsp;</td>
-                <td class="style12 people_width">
-                  <a href="http://cwfletcher.net">Christopher W. Fletcher</a></td>
-              </tr>
+              <!-------------------------Current Collaborators Here-------------------------->
+              <?php
+                $flag = 0;
 
-              <tr>
-                <td class="people_style13_variant people_width">
-                  <img alt="Pradip's Picture" height="95" src="images/bose.jpg" width="100" />&nbsp;</td>
-                <td class="style12 people_width">
-                  <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-pbose">Pradip Bose</a></td>
-                <td class="people_style13_variant people_width">
-                  <!--  TODO      <img alt="Nick's Picture" height="102" src="images/ncarter.jpg" width="100" />&nbsp;-->
-                  <img alt="Alper's Picture" height="95" src="images/alperb.jpg" width="100" />&nbsp;</td>
-                <td class="style12 people_width">
-                  <a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-alperb">Alper Buyuktosunoglu</a></td>
-              </tr>
+                foreach($json['Current collaborators'] as $currCollab) {
+                  if ($flag === 0) {
+                    echo '<tr>';
+              }
+
+              echo '<td class="people_style13_variant people_width">';
+
+              $name = trim($currCollab['Name'], '"');
+
+              $name_link = trim($currCollab['Source'], '"');
+              $image_link = trim($currCollab['Image']['link'], '"');
+              $image_altertext = $name.'\'s Picture';
+              $image_width = trim($currCollab['Image']['width'], '"');
+              $image_height = trim($currCollab['Image']['height'], '"');
+
+              echo '<img alt="'.$image_altertext.'" height='.$image_height.' width='.$image_width.' src="'.$image_link.'">';
+
+              echo '</td>';
 
 
-              <tr>
-                <td class="people_style13_variant people_width">
-                  <img alt="Siva's Picture" height="95" src="images/siva.jpg" width="100" />&nbsp;</td>
-                <td class="style12 people_width">
-                  <a href="http://research.nvidia.com/person/siva-hari">Siva Hari</a></td>
-                  <!--  TODO      <img alt="Nick's Picture" height="102" src="images/ncarter.jpg" width="100" />&nbsp;-->
-              </tr>
+              echo '<td class="style12 people_width">';
 
-<!--
-              <tr>
-                <td class="style13" style="width: 25%">
-                  <img alt="Pablo's Picture" height="95" src="images/pmontesinos.jpg" width="100" />&nbsp;</td>
-                <td class="style12" style="width: 25%">
-                  <a href="mailto:pablom@qti.qualcomm.com">Pablo Montesinos Ortego</a></td>
-              </tr>
--->
-              
+              echo '<a href="'.$name_link.'">'.$name.'</a>';
+
+              echo '</td>';
+
+              if ($flag === 1) {
+              echo '</tr>';
+              }
+
+
+              $flag = ($flag === 1 ? 0 : 1);
+              }
+
+              if ($flag === 0) {
+              echo '</tr>';
+              }
+              else {
+              $flag = 0;
+              }
+
+              ?>
+
+
+              <!--  TODO      <img alt="Nick's Picture" height="102" src="images/ncarter.jpg" width="100" />&nbsp;-->
+
+              <!--
+                            <tr>
+                              <td class="style13" style="width: 25%">
+                                <img alt="Pablo's Picture" height="95" src="images/pmontesinos.jpg" width="100" />&nbsp;</td>
+                              <td class="style12" style="width: 25%">
+                                <a href="mailto:pablom@qti.qualcomm.com">Pablo Montesinos Ortego</a></td>
+                            </tr>
+              -->
+
             </table>
             <p class="style12" style="margin-left: 0.5in; margin-top: 0pt; margin-bottom: 0.0001pt;">
               &nbsp;
               <br />
             </p>
+
+
             <p class="style12">
               <b><span class="hetero_subtitle_style">Graduated Ph.D. students</span></b>
             </p>
             <table style="width: 100%">
-               
-              <tr>
-                <!-- Matt Sinclair Entry -->
-                <td>
-                  <img alt="Matt's Picture" height="96" width="99" src="images/sinclair.jpg" />
-                </td>
-                <td class="style12">
-                  <a href="http://web.engr.illinois.edu/~mdsincl2" class="approx_people_style">Matthew Sinclair</a>, Ph.D. 2017 &nbsp;
-                  <br /> Ph.D. thesis:&nbsp;
-                  <a href="http://rsim.cs.uiuc.edu/Pubs/msinclair-thesis.pdf" class="approx_people_style">
-                    <span >Efficient Coherence and Consistency for Specialized Memory Hierarchies</span><br />
-                  </a>First employment:&nbsp; Assistant Professor at University of Wisconsin - Madison 
-                </td>
-              </tr>
-              
-	      <tr>
 
-              <tr>
-                <!-- Hyojin Sung Entry -->
-                <td>
-                  <img alt="Hyojin's Picture" height="96" width="99" src="images/hyojin.jpeg" />
-                </td>
-                <td class="style12">
-                  <a href="http://web.engr.illinois.edu/~sung12" class="approx_people_style">Hyojin Sung</a>, Ph.D. 2015 &nbsp;
-                  <br /> Ph.D. thesis:&nbsp;
-                  <a href="/Pubs/Dissertation_Sung_Hyojin.pdf" class="approx_people_style">
-                    <span  >DeNovo: Rethinking the Memory Hierarchy for Disciplined Parallelism</span><br />
-                  </a>First employment:&nbsp; IBM Research
-                </td>
-              </tr>
-              
-	      <tr>
-                <!-- Rakesh Komuravelli Entry -->
-                <td>
-                  <img alt="Rakesh's Picture" height="102" src="images/rakesh.JPG" width="100" />
-                </td>
-                <td class="style12">
-		  <!-- MDS (10/5/15): This first one should work but doesn't for some reason ... --->
-<!--                  <a href="rsim.cs.illinois.edu/~komurav1" style="color: rgb(51, 51, 102); text-decoration: underline; target=blank">Rakesh Komuravelli</a>, Ph.D. 2014 &nbsp;-->
-                  <a href="~komurav1" class="approx_people_style">Rakesh Komuravelli</a>, Ph.D. 2014 &nbsp;
-                  <br /> Ph.D. thesis:&nbsp;
-                  <a href="/Pubs/Rakesh_Komuravelli_thesis.pdf" class="approx_people_style">
-                    <span  >Exploiting Software Information for an Efficient Memory Hierarchy</span><br />
-                  </a>First employment:&nbsp; Qualcomm Research
-                </td>
-              </tr>
+              <!-------------------------Graduated Ph.D. Students Here-------------------------->
+              <?php
+                $flag = 0;
+
+                foreach($json['Graduated Ph.D. students'] as $pastPhd) {
+
+              echo '<tr>';
+              echo '<td>';
+
+              $name = trim($pastPhd['Name'], '"');
+              $name_link = trim($pastPhd['Source'], '"');
+              $thesis = trim($pastPhd['Thesis']['name'], '"');
+              $thesis_link = trim($pastPhd['Thesis']['link'], '"');
+              $employment = trim($pastPhd['Employment'], '"');
+              $time = trim($pastPhd['Time'], '"');
+
+              $image_link = trim($pastPhd['Image']['link'], '"');
+              $image_altertext = $name.'\'s Picture';
+              $image_width = trim($pastPhd['Image']['width'], '"');
+              $image_height = trim($pastPhd['Image']['height'], '"');
+
+              echo '<img alt="'.$image_altertext.'" height='.$image_height.' width='.$image_width.' src="'.$image_link.'">';
+
+              echo '</td>';
 
 
-              <tr>
-                <!-- Siva K.S. Hari Entry -->
-                <td>
-                  <img alt="Siva's Picture" height="102" src="images/siva.jpg" width="100" />
-                </td>
-                <td class="style12">
-		  <!-- MDS (10/5/15): This first one should work but doesn't for some reason ... --->
-<!--                  <a href="rsim.cs.illinois.edu/~shari2" style="color: rgb(51, 51, 102); text-decoration: underline;">Siva Kumar Sastry Hari</a>, Ph.D. 2013 &nbsp;-->
-                  <a href="~shari2" class="approx_people_style">Siva Kumar Sastry Hari</a>, Ph.D. 2013 &nbsp;
-                  <br /> Ph.D. thesis:&nbsp;
-                  <a href="Pubs/siva-kumar-hari-thesis.pdf" class="approx_people_style">
-                    <span  >Preserving Application Resiliency on Unreliable Hardware</span><br />
-                  </a>First employment:&nbsp;NVIDIA Research
-                </td>
-              </tr>
+              echo '<td class="style12">';
 
-              <tr>
-                <td>
-                  <img alt="Pradeep's Picture" height="102" src="images/pradeep.jpg" width="100" />
-                </td>
-                <td class="style12">
-                  <a href="http://www.pradeeprama.info/" class="approx_people_style">Pradeep Ramachandran</a>, Ph.D. 2011 &nbsp;
-                  <br /> Ph.D. thesis:&nbsp;
-                  <a href="Pubs/pradeep-ramachandran-thesis.pdf" class="approx_people_style">
-                    <span  >Detecting and Recovering from In-core Hardware Faults through Software Anomaly Treatment</span><br />
-                  </a>First employment:&nbsp;Intel Corporation
-                </td>
-              </tr>
+              if (strlen($name_link) >0) {
+              echo '<a href="'.$name_link.'" class="approx_people_style">'.$name.'</a>, Ph.D. '.$time.'&nbsp; <br />';
 
-              <tr>
-                <td>
-                  <img alt="Alexs' Picture" height="117" src="images/manlapli.jpg" width="100" />
-                </td>
-                <td class="style12">
-<!--                  <a href="http://www.seas.gwu.edu/~alexli/" style="color: rgb(51, 51, 102); text-decoration: underline;">Man-Lap (Alex) Li</a>, Ph.D. 2009 &nbsp;-->
-                  Man-Lap (Alex) Li, Ph.D. 2009 &nbsp;
-                  <br />
-                  Ph.D. thesis:&nbsp;
-                  <a href="Pubs/alex-li-thesis.pdf" class="approx_people_style">
-                    <span >SWAT: Designing Resilient Hardware by Treating Software
-                      Anomalies</span>
-                    <br />
-                  </a>First employment:&nbsp;Assistant Professor at The George Washington University
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <img alt="Jerry's Picture" height="124" src="images/jerry.jpg" width="100" />
-                </td>
-                <td class="style12"><span>
-                  <a href="http://www.connect6.com/Xiaodong-%28Jerry%29-Li/p/174125059048151204125100221206021021105006240011063163037240215099116224185006210235202017060055077210101231014140222150089007183020117039095067" class="approx_people_style">Xiaodong (Jerry) Li</a>, Ph.D. 2008
-                  <br />
-                  Ph.D. thesis:&nbsp;
-                  <a href="/Pubs/jerry-li-phd-thesis.pdf">
-                    <span style="Pubs/srinivsn-phd-thesis.pdf" class="approx_people_style">
-                    <br />
-                  </a>First employment:&nbsp;Deutsche Bank</span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <img alt="Jayanth's Picture" height="124" src="images/jayanth12.jpg" width="100" />
-                </td>
-                <td class="style12"><span  >
-                  <a href="http://www.gicn.in/person/jay-srinivasan/" class="approx_people_style">Jayanth Srinivasan</a></span>, Ph.D. 2006
-                  &nbsp;<br />
-                  Ph.D. thesis:&nbsp;
-                  <a href="/Pubs/srinivsn-phd-thesis.pdf" class="approx_people_style">
-                    <span  >Lifetime Reliability Aware Microprocessors</span><br />
-                  </a>First employment:&nbsp;McKinsey and Company</td>
-              </tr>
-              <tr>
-                <td>
-                  <img alt="Ruchira's Picture" height="157" src="images/ruchira.jpg" width="100" />
-                </td>
-                <td class="style12"><span>
-<!--                    <a href="http://rsim.cs.uiuc.edu/~sasanka/" style="color: rgb(51, 51, 102); text-decoration: underline;">Ruchira Sasanka</a></span>, Ph.D. 2005-->
-                    Ruchira Sasanka</span>, Ph.D. 2005
-                  &nbsp;<br />
-                  Ph.D. thesis:&nbsp;
-                  <a href="/Pubs/sasanka-phd-thesis.pdf" class="approx_people_style">
-                    <span  >Energy Efficient Support for All Levels of Parallelism
-                      for Complex Media Applications</span><br />
-                  </a>First employment:&nbsp;Intel Corporation</td>
-              </tr>
-              <tr>
-                <td>
-                  <img alt="Chris' Picture" height="98" src="images/hughes_christopher.jpg" width="71" />
-                </td>
-                <td class="style12"><span  >
-                    Christopher J. Hughes</span>, Ph.D. 2003<br />
-                  Ph.D. thesis:&nbsp;
-                  <span  >General-Purpose Processors for Multimedia Applications:
-                    Predictability and Energy Efficiency</span><br />
-                  First employment:&nbsp;Intel Microprocessor Research Labs</td>
-              </tr>
-              <tr>
-                <td>
-                  <img alt="Vijay's Picture" height="136" src="images/vsp.jpg" width="98" />
-                </td>
-                <td class="style12">
-                  <a href="http://cobweb.ecn.purdue.edu/~vpai/" class="approx_people_style"><span  >Vijay S.
-                      <span class="SpellE">Pai</span></span></a>, Ph.D. 2000 (<st1:place><st1:placename>Rice</st1:placename> <st1:placetype>
-                      University</st1:placetype></st1:place>)&nbsp;<br />
-                  Ph.D. thesis:&nbsp;
-                  <a href="/Pubs/phdthesis-pai.pdf">
-                    <span  >Exploiting Instruction-Level Parallelism for Memory
-                      System Performance</span></a>
-                  <br />
-                  First employment:&nbsp;Assistant Professor at <st1:place><st1:placename>
-                      Rice</st1:placename>
-                    <st1:placetype>University</st1:placetype></st1:place></td>
-              </tr>
-              <tr>
-                <td>
-                  <img alt="Partha's Picture" height="109" src="images/partha.jpg" width="100" /></td>
-                <td class="style12">
-                  <a href="http://www.parthasarathys.com/" class="approx_people_style"><span class="SpellE"><span  >
-                        Parthasarathy</span></span><span  > Ranganathan</span></a>, Ph.D.
-                  2000 (<st1:place><st1:placename>Rice</st1:placename> <st1:placetype>
-                      University</st1:placetype></st1:place>),&nbsp;<br />
-                  Ph.D. Thesis:
-                  <a href="/Pubs/2000_PhdThesis_ParthaRanganathan.pdf" class="approx_people_style">
-                    <span  >General-Purpose Architectures for Media Processing and
-                      Database Workloads</span><br />
-                  </a>First employment: Compaq Western Research Laboratory </td>
-              </tr>
+              }
+              else {
+              echo '<span>'.$name.'</span>, Ph.D. '.$time.'&nbsp; <br />';
+              }
+
+              echo 'Ph.D. thesis:&nbsp;';
+
+              if (strlen($thesis_link) >0) {
+              echo '<a href="'.$thesis_link.'" class="approx_people_style">';
+                echo '<span>'.$thesis.'</span><br /></a>';
+              }
+              else {
+              echo '<span>'.$thesis.'</span><br />';
+              }
+              echo 'First Employment: &nbsp;'.$employment;
+
+              echo '</td>';
+              echo '</tr>';
+
+              }
+
+
+              ?>
+
+
             </table>
+
+
+
             <p class="style12"><b>
                 <span class="hetero_subtitle_style">Graduated M.S.
-                  students<o:p></o:p></span></b></p>
-            <p class="style12 people_paragraph">
-              Lin Cheng, M.S. 2017</p>
-            <p class="style12 people_paragraph">
-              Robert Smolinski, M.S. 2013</p>
-            <p class="style12 people_paragraph">
-              Vibhore Vardhan, M.S. 2004</p>
-            <p class="style12 people_paragraph">Ritu
-              Gupta, M.S. 2004</p>
-            <p class="style12 people_paragraph">Rohit
-              Jain, M.S. 2002</p>
-            <p class="style12 people_paragraph">Praful
-              Kaul, M.S. 2000</p>
-            <p class="style12 people_paragraph">Murthy
-              Durbhakula, M.S. 1998</p>
-            <p class="style12 people_paragraph">Hazim
-              Abdel-Shafi, M.S. 1997</p>
-            <p class="style12 people_paragraph">Tracy
-              Harton, M.E.E. 1997</p>
-            <p class="style12 people_paragraph">
-              Jonathan Hall, M.S. 1996 </p>
-            <!-- Past Undergrads -->
+                  students</span></b></p>
+
+            <?php
+                $flag = 0;
+
+                foreach($json['Graduated M.S. students'] as $pastGrad) {
+
+            echo '<p class="style12 people_paragraph">';
+
+            $name = trim($pastGrad['Name'], '"');
+            $time = trim($pastGrad['Time'], '"');
+
+
+            echo $name.', M.S. '.$time.'&nbsp; <br />';
+
+
+
+            echo '</p>';
+
+            }
+
+            ?>
+
+            <!-------------------------Graduated UnderGrad Here-------------------------->
             <p class="style12"><b>
-              <span style="font-size: 13.5pt; font-family: Arial;">Past visiting students and undergraduate students</span></b>
+              <span class="hetero_subtitle_style">Past visiting students and undergraduate students</span></b>
             </p>
-            <p class="style12 people_paragraph"><st1:place>
-              <st1:placename>Sean Nicolay</st1:placename></st1:place>
-            </p>
-            <p class="style12 people_paragraph"><st1:place>
-              <st1:placename>Paul Adamczyk</st1:placename></st1:place>
-            </p>
-            <p class="style12 people_paragraph">
-              <st1:place>
-              <st1:placename>Apurva Jantrania</st1:placename></st1:place>
-            </p>
-            <p class="style12 people_paragraph"><st1:place>
-              <st1:placename>Joshua Paul</st1:placename></st1:place></p>
-            <p class="style12 people_paragraph">
-              <st1:place>
-              <st1:placename>Chanik</st1:placename>
-              <st1:placetype>Park</st1:placetype></st1:place>
-            </p>
-            <p class="style12 people_paragraph">
-              Dennis Geels
-            </p>
-            <p class="style12 people_paragraph">
-              Michael Simon
-            </p>
-            <p class="style12 people_paragraph">
-              Khoa To
-            </p>
-            <p class="style12 people_paragraph">
-              Tracy Harton
-            </p>
-            <p class="style12 people_paragraph">
-              Mathew Dumm
-            </p>
+
+
+            <?php
+                $flag = 0;
+
+                foreach($json['Past visiting students and undergraduate students'] as $pastUG) {
+
+            echo '<p class="style12 people_paragraph">';
+
+            $name = trim($pastUG['Name'], '"');
+
+            echo $name;
+
+            echo '</p>';
+
+            }
+
+            ?>
+
           </td>
         </tr>
-    </table></td>
+      </table></td>
     <td class="shadow_right">&nbsp;</td>
   </tr>
 
