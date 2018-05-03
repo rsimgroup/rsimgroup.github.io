@@ -1,6 +1,8 @@
 import os, json
 from . import utils
 
+import bibtexparser
+
 def dispatcher(isMain=False):
     page = utils.Managing.Managing(
         source_path_is=os.path.dirname(__file__),
@@ -52,7 +54,29 @@ def calculatePaper(papers_list, pub_dict):
                 '<br/>&nbsp;<br/></li>'
         )
 
-
+def calculatePaperBib(papers_list, bib_database):
+        sorted_entries = sorted(bib_database.entries, key=lambda entry: entry['year'])
+        for item in bib_database.entries:
+          final_str = '<li class=\"style12\">'
+          if 'url' in item.keys():
+            final_str = final_str + '<a href=\"' + \
+                item['url'] + \
+                '\" target=\"blank\">' + \
+                item['title'] + \
+                '</a>, '
+          else:
+            final_str = final_str + \
+                item['title'] + ', '
+          final_str = final_str + item['author'] + \
+              ', in <i>' + \
+              item['booktitle'] + \
+              '</i>, ' + \
+              item['year'] + '.'
+          if 'boldnote' in item.keys():
+            final_str = final_str + " <b>" + item['boldnote'] + "</b>"
+          final_str = final_str + ' <br/>&nbsp;<br/></li>'
+          papers_list.append(final_str)
+          
 def calculateTalk(talks_list, pub_dict):
         for item in pub_dict['Talks']:
             if 'ENTRYTYPE' in item:
@@ -146,6 +170,7 @@ def mergeFile(configurations, base_structure, contents_structure, sources_path):
         with open(os.path.join(sources_path, 'publications.json'), 'r') as pub_item:
             pub_dict = json.load(pub_item)
 
+
         papers_list = []
         calculatePaper(papers_list, pub_dict)
         talks_list = []
@@ -154,6 +179,13 @@ def mergeFile(configurations, base_structure, contents_structure, sources_path):
         calculatePhd(phd_list, pub_dict)
         ms_list = []
         calculateMS(ms_list, pub_dict)
+
+        bibfilename = os.path.join(sources_path, '../specialization/publications.bib')
+        with open(bibfilename) as bibtex_file:
+            bib_database = bibtexparser.load(bibtex_file)
+
+        papers_list = []
+        calculatePaperBib(papers_list, bib_database)
 
 
         to_replace_index = contents_structure.index('{{PAPERS_CONTENT}}')
