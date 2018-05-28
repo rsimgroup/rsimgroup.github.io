@@ -24,7 +24,7 @@ class CommandLineHandler:
         except IndexError:
             return 'none'
 
-    def main_exec_interface(self, parent_manage_script, book_keeping, dump_file_path, base_file_path, content_file_path, script_file_path, data_file_path=''):
+    def main_exec_interface(self, parent_manage_script):
         prompt = self.prompt_generator.promptGenerator(parent_manage_script)
         print(prompt)
 
@@ -37,18 +37,12 @@ class CommandLineHandler:
             print(self.prompt_generator.exitGenerator(isLeave=True))
         elif choice == 'y':
             print(self.prompt_generator.transitionGenerator())
-            if not book_keeping.isModified(dump_file_path=dump_file_path, content_file_path=content_file_path, base_file_path=base_file_path, script_file_path=script_file_path, data_file_path=data_file_path):
-                print(self.prompt_generator.exitGenerator(isAlreadyUpdated=True))
-            else:
-                self.next_function()
-                print(self.prompt_generator.exitGenerator(isFinish=True))
+            self.next_function()
+            print(self.prompt_generator.exitGenerator(isFinish=True))
         else:
             print(self.prompt_generator.exitGenerator(isInvalid=True))
 
 
-    def sub_exec_interface(self, book_keeping, dump_file_path, base_file_path, content_file_path, script_file_path, data_file_path=''):
-        if not book_keeping.isModified(dump_file_path=dump_file_path, content_file_path=content_file_path, base_file_path=base_file_path, script_file_path=script_file_path, data_file_path=data_file_path):
-            print(self.prompt_generator.exitGenerator(isAlreadyUpdated=True))
-        else:
-            self.next_function()
-            print(self.prompt_generator.exitGenerator(isFinish=True))
+    def sub_exec_interface(self):
+        self.next_function()
+        print(self.prompt_generator.exitGenerator(isFinish=True))

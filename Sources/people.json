@@ -1,437 +1,485 @@
 {
   "Faculty": [
-      {
-        "Name": "Sarita V. Adve",
-        "Source": "http://www.cs.illinois.edu/~sadve",
-        "Image": {
-          "link": "images/Sarita-Adve-2016-300x400.jpg",
-          "width": "100",
-          "height": "130"
-        }
-      }
-  ],
-  
-  "Current graduate students": [
     {
-      "Name": "Radha Venkatagiri",
-      "Source": "mailto:venktgr2@illinois.edu",
-      "Image": {
-        "link": "images/radha.jpg",
-        "width": "99",
-        "height": "96"
-      }
+    "name": "Sarita V. Adve",
+    "url": "http://www.cs.illinois.edu/~sadve",
+    "image": {
+      "url": "images/Sarita-Adve-2016-300x400.jpg",
+      "width": "100",
+      "height": "130"
     },
-  
+    "projects": ["approx", "specialization"]
+  },
     {
-      "Name": "John Alsop",
-      "Source": "http://www.johnalsop.net",
-      "Image": {
-        "link": "images/alsop.jpg",
-        "width": "99",
-        "height": "96"
-      }
-    },
-  
-    {
-      "Name": "Abdulrahman Mahmoud",
-      "Source": "http://web.engr.illinois.edu/~amahmou2",
-      "Image": {
-        "link": "images/mahmoud.jpg",
-        "width": "99",
-        "height": "96"
-      }
-    },
-  
-    {
-      "Name": "Muhammad Huzaifa",
-      "Source": "https://rsim.cs.illinois.edu/~huzaifa2",
-      "Image": {
-        "link": "images/huzaifa2.jpeg",
-        "width": "99",
-        "height": "120"
-      }
-    },
-  
-    {
-      "Name": "Giordano Salvador",
-      "Source": "mailto:gsalvad2@illinois.edu",
-      "Image": {
-        "link": "images/gio.png",
-        "width": "99",
-        "height": "120"
-      }
-    },
-  
-    {
-      "Name": "Adel Ejjeh",
-      "Source": "https://www.linkedin.com/in/adel-ejjeh",
-      "Image": {
-        "link": "images/aejjeh.jpg",
-        "width": "99",
-        "height": "120"
-      }
-    },
-  
-    {
-      "Name": "Khalique Ahmed",
-      "Source": "https://rsim.cs.illinois.edu/~kahmed10",
-      "Image": {
-        "link": "images/kahmed10.jpg",
-        "width": "99",
-        "height": "120"
-      }
-    }
-  ],
-  
-  "Current collaborators": [
-    {
-      "Name": "Vikram Adve",
-      "Source": "http://vikram.cs.illinois.edu",
-      "Image": {
-        "link": "images/vadve.jpg",
+      "name": "Vikram Adve",
+      "url": "http://vikram.cs.illinois.edu",
+      "image": {
+        "url": "images/vadve.jpg",
         "width": "100",
         "height": "112"
-      }
-    },
-  
-    {
-      "Name": "Darko Marinov",
-      "Source": "http://mir.cs.illinois.edu/marinov",
-      "Image": {
-        "link": "images/marinov.jpg",
-        "width": "95",
-        "height": "124"
-      }
-    },
-  
-    {
-      "Name": "Sasa Misailovic",
-      "Source": "http://misailo.cs.illinois.edu",
-      "Image": {
-        "link": "images/sasa.jpg",
-        "width": "100",
-        "height": "95"
-      }
-    },
-  
-    {
-      "Name": "Christopher W. Fletcher",
-      "Source": "http://cwfletcher.net",
-      "Image": {
-        "link": "images/chrisfletcher.jpg",
-        "width": "100",
-        "height": "95"
-      }
-    },
-  
-    {
-      "Name": "Pradip Bose",
-      "Source": "https://researcher.watson.ibm.com/researcher/view.php?person=us-pbose",
-      "Image": {
-        "link": "images/bose.jpg",
-        "width": "100",
-        "height": "95"
-      }
-    },
-  
-    {
-      "Name": "Alper Buyuktosunoglu",
-      "Source": "https://researcher.watson.ibm.com/researcher/view.php?person=us-alperb",
-      "Image": {
-        "link": "images/alperb.jpg",
-        "width": "100",
-        "height": "95"
-      }
-    },
-  
-    {
-      "Name": "Siva Hari",
-      "Source": "http://research.nvidia.com/person/siva-hari",
-      "Image": {
-        "link": "images/siva.jpg",
-        "width": "100",
-        "height": "95"
-      }
-    }
-  
-  ],
-  
-  "Graduated Ph.D. students": [
-    {
-      "Name": "Matthew Sinclair",
-      "Source": "http://web.engr.illinois.edu/~mdsincl2",
-      "Time": "2017",
-      "Employment": "Assistant Professor at University of Wisconsin - Madison",
-      "Thesis": {
-        "name": "Efficient Coherence and Consistency for Specialized Memory Hierarchies",
-        "link": "Pubs/msinclair-thesis.pdf"
       },
-      "Image": {
-        "link": "images/sinclair.jpg",
-        "width": "99",
-        "height": "96"
-      }
+      "projects": [],
+      "_only_at_": [
+        "specialization"
+      ]
+    }],
+  "Current graduate students": [{
+    "name": "Radha Venkatagiri",
+    "url": "mailto:venktgr2@illinois.edu",
+    "image": {
+      "url": "images/radha.jpg",
+      "width": "99",
+      "height": "96"
     },
-  
-    {
-      "Name": "Hyojin Sung",
-      "Source": "http://web.engr.illinois.edu/~sung12",
-      "Time": "2015",
-      "Employment": "IBM Research",
-      "Thesis": {
-        "name": "DeNovo: Rethinking the Memory Hierarchy for Disciplined Parallelism",
-        "link": "/Pubs/Dissertation_Sung_Hyojin.pdf"
-      },
-      "Image": {
-        "link": "images/hyojin.jpeg",
-        "width": "99",
-        "height": "96"
-      }
+    "projects": ["approx"],
+    "year":""
+  }, {
+    "name": "John Alsop",
+    "url": "http://www.johnalsop.net",
+    "image": {
+      "url": "images/alsop.jpg",
+      "width": "99",
+      "height": "96"
     },
-  
-    {
-      "Name": "Rakesh Komuravelli",
-      "Source": "https://rsim.cs.illinois.edu/~komurav1",
-      "Time": "2014",
-      "Employment": "Qualcomm Research",
-      "Thesis": {
-        "name": "Exploiting Software Information for an Efficient Memory Hierarchy",
-        "link": "/Pubs/Rakesh_Komuravelli_thesis.pdf"
-      },
-      "Image": {
-        "link": "images/rakesh.JPG",
-        "width": "100",
-        "height": "102"
-      }
+    "projects": ["specialization"],
+    "year":""
+  }, {
+    "name": "Abdulrahman Mahmoud",
+    "url": "http://web.engr.illinois.edu/~amahmou2",
+    "image": {
+      "url": "images/mahmoud.jpg",
+      "width": "99",
+      "height": "96"
     },
-    
-    {
-      "Name": "Siva Kumar Sastry Hari",
-      "Source": "https://rsim.cs.illinois.edu/~shari2",
-      "Time": "2013",
-      "Employment": "NVIDIA Research",
-      "Thesis": {
-        "name": "Preserving Application Resiliency on Unreliable Hardware",
-        "link": "/Pubs/siva-kumar-hari-thesis.pdf"
-      },
-      "Image": {
-        "link": "images/siva.jpg",
-        "width": "100",
-        "height": "102"
-      }
+    "projects": ["approx"],
+    "year":""
+  }, {
+    "name": "Muhammad Huzaifa",
+    "url": "https://rsim.cs.illinois.edu/~huzaifa2",
+    "image": {
+      "url": "images/huzaifa2.jpeg",
+      "width": "99",
+      "height": "120"
     },
-  
-    {
-      "Name": "Pradeep Ramachandran",
-      "Source": "http://www.pradeeprama.info/",
-      "Time": "2011",
-      "Employment": "Intel Corporation",
-      "Thesis": {
-        "name": "Detecting and Recovering from In-core Hardware Faults through Software Anomaly Treatment",
-        "link": "/Pubs/pradeep-ramachandran-thesis.pdf"
-      },
-      "Image": {
-        "link": "images/pradeep.jpg",
-        "width": "100",
-        "height": "102"
-      }
+    "projects": ["specialization"],
+    "year":""
+  }, {
+    "name": "Giordano Salvador",
+    "url": "mailto:gsalvad2@illinois.edu",
+    "image": {
+      "url": "images/gio.png",
+      "width": "99",
+      "height": "120"
     },
-  
-    {
-      "Name": "Man-Lap (Alex) Li",
-      "Source": "",
-      "Time": "2009",
-      "Employment": "Assistant Professor at The George Washington University",
-      "Thesis": {
-        "name": "WAT: Designing Resilient Hardware by Treating Software Anomalies",
-        "link": "/Pubs/alex-li-thesis.pdf"
-      },
-      "Image": {
-        "link": "images/manlapli.jpg",
-        "width": "100",
-        "height": "117"
-      }
+    "projects": [],
+    "year":""
+  }, {
+    "name": "Adel Ejjeh",
+    "url": "https://www.linkedin.com/in/adel-ejjeh",
+    "image": {
+      "url": "images/aejjeh.jpg",
+      "width": "99",
+      "height": "120"
     },
-  
-    {
-      "Name": "Xiaodong (Jerry) Li",
-      "Source": "http://www.connect6.com/Xiaodong-%28Jerry%29-Li/p/174125059048151204125100221206021021105006240011063163037240215099116224185006210235202017060055077210101231014140222150089007183020117039095067",
-      "Time": "2008",
-      "Employment": "Deutsche Bank",
-      "Thesis": {
-        "name": "Soft Error Modeling and Analysis for Microprocessors ",
-        "link": "/Pubs/jerry-li-phd-thesis.pdf"
-      },
-      "Image": {
-        "link": "images/jerry.jpg",
-        "width": "100",
-        "height": "124"
-      }
+    "projects": [],
+    "year":""
+  }, {
+    "name": "Khalique Ahmed",
+    "url": "https://rsim.cs.illinois.edu/~kahmed10",
+    "image": {
+      "url": "images/kahmed10.jpg",
+      "width": "99",
+      "height": "120"
     },
-  
-    {
-      "Name": "Jayanth Srinivasan",
-      "Source": "http://www.gicn.in/person/jay-srinivasan/",
-      "Time": "2006",
-      "Employment": "McKinsey and Company",
-      "Thesis": {
-        "name": "Lifetime Reliability Aware Microprocessors",
-        "link": "/Pubs/srinivsn-phd-thesis.pdf"
-      },
-      "Image": {
-        "link": "images/jayanth12.jpg",
-        "width": "100",
-        "height": "124"
-      }
+    "projects": ["approx"],
+    "year":""
+  },
+  {
+    "name": "Rakesh Komuravelli",
+    "url": "https://rsim.cs.illinois.edu/~komurav1",
+    "year": "2014",
+    "employment": "Qualcomm Research",
+    "image": {
+      "url": "images/rakesh.JPG",
+      "width": "100",
+      "height": "102"
     },
-  
-    {
-      "Name": "Ruchira Sasanka",
-      "Source": "",
-      "Time": "2005",
-      "Employment": "Intel Corporation",
-      "Thesis": {
-        "name": "Energy Efficient Support for All Levels of Parallelism for Complex Media Applications",
-        "link": "/Pubs/sasanka-phd-thesis.pdf"
-      },
-      "Image": {
-        "link": "images/ruchira.jpg",
-        "width": "100",
-        "height": "157"
-      }
+    "thesis": {
+      "title": "Exploiting Software Information for an Efficient Memory Hierarchy",
+      "url": "/Pubs/Rakesh_Komuravelli_thesis.pdf"
     },
-  
-    {
-      "Name": "Christopher J. Hughes",
-      "Source": "",
-      "Time": "2003",
-      "Employment": "Intel Microprocessor Research Labs",
-      "Thesis": {
-        "name": "General-Purpose Processors for Multimedia Applications: Predictability and Energy Efficiency",
-        "link": ""
-      },
-      "Image": {
-        "link": "images/hughes_christopher.jpg",
-        "width": "71",
-        "height": "98"
-      }
+    "projects": [],
+    "_only_at_": ["specialization"]
+  },
+  {
+    "name": "Matthew Sinclair",
+    "url": "http://web.engr.illinois.edu/~mdsincl2",
+    "year": "2017",
+    "employment": "Assistant Professor at University of Wisconsin - Madison",
+    "image": {
+      "url": "images/sinclair.jpg",
+      "width": "99",
+      "height": "96"
     },
-  
-    {
-      "Name": "Vijay S. Pai",
-      "Source": "http://cobweb.ecn.purdue.edu/~vpai/",
-      "Time": "2000 (Rice University)",
-      "Employment": "Assistant Professor at Rice University",
-      "Thesis": {
-        "name": "Exploiting Instruction-Level Parallelism for Memory System Performance",
-        "link": "/Pubs/phdthesis-pai.pdf"
-      },
-      "Image": {
-        "link": "images/vsp.jpg",
-        "width": "98",
-        "height": "136"
-      }
+    "thesis": {
+      "title": "Efficient Coherence and Consistency for Specialized Memory Hierarchies",
+      "url": "Pubs/msinclair-thesis.pdf"
     },
-  
+    "projects": [],
+    "_only_at_": ["specialization"]
+  },
     {
-      "Name": "Parthasarathy Ranganathan",
-      "Source": "http://www.parthasarathys.com/",
-      "Time": "2000 (Rice University)",
-      "Employment": "Compaq Western Research Laboratory",
-      "Thesis": {
-        "name": "General-Purpose Architectures for Media Processing and Database Workloads",
-        "link": "/Pubs/2000_PhdThesis_ParthaRanganathan.pdf"
-      },
-      "Image": {
-        "link": "images/partha.jpg",
-        "width": "100",
-        "height": "109"
-      }
+    "name": "Prakalp Srivastava",
+    "url": "mailto:psrivas2@illinois.edu",
+    "image": {
+      "url": "images/srivastava.jpg",
+      "width": "100",
+      "height": "111"
+    },
+    "projects": [],
+    "year":"",
+      "_only_at_": ["specialization"]
+    },
+    {
+    "name": "Maria Kotsifakou",
+    "url": "mailto:kotsifa2@illinois.edu",
+    "image": {
+      "url": "images/kotsifakou.jpg",
+      "width": "99",
+      "height": "105"
+    },
+    "projects": [],
+    "year":"",
+      "_only_at_": ["specialization"]
     }
   ],
-  
-  "Graduated M.S. students": [
-    {
-      "Name": "Lin Cheng",
-      "Time": "2017"
+  "Current collaborators": [{
+    "name": "Vikram Adve",
+    "url": "http://vikram.cs.illinois.edu",
+    "image": {
+      "url": "images/vadve.jpg",
+      "width": "100",
+      "height": "112"
     },
-  
-    {
-      "Name": "Robert Smolinski",
-      "Time": "2013"
+    "projects": ["approx"]
+  }, {
+    "name": "Darko Marinov",
+    "url": "http://mir.cs.illinois.edu/marinov",
+    "image": {
+      "url": "images/marinov.jpg",
+      "width": "95",
+      "height": "124"
     },
-  
-    {
-      "Name": "Vibhore Vardhan",
-      "Time": "2004"
+    "projects": ["approx"]
+  }, {
+    "name": "Sasa Misailovic",
+    "url": "http://misailo.cs.illinois.edu",
+    "image": {
+      "url": "images/sasa.jpg",
+      "width": "100",
+      "height": "95"
     },
-  
-    {
-      "Name": "Ritu Gupta",
-      "Time": "2004"
+    "projects": ["approx"]
+  }, {
+    "name": "Christopher W. Fletcher",
+    "url": "http://cwfletcher.net",
+    "image": {
+      "url": "images/chrisfletcher.jpg",
+      "width": "100",
+      "height": "95"
     },
-  
-    {
-      "Name": "Rohit Jain",
-      "Time": "2002"
+    "projects": ["approx"]
+  }, {
+    "name": "Pradip Bose",
+    "url": "https://researcher.watson.ibm.com/researcher/view.php?person=us-pbose",
+    "image": {
+      "url": "images/bose.jpg",
+      "width": "100",
+      "height": "95"
     },
-  
-    {
-      "Name": "Praful Kaul",
-      "Time": "2000"
+    "projects": []
+  }, {
+    "name": "Alper Buyuktosunoglu",
+    "url": "https://researcher.watson.ibm.com/researcher/view.php?person=us-alperb",
+    "image": {
+      "url": "images/alperb.jpg",
+      "width": "100",
+      "height": "95"
     },
-  
-    {
-      "Name": "Murthy Durbhakula",
-      "Time": "1998"
+    "projects": []
+  }, {
+    "name": "Siva Hari",
+    "url": "http://research.nvidia.com/person/siva-hari",
+    "image": {
+      "url": "images/siva.jpg",
+      "width": "100",
+      "height": "95"
     },
-  
+    "projects": ["approx"]
+  },
     {
-      "Name": "Hazim Abdel-Shafi",
-      "Time": "1997"
+    "name": "Pablo Montesinos Ortego",
+    "url": "mailto:pablom@qti.qualcomm.com",
+    "image": {
+      "url": "images/pmontesinos.jpg",
+      "width": "100",
+      "height": "112"
     },
-  
-    {
-      "Name": "Tracy Harton",
-      "Time": "1997"
-    },
-  
-    {
-      "Name": "Jonathan Hall",
-      "Time": "1996"
-    }
+    "projects": [],
+      "_only_at_": ["specialization"]
+  }
   ],
-  
-  "Past visiting students and undergraduate students": [
-    {
-      "Name": "Sean Nicolay"
+  "Graduated Ph.D. students": [{
+    "name": "Matthew Sinclair",
+    "url": "http://web.engr.illinois.edu/~mdsincl2",
+    "year": "2017",
+    "employment": "Assistant Professor at University of Wisconsin - Madison",
+    "image": {
+      "url": "images/sinclair.jpg",
+      "width": "99",
+      "height": "96"
     },
-    {
-      "Name": "Paul Adamczyk"
+    "thesis": {
+      "title": "Efficient Coherence and Consistency for Specialized Memory Hierarchies",
+      "url": "Pubs/msinclair-thesis.pdf"
     },
-    {
-      "Name": "Apurva Jantrania"
+    "projects": []
+  }, {
+    "name": "Hyojin Sung",
+    "url": "http://web.engr.illinois.edu/~sung12",
+    "year": "2015",
+    "employment": "IBM Research",
+    "image": {
+      "url": "images/hyojin.jpeg",
+      "width": "99",
+      "height": "96"
     },
-    {
-      "Name": "Joshua Paul"
+    "thesis": {
+      "title": "DeNovo: Rethinking the Memory Hierarchy for Disciplined Parallelism",
+      "url": "/Pubs/Dissertation_Sung_Hyojin.pdf"
     },
-    {
-      "Name": "Chanik Park"
+    "projects": []
+  }, {
+    "name": "Rakesh Komuravelli",
+    "url": "https://rsim.cs.illinois.edu/~komurav1",
+    "year": "2014",
+    "employment": "Qualcomm Research",
+    "image": {
+      "url": "images/rakesh.JPG",
+      "width": "100",
+      "height": "102"
     },
-    {
-      "Name": "Dennis Geels"
+    "thesis": {
+      "title": "Exploiting Software Information for an Efficient Memory Hierarchy",
+      "url": "/Pubs/Rakesh_Komuravelli_thesis.pdf"
     },
-    {
-      "Name": "Michael Simon"
+    "projects": []
+  }, {
+    "name": "Siva Kumar Sastry Hari",
+    "url": "https://rsim.cs.illinois.edu/~shari2",
+    "year": "2013",
+    "employment": "NVIDIA Research",
+    "image": {
+      "url": "images/siva.jpg",
+      "width": "100",
+      "height": "102"
     },
-    {
-      "Name": "Khoa To"
+    "thesis": {
+      "title": "Preserving Application Resiliency on Unreliable Hardware",
+      "url": "/Pubs/siva-kumar-hari-thesis.pdf"
     },
-    {
-      "Name": "Tracy Harton"
+    "projects": ["approx"]
+  }, {
+    "name": "Pradeep Ramachandran",
+    "url": "http://www.pradeeprama.info/",
+    "year": "2011",
+    "employment": "Intel Corporation",
+    "image": {
+      "url": "images/pradeep.jpg",
+      "width": "100",
+      "height": "102"
     },
-    {
-      "Name": "Mathew Dumm"
-    }
-  ]
+    "thesis": {
+      "title": "Detecting and Recovering from In-core Hardware Faults through Software Anomaly Treatment",
+      "url": "/Pubs/pradeep-ramachandran-thesis.pdf"
+    },
+    "projects": []
+  }, {
+    "name": "Man-Lap (Alex) Li",
+    "url": "",
+    "year": "2009",
+    "employment": "Assistant Professor at The George Washington University",
+    "image": {
+      "url": "images/manlapli.jpg",
+      "width": "100",
+      "height": "117"
+    },
+    "thesis": {
+      "title": "WAT: Designing Resilient Hardware by Treating Software Anomalies",
+      "url": "/Pubs/alex-li-thesis.pdf"
+    },
+    "projects": []
+  }, {
+    "name": "Xiaodong (Jerry) Li",
+    "url": "http://www.connect6.com/Xiaodong-%28Jerry%29-Li/p/174125059048151204125100221206021021105006240011063163037240215099116224185006210235202017060055077210101231014140222150089007183020117039095067",
+    "year": "2008",
+    "employment": "Deutsche Bank",
+    "image": {
+      "url": "images/jerry.jpg",
+      "width": "100",
+      "height": "124"
+    },
+    "thesis": {
+      "title": "Soft Error Modeling and Analysis for Microprocessors ",
+      "url": "/Pubs/jerry-li-phd-thesis.pdf"
+    },
+    "projects": []
+  }, {
+    "name": "Jayanth Srinivasan",
+    "url": "http://www.gicn.in/person/jay-srinivasan/",
+    "year": "2006",
+    "employment": "McKinsey and Company",
+    "image": {
+      "url": "images/jayanth12.jpg",
+      "width": "100",
+      "height": "124"
+    },
+    "thesis": {
+      "title": "Lifetime Reliability Aware Microprocessors",
+      "url": "/Pubs/srinivsn-phd-thesis.pdf"
+    },
+    "projects": []
+  }, {
+    "name": "Ruchira Sasanka",
+    "url": "",
+    "year": "2005",
+    "employment": "Intel Corporation",
+    "image": {
+      "url": "images/ruchira.jpg",
+      "width": "100",
+      "height": "157"
+    },
+    "thesis": {
+      "title": "Energy Efficient Support for All Levels of Parallelism for Complex Media Applications",
+      "url": "/Pubs/sasanka-phd-thesis.pdf"
+    },
+    "projects": []
+  }, {
+    "name": "Christopher J. Hughes",
+    "url": "",
+    "year": "2003",
+    "employment": "Intel Microprocessor Research Labs",
+    "image": {
+      "url": "images/hughes_christopher.jpg",
+      "width": "71",
+      "height": "98"
+    },
+    "thesis": {
+      "title": "General-Purpose Processors for Multimedia Applications: Predictability and Energy Efficiency",
+      "url": ""
+    },
+    "projects": []
+  }, {
+    "name": "Vijay S. Pai",
+    "url": "http://cobweb.ecn.purdue.edu/~vpai/",
+    "year": "2000 (Rice University)",
+    "employment": "Assistant Professor at Rice University",
+    "image": {
+      "url": "images/vsp.jpg",
+      "width": "98",
+      "height": "136"
+    },
+    "thesis": {
+      "title": "Exploiting Instruction-Level Parallelism for Memory System Performance",
+      "url": "/Pubs/phdthesis-pai.pdf"
+    },
+    "projects": []
+  }, {
+    "name": "Parthasarathy Ranganathan",
+    "url": "http://www.parthasarathys.com/",
+    "year": "2000 (Rice University)",
+    "employment": "Compaq Western Research Laboratory",
+    "image": {
+      "url": "images/partha.jpg",
+      "width": "100",
+      "height": "109"
+    },
+    "thesis": {
+      "title": "General-Purpose Architectures for Media Processing and Database Workloads",
+      "url": "/Pubs/2000_PhdThesis_ParthaRanganathan.pdf"
+    },
+    "projects": []
+  }],
+  "Graduated M.S. students": [{
+    "name": "Lin Cheng",
+    "year": "2017",
+    "projects": []
+  }, {
+    "name": "Robert Smolinski",
+    "year": "2013",
+    "projects": []
+  }, {
+    "name": "Vibhore Vardhan",
+    "year": "2004",
+    "projects": []
+  }, {
+    "name": "Ritu Gupta",
+    "year": "2004",
+    "projects": []
+  }, {
+    "name": "Rohit Jain",
+    "year": "2002",
+    "projects": []
+  }, {
+    "name": "Praful Kaul",
+    "year": "2000",
+    "projects": []
+  }, {
+    "name": "Murthy Durbhakula",
+    "year": "1998",
+    "projects": []
+  }, {
+    "name": "Hazim Abdel-Shafi",
+    "year": "1997",
+    "projects": []
+  }, {
+    "name": "Tracy Harton",
+    "year": "1997",
+    "projects": []
+  }, {
+    "name": "Jonathan Hall",
+    "year": "1996",
+    "projects": []
+  }],
+  "Past visiting students and undergraduate students": [{
+    "name": "Sean Nicolay",
+    "projects": ["specialization"]
+  }, {
+    "name": "Paul Adamczyk",
+    "projects": []
+  }, {
+    "name": "Apurva Jantrania",
+    "projects": []
+  }, {
+    "name": "Joshua Paul",
+    "projects": []
+  }, {
+    "name": "Chanik Park",
+    "projects": []
+  }, {
+    "name": "Dennis Geels",
+    "projects": []
+  }, {
+    "name": "Michael Simon",
+    "projects": []
+  }, {
+    "name": "Khoa To",
+    "projects": []
+  }, {
+    "name": "Tracy Harton",
+    "projects": []
+  }, {
+    "name": "Mathew Dumm",
+    "projects": []
+  }]
 }

@@ -1,30 +1,17 @@
 import os
 import re
 from . import CommandLineHandler
-from . import BookKeeping
 
 
 class Managing:
-
-    def __init__(self, source_path_is, content_replace_keywords_with, dump_file_name_is, content_file_name_is, script_file_name_is, base_file_name_is='base.html', data_file_is=''):
+    def __init__(self, source_path_is, content_replace_keywords_with, dump_file_name_is, content_file_name_is, script_file_name_is, base_file_name_is='base.html'):
         self._dump_file_name = dump_file_name_is
-        self._data_file_name = data_file_is
         self._content_file_name = content_file_name_is
         self._script_file_name = script_file_name_is
         self._base_file_name = base_file_name_is
         self._path = source_path_is
         self._content_populator = content_replace_keywords_with
-        self._book_keeping = BookKeeping.BookKeeping(time_stamp_directory_path=self.get_project_path())
         self._command_line_handler = CommandLineHandler.CommandLineHandler(self.merge_and_dump, self.get_dump_file_name())
-
-    def get_data_file_name(self):
-        return self._data_file_name
-
-    def get_data_file_path(self):
-        if self._data_file_name != '':
-            return os.path.join(self._path, self._data_file_name)
-        else:
-            return ''
 
     def get_dump_file_name(self):
         return self._dump_file_name
@@ -56,23 +43,10 @@ class Managing:
     def execute_as_main(self, parent_manage_script_is):
         self._command_line_handler.main_exec_interface(
             parent_manage_script=parent_manage_script_is,
-            book_keeping=self._book_keeping,
-            dump_file_path=self.get_dump_file_path(),
-            content_file_path=self.get_content_file_path(),
-            script_file_path=self.get_script_file_path(),
-            base_file_path=self.get_base_file_path(),
-            data_file_path=self.get_data_file_path()
         )
 
     def execute_as_module(self):
-        self._command_line_handler.sub_exec_interface(
-            book_keeping=self._book_keeping,
-            dump_file_path=self.get_dump_file_path(),
-            content_file_path=self.get_content_file_path(),
-            script_file_path=self.get_script_file_path(),
-            base_file_path=self.get_base_file_path(),
-            data_file_path=self.get_data_file_path()
-        )
+        self._command_line_handler.sub_exec_interface()
 
     def merge_and_dump(self):
         with open(self.get_content_file_path(), 'r') as content, open(self.get_base_file_path(), 'r') as base:
@@ -94,13 +68,7 @@ class Managing:
             self.replaceBaseWithContent(configurations, base_structure, contents_structure)
         with open(self.get_dump_file_path(), 'w') as target:
             target.write(''.join(base_structure))
-            self._book_keeping.updateTimeStamp(
-                dump_file_path=self.get_dump_file_path(),
-                content_file_path=self.get_content_file_path(),
-                script_file_path=self.get_script_file_path(),
-                base_file_path=self.get_base_file_path(),
-                data_file_path=self.get_data_file_path()
-            )
+
 
     def replaceBaseWithContent(self, configurations, base_structure, contents_structure):
 

@@ -1,57 +1,150 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>Scalable Specialization</title>
-	<link href="../style/universal.css" rel="stylesheet" type="text/css"/>
-	<link href="../style/style1.css" rel="stylesheet" type="text/css" />
-
-	<style type="text/css">
-		.hetero_index_span{
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Scalable Specialization</title>
+    <link href="../style/style1.css" rel="stylesheet" type="text/css"/>
+    <link href="../style/universal.css" rel="stylesheet" type="text/css"/>
+    
+        <style type="text/css">
+        .hetero_index_span{
 			color: rgb(51, 51, 102);
 			text-align: center;
 		}
-	</style>
+		</style>
+		
 </head>
 <body>
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
-	<tbody>
-		<?php include 'specialization_header.html';?>
-		<tr>
-			<td class="shadow_left"></td>
-			<td class="main_content_box">
-			<table cellpadding="0" cellspacing="0" class="style5" width="100%">
-				<tbody>
-					<tr>
-						<td class="body_content" valign="top">
-							<div class="style13">&nbsp;</div>
-						<p align="justify"><span class="style12">In nearly all compute domains, architectures are increasingly relying on parallelism and hardware specialization to exceed the limits of single core performance. GPUs, FPGAs, and other specialized accelerators are being incorporated into systems ranging from mobile devices to supercomputers to data centers, offering new challenges and opportunities to both hardware and software designers.<br />
-						<br />
-						One of the biggest challenges in this area is efficient data movement. Growth in compute throughput has far exceeded that of memory throughput in specialized devices, while Amdahl&#39;s Law has motivated a push to deliver efficiency gains for workloads with irregular sharing and fine-grain synchronization. Conventional heterogeneous programming paradigms which offload coarse-grain tasks to accelerators and require communication through memory (or worse, explicit off-chip data transfer) cannot meet these new requirements.&nbsp;</span></p>
+    <tbody>
 
-						<p align="justify"><span style="color: rgb(51, 51, 102); "><span class="style12">This project focuses on developing architectures and programming interfaces which can flexibly, efficiently, and simply accommodate these rapidly evolving memory demands. Our cross-layer research includes innovations in coherence protocols and consistency models for heterogeneous systems, novel application-customized coherent storage structures for specialized devices, hardware and software scheduling strategies for heterogeneous workloads, innovations to enable coherent data movement and automatic generation of efficient compute designs in configurable hardware (e.g., FPGAs), a novel hardware-software interface that redefines the notion of an ISA for heterogeneous computing, and innovations in applications to make them amenable to future heterogeneous systems.</span></span></p>
-						<br />
-						<span class="style12"><img alt="Scalable Heterogeneous Compute Architecture" height="300" src="images/ADA_hetero_img.png" /> </span>
+    <tr>
+        <td class="shadow_left"></td>
+        <td class="header_column">
+            <table border="0" cellpadding="0" cellspacing="10" width="100%">
+                <tbody>
 
-						<p align="center"></p>
-						<span class="style12"> </span>
+                <tr>
+                    <td class="logo_area" style="font-size: x-large; height: 48px;"><a class="style9" href="index.html"><span class="style11"><strong>Scalable Specialization</strong></span></a></td>
+                </tr>
+                <tr>
+                    <td class="logo_area" style="font-size: x-large"><strong><a class="style9" href="../index.html"><span
+                            class="style11">Sarita Adve&#39;s Research Group</span></a></strong></td>
+                    <th class="logo_area" rowspan="2"><img alt="" src="../images_template1/bold50.gif"/></th>
+                </tr>
+                <tr>
+                    <th class="sub_logo_area"><a class="style9" href="http://illinois.edu"><span class="style10">University of Illinois at Urbana-Champaign </span></a>
+                    </th>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="shadow_right"></td>
+    </tr>
 
-						<p align="justify"><strong>Recent results</strong></p>
+    <!--HEADER STARTS HERE -->
+    <tr>
+        <td class="horizontal_column"></td>
+        <td>
+            <table border="0" cellpadding="0" cellspacing="0" class="linkcontainer" width="100%">
+                <tbody>
+                <tr>
+                    <td>
+                        <div class="navigation" style="font-size: medium"><a class="main_link" href="index.html">Home</a></div>
+                    </td>
+                    <td>
+                        <div class="navigation" style="font-size: medium"><a class="main_link" href="people.html">People</a></div>
+                    </td>
+                    <td>
+                        <div class="navigation" style="font-size: medium"><a class="main_link" href="pubs.html">Publications</a>
+                        </div>
+                    </td>
 
-						<p align="justify">Our recent work has questioned conventional wisdom in industry on coherence protocols and consistency models for heterogeneous systems. Industry efforts to improve efficiency for emerging heterogeneous workloads (especially for GPUs) have tended to add complexity to the programming model through the use of non-coherent scratchpads, scoped synchronization, and relaxed atomics. Each of these methods trades efficiency for reduced programmability and limited usability.</p>
+                    <td>
+                        <div class="navigation" style="font-size: medium"><a class="main_link" href="funding.html">Funding</a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="navigation" style="font-size: medium"><a class="main_link" href="../news.html">News</a>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="horizontal_column"></td>
+    </tr>
+    <!--HEADER ENDS HERE -->
+    <tr>
+        <td class="shadow_left"></td>
+        <td class="main_content_box">
+            <table cellpadding="0" cellspacing="0" class="style5" width="100%">
+                <tbody>
+                <tr>
+                    <!--MAIN CONTENTS STARTS HERE-->
+                    
+                    <td class="body_content" valign="top">
+                    
+<div class="style13">&nbsp;</div>
+<p align="justify"><span class="style12">In nearly all compute domains, architectures are increasingly relying on parallelism and hardware specialization to exceed the limits of single core performance. GPUs, FPGAs, and other specialized accelerators are being incorporated into systems ranging from mobile devices to supercomputers to data centers, offering new challenges and opportunities to both hardware and software designers.<br/>
+						<br/>
+						One of the biggest challenges in this area is efficient data movement. Growth in compute throughput has far exceeded that of memory throughput in specialized devices, while Amdahl&#39;s Law has motivated a push to deliver efficiency gains for workloads with irregular sharing and fine-grain synchronization. Conventional heterogeneous programming paradigms which offload coarse-grain tasks to accelerators and require communication through memory (or worse, explicit off-chip data transfer) cannot meet these new requirements.&nbsp;</span>
+</p>
 
-						<p align="justify"><br />
-						<span class="style12">Building on our past work on the DeNovo project and the data-race-free memory model, we have&nbsp;shown that it is possible to achieve high GPU cache efficiency without burdening the programmer with added complexity. The coherent stash architecture offers the efficiency benefits of a directly addressed scratchpad while also offering the programmability and global addressability of a coherent cache (ISCA 2015). We have proposed and evaluated the use of the DeNovo coherence protocol for GPU caches (MICRO 2015), and found that high cache reuse is possible in the presence of frequent synchronization without relying on scoped synchronization. Finally, we have defined DRF-Relaxed (ISCA 2017), which formalizes safe use cases of atomic relaxation and offers simple SC-centric semantics for programs which use them. Our work has&nbsp;been recognized as honorable mentions for IEEE Micro Top Picks, the Kuck PhD thesis award, keynote and other invited talks, and has led to multiple industry collaborations.</span><br />
-						&nbsp;</p>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-			</td>
-			<td class="shadow_right"></td>
-		</tr>
-		<?php include '../footer.html';?>
-	</tbody>
+<p align="justify"><span style="color: rgb(51, 51, 102); "><span class="style12">This project focuses on developing architectures and programming interfaces which can flexibly, efficiently, and simply accommodate these rapidly evolving memory demands. Our cross-layer research includes innovations in coherence protocols and consistency models for heterogeneous systems, novel application-customized coherent storage structures for specialized devices, hardware and software scheduling strategies for heterogeneous workloads, innovations to enable coherent data movement and automatic generation of efficient compute designs in configurable hardware (e.g., FPGAs), a novel hardware-software interface that redefines the notion of an ISA for heterogeneous computing, and innovations in applications to make them amenable to future heterogeneous systems.</span></span>
+</p>
+<br/>
+<span class="style12"><img alt="Scalable Heterogeneous Compute Architecture" height="300"
+                           src="images/ADA_hetero_img.png"/> </span>
+
+<p align="center"></p>
+<span class="style12"> </span>
+
+<p align="justify"><strong>Recent results</strong></p>
+
+<p align="justify">Our recent work has questioned conventional wisdom in industry on coherence protocols and consistency
+    models for heterogeneous systems. Industry efforts to improve efficiency for emerging heterogeneous workloads
+    (especially for GPUs) have tended to add complexity to the programming model through the use of non-coherent
+    scratchpads, scoped synchronization, and relaxed atomics. Each of these methods trades efficiency for reduced
+    programmability and limited usability.</p>
+
+<p align="justify"><br/>
+    <span class="style12">Building on our past work on the DeNovo project and the data-race-free memory model, we have&nbsp;shown that it is possible to achieve high GPU cache efficiency without burdening the programmer with added complexity. The coherent stash architecture offers the efficiency benefits of a directly addressed scratchpad while also offering the programmability and global addressability of a coherent cache (ISCA 2015). We have proposed and evaluated the use of the DeNovo coherence protocol for GPU caches (MICRO 2015), and found that high cache reuse is possible in the presence of frequent synchronization without relying on scoped synchronization. Finally, we have defined DRF-Relaxed (ISCA 2017), which formalizes safe use cases of atomic relaxation and offers simple SC-centric semantics for programs which use them. Our work has&nbsp;been recognized as honorable mentions for IEEE Micro Top Picks, the Kuck PhD thesis award, keynote and other invited talks, and has led to multiple industry collaborations.</span><br/>
+    &nbsp;</p>
+
+
+                    </td>
+                    
+                    <!--MAIN CONTENTS ENDS HERE-->
+                </tr>
+                </tbody>
+            </table>
+        </td>
+        <td class="shadow_right"></td>
+    </tr>
+    <!--FOOTER STARTS HERE-->
+    <tr>
+        <td class="shadow_left">&nbsp;</td>
+        <td class="middle_spacer">
+            <div class="bottom_content"></div>
+        </td>
+        <td class="shadow_right">&nbsp;</td>
+    </tr>
+    <tr>
+        <td class="shadow_left">&nbsp;</td>
+        <td class="bottom_link_container">
+            <p>
+            </p>
+            <p>
+                <!-- All Right Reserved &copy; 2006 by bprizze<br /> -->
+                <!-- http://heartlessg.4uhost.info Web Master -->
+            </p>
+        </td>
+        <td class="shadow_right">&nbsp;</td>
+    </tr>
+    <!--FOOTER ENDS HERE-->
+    </tbody>
 </table>
 </body>
 </html>

@@ -36,3 +36,22 @@ class TextGenerator:
 
     def transitionGenerator(self):
         return '{} is being updated!'.format(self.page_name)
+
+    @staticmethod
+    def at_least_one_sorted_error(*keys):
+        temp = [key for key in keys]
+        temp = ' '.join(temp)
+        print('At least one of '+temp+' not in object! Proceed to sorting by single key!')
+
+    @staticmethod
+    def sort_key_does_not_exist(key):
+        print(key + ' does not exist in the object!')
+
+    @staticmethod
+    def sort_failed():
+        print('Sorting failed! Proceed without sorting!')
+
+    @staticmethod
+    def time_does_not_exist():
+        print('Time attribute does not exist in the dictionary. Proceed with year attribute.')
+
