@@ -1,20 +1,12 @@
 import os, sys
 from . import CommandLineHandler
+from .TextGenerator import TextGenerator as text_gen
 
-def FileDispatcher(file_array, call_back, called_as_main=False, specific_file=''):
+def FileDispatcher(file_array, call_back, called_as_main=False, specific_file='', project_name=''):
     # Should be able to be called as main, when target file can either be provided when called or inputed from command line. If not called as main then requires specific file, or will update all
-    if called_as_main:
-        prompt = '''
-This script will first check whether interface.bib file has changed and try to update it. If the bibtex file is not empty, then it will clear the file after merging it with publications
-
-Then it will try to execute following files: 
-    {}
-If you want to update the entire website, you may want to try 'Manage.py'
-            '''.format(', '.join(file_array))
-        print(prompt)
-
 
     if called_as_main:
+        print(text_gen.file_dispatcher_prompt(project_name, file_array))
         if specific_file == '':
             argument = CommandLineHandler.CommandLineHandler().parseArguments(argv=sys.argv)
             if argument == 'none':
@@ -25,9 +17,9 @@ If you want to update the entire website, you may want to try 'Manage.py'
                 else:
                     call_back()
             elif argument != 'all' and argument in file_array:
-                print('Updating {} now!'.format(argument))
+                print('Updating {0} now in the project {1}!'.format(argument, project_name))
                 call_back(argument)
-                print('{} has been updated!'.format(argument))
+                print('{0} has been updated in the project {1}!'.format(argument, project_name))
             elif argument == 'all':
                 call_back()
             else:
@@ -45,11 +37,11 @@ If you want to update the entire website, you may want to try 'Manage.py'
         if specific_file in file_array:
             call_back(specific_file)
         else:
-            print('Updating all files now!')
+            print('Updating all files now in the project {}!'.format(project_name))
             call_back()
             return
 
-    finish = 'Finish executing this sub-manage script!'
+    finish = 'Finish executing this sub-manage script in project '+project_name+'! \n'
     print(finish)
 
 

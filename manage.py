@@ -3,14 +3,10 @@ import Sources.utils
 import Sources.manage_main
 import approx.Sources.manage_main
 import specialization.Sources.manage_main
+import Sources.utils.TextGenerator
 
 if __name__=='__main__':
-    prompt = '''
-This script will update all HTML and json files if they have been modified or need to be modified (i.e. interface.bib is not empty meaning that publication.json needs to be updated).
-
-This script does not accept individual file arguments.
-    '''
-    print(prompt)
+    print(Sources.utils.TextGenerator.TextGenerator.toplevel_manage_prompt())
     argument = Sources.utils.CommandLineHandler.CommandLineHandler().parseArguments(sys.argv)
     if argument == 'all':
         Sources.manage_main.dispatcher()

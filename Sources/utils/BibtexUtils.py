@@ -4,6 +4,9 @@ from .TextGenerator import TextGenerator as text_gen
 
 
 class BibtexUtils:
+    '''
+    This class consists of static method only
+    '''
     @staticmethod
     def convert_month_to_number(string):
         if string == '':
@@ -101,7 +104,7 @@ class BibtexUtils:
     def get_bibtex_parser():
         '''
         Generates customized parser
-        :return: BibTex parser
+        :return: customized BibTex parser
         '''
         parser = bibtexparser.bparser.BibTexParser()
         parser.ignore_nonstandard_types = False
@@ -121,8 +124,15 @@ class BibtexUtils:
 
     @staticmethod
     def sort_by_keys(object, key1='year', key2='month', reverse=True):
+        '''
+        Sort the object and return the sorted result
+        :param object: a list of dictionary
+        :param key1: a string
+        :param key2: a string
+        :param reverse: bool
+        :return: a list of dictionary
+        '''
         if key1 == 'year' and key2 == 'month':
-
             sorted_object = sorted(
                 object,
                 key=lambda dictionary: (int(dictionary['year'].strip()), int(dictionary['month'].strip())),
@@ -155,6 +165,12 @@ class BibtexUtils:
 
     @staticmethod
     def write_to_bibtex_file(file_path, object):
+        '''
+        Create a bibtex file and write to it
+        :param file_path: a string
+        :param object: an object -> should be a list of dictionary
+        :return: None
+        '''
         with open(file_path, 'w') as file:
             writer = bibtexparser.bwriter.BibTexWriter()
             database = bibtexparser.bibdatabase.BibDatabase()
@@ -174,12 +190,19 @@ class BibtexInterface:
                  phdthesis_path='publication_bibtex/msthesis.bib',
                  talk_path='publication_bibtex/talk.bib'
                  ):
+        # Default must be overridden when used for project-level files. Examples see update_people and update_news in approx or specialization project
         self.msthesis_path = msthesis_path
         self.paper_path = paper_path
         self.phdthesis_path = phdthesis_path
         self.talk_path = talk_path
 
     def extract_msthesis_list(self, project=''):
+        '''
+        Generates a list of dictionaries based on the filtering criteria project
+        :param project: a string of project
+        :return: a list of dictionaries
+        '''
+        # must use customzied parser here
         parser = BibtexUtils.get_bibtex_parser()
         with open(self.msthesis_path, 'r') as file:
             msthesis = bibtexparser.load(file, parser).entries
@@ -222,8 +245,8 @@ class BibtexInterface:
         # ID collision is handled by adding two arbitrary CAPITAL letters immediately after the original ID
 
         # precedence:
-        #   entries preceded by _ has higher precedence than Google Scholar generated entries when displayed on webpage
-        #   but when using bibtex directly for external purposes, all _ entries should be removed
+        #   entries preceded by _ has higher precedence than Google Scholar generated entries when displayed on webpage, as they are manually added rather than Google Scholar generated
+        #   but when using bibtex directly for citation purposes, all _ entries should be removed
         #       _author > author
         #       _booktitle > booktitle
         #       _conference > journal + booktitle + organization + pages + publisher + volume + number -> respect the original content and structure when displaying instead of automatically generated ones
@@ -254,16 +277,25 @@ class BibtexInterface:
         return ['ENTRYTYPE', 'ID', 'author', 'italicsnote', 'month', 'projects', 'title', 'url', 'year']
 
     def generate_paper_html(self, paper_list):
+        '''
+        Generate HTML from a list of dictionaries whose attributes should be specified in respective functions get_all_*_entries above
+        :param paper_list: a list of dictionaries
+        :return: a list of strings
+        '''
+
+        # ALL ENTRIES CAN BE EMPTY
 
         # structure: title, author, statusnote, (conference)/(journal/booktitle + volume + number + pages + year). boldnote. statusnote
+
         paper_html = []
         for item in paper_list:
 
+            # process title
             title = item['_title'] if '_title' in item else item['title']
             if title != '':
                 title = tags.a(content=title, href=item['_url'])
-            # author = item['_author'] if '_author' in item else item['author']
 
+            # process author
             author = ''
             if '_author' in item:
                 author = item['_author']
@@ -271,6 +303,7 @@ class BibtexInterface:
                 author = item['author']
             author = ', '.join(BibtexUtils.extract_list_author(author))
 
+            # process conference
             conference = item['_conference'] if '_conference' in item else ''
 
             if conference == '':
@@ -294,16 +327,19 @@ class BibtexInterface:
 
                 conference = tags.connect_elements(conference, volume, number, pages)
 
+            # process year
             try:
                 year = item['_year'] if '_year' in item else item['year']
             except KeyError:
                 year = ''
 
+            # process month
             month = str(item['_month']) if '_month' in item else ''
 
             if year not in conference:
                 tags.connect_elements(conference, year)
 
+            # process auxiliary notes
             status = item['_statusnote'] if '_statusnote' in item else ''
             bold = item['_boldnote'] if '_boldnote' in item else ''
             if bold != '':
@@ -317,6 +353,7 @@ class BibtexInterface:
             if month == '':
                 month = '0'
 
+            # this dictionary is used in sorting, since it is cleaned
             paper_html.append(
                 {
                     'year': year,

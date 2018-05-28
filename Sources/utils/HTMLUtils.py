@@ -1,4 +1,8 @@
 class HTMLUtils:
+    '''
+    This class contains only static methods.
+    SUGGESTIONS: use beautifulsoup in the future as it provides more functionality and is more robust to different use cases
+    '''
     @staticmethod
     def a(content='', href='', class_is=''):
         content_value = content

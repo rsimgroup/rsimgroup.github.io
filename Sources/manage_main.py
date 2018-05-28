@@ -33,7 +33,8 @@ def dispatcher(isMain=False, specific_file=''):
         ],
         call_back=execute_all,
         called_as_main=isMain,
-        specific_file=specific_file
+        specific_file=specific_file,
+        project_name='main'
     )
 
 if __name__=='__main__':

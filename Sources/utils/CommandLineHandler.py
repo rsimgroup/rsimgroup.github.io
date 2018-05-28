@@ -25,6 +25,11 @@ class CommandLineHandler:
             return 'none'
 
     def main_exec_interface(self, parent_manage_script):
+        '''
+        This method allows user to interact with the script when it is executed as main
+        :param parent_manage_script: a string; the name of the project-level manage_main.py file
+        :return: None
+        '''
         prompt = self.prompt_generator.promptGenerator(parent_manage_script)
         print(prompt)
 
@@ -44,5 +49,9 @@ class CommandLineHandler:
 
 
     def sub_exec_interface(self):
+        '''
+        This function is called when the script is used as a module of a top-level file
+        :return: None
+        '''
         self.next_function()
         print(self.prompt_generator.exitGenerator(isFinish=True))
