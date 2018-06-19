@@ -1,29 +1,20 @@
-import utils
+from Sources import utils
 import os
 
 def dispatcher(isMain=False):
-    page = utils.Managing.Managing(
-        source_path_is=os.path.dirname(__file__),
-        content_replace_keywords_with=addContents,
-        dump_file_name_is='../people.html',
-        content_file_name_is='contents_people.html',
+    utils.Managing.ManageWrapper(
+        add_content_from_function=addContents,
         script_file_name_is=__file__,
-        base_file_name_is='base.html',
+        isMain=isMain
     )
-    if isMain:
-        page.execute_as_main(parent_manage_script_is='manage_main.py')
-    else:
-        page.execute_as_module()
 
 
 
 def addContents(configurations, base_structure, contents_structure, sources_path):
 
-        application_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        interface = utils.JSONUtils.JSONInterface(people_json_path=os.path.join(application_path, 'Sources/people.json'))
-        interface.load_file(target_file='people')
+        interface = utils.JSONUtils.JSONInterface(file_path='people.json', target='people')
 
-        style = '''
+        style = """
         <style type="text/css">
             .align_text_right {
                 text-align: right;
@@ -35,7 +26,7 @@ def addContents(configurations, base_structure, contents_structure, sources_path
               width: 25%;
             }
         </style>
-        '''
+        """
 
         title = 'Approximation: People'
 

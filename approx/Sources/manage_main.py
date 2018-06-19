@@ -1,12 +1,13 @@
-import utils
-import approx.Sources.update_funding, approx.Sources.update_people, approx.Sources.update_pubs, approx.Sources.update_index
+from Sources import utils
+from . import update_funding, update_people, update_pubs, update_index
+
 
 def execute_all(specific_file=''):
     all_files = {
-        'update_index': approx.Sources.update_index.dispatcher,
-        'update_pubs': approx.Sources.update_pubs.dispatcher,
-        'update_people': approx.Sources.update_people.dispatcher,
-        'update_funding': approx.Sources.update_funding.dispatcher
+        'update_index': update_index.dispatcher,
+        'update_pubs': update_pubs.dispatcher,
+        'update_people': update_people.dispatcher,
+        'update_funding': update_funding.dispatcher
     }
     specific_function = all_files.get(specific_file, None)
 
@@ -30,6 +31,7 @@ def dispatcher(isMain=False, specific_file=''):
         specific_file=specific_file,
         project_name='approx'
     )
+
 
 if __name__=='__main__':
     dispatcher(isMain=True)

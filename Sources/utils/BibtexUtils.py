@@ -1,12 +1,51 @@
 import bibtexparser
+import os
 from .HTMLUtils import HTMLUtils as tags
 from .TextGenerator import TextGenerator as text_gen
 
 
 class BibtexUtils:
-    '''
+    """
     This class consists of static method only
-    '''
+    """
+    @staticmethod
+    def sanitize_year_and_month(year, month):
+        """
+        Year and month can be of any type
+        :param year: preferably str or int
+        :param month: preferably str or int
+        :return: tuple of ('year', 'month')
+        """
+        if year is None:
+            sanitized_year = '0'
+        elif isinstance(year, str):
+            try:
+                int(year)
+                sanitized_year = year
+            except ValueError:
+                sanitized_year = '0'
+        elif isinstance(year, int):
+            sanitized_year = str(year)
+        else:
+            raise ValueError('Year argument must be of type str or int')
+
+        if month is None:
+            sanitized_month = '0'
+        elif isinstance(month, str):
+            try:
+                # the case where month is str(int)
+                int(month)
+                sanitized_month = month
+            except ValueError:
+                # the case where month is str(month) or month is empty
+                sanitized_month = str(BibtexUtils.convert_month_to_number(month))
+        elif isinstance(month, int):
+            sanitized_month = str(month)
+        else:
+            raise ValueError('Month argument must be of type str or int')
+
+        return sanitized_year, sanitized_month
+
     @staticmethod
     def convert_month_to_number(string):
         if string == '':
@@ -43,7 +82,7 @@ class BibtexUtils:
             }.get(string, 0)
 
     @staticmethod
-    def convert_number_to_month(number, abbreviation='False'):
+    def convert_number_to_month(number, abbreviation=False):
         string = str(number)
         if abbreviation:
             return {
@@ -82,11 +121,11 @@ class BibtexUtils:
 
     @staticmethod
     def generate_string_author(author):
-        '''
+        """
         Generates BibTex-format author string
         :param author: a list of strings -> each entry must be in the form of 'First_Name Middle_name Last_name'; or a string -> must also follow the same pattern
         :return: a string
-        '''
+        """
         if isinstance(author, (list,)):
             formatted_author = []
             for author_item in author:
@@ -102,75 +141,75 @@ class BibtexUtils:
 
     @staticmethod
     def get_bibtex_parser():
-        '''
+        """
         Generates customized parser
         :return: customized BibTex parser
-        '''
+        """
         parser = bibtexparser.bparser.BibTexParser()
         parser.ignore_nonstandard_types = False
         return parser
 
     @staticmethod
     def extract_list_author(author):
-        '''
+        """
         Generates a list of authors.
         :param author: a string, must be separated by 'and'
         :return: a list of strings, each in the format of 'First_name Middle_name Last_name'
-        '''
+        """
         if author == '':
             return ''
         temp_author = [' '.join(author_item.split(',')[::-1]) for author_item in author.split(' and ')]
         return [author_item.strip() for author_item in temp_author]
 
     @staticmethod
-    def sort_by_keys(object, key1='year', key2='month', reverse=True):
-        '''
+    def sort_by_keys(list_of_dictionary, key1='year', key2='month', reverse=True):
+        """
         Sort the object and return the sorted result
-        :param object: a list of dictionary
+        :param list_of_dictionary: a list of dictionary
         :param key1: a string
         :param key2: a string
         :param reverse: bool
         :return: a list of dictionary
-        '''
+        """
         if key1 == 'year' and key2 == 'month':
             sorted_object = sorted(
-                object,
+                list_of_dictionary,
                 key=lambda dictionary: (int(dictionary['year'].strip()), int(dictionary['month'].strip())),
                 reverse=reverse
             )
             return sorted_object
         if key1 != '' and key2 != '':
             try:
-                sorted_object = sorted(object, key=lambda dictionary: (dictionary[key1], dictionary[key2]), reverse=reverse)
+                sorted_object = sorted(list_of_dictionary, key=lambda dictionary: (dictionary[key1], dictionary[key2]), reverse=reverse)
                 return sorted_object
             except KeyError:
                 text_gen.at_least_one_sorted_error(key1, key2)
         if key1 != '':
             try:
-                sorted_object = sorted(object, key=lambda dictionary: dictionary[key1], reverse=reverse)
+                sorted_object = sorted(list_of_dictionary, key=lambda dictionary: dictionary[key1], reverse=reverse)
                 return sorted_object
             except KeyError:
                 text_gen.sort_key_does_not_exist(key1)
 
         if key2 != '':
             try:
-                sorted_object = sorted(object, key=lambda dictionary: dictionary[key2], reverse=reverse)
+                sorted_object = sorted(list_of_dictionary, key=lambda dictionary: dictionary[key2], reverse=reverse)
                 return sorted_object
             except KeyError:
                 text_gen.sort_key_does_not_exist(key2)
         else:
-            sorted_object = object
+            sorted_object = list_of_dictionary
             text_gen.sort_failed()
             return sorted_object
 
     @staticmethod
     def write_to_bibtex_file(file_path, object):
-        '''
+        """
         Create a bibtex file and write to it
         :param file_path: a string
         :param object: an object -> should be a list of dictionary
         :return: None
-        '''
+        """
         with open(file_path, 'w') as file:
             writer = bibtexparser.bwriter.BibTexWriter()
             database = bibtexparser.bibdatabase.BibDatabase()
@@ -187,21 +226,25 @@ class BibtexInterface:
     def __init__(self,
                  msthesis_path='publication_bibtex/msthesis.bib',
                  paper_path='publication_bibtex/paper.bib',
-                 phdthesis_path='publication_bibtex/msthesis.bib',
+                 phdthesis_path='publication_bibtex/phdthesis.bib',
                  talk_path='publication_bibtex/talk.bib'
                  ):
         # Default must be overridden when used for project-level files. Examples see update_people and update_news in approx or specialization project
-        self.msthesis_path = msthesis_path
-        self.paper_path = paper_path
-        self.phdthesis_path = phdthesis_path
-        self.talk_path = talk_path
+
+        self.msthesis_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), msthesis_path) if msthesis_path=='publication_bibtex/msthesis.bib' else msthesis_path
+
+        self.paper_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), paper_path) if paper_path=='publication_bibtex/paper.bib' else paper_path
+
+        self.phdthesis_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), phdthesis_path) if phdthesis_path=='publication_bibtex/phdthesis.bib' else phdthesis_path
+
+        self.talk_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), talk_path) if talk_path=='publication_bibtex/talk.bib' else talk_path
 
     def extract_msthesis_list(self, project=''):
-        '''
+        """
         Generates a list of dictionaries based on the filtering criteria project
         :param project: a string of project
         :return: a list of dictionaries
-        '''
+        """
         # must use customzied parser here
         parser = BibtexUtils.get_bibtex_parser()
         with open(self.msthesis_path, 'r') as file:
@@ -277,11 +320,11 @@ class BibtexInterface:
         return ['ENTRYTYPE', 'ID', 'author', 'italicsnote', 'month', 'projects', 'title', 'url', 'year']
 
     def generate_paper_html(self, paper_list):
-        '''
+        """
         Generate HTML from a list of dictionaries whose attributes should be specified in respective functions get_all_*_entries above
         :param paper_list: a list of dictionaries
         :return: a list of strings
-        '''
+        """
 
         # ALL ENTRIES CAN BE EMPTY
 
@@ -303,9 +346,10 @@ class BibtexInterface:
                 author = item['author']
             author = ', '.join(BibtexUtils.extract_list_author(author))
 
-            # process conference
+            # customized conference
             conference = item['_conference'] if '_conference' in item else ''
 
+            # meaning the script should search in Google Scholar entries
             if conference == '':
                 if 'journal' in item:
                     conference = item['journal']
@@ -313,6 +357,19 @@ class BibtexInterface:
                     conference = item['_booktitle']
                 elif 'booktitle' in item:
                     conference = item['booktitle']
+
+                # the case where the booktitle ends with 'on'
+                if 'on' == conference[-2:]:
+                    if '. ' in conference:
+                        elements = conference.split('. ')
+                        elements.insert(0, elements.pop())
+                        elements[0:2] = [' '.join(elements[0:2])]
+                        conference = '. '.join(elements)
+                    elif ', ' in conference:
+                        elements = conference.split(', ')
+                        elements.insert(0, elements.pop())
+                        elements[0:2] = [' '.join(elements[0:2])]
+                        conference = ', '.join(elements)
 
                 if '_volume' in item:
                     volume = 'vol. ' + item['_volume']
@@ -337,7 +394,8 @@ class BibtexInterface:
             month = str(item['_month']) if '_month' in item else ''
 
             if year not in conference:
-                tags.connect_elements(conference, year)
+                conference = tags.connect_elements(conference, BibtexUtils.convert_number_to_month(month), year)
+
 
             # process auxiliary notes
             status = item['_statusnote'] if '_statusnote' in item else ''
@@ -348,10 +406,7 @@ class BibtexInterface:
             if italics != '':
                 italics = tags.em(content=italics)
 
-            if year == '':
-                year = '0'
-            if month == '':
-                month = '0'
+            year, month = BibtexUtils.sanitize_year_and_month(year, month)
 
             # this dictionary is used in sorting, since it is cleaned
             paper_html.append(
@@ -388,10 +443,7 @@ class BibtexInterface:
             italics = item['italicsnote'] if 'italicsnote' in item else ''
             html = tags.li(content=tags.connect_elements(title, author, time, italics)+'<br/>&nbsp;<br/>', class_is='style12 pubs_margin')
 
-            if year == '':
-                year = '0'
-            if month == '':
-                month = '0'
+            year, month = BibtexUtils.sanitize_year_and_month(year, month)
 
             phd_html.append({
                 'year': year,
@@ -412,9 +464,12 @@ class BibtexInterface:
                 title = tags.a(content=title, href=item['url'])
 
             author = item['author'] if 'author' in item else ''
+            author = ' '.join(author.split(', ')[::-1])
             year = item['year'] if 'year' in item else ''
 
             html = tags.li(content=tags.connect_elements(title, author, year)+'<br/>&nbsp;<br/>', class_is='style12 pubs_margin')
+
+            year = BibtexUtils.sanitize_year_and_month(year, '')[0]
 
             ms_html.append({
                 'year': year,
@@ -429,6 +484,9 @@ class BibtexInterface:
         for item in talk_list:
             month = item['month'] if 'month' in item else '0'
             year = item['year'] if 'year' in item else '0'
+
+            year, month = BibtexUtils.sanitize_year_and_month(year, month)
+
             talk_html.append({
                 'month': month,
                 'year': year,

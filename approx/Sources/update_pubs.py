@@ -1,31 +1,17 @@
 import os
-import utils
+from Sources import utils
 
 def dispatcher(isMain=False):
-    page = utils.Managing.Managing(
-        source_path_is=os.path.dirname(__file__),
-        content_replace_keywords_with=addContents,
-        dump_file_name_is='../pubs.html',
-        content_file_name_is='contents_pubs.html',
+    utils.Managing.ManageWrapper(
+        add_content_from_function=addContents,
         script_file_name_is=__file__,
-        base_file_name_is='base.html',
+        isMain=isMain
     )
-
-    if isMain:
-        page.execute_as_main(parent_manage_script_is='manage_main.py')
-    else:
-        page.execute_as_module()
 
 
 def addContents(configurations, base_structure, contents_structure, sources_path):
 
-        application_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        interface = utils.BibtexUtils.BibtexInterface(
-            paper_path=os.path.join(application_path, 'Sources/publication_bibtex/paper.bib'),
-            talk_path=os.path.join(application_path, 'Sources/publication_bibtex/talk.bib'),
-            msthesis_path=os.path.join(application_path, 'Sources/publication_bibtex/msthesis.bib'),
-            phdthesis_path=os.path.join(application_path, 'Sources/publication_bibtex/phdthesis.bib')
-        )
+        interface = utils.BibtexUtils.BibtexInterface()
 
         papers_list = interface.generate_paper_html(interface.extract_paper_list(project='approx'))
         talks_list = interface.generate_talk_html(interface.extract_talk_list(project='approx'))
@@ -43,7 +29,7 @@ def addContents(configurations, base_structure, contents_structure, sources_path
 
 
         configurations['title'] = 'Approximation: Publications'
-        configurations['style'] = '''
+        configurations['style'] = """
         <style type="text/css">
         .pubs_back_to_top {
             font-weight: bold;
@@ -53,7 +39,7 @@ def addContents(configurations, base_structure, contents_structure, sources_path
             margin-bottom: 12pt;
         }
         </style>
-        '''
+        """
         configurations['hasBody'] = True
 
 

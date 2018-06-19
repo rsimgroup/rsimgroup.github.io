@@ -1,16 +1,17 @@
-import utils
-import specialization.Sources.update_funding, specialization.Sources.update_people, specialization.Sources.update_pubs, specialization.Sources.update_index
+from Sources import utils
+from . import update_funding, update_people, update_pubs, update_index
+
 
 def execute_all(specific_file=''):
     all_files = {
-        'update_index': specialization.Sources.update_index.dispatcher,
-        'update_pubs': specialization.Sources.update_pubs.dispatcher,
-        'update_people': specialization.Sources.update_people.dispatcher,
-        'update_funding': specialization.Sources.update_funding.dispatcher
+        'update_index': update_index.dispatcher,
+        'update_pubs': update_pubs.dispatcher,
+        'update_people': update_people.dispatcher,
+        'update_funding': update_funding.dispatcher
     }
     specific_function = all_files.get(specific_file, None)
 
-    if specific_function != None:
+    if specific_function is not None:
         specific_function()
     else:
         for every_function in list(all_files.values()):

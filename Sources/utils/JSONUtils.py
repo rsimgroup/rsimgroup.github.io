@@ -1,22 +1,25 @@
-import json, copy
+import json
+import copy
+import os
 from .HTMLUtils import HTMLUtils as tags
 from .BibtexUtils import BibtexUtils as bib_utils
 from .TextGenerator import TextGenerator as text_gen
 
+
 class JSONUtils:
-    '''
+    """
     Defines helper functions used by JSONInterface class
-    '''
+    """
     @staticmethod
-    def sort_by_keys(object, key1='', key2='', reverse=True):
+    def sort_by_keys(list_of_dictionaries, key1='', key2='', reverse=True):
         if key1 == 'time':
             text_gen.time_does_not_exist()
-            return bib_utils.sort_by_keys(object, 'year', key2, reverse)
-        return bib_utils.sort_by_keys(object, key1, key2, reverse)
+            return bib_utils.sort_by_keys(list_of_dictionaries, 'year', key2, reverse)
+        return bib_utils.sort_by_keys(list_of_dictionaries, key1, key2, reverse)
 
     @staticmethod
-    def replace_with(object, key, original='', replace_with=''):
-        for item in object:
+    def replace_with(list_of_dictionaries, key, original='', replace_with=''):
+        for item in list_of_dictionaries:
             if item[key] == original:
                 item[key] = replace_with
 
@@ -24,35 +27,31 @@ class JSONUtils:
 
 
 class JSONInterface:
-    def __init__(self, people_json_path='people.json', news_json_path='news.json'):
-        self.people_path = people_json_path
-        self.news_path = news_json_path
-
-    def load_file(self, target_file=''):
-        '''
-        Target file must be specified
-        :param target_file: a string
+    def __init__(self, file_path, target):
+        """
+        Target and file path must be specified
+        :param target: a string
+        :param file_path: string
         :return: None
-        '''
-        if target_file == 'news':
-            with open(self.news_path, 'r') as file:
-                temp_list = json.load(file)
-        elif target_file == 'people':
-            with open(self.people_path, 'r') as file:
+        """
+        if target == 'people' or target == 'news':
+            with open(os.path.join(os.path.dirname(os.path.dirname(__file__)), file_path), 'r') as file:
                 temp_list = json.load(file)
         else:
-            temp_list = {}
             raise ValueError('target_file for load_file function must be specified!')
         self.json_object = temp_list
-        self.target_file = target_file
+        self.target_file = target
 
     def extract_list(self, type='', project=''):
-        '''
+        """
         Extract the list from files based on the criteria supplied
-        :param type: a string, this parameter is used for people.json only and must be supplied when used for people.json, as people is a dictionary of lists but news is a list of dictionaries
+        :param type: a string,
+            this parameter is used for people.json only and must be supplied when used for people.json,
+            as people is a dictionary of lists but news is a list of dictionaries
         :param project: a string, choose from '', 'approx' and 'specialization'
         :return: a list of dictionaries
-        '''
+        """
+
         if self.target_file == 'people':
             if type == '':
                 raise ValueError('type parameter for extract_list function must be specified if the function is used to process people.json')
@@ -118,7 +117,7 @@ class JSONInterface:
         else:
             sanitized_list = copy.deepcopy(curr_grad_list)
             # This sanitizing is needed since if there are illegal values the sorting will abort
-            JSONUtils.replace_with(object=sanitized_list, key=sort_by, original='', replace_with='0')
+            JSONUtils.replace_with(list_of_dictionaries=sanitized_list, key=sort_by, original='', replace_with='0')
             sorted_list = JSONUtils.sort_by_keys(sanitized_list, sort_by, reverse=True)
         temp_list = []
         flag = 0
@@ -157,7 +156,7 @@ class JSONInterface:
             sorted_list = curr_collab_list
         else:
             sanitized_list = copy.deepcopy(curr_collab_list)
-            JSONUtils.replace_with(object=sanitized_list, key=sort_by, original='', replace_with='a')
+            JSONUtils.replace_with(list_of_dictionaries=sanitized_list, key=sort_by, original='', replace_with='a')
 
             sorted_list = JSONUtils.sort_by_keys(sanitized_list, sort_by, reverse=False)
 
@@ -198,7 +197,7 @@ class JSONInterface:
             sorted_list = grad_phd_list
         else:
             sanitized_list = copy.deepcopy(grad_phd_list)
-            JSONUtils.replace_with(object=sanitized_list, key=sort_by, original='', replace_with='0')
+            JSONUtils.replace_with(list_of_dictionaries=sanitized_list, key=sort_by, original='', replace_with='0')
             sorted_list = JSONUtils.sort_by_keys(sanitized_list, sort_by, reverse=True)
 
         temp_list = []
@@ -237,7 +236,7 @@ class JSONInterface:
             sorted_list = grad_ms_list
         else:
             sanitized_list = copy.deepcopy(grad_ms_list)
-            JSONUtils.replace_with(object=sanitized_list, key=sort_by, original='', replace_with='0')
+            JSONUtils.replace_with(list_of_dictionaries=sanitized_list, key=sort_by, original='', replace_with='0')
             sorted_list = JSONUtils.sort_by_keys(sanitized_list, sort_by, reverse=True)
 
         temp_list = []
@@ -255,7 +254,7 @@ class JSONInterface:
             sorted_list = grad_ug_list
         else:
             sanitized_list = copy.deepcopy(grad_ug_list)
-            JSONUtils.replace_with(object=sanitized_list, key=sort_by, original='', replace_with='a')
+            JSONUtils.replace_with(list_of_dictionaries=sanitized_list, key=sort_by, original='', replace_with='a')
             sorted_list = JSONUtils.sort_by_keys(sanitized_list, sort_by, reverse=False)
 
         temp_list = []
@@ -272,8 +271,8 @@ class JSONInterface:
             sorted_list = news_list
         else:
             sanitized_list = copy.deepcopy(news_list)
-            JSONUtils.replace_with(object=sanitized_list, key='year', original='', replace_with='0')
-            JSONUtils.replace_with(object=sanitized_list, key='month', original='', replace_with='0')
+            JSONUtils.replace_with(list_of_dictionaries=sanitized_list, key='year', original='', replace_with='0')
+            JSONUtils.replace_with(list_of_dictionaries=sanitized_list, key='month', original='', replace_with='0')
             sorted_list = JSONUtils.sort_by_keys(sanitized_list, key1='year', key2='month', reverse=True)
 
         temp_list = []

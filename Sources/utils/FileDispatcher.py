@@ -3,10 +3,11 @@ from . import CommandLineHandler
 from .TextGenerator import TextGenerator as text_gen
 
 def FileDispatcher(file_array, call_back, called_as_main=False, specific_file='', project_name=''):
-    # Should be able to be called as main, when target file can either be provided when called or inputed from command line. If not called as main then requires specific file, or will update all
+    # Should be able to be called as main, when target file can either be provided when called or inputed from command line.
+    # If not called as main then requires specific file, or will update all
 
     if called_as_main:
-        print(text_gen.file_dispatcher_prompt(project_name, file_array))
+        print(text_gen.file_dispatcher_prompt(file_array, project_name))
         if specific_file == '':
             argument = CommandLineHandler.CommandLineHandler().parseArguments(argv=sys.argv)
             if argument == 'none':

@@ -3,6 +3,36 @@ import re
 from . import CommandLineHandler
 
 
+def ManageWrapper(
+        script_file_name_is,
+        add_content_from_function,
+        source_path_is='',
+        dump_file_name_is='',
+        content_file_name_is='',
+        parent_manage_script_is='manage_main.py',
+        base_file_name_is='base.html',
+        isMain=False):
+
+    keyword = os.path.basename(script_file_name_is).replace('update_', '').replace('.py', '')
+    new_source_path = os.path.dirname(script_file_name_is) if source_path_is == '' else source_path_is
+    new_dump_file_path = '../'+keyword+'.html' if dump_file_name_is == '' else dump_file_name_is
+    new_content_path = 'contents_'+keyword+'.html' if content_file_name_is == '' else content_file_name_is
+
+    page = Managing(
+        source_path_is=new_source_path,
+        content_replace_keywords_with=add_content_from_function,
+        dump_file_name_is=new_dump_file_path,
+        content_file_name_is=new_content_path,
+        script_file_name_is=script_file_name_is,
+        base_file_name_is=base_file_name_is,
+    )
+
+    if isMain:
+        page.execute_as_main(parent_manage_script_is=parent_manage_script_is)
+    else:
+        page.execute_as_module()
+
+
 class Managing:
     def __init__(self, source_path_is, content_replace_keywords_with, dump_file_name_is, content_file_name_is, script_file_name_is, base_file_name_is='base.html'):
         self._dump_file_name = dump_file_name_is
