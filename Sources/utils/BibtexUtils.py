@@ -359,7 +359,7 @@ class BibtexInterface:
                     conference = item['booktitle']
 
                 # the case where the booktitle ends with 'on'
-                if 'on' == conference[-2:]:
+                if ' on' == conference[-3:]:
                     if '. ' in conference:
                         elements = conference.split('. ')
                         elements.insert(0, elements.pop())
