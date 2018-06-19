@@ -1,10 +1,10 @@
 # How to use the scripts:
-1. only update files in each projects' `Sources` folder
-2. run `manage.py` with `python3 manage.py`
-3. currently project-level `manage_main.py` should not be executed as a module independently -> use `manage.py` instead
+1. Only update files in each project's `Sources` folder
+2. Run `manage.py` with `python3 manage.py`
+3. Currently, project-level `manage_main.py` should not be executed as a module independently -> use `manage.py` instead
 
 # Structure:
-1. each project has a  `Sources` folder that contains
+1. each project has a `Sources` folder that contains
     1. `update_*.py` update each HTML page
     2. `contents_*.html` contains unique content of each HTML page
     3. `base.html` contains the base structure of all html pages in that project
@@ -13,4 +13,4 @@
     1. `utils/` folder that contains all classes and function definitions
     2. `publication_bibtex/` folder that contains all publications in four BibTex files `msthesis.bib`, `paper.bib`, `phdthesis.bib` and `talk.bib`
     3. `news.json` file, which contains a list of dictionaries
-    4. `people.json` file, which is a dictionary of lists of dictionaries
+    4. `people.json` file, which is a dictionary of lists of dictionaries -> structure in `people.json` is different from structure in `news.json`
