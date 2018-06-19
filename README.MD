@@ -1,7 +1,7 @@
 # How to use the scripts:
 1. only update files in each projects' `Sources` folder
-2. run `manage.py` with `python manage.py`
-3. if necessary, individual script files and project-level `manage_main.py` files can be executed as modules
+2. run `manage.py` with `python3 manage.py`
+3. currently project-level `manage_main.py` should not be executed as a module independently -> use `manage.py` instead
 
 # Structure:
 1. each project has a  `Sources` folder that contains
