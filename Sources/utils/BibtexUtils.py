@@ -252,7 +252,7 @@ class BibtexInterface:
         if project == '':
             return msthesis
         else:
-            return [item for item in msthesis if project in item['projects']]
+            return [item for item in msthesis if 'projects' in item and project in item['projects']]
 
     def extract_paper_list(self, project=''):
         parser = BibtexUtils.get_bibtex_parser()
@@ -261,7 +261,7 @@ class BibtexInterface:
         if project == '':
             return paper
         else:
-            return [item for item in paper if project in item['_projects']]
+            return [item for item in paper if '_projects' in item and project in item['_projects']]
 
     def extract_phdthesis_list(self, project=''):
         parser = BibtexUtils.get_bibtex_parser()
@@ -270,7 +270,7 @@ class BibtexInterface:
         if project == '':
             return phdthesis
         else:
-            return [item for item in phdthesis if project in item['projects']]
+            return [item for item in phdthesis if 'projects' in item and project in item['projects']]
 
     def extract_talk_list(self, project=''):
         parser = BibtexUtils.get_bibtex_parser()
@@ -279,7 +279,7 @@ class BibtexInterface:
         if project == '':
             return talk
         else:
-            return [item for item in talk if project in item['projects']]
+            return [item for item in talk if 'projects' in item and project in item['projects']]
 
 
     @staticmethod

@@ -56,13 +56,25 @@ class JSONInterface:
             if type == '':
                 raise ValueError('type parameter for extract_list function must be specified if the function is used to process people.json')
             if project != '':
-                return [item for item in self.json_object[type] if project in item['projects'] or project in item.get('_only_at_', [])]
+                return [
+                    item for item in self.json_object[type] if
+                    'projects' in item and (  # this is to check if 'projects' is specified
+                            project in item['projects'] or
+                            project in item.get('_only_at_', [])
+                    )
+                ]
             else:
                 return [item for item in self.json_object[type] if '_only_at_' not in item]
 
         elif self.target_file == 'news':
             if project != '':
-                return [item for item in self.json_object if project in item['projects'] or project in item.get('_only_at_', [])]
+                return [
+                    item for item in self.json_object if
+                    'projects' in item and (  # this is to check if 'projects' is specified
+                            project in item['projects'] or
+                            project in item.get('_only_at_', [])
+                    )
+                ]
             else:
                 return [item for item in self.json_object if '_only_at_' not in item]
         else:

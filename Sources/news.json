@@ -204,7 +204,7 @@
     "projects": []
   },
   {
-    "content": "Our Stash and <a href=\"/Pubs/15-MICRO-scopes.pdf\">Scopes</a> papers were both awarded Honorable Mentions in IEEE Micro Top Picks 2016!",
+    "content": "Our Stash and <a href=\"Pubs/15-MICRO-scopes.pdf\">Scopes</a> papers were both awarded Honorable Mentions in IEEE Micro Top Picks 2016!",
     "year": "2016",
     "month": "",
     "projects": []
@@ -420,7 +420,7 @@
     "projects": []
   },
   {
-    "content": "Our <a href=\"/Pubs/13-ASPLOS-denovond.pdf\">DeNovoND paper</a> is chosen for the IEEE Micro's Top Picks 2014",
+    "content": "Our <a href=\"Pubs/13-ASPLOS-denovond.pdf\">DeNovoND paper</a> is chosen for the IEEE Micro's Top Picks 2014",
     "year": "2014",
     "month": "",
     "projects": []
@@ -486,7 +486,7 @@
     "projects": []
   },
   {
-    "content": "Sarita gave a <a href=\"/Talks/13-wodet.pptx\">talk</a> at WoDet, March 2013",
+    "content": "Sarita gave a <a href=\"Talks/13-wodet.pptx\">talk</a> at WoDet, March 2013",
     "year": "2013",
     "month": "3",
     "projects": []
@@ -600,7 +600,7 @@
     "projects": []
   },
   {
-    "content": "Sarita gave a <a href=\"/Talks/11-ics-keynote.pdf\">keynote speech</a> at ICS, June 2011",
+    "content": "Sarita gave a <a href=\"Talks/11-ics-keynote.pdf\">keynote speech</a> at ICS, June 2011",
     "year": "2011",
     "month": "6",
     "projects": []
@@ -660,7 +660,7 @@
     "projects": []
   },
   {
-    "content": "Sarita gave a <a href=\"/Talks/10-denovo-upcrc-summit.pptx\">talk</a> on DeNovo at the Illinois UPCRC Summit, Mar '10",
+    "content": "Sarita gave a <a href=\"Talks/10-denovo-upcrc-summit.pptx\">talk</a> on DeNovo at the Illinois UPCRC Summit, Mar '10",
     "year": "2010",
     "month": "3",
     "projects": []
@@ -672,13 +672,13 @@
     "projects": []
   },
   {
-    "content": "Sarita gave a <a href=\"/Talks/10-MI-denovo.pptx\">distinguished lecture</a> at the University of Michigan, Feb'10",
+    "content": "Sarita gave a <a href=\"Talks/10-MI-denovo.pptx\">distinguished lecture</a> at the University of Michigan, Feb'10",
     "year": "2010",
     "month": "2",
     "projects": []
   },
   {
-    "content": "Sarita participated in the \"Advancing Computer Architecture Research\" workshop sponsored by CRA/CCC. See position paper and <a href=\"/Talks/10-acar.pptx\">talk</a> here. Feb'10",
+    "content": "Sarita participated in the \"Advancing Computer Architecture Research\" workshop sponsored by CRA/CCC. See position paper and <a href=\"Talks/10-acar.pptx\">talk</a> here. Feb'10",
     "year": "2010",
     "month": "2",
     "projects": []
@@ -690,7 +690,7 @@
     "projects": []
   },
   {
-    "content": "Siva presented <a href=\"/Talks/10-MICRO-mSWAT.pptx\">mSWAT</a> at MICRO-09, Dec'09",
+    "content": "Siva presented <a href=\"Talks/10-MICRO-mSWAT.pptx\">mSWAT</a> at MICRO-09, Dec'09",
     "year": "2009",
     "month": "12",
     "projects": []
@@ -720,13 +720,13 @@
     "projects": []
   },
   {
-    "content": "Sarita gave a <a href=\"/Talks/09-podc-spaa-memory-models.ppt\">keynote</a> at a plenary session of PODC and SPAA, Aug'09",
+    "content": "Sarita gave a <a href=\"Talks/09-podc-spaa-memory-models.ppt\">keynote</a> at a plenary session of PODC and SPAA, Aug'09",
     "year": "2009",
     "month": "8",
     "projects": []
   },
   {
-    "content": " <a href=\"/Pubs/10-cacm-memory-models.pdf\">Paper</a> on a retrospective of memory models, motivating a rethinking of parallel languages and hardware, accepted for CACM.",
+    "content": " <a href=\"Pubs/10-cacm-memory-models.pdf\">Paper</a> on a retrospective of memory models, motivating a rethinking of parallel languages and hardware, accepted for CACM.",
     "year": "",
     "month": "",
     "projects": []
