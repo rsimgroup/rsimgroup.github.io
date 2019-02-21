@@ -1,1302 +1,740 @@
 [
   {
-    "Contents": "Our paper titled \"HPVM: Heterogeneous Parallel Virtual Machine\" has been accepted for publication at PPoPP 2018 !",
-    "Display Time": "",
-    "Potential Time": "2018 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "PPoPP 2018": "https://conf.researchr.org/home/ppopp-2018"
-    }
-  },
-  {
-    "Contents": "Matt received the 2018 David J. Kuck Outstanding Ph.D. Thesis Award , October 2017",
-    "Display Time": "",
-    "Potential Time": "2018 Oct",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {
-      "David J. Kuck Outstanding Ph.D. Thesis Award": "https://cs.illinois.edu/about-us/awards/graduate-fellowships-awards/david-j-kuck-outstanding-thesis-awards"
-    }
-  },
-  {
-    "Contents": "Sarita was invited to join DARPA's Information Science and Technology Study Group (ISAT) for a three year appointment!",
-    "Display Time": "",
-    "Potential Time": "UnknownYear ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "Information Science and Technology Study Group (ISAT)": "https://cs.illinois.edu/news/sarita-adve-joins-darpa-group-keeps-eye-out-technological-surprises-opportunities"
-    }
-  },
-  {
-    "Contents": "Our paper titled \"HeteroSync: A Benchmark Suite for Fine-Grained Synchronization on Tightly Coupled GPUs\" has been accepted for publication at IISWC 2017 !",
-    "Display Time": "",
-    "Potential Time": "2017 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "IISWC 2017": "http://www.iiswc.org/iiswc2017/index.html"
-    }
-  },
-  {
-    "Contents": "Sarita and Matt invited to the Dagstuhl Seminar on New Challenges in Parallelism , November 2017!",
-    "Display Time": "",
-    "Potential Time": "2017 Nov",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve",
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {
-      "Dagstuhl Seminar on New Challenges in Parallelism": "http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=17451"
-    }
-  },
-  {
-    "Contents": "Matt presented at ISCA , June 2017!",
-    "Display Time": "",
-    "Potential Time": "2017 Jun",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {
-      "ISCA": "http://isca17.ece.utoronto.ca/doku.php"
-    }
-  },
-  {
-    "Contents": "Congratulations to Lin Cheng for depositing his M.S. thesis, April 2017!",
-    "Display Time": "",
-    "Potential Time": "2017 Apr",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Lin Cheng"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Gio passed the PhD qualifying exam, April 2017!",
-    "Display Time": "",
-    "Potential Time": "2017 Apr",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Giordano Salvador"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Abdulrahman presented at WAX , April, 2017!",
-    "Display Time": "",
-    "Potential Time": "2017 Apr",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Abdulrahman Mahmoud"
-    ],
-    "Keyword_Link": {
-      "WAX": "http://approximate.computer/wax2017/"
-    }
-  },
-  {
-    "Contents": "Radha was invited to the SNF International Exploratory Workshop on Theory and Practice for Error-Efficient Computing Systems , April 2017!",
-    "Display Time": "",
-    "Potential Time": "2017 Apr",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Radha Venkatagiri"
-    ],
-    "Keyword_Link": {
-      "SNF International Exploratory Workshop on Theory and Practice for Error-Efficient Computing Systems": "http://people.csail.mit.edu/psm/tpeecs-2017"
-    }
-  },
-  {
-    "Contents": "Matt was invited to The 50 Years of ACM Turing Award Celebration !",
-    "Display Time": "",
-    "Potential Time": "UnknownYear ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {
-      "The 50 Years of ACM Turing Award Celebration": "http://www.acm.org/turing-award-50/conference"
-    }
-  },
-  {
-    "Contents": "Our paper titled \"Chasing Away RAts: Semantics and Evaluation for Relaxed Atomics on Heterogeneous Systems\" has been accepted for publication at ISCA 2017 !",
-    "Display Time": "",
-    "Potential Time": "2017 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "ISCA 2017": "http://isca17.ece.utoronto.ca/doku.php"
-    }
-  },
-  {
-    "Contents": "Our paper titled \"Leveraging Software Testing to Explore Input Dependence for Approximate Computing\" has been accepted for publication at WAX 2017 !",
-    "Display Time": "",
-    "Potential Time": "2017 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "WAX 2017": "http://approximate.computer/wax2017/"
-    }
-  },
-  {
-    "Contents": "John received the Rambus Computer Engineering Fellowship for 2017-2018!",
-    "Display Time": "",
-    "Potential Time": "2018 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "John Alsop"
-    ],
-    "Keyword_Link": {
-      "Rambus Computer Engineering Fellowship": "https://www.ece.illinois.edu/academics/grad/fellowships/rambus"
-    }
-  },
-  {
-    "Contents": "Sarita gave a keynote speech at HiPEAC 2017 in Stockholm. Watch the full keynote here !",
-    "Display Time": "",
-    "Potential Time": "2017 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "keynote": "Talks/17-hipeac.pdf",
-      "HiPEAC 2017": "https://www.hipeac.net/2017/stockholm",
-      "here": "https://youtu.be/kjFjL_vTUWU"
-    }
-  },
-  {
-    "Contents": "Huzaifa was recognized as an Outstanding Teaching Assistant for the Spring 2016 semester!",
-    "Display Time": "",
-    "Potential Time": "2016 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Muhammad Huzaifa"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Released Approxilyzer to the open source community! Check it out !",
-    "Display Time": "",
-    "Potential Time": "UnknownYear ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "Check it out": "http://cs.illinois.edu/approxilyzer"
-    }
-  },
-  {
-    "Contents": "Our paper titled \"Lazy Release Consistency for GPUs\" has been accepted for publication at MICRO 2016 !",
-    "Display Time": "",
-    "Potential Time": "2016 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "MICRO 2016": "http://www.microarch.org/micro49/"
-    }
-  },
-  {
-    "Contents": "Our paper titled \"Approxilyzer: Towards A Systematic Framework for Instruction-Level Approximate Computing and its Applications to Hardware Resiliency\" has been accepted for publication at MICRO 2016 !",
-    "Display Time": "",
-    "Potential Time": "2016 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "MICRO 2016": "http://www.microarch.org/micro49/"
-    }
-  },
-  {
-    "Contents": "Congratulations to John Alsop for depositing his M.S. thesis, April 2016!",
-    "Display Time": "",
-    "Potential Time": "2016 Apr",
-    "Display Participants": "",
-    "Potential Participants": [
-      "John Alsop"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "John presented at ISPASS , April 2016!",
-    "Display Time": "",
-    "Potential Time": "2016 Apr",
-    "Display Participants": "",
-    "Potential Participants": [
-      "John Alsop"
-    ],
-    "Keyword_Link": {
-      "ISPASS": "http://www.ispass.org/ispass2016/"
-    }
-  },
-  {
-    "Contents": "Matt was selected as a participent in the 4th Heidelberg Laureate Forum , April 2016!",
-    "Display Time": "",
-    "Potential Time": "2016 Apr",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {
-      "4th Heidelberg Laureate Forum": "http://www.heidelberg-laureate-forum.org/"
-    }
-  },
-  {
-    "Contents": "Matt and Huzaifa received the Feng Chen Memorial Award in 2016!",
-    "Display Time": "",
-    "Potential Time": "2016 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Matthew Sinclair",
-      "Muhammad Huzaifa",
-      "Lin Cheng"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Matt received the Mavis Future Faculty Fellowship Award again for 2016-2017!",
-    "Display Time": "",
-    "Potential Time": "2017 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {
-      "Mavis Future Faculty Fellowship Award": "http://cs.illinois.edu/prospective-students/graduate-students/ms-phd-programs/graduate-fellowships-awards/mavis-scholarship"
-    }
-  },
-  {
-    "Contents": "Radha presented at WAX , April, 2016.",
-    "Display Time": "",
-    "Potential Time": "2016 Apr",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Radha Venkatagiri"
-    ],
-    "Keyword_Link": {
-      "WAX": "http://approximate.computer/wax2016/"
-    }
-  },
-  {
-    "Contents": "Abdulrahman was recognized as an Outstanding Teaching Assistant for the Fall 2015 semester!",
-    "Display Time": "",
-    "Potential Time": "2015 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Abdulrahman Mahmoud"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Abdulrahman passed the PhD qualifying exam, March 2016!",
-    "Display Time": "",
-    "Potential Time": "2016 Mar",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Abdulrahman Mahmoud"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Our paper titled \"Towards more Precision in Approximate Computing\" has been accepted for publication at WAX 2016 !",
-    "Display Time": "",
-    "Potential Time": "2016 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "WAX 2016": "http://approximate.computer/wax2016/"
-    }
-  },
-  {
-    "Contents": "John received the Dan Vivoli Endowed Fellowship for 2016!",
-    "Display Time": "",
-    "Potential Time": "2016 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "John Alsop"
-    ],
-    "Keyword_Link": {
-      "Dan Vivoli Endowed Fellowship": "http://www.ece.illinois.edu/academics/grad/fellowships/vivoli.asp"
-    }
-  },
-  {
-    "Contents": "Our paper titled \"Characterizing the Sources of Memory Stalls for Tightly Coupled GPUs\" has been accepted for publication at ISPASS 2016 !",
-    "Display Time": "",
-    "Potential Time": "2016 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "ISPASS 2016": "http://www.ispass.org/ispass2016/"
-    }
-  },
-  {
-    "Contents": "Our Stash and Scopes papers were both awarded Honorable Mentions in IEEE Micro Top Picks 2016!",
-    "Display Time": "",
-    "Potential Time": "2016 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "Stash": "http://dl.acm.org/authorize?N92330",
-      "Scopes": "/Pubs/15-MICRO-scopes.pdf"
-    }
-  },
-  {
-    "Contents": "Sarita was elected as SIGARCH Chair!",
-    "Display Time": "",
-    "Potential Time": "UnknownYear ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "SIGARCH": "http://www.sigarch.org/"
-    }
-  },
-  {
-    "Contents": "Matt presented at MICRO 2015 , December 2015.",
-    "Display Time": "",
-    "Potential Time": "2015 Dec",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {
-      "MICRO 2015": "http://www.microarch.org/micro48/"
-    }
-  },
-  {
-    "Contents": "Our work on Stash has been covered in the CCC blog !",
-    "Display Time": "",
-    "Potential Time": "UnknownYear ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "CCC blog": "http://www.cccblog.org/2015/09/08/cache-or-scratchpad-why-choose/"
-    }
-  },
-  {
-    "Contents": "Our paper titled \"Efficient GPU Synchronization without Scopes: Saying No to Complex Consistency Models\" has been accepted for publication at MICRO 2015 !",
-    "Display Time": "",
-    "Potential Time": "2015 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "MICRO 2015": "http://www.microarch.org/micro48/"
-    }
-  },
-  {
-    "Contents": "Giordano Salvador joined our research group, August 2015.",
-    "Display Time": "",
-    "Potential Time": "2015 Aug",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Giordano Salvador"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Matt presented Stash at ISCA 2015 , June 2015.",
-    "Display Time": "",
-    "Potential Time": "2015 Jun",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {
-      "ISCA 2015": "http://www.ece.cmu.edu/calcm/isca2015/"
-    }
-  },
-  {
-    "Contents": "Sarita was a panelist at WDDD'15 , June 2015.",
-    "Display Time": "",
-    "Potential Time": "2015 Jun",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "WDDD'15": "https://sites.google.com/site/iscawddd/home/2015-program"
-    }
-  },
-  {
-    "Contents": "John passed the PhD qualifying exam, April 2015.",
-    "Display Time": "",
-    "Potential Time": "2015 Apr",
-    "Display Participants": "",
-    "Potential Participants": [
-      "John Alsop"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Sarita was elected to the Computing Research Association (CRA) board for a third term.",
-    "Display Time": "",
-    "Potential Time": "UnknownYear ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "Computing Research Association (CRA)": "http://cra.org/about/elections/"
-    }
-  },
-  {
-    "Contents": "Matt presented at EPFL, April 2015.",
-    "Display Time": "",
-    "Potential Time": "2015 Apr",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Matt received the Mavis Future Faculty Fellowship Award for 2015-2016!",
-    "Display Time": "",
-    "Potential Time": "2016 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {
-      "Mavis Future Faculty Fellowship Award": "http://publish.illinois.edu/engr-mavis/2015-2016-mavis-fellows/"
-    }
-  },
-  {
-    "Contents": "Matt received the W.J. Poppelbaum Memorial Award for 2015!",
-    "Display Time": "",
-    "Potential Time": "2015 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {
-      "W.J. Poppelbaum Memorial Award": "http://cs.illinois.edu/prospective-students/graduate-students/ms-phd-programs/graduate-fellowships-awards/w-j-poppelbaum-me"
-    }
-  },
-  {
-    "Contents": "Rakesh presented \"Eliminating On-Chip Traffic Waste: Are We There Yet?\" at ISPASS 2015 , March 2015",
-    "Display Time": "",
-    "Potential Time": "2015 Mar",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Rakesh Komuravelli"
-    ],
-    "Keyword_Link": {
-      "ISPASS 2015": "http://www.ispass.org/ispass2015/"
-    }
-  },
-  {
-    "Contents": "Sarita gave a keynote at the 2nd Annual WACAS , March 2015",
-    "Display Time": "",
-    "Potential Time": "2015 Mar",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "keynote": "/Talks/15-wacas.pptx",
-      "WACAS": "https://sites.google.com/site/2wacas/"
-    }
-  },
-  {
-    "Contents": "Sarita presented DeNovoSync at ASPLOS 2015 , March 2015",
-    "Display Time": "",
-    "Potential Time": "2015 Mar",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "ASPLOS 2015": "http://asplos15.bilkent.edu.tr/"
-    }
-  },
-  {
-    "Contents": "Our paper titled \"Stash: Have Your Scratchpad and Cache it Too\" is accepted for publication at ISCA 2015 ",
-    "Display Time": "",
-    "Potential Time": "2015 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "ISCA 2015": "http://www.ece.cmu.edu/calcm/isca2015/"
-    }
-  },
-  {
-    "Contents": "Rakesh presented \"Revisiting the Complexity of Hardware Cache Coherence and Some Implications\" at HiPEAC 2015 , January 2015",
-    "Display Time": "",
-    "Potential Time": "2015 Jan",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Rakesh Komuravelli"
-    ],
-    "Keyword_Link": {
-      "HiPEAC 2015": "https://www.hipeac.org/2015/amsterdam/"
-    }
-  },
-  {
-    "Contents": "Pradeep presented \"Hardware Fault Recovery for I/O Intensive Applications\" at HiPEAC 2015 , January 2015",
-    "Display Time": "",
-    "Potential Time": "2015 Jan",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Pradeep Ramachandran"
-    ],
-    "Keyword_Link": {
-      "HiPEAC 2015": "https://www.hipeac.org/2015/amsterdam/"
-    }
-  },
-  {
-    "Contents": "Our paper titled \"DeNovoSync: Efficient Support for Arbitrary Synchronization without Writer-Initiated Invalidations\" is accepted for publication at ASPLOS 2015 ",
-    "Display Time": "",
-    "Potential Time": "2015 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "ASPLOS 2015": "http://asplos15.bilkent.edu.tr"
-    }
-  },
-  {
-    "Contents": "Our paper titled \"Revisiting the Complexity of Hardware Cache Coherence and Some Implications\" is accepted for publication in ACM's TACO ",
-    "Display Time": "",
-    "Potential Time": "UnknownYear ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "TACO": "http://taco.acm.org/"
-    }
-  },
-  {
-    "Contents": "Our paper titled \"Hardware Fault Recovery for I/O Intensive Applications\" is accepted for publication in ACM's TACO ",
-    "Display Time": "",
-    "Potential Time": "UnknownYear ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "TACO": "http://taco.acm.org/"
-    }
-  },
-  {
-    "Contents": "Sarita, Radha, Matt, and Abdulrahman present at CFAR, November 2014",
-    "Display Time": "",
-    "Potential Time": "2014 Nov",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Abdulrahman Mahmoud"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Congratulations to Dr. Rakesh Komuravelli for successfully defending his Ph.D. thesis, November 2014",
-    "Display Time": "",
-    "Potential Time": "2014 Nov",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Rakesh Komuravelli"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Congratulations to Dr. Hyojin Sung for successfully defending her Ph.D. thesis, November 2014",
-    "Display Time": "",
-    "Potential Time": "2014 Nov",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Hyojin Sung"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Huzaifa passed the PhD qualifying exam, October 2014",
-    "Display Time": "",
-    "Potential Time": "2014 Oct",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Muhammad Huzaifa"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Siva received the 2014 David J. Kuck Outstanding Ph.D. Thesis Award , October 2014",
-    "Display Time": "",
-    "Potential Time": "2014 Oct",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Siva Hari"
-    ],
-    "Keyword_Link": {
-      "David J. Kuck Outstanding Ph.D. Thesis Award": "http://cs.illinois.edu/prospective-students/graduate-students/ms-phd-programs/graduate-fellowships-awards/david-j-kuck-outs"
-    }
-  },
-  {
-    "Contents": "Sarita presented at EPFL, September 2014",
-    "Display Time": "",
-    "Potential Time": "2014 Sep",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Matt presented at NVIDIA Research, July 2014",
-    "Display Time": "",
-    "Potential Time": "2014 Jul",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Siva presented GangES at ISCA 2014 , June 2014",
-    "Display Time": "",
-    "Potential Time": "2014 Jun",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Siva Hari"
-    ],
-    "Keyword_Link": {
-      "ISCA 2014": "http://cag.engr.uconn.edu/isca2014/"
-    }
-  },
-  {
-    "Contents": "Rakesh presented at Oracle Labs, Qualcomm Research, and Cavium Networks, April - July 2014",
-    "Display Time": "",
-    "Potential Time": "2014 Jul",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Rakesh Komuravelli"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Our paper titled \"GangES: Gang Error Simulation for Hardware Resiliency Evaluation\" is accepted for publication at ISCA 2014 ",
-    "Display Time": "",
-    "Potential Time": "2014 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "ISCA 2014": "http://cag.engr.uconn.edu/isca2014/"
-    }
-  },
-  {
-    "Contents": "Hyojin received the W.J. Poppelbaum Memorial Award for 2014",
-    "Display Time": "",
-    "Potential Time": "2014 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Hyojin Sung"
-    ],
-    "Keyword_Link": {
-      "W.J. Poppelbaum Memorial Award": "http://cs.illinois.edu/prospective-students/graduate-students/ms-phd-programs/graduate-fellowships-awards/w-j-poppelbaum-me"
-    }
-  },
-  {
-    "Contents": "Matt was recognized as an Outstanding Teaching Assistant for the Spring 2014 semester",
-    "Display Time": "",
-    "Potential Time": "2014 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Sarita was Program Chair for ASPLOS 2014 , March 2014",
-    "Display Time": "",
-    "Potential Time": "2014 Mar",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "ASPLOS 2014": "http://www.cs.utah.edu/asplos14/"
-    }
-  },
-  {
-    "Contents": "Radha passed the PhD qualifying exam, March 2014",
-    "Display Time": "",
-    "Potential Time": "2014 Mar",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Radha Venkatagiri"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Our DeNovoND paper is chosen for the IEEE Micro's Top Picks 2014",
-    "Display Time": "",
-    "Potential Time": "2014 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "DeNovoND paper": "/Pubs/13-ASPLOS-denovond.pdf"
-    }
-  },
-  {
-    "Contents": "John Alsop and Muhammad Huzaifa joined our research group, January 2014",
-    "Display Time": "",
-    "Potential Time": "2014 Jan",
-    "Display Participants": "",
-    "Potential Participants": [
-      "John Alsop",
-      "Muhammad Huzaifa"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Rakesh and Matt present at Qualcomm Research, September 2013",
-    "Display Time": "",
-    "Potential Time": "2013 Sep",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Rakesh Komuravelli",
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Sarita, Hyojin, Rakesh, and Matt present talks and posters at I2PC Summit, September 2013",
-    "Display Time": "",
-    "Potential Time": "2013 Sep",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": " Abdulrahman Mahmoud joined our research group, August 2013",
-    "Display Time": "",
-    "Potential Time": "2013 Aug",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Abdulrahman Mahmoud"
-    ],
-    "Keyword_Link": {
-      "Abdulrahman Mahmoud": "http://rsim.cs.illinois.edu/~amahmou2/"
-    }
-  },
-  {
-    "Contents": "Congratulations to Dr. Siva Kumar Sastry Hari for successfully defending his Ph.D. thesis, July 2013",
-    "Display Time": "",
-    "Potential Time": "2013 Jul",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Siva Hari"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Sarita, Rakesh, and Matt present at Qualcomm Research, May 2013",
-    "Display Time": "",
-    "Potential Time": "2013 May",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Siva was selected as a participent in the 1st Heidelberg Laureate Forum , April 2013!",
-    "Display Time": "",
-    "Potential Time": "2013 Apr",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Siva Hari"
-    ],
-    "Keyword_Link": {
-      "1st Heidelberg Laureate Forum": "http://www.heidelberg-laureate-forum.org/"
-    }
-  },
-  {
-    "Contents": "Siva received the Feng Chen Memorial Award in 2013",
-    "Display Time": "",
-    "Potential Time": "2013 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Siva Hari",
-      "Lin Cheng"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Our Relyzer paper is chosen for the IEEE Micro's Top Picks 2013 ",
-    "Display Time": "",
-    "Potential Time": "2013 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "Relyzer paper": "/Pubs/12-ASPLOS-Hari.pdf",
-      "IEEE Micro's Top Picks 2013": "http://illinois.edu/lb/article/4485/70499"
-    }
-  },
-  {
-    "Contents": "Hyojin presented DeNovoND at ASPLOS 2013 , March 2013",
-    "Display Time": "",
-    "Potential Time": "2013 Mar",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Hyojin Sung"
-    ],
-    "Keyword_Link": {
-      "DeNovoND": "/Pubs/13-ASPLOS-denovond.pdf",
-      "ASPLOS 2013": "http://asplos13.rice.edu/"
-    }
-  },
-  {
-    "Contents": "Sarita gave a talk at WoDet, March 2013",
-    "Display Time": "",
-    "Potential Time": "2013 Mar",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "talk": "/Talks/13-wodet.pptx"
-    }
-  },
-  {
-    "Contents": "Matt passed the PhD qualifying exam, March 2013",
-    "Display Time": "",
-    "Potential Time": "2013 Mar",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Our paper titled \"DeNovoND: Efficient Hardware Support for Disciplined Non-Determinism\" is accepted for publication at ASPLOS 2013 ",
-    "Display Time": "",
-    "Potential Time": "2013 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "ASPLOS 2013": "http://asplos13.rice.edu"
-    }
-  },
-  {
-    "Contents": " Article on Rakesh and Matt's fellowship in the Departmental Click! magazine, September 2012",
-    "Display Time": "",
-    "Potential Time": "2012 Sep",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Rakesh Komuravelli"
-    ],
-    "Keyword_Link": {
-      "Article": "http://cs.illinois.edu/node/957"
-    }
-  },
-  {
-    "Contents": "Sarita selected as Program Chair for ASPLOS 2014 !",
-    "Display Time": "",
-    "Potential Time": "2014 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "ASPLOS 2014": "http://www.cs.utah.edu/asplos14/"
-    }
-  },
-  {
-    "Contents": "Siva received the Margarida Jacome GSRC Best Poster Award, Oct 2012",
-    "Display Time": "",
-    "Potential Time": "2012 Oct",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Siva Hari"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Radha Venkatagiri joined our research group",
-    "Display Time": "",
-    "Potential Time": "UnknownYear ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Radha Venkatagiri"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Rakesh and Matt received a Qualcomm Innovation Fellowship, May 2012",
-    "Display Time": "",
-    "Potential Time": "2012 May",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Rakesh Komuravelli",
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Siva received the W.J. Poppelbaum Memorial Award for 2012",
-    "Display Time": "",
-    "Potential Time": "2012 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Siva Hari"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Byn, Hyojin, Rakesh, and Rob received the Feng Chen Memorial Award in 2012",
-    "Display Time": "",
-    "Potential Time": "2012 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Robert Smolinski",
-      "Lin Cheng"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Our paper titled \"Virtual Instruction Set Computing for Heterogeneous Systems\" is accepted for publication at HotPar 2012 ",
-    "Display Time": "",
-    "Potential Time": "2012 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "HotPar 2012": "https://www.usenix.org/conference/hotpar12"
-    }
-  },
-  {
-    "Contents": "Sarita is named Woman of Vision in innovation by the Anita Borg Institute for Women in Technology in 2012",
-    "Display Time": "",
-    "Potential Time": "2012 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "Woman of Vision in innovation by the Anita Borg Institute for Women in Technology": "http://cs.illinois.edu/news/2012/Feb28-01"
-    }
-  },
-  {
-    "Contents": "Rob passed the PhD qualifying exam, March 2012",
-    "Display Time": "",
-    "Potential Time": "2012 Mar",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Robert Smolinski"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Rob presented CrashTest'ing SWAT at DATE 2012 ",
-    "Display Time": "",
-    "Potential Time": "2012 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Robert Smolinski"
-    ],
-    "Keyword_Link": {
-      "CrashTest'ing SWAT": "http://rsim.cs.illinois.edu/~shari2/pubs/12-DATE-Pellegrini.pdf",
-      "DATE 2012": "http://www.date-conference.com/"
-    }
-  },
-  {
-    "Contents": "Siva presented Relyzer at ASPLOS 2012 ",
-    "Display Time": "",
-    "Potential Time": "2012 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Siva Hari"
-    ],
-    "Keyword_Link": {
-      "Relyzer": "http://rsim.cs.illinois.edu/~shari2/talks/12-asplos-relyzer.pptx",
-      "ASPLOS 2012": "http://research.microsoft.com/en-us/um/cambridge/events/asplos_2012/"
-    }
-  },
-  {
-    "Contents": "Our paper titled \"Low-cost Program-level Detectors for Reducing Silent Data Corruptions\" is accepted for publication at DSN 2012 ",
-    "Display Time": "",
-    "Potential Time": "2012 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "DSN 2012": "http://2012.dsn.org/"
-    }
-  },
-  {
-    "Contents": "Sarita has been named an IEEE Fellow for the class of 2012",
-    "Display Time": "",
-    "Potential Time": "2012 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "IEEE Fellow": "http://cs.illinois.edu/news/2011/Dec8-02"
-    }
-  },
-  {
-    "Contents": "Best paper award for \"DeNovo: Rethinking the Multicore Memory Hierarchy for Disciplined Parallelism\" at PACT 2011 !",
-    "Display Time": "",
-    "Potential Time": "2011 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "PACT 2011": "http://www.pactconf.org"
-    }
-  },
-  {
-    "Contents": " Matt Sinclair joined our research group",
-    "Display Time": "",
-    "Potential Time": "UnknownYear ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Matthew Sinclair"
-    ],
-    "Keyword_Link": {
-      " Matt Sinclair": "http://rsim.cs.illinois.edu/~mdsincl2/"
-    }
-  },
-  {
-    "Contents": "Sarita gave a keynote speech at ICS, June 2011",
-    "Display Time": "",
-    "Potential Time": "2011 Jun",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "keynote speech": "/Talks/11-ics-keynote.pdf"
-    }
-  },
-  {
-    "Contents": "Congratulations to Dr. Pradeep Ramachandran for successfully defending his Ph.D. thesis, May 2011",
-    "Display Time": "",
-    "Potential Time": "2011 May",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Pradeep Ramachandran"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Sarita gave a talk at the Triangle distinguished lecture series, Duke University, April 2011",
-    "Display Time": "",
-    "Potential Time": "2011 Apr",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "talk": "http://www.youtube.com/watch?v=Xy5_LOPBbOI"
-    }
-  },
-  {
-    "Contents": "Pradeep, Rob, and Siva presented three papers at SELSE 2011",
-    "Display Time": "",
-    "Potential Time": "2011 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Siva Hari"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Sarita has been named ACM Fellow for the class of 2010, honored for her \"impact on hardware and language memory models, and contributions to low-power and resilient systems.\"",
-    "Display Time": "",
-    "Potential Time": "2010 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "ACM Fellow": "http://fellows.acm.org/fellow_citation.cfm?id=3453289&srt=all"
-    }
-  },
-  {
-    "Contents": "\" Parallel SAH k-D Tree Construction\" accepted at HPG 2010 ",
-    "Display Time": "",
-    "Potential Time": "2010 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "HPG 2010": "http://www.highperformancegraphics.org/previous/www_2010"
-    }
-  },
-  {
-    "Contents": "SWAT and DeNovo selected as top 10 projects to present in 2010 CS Spring Grad Expo at Illinois",
-    "Display Time": "",
-    "Potential Time": "2010 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "An article about DeNovo appears on EETimes ",
-    "Display Time": "",
-    "Potential Time": "UnknownYear ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "EETimes": "http://www.eetimes.com/electronics-news/4080124/Illinois-gives-sneak-peak-on-multicore-programming-ideas?pageNumber=1"
-    }
-  },
-  {
-    "Contents": "\"DeNovo: Rethinking Hardware for Disciplined Parallelism\" was accepted at HotPar '10",
-    "Display Time": "",
-    "Potential Time": "2010 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "\"A Language for Deterministic-by-Default Parallel Programming\" was accepted at CPC 2010 ",
-    "Display Time": "",
-    "Potential Time": "2010 ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "CPC 2010": "http://www.complang.tuwien.ac.at/cpc10/"
-    }
-  },
-  {
-    "Contents": "Sarita gave a talk on DeNovo at the Illinois UPCRC Summit, Mar '10",
-    "Display Time": "",
-    "Potential Time": "2010 Mar",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve",
-      "Darko Marinov"
-    ],
-    "Keyword_Link": {
-      "talk": "/Talks/10-denovo-upcrc-summit.pptx"
-    }
-  },
-  {
-    "Contents": "Sarita and Hans Boehm will give a tutorial on memory models in PLDI'10",
-    "Display Time": "",
-    "Potential Time": "2010 ",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Sarita gave a distinguished lecture at the University of Michigan, Feb'10",
-    "Display Time": "",
-    "Potential Time": "2010 Feb",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "distinguished lecture": "/Talks/10-MI-denovo.pptx"
-    }
-  },
-  {
-    "Contents": "Sarita participated in the \"Advancing Computer Architecture Research\" workshop sponsored by CRA/CCC. See position paper and talk here. Feb'10",
-    "Display Time": "",
-    "Potential Time": "2010 Feb",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "paper": "/Pubs/adve-10-acar-position.pdf",
-      "talk": "/Talks/10-acar.pptx"
-    }
-  },
-  {
-    "Contents": "Pradeep successfully completed his Preliminary Exam, Dec'09",
-    "Display Time": "",
-    "Potential Time": "2009 Dec",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Pradeep Ramachandran"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Siva presented mSWAT at MICRO-09, Dec'09",
-    "Display Time": "",
-    "Potential Time": "2009 Dec",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Siva Hari"
-    ],
-    "Keyword_Link": {
-      "mSWAT": "/Talks/10-MICRO-mSWAT.pptx"
-    }
-  },
-  {
-    "Contents": "Lei Chen joined the group as a research scientist, Nov'09",
-    "Display Time": "",
-    "Potential Time": "2009 Nov",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Lin Cheng"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Byn, Hyojin, Rakesh, and Siva cleared the PhD qualifying exam, Oct'09",
-    "Display Time": "",
-    "Potential Time": "2009 Oct",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Siva Hari"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Xin Fu received the NSF Computing Innovation Fellowship. She recently joined the group as a post-doc, Oct'09",
-    "Display Time": "",
-    "Potential Time": "2009 Oct",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Alex succesfully defended his PhD dissertation, Aug'09",
-    "Display Time": "",
-    "Potential Time": "2009 Aug",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Man-Lap (Alex) Li"
-    ],
-    "Keyword_Link": {}
-  },
-  {
-    "Contents": "Sarita gave a keynote at a plenary session of PODC and SPAA, Aug'09",
-    "Display Time": "",
-    "Potential Time": "2009 Aug",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Sarita V. Adve"
-    ],
-    "Keyword_Link": {
-      "keynote": "/Talks/09-podc-spaa-memory-models.ppt"
-    }
-  },
-  {
-    "Contents": " Paper on a retrospective of memory models, motivating a rethinking of parallel languages and hardware, accepted for CACM.",
-    "Display Time": "",
-    "Potential Time": "UnknownYear ",
-    "Display Participants": "",
-    "Potential Participants": [],
-    "Keyword_Link": {
-      "Paper": "/Pubs/10-cacm-memory-models.pdf"
-    }
-  },
-  {
-    "Contents": "Pradeep received an Intel fellowship and an IBM scholarship, July'09",
-    "Display Time": "",
-    "Potential Time": "2009 Jul",
-    "Display Participants": "",
-    "Potential Participants": [
-      "Pradeep Ramachandran"
-    ],
-    "Keyword_Link": {}
+    "content": "Radha was selected as a participent in the <a href=\"http://www.heidelberg-laureate-forum.org/\">6th Heidelberg Laureate Forum</a>, April 2018!",
+    "year": "2018",
+    "month": "April",
+    "projects": []
+  },
+  {
+    "content": "Adel received the Graduate Student Outstanding Ambassador Award, April 2018!",
+    "year": "2018",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"Spandex: A Generalized Interface for Flexible Heterogeneous Coherence\" has been accepted for publication at <a href=\"http://iscaconf.org/isca2018/index.html\">ISCA 2018!</a>",
+    "year": "2018",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"Impact of Software Approximation on the Resiliency of a Video Summarization System\" has been accepted for publication at <a href=\"https://dsn2018.uni.lu/\">DSN 2018</a>!",
+    "year": "2018",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"HPVM: Heterogeneous Parallel Virtual Machine\" has been accepted for publication at <a href=\"https://conf.researchr.org/home/ppopp-2018\">PPoPP 2018</a> !",
+    "year": "2018",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Matt received the 2018 <a href=\"https://cs.illinois.edu/about-us/awards/graduate-fellowships-awards/david-j-kuck-outstanding-thesis-awards\">David J. Kuck Outstanding Ph.D. Thesis Award</a> , October 2017",
+    "year": "2017",
+    "month": "10",
+    "projects": []
+  },
+  {
+    "content": "Sarita was invited to join DARPA's <a href=\"https://cs.illinois.edu/news/sarita-adve-joins-darpa-group-keeps-eye-out-technological-surprises-opportunities\">Information Science and Technology Study Group (ISAT)</a> for a three year appointment!",
+    "year": "2009",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"HeteroSync: A Benchmark Suite for Fine-Grained Synchronization on Tightly Coupled GPUs\" has been accepted for publication at <a href=\"http://www.iiswc.org/iiswc2017/index.html\">IISWC 2017</a> !",
+    "year": "2017",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Sarita and Matt invited to the <a href=\"http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=17451\">Dagstuhl Seminar on New Challenges in Parallelism</a> , November 2017!",
+    "year": "2017",
+    "month": "11",
+    "projects": []
+  },
+  {
+    "content": "Matt presented at <a href=\"http://isca17.ece.utoronto.ca/doku.php\">ISCA</a> , June 2017!",
+    "year": "2017",
+    "month": "6",
+    "projects": []
+  },
+  {
+    "content": "Congratulations to Lin Cheng for depositing his M.S. thesis, April 2017!",
+    "year": "2017",
+    "month": "4",
+    "projects": []
+  },
+  {
+    "content": "Gio passed the PhD qualifying exam, April 2017!",
+    "year": "2017",
+    "month": "4",
+    "projects": []
+  },
+  {
+    "content": "Abdulrahman presented at <a href=\"http://approximate.computer/wax2017/\">WAX</a> , April, 2017!",
+    "year": "2017",
+    "month": "4",
+    "projects": []
+  },
+  {
+    "content": "Radha was invited to the <a href=\"http://people.csail.mit.edu/psm/tpeecs-2017\">SNF International Exploratory Workshop on Theory and Practice for Error-Efficient Computing Systems</a> , April 2017!",
+    "year": "2017",
+    "month": "4",
+    "projects": []
+  },
+  {
+    "content": "Matt was invited to <a href=\"http://www.acm.org/turing-award-50/conference\">The 50 Years of ACM Turing Award Celebration</a> !",
+    "year": "",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"Chasing Away RAts: Semantics and Evaluation for Relaxed Atomics on Heterogeneous Systems\" has been accepted for publication at <a href=\"http://isca17.ece.utoronto.ca/doku.php\">ISCA 2017</a> !",
+    "year": "2017",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"Leveraging Software Testing to Explore Input Dependence for Approximate Computing\" has been accepted for publication at <a href=\"http://approximate.computer/wax2017/\">WAX 2017</a> !",
+    "year": "2017",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "John received the <a href=\"https://www.ece.illinois.edu/academics/grad/fellowships/rambus\">Rambus Computer Engineering Fellowship</a> for 2017-2018!",
+    "year": "2018",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Sarita gave a keynote speech at HiPEAC 2017 in Stockholm. Watch the full keynote <a href=\"https://youtu.be/kjFjL_vTUWU\">here</a> !",
+    "year": "2017",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Huzaifa was recognized as an Outstanding Teaching Assistant for the Spring 2016 semester!",
+    "year": "2016",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Released Approxilyzer to the open source community! <a href=\"http://cs.illinois.edu/approxilyzer\">Check it out</a> !",
+    "year": "",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"Lazy Release Consistency for GPUs\" has been accepted for publication at <a href=\"http://www.microarch.org/micro49/\">MICRO 2016</a> !",
+    "year": "2016",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"Approxilyzer: Towards A Systematic Framework for Instruction-Level Approximate Computing and its Applications to Hardware Resiliency\" has been accepted for publication at <a href=\"http://www.microarch.org/micro49/\">MICRO 2016</a> !",
+    "year": "2016",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Congratulations to John Alsop for depositing his M.S. thesis, April 2016!",
+    "year": "2016",
+    "month": "4",
+    "projects": []
+  },
+  {
+    "content": "John presented at <a href=\"http://www.ispass.org/ispass2016/\">ISPASS</a> , April 2016!",
+    "year": "2016",
+    "month": "4",
+    "projects": []
+  },
+  {
+    "content": "Matt was selected as a participent in the <a href=\"http://www.heidelberg-laureate-forum.org/\">4th Heidelberg Laureate Forum</a> , April 2016!",
+    "year": "2016",
+    "month": "4",
+    "projects": []
+  },
+  {
+    "content": "Matt and Huzaifa received the Feng Chen Memorial Award in 2016!",
+    "year": "2016",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Matt received the <a href=\"http://cs.illinois.edu/prospective-students/graduate-students/ms-phd-programs/graduate-fellowships-awards/mavis-scholarship\">Mavis Future Faculty Fellowship Award</a> again for 2016-2017!",
+    "year": "2017",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Radha presented at <a href=\"http://approximate.computer/wax2016/\">WAX</a> , April, 2016.",
+    "year": "2016",
+    "month": "4",
+    "projects": []
+  },
+  {
+    "content": "Abdulrahman was recognized as an Outstanding Teaching Assistant for the Fall 2015 semester!",
+    "year": "2015",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Abdulrahman passed the PhD qualifying exam, March 2016!",
+    "year": "2016",
+    "month": "3",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"Towards more Precision in Approximate Computing\" has been accepted for publication at <a href=\"http://approximate.computer/wax2016/\">WAX 2016</a> !",
+    "year": "2016",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "John received the <a href=\"http://www.ece.illinois.edu/academics/grad/fellowships/vivoli.asp\">Dan Vivoli Endowed Fellowship</a> for 2016!",
+    "year": "2016",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"Characterizing the Sources of Memory Stalls for Tightly Coupled GPUs\" has been accepted for publication at <a href=\"http://www.ispass.org/ispass2016/\">ISPASS 2016</a> !",
+    "year": "2016",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Our Stash and <a href=\"Pubs/15-MICRO-scopes.pdf\">Scopes</a> papers were both awarded Honorable Mentions in IEEE Micro Top Picks 2016!",
+    "year": "2016",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Sarita was elected as <a href=\"http://www.sigarch.org/\">SIGARCH</a> Chair!",
+    "year": "",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Matt presented at <a href=\"http://www.microarch.org/micro48/\">MICRO 2015</a> , December 2015.",
+    "year": "2015",
+    "month": "12",
+    "projects": []
+  },
+  {
+    "content": "Our work on Stash has been covered in the <a href=\"http://www.cccblog.org/2015/09/08/cache-or-scratchpad-why-choose/\">CCC blog</a> !",
+    "year": "",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"Efficient GPU Synchronization without Scopes: Saying No to Complex Consistency Models\" has been accepted for publication at <a href=\"http://www.microarch.org/micro48/\">MICRO 2015</a> !",
+    "year": "2015",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Giordano Salvador joined our research group, August 2015.",
+    "year": "2015",
+    "month": "8",
+    "projects": []
+  },
+  {
+    "content": "Matt presented Stash at <a href=\"http://www.ece.cmu.edu/calcm/isca2015/\">ISCA 2015</a> , June 2015.",
+    "year": "2015",
+    "month": "6",
+    "projects": []
+  },
+  {
+    "content": "Sarita was a panelist at <a href=\"https://sites.google.com/site/iscawddd/home/2015-program\">WDDD'15</a> , June 2015.",
+    "year": "2015",
+    "month": "6",
+    "projects": []
+  },
+  {
+    "content": "John passed the PhD qualifying exam, April 2015.",
+    "year": "2015",
+    "month": "4",
+    "projects": []
+  },
+  {
+    "content": "Sarita was elected to the <a href=\"http://cra.org/about/elections/\">Computing Research Association (CRA)</a> board for a third term.",
+    "year": "",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Matt presented at EPFL, April 2015.",
+    "year": "2015",
+    "month": "4",
+    "projects": []
+  },
+  {
+    "content": "Matt received the <a href=\"http://publish.illinois.edu/engr-mavis/2015-2016-mavis-fellows/\">Mavis Future Faculty Fellowship Award</a> for 2015-2016!",
+    "year": "2016",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Matt received the <a href=\"http://cs.illinois.edu/prospective-students/graduate-students/ms-phd-programs/graduate-fellowships-awards/w-j-poppelbaum-me\">W.J. Poppelbaum Memorial Award</a> for 2015!",
+    "year": "2015",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Rakesh presented \"Eliminating On-Chip Traffic Waste: Are We There Yet?\" at <a href=\"http://www.ispass.org/ispass2015/\">ISPASS 2015</a> , March 2015",
+    "year": "2015",
+    "month": "3",
+    "projects": []
+  },
+  {
+    "content": "Sarita gave a keynote at the 2nd Annual <a href=\"https://sites.google.com/site/2wacas/\">WACAS</a> , March 2015",
+    "year": "2015",
+    "month": "3",
+    "projects": []
+  },
+  {
+    "content": "Sarita presented DeNovoSync at <a href=\"http://asplos15.bilkent.edu.tr/\">ASPLOS 2015</a> , March 2015",
+    "year": "2015",
+    "month": "3",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"Stash: Have Your Scratchpad and Cache it Too\" is accepted for publication at <a href=\"http://www.ece.cmu.edu/calcm/isca2015/\">ISCA 2015</a> ",
+    "year": "2015",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Rakesh presented \"Revisiting the Complexity of Hardware Cache Coherence and Some Implications\" at <a href=\"https://www.hipeac.org/2015/amsterdam/\">HiPEAC 2015</a> , January 2015",
+    "year": "2015",
+    "month": "1",
+    "projects": []
+  },
+  {
+    "content": "Pradeep presented \"Hardware Fault Recovery for I/O Intensive Applications\" at <a href=\"https://www.hipeac.org/2015/amsterdam/\">HiPEAC 2015</a> , January 2015",
+    "year": "2015",
+    "month": "1",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"DeNovoSync: Efficient Support for Arbitrary Synchronization without Writer-Initiated Invalidations\" is accepted for publication at <a href=\"http://asplos15.bilkent.edu.tr\">ASPLOS 2015</a> ",
+    "year": "2015",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"Revisiting the Complexity of Hardware Cache Coherence and Some Implications\" is accepted for publication in ACM's <a href=\"http://taco.acm.org/\">TACO</a> ",
+    "year": "",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"Hardware Fault Recovery for I/O Intensive Applications\" is accepted for publication in ACM's <a href=\"http://taco.acm.org/\">TACO</a> ",
+    "year": "",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Sarita, Radha, Matt, and Abdulrahman present at CFAR, November 2014",
+    "year": "2014",
+    "month": "11",
+    "projects": []
+  },
+  {
+    "content": "Congratulations to Dr. Rakesh Komuravelli for successfully defending his Ph.D. thesis, November 2014",
+    "year": "2014",
+    "month": "11",
+    "projects": []
+  },
+  {
+    "content": "Congratulations to Dr. Hyojin Sung for successfully defending her Ph.D. thesis, November 2014",
+    "year": "2014",
+    "month": "11",
+    "projects": []
+  },
+  {
+    "content": "Huzaifa passed the PhD qualifying exam, October 2014",
+    "year": "2014",
+    "month": "10",
+    "projects": []
+  },
+  {
+    "content": "Siva received the 2014 <a href=\"http://cs.illinois.edu/prospective-students/graduate-students/ms-phd-programs/graduate-fellowships-awards/david-j-kuck-outs\">David J. Kuck Outstanding Ph.D. Thesis Award</a> , October 2014",
+    "year": "2014",
+    "month": "10",
+    "projects": []
+  },
+  {
+    "content": "Sarita presented at EPFL, September 2014",
+    "year": "2014",
+    "month": "9",
+    "projects": []
+  },
+  {
+    "content": "Matt presented at NVIDIA Research, July 2014",
+    "year": "2014",
+    "month": "7",
+    "projects": []
+  },
+  {
+    "content": "Siva presented GangES at <a href=\"http://cag.engr.uconn.edu/isca2014/\">ISCA 2014</a> , June 2014",
+    "year": "2014",
+    "month": "6",
+    "projects": []
+  },
+  {
+    "content": "Rakesh presented at Oracle Labs, Qualcomm Research, and Cavium Networks, April - July 2014",
+    "year": "2014",
+    "month": "7",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"GangES: Gang Error Simulation for Hardware Resiliency Evaluation\" is accepted for publication at <a href=\"http://cag.engr.uconn.edu/isca2014/\">ISCA 2014</a> ",
+    "year": "2014",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Hyojin received the <a href=\"http://cs.illinois.edu/prospective-students/graduate-students/ms-phd-programs/graduate-fellowships-awards/w-j-poppelbaum-me\">W.J. Poppelbaum Memorial Award</a> for 2014",
+    "year": "2014",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Matt was recognized as an Outstanding Teaching Assistant for the Spring 2014 semester",
+    "year": "2014",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Sarita was Program Chair for <a href=\"http://www.cs.utah.edu/asplos14/\">ASPLOS 2014</a> , March 2014",
+    "year": "2014",
+    "month": "3",
+    "projects": []
+  },
+  {
+    "content": "Radha passed the PhD qualifying exam, March 2014",
+    "year": "2014",
+    "month": "3",
+    "projects": []
+  },
+  {
+    "content": "Our <a href=\"Pubs/13-ASPLOS-denovond.pdf\">DeNovoND paper</a> is chosen for the IEEE Micro's Top Picks 2014",
+    "year": "2014",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "John Alsop and Muhammad Huzaifa joined our research group, January 2014",
+    "year": "2014",
+    "month": "1",
+    "projects": []
+  },
+  {
+    "content": "Rakesh and Matt present at Qualcomm Research, September 2013",
+    "year": "2013",
+    "month": "9",
+    "projects": []
+  },
+  {
+    "content": "Sarita, Hyojin, Rakesh, and Matt present talks and posters at I2PC Summit, September 2013",
+    "year": "2013",
+    "month": "9",
+    "projects": []
+  },
+  {
+    "content": " <a href=\"http://rsim.cs.illinois.edu/~amahmou2/\">Abdulrahman Mahmoud</a> joined our research group, August 2013",
+    "year": "2013",
+    "month": "8",
+    "projects": []
+  },
+  {
+    "content": "Congratulations to Dr. Siva Kumar Sastry Hari for successfully defending his Ph.D. thesis, July 2013",
+    "year": "2013",
+    "month": "7",
+    "projects": []
+  },
+  {
+    "content": "Sarita, Rakesh, and Matt present at Qualcomm Research, May 2013",
+    "year": "2013",
+    "month": "5",
+    "projects": []
+  },
+  {
+    "content": "Siva was selected as a participent in the <a href=\"http://www.heidelberg-laureate-forum.org/\">1st Heidelberg Laureate Forum</a> , April 2013!",
+    "year": "2013",
+    "month": "4",
+    "projects": []
+  },
+  {
+    "content": "Siva received the Feng Chen Memorial Award in 2013",
+    "year": "2013",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Our Relyzer paper is chosen for the <a href=\"http://illinois.edu/lb/article/4485/70499\">IEEE Micro's Top Picks 2013</a> ",
+    "year": "2013",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Hyojin presented DeNovoND at <a href=\"http://asplos13.rice.edu/\">ASPLOS 2013</a> , March 2013",
+    "year": "2013",
+    "month": "3",
+    "projects": []
+  },
+  {
+    "content": "Sarita gave a <a href=\"Talks/13-wodet.pptx\">talk</a> at WoDet, March 2013",
+    "year": "2013",
+    "month": "3",
+    "projects": []
+  },
+  {
+    "content": "Matt passed the PhD qualifying exam, March 2013",
+    "year": "2013",
+    "month": "3",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"DeNovoND: Efficient Hardware Support for Disciplined Non-Determinism\" is accepted for publication at <a href=\"http://asplos13.rice.edu\">ASPLOS 2013</a> ",
+    "year": "2013",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": " <a href=\"http://cs.illinois.edu/node/957\">Article</a> on Rakesh and Matt's fellowship in the Departmental Click! magazine, September 2012",
+    "year": "2012",
+    "month": "9",
+    "projects": []
+  },
+  {
+    "content": "Sarita selected as Program Chair for <a href=\"http://www.cs.utah.edu/asplos14/\">ASPLOS 2014</a> !",
+    "year": "2014",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Siva received the Margarida Jacome GSRC Best Poster Award, Oct 2012",
+    "year": "2012",
+    "month": "10",
+    "projects": []
+  },
+  {
+    "content": "Radha Venkatagiri joined our research group",
+    "year": "",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Rakesh and Matt received a Qualcomm Innovation Fellowship, May 2012",
+    "year": "2012",
+    "month": "5",
+    "projects": []
+  },
+  {
+    "content": "Siva received the W.J. Poppelbaum Memorial Award for 2012",
+    "year": "2012",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Byn, Hyojin, Rakesh, and Rob received the Feng Chen Memorial Award in 2012",
+    "year": "2012",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"Virtual Instruction Set Computing for Heterogeneous Systems\" is accepted for publication at <a href=\"https://www.usenix.org/conference/hotpar12\">HotPar 2012</a> ",
+    "year": "2012",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Sarita is named <a href=\"http://cs.illinois.edu/news/2012/Feb28-01\">Woman of Vision in innovation by the Anita Borg Institute for Women in Technology</a> in 2012",
+    "year": "2012",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Rob passed the PhD qualifying exam, March 2012",
+    "year": "2012",
+    "month": "3",
+    "projects": []
+  },
+  {
+    "content": "Rob presented CrashTest'ing SWAT at <a href=\"http://www.date-conference.com/\">DATE 2012</a> ",
+    "year": "2012",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Siva presented Relyzer at <a href=\"http://research.microsoft.com/en-us/um/cambridge/events/asplos_2012/\">ASPLOS 2012</a> ",
+    "year": "2012",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"Low-cost Program-level Detectors for Reducing Silent Data Corruptions\" is accepted for publication at <a href=\"http://2012.dsn.org/\">DSN 2012</a> ",
+    "year": "2012",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Sarita has been named an <a href=\"http://cs.illinois.edu/news/2011/Dec8-02\">IEEE Fellow</a> for the class of 2012",
+    "year": "2012",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Best paper award for \"DeNovo: Rethinking the Multicore Memory Hierarchy for Disciplined Parallelism\" at <a href=\"http://www.pactconf.org\">PACT 2011</a> !",
+    "year": "2011",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "<a href=\"http://rsim.cs.illinois.edu/~mdsincl2/\"> Matt Sinclair</a> joined our research group",
+    "year": "",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Sarita gave a <a href=\"Talks/11-ics-keynote.pdf\">keynote speech</a> at ICS, June 2011",
+    "year": "2011",
+    "month": "6",
+    "projects": []
+  },
+  {
+    "content": "Congratulations to Dr. Pradeep Ramachandran for successfully defending his Ph.D. thesis, May 2011",
+    "year": "2011",
+    "month": "5",
+    "projects": []
+  },
+  {
+    "content": "Sarita gave a <a href=\"http://www.youtube.com/watch?v=Xy5_LOPBbOI\">talk</a> at the Triangle distinguished lecture series, Duke University, April 2011",
+    "year": "2011",
+    "month": "4",
+    "projects": []
+  },
+  {
+    "content": "Pradeep, Rob, and Siva presented three papers at SELSE 2011",
+    "year": "2011",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Sarita has been named <a href=\"http://fellows.acm.org/fellow_citation.cfm?id=3453289&srt=all\">ACM Fellow</a> for the class of 2010, honored for her \"impact on hardware and language memory models, and contributions to low-power and resilient systems.\"",
+    "year": "2010",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "\" Parallel SAH k-D Tree Construction\" accepted at <a href=\"http://www.highperformancegraphics.org/previous/www_2010\">HPG 2010</a> ",
+    "year": "2010",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "SWAT and DeNovo selected as top 10 projects to present in 2010 CS Spring Grad Expo at Illinois",
+    "year": "2010",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "An article about DeNovo appears on <a href=\"http://www.eetimes.com/electronics-news/4080124/Illinois-gives-sneak-peak-on-multicore-programming-ideas?pageNumber=1\">EETimes</a> ",
+    "year": "",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "\"DeNovo: Rethinking Hardware for Disciplined Parallelism\" was accepted at HotPar '10",
+    "year": "2010",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "\"A Language for Deterministic-by-Default Parallel Programming\" was accepted at <a href=\"http://www.complang.tuwien.ac.at/cpc10/\">CPC 2010</a> ",
+    "year": "2010",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Sarita gave a <a href=\"Talks/10-denovo-upcrc-summit.pptx\">talk</a> on DeNovo at the Illinois UPCRC Summit, Mar '10",
+    "year": "2010",
+    "month": "3",
+    "projects": []
+  },
+  {
+    "content": "Sarita and Hans Boehm will give a tutorial on memory models in PLDI'10",
+    "year": "2010",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Sarita gave a <a href=\"Talks/10-MI-denovo.pptx\">distinguished lecture</a> at the University of Michigan, Feb'10",
+    "year": "2010",
+    "month": "2",
+    "projects": []
+  },
+  {
+    "content": "Sarita participated in the \"Advancing Computer Architecture Research\" workshop sponsored by CRA/CCC. See position paper and <a href=\"Talks/10-acar.pptx\">talk</a> here. Feb'10",
+    "year": "2010",
+    "month": "2",
+    "projects": []
+  },
+  {
+    "content": "Pradeep successfully completed his Preliminary Exam, Dec'09",
+    "year": "2009",
+    "month": "12",
+    "projects": []
+  },
+  {
+    "content": "Siva presented <a href=\"Talks/10-MICRO-mSWAT.pptx\">mSWAT</a> at MICRO-09, Dec'09",
+    "year": "2009",
+    "month": "12",
+    "projects": []
+  },
+  {
+    "content": "Lei Chen joined the group as a research scientist, Nov'09",
+    "year": "2009",
+    "month": "11",
+    "projects": []
+  },
+  {
+    "content": "Byn, Hyojin, Rakesh, and Siva cleared the PhD qualifying exam, Oct'09",
+    "year": "2009",
+    "month": "10",
+    "projects": []
+  },
+  {
+    "content": "Xin Fu received the NSF Computing Innovation Fellowship. She recently joined the group as a post-doc, Oct'09",
+    "year": "2009",
+    "month": "10",
+    "projects": []
+  },
+  {
+    "content": "Alex succesfully defended his PhD dissertation, Aug'09",
+    "year": "2009",
+    "month": "8",
+    "projects": []
+  },
+  {
+    "content": "Sarita gave a <a href=\"Talks/09-podc-spaa-memory-models.ppt\">keynote</a> at a plenary session of PODC and SPAA, Aug'09",
+    "year": "2009",
+    "month": "8",
+    "projects": []
+  },
+  {
+    "content": " <a href=\"Pubs/10-cacm-memory-models.pdf\">Paper</a> on a retrospective of memory models, motivating a rethinking of parallel languages and hardware, accepted for CACM.",
+    "year": "",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Pradeep received an Intel fellowship and an IBM scholarship, July'09",
+    "year": "2009",
+    "month": "7",
+    "projects": []
   }
 ]

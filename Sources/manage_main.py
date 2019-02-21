@@ -13,7 +13,7 @@ def execute_all(specific_file=''):
     }
     specific_function = all_files.get(specific_file, None)
 
-    if specific_function != None:
+    if specific_function is not None:
         specific_function()
     else:
         for every_function in list(all_files.values()):
@@ -33,8 +33,10 @@ def dispatcher(isMain=False, specific_file=''):
         ],
         call_back=execute_all,
         called_as_main=isMain,
-        specific_file=specific_file
+        specific_file=specific_file,
+        project_name='main'
     )
+
 
 if __name__=='__main__':
     dispatcher(isMain=True)

@@ -1,63 +1,13 @@
-import os, sys, json
+import os, sys
 from . import CommandLineHandler
+from .TextGenerator import TextGenerator as text_gen
 
-
-
-def updatePub(bib_path, pub_path):
-    sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'library/bibtex'))
-    import bibtexparser
-
-    if os.stat(os.path.join(bib_path, 'interface.bib')).st_size == 0:
-        return False
-
-    with open(os.path.join(pub_path, 'publications.json'), 'r') as pub_file, open(
-            os.path.join(bib_path, 'interface.bib'), 'r') as bib_file:
-        pub = json.load(pub_file)
-        bib = bibtexparser.load(bib_file)
-
-        for dict in bib.entries:
-            type = dict['ENTRYTYPE']
-            if type == 'mastersthesis':
-                pub['M.S. Theses'] = [dict] + pub['M.S. Theses']
-            elif type == 'phdthesis':
-                pub['Ph.D. Theses'] = [dict] + pub['Ph.D. Theses']
-            else:
-                pub['Papers'] = [dict] + pub['Papers']
-    with open(os.path.join(pub_path, 'publications.json'), 'w') as pub_file, open(
-            os.path.join(bib_path, 'interface.bib'), 'w') as bib_file:
-        json.dump(pub, pub_file)
-
-    return True
-
-
-def FileDispatcher(file_array, call_back, called_as_main=False, specific_file=''):
-    # Should be able to be called as main, when target file can either be provided when called or inputed from command line. If not called as main then requires specific file, or will update all
-    if called_as_main:
-        prompt = '''
-This script will first check whether interface.bib file has changed and try to update it. If the bibtex file is not empty, then it will clear the file after merging it with publications
-
-Then it will try to execute following files: 
-    {}
-If you want to update the entire website, you may want to try 'Manage.py'
-            '''.format(', '.join(file_array))
-        print(prompt)
-
-    bib_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    result = updatePub(bib_path=bib_path, pub_path=os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
+def FileDispatcher(file_array, call_back, called_as_main=False, specific_file='', project_name=''):
+    # Should be able to be called as main, when target file can either be provided when called or inputed from command line.
+    # If not called as main then requires specific file, or will update all
 
     if called_as_main:
-        if result:
-            prompt = '''
-Bibtex file has been cleared and already merged with publication database.
-            '''
-            print(prompt)
-        else:
-            prompt = '''
-Bibtex file is empty.
-            '''
-            print(prompt)
-
+        print(text_gen.file_dispatcher_prompt(file_array, project_name))
         if specific_file == '':
             argument = CommandLineHandler.CommandLineHandler().parseArguments(argv=sys.argv)
             if argument == 'none':
@@ -68,9 +18,9 @@ Bibtex file is empty.
                 else:
                     call_back()
             elif argument != 'all' and argument in file_array:
-                print('Updating {} now!'.format(argument))
+                print('Updating {0} now in the project {1}!'.format(argument, project_name))
                 call_back(argument)
-                print('{} has been updated!'.format(argument))
+                print('{0} has been updated in the project {1}!'.format(argument, project_name))
             elif argument == 'all':
                 call_back()
             else:
@@ -88,11 +38,11 @@ Bibtex file is empty.
         if specific_file in file_array:
             call_back(specific_file)
         else:
-            print('Updating all files now!')
+            print('Updating all files now in the project {}!'.format(project_name))
             call_back()
             return
 
-    finish = 'Finish executing this sub-manage script!'
+    finish = 'Finish executing this sub-manage script in project '+project_name+'! \n'
     print(finish)
 
 
