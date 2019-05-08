@@ -1,5 +1,173 @@
 [
   {
+    "content": "Gio, Huzaifa, and Sarita gave talks at the ADA Center Annual Symposium",
+    "year": "2019",
+    "month": "April",
+    "projects": []
+  }, 
+  {
+    "content": "Abdulrahman received the Lynn Conway Research Award for his demoed work at the ADA Center Annual Symposium",
+    "year": "2019",
+    "month": "April",
+    "projects": []
+  },
+  {
+    "content": "Huzaifa presented \"VR Swarms: Enabling Shared Virtual Experiences\" at <a href=\"https://asplos-conference.org/programs/#conference\">WACI</a>",
+    "year": "2019",
+    "month": "April",
+    "projects": []
+  },
+  {
+    "content": "Abdulrahman presented \"Minotaur: Adapting Software Testing Techniques for Hardware Errors\" at <a href=\"https://asplos-conference.org/programs/#conference/\">ASPLOS 2019</a>",
+    "year": "2019",
+    "month": "April",
+    "projects": []
+  },
+  {
+    "content": "Abdulrahman was selected as a participant in the <a href=\"http://www.heidelberg-laureate-forum.org/\">Heidelberg Laureate Forum</a>",
+    "year": "2019",
+    "month": "April",
+    "projects": []
+  },
+  {
+    "content": "Abdulrahman has been selected as a <a href=\"http://publish.illinois.edu/engr-mavis/\">Mavis Future Faculty Fellow</a>!",
+    "year": "2019",
+    "month": "April",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"gem5-Approxilyzer: an Open Source Tool for Application-Level Soft Error Analysis\" has been accepted for publication at <a href=\"http://2019.dsn.org/\">DSN</a>",
+    "year": "2019",
+    "month": "March",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"VR Swarms: Enabling Shared Virtual Experiences\" has been accepted for publication at <a href=\"https://asplos-conference.org/programs/#conference\">WACI</a>",
+    "year": "2019",
+    "month": "March",
+    "projects": []
+  },
+  {
+    "content": "Sarita received the <a href=\"https://ai.google/research/outreach/faculty-research-awards/recipients/\">Google Research Faculty Award</a>",
+    "year": "2019",
+    "month": "February",
+    "projects": []
+  },
+  {
+    "content": "Sarita is a guest speaker at <a href=\"https://techfest.org/lectures\">Techfest</a> IIT-Bombay, Asia's largest tech event! The Dalai Lama and Bombay stock exchange CEO are also lecturers at this event!",
+    "year": "2018",
+    "month": "December",
+    "projects": []
+  }, 
+  {
+    "content": "Abdulrahman presented at <a href=\"https://sc18.supercomputing.org/\">SC</a>",
+    "year": "2018",
+    "month": "November",
+    "projects": []
+  },
+  {
+    "content": "Sarita has been awarded the <a href=\"https://awards.acm.org/award_winners/adve_3453289\">2018 ACM-IEEE CS Ken Kennedy Award</a>",
+    "year": "2018",
+    "month": "November",
+    "projects": []
+  },
+  {
+    "content": "Matt received the 2018 <a href=\"https://cs.illinois.edu/about-us/awards/graduate-fellowships-awards/david-j-kuck-outstanding-thesis-awards\">David J. Kuck Outstanding Ph.D. Thesis Award</a>",
+    "year": "2018",
+    "month": "October",
+    "projects": []
+  },
+  {
+    "content": "Abdulrahman was accepted as a mentor for the <a href=\"https://grad.illinois.edu/URAP/\">Undergraduate Research Apprenticeship Program (URAP)</a>!",
+    "year": "2018",
+    "month": "October",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"Minotaur: Adapting Software Testing Techniques for Hardware Errors\" has been accepted for publication at <a href=\"https://asplot-conference.org/\">ASPLOS 2019</a>!",
+    "year": "",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Radha attended the <a href=\"https://www.heidelberg-laureate-forum.org/\">6th Heidelberg Laureate Forum</a>",
+    "year": "2018",
+    "month": "October",
+    "projects": []
+  },
+  {
+    "content": "Adel and Abdulrahman presented their research at TECHCON",
+    "year": "2018",
+    "month": "September",
+    "projects": []
+  },
+  {
+    "content": "Congratulations to John Alsop for successfully defending his thesis",
+    "year": "2018",
+    "month": "August",
+    "projects": []
+  },
+  {
+    "content": "Wes Darvin joined our research group",
+    "year": "2018",
+    "month": "August",
+    "projects": []
+  },
+  {
+    "content": "Congratulations to Khalique Ahmed for depositing his M.S. thesis",
+    "year": "2018",
+    "month": "July",
+    "projects": []
+  },
+  {
+    "content": "Released HeteroSync to the open source community! <a href=\"https://github.com/mattsinc/heterosync\">Check it out</a>!",
+    "year": "",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Radha presented at <a href=\"https://dsn2018.uni.lu/\">DSN</a>",
+    "year": "2018",
+    "month": "June",
+    "projects": []
+  },
+  {
+    "content": "Sarita is elected as ACM SIG Governing Board (SGB) representative to ACM Council!",
+    "year": "",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Sarita is <a href=\"https://cs.illinois.edu/news/darpa-jump-center-aims-define-future-microelectronics\">featured in CS@Illinois</a> for her collaboration in the DARPA JUMP Center",
+    "year": "2018",
+    "month": "June",
+    "projects": []
+  },
+  {
+    "content": "Our paper titled \"Optimizing Software-Directed Instruction Replication for GPU Error Detection\" has been accepted for publication at <a href=\"https://sc18.supercomputing.org/\">SC 2018</a>",
+    "year": "",
+    "month": "",
+    "projects": []
+  },
+  {
+    "content": "Matt was selected as an Honorable Mention for the <a href=\"https://www.sigarch.org/benefit/awards/acm-sigarch-ieee-cs-tcca-outstanding-dissertation-award/\">2018 SIGARCH/TCAA Outstanding Dissertation Award</a>",
+    "year": "2018",
+    "month": "June",
+    "projects": []
+  },
+  {
+    "content": "John presented at <a href=\"https://iscaconf.org/isca2018/\">ISCA</a>",
+    "year": "2018",
+    "month": "June",
+    "projects": []
+  },
+  {
+    "content": "Sarita is featured in <a href=\"https://cra.org/crn/2017/04/research-highlight-cra-board-member-sarita-adve/\">CRA research highlight</a>",
+    "year": "2018",
+    "month": "April",
+    "projects": []
+  },
+  {
     "content": "Radha was selected as a participent in the <a href=\"http://www.heidelberg-laureate-forum.org/\">6th Heidelberg Laureate Forum</a>, April 2018!",
     "year": "2018",
     "month": "April",

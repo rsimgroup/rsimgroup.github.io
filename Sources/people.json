@@ -12,19 +12,6 @@
         "approx",
         "specialization"
       ]
-    },
-    {
-      "name": "Vikram Adve",
-      "url": "http://vikram.cs.illinois.edu",
-      "image": {
-        "url": "images/vadve.jpg",
-        "width": "100",
-        "height": "112"
-      },
-      "projects": [],
-      "_only_at_": [
-        "specialization"
-      ]
     }
   ],
   "Current graduate students": [
@@ -38,19 +25,6 @@
       },
       "projects": [
         "approx"
-      ],
-      "year": ""
-    },
-    {
-      "name": "John Alsop",
-      "url": "http://www.johnalsop.net",
-      "image": {
-        "url": "images/alsop.jpg",
-        "width": "99",
-        "height": "96"
-      },
-      "projects": [
-        "specialization"
       ],
       "year": ""
     },
@@ -92,66 +66,15 @@
       "year": ""
     },
     {
-      "name": "Adel Ejjeh",
-      "url": "https://www.linkedin.com/in/adel-ejjeh",
+      "name": "Wes Darvin",
+      "url": "mailto:wdarvin2@illinois.edu",
       "image": {
-        "url": "images/aejjeh.jpg",
-        "width": "99",
-        "height": "120"
+        "url": "images/wdarvin.jpg",
+        "width":"110",
+        "height": "110"
       },
       "projects": [],
-      "year": ""
-    },
-    {
-      "name": "Khalique Ahmed",
-      "url": "https://rsim.cs.illinois.edu/~kahmed10",
-      "image": {
-        "url": "images/kahmed10.jpg",
-        "width": "99",
-        "height": "120"
-      },
-      "projects": [
-        "approx"
-      ],
-      "year": ""
-    },
-    {
-      "name": "Rakesh Komuravelli",
-      "url": "https://rsim.cs.illinois.edu/~komurav1",
-      "year": "2014",
-      "employment": "Qualcomm Research",
-      "image": {
-        "url": "images/rakesh.JPG",
-        "width": "100",
-        "height": "102"
-      },
-      "thesis": {
-        "title": "Exploiting Software Information for an Efficient Memory Hierarchy",
-        "url": "Pubs/Rakesh_Komuravelli_thesis.pdf"
-      },
-      "projects": [],
-      "_only_at_": [
-        "specialization"
-      ]
-    },
-    {
-      "name": "Matthew Sinclair",
-      "url": "http://web.engr.illinois.edu/~mdsincl2",
-      "year": "2017",
-      "employment": "Assistant Professor at University of Wisconsin - Madison",
-      "image": {
-        "url": "images/sinclair.jpg",
-        "width": "99",
-        "height": "96"
-      },
-      "thesis": {
-        "title": "Efficient Coherence and Consistency for Specialized Memory Hierarchies",
-        "url": "Pubs/msinclair-thesis.pdf"
-      },
-      "projects": [],
-      "_only_at_": [
-        "specialization"
-      ]
+      "year":""
     },
     {
       "name": "Prakalp Srivastava",
@@ -278,6 +201,22 @@
     }
   ],
   "Graduated Ph.D. students": [
+    {
+      "name": "John Alsop",
+      "url": "http://www.johnalsop.net",
+      "year": "2018",
+      "employment": "AMD Research",
+      "image": {
+        "url": "images/alsop.jpg",
+        "width": "99",
+        "height": "96"
+      },
+      "thesis": {
+        "title": "Specialization Without Complexity in Heterogeneous Memory Systems",
+        "url": "Pubs/jalsop-thesis.pdf"
+      },
+      "projects":[]
+    },
     {
       "name": "Matthew Sinclair",
       "url": "http://web.engr.illinois.edu/~mdsincl2",
@@ -474,6 +413,11 @@
     }
   ],
   "Graduated M.S. students": [
+    {
+      "name": "Khalique Ahmed",
+      "year": "2018",
+      "projects":[]
+    },
     {
       "name": "Lin Cheng",
       "year": "2017",
